@@ -3,7 +3,7 @@
 												   Test event in events_sector_droppoint (sector 1)									 
 ********************************************************************************************************************************************************************************************************************************************
 -->
-
+<FTL>
 <ship name="COG_SHOP_GUARD1" auto_blueprint="LIST_SHIPS_COG_MOD_START">
 	<destroyed>
 		<text>The outpost hails you, "Alright, alright! Enough with the violence. You may dock, but do not make another move like that or this entire station will engage you!"</text>
@@ -17,12 +17,17 @@
 	</deadCrew>
 </ship>
 
-<mod:findName type="eventList" name="NEUTRAL_DROPPOINT"/>
-	<event load="CM_COG_STORE_1"/>
-	<event name="AMBUSH_BRIBE_EVENT"/>
+<mod:findName type="eventList" name="NEUTRAL_DROPPOINT">
+	<mod-append:event load="CM_COG_STORE_1"/>
+	<mod-append:event load="AMBUSH_BRIBE_EVENT"/>
 </mod:findName>
 <event name="CM_COG_STORE_1" unique="true">
 	<img planet="PLANET_POPULATED"/>
+	<preventQuest/>
+	<beaconType id="map_icon_civilian_world" global="true">
+		<color r="47" g="205" b="39" a="1"/>
+		<unvisitedTooltip>A civilian population center.</unvisitedTooltip>
+	</beaconType>
 	<text>You arrive at a particularly well populated planet. At first it doesn't appear to be of much interest until you are hailed by someone at the space dock above.</text>
 	<choice>
 		<text>Respond to the call.</text>
@@ -40,7 +45,7 @@
 </event>
 <event name="CM_COG_STORE_FIGHT_1">
 	<beaconType id="map_icon_quest" global="true">
-		<color r="50" g="50" b="50" a="1"/>
+		<color r="62" g="157" b="208" a="1"/>
 		<unvisitedTooltip>Sources indicate this a Cogs for Hire shop.</unvisitedTooltip>
 	</beaconType>
 	<text>You arrive at the listed coordinates and are more than a little surprised to find a guard at the supposed shop. Even more concerning is how it immediately turns to face you. Fortunately it hails. "Squishy thing. You are not authorized to be here. Only Cogs may dock at this location. Leave immediately."</text>
@@ -64,68 +69,61 @@
 	</choice>
 </event>
 
-
-
-
-
-
 <event name="AMBUSH_BRIBE_EVENT">
-    <text>
-        As you arrive at the beacon, a ship is already waiting. Their weapons go live moments later. "Just our luck," the captain snarls. "Pay up or this gets messy. Don't even try us."
-    </text>
-	<ship load="true" name="PIRATE_BOMBER" hostile="true">
-        <escape chance="0" />
-    </ship>
+    <text>As you arrive at the beacon, a ship is already waiting. Their weapons go live moments later. "Just our luck," the captain snarls. "Pay up or this gets messy. Don't even try us."</text>
+	<ship load="SHIP_PIRATE_START" hostile="true"/>
     <choice>
         <text>Stand your ground and prepare to fight.</text>
         <event>
             <text>You ready your crew as the ambusher charges weapons. No turning back now.</text>
-            <fight>
-                <ship blueprint="PIRATE_BOMBER" />
-            </fight>
+            <choice hidden="true">
+				<text>Continue...</text>
+				<event load="COMBAT_CHECK"/>
+			</choice>
         </event>
     </choice>
     <choice>
-        <text>Offer a bribe to avoid conflict. [-30 Scrap]</text>
+        <text>Offer a bribe to avoid conflict.</text>
         <event>
-            <lose_scrap amount="30" />
-            <text>
-                The hostile ship pauses, then powers down their weapons. "Smart choice. Move along, nothing personal." They jump away without another word.
-            </text>
+			<text>The hostile ship pauses, then powers down their weapons. "Smart choice. Move along, nothing personal." They jump away without another word.</text>
+			<item_modify>
+				<item type="scrap" min="-30" max="-30"/>	
+			</item_modify>
         </event>
     </choice>
     <choice>
         <text>Plead for mercy.</text>
-        <eventList name="MERCY_PLEA_RESULT" />
+		<event load="MERCY_PLEA_RESULT"/>
     </choice>
-    <choice req="crew" req_blueprintList="LIST_CREW_UNIQUEBOT">
+    <choice req="LIST_CREW_UNIQUEBOT" hidden="true">
         <text>(Unique Cog) Attempt to negotiate using one of the unique Cogs.</text>
         <event>
-            <text>
-                The enemy ship sees your crewmember and immediately powers down. "We didn't realize you were that important. Here, take this and forgive our trouble causing nature." A crate of supplies is launched toward your ship before they jump away.
-            </text>
-            <autoReward />
+            <text>The enemy ship sees your crewmember and immediately powers down. "We didn't realize you were that important. Here, take this and forgive our trouble causing nature." A crate of supplies is launched toward your ship before they jump away.</text>
+            <autoReward level="MED">standard</autoReward>
+			<ship hostile="false"/>
+			<instantEscape/>
         </event>
     </choice>
 </event>
 
 <eventList name="MERCY_PLEA_RESULT">
     <event>
-        <text>
-            The ship hesitates. "You're lucky I'm not too interested dealing with those damn Legal Eagles again" the captain grunts. "Get lost before I change my mind." They power off their weapons and refuse any further communications. Best you leave until they change their mind
-        </text>
+        <text>The ship hesitates. "You're lucky I'm not too interested dealing with those damn Legal Eagles again" the captain grunts. "Get lost before I change my mind." They power off their weapons and refuse any further communications. Best you leave until they change their mind</text>
+		<ship hostile="false"/>
     </event>
     <event>
         <text>
             "Mercy?" the captain laughs. "Do I look like I give a damn for some fleshy thing?" Their weapons charge as they move in to attack.
         </text>
-        <fight>
-            <ship blueprint="PIRATE_BOMBER" />
-        </fight>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="COMBAT_CHECK"/>
+		</choice>
     </event>
 </eventList>
 
 
 <eventList name="DROPPONT_RANDOM_ENCOUNTER_LIST">
-    <event name="AMBUSH_BRIBE_EVENT"/>
+    <event load="AMBUSH_BRIBE_EVENT"/>
 </eventList>
+</FTL>
