@@ -50,29 +50,28 @@
 		<text>(Spin Doctor) Try to hail with your Spin Doctor.</text>
 		<event>
 			<text>It takes several tries to get them to answer, but eventually they respond, and, with your Spin Doctor posing as captain, they grumble an apology and allow you to pass.</text>
-			
 		</event>
 	</choice>
 	<choice req="LIST_CREW_SPINDR_WAITER" hidden="true">
 		<text>(Spin Doctor Waiter) Hail with your Spin Doctor Waiter.</text>
 		<event>
 			<text>The sight of your Waiter Spin Doctor actually gets the ship to stop its assault rather quickly. Your Waiter then requests some kind of support for the journey which the guard obeys and hands off a small supply.</text>
-				<autoReward level="LOW">standard</autoReward>
+			<autoReward level="LOW">standard</autoReward>
 		</event>
 	</choice>
 	<choice req="LIST_CREW_DRSPIN" hidden="true">
 		<text>(Dr Spin) Hail with Dr Spin.</text>
 		<event>
 			<text>It takes mere moments for the guard to halt its assault as the Doctor contacts them directly. After a short discussion, the guard agrees to handle the advancing fleet as an apology for inconviencing the Doctor.</text>
-				<modifyPursuit amount="-2"/>
+			<modifyPursuit amount="-2"/>
 		</event>
 	</choice>
 	<choice req="LIST_CREW_GODSPIN" hidden="true">
 		<text>(Dr Spin) Hail with Dr Spin.</text>
 		<event>
 			<text>The guard is more than a little shocked to see the all powerful Doctor in their presence. They offer all that they can in exchange for his mercy, including a spare weapon they had in storage.</text>
-				<modifyPursuit amount="-2"/>
-				<autoReward level="HIGH">weapon</autoReward>
+			<modifyPursuit amount="-2"/>
+			<autoReward level="HIGH">weapon</autoReward>
 		</event>
 	</choice>
 </event>
