@@ -112,9 +112,7 @@
 		<ship hostile="false"/>
     </event>
     <event>
-        <text>
-            "Mercy?" the captain laughs. "Do I look like I give a damn for some fleshy thing?" Their weapons charge as they move in to attack.
-        </text>
+        <text>"Mercy?" the captain laughs. "Do I look like I give a damn for some fleshy thing?" Their weapons charge as they move in to attack.</text>
 		<choice hidden="true">
 			<text>Continue...</text>
 			<event load="COMBAT_CHECK"/>
