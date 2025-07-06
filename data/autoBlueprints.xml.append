@@ -688,7 +688,7 @@
 <mod:findName type="blueprintList" name="LIST_CREW_PARAGON_UNIQUE">
 	<mod-append:name>jack_brie</mod-append:name>
 	<mod-append:name>judge</mod-append:name>
-	<mod-append::name>robert</mod-append::name>
+	<mod-append:name>robert</mod-append:name>
 	<mod-append:name>holiday</mod-append:name>
 	<mod-append:name>comrade</mod-append:name>
 	<mod-append:name>lawrence</mod-append:name>
