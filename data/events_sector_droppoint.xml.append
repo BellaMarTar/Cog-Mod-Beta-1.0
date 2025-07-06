@@ -20,7 +20,7 @@
 <mod:findName type="eventList" name="NEUTRAL_DROPPOINT"/>
 	<event load="CM_COG_STORE_1"/>
 	<event name="AMBUSH_BRIBE_EVENT"/>
-
+</mod:findName>
 <event name="CM_COG_STORE_1" unique="true">
 	<img planet="PLANET_POPULATED"/>
 	<text>You arrive at a particularly well populated planet. At first it doesn't appear to be of much interest until you are hailed by someone at the space dock above.</text>
