@@ -3307,7 +3307,7 @@ weapon C
 	<class id="text_PLAYER_SHIP_TIGHTWAD_class">Tightwad Explorer (on a budget) TM</class>
 	<name id="text_PLAYER_SHIP_TIGHTWAD_name">Tight Squeeze</name>
 	<desc id="text_PLAYER_SHIP_TIGHTWAD_desc">The tightwads will stop at nothing to save their budgets. Even when it comes to space travel as this well below safety regulation ship shows.</desc>
-	<systemList>
+<systemList>
 		<battery power="1" room="7" start="false" img="room_battery_2" />
 		<cloaking power="1" room="11" start="false" img="room_cloaking_12" />
 		<clonebay power="1" room="9" start="false">
@@ -3321,7 +3321,7 @@ weapon C
 				<number>0</number>
 			</slot>
 		</doors>
-		<drones power="1" room="6" start="false" img="room_drones_14" />
+		<drones max="8" power="1" room="6" start="false" img="room_drones_14" />
 		<engines power="2" room="4" start="true" img="room_engines_3">
 			<slot>
 				<direction>right</direction>

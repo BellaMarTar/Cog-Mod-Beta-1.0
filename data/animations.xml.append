@@ -14045,7 +14045,7 @@
 	////////////////TIGHTWAD////////////////
 	-->
 
-	<animSheet name="tightwad" w="315" h="455" fw="35" fh="35">people/tightwad.png</animSheet>
+<animSheet name="tightwad" w="315" h="455" fw="35" fh="35">people/tightwad.png</animSheet>
 
 
 <anim name="tightwad_clone">
