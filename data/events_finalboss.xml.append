@@ -1,0 +1,184 @@
+<FTL>
+<mod:findName type="event" name="TRUE_VICTORY_CREW">
+<mod-append:choice req="jack_brie" blue="true" hidden="true">
+	<text>Ask Jack Brie about this.</text>
+		<event>
+			<text>"Well, well. You must either cheat, have extreme luck, or somehow... knew this was gonna play out this way. Some kind of... superior to even someone like me. And I don't mean that like I'm above it all... I mean... ah you know what... I'm digging a hole continuing like this. If I may Captain, detonate that fancy bomb to save me the embarrassment."</text>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="TRUE_VICTORY_LOAD"/>
+			</choice>
+		</event>
+</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="TRUE_VICTORY_CREW">
+<mod-append:choice req="judge" blue="true" hidden="true">
+	<text>Ask Judge about this.</text>
+		<event>
+			<text>Judge remains silent when you ask for his opinion. Eventually though, he finally speaks quietly "You know my full name, Captain? It's Nova Judge. Would be rather fitting if I was to go up in a nova-like explosion. And don't worry about lawsuits or anything. If there's something beyond this, I'll defend you." </text>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="TRUE_VICTORY_LOAD"/>
+			</choice>
+		</event>
+</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="TRUE_VICTORY_CREW">
+<mod-append:choice req="robert" blue="true" hidden="true">
+	<text>Ask AC about this.</text>
+		<event>
+			<text>"I suppose there's no way we can steal this and sell it on the black market huh?" You stare at him for a moment at the stupidity a question like that was. He coughs nervously and eventually chuckles a little, "Oh well, I say blow it up, for my sake anyways."  </text>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="TRUE_VICTORY_LOAD"/>
+			</choice>
+		</event>
+</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="TRUE_VICTORY_CREW">
+<mod-append:choice req="holiday" blue="true" hidden="true">
+	<text>Ask Holiday about this.</text>
+		<event>
+			<text>"We would have made a killing if this was all broadcasted. Think of all the fame we could get... unless you blow that up in which case... I guess all that potential is lost. I don't know, call me crazy but I think we win more if we don't do it." </text>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="TRUE_VICTORY_LOAD"/>
+			</choice>
+		</event>
+</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="TRUE_VICTORY_CREW">
+<mod-append:choice req="comrade" blue="true" hidden="true">
+	<text>Ask Comrade about this.</text>
+		<event>
+			<text>"Now, THAT was an epic battle. Our mighty powers overthrew the ultimate anti-commie! Now I must ask you, is blowing this device really for the good of everyone? I would be inclined to say no.. but then again.. maybe just a little bit of capitalism is a good thing.. I'll leave it up to you."</text>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="TRUE_VICTORY_LOAD"/>
+			</choice>
+		</event>
+</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="TRUE_VICTORY_CREW">
+<mod-append:choice req="lawrence" blue="true" hidden="true">
+	<text>Ask Lawrence about this.</text>
+		<event>
+			<text>"I... I have no idea if what we did should be considered a heroic status or a bunch of war crimes... we... didn't mean to come here right? So all those deplorable acts of murder weren't coming to this point.. For the love of whatever being may be above us... detonate that damn thing, or you'll probably go to jail for life or even the death sentence.</text>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="TRUE_VICTORY_LOAD"/>
+			</choice>
+		</event>
+</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="TRUE_VICTORY_CREW">
+<mod-append:choice req="bruce" blue="true" hidden="true">
+	<text>Ask AC about this.</text>
+		<event>
+			<text>"I can't believe this worked. Even without my camo... I'm kinda at a loss for words my friend. Here I was thinking ambushing those pesky Sympathizers was a worthy goal and now we have the chance to kill them all with one strong chomp... yea... do it."</text>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="TRUE_VICTORY_LOAD"/>
+			</choice>
+		</event>
+</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="TRUE_VICTORY_CREW">
+<mod-append:choice req="lily" blue="true" hidden="true">
+	<text>Ask AC about this.</text>
+		<event>
+			<text>"I'm not sure boss... honestly for the first time ever... I don't know what to say or talk about.." She says nothing more, possibly the first time ever a Mingler has fallen silent.</text>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="TRUE_VICTORY_LOAD"/>
+			</choice>
+		</event>
+</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="TRUE_VICTORY_CREW">
+<mod-append:choice req="honcho" blue="true" hidden="true">
+	<text>Ask AC about this.</text>
+		<event>
+			<text>"Get out ahead of this one Sir. It's the only way. I should have known I would meet the end soon, but in such a glorious fashion... hell yea!</text>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="TRUE_VICTORY_LOAD"/>
+			</choice>
+		</event>
+</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="TRUE_VICTORY_CREW">
+<mod-append:choice req="controller" blue="true" hidden="true">
+	<text>Ask The Controller about this.</text>
+		<event>
+			<text>If you expect me to pretend this is a real choice, you got another thing coming. Good job on winning the game again. I say kill them all. Hehe... </text>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="TRUE_VICTORY_LOAD"/>
+			</choice>
+		</event>
+</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="TRUE_VICTORY_CREW">
+<mod-append:choice req="queen" blue="true" hidden="true">
+	<text>Ask The Controller about this.</text>
+		<event>
+			<text>To be honest, I don't care. Like my husband said, its a game. We both know that and so do you. But for me. It's a bit refreshing to see mortality again, but also who knows how many times you've beaten the true ending anyways. Maybe its your hundredth but do you still remember your first? Do you really remember? My husband is pretty damn powerful, but even he will, privately, admit he doesn't really know you. He just wants to make sure your head doesn't get too big.</text>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="TRUE_VICTORY_LOAD"/>
+			</choice>
+		</event>
+</mod-append:choice>
+</mod:findName>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<mod:findName type="event" name="TRUE_VICTORY_CREW">
+<mod-append:choice req="dr_spin" blue="true" hidden="true">
+	<text>Ask Dr. Spin about this.</text>
+		<event>
+			<text>"I must say I would never think of saying I would be ready to die for a cause not for my people... however it partially does involve my people too. Truly I am shocked by what you have proven to me. Due to this fact... I believe I can support either choice you make captain." You sense he rather not die over this, but you also know he is self preserving, so perhaps he hasn't grasped the idea of other hims from other multiverses.</text>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="TRUE_VICTORY_LOAD"/>
+			</choice>
+		</event>
+</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="TRUE_VICTORY_CREW">
+<mod-append:choice req="ac08" blue="true" hidden="true">
+	<text>Ask AC about this.</text>
+		<event>
+			<text>"I suppose I can't outrun this one captain. No matter. There is billions of other Ambulance Chasers to pick up the massive slack my absence will cause. Do what you feel is right." It wouldn't be right if there wasn't just a little ego coming from an Ambulance Chaser..</text>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="TRUE_VICTORY_LOAD"/>
+			</choice>
+		</event>
+</mod-append:choice>
+</mod:findName>
+
+</FTL>

@@ -1,0 +1,300 @@
+BLUEPRINT BELOW======================================
+
+<weaponBlueprint name="HEALING_SHOTGUN">
+	<type>BURST</type>
+	<flavorType>Physical Projectile Blast</flavorType>
+	<drone_targetable>1</drone_targetable>
+	<title>Heal Flak Gun</title>
+	<tip>tip_flak</tip>
+	<short>Heal F.</short>
+	<desc>This special varient of flak fires healing shots along with its normal damaging shots.</desc>
+	<tooltip>Fires a blast of debris across a random area doing up to 3 damage and healing 90 health.</tooltip>
+	<radius>45</radius>
+	<damage>1</damage>
+	<persDamage>3</persDamage>
+	<shots>2</shots>
+	<sp>0</sp>
+	<spin>720</spin>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>11</cooldown>
+	<power>2</power>
+	<cost>100</cost>
+	<bp>10</bp>
+	<speed>15</speed>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="2" fake="false">debris_large_heal</projectile>
+		<projectile count="2" fake="false">debris_med_heal</projectile>
+		<projectile count="6" fake="true">debris_small_heal</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>healing_shotgun</weaponArt> 
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+
+	<weaponBlueprint name="HEAVY_SHOTGUN">
+	<type>BURST</type>
+	<flavorType>Physical Projectile Blast</flavorType>
+	<drone_targetable>1</drone_targetable>
+	<title>Heavy Flak</title>
+	<short>Heavy F.</short>
+	<tip>tip_flak</tip>
+	<desc>This modified Flak cannon fires bursts of super dense metal that move even slower but inflict even more damage to a ship's hull integrity.</desc>
+	<tooltip>Dr Spin's Flak</tooltip>
+	<radius>70</radius>
+	<damage>2</damage>
+	<hullBust>1</hullBust>
+	<spin>1080</spin>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>5</breachChance>
+	<cooldown>20</cooldown>
+	<power>4</power>
+	<cost>150</cost>
+	<bp>10</bp>
+	<speed>10</speed>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="4" fake="false">debris_large</projectile>
+		<projectile count="3" fake="false">debris_med</projectile>
+		<projectile count="12" fake="true">debris_small</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>heavy_shotgun</weaponArt> 
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+
+<crewBlueprint name="acprotect">
+	<title>Special Cog Protector</title>
+	<short>CProtect</short>
+	<desc>YOU SHOULD NEVER SEE THIS.</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<powerList>
+		<power>DRONE</power>
+	</powerList>
+</crewBlueprint>
+<droneBlueprint name="ACPROTECT_DEFEND">
+	<type>BATTLE</type>
+	<locked>1</locked>
+	<tip>tip_toggle_crew</tip>
+	<title>Special Cog Protector [Anti-Pers]</title>
+	<short>CProtector [A]</short>
+	<desc>[CURRENT MODE: Anti-Personnel] Powerful anti-crew drone that can be switched between defensive and boarding modes.
+    
+-100 HP, x2 movement speed
+-x2 combat damage, increased attack speed, heals friendly crew, and drains oxygen
+-Reveal adjacent rooms</desc>
+	<power>4</power>
+	<cost>200</cost>
+	<bp>3</bp>
+	<rarity>0</rarity>
+	<iconImage>battle</iconImage>
+</droneBlueprint>
+<droneBlueprint name="ACPROTECT_BOARDER">
+	<type>BOARDER</type>
+	<tip>tip_toggle_crew</tip>
+	<locked>1</locked>
+	<title>Special Cog Protector [Boarding]</title>
+	<short>CPROTECTOR [B]</short>
+	<desc>[CURRENT MODE: Boarding] Powerful anti-crew drone that can be switched between defensive and boarding modes.
+    
+-100 HP, x2 movement speed
+-x2 combat damage, increased attack speed, heals friendly crew, and drains oxygen
+-Reveal adjacent rooms</desc>
+	<power>4</power>
+	<speed>10</speed>
+	<cost>200</cost>
+	<rarity>0</rarity>
+	<iconImage>boarder</iconImage>
+</droneBlueprint>
+
+
+HYPERSPACE BELOW===========================================
+
+<race name="acprotect">
+		<controllable>true</controllable>
+		<canFight>true</canFight>
+		<canRepair>false</canRepair>
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<canMan>false</canMan>
+		<maxHealth>100</maxHealth>
+		<stunMultiplier>0.25</stunMultiplier>
+		<droneAI>
+			<fightAI/>
+			<returnToDroneRoom/>
+		</droneAI>
+		<damageMultiplier>2</damageMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<moveSpeedMultiplier>2</moveSpeedMultiplier>
+		<isAnaerobic>true</isAnaerobic>
+		<healCrewAmount>3.5</healCrewAmount>
+		<passiveHealAmount>3.5</passiveHealAmount>
+		<passiveHealDelay>5</passiveHealDelay>
+		<oxygenChangeSpeed>-0.3</oxygenChangeSpeed>
+		<isTelepathic>true</isTelepathic>
+		<animBase>mantis</animBase>
+		<shootingSounds>
+			<shootingSound>ionHit1</shootingSound>
+			<shootingSound>ionHit2</shootingSound>
+			<shootingSound>ionHit3</shootingSound>
+		</shootingSounds>
+		<deathSounds>
+			<deathSound>ancientDeath</deathSound>
+		</deathSounds>
+	</race>
+	
+	<drone name="ACPROTECT_DEFEND">
+		<crewBlueprint>acprotect</crewBlueprint>
+		<tooltipName>Cog Defender</tooltipName>
+	</drone>
+	<drone name="ACPROTECT_BOARDER">
+		<crewBlueprint>acprotect</crewBlueprint>
+		<tooltipName>Cog Defender</tooltipName>
+	</drone>
+	
+ANIMATION BELOW================================================
+
+<animSheet name="acprotect" w="420" h="280" fw="35" fh="35">people/acprotect_base.png</animSheet>
+<animSheet name="acprotect_death" w="320" h="32" fh="32" fw="32">people/explosion_ancient.png</animSheet>
+
+<anim name="acprotect_death_right">
+	<sheet>acprotect_death</sheet>
+	<desc length="10" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="acprotect_death_left">
+	<sheet>acprotect_death</sheet>
+	<desc length="10" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="acprotect_walk_down">
+	<sheet>acprotect</sheet>
+	<desc length="4" x="0" y="7"/>
+	<time>0.5</time>
+</anim>
+
+<anim name="acprotect_walk_right">
+	<sheet>acprotect</sheet>
+	<desc length="4" x="0" y="7"/>
+	<time>0.5</time>
+</anim>
+
+<anim name="acprotect_walk_up">
+	<sheet>acprotect</sheet>
+	<desc length="4" x="0" y="7"/>
+	<time>0.5</time>
+</anim>
+
+<anim name="acprotect_walk_left">
+	<sheet>acprotect</sheet>
+	<desc length="4" x="0" y="7"/>
+	<time>0.5</time>
+</anim>
+
+<anim name="acprotect_power_down">
+	<sheet>acprotect</sheet>
+	<desc length="12" x="0" y="2"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="acprotect_power_up">
+	<sheet>acprotect</sheet>
+	<desc length="12" x="0" y="1"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="acprotect_portrait">
+	<sheet>acprotect</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<anim name="acprotect_fly">
+	<sheet>acprotect</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<anim name="acprotect_shoot_down">
+	<sheet>acprotect</sheet>
+	<desc length="6" x="0" y="5"/>
+	<time>0.25</time>
+</anim>
+
+<anim name="acprotect_shoot_right">
+	<sheet>acprotect</sheet>
+	<desc length="6" x="0" y="5"/>
+	<time>0.25</time>
+</anim>
+
+<anim name="acprotect_shoot_up">
+	<sheet>acprotect</sheet>
+	<desc length="6" x="0" y="5"/>
+	<time>0.25</time>
+</anim>
+
+<anim name="acprotect_shoot_left">
+	<sheet>acprotect</sheet>
+	<desc length="6" x="0" y="5"/>
+	<time>0.25</time>
+</anim>
+
+<animSheet name="heavy_shotgun" w="296" h="53" fw="37" fh="53">weapons/heavy_shotgun.png</animSheet>
+<weaponAnim name="heavy_shotgun">
+	<sheet>heavy_shotgun</sheet>
+	<desc length="8" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>3</fireFrame>
+	<firePoint  x="14" y="22"/>
+	<mountPoint x="3" y="33"/>
+	<chargeImage>weapons/heavy_shotgun_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="healing_shotgun" w="296" h="53" fw="37" fh="53">weapons/healing_shotgun.png</animSheet>
+<weaponAnim name="healing_shotgun">
+	<sheet>healing_shotgun</sheet>
+	<desc length="8" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>3</fireFrame>
+	<firePoint  x="14" y="22"/>
+	<mountPoint x="3" y="33"/>
+	<chargeImage>weapons/healing_shotgun_glow.png</chargeImage>
+</weaponAnim>

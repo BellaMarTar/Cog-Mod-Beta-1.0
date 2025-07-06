@@ -1,0 +1,145 @@
+<backgroundObject name="HER">
+	<layer z="0">front</layer>
+	<spawnArea x="300" y="188" w="0" h="0" center="true"/>
+	<anim>her</anim>
+	<active>true</active>
+</backgroundObject>
+
+
+<ship name="CM_FOURTH_WALL" auto_blueprint="CM_FOURTH_WALL_BLUEPRINT">
+	<triggeredEvent name="ILL_KEEP_PLAYING_WITH_YOU_2" event="FOURTH_WALL_BREAK_SPARE_2" playerHull="3" thisFight="true"/>
+	<triggeredEvent name="ILL_KEEP_PLAYING_WITH_YOU" event="FOURTH_WALL_BREAK_SPARE" playerCrew="1" thisFight="true"/>
+	<triggeredEvent event="POWER_SURGE_BARRAGE_MFK" seeded="false" loops="999999999" thisFight="true" minTime="10.0" maxTime="15.0">
+		<warningMessage id="warning_power_surge" x="692" y="84" time="5.0" centerText="true" flash="true" sound="surgeWarning" useWarningLine="true"/>
+	</triggeredEvent>
+	<destroyed load="CANT_KILL_ME"/>
+	<deadCrew load="NOT_POSSIBLE"/>
+</ship>
+
+<event name="FOURTH_WALL_BREAK">
+	<text>You arrive at a beacon surrounded by a field of smiles. Your ship is surrounded by these faces, as a massive ship that seems to break reality around it appears before you. Your ship's FTL drive suddenly shuts down right as it finishes materializing... ehhh you know what. 
+	
+	Forget the immersion.
+	
+	Hello there Player! It's good to finally meet with you!</text>
+	<img back="BACKGROUND_DARKNESS" planet="NONE"/>
+	<ship load="CM_FOURTH_WALL" hostile="false"/>
+	<playMusic>the_final_break</playMusic>
+	<backgroundObject name="HER">
+		<layer z="100">foreground</layer>
+		<spawnArea x="640" y="360" w="0" h="0" center="true"/>
+		<anim>her_vhs</anim>
+		<active>true</active>
+	</backgroundObject>
+	<choice hidden="true">
+		<text>What has happened? Who are you?</text>
+		<event>
+			<text>HA, I love that kind of reaction. Let's get down to business. See this ship that just spawned in? Nah, didn't warp in, I spawn it in. Yea, I felt like breaking up this. Look, you didn't come here for immersion; you came here because you just wouldn't let it go. You let your curiosity get the best of you. Unfortunately for you, this is where your story ends. I am just here to get my fill. You understand don't you?</text>
+			<choice hidden="true">
+				<text>You didn't answer my question. You don't look like anything I've ever seen. What are you?</text>
+				<event>
+					<text>You mean a human? I know, a bit of a weird set up ya? Don't worry about that. So.. any questions before your death?</text>
+					<choice hidden="true">
+						<text>What is your name?</text>
+						<event>
+							<text>Me? Well since you so kindly asked. I am the Controller. I control all of this. I control the game itself. Nothing in this world happens without my permission.</text>
+							<choice hidden="true">
+								<text>I don't understand. So you're like... a god?</text>
+								<event>
+									<text>Mm... something like that. Though God is terribly underselling who I am. You already met Dr. Spin and perhaps AC too at some point in your life. What do you think then? Wanna meet another?</text>
+									<choice hidden="true">
+										<text>Not really...</text>
+										<event>
+											<text>Well too bad. This is the Queen. Despite all my power, I just can't help but adore her. She is an angel... well a demon really, but who's really keeping score? Anyways, I believe it was time to end this all once and for all. Hey, even you couldn't stop me even with that little command console you got there. I may even dare you to try and kill me with it. You won't like it. I promise.</text>
+											<choice hidden="true">
+												<text>So what is the point of all this? Just to die for you?</text>
+												<event>
+												<deathEvent thisFight="true">JUST_AS_EXPECTED</deathEvent>
+												<playMusic>the_final_battle</playMusic>
+													<text>Simple. There wasn't one. You were never meant to be here. No seriously. Never. I just love watching you play this silly game over and over and over. Winning most, dying some. Hell, even making it harder for yourself just cause you can. Quite weird really, but very entertaining nevertheless.</text>
+													<choice hidden="true">
+														<text>I guess we have no choice, but to fight? </text>
+														<event>
+														<ship hostile="true"/>
+															<choice hidden="true">
+																<text>Continue...</text>
+																<event load="COMBAT_CHECK"/>
+															</choice>
+														</event>
+													</choice>
+												</event>
+											</choice>
+										</event>
+									</choice>
+								</event>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>	
+		</event>
+	</choice>
+</event>
+
+<event name="FOURTH_WALL_BREAK_SPARE">
+	<text>Hehe.. the wife getting a little ahead of herself? Here I'll call her back and give you a new crew member and reset your health. Free of charge! Thank me if you like.</text>
+	<choice hidden="true">
+		<text>Please stop this! We can't beat you clearly!</text>
+		<event>
+			<text>"I wasn't asking you. If you wanted to live you would have never tried so hard to find me. Now, prepare to face the wraith of my ship!"</text>
+			<clearTriggeredEvent name="ILL_KEEP_PLAYING_WITH_YOU_2"/>
+			<clearTriggeredEvent name="ILL_KEEP_PLAYING_WITH_YOU"/>
+			<status type="limit" target="enemy" system="teleporter" amount="0"/>
+			<status type="limit" target="enemy" system="mind" amount="0"/>
+			<damage amount="-999"/>
+			<recallBoarders ship="both"/>
+			<crewMember amount="1" class="human">Dead Meat</crewMember>
+			<ship hostile="true"/>
+		</event>
+	</choice>
+</event>
+
+<event name="FOURTH_WALL_BREAK_SPARE_2">
+	<text>Hehe.. the wife asks I give her a chance to kill you herself. I shall allow that. After all, how could I resist such a woman? I'll even reset your health. Free of charge! Thank me if you like.</text>
+	<choice hidden="true">
+		<text>You're delaying this aren't you?</text>
+		<event>
+			<text>"Of course I am! Why would I wish to upset the woman I pledge myself to? Now I wasn't asking you, I was just telling you what was happening."
+			
+			Without much choice, you continue the fight.</text>
+			<clearTriggeredEvent name="FOURTH_WALL_BREAK_SPARE_2"/>
+			<clearTriggeredEvent name="FOURTH_WALL_BREAK_SPARE"/>
+			<damage amount="-999"/>
+			<status type="limit" target="enemy" system="weapons" amount="0"/>
+			<status type="limit" target="enemy" system="drones" amount="0"/>
+			<ship hostile="true"/>
+		</event>
+	</choice>
+</event>
+
+<event name="CANT_KILL_ME">
+	<text>Good on you to try to call me on my bluff. But I wasn't kidding. Sorry, thats just not how this works.</text>
+	<damage amount="999"/>
+	<deathEvent thisFight="true">CANT_KILL_ME_2</deathEvent>
+</event>
+
+<event name="CANT_KILL_ME_2">
+	<lose text="I'm not sure if this was your plan, but I hope you understand that there is no winning this..."/>
+</event>
+
+
+
+<event name="NOT_POSSIBLE">
+	<text>I am not even sure how you managed since several of us respawn forever, but whatever. I'll just erase you for stubbornness.</text>
+	<damage amount="999"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<lose text="Cheaters never win. Unless it's me."/>
+		</event>
+	</choice>
+</event>
+
+<event name="JUST_AS_EXPECTED">
+    <lose text="I would have said you were warned... well you were. This is your own fault."/>
+</event>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Copyright (c) 2012 by Subset Games. All rights reserved.-->
+<img x="-40" y="-35" w="395" h="403" />
+<offsets>
+	<floor x="197" y="201" />
+	<cloak x="197" y="201" />
+</offsets>
+<weaponMounts>
+	<mount x="356" y="55" rotate="false" mirror="false" gib="-1" slide="right" />
+	<mount x="356" y="185" rotate="false" mirror="false" gib="-1" slide="right" />
+	<mount x="31" y="181" rotate="false" mirror="false" gib="-1" slide="left" />
+	<mount x="28" y="53" rotate="false" mirror="false" gib="-1" slide="left" />
+</weaponMounts>
+<explosion />
+

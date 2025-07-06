@@ -1,0 +1,1414 @@
+<FTL>
+
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   Enemy Ships											 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<shipBlueprint name="SHIP_GUARD_SPIN_DOCTOR" layout="Spin Doctor Guard" img="Spin Doctor Guard">
+	<class>Spin Doctor Guard</class>
+	<minSector>4</minSector>
+	<maxSector>8</maxSector>
+	<systemList>
+		<battery power="1" max="1" room="6" start="true" />
+		<cloaking power="1" max="1" room="10" start="true" />
+		<clonebay power="1" max="1" room="4" start="false" />
+		<doors power="1" max="1" room="9" start="true" />
+		<drones power="1" max="1" room="3" start="true" />
+		<engines power="1" max="1" room="11" start="true" />
+		<hacking power="1" max="1" room="7" start="true" />
+		<medbay power="1" max="1" room="4" start="true" />
+		<mind power="1" max="1" room="8" start="true" />
+		<pilot power="1" max="1" room="0" start="true" />
+		<shields power="1" max="1" room="2" start="true" />
+		<teleporter power="1" max="1" room="5" start="true" />
+		<weapons power="1" max="1" room="1" start="true" />
+	</systemList>
+	<weaponSlots>0</weaponSlots>
+	<droneSlots>0</droneSlots>
+	<weaponList missiles="20" count="0" load="DLC_WEAPONS" />
+	<droneList drones="20" count="0" load="OVERRIDE_DRONES_CIRCLE" />
+	<health amount="15" />
+	<maxPower amount="18" />
+	<crewCount amount="2" max="6" class="spindoctor" />
+	<crewCount amount="1" max="3" class="spindoctor_elite" />
+	<crewCount amount="1" max="1" class="spindoctor_waiter" />
+	<crewCount amount="1" max="1" class="spindoctor_hologram" />
+	<boardingAI>invasion</boardingAI>
+	<aug name="ZOLTAN_BYPASS" />
+	<aug name="UPG_TELEPORTER_HEAL" />
+	<aug name="NANOBOT_DEFENSE_SYSTEM_2" />
+</shipBlueprint>
+
+<shipBlueprint name="COG_SHOP_GUARD1" layout="cm_cog_guard1" img="cm_cog_guard1">
+	<class id="text_COG_SHOP_GUARD1_class">Cog Guard</class>
+	<minSector>1</minSector>
+	<maxSector>2</maxSector>
+	<systemList>
+		<cloaking power="1" max="2" room="8" start="false" />
+		<clonebay power="2" max="2" room="5" start="true" />
+		<doors power="2" max="3" room="7" start="true" />
+		<drones power="5" max="5" room="10" start="true" />
+		<engines power="2" max="4" room="9" start="true" />
+		<hacking power="1" max="1" room="4" start="true" />
+		<medbay power="1" max="1" room="5" start="false" />
+		<mind power="1" max="1" room="1" start="true" />
+		<oxygen power="1" max="1" room="6" start="true" />
+		<pilot power="2" max="2" room="0" start="true" />
+		<shields power="4" max="4" room="3" start="true" />
+		<teleporter power="2" max="2" room="11" start="true" />
+		<weapons power="5" max="5" room="2" start="true" />
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="10" count="4" load="LIST_WEAPONS_REBEL" />
+	<droneList drones="10" count="2" load="MV_DRONES_COMBAT" />
+	<health amount="11" />
+	<maxPower amount="22" />
+	<crewCount amount="1" class="LIST_COG_RANDOM" />
+	<crewCount amount="1" class="LIST_COG_RANDOM" />
+	<crewCount amount="1" class="LIST_COG_RANDOM" />
+	<boardingAI>sabotage</boardingAI>
+	<aug name="BACKUP_DNA" />
+	<aug name="ION_ARMOR" />
+</shipBlueprint>
+
+<shipBlueprint name="CM_COG_GUARD2" layout="cm_cogship2" img="cm_cogship2">
+	<class id="text_CM_COG_GUARD2_class">Cog Guard</class>
+	<minSector>8</minSector>
+	<maxSector>8</maxSector>
+	<systemList>
+		<battery power="1" max="2" room="1" start="true" />
+		<cloaking power="1" max="3" room="9" start="true" />
+		<clonebay power="1" max="1" room="8" start="false" />
+		<doors power="3" max="3" room="2" start="true" />
+		<drones power="5" max="8" room="12" start="true" />
+		<engines power="3" max="6" room="5" start="true" />
+		<hacking power="1" max="3" room="7" start="true" />
+		<medbay power="2" max="3" room="8" start="true" />
+		<mind power="1" max="3" room="11" start="true" />
+		<pilot power="3" max="3" room="0" start="true" />
+		<shields power="2" max="8" room="3" start="true" />
+		<teleporter power="2" max="3" room="13" start="true" />
+		<weapons power="5" max="8" room="4" start="true" />
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>3</droneSlots>
+	<weaponList missiles="30" count="4" load="GIFTLIST_ANCIENT_BASIC" />
+	<droneList drones="30" count="3" load="GIFTLIST_ANCIENT_DRONE" />
+	<health amount="20" />
+	<maxPower amount="20" />
+	<crewCount amount="1" class="LIST_COG_RANDOM_B" />
+	<crewCount amount="1" class="LIST_COG_RANDOM_B" />
+	<crewCount amount="1" class="LIST_COG_RANDOM_B" />
+	<crewCount amount="1" class="LIST_COG_RANDOM_B" />
+	<crewCount amount="1" class="LIST_COG_RANDOM_B" />
+	<boardingAI>invasion</boardingAI>
+	<aug name="NANO_MEDBAY" />
+	<aug name="NO_GHOST_PLAYER" />
+	<aug name="SHIELD_RECHARGE" />
+</shipBlueprint>
+
+<shipBlueprint name="CM_FOURTH_WALL_BLUEPRINT" layout="cm_fourth_wall" img="cm_fourth_wall">
+	<class>You shouldn't be here Player</class>
+	<systemList>
+		<artillery power="4" max="4" room="13" start="true" weapon="ARTILLERY_FED" />
+		<battery power="3" max="3" room="4" start="true" />
+		<cloaking power="5" max="5" room="8" start="true" />
+		<clonebay power="3" max="3" room="5" start="true" />
+		<doors power="4" max="4" room="7" start="true" />
+		<drones power="25" max="25" room="11" start="true" />
+		<engines power="10" max="10" room="10" start="true" />
+		<hacking power="3" max="3" room="16" start="true" />
+		<medbay power="4" max="4" room="1" start="true" />
+		<mind power="3" max="3" room="15" start="true" />
+		<oxygen power="3" max="3" room="6" start="true" />
+		<pilot power="3" max="3" room="0" start="true" />
+		<sensors power="3" max="3" room="3" start="true" />
+		<shields power="20" max="20" room="14" start="true" />
+		<teleporter power="4" max="4" room="12" start="true" />
+		<weapons power="25" max="25" room="9" start="true" />
+	</systemList>
+	<weaponSlots>6</weaponSlots>
+	<droneSlots>6</droneSlots>
+	<weaponList missiles="999" count="6">
+		<weapon name="GATLING_ANCIENT" />
+		<weapon name="GATLING_ANCIENT" />
+		<weapon name="GATLING_ANCIENT" />
+		<weapon name="GATLING_ANCIENT" />
+		<weapon name="SHOTGUN_TOGGLE_CHAOS" />
+		<weapon name="TRC_BEAM_ION" />
+	</weaponList>
+	<droneList drones="999" count="6">
+		<drone name="LOOT_AUG_1_AMP4" />
+		<drone name="LOOT_AUG_1_AMP4" />
+		<drone name="DEFENSE_PRIME" />
+		<drone name="ATOMR_DEFEND" />
+		<drone name="MENDERR" />
+		<drone name="MENDERR" />
+	</droneList>
+	<health amount="999" />
+	<maxPower amount="900" />
+	<boardingAI>sabotage</boardingAI>
+	<aug name="CLOAK_RELOADER" />
+	<aug name="PALADIN_ARMOR_PLAYER" />
+	<aug name="SYLVAN_SHIELD_CONTINUITY" />
+	<aug name="UPG_TECH_BYPASS" />
+</shipBlueprint>
+
+
+<blueprintList name="LIST_SHIPS_COG_MOD_START">
+	<name>COG_SHOP_GUARD1</name>
+</blueprintList>
+
+<blueprintList name="LIST_SHIPS_COG_MOD_END">
+	<name>COG_SHOP_GUARD2</name>
+</blueprintList>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   Weapon Lists										 
+********************************************************************************************************************************************************************************************************************************************
+-->
+<blueprintList name="LIST_WEAPONS_ALL_NO_CLONEGUN">
+	<name>LASER_BURST_1</name>
+	<name>LASER_BURST_2</name>
+	<name>LASER_BURST_3</name>
+	<name>LASER_BURST_5</name>
+	<name>LASER_BURST_8</name>
+	<name>LASER_HEAVY_1</name>
+	<name>LASER_HEAVY_2</name>
+	<name>LASER_HEAVY_3</name>
+	<name>LASER_HEAVY_CHAINGUN</name>
+	<name>LASER_HEAVY_PIERCE</name>
+	<name>LASER_HULL_1</name>
+	<name>LASER_HULL_2</name>
+	<name>LASER_HULL_3</name>
+	<name>LASER_HULL_CHAINGUN</name>
+	<name>LASER_LIGHT</name>
+	<name>LASER_LIGHT_2</name>
+	<name>LASER_PIERCE</name>
+	<name>LASER_PIERCE_2</name>
+	<name>LASER_CHARGEGUN</name>
+	<name>LASER_CHARGEGUN_2</name>
+	<name>LASER_CHARGEGUN_3</name>
+	<name>LASER_CHARGE_CHAIN</name>
+	<name>LASER_CHAINGUN</name>
+	<name>LASER_CHAINGUN_2</name>
+	<name>LASER_CHAINGUN_DAMAGE</name>
+	<name>BA_LASER_ARTILLERY_2</name>
+	<name>LASER_FIRE</name>
+	<name>LASER_STUN</name>
+	<name>LASER_FROST_1</name>
+	<name>LASER_FROST_2</name>
+	<name>LASER_FROST_2_PLAYER</name>
+	<name>LASER_BIO</name>
+	<name>LASER_PARTICLE</name>
+	<name>LASER_PARTICLE_2</name>
+	<name>BEAM_PARTICLE</name>
+	<name>MISSILES_PARTICLE</name>
+	<name>MISSILES_PARTICLE_PLAYER</name>
+	<name>MISSILES_ENERGY</name>
+	<name>ION_1</name>
+	<name>ION_2</name>
+	<name>ION_3</name>
+	<name>ION_4</name>
+	<name>ION_HEAVY</name>
+	<name>ION_TRI</name>
+	<name>ION_INSTANT</name>
+	<name>ION_CHARGEGUN</name>
+	<name>ION_CHARGEGUN_2</name>
+	<name>ION_CHAINGUN</name>
+	<name>ION_PIERCE_DISCO</name>
+	<name>ION_PIERCE_1</name>
+	<name>ION_PIERCE_2</name>
+	<name>ION_FIRE</name>
+	<name>ION_BIO</name>
+	<name>ION_STUN</name>
+	<name>ION_STUN_2</name>
+	<name>ION_STUN_HEAVY</name>
+	<name>ION_STUN_CHARGEGUN</name>
+	<name>ION_STUN_CHARGEGUN_PLAYER</name>
+	<name>MISSILES_1</name>
+	<name>MISSILES_2</name>
+	<name>MISSILES_3</name>
+	<name>MISSILES_4</name>
+	<name>MISSILES_4_PLAYER</name>
+	<name>MISSILES_BURST</name>
+	<name>MISSILES_BURST_2</name>
+	<name>MISSILES_CLOAK</name>
+	<name>MISSILES_FIRE</name>
+	<name>MISSILES_FIRE_PLAYER</name>
+	<name>MISSILES_FREE</name>
+	<name>MISSILES_BIO</name>
+	<name>MISSILES_STUN</name>
+	<name>MISSILES_ROCK</name>
+	<name>BEAM_1</name>
+	<name>BEAM_2</name>
+	<name>BEAM_2_PLAYER</name>
+	<name>BEAM_3</name>
+	<name>BEAM_4</name>
+	<name>BEAM_LONG</name>
+	<name>BEAM_LONG_2</name>
+	<name>BEAM_SCYTHE</name>
+	<name>BEAM_CHAIN</name>
+	<name>BEAM_PIERCE</name>
+	<name>BEAM_FIRE</name>
+	<name>BEAM_FIRE_PLAYER</name>
+	<name>BEAM_FIRE_PIERCE</name>
+	<name>BEAM_FIRE_INSTANT</name>
+	<name>BEAM_BREACH</name>
+	<name>BEAM_HULL</name>
+	<name>BEAM_HULL_2</name>
+	<name>BEAM_MINING</name>
+	<name>BEAM_REPAIR</name>
+	<name>BEAM_GUILLOTINE</name>
+	<name>BEAM_GUILLOTINE_PLAYER</name>
+	<name>BEAM_ADAPT</name>
+	<name>BEAM_ADAPT_2</name>
+	<name>BEAM_BIO</name>
+	<name>BEAM_BIO_CHAIN</name>
+	<name>BEAM_STUN</name>
+	<name>FOCUS_1</name>
+	<name>FOCUS_2</name>
+	<name>FOCUS_3</name>
+	<name>FOCUS_CHAIN</name>
+	<name>FOCUS_BIO</name>
+	<name>FOCUS_BIO_PLAYER</name>
+	<name>BOMB_1</name>
+	<name>BOMB_BREACH_1</name>
+	<name>BOMB_FIRE</name>
+	<name>BOMB_FREE</name>
+	<name>BOMB_ION</name>
+	<name>BOMB_BIO</name>
+	<name>BOMB_LOCK</name>
+	<name>BOMB_HEAL</name>
+	<name>BOMB_BUFF</name>
+	<name>BOMB_STUN</name>
+	<name>BOMB_HEAL_SYSTEM</name>
+	<name>BOMB_HEAL_SYSTEM_STRONG</name>
+	<name>ENERGY_1</name>
+	<name>ENERGY_2</name>
+	<name>ENERGY_2_PLAYER</name>
+	<name>ENERGY_3</name>
+	<name>ENERGY_HULL</name>
+	<name>ENERGY_STUN</name>
+	<name>ENERGY_STUN_PLAYER</name>
+	<name>ENERGY_CHAINGUN</name>
+	<name>ENERGY_CHARGEGUN</name>
+	<name>ENERGY_CHARGEGUN_PLAYER</name>
+	<name>KERNEL_1</name>
+	<name>KERNEL_1_ELITE</name>
+	<name>KERNEL_2</name>
+	<name>KERNEL_2_ELITE</name>
+	<name>KERNEL_HEAVY</name>
+	<name>KERNEL_HEAVY_ELITE</name>
+	<name>KERNEL_FIRE</name>
+	<name>KERNEL_CHAIN</name>
+	<name>KERNEL_CHAIN_ELITE</name>
+	<name>KERNEL_CHARGE</name>
+	<name>KERNEL_CHARGE_ELITE</name>
+	<name>SPORE_1</name>
+	<name>SPORE_2</name>
+	<name>SPORE_HEAVY</name>
+	<name>SPORE_CHAIN</name>
+	<name>SPORE_STUN</name>
+	<name>CRYSTAL_BURST_1</name>
+	<name>CRYSTAL_BURST_1_RED</name>
+	<name>CRYSTAL_BURST_2</name>
+	<name>CRYSTAL_BURST_2_RED</name>
+	<name>CRYSTAL_HEAVY_1</name>
+	<name>CRYSTAL_HEAVY_1_RED</name>
+	<name>CRYSTAL_HEAVY_2</name>
+	<name>CRYSTAL_HEAVY_2_RED</name>
+	<name>CRYSTAL_STUN</name>
+	<name>CRYSTAL_STUN_RED</name>
+	<name>CRYSTAL_SHOTGUN</name>
+	<name>CRYSTAL_SHOTGUN_RED</name>
+	<name>CRYSTAL_CHARGEGUN</name>
+	<name>CRYSTAL_CHARGEGUN_RED</name>
+	<name>SENTRY_NORMAL</name>
+	<name>SENTRY_MIND</name>
+	<name>SENTRY_FROST</name>
+	<name>SENTRY_HEAL</name>
+	<name>SENTRY_VAMP</name>
+	<name>MINELAUNCHER_1</name>
+	<name>MINELAUNCHER_2</name>
+	<name>MINELAUNCHER_3</name>
+	<name>MINELAUNCHER_FREE</name>
+	<name>MINELAUNCHER_FIRE</name>
+	<name>MINELAUNCHER_BREACH</name>
+	<name>MINELAUNCHER_STUN</name>
+	<name>MINELAUNCHER_CRYSTAL</name>
+	<name>MINELAUNCHER_KERNEL</name>
+	<name>LASER_CONSERVATIVE</name>
+	<name>BEAM_CONSERVATIVE</name>
+	<name>ION_CONSERVATIVE</name>
+	<name>MISSILES_CONSERVATIVE</name>
+	<name>BOMB_CONSERVATIVE</name>
+	<name>ENERGY_CONSERVATIVE</name>
+	<name>BEAM_BIO_CONSERVATIVE</name>
+	<name>ZENITH_1</name>
+	<name>LANCE_1</name>
+	<name>BOMB_CLUSTER</name>
+	<name>ANCIENT_LASER</name>
+	<name>ANCIENT_LASER_2</name>
+	<name>ANCIENT_LASER_3</name>
+	<name>ANCIENT_MISSILES</name>
+	<name>ANCIENT_BOMB</name>
+	<name>ANCIENT_MINELAUNCHER</name>
+	<name>ANCIENT_BEAM</name>
+	<name>ANCIENT_BEAM_2</name>
+	<name>ANCIENT_BEAM_3</name>
+	<name>ANCIENT_HAVOC</name>
+	<name>ANCIENT_FOCUS</name>
+	<name>ANCIENT_FOCUS_2</name>
+	<name>ANCIENT_ION_1</name>
+	<name>ANCIENT_ION_2</name>
+	<name>ANCIENT_STUN</name>
+	<name>ROYAL_LASER_3</name>
+	<name>ROYAL_BEAM_3</name>
+	<name>ROYAL_HAVOC</name>
+	<name>ROYAL_FOCUS</name>
+	<name>ROYAL_MISSILES</name>
+	<name>ROYAL_BOMB</name>
+	<name>ROYAL_ION_2</name>
+	<name>LASER_BURST_SYLVAN</name>
+	<name>LASER_BURST_5_SYLVAN</name>
+	<name>BEAM_4_SYLVAN</name>
+	<name>CRASH_LASER</name>
+	<name>BEAM_HARDSCIFI</name>
+	<name>ION_PIERCE_CHAIN</name>
+	<name>LASER_FIRE_SPECIAL</name>
+	<name>LASER_BISHOP</name>
+	<name>BOMB_CHERRI</name>
+	<name>LASER_CHAINGUN_GOLD</name>
+	<name>LASER_CHAINGUN_GOLD_PLAYER</name>
+	<name>SALT_LAUNCHER</name>
+	<name>HORSE_GUN</name>
+	<name>BEAM_MADNESS</name>
+	<name>BEAM_MADNESS_ELITE</name>
+	<name>SHOTGUN_GOLD</name>
+	<name>SHOTGUN_GOLD_3</name>
+	<name>BEAM_SHELL</name>
+	<name>ZOLTAN_DELETER</name>
+	<name>GATLING_VERSION1</name>
+	<name>GATLING_VERSION2</name>
+	<name>GATLING_VERSION3</name>
+	<name>GATLING_VERSION4</name>
+	<name>GATLING_VERSION5</name>
+	<name>GATLING_VERSION6</name>
+	<name>GATLING_VERSION7</name>
+	<name>GATLING_VERSION8</name>
+	<name>LOOT_CIVILIAN_1</name>
+	<name>LOOT_MILITIA_1</name>
+	<name>LOOT_FEDERATION_1</name>
+	<name>LOOT_COALITION_1</name>
+	<name>LOOT_DUSKBRINGER_1</name>
+	<name>LOOT_FREEMANTIS_1</name>
+	<name>LOOT_LOSTSUN_1</name>
+	<name>LOOT_LOSTSUN_2</name>
+	<name>LOOT_MANTIS_1</name>
+	<name>LOOT_MANTIS_2</name>
+	<name>LOOT_REBEL_1</name>
+	<name>LOOT_ROCK_1</name>
+	<name>LOOT_ZOLTAN_1</name>
+	<name>LOOT_ZOLTAN_2</name>
+	<name>LOOT_SLUG_1</name>
+	<name>LOOT_CLAN_1</name>
+	<name>LOOT_KNIGHT_1</name>
+	<name>LOOT_SHELL_1</name>
+	<name>LOOT_LEECH_1</name>
+	<name>LOOT_CULTIST_1</name>
+	<name>LOOT_DYNASTY_1</name>
+	<name>LOOT_LANIUS_1</name>
+	<name>LOOT_MATH_1</name>
+	<name>LOOT_MATH_2</name>
+	<name>LOOT_MATH_3</name>
+	<name>LOOT_MATH_4</name>
+	<name>LOOT_MATH_5</name>
+	<name>LOOT_MATH_6</name>
+	<name>LOOT_MATH_7</name>
+	<name>BEAM_BATTERY</name>
+	<name>BEAM_ADAPT_3</name>
+	<name>BIG_ION</name>
+	<name>BOMB_CONSERVRECYCLER</name>
+	<name>BOMB_DRAIN</name>
+	<name>FROST_CHARGEGUN</name>
+	<name>ION_CHAIN_CHARGEGUN</name>
+	<name>MISSILES_OBSIDIAN</name>
+	<name>SHOTGUN_STEEL</name>
+	<name>SHOTGUN_TOGGLE_FIRE</name>
+	<name>SHOTGUN_TOGGLE_ION</name>
+	<name>SHOTGUN_TOGGLE_TOXIC</name>
+	<name>BOMB_CONSERVRECYCLER</name>
+	<name>SHELL_LAUNCHER</name>
+	<name>SLOTGUN</name>
+	<name>SNIPER</name>
+	<name>UNSPOOLER</name>
+	<name>MINELAUNCHER_GIANT</name>
+	<name>LASER_LIGHT_CHARGEGUN</name>
+	<name>CRYSTAL_BURST_FIRE</name>
+	<name>STRAWBERRY</name>
+	<name>BOMB_ELITE</name>
+	<name>GASTER_BLASTER</name>
+	<name>BEAM_BATTERY_CHAOS</name>
+	<name>BEAM_ADAPT_3_CHAOS</name>
+	<name>BIG_ION_CHAOS</name>
+	<name>BOMB_CONSERVRECYCLER_CHAOS</name>
+	<name>BOMB_DRAIN_CHAOS</name>
+	<name>FROST_CHARGEGUN_CHAOS</name>
+	<name>ION_CHAIN_CHARGEGUN_CHAOS</name>
+	<name>MISSILES_OBSIDIAN_CHAOS</name>
+	<name>SHOTGUN_STEEL_CHAOS</name>
+	<name>SHOTGUN_TOGGLE_CHAOS</name>
+	<name>SHELL_LAUNCHER_CHAOS</name>
+	<name>SLOTGUN_CHAOS</name>
+	<name>SNIPER_CHAOS</name>
+	<name>UNSPOOLER_CHAOS</name>
+	<name>MINELAUNCHER_GIANT_CHAOS</name>
+	<name>LASER_LIGHT_CHARGEGUN_CHAOS</name>
+	<name>CRYSTAL_BURST_FIRE_CHAOS</name>
+	<name>STRAWBERRY_CHAOS</name>
+	<name>BOMB_ELITE_CHAOS</name>
+	<name>GASTER_BLASTER_CHAOS</name>
+	<name>SCANNER_RECON</name>
+	<name>SCANNER_BAIT</name>
+	<name>HARPOON_LAUNCHER</name>
+	<name>RUSTY_LASER_BURST_2</name>
+	<name>RUSTY_LASER_BURST_3</name>
+	<name>RUSTY_LASER_BURST_5</name>
+	<name>RUSTY_LASER_HEAVY_1</name>
+	<name>RUSTY_MISSILES_1</name>
+	<name>RUSTY_MISSILES_2</name>
+	<name>RUSTY_MISSILES_3</name>
+	<name>RUSTY_MISSILES_BURST</name>
+	<name>MODULAR_LASER_BASE</name>
+	<name>MODULAR_LASER_BASE_BIO</name>
+	<name>MODULAR_LASER_BASE_COOLDOWN</name>
+	<name>MODULAR_LASER_BASE_LOCKDOWN</name>
+	<name>MODULAR_LASER_BASE_PIERCE</name>
+	<name>MODULAR_LASER_BASE_STUN</name>
+	<name>MODULAR_LASER_ACCURACY</name>
+	<name>MODULAR_LASER_ACCURACY_BIO</name>
+	<name>MODULAR_LASER_ACCURACY_COOLDOWN</name>
+	<name>MODULAR_LASER_ACCURACY_LOCKDOWN</name>
+	<name>MODULAR_LASER_ACCURACY_PIERCE</name>
+	<name>MODULAR_LASER_ACCURACY_STUN</name>
+	<name>MODULAR_LASER_FIRE</name>
+	<name>MODULAR_LASER_FIRE_BIO</name>
+	<name>MODULAR_LASER_FIRE_COOLDOWN</name>
+	<name>MODULAR_LASER_FIRE_LOCKDOWN</name>
+	<name>MODULAR_LASER_FIRE_PIERCE</name>
+	<name>MODULAR_LASER_FIRE_STUN</name>
+	<name>MODULAR_LASER_HULL</name>
+	<name>MODULAR_LASER_HULL_BIO</name>
+	<name>MODULAR_LASER_HULL_COOLDOWN</name>
+	<name>MODULAR_LASER_HULL_LOCKDOWN</name>
+	<name>MODULAR_LASER_HULL_PIERCE</name>
+	<name>MODULAR_LASER_HULL_STUN</name>
+	<name>MODULAR_BEAM_BASE</name>
+	<name>MODULAR_BEAM_BASE_BIO</name>
+	<name>MODULAR_BEAM_BASE_COOLDOWN</name>
+	<name>MODULAR_BEAM_BASE_PIERCE</name>
+	<name>MODULAR_BEAM_BASE_STUN</name>
+	<name>MODULAR_BEAM_FIRE</name>
+	<name>MODULAR_BEAM_FIRE_BIO</name>
+	<name>MODULAR_BEAM_FIRE_COOLDOWN</name>
+	<name>MODULAR_BEAM_FIRE_PIERCE</name>
+	<name>MODULAR_BEAM_FIRE_STUN</name>
+	<name>MODULAR_BEAM_HULL</name>
+	<name>MODULAR_BEAM_HULL_BIO</name>
+	<name>MODULAR_BEAM_HULL_COOLDOWN</name>
+	<name>MODULAR_BEAM_HULL_PIERCE</name>
+	<name>MODULAR_BEAM_HULL_STUN</name>
+	<name>MODULAR_MISSILE_BASE</name>
+	<name>MODULAR_MISSILE_BASE_BIO</name>
+	<name>MODULAR_MISSILE_BASE_COOLDOWN</name>
+	<name>MODULAR_MISSILE_BASE_LOCKDOWN</name>
+	<name>MODULAR_MISSILE_BASE_STUN</name>
+	<name>MODULAR_MISSILE_ACCURACY</name>
+	<name>MODULAR_MISSILE_ACCURACY_BIO</name>
+	<name>MODULAR_MISSILE_ACCURACY_COOLDOWN</name>
+	<name>MODULAR_MISSILE_ACCURACY_LOCKDOWN</name>
+	<name>MODULAR_MISSILE_ACCURACY_STUN</name>
+	<name>MODULAR_MISSILE_FIRE</name>
+	<name>MODULAR_MISSILE_FIRE_BIO</name>
+	<name>MODULAR_MISSILE_FIRE_COOLDOWN</name>
+	<name>MODULAR_MISSILE_FIRE_LOCKDOWN</name>
+	<name>MODULAR_MISSILE_FIRE_STUN</name>
+	<name>MODULAR_MISSILE_HULL</name>
+	<name>MODULAR_MISSILE_HULL_BIO</name>
+	<name>MODULAR_MISSILE_HULL_COOLDOWN</name>
+	<name>MODULAR_MISSILE_HULL_LOCKDOWN</name>
+	<name>MODULAR_MISSILE_HULL_STUN</name>
+	<name>SHOTGUN_1</name>
+	<name>SHOTGUN_2</name>
+	<name>SHOTGUN_3</name>
+	<name>SHOTGUN_4</name>
+	<name>SHOTGUN_CHARGE</name>
+	<name>SHOTGUN_CHAIN</name>
+	<name>SHOTGUN_INSTANT</name>
+	<name>SHOTGUN_FIRE</name>
+	<name>SHOTGUN_ION</name>
+	<name>SHOTGUN_TOXIC</name>
+	<name>SHOTGUN_TOXIC_PLAYER</name>
+</blueprintList>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   Crew Lists										 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<mod:findName type="blueprintList" name="LIST_CREW_ALIENS">
+	<mod-append:name>big_cheese</mod-append:name>
+	<mod-append:name>big_cheese_elite</mod-append:name>
+	<mod-append:name>big_cheese_waiter</mod-append:name>
+	<mod-append:name>big_cheese_hologram</mod-append:name>
+	<mod-append:name>corporateraider</mod-append:name>
+	<mod-append:name>corporateraider_elite</mod-append:name>
+	<mod-append:name>corporateraider_waiter</mod-append:name>
+	<mod-append:name>corporateraider_hologram</mod-append:name>
+	<mod-append:name>headhunter</mod-append:name>
+	<mod-append:name>headhunter_elite</mod-append:name>
+	<mod-append:name>headhunter_hologram</mod-append:name>
+	<mod-append:name>headhunter_waiter</mod-append:name>
+	<mod-append:name>downsizer</mod-append:name>
+	<mod-append:name>downsizer_elite</mod-append:name>
+	<mod-append:name>downsizer_hologram</mod-append:name>
+	<mod-append:name>downsizer_waiter</mod-append:name>
+	<mod-append:name>micromanager</mod-append:name>
+	<mod-append:name>micromanager_elite</mod-append:name>
+	<mod-append:name>micromanager_hologram</mod-append:name>
+	<mod-append:name>micromanager_waiter</mod-append:name>
+	<mod-append:name>yesman</mod-append:name>
+	<mod-append:name>yesman_elite</mod-append:name>
+	<mod-append:name>yesman_hologram</mod-append:name>
+	<mod-append:name>yesman_waiter</mod-append:name>
+	<mod-append:name>bigwig</mod-append:name>
+	<mod-append:name>bigwig_elite</mod-append:name>
+	<mod-append:name>bigwig_waiter</mod-append:name>
+	<mod-append:name>bigwig_hologram</mod-append:name>
+	<mod-append:name>legaleagle</mod-append:name>
+	<mod-append:name>legaleagle_elite</mod-append:name>
+	<mod-append:name>legaleagle_waiter</mod-append:name>
+	<mod-append:name>legaleagle_hologram</mod-append:name>
+	<mod-append:name>spindoctor</mod-append:name>
+	<mod-append:name>spindoctor_elite</mod-append:name>
+	<mod-append:name>spindoctor_hologram</mod-append:name>
+	<mod-append:name>spindoctor_waiter</mod-append:name>
+	<mod-append:name>backstabber</mod-append:name>
+	<mod-append:name>backstabber_elite</mod-append:name>
+	<mod-append:name>backstabber_waiter</mod-append:name>
+	<mod-append:name>backstabber_hologram</mod-append:name>
+	<mod-append:name>ambulancechaser</mod-append:name>
+	<mod-append:name>ambulancechaser_elite</mod-append:name>
+	<mod-append:name>ambulancechaser_waiter</mod-append:name>
+	<mod-append:name>ambulancechaser_hologram</mod-append:name>
+	<mod-append:name>double_talker</mod-append:name>
+	<mod-append:name>double_talker_elite</mod-append:name>
+	<mod-append:name>double_talker_hologram</mod-append:name>
+	<mod-append:name>double_talker_waiter</mod-append:name>
+	<mod-append:name>robberbaron</mod-append:name>
+	<mod-append:name>robberbaron_elite</mod-append:name>
+	<mod-append:name>robberbaron_waiter</mod-append:name>
+	<mod-append:name>robberbaron_hologram</mod-append:name>
+	<mod-append:name>loanshark</mod-append:name>
+	<mod-append:name>loanshark_elite</mod-append:name>
+	<mod-append:name>loanshark_waiter</mod-append:name>
+	<mod-append:name>loanshark_hologram</mod-append:name>
+	<mod-append:name>moneybags</mod-append:name>
+	<mod-append:name>moneybags_elite</mod-append:name>
+	<mod-append:name>moneybags_hologram</mod-append:name>
+	<mod-append:name>moneybags_waiter</mod-append:name>
+	<mod-append:name>numbercruncher</mod-append:name>
+	<mod-append:name>numbercruncher_elite</mod-append:name>
+	<mod-append:name>numbercruncher_waiter</mod-append:name>
+	<mod-append:name>numbercruncher_hologram</mod-append:name>
+	<mod-append:name>bean_counter</mod-append:name>
+	<mod-append:name>bean_counter_elite</mod-append:name>
+	<mod-append:name>bean_counter_hologram</mod-append:name>
+	<mod-append:name>bean_counter_waiter</mod-append:name>
+	<mod-append:name>tightwad</mod-append:name>
+	<mod-append:name>tightwad_elite</mod-append:name>
+	<mod-append:name>tightwad_waiter</mod-append:name>
+	<mod-append:name>tightwad_hologram</mod-append:name>
+	<mod-append:name>penny_p</mod-append:name>
+	<mod-append:name>penny_p_elite</mod-append:name>
+	<mod-append:name>penny_p_waiter</mod-append:name>
+	<mod-append:name>penny_p_hologram</mod-append:name>
+	<mod-append:name>mrhollywood</mod-append:name>
+	<mod-append:name>mrhollywood_elite</mod-append:name>
+	<mod-append:name>mrhollywood_waiter</mod-append:name>
+	<mod-append:name>mrhollywood_hologram</mod-append:name>
+	<mod-append:name>mingler</mod-append:name>
+	<mod-append:name>mingler_elite</mod-append:name>
+	<mod-append:name>mingler_waiter</mod-append:name>
+	<mod-append:name>mingler_hologram</mod-append:name>
+	<mod-append:name>twoface</mod-append:name>
+	<mod-append:name>twoface_elite</mod-append:name>
+	<mod-append:name>twoface_hologram</mod-append:name>
+	<mod-append:name>twoface_waiter</mod-append:name>
+	<mod-append:name>mover_and_shaker</mod-append:name>
+	<mod-append:name>mover_and_shaker_elite</mod-append:name>
+	<mod-append:name>mover_and_shaker_hologram</mod-append:name>
+	<mod-append:name>mover_and_shaker_waiter</mod-append:name>
+	<mod-append:name>glad_hander</mod-append:name>
+	<mod-append:name>glad_hander_elite</mod-append:name>
+	<mod-append:name>glad_hander_waiter</mod-append:name>
+	<mod-append:name>glad_hander_hologram</mod-append:name>
+	<mod-append:name>name_dropper</mod-append:name>
+	<mod-append:name>name_dropper_elite</mod-append:name>
+	<mod-append:name>name_dropper_waiter</mod-append:name>
+	<mod-append:name>name_dropper_hologram</mod-append:name>
+	<mod-append:name>jack_brie</mod-append:name>
+	<mod-append:name>comrade</mod-append:name>
+	<mod-append:name>honcho</mod-append:name>
+	<mod-append:name>debbie</mod-append:name>
+	<mod-append:name>mira</mod-append:name>
+	<mod-append:name>yessum</mod-append:name>
+	<mod-append:name>judge</mod-append:name>
+	<mod-append:name>lawrence</mod-append:name>
+	<mod-append:name>dr_spin</mod-append:name>
+	<mod-append:name>ac08</mod-append:name>
+	<mod-append:name>robert</mod-append:name>
+	<mod-append:name>bruce</mod-append:name>
+	<mod-append:name>monee</mod-append:name>
+	<mod-append:name>lovelace</mod-append:name>
+	<mod-append:name>cash_crab</mod-append:name>
+	<mod-append:name>holiday</mod-append:name>
+	<mod-append:name>lily</mod-append:name>
+	<mod-append:name>harvey</mod-append:name>
+	<mod-append:name>bakker</mod-append:name>
+</mod:findName>
+
+<blueprintList name="LIST_COG_RANDOM">
+	<name>big_cheese</name>
+	<name>big_cheese</name>
+	<name>big_cheese</name>
+	<name>big_cheese</name>
+	<name>big_cheese</name>
+	<name>big_cheese_elite</name>
+	<name>big_cheese_elite</name>
+	<name>big_cheese_hologram</name>
+	<name>big_cheese_hologram</name>
+	<name>big_cheese_hologram</name>
+	<name>big_cheese_waiter</name>
+	<name>bigwig</name>
+	<name>bigwig</name>
+	<name>bigwig</name>
+	<name>bigwig</name>
+	<name>bigwig</name>
+	<name>bigwig_elite</name>
+	<name>bigwig_elite</name>
+	<name>bigwig_hologram</name>
+	<name>bigwig_hologram</name>
+	<name>bigwig_hologram</name>
+	<name>bigwig_waiter</name>
+	<name>robberbaron</name>
+	<name>robberbaron</name>
+	<name>robberbaron</name>
+	<name>robberbaron</name>
+	<name>robberbaron</name>
+	<name>robberbaron_elite</name>
+	<name>robberbaron_elite</name>
+	<name>robberbaron_hologram</name>
+	<name>robberbaron_hologram</name>
+	<name>robberbaron_hologram</name>
+	<name>robberbaron_waiter</name>
+	<name>mrhollywood</name>
+	<name>mrhollywood</name>
+	<name>mrhollywood</name>
+	<name>mrhollywood</name>
+	<name>mrhollywood</name>
+	<name>mrhollywood_elite</name>
+	<name>mrhollywood_elite</name>
+	<name>mrhollywood_hologram</name>
+	<name>mrhollywood_hologram</name>
+	<name>mrhollywood_hologram</name>
+	<name>mrhollywood_waiter</name>
+	<name>corporateraider</name>
+	<name>corporateraider</name>
+	<name>corporateraider</name>
+	<name>corporateraider</name>
+	<name>corporateraider</name>
+	<name>corporateraider_elite</name>
+	<name>corporateraider_elite</name>
+	<name>corporateraider_hologram</name>
+	<name>corporateraider_hologram</name>
+	<name>corporateraider_hologram</name>
+	<name>corporateraider_waiter</name>
+	<name>legaleagle</name>
+	<name>legaleagle</name>
+	<name>legaleagle</name>
+	<name>legaleagle</name>
+	<name>legaleagle</name>
+	<name>legaleagle_elite</name>
+	<name>legaleagle_elite</name>
+	<name>legaleagle_hologram</name>
+	<name>legaleagle_hologram</name>
+	<name>legaleagle_hologram</name>
+	<name>legaleagle_waiter</name>
+	<name>loanshark</name>
+	<name>loanshark</name>
+	<name>loanshark</name>
+	<name>loanshark</name>
+	<name>loanshark</name>
+	<name>loanshark_elite</name>
+	<name>loanshark_elite</name>
+	<name>loanshark_hologram</name>
+	<name>loanshark_hologram</name>
+	<name>loanshark_hologram</name>
+	<name>loanshark_waiter</name>
+	<name>mingler</name>
+	<name>mingler</name>
+	<name>mingler</name>
+	<name>mingler</name>
+	<name>mingler</name>
+	<name>mingler_elite</name>
+	<name>mingler_elite</name>
+	<name>mingler_hologram</name>
+	<name>mingler_hologram</name>
+	<name>mingler_hologram</name>
+	<name>mingler_waiter</name>
+	<name>headhunter</name>
+	<name>headhunter</name>
+	<name>headhunter</name>
+	<name>headhunter</name>
+	<name>headhunter</name>
+	<name>headhunter_elite</name>
+	<name>headhunter_elite</name>
+	<name>headhunter_hologram</name>
+	<name>headhunter_hologram</name>
+	<name>headhunter_hologram</name>
+	<name>headhunter_waiter</name>
+	<name>spindoctor</name>
+	<name>spindoctor</name>
+	<name>spindoctor</name>
+	<name>spindoctor</name>
+	<name>spindoctor</name>
+	<name>spindoctor_elite</name>
+	<name>spindoctor_elite</name>
+	<name>spindoctor_hologram</name>
+	<name>spindoctor_hologram</name>
+	<name>spindoctor_hologram</name>
+	<name>spindoctor_waiter</name>
+	<name>moneybags</name>
+	<name>moneybags</name>
+	<name>moneybags</name>
+	<name>moneybags</name>
+	<name>moneybags</name>
+	<name>moneybags_elite</name>
+	<name>moneybags_elite</name>
+	<name>moneybags_hologram</name>
+	<name>moneybags_hologram</name>
+	<name>moneybags_hologram</name>
+	<name>moneybags_waiter</name>
+	<name>twoface</name>
+	<name>twoface</name>
+	<name>twoface</name>
+	<name>twoface</name>
+	<name>twoface</name>
+	<name>twoface_elite</name>
+	<name>twoface_elite</name>
+	<name>twoface_hologram</name>
+	<name>twoface_hologram</name>
+	<name>twoface_hologram</name>
+	<name>twoface_waiter</name>
+	<name>downsizer</name>
+	<name>downsizer</name>
+	<name>downsizer</name>
+	<name>downsizer</name>
+	<name>downsizer</name>
+	<name>downsizer_elite</name>
+	<name>downsizer_elite</name>
+	<name>downsizer_hologram</name>
+	<name>downsizer_hologram</name>
+	<name>downsizer_hologram</name>
+	<name>downsizer_waiter</name>
+	<name>backstabber</name>
+	<name>backstabber</name>
+	<name>backstabber</name>
+	<name>backstabber</name>
+	<name>backstabber_elite</name>
+	<name>backstabber_elite</name>
+	<name>backstabber_waiter</name>
+	<name>backstabber_hologram</name>
+	<name>backstabber_hologram</name>
+	<name>backstabber_hologram</name>
+	<name>numbercruncher</name>
+	<name>numbercruncher</name>
+	<name>numbercruncher</name>
+	<name>numbercruncher</name>
+	<name>numbercruncher_elite</name>
+	<name>numbercruncher_elite</name>
+	<name>numbercruncher_hologram</name>
+	<name>numbercruncher_hologram</name>
+	<name>numbercruncher_hologram</name>
+	<name>numbercruncher_waiter</name>
+	<name>mover_and_shaker</name>
+	<name>mover_and_shaker</name>
+	<name>mover_and_shaker</name>
+	<name>mover_and_shaker</name>
+	<name>mover_and_shaker_elite</name>
+	<name>mover_and_shaker_elite</name>
+	<name>mover_and_shaker_hologram</name>
+	<name>mover_and_shaker_hologram</name>
+	<name>mover_and_shaker_hologram</name>
+	<name>mover_and_shaker_waiter</name>
+	<name>micromanager</name>
+	<name>micromanager</name>
+	<name>micromanager</name>
+	<name>micromanager</name>
+	<name>micromanager_elite</name>
+	<name>micromanager_elite</name>
+	<name>micromanager_hologram</name>
+	<name>micromanager_hologram</name>
+	<name>micromanager_hologram</name>
+	<name>micromanager_waiter</name>
+	<name>ambulancechaser</name>
+	<name>ambulancechaser</name>
+	<name>ambulancechaser</name>
+	<name>ambulancechaser</name>
+	<name>ambulancechaser_elite</name>
+	<name>ambulancechaser_elite</name>
+	<name>ambulancechaser_hologram</name>
+	<name>ambulancechaser_hologram</name>
+	<name>ambulancechaser_hologram</name>
+	<name>ambulancechaser_waiter</name>
+	<name>bean_counter</name>
+	<name>bean_counter</name>
+	<name>bean_counter</name>
+	<name>bean_counter</name>
+	<name>bean_counter_elite</name>
+	<name>bean_counter_elite</name>
+	<name>bean_counter_hologram</name>
+	<name>bean_counter_hologram</name>
+	<name>bean_counter_hologram</name>
+	<name>bean_counter_waiter</name>
+	<name>tightwad</name>
+	<name>tightwad</name>
+	<name>tightwad</name>
+	<name>tightwad</name>
+	<name>tightwad_elite</name>
+	<name>tightwad_elite</name>
+	<name>tightwad_waiter</name>
+	<name>tightwad_hologram</name>
+	<name>tightwad_hologram</name>
+	<name>tightwad_hologram</name>
+	<name>glad_hander</name>
+	<name>glad_hander</name>
+	<name>glad_hander</name>
+	<name>glad_hander</name>
+	<name>glad_hander_elite</name>
+	<name>glad_hander_elite</name>
+	<name>glad_hander_hologram</name>
+	<name>glad_hander_hologram</name>
+	<name>glad_hander_hologram</name>
+	<name>glad_hander_waiter</name>
+	<name>yesman</name>
+	<name>yesman</name>
+	<name>yesman</name>
+	<name>yesman</name>
+	<name>yesman_elite</name>
+	<name>yesman_elite</name>
+	<name>yesman_hologram</name>
+	<name>yesman_hologram</name>
+	<name>yesman_hologram</name>
+	<name>yesman_waiter</name>
+	<name>double_talker</name>
+	<name>double_talker</name>
+	<name>double_talker</name>
+	<name>double_talker</name>
+	<name>double_talker_elite</name>
+	<name>double_talker_elite</name>
+	<name>double_talker_hologram</name>
+	<name>double_talker_hologram</name>
+	<name>double_talker_hologram</name>
+	<name>double_talker_waiter</name>
+	<name>name_dropper</name>
+	<name>name_dropper</name>
+	<name>name_dropper</name>
+	<name>name_dropper</name>
+	<name>name_dropper_elite</name>
+	<name>name_dropper_elite</name>
+	<name>name_dropper_hologram</name>
+	<name>name_dropper_hologram</name>
+	<name>name_dropper_hologram</name>
+	<name>name_dropper_waiter</name>
+</blueprintList>
+
+<blueprintList name="LIST_COG_RANDOM_B">
+	<name>big_cheese_elite</name>
+	<name>big_cheese_elite</name>
+	<name>big_cheese_hologram</name>
+	<name>big_cheese_hologram</name>
+	<name>big_cheese_hologram</name>
+	<name>big_cheese_waiter</name>
+	<name>bigwig_elite</name>
+	<name>bigwig_elite</name>
+	<name>bigwig_hologram</name>
+	<name>bigwig_hologram</name>
+	<name>bigwig_hologram</name>
+	<name>bigwig_waiter</name>
+	<name>robberbaron_elite</name>
+	<name>robberbaron_elite</name>
+	<name>robberbaron_hologram</name>
+	<name>robberbaron_hologram</name>
+	<name>robberbaron_hologram</name>
+	<name>robberbaron_waiter</name>
+	<name>mrhollywood_elite</name>
+	<name>mrhollywood_elite</name>
+	<name>mrhollywood_hologram</name>
+	<name>mrhollywood_hologram</name>
+	<name>mrhollywood_hologram</name>
+	<name>mrhollywood_waiter</name>
+	<name>corporateraider_elite</name>
+	<name>corporateraider_elite</name>
+	<name>corporateraider_hologram</name>
+	<name>corporateraider_hologram</name>
+	<name>corporateraider_hologram</name>
+	<name>corporateraider_waiter</name>
+	<name>legaleagle_elite</name>
+	<name>legaleagle_elite</name>
+	<name>legaleagle_hologram</name>
+	<name>legaleagle_hologram</name>
+	<name>legaleagle_hologram</name>
+	<name>legaleagle_waiter</name>
+	<name>loanshark_elite</name>
+	<name>loanshark_elite</name>
+	<name>loanshark_hologram</name>
+	<name>loanshark_hologram</name>
+	<name>loanshark_hologram</name>
+	<name>loanshark_waiter</name>
+	<name>mingler_elite</name>
+	<name>mingler_elite</name>
+	<name>mingler_hologram</name>
+	<name>mingler_hologram</name>
+	<name>mingler_hologram</name>
+	<name>mingler_waiter</name>
+	<name>headhunter_elite</name>
+	<name>headhunter_hologram</name>
+	<name>headhunter_hologram</name>
+	<name>headhunter_hologram</name>
+	<name>headhunter_waiter</name>
+	<name>spindoctor_elite</name>
+	<name>spindoctor_elite</name>
+	<name>spindoctor_hologram</name>
+	<name>spindoctor_hologram</name>
+	<name>spindoctor_hologram</name>
+	<name>spindoctor_waiter</name>
+	<name>moneybags_elite</name>
+	<name>moneybags_elite</name>
+	<name>moneybags_hologram</name>
+	<name>moneybags_hologram</name>
+	<name>moneybags_hologram</name>
+	<name>moneybags_waiter</name>
+	<name>twoface_elite</name>
+	<name>twoface_elite</name>
+	<name>twoface_hologram</name>
+	<name>twoface_hologram</name>
+	<name>twoface_hologram</name>
+	<name>twoface_waiter</name>
+	<name>downsizer_elite</name>
+	<name>downsizer_elite</name>
+	<name>downsizer_hologram</name>
+	<name>downsizer_hologram</name>
+	<name>downsizer_hologram</name>
+	<name>downsizer_waiter</name>
+	<name>backstabber_elite</name>
+	<name>backstabber_elite</name>
+	<name>backstabber_waiter</name>
+	<name>backstabber_hologram</name>
+	<name>backstabber_hologram</name>
+	<name>backstabber_hologram</name>
+	<name>numbercruncher_elite</name>
+	<name>numbercruncher_elite</name>
+	<name>numbercruncher_hologram</name>
+	<name>numbercruncher_hologram</name>
+	<name>numbercruncher_hologram</name>
+	<name>numbercruncher_waiter</name>
+	<name>mover_and_shaker_elite</name>
+	<name>mover_and_shaker_elite</name>
+	<name>mover_and_shaker_hologram</name>
+	<name>mover_and_shaker_hologram</name>
+	<name>mover_and_shaker_hologram</name>
+	<name>mover_and_shaker_waiter</name>
+	<name>micromanager_elite</name>
+	<name>micromanager_elite</name>
+	<name>micromanager_hologram</name>
+	<name>micromanager_hologram</name>
+	<name>micromanager_hologram</name>
+	<name>micromanager_waiter</name>
+	<name>ambulancechaser_elite</name>
+	<name>ambulancechaser_elite</name>
+	<name>ambulancechaser_hologram</name>
+	<name>ambulancechaser_hologram</name>
+	<name>ambulancechaser_hologram</name>
+	<name>ambulancechaser_waiter</name>
+	<name>bean_counter_elite</name>
+	<name>bean_counter_elite</name>
+	<name>bean_counter_hologram</name>
+	<name>bean_counter_hologram</name>
+	<name>bean_counter_hologram</name>
+	<name>bean_counter_waiter</name>
+	<name>tightwad_hologram</name>
+	<name>tightwad_hologram</name>
+	<name>tightwad_hologram</name>
+	<name>tightwad_elite</name>
+	<name>tightwad_elite</name>
+	<name>tightwad_waiter</name>
+	<name>glad_hander_elite</name>
+	<name>glad_hander_elite</name>
+	<name>glad_hander_hologram</name>
+	<name>glad_hander_hologram</name>
+	<name>glad_hander_hologram</name>
+	<name>glad_hander_waiter</name>
+	<name>yesman_elite</name>
+	<name>yesman_elite</name>
+	<name>yesman_hologram</name>
+	<name>yesman_hologram</name>
+	<name>yesman_hologram</name>
+	<name>yesman_waiter</name>
+	<name>double_talker_elite</name>
+	<name>double_talker_elite</name>
+	<name>double_talker_hologram</name>
+	<name>double_talker_hologram</name>
+	<name>double_talker_hologram</name>
+	<name>double_talker_waiter</name>
+	<name>name_dropper_elite</name>
+	<name>name_dropper_elite</name>
+	<name>name_dropper_hologram</name>
+	<name>name_dropper_hologram</name>
+	<name>name_dropper_hologram</name>
+	<name>name_dropper_waiter</name>
+</blueprintList>
+
+<blueprintList name="LIST_COG_RANDOM_C">
+	<name>big_cheese_waiter</name>
+	<name>bigwig_waiter</name>
+	<name>robberbaron_waiter</name>
+	<name>mrhollywood_waiter</name>
+	<name>corporateraider_waiter</name>
+	<name>legaleagle_waiter</name>
+	<name>loanshark_waiter</name>
+	<name>mingler_waiter</name>
+	<name>headhunter_waiter</name>
+	<name>spindoctor_waiter</name>
+	<name>moneybags_waiter</name>
+	<name>twoface_waiter</name>
+	<name>downsizer_waiter</name>
+	<name>backstabber_waiter</name>
+	<name>numbercruncher_waiter</name>
+	<name>mover_and_shaker_waiter</name>
+	<name>micromanager_waiter</name>
+	<name>ambulancechaser_waiter</name>
+	<name>bean_counter_waiter</name>
+	<name>tightwad_waiter</name>
+	<name>glad_hander_waiter</name>
+	<name>yesman_waiter</name>
+	<name>double_talker_waiter</name>
+	<name>name_dropper_waiter</name>
+</blueprintList>
+
+<blueprintList name="LIST_COG_RANDOM_SPECIAL">
+	<name>jack_brie</name>
+	<name>judge</name>
+	<name>robert</name>
+	<name>holiday</name>
+	<name>comrade</name>
+	<name>lawrence</name>
+	<name>bruce</name>
+	<name>lily</name>
+	<name>honcho</name>
+	<name>dr_spin</name>
+	<name>monee</name>
+	<name>harvey</name>
+	<name>debbie</name>
+	<name>mira</name>
+	<name>ac08</name>
+	<name>yessum</name>
+</blueprintList>
+
+<!--
+////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
+			TOONTOWN CREW LISTS (pending toons being added)
+////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
+-->
+<blueprintList name="LIST_CREW_COGS">
+	<name>big_cheese</name>
+	<name>big_cheese_elite</name>
+	<name>big_cheese_waiter</name>
+	<name>big_cheese_hologram</name>
+	<name>corporateraider</name>
+	<name>corporateraider_elite</name>
+	<name>corporateraider_waiter</name>
+	<name>corporateraider_hologram</name>
+	<name>headhunter</name>
+	<name>headhunter_elite</name>
+	<name>headhunter_hologram</name>
+	<name>headhunter_waiter</name>
+	<name>downsizer</name>
+	<name>downsizer_elite</name>
+	<name>downsizer_hologram</name>
+	<name>downsizer_waiter</name>
+	<name>micromanager</name>
+	<name>micromanager_elite</name>
+	<name>micromanager_hologram</name>
+	<name>micromanager_waiter</name>
+	<name>yesman</name>
+	<name>yesman_elite</name>
+	<name>yesman_hologram</name>
+	<name>yesman_waiter</name>
+	<name>bigwig</name>
+	<name>bigwig_elite</name>
+	<name>bigwig_waiter</name>
+	<name>bigwig_hologram</name>
+	<name>legaleagle</name>
+	<name>legaleagle_elite</name>
+	<name>legaleagle_waiter</name>
+	<name>legaleagle_hologram</name>
+	<name>spindoctor</name>
+	<name>spindoctor_elite</name>
+	<name>spindoctor_hologram</name>
+	<name>spindoctor_waiter</name>
+	<name>backstabber</name>
+	<name>backstabber_elite</name>
+	<name>backstabber_waiter</name>
+	<name>backstabber_hologram</name>
+	<name>ambulancechaser</name>
+	<name>ambulancechaser_elite</name>
+	<name>ambulancechaser_waiter</name>
+	<name>ambulancechaser_hologram</name>
+	<name>double_talker</name>
+	<name>double_talker_elite</name>
+	<name>double_talker_hologram</name>
+	<name>double_talker_waiter</name>
+	<name>robberbaron</name>
+	<name>robberbaron_elite</name>
+	<name>robberbaron_waiter</name>
+	<name>robberbaron_hologram</name>
+	<name>loanshark</name>
+	<name>loanshark_elite</name>
+	<name>loanshark_waiter</name>
+	<name>loanshark_hologram</name>
+	<name>moneybags</name>
+	<name>moneybags_elite</name>
+	<name>moneybags_hologram</name>
+	<name>moneybags_waiter</name>
+	<name>numbercruncher</name>
+	<name>numbercruncher_elite</name>
+	<name>numbercruncher_waiter</name>
+	<name>numbercruncher_hologram</name>
+	<name>bean_counter</name>
+	<name>bean_counter_elite</name>
+	<name>bean_counter_hologram</name>
+	<name>bean_counter_waiter</name>
+	<name>penny_p</name>
+	<name>penny_p_elite</name>
+	<name>penny_p_waiter</name>
+	<name>penny_p_hologram</name>
+	<name>mrhollywood</name>
+	<name>mrhollywood_elite</name>
+	<name>mrhollywood_waiter</name>
+	<name>mrhollywood_hologram</name>
+	<name>mingler</name>
+	<name>mingler_elite</name>
+	<name>mingler_waiter</name>
+	<name>mingler_hologram</name>
+	<name>twoface</name>
+	<name>twoface_elite</name>
+	<name>twoface_hologram</name>
+	<name>twoface_waiter</name>
+	<name>mover_and_shaker</name>
+	<name>mover_and_shaker_elite</name>
+	<name>mover_and_shaker_hologram</name>
+	<name>mover_and_shaker_waiter</name>
+	<name>glad_hander</name>
+	<name>glad_hander_elite</name>
+	<name>glad_hander_waiter</name>
+	<name>glad_hander_hologram</name>
+	<name>name_dropper</name>
+	<name>name_dropper_elite</name>
+	<name>name_dropper_waiter</name>
+	<name>name_dropper_hologram</name>
+</blueprintList>
+	
+<blueprintList name="LIST_CREW_BOSSBOT">
+	<name>big_cheese</name>
+	<name>big_cheese_elite</name>
+	<name>big_cheese_waiter</name>
+	<name>big_cheese_hologram</name>
+	<name>corporateraider</name>
+	<name>corporateraider_elite</name>
+	<name>corporateraider_waiter</name>
+	<name>corporateraider_hologram</name>
+	<name>headhunter</name>
+	<name>headhunter_elite</name>
+	<name>headhunter_hologram</name>
+	<name>headhunter_waiter</name>
+	<name>downsizer</name>
+	<name>downsizer_elite</name>
+	<name>downsizer_hologram</name>
+	<name>downsizer_waiter</name>
+	<name>micromanager</name>
+	<name>micromanager_elite</name>
+	<name>micromanager_hologram</name>
+	<name>micromanager_waiter</name>
+	<name>yesman</name>
+	<name>yesman_elite</name>
+	<name>yesman_hologram</name>
+	<name>yesman_waiter</name>
+</blueprintList>
+
+<blueprintList name="LIST_CREW_LAWBOT">
+	<name>bigwig</name>
+	<name>bigwig_elite</name>
+	<name>bigwig_waiter</name>
+	<name>bigwig_hologram</name>
+	<name>legaleagle</name>
+	<name>legaleagle_elite</name>
+	<name>legaleagle_waiter</name>
+	<name>legaleagle_hologram</name>
+	<name>spindoctor</name>
+	<name>spindoctor_elite</name>
+	<name>spindoctor_hologram</name>
+	<name>spindoctor_waiter</name>
+	<name>backstabber</name>
+	<name>backstabber_elite</name>
+	<name>backstabber_waiter</name>
+	<name>backstabber_hologram</name>
+	<name>achaser</name>
+	<name>achaser_elite</name>
+	<name>achaser_waiter</name>
+	<name>achaser_hologram</name>
+	<name>double_talker</name>
+	<name>double_talker_elite</name>
+	<name>double_talker_hologram</name>
+	<name>double_talker_waiter</name>
+</blueprintList>
+
+<blueprintList name="LIST_CREW_CASHBOT">
+	<name>robberbaron</name>
+	<name>robberbaron_elite</name>
+	<name>robberbaron_waiter</name>
+	<name>robberbaron_hologram</name>
+	<name>loanshark</name>
+	<name>loanshark_elite</name>
+	<name>loanshark_waiter</name>
+	<name>loanshark_hologram</name>
+	<name>moneybags</name>
+	<name>moneybags_elite</name>
+	<name>moneybags_hologram</name>
+	<name>moneybags_waiter</name>
+	<name>numbercruncher</name>
+	<name>numbercruncher_elite</name>
+	<name>numbercruncher_waiter</name>
+	<name>numbercruncher_hologram</name>
+	<name>bean_counter</name>
+	<name>bean_counter_elite</name>
+	<name>bean_counter_hologram</name>
+	<name>bean_counter_waiter</name>
+	<name>penny_p</name>
+	<name>penny_p_elite</name>
+	<name>penny_p_waiter</name>
+	<name>penny_p_hologram</name>
+</blueprintList>
+
+<blueprintList name="LIST_CREW_SELLBOT">
+	<name>mrhollywood</name>
+	<name>mrhollywood_elite</name>
+	<name>mrhollywood_waiter</name>
+	<name>mrhollywood_hologram</name>
+	<name>mingler</name>
+	<name>mingler_elite</name>
+	<name>mingler_waiter</name>
+	<name>mingler_hologram</name>
+	<name>twoface</name>
+	<name>twoface_elite</name>
+	<name>twoface_hologram</name>
+	<name>twoface_waiter</name>
+	<name>mover_and_shaker</name>
+	<name>mover_and_shaker_elite</name>
+	<name>mover_and_shaker_hologram</name>
+	<name>mover_and_shaker_waiter</name>
+	<name>glad_hander</name>
+	<name>glad_hander_elite</name>
+	<name>glad_hander_waiter</name>
+	<name>glad_hander_hologram</name>
+	<name>name_dropper</name>
+	<name>name_dropper_elite</name>
+	<name>name_dropper_waiter</name>
+	<name>name_dropper_hologram</name>
+</blueprintList>
+
+<blueprintList name="LIST_CREW_UNIQUEBOT">
+	<name>jack_brie</name>
+	<name>comrade</name>
+	<name>honcho</name>
+	<name>debbie</name>
+	<name>mira</name>
+	<name>yessum</name>
+	<name>judge</name>
+	<name>lawrence</name>
+	<name>dr_spin</name>
+	<name>ac08</name>
+	<name>robert</name>
+	<name>bruce</name>
+	<name>monee</name>
+	<name>lovelace</name>
+	<name>cash_crab</name>
+	<name>holiday</name>
+	<name>lily</name>
+	<name>harvey</name>
+	<name>bakker</name>
+</blueprintList>
+
+<mod:findName type="blueprintList" name="LIST_CREW_SIREN">
+	<mod-append:name>dr_spin_eldritch</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_CREW_MADNESS_IMMUNE">
+	<mod-append:name>controller</mod-append:name>
+	<mod-append:name>queen</mod-append:name>
+	<mod-append:name>herobrine</mod-append:name>
+	<mod-append:name>ac08</mod-append:name>
+	<mod-append:name>dr_spin_eldritch</mod-append:name>
+	<mod-append:name>moreso</mod-append:name>
+	<mod-append:name>dr_spin_eldritch</mod-append:name>
+	<mod-append:name>leach_eldritch</mod-append:name>
+	<mod-append:name>leach_eldritch_clone</mod-append:name>
+	<mod-append:name>leach_eldritch_clone_two</mod-append:name>
+	<mod-append:name>leach_eldritch_clone_three</mod-append:name>
+	<mod-append:name>leach_eldritch_clone_four</mod-append:name>
+	<mod-append:name>unique_jerry_gun</mod-append:name>
+	<mod-append:name>unique_jerry_pony</mod-append:name>
+	<mod-append:name>unique_jerry_pony_crystal</mod-append:name>
+</mod:findName>
+
+
+<blueprintList name="LIST_CREW_SPINDR">
+	<name>spindoctor</name>
+	<name>spindoctor_elite</name>
+	<name>spindoctor_hologram</name>
+</blueprintList>
+
+<blueprintList name="LIST_CREW_SPINDR_WAITER">
+	<name>spindoctor_waiter</name>
+</blueprintList>
+
+<blueprintList name="LIST_CREW_DRSPIN">
+	<name>dr_spin</name>
+</blueprintList>
+
+<blueprintList name="LIST_CREW_GODSPIN">
+	<name>dr_spin_eldritch</name>
+</blueprintList>
+</FTL>

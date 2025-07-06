@@ -1,0 +1,67 @@
+<FTL>
+<music>
+	<track> <!--stole from Jorel on Final Boss Theme - Minesweeper - https://www.youtube.com/watch?v=amTsBProNo4-->
+		<name>criticalerror</name>
+		<explore>criticalerror.ogg</explore>
+	</track>
+	<track> <!--borrowed from StarFury (Toontown Remixes)-->
+		<name>lawbot_explore</name>
+		<explore>cm_MUS_LawbotEXPLORE.ogg</explore>
+	</track>
+	<track> <!--borrowed from StarFury (Toontown Remixes)-->
+		<name>lawbot_battle</name>
+		<explore>cm_MUS_LawbotBATTLE.ogg</explore>
+	</track>
+	<track> <!--borrowed from StarFury (Toontown Remixes)-->
+		<name>holographic_trouble</name>
+		<explore>cm_MUS_HolographicTroubleEXPLORE.ogg</explore>
+		<combat>cm_MUS_HolographicTroubleBATTLE.ogg</combat>
+	</track>
+	<track> 
+		<name>the_final_break</name>
+		<explore>cm_Fourth_Wall_Collapse.ogg</explore>
+	</track>
+	<track> 
+		<name>the_final_battle</name>
+		<explore>cm_Control_Freak.ogg</explore>
+	</track>
+</music>
+
+<!--CREW-->
+
+<cog_death volume="6">aliens/cog_death.ogg</cog_death>
+
+
+
+<dr_spin_eldritch_power volume="4">aliens/dr_spin_eldritch_power.ogg</dr_spin_eldritch_power>
+
+<dr_spin_eldritch_effect volume="5">aliens/dr_spin_eldritch_effect.ogg</dr_spin_eldritch_effect>
+
+<mingler_stun_talk volume="6">aliens/mingler_stun_talk.ogg</mingler_stun_talk>
+
+<SA_tremor volume="6">aliens/SA_tremor.ogg</SA_tremor>
+
+
+<SA_tee_off volume="6">aliens/SA_tee_off.ogg</SA_tee_off>
+
+<reality_shift volume="6">aliens/reality_shift.ogg</reality_shift>
+
+<LEACHLaughter volume="4">aliens/LEACHLaughter.ogg</LEACHLaughter>
+
+<failure volume="6">aliens/failure.ogg</failure>
+
+<Yessum_spawn_in volume="6">aliens/Yessum_spawn_in.ogg</Yessum_spawn_in>
+
+<ND_Pot volume="6">aliens/ND_Pot.ogg</ND_Pot>
+
+<ND_VPot volume="6">aliens/ND_VPot.ogg</ND_VPot>
+
+<ND_Anvil volume="6">aliens/ND_Anvil.ogg</ND_Anvil>
+
+<ND_Piano volume="6">aliens/ND_Piano.ogg</ND_Piano>
+
+<ND_Boat volume="6">aliens/ND_Boat.ogg</ND_Boat>
+
+<Photo_shutter volume="6">aliens/Photo_shutter.ogg</Photo_shutter>
+
+</FTL>

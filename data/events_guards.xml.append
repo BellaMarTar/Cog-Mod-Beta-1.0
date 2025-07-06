@@ -1,0 +1,155 @@
+<FTL>
+<!--
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+					Spin Doctor Sector
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->	
+
+<textList name="TEXT_START_SPIN_DOCTOR">
+	<text>You have arrived in a Spin Doctor Controlled Sector. They aren't known to have the greatest sense of humor. Don't expect to pass through here without conflict due to your fleshy nature.</text>
+	<text>You have arrived in a Spin Doctor Controlled Sector. These doctors aren't always here to help people. You should try to tread carefully as they are not afraid to send large boarding parties.</text>
+	<text>You have arrived in a Spin Doctor Controlled Sector. Don't bother showing your vaccine records, as they do not seem to care about injecting you with anything helpful for your immunity system.</text>
+</textList>
+
+<event name="ENTER_SPIN_DOCTOR">
+	<preventQuest/>
+	<beaconType id="map_icon_start" global="false">
+		<color r="46" g="252" b="51" a="1"/>
+	</beaconType>
+	<text>You've arrived in Spin Doctor controlled area.</text>
+	<ship load="COG_GUARD_SPIN_DOCTOR" hostile="false"/>
+	<changeBackground>BACK_SECTOR_ENGI</changeBackground>
+	<playSound>lightspeed</playSound>
+	<remove name="HIDDEN DUMMY"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="GUARD_SPIN_DOCTOR"/>
+	</choice>
+</event>
+
+<event name="GUARD_SPIN_DOCTOR">
+	<text>The Spin Doctors tend to be a bit vicious against fleshy controlled ships such as yours. It comes as no surprise that they immediately power on their weapons as soon as you arrive without so much as a 'Hello'.</text>
+	<choice hidden="true">
+		<text>Prepare for combat!</text>
+		<event>
+			<text>You lock your weapons onto the guard and move in to attack.</text>
+			<ship hostile="true"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LIST_CREW_SPINDR" hidden="true">
+		<text>(Spin Doctor) Try to hail with your Spin Doctor.</text>
+		<event>
+			<text>It takes several tries to get them to answer, but eventually they respond, and, with your Spin Doctor posing as captain, they grumble an apology and allow you to pass.</text>
+			
+		</event>
+	</choice>
+	<choice req="LIST_CREW_SPINDR_WAITER" hidden="true">
+		<text>(Spin Doctor Waiter) Hail with your Spin Doctor Waiter.</text>
+		<event>
+			<text>The sight of your Waiter Spin Doctor actually gets the ship to stop its assault rather quickly. Your Waiter then requests some kind of support for the journey which the guard obeys and hands off a small supply.</text>
+				<autoReward level="LOW">standard</autoReward>
+		</event>
+	</choice>
+	<choice req="LIST_CREW_DRSPIN" hidden="true">
+		<text>(Dr Spin) Hail with Dr Spin.</text>
+		<event>
+			<text>It takes mere moments for the guard to halt its assault as the Doctor contacts them directly. After a short discussion, the guard agrees to handle the advancing fleet as an apology for inconviencing the Doctor.</text>
+				<modifyPursuit amount="-2"/>
+		</event>
+	</choice>
+	<choice req="LIST_CREW_GODSPIN" hidden="true">
+		<text>(Dr Spin) Hail with Dr Spin.</text>
+		<event>
+			<text>The guard is more than a little shocked to see the all powerful Doctor in their presence. They offer all that they can in exchange for his mercy, including a spare weapon they had in storage.</text>
+				<modifyPursuit amount="-2"/>
+				<autoReward level="HIGH">weapon</autoReward>
+		</event>
+	</choice>
+</event>
+
+<ship name="COG_GUARD_SPIN_DOCTOR" auto_blueprint="SHIP_GUARD_SPIN_DOCTOR">
+	<surrender min="6" max="7" load="GUARD_SIGNAL"/>
+	<destroyed load="GUARD_SPINDOCTOR_DESTROY"/>
+	<deadCrew load="GUARD_SPINDOCTOR_DEADCREW"/>
+</ship>
+
+<event name="GUARD_SPINDOCTOR_DESTROY">
+	<text>You've destroyed the Spin Doctors' guard ship. Don't expect them to take this lying down. There will be reinforcements somewhere; let's hope you don't have to meet them.</text>
+	<autoReward level="HIGH">standard</autoReward>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="GUARD_SPINDOCTOR_FOLLOWUP"/>
+	</choice>
+</event>
+<event name="GUARD_SPINDOCTOR_DEADCREW">
+	<text>Despite the difficulties of killing these self healing cogs, you've managed to pull it off.</text>
+	<autoReward level="HIGH">standard</autoReward>
+	<choice hidden="true">
+		<text>Continue to scrap the ship.</text>
+		<event load="GUARD_SPINDOCTOR_FOLLOWUPBUFF"/>
+	</choice>
+</event>
+
+<event name="GUARD_SPINDOCTOR_FOLLOWUP">
+	<noQuestText/>
+	<removeHazards/>
+	<text>By killing the Rebel guard, you have no doubt caused them to dispatch reinforcements to track you down. Watch your step as you explore the sector.</text>
+	<quest event="REINFORCEMENTS_SPINDOCTOR"/>
+	<choice>
+		<text>Do something onboard the ship.</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+	<choice>
+		<text>Do nothing.</text>
+		<event/>
+	</choice>
+</event>
+<event name="GUARD_SPINDOCTOR_FOLLOWUPBUFF">
+	<noQuestText/>
+	<removeHazards/>
+	<text>Inside you find an interesting looking flak gun and a sector map. Although, because you killed the guard crew, expect the reinforcements to be a little more careful with fighting you if you stumble into them again.</text>
+	<quest event="REINFORCEMENTS_SPINDOCTORBUFF"/>
+	<choice>
+		<text>Do something onboard the ship.</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+	<choice>
+		<text>Do nothing.</text>
+		<event/>
+	</choice>
+</event>
+
+<ship name="SHIP_SPINDOCTOR_REINFORCEMENTS" auto_blueprint="">
+	<destroyed load="DESTROYED_REINFORCEMENTS"/>
+	<deadCrew load="DEADCREW_REINFORCEMENTS"/>
+</ship>
+
+
+<event name="REINFORCEMENTS_REBELHOLD">
+	<preventQuest/>
+	<beaconType id="map_icon_reinforcements" global="true" req="LOOT_COMPASS">
+		<color r="200" g="55" b="82" a="1"/>
+		<unvisitedTooltip>An unvisited location. (dont go here, may crash)</unvisitedTooltip>
+		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
+		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+	</beaconType>
+	<text>An Elite Rebel ship comes barreling towards you, its entire array of weapons ready to go. You assume this must be the ship sent by the guard to hunt you down and prepare to defend your ship.</text>
+	<ship load="SHIP_REBELHOLD_REINFORCEMENTS" hostile="true"/>
+	<environment type="PDS" target="player"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="COMBAT_CHECK"/>
+	</choice>
+</event>
+
+</FTL>

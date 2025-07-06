@@ -1,0 +1,565 @@
+<FTL>
+<mod:findName type="event" name="STORAGE_CHECK_CREW_REAL">
+<mod-append:choice req="spindoctor" blue="false" hidden="true">
+	<text>Look for the Spin Doctor.</text>
+	<event load="STORAGE_CHECK_CREW_SPIN_DOCTOR"/>
+</mod-append:choice>
+</mod:findName>
+<event name="STORAGE_CHECK_CREW_SPIN_DOCTOR">
+	<text>What do you want to do with your friendly Spin Doctor?</text>
+	<choice>
+		<text>Nevermind, do something else.</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+	<choice hidden="true">
+		<text id="talk_to_crew"/>
+		<event load="STORAGE_CHECK_CREW_SPIN_DOCTOR_TALK"/>
+	</choice>
+	<choice hidden="true">
+		<text id="scan_crew"/>
+		<event load="STORAGE_CHECK_CREW_SPIN_DOCTOR_SCAN"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_CREW_SPIN_DOCTOR_SCAN">
+	<text>SPIN DOCTOR DETAILS
+	SPECIES? [Cog] SUBTYPE? [None]
+	Subtype Details: Genetic, Standard
+	Stats: 75% damage from attacks. 175% damage to enemies. 132 Health. Heals friendly crew. Half sabotage speed. 55% movement speed. Does not take damage from fires or lack of O2.</text>
+	<choice>
+		<text>Continue...</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_CREW_SPIN_DOCTOR_TALK">
+	<text load="TEXT_CREW_TALK_SPIN_DOCTOR"/>
+	<choice>
+		<text>Continue...</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+</event>
+<textList name="TEXT_CREW_TALK_SPIN_DOCTOR">
+	<text>Your Spin Doctor admits he thinks you're a bit too "toonlike", but he is willing to ignore it for the good of the mission... You don't know what to say to that and walk away.</text>
+	<text>Your Spin Doctor requests coffee... for the 9th time.</text>
+	<text>Your Spin Doctor suggests a class action lawsuit against the rebels in a "completely fair trial".</text>
+	<text>Your Spin Doctor requests you look over labor laws for the fellow crew to avoid legal trouble.</text>
+	<text>Your Spin Doctor admits he doesn't actually need oil, he just likes the taste of it.</text>
+	<text>Your Spin Doctor is good friends with the Ambulance Chaser, but he thinks that the Chaser should slow down at times.</text>
+	<text>Your Spin Doctor thinks you should hire a publicist to counteract any bad press.</text>
+	<text>Your Spin Doctor tries to explain to you how their job works, but you quickly walk away before falling asleep.</text>
+	<text>Your Spin Doctor complains that a slug once tried to con him out of his money.</text>
+	<text>Your Spin Doctor admits he doesn't enjoy depressing Toons, as he fears legal repercussions for doing so.</text>
+	<text>Your Spin Doctor misses the Lawbot HQ. He enjoyed strolling the courtyard at night.</text>
+	<text>You are surprised when your Spin Doctor easily explains his favorite emotions (Glee, and Gloating). You didn't realize machines had advanced so far...</text>
+	<text>You try to talk to the Spin Doctor, but he is busy recharging.</text>
+	<text>Your Spin Doctor's favorite book is Animal Farm.</text>
+	<text>Your Spin Doctor is on a conference call with his broke friend, a Bottom Feeder.</text>
+	<text>You ask the Spin Doctor what it's hobby is. He tells you walking around in circles. You laugh for a moment, but quickly realize he is actually serious.</text>
+	<text>You ask Spin Doctor what he is doing and he blankly responding "talking to you, sir".</text>
+	<text>You find your Spin Doctor trying to sell his services to a local colony. You quickly demand he stop trying to focus on his second job.</text>
+	<text>You ask the Spin Doctor if he is afraid of death. He admits it is a fear of his, because there is no replacement ready to take his place.</text>
+</textList>
+
+<mod:findName type="event" name="STORAGE_CHECK_CREW_REAL">
+<mod-append:choice req="spindoctor_elite" blue="false" hidden="true">
+	<text>Look for the Elite Spin Doctor.</text>
+	<event load="STORAGE_CHECK_CREW_SPIN_DOCTOR_ELITE"/>
+</mod-append:choice>
+</mod:findName>
+<event name="STORAGE_CHECK_CREW_SPIN_DOCTOR_ELITE">
+	<text>What do you want to do with your Elitist Spin Doctor?</text>
+	<choice>
+		<text>Nevermind, do something else.</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+	<choice hidden="true">
+		<text id="talk_to_crew"/>
+		<event load="STORAGE_CHECK_CREW_SPIN_DOCTOR_ELITE_TALK"/>
+	</choice>
+	<choice hidden="true">
+		<text id="scan_crew"/>
+		<event load="STORAGE_CHECK_CREW_SPIN_DOCTOR_ELITE_SCAN"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_CREW_SPIN_DOCTOR_ELITE_SCAN">
+	<text>SPIN DOCTOR DETAILS
+	SPECIES? [Cog] SUBTYPE? [Elite Variant]
+	Subtype Details: Elite Variety. Superior Stats.
+	Stats: 65% damage from attacks. 200% damage to enemies. 198 Health. Heals friendly crew faster than normal. 70% sabotage speed. 55% movement speed. Does not take damage from fires or lack of O2.</text>
+	<choice>
+		<text>Continue...</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_CREW_SPIN_DOCTOR_ELITE_TALK">
+	<text load="TEXT_CREW_TALK_SPIN_DOCTOR_ELITE"/>
+	<choice>
+		<text>Continue...</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+</event>
+<textList name="TEXT_CREW_TALK_SPIN_DOCTOR_ELITE">
+	<text>Your Elite Spin Doctor wishes you had better coffee.</text>
+	<text>Your Elite Spin Doctor wants a bed from a very pricey furniture store. You continue to refuse until he leaves in a huff.</text>
+	<text>Your Elite Spin Doctor brags about his black suit.</text>
+	<text>Your find your Elite Spin Doctor talking into two phones at once, trying to sell twice as quickly as the average Spin Doctor. You feel like he is trying to compensate for something...</text>
+	<text>Your Elite Spin Doctor asks what kind of custom designer made your uniform. You have no idea, and eventually he gets bored and leaves.</text>
+	<text>Your Elite Spin Doctor believes any cogs below Tier 4 are the scum of the Cog Nation. You aren't sure if this is considered racist or not.</text>
+	<text>Your Elite Spin Doctor is reading the Executive Gazetteer Newsletter on his tablet.</text>
+	<text>Your Elite Spin Doctor tries to explain to you why he believes he is superior to other Spin Doctors, but after a few minutes of trying to think of an actual reason, he pretends he has a call to make and leaves quickly.</text>
+	<text>Your Elite Spin Doctor admires Slugs and they are the only species to rival his ego.</text>
+	<text>Your Elite Spin Doctor explains no lawyers would try to take him on in court, as he commonly bribes the judge in his favor beforehand.</text>
+	<text>Your Elite Spin Doctor asks you what your favorite food is. When you answer Chicken Pasta, he scoffs and remarks how any species could eat such lowly slop.</text>
+	<text>You try to explain to your Elite Spin Doctor that he can't go around the ship trying to one up every other crew member.</text>
+	<text>You find your Elite Spin Doctor in his quarters recharging. That explains the lack of snobbishness everywhere else on the ship.</text>
+	<text>Your Elite Spin Doctor admits he has a soft spot for Minglers.</text>
+	<text>You catch your Elite Spin Doctor trying to challenge other crew members to a fight. You warn the Elite Spin Doctor that he will lose certain free time privileges if he keeps it up.</text>
+	<text>You ask the Elite Spin Doctor what it's hobby is. He responds with "suing the poor".</text>
+	<text>You find the Elite Spin Doctor relaxing in his room. You don't recall giving him permission to free time, but he is currently polishing his rifle...</text>
+	<text>You ask your Elite Spin Doctor to do a simple task. He surprisingly agrees, but you catch him a literal minute later paying another crew member to do it for him.</text>
+	<text>You ask the Elite Spin Doctor what he did before coming on this ship. He simply says "business beyond your simple mind" and walks away.</text>
+</textList>
+
+<mod:findName type="event" name="STORAGE_CHECK_CREW_REAL">
+<mod-append:choice req="spindoctor_waiter" blue="false" hidden="true">
+	<text>Look for the Waiter Spin Doctor.</text>
+	<event load="STORAGE_CHECK_CREW_SPIN_DOCTOR_WAITER"/>
+</mod-append:choice>
+</mod:findName>
+<event name="STORAGE_CHECK_CREW_SPIN_DOCTOR_WAITER">
+	<text>What do you want to do with your Waiter Spin Doctor?</text>
+	<choice>
+		<text>Nevermind, do something else.</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+	<choice hidden="true">
+		<text id="talk_to_crew"/>
+		<event load="STORAGE_CHECK_CREW_SPIN_DOCTOR_WAITER_TALK"/>
+	</choice>
+	<choice hidden="true">
+		<text id="scan_crew"/>
+		<event load="STORAGE_CHECK_CREW_SPIN_DOCTOR_WAITER_SCAN"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_CREW_SPIN_DOCTOR_WAITER_SCAN">
+	<text>SPIN DOCTOR DETAILS
+	SPECIES? [Cog] SUBTYPE? [Waiter Variant]
+	Subtype Details: Waiter Variety. Even more Superior Stats.
+	Stats: 55% damage from attacks. 230% damage to enemies. 250 Health. Heals friendly crew slower than normal. 80% sabotage speed. 55% movement speed. Does not take damage from fires or lack of O2.</text>
+	<choice>
+		<text>Continue...</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_CREW_SPIN_DOCTOR_WAITER_TALK">
+	<text load="TEXT_CREW_TALK_SPIN_DOCTOR_WAITER"/>
+	<choice>
+		<text>Continue...</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+</event>
+<textList name="TEXT_CREW_TALK_SPIN_DOCTOR_WAITER">
+	<text>Your Waiter Spin Doctor stands beside you for at least 10 minutes before you finally ask why he is standing beside you. He looks down at you and quietly says he is waiting for your orders. You explain that you have a radio and intercom for a reason.</text>
+	<text>You find a tiny mint in a bit of plastic on your pillow in your quarters. The Waiter Spin Doctor stand next to it with his hand out stretched expecting a tip. You're not sure how he got into your quarters...</text>
+	<text>Your Waiter Spin Doctor appreciates how cleanly white his suit is.</text>
+	<text>Your find your Waiter Spin Doctor polishing a waiter tray. When you ask him what it is for, he explains it was his very first tray when he first became a Waiter Cog. He promptly stole it when he was fired.</text>
+	<text>Your Waiter Spin Doctor asks what beverage you would like. You ask if there is a tip requirement and he nods. You decline service after that.</text>
+	<text>Your Waiter Spin Doctor somewhat misses the waiter job he once had, but he got tired of dealing with snobs.</text>
+	<text>Your Waiter Spin Doctor shows his watch, which is an ancient styled pearl white clock. You don't know anything about it and just say it looks nice. He seems offended.</text>
+	<text>Your Waiter Spin Doctor says he only really wants to be here, because this should be quite the tip at the end. You aren't sure how to break the news to him.</text>
+	<text>Your Waiter Spin Doctor loves Engi. Why? They are clean.</text>
+	<text>Your Waiter Spin Doctor explains he is very good at melee, because he HATES when his suit gets mudded.</text>
+	<text>Your Waiter Spin Doctor brings you an elegant looking cooked fish. You take it with a smile as he leaves, but remember that he will definitely be asking for some kind of payment for that later on.</text>
+	<text>You try to explain to your Waiter Spin Doctor that he doesn't have to serve you to this extend, but he simply holds out on hand and says "Anything for a good tip". It takes a lot to keep you from expressing irritation.</text>
+	<text>You find your Waiter Spin Doctor in his quarters recharging with a sign on the door saying "On break, back in 30."</text>
+	<text>Your Waiter Spin Doctor states his favorite customers from back in the day were Mr. Hollywoods for their remarkably perfect teeth, smile, and heavy wallets.</text>
+	<text>You fine your Waiter Spin Doctor staring out through one of the view ports. Before you can ask him anything he says "I'm on break sir. May I admire the view in solace please?"</text>
+	<text>You ask the Waiter Spin Doctor what it's hobby is. He says "Cooking meats from around the galaxy".</text>
+	<text>You find the Waiter Spin Doctor polishing a waiter tray. He seems occupied so you leave him to his business.</text>
+	<text>You ask your Waiter Spin Doctor what his real name is. He blinks at you for an awkward amount of time and simply says "I don't know".</text>
+	<text>You ask why a medically trained spin doctor works as a waiter. Waiter Spin Doctor almost looks furious at you and mutters "I can still heal others you know.."</text>
+	<text>Your Waiter Spin Doctor reveals that he was also the head chef at a restaurant once. He left it soon after, because he didn't like the management".</text>
+</textList>
+
+<mod:findName type="event" name="STORAGE_CHECK_CREW_REAL">
+<mod-append:choice req="spindoctor_hologram" blue="false" hidden="true">
+	<text>Look for the Hologram Spin Doctor.</text>
+	<event load="STORAGE_CHECK_CREW_SPIN_DOCTOR_HOLOGRAM"/>
+</mod-append:choice>
+</mod:findName>
+<event name="STORAGE_CHECK_CREW_SPIN_DOCTOR_HOLOGRAM">
+	<text>What do you want to do with your Hologram Spin Doctor?</text>
+	<choice>
+		<text>Nevermind, do something else.</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+	<choice hidden="true">
+		<text id="talk_to_crew"/>
+		<event load="STORAGE_CHECK_CREW_SPIN_DOCTOR_HOLOGRAM_TALK"/>
+	</choice>
+	<choice hidden="true">
+		<text id="scan_crew"/>
+		<event load="STORAGE_CHECK_CREW_SPIN_DOCTOR_HOLOGRAM_SCAN"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_CREW_SPIN_DOCTOR_HOLOGRAM_SCAN">
+	<text>SPIN DOCTOR DETAILS
+	SPECIES? [Cog] SUBTYPE? [Holographic]
+	Subtype Details: Hologram Variety. Average Stats.
+	Stats: 50% damage from attacks. 150% damage to enemies. 132 Health. Heals friendly crew very poorly. 40% sabotage speed. 60% movement speed. Does not take damage from fires or lack of O2.</text>
+	<choice>
+		<text>Continue...</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_CREW_SPIN_DOCTOR_HOLOGRAM_TALK">
+	<text load="TEXT_CREW_TALK_SPIN_DOCTOR_HOLOGRAM"/>
+	<choice>
+		<text>Continue...</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+</event>
+<textList name="TEXT_CREW_TALK_SPIN_DOCTOR_HOLOGRAM">
+	<text>Your Hologram Spin Doctor suddenly appears behind you and asks what you would like for him to do. You swear he said it louder than necessary to make you jump.</text>
+	<text>Your Hologram Spin Doctor doesn't seem to mind not being totally real.</text>
+	<text>Your Hologram Spin Doctor reveals he actually hates the color red. He wishes he was blue.</text>
+	<text>Your find your Hologram Spin Doctor passing through the walls at one point. You're not sure if you can tell him not to do that.</text>
+	<text>Your Hologram Spin Doctor asks what it's like to have to deal with solid surfaces. You don't really know how to explain the feeling.</text>
+	<text>You ask your Hologram Spin Doctor what it's like being a hologram. He seems puzzled for a moment and shrugs without a word before passing through the wall.</text>
+	<text>Your Hologram Spin Doctor is spying behind one of the crew members.</text>
+	<text>Your Hologram Spin Doctor is nowhere to be found. Sensors indicate he is actually outside the ship hanging by one of the thrusters.</text>
+	<text>Your Hologram Spin Doctor actually has quite a few contacts with the Phantoms and Mares. He says he hates both species though.</text>
+	<text>Your Hologram Spin Doctor explains that because he isn't real, he doesn't need energy to survive. He just runs on Dark Matter. You're pretty sure he's lying about that last part.</text>
+	<text>Your Hologram Spin Doctor asks what it is like to taste food. You can't explain very well.</text>
+	<text>You try to explain to your Hologram Spin Doctor about cloaking technology. He asks why don't you just stay in cloaking forever then if it's that good.</text>
+	<text>You find your Hologram Spin Doctor in your quarters. You demand he leaves at once, but he just shrugs at you and requests that you show him how to use your chess board first.</text>
+	<text>Your Hologram Spin Doctor finds skelecog holograms terrifying.</text>
+	<text>You ask your Hologram Spin Doctor about how he became a Hologram. He says a dog, cat, and two mice set off a laser grid trap and he murdered all of them and then left to the cosmos. You can't tell if he is joking.</text>
+	<text>You ask the Hologram Spin Doctor what it's hobby is. "What is a hobby?"</text>
+	<text>You find the Hologram Spin Doctor programming his virtual gun. You want to ask how his virtual gun can do real damage, but you decide it's beyond your simple mind.</text>
+	<text>You ask your Hologram Spin Doctor about other types of Holograms. He says they all act the same more or less.</text>
+	<text>You try to ask the Hologram Spin Doctor about toning down his jumpscares, but he just simplty passes through a wall to escape you. </text>
+</textList>
+
+<mod:findName type="event" name="STORAGE_CHECK_CREW_REAL">
+<mod-append:choice req="dr_spin" blue="false" hidden="true">
+	<text>Look for Dr. Spin.</text>
+	<event load="STORAGE_CHECK_CREW_DR_SPIN"/>
+</mod-append:choice>
+</mod:findName>
+<event name="STORAGE_CHECK_CREW_DR_SPIN">
+	<text>What do you want to do with Dr. Spin?</text>
+	<choice>
+		<text>Nevermind, do something else.</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+	<choice hidden="true">
+		<text id="talk_to_crew"/>
+		<event load="STORAGE_CHECK_CREW_DR_SPIN_TALK"/>
+	</choice>
+	<choice hidden="true">
+		<text id="scan_crew"/>
+		<event load="STORAGE_CHECK_CREW_DR_SPIN_SCAN"/>
+	</choice>
+	<choice hidden="true">
+		<text id="test_prime"/>
+		<event load="STORAGE_CHECK_CREW_DR_SPIN_PRIME"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_CREW_DR_SPIN_PRIME">
+	<text>Continue...</text>
+	<boarders min="1" max="1" class="prime"/>
+</event>
+<event name="STORAGE_CHECK_CREW_DR_SPIN_JERRY">
+	<text>Continue...</text>
+	<boarders min="1" max="1" class="jerrycj"/>
+</event>
+<event name="STORAGE_CHECK_CREW_DR_SPIN_SCAN">
+	<text>SPIN DOCTOR DETAILS
+	SPECIES? [Cog] SUBTYPE? [Stand Alone Cog Type]
+	Subtype Details: Dr. Spin. Strongest of the Spin Doctor Stats.
+	Stats: 50% damage from attacks. 250% damage to enemies. 300 Health. Does NOT heal friendly crew. 150% sabotage speed. 100% movement speed. Does not take damage from fires or lack of O2.</text>
+	<choice>
+		<text>Continue...</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_CREW_DR_SPIN_TALK">
+	<text load="TEXT_CREW_TALK_DR_SPIN"/>
+	<choice>
+		<text>Continue...</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+</event>
+<textList name="TEXT_CREW_TALK_DR_SPIN">
+	<text>Dr. Spin stats he left Cog Nation because he was tired of the endless war between machine and cartoon.</text>
+	<text>Dr. Spin doesn't seem to care that you of a fleshy origin, but he does seem to dislike the fact slightly.</text>
+	<text>Dr. Spin reveals he actually is a master sniper user, but he didn't bring his personal one aboard... mostly because he said it would punch a hole in the ship if he shot it.</text>
+	<text>Dr. Spin asks if you ever considered using more Flak Technology. "Only a sucker doesn't believe a flak isn't useful."</text>
+	<text>You ask Dr. Spin what he did before this. For some reason, he pretends he didn't hear you.</text>
+	<text>You ask Dr. Spin about his hobbies. He explains he loves treasure hunting for Ancient Technology.</text>
+	<text>Dr. Spin is reading a random book with no title. You are about to demand he gets back to his station, but his secondary rifle is in his lap and is clearly has the safety off.</text>
+	<text>Dr. Spin is nowhere to be found. Turns out he simply disabled the ship's ability to track him. It takes a little while to convince him to allow it again.</text>
+	<text>Dr. Spin explains he once came from a far more powerful force than even the Ancients, but he trails off shortly after that claim.</text>
+	<text>Dr. Spin is busy chatting on the communicator to a friend of his. He quickly ushers you out of his quarters so he can resume in peace. If he wasn't so useful, you'd probably fire him at this point.</text>
+	<text>Dr. Spin asks why you don't just build a bigger flagship to verse the flagship.</text>
+	<text>You try to explain to Dr. Spin about some previous ships you commanded. He looks you up and down and merely asks "So you got them all killed or did they do it to themselves?" You wince at the blunt rudeness he demonstrated.</text>
+	<text>You find Dr. Spin in your quarters inspecting your personal model car from the early 21st century. He says it looks very pollutive. You ask through gritted teeth how he got into your quarters and he simply points to the melted part of the wall.</text>
+	<text>Dr. Spin likes MFK members. They seem very tough and actually worth a fight in a 2 v 1 battle.</text>
+	<text>You ask Dr. Spin about his origin. He only says "Don't ask things that you can't know."</text>
+	<text>You ask Dr. Spin how he became on top of all Spin Doctors. "Luck sir. Go on a date with Lady Luck and you'll be rewarded."</text>
+	<text>You find Dr. Spin  looking on a tablet in the weapons room. When you ask what he is looking for, he says "More of those trash slinging weapons. They've very useful."</text>
+	<text>You ask Dr. Spin about his weird obsession with Flaks. He just looks at you and says "And why are you NOT obsessed with them?"</text>
+	<text>Dr. Spin asks you about your opinion with Tully. You say he is a remarkable admiral. He says clearly not as YOU are the last hope and not him.</text>
+</textList>
+
+<mod:findName type="event" name="STORAGE_CHECK_CREW_REAL">
+<mod-append:choice req="achaser" blue="false" hidden="true">
+	<text>Look for the Ambulance Chaser</text>
+	<event load="STORAGE_CHECK_CREW_AMBULANCE_CHASER"/>
+</mod-append:choice>
+</mod:findName>
+<event name="STORAGE_CHECK_CREW_AMBULANCE_CHASER">
+	<text>What do you want to do with your Ambulance Chaser?</text>
+	<choice>
+		<text>Nevermind, do something else.</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+	<choice hidden="true">
+		<text id="talk_to_crew"/>
+		<event load="STORAGE_CHECK_CREW_AMBULANCE_CHASER_TALK"/>
+	</choice>
+	<choice hidden="true">
+		<text id="scan_crew"/>
+		<event load="STORAGE_CHECK_CREW_AMBULANCE_CHASER_SCAN"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_CREW_AMBULANCE_CHASER_SCAN">
+	<text>AMBULANCE CHASER DETAILS
+	SPECIES? [Cog] SUBTYPE? [None]
+	Subtype Details: Genetic, Standard
+	Stats: 130% damage to enemies. 90 Health. Heals friendly crew. Half sabotage speed. 110% movement speed. Does not take damage from fires or lack of O2.</text>
+	<choice>
+		<text>Continue...</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_CREW_AMBULANCE_CHASER_TALK">
+	<text load="TEXT_CREW_TALK_AMBULANCE_CHASER"/>
+	<choice>
+		<text>Continue...</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+</event>
+<textList name="TEXT_CREW_TALK_AMBULANCE_CHASER">
+	<text>Your Ambulance Chaser tilts his mechanical head when you ask if he has a name from birth. He shakes his head, but surprisingly states he thinks it was something like "AC-0311308". What an interesting name...</text>
+	<text>Your Ambulance Chaser doesn't seem to understand why you don't try to bury the Rebel Fleet in paperwork. It's hard to tell if he meant this as some attempt at a joke or if he meant figuratively.</text>
+	<text>Your Ambulance Chaser says he would gladly represent you in the court of law should you be sued. He quickly revokes his offer once you mention some of the deeds you've committed in your life.</text>
+	<text>Your Ambulance Chaser is actually afraid of Legal Eagles. He thinks they are one of the few Cogs that can out lawyerese him.</text>
+	<text>Your Ambulance Chaser explains that Spin Doctors and Ambulance Chasers go together like oil and pistons. "Do you know how a motor works sir?"</text>
+	<text>Your Ambulance Chaser admits that he wanted to learn how to golf just like all the Bossbots, but as a Lawbot, he never had a chance. He doesn't regret it though, he likes to pretend it's golf by throwing balls of paper into a trashcan. It takes a while to explain to him that that isn't what golf is either.</text>
+	<text>Your Ambulance Chaser believes that a good idea is to stall a battle so the enemy surrenders from boredom. You have to explain that enemy ships will continue firing forever unless you damaged them enough or they die trying.</text>
+	<text>Your Ambulance Chaser reminisces about the time he managed to defeat a high level Toon. At his level, that's a legendary achievement and a good retiring clause.</text>
+	<text>Your Ambulance Chaser cheerfully reminds you about being a lawyer; "You can find anyone to defend anything for the right price."</text>
+	<text>Your Ambulance Chaser seems to know and not know how depression works. He gets its about sadness and gloom, but thats the best kind of work environment in a lawyer tower compared to other atmospheres.</text>
+	<text>Your Ambulance Chaser likes being by the beach on planets that have such geological features, quoting some ocean texts or something. You lost track after the second random quote from some author that probably doesn't exist.</text>
+	<text>You can't find the Ambulance Chaser anywhere. Sensors indicate he is in his quarters reading up on some law books.</text>
+	<text>You try to talk to the Ambulance Chaser, but he is busy recharging.</text>
+	<text>Your Spin Doctor's favorite book is To Kill a MockingJay.</text>
+	<text>Your Ambulance Chaser is fond of your leadership. Besides the plain murder part, but that's not really something to worry about right now.</text>
+	<text>You ask the Ambulance Chaser what it's hobby is. He says writing for 8 hours a day. He actually misses the activity since he doesn't have time now for it.</text>
+	<text>You ask Ambulance Chaser what he likes to do. He says fiddling with a little pencil sculpture he was making between writing tasks."</text>
+	<text>You find your Ambulance Chaser chatting to someone on his personal device. He almost seemed to smile with that mechanical face of his.</text>
+	<text>You tell the Ambulance Chaser that you have some questions about law to give him something to do like he did back home. He pulls out a gigantic book from his pocket (apparently) and drops the book on your desk with a loud thud. He pulls open the cover and looks at you . "What question did you have, sir?"</text>
+</textList>
+
+<mod:findName type="event" name="STORAGE_CHECK_CREW_REAL">
+<mod-append:choice req="achaser_elite" blue="false" hidden="true">
+	<text>Look for the Elite Ambulance Chaser</text>
+	<event load="STORAGE_CHECK_CREW_AMBULANCE_CHASER_ELITE"/>
+</mod-append:choice>
+</mod:findName>
+<event name="STORAGE_CHECK_CREW_AMBULANCE_CHASER_ELITE">
+	<text>What do you want to do with your Elite Ambulance Chaser?</text>
+	<choice>
+		<text>Nevermind, do something else.</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+	<choice hidden="true">
+		<text id="talk_to_crew"/>
+		<event load="STORAGE_CHECK_CREW_AMBULANCE_CHASER_ELITE_TALK"/>
+	</choice>
+	<choice hidden="true">
+		<text id="scan_crew"/>
+		<event load="STORAGE_CHECK_CREW_AMBULANCE_CHASER_ELITE_SCAN"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_CREW_AMBULANCE_CHASER_ELITE_SCAN">
+	<text>AMBULANCE CHASER DETAILS
+	SPECIES? [Cog] SUBTYPE? [Elite Variant]
+	Subtype Details: Elite Variety. Trade off Stats.
+	Stats: 150% damage to enemies. 135 Health. Heals friendly crew and self slower than normal. 50% more sabotage speed. 120% movement speed. 40% Repair Speed. Does not take damage from fires or lack of O2.</text>
+	<choice>
+		<text>Continue...</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_CREW_AMBULANCE_CHASER_ELITE_TALK">
+	<text load="TEXT_CREW_TALK_AMBULANCE_CHASER_ELITE"/>
+	<choice>
+		<text>Continue...</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+</event>
+<textList name="TEXT_CREW_TALK_AMBULANCE_CHASER_ELITE">
+	<text>Your Elite Ambulance Chaser will only chase after big title lawsuits or class action. He is uninterested in covering the butts of the uninsured or the poor.</text>
+	<text>Your Elite Ambulance Chaser doesn't seem to understand the concept of a fair trial. "But the goal is to win the case. Why not take every advantage you can?"</text>
+	<text>Your Elite Ambulance Chaser says he only took the job with you because of the pay. You ask if he meant the 175 scrap, but he laughs and says "No, no silly human, I meant the indirect revenue this'll bring to my image. Oh by the way, don't fail this mission. I need a victory more than you from this."</text>
+	<text>Your Elite Ambulance Chaser enjoys razzle dazzle tactics in court cases and in normal conversations. Fortunately, you aren't so easily convinced by a smile and an innocent sounding question about your scrap income.</text>
+	<text>Your Elite Ambulance Chaser wants to like Elite Spin Doctors. Too bad they are more Elite than he is.</text>
+	<text>Your Elite Ambulance Chaser admits that he actually likes having some cheaper items for his tablet. Cheaper being a few hundred scrap instead of a few thousand...</text>
+	<text>Your Elite Ambulance Chaser believes he is better than any other Cogs in his lineup. When you ask for a reason to prove it, he says he will get back to you when he isnt so busy.</text>
+	<text>Your Elite Ambulance Chaser actually enjoys the hateful glares he gets when he presents damning evidence on people who were just trying to get a break. You assume this is what makes him such an elitist.</text>
+	<text>Your Elite Ambulance Chaser seems adamant about milking the poor. You don't know how to explain that its hard to "milk" someone who doesn't have any money to begin with.</text>
+	<text>Your Elite Ambulance Chaser loves dealing with stressed defendants. They tend to make more mistakes according to him.</text>
+	<text>Your Elite Ambulance Chaser loves the Leech species. They Leech off of society, just like him. You wonder how this can be a positive comparison to make.</text>
+	<text>You can't find the Elite Ambulance Chaser anywhere. Sensors indicate he is in someone else's quarters. Further investigation reveals he was trying to get them to sue someone they used to know.</text>
+	<text>You try to talk to the Ambulance Chaser, but he is busy recharging.</text>
+	<text>Your Ambulance Chaser's favorite book is The Hunger Games, but he hates how the Capital is overthrown. "It was the perfect system. Let the poor die for the rich, I always say." You have a hard time respecting him after that statement.</text>
+	<text>Your Ambulance Chaser wants to move onto greater things some day. Perhaps take down a Legal Eagle or Big Wig in a lawsuit.</text>
+	<text>You ask the Ambulance Chaser what he does in his free time. He squints at you and murmurs, "Only one who is lazy uses free time."</text>
+	<text>You ask Ambulance Chaser why he's so harsh towards those who are less fortunate than him. He merely shrugs and says "Ehh... someone has to do it." You are pretty sure thats false...</text>
+	<text>You find your Ambulance Chaser looking like he is in a trance. You are about to check on him when he silently waves you away. Guess he didn't want to be bothered.</text>
+	<text>You tell the Ambulance Chaser that its rude to talk down at certain people so often, especially when they are right in front of him. He just laughs and says "Well they shouldn't fit the stereotype so well."</text>
+</textList>
+
+<mod:findName type="event" name="STORAGE_CHECK_CREW_REAL">
+<mod-append:choice req="achaser_waiter" blue="false" hidden="true">
+	<text>Look for the Waiter Ambulance Chaser</text>
+	<event load="STORAGE_CHECK_CREW_AMBULANCE_CHASER_WAITER"/>
+</mod-append:choice>
+</mod:findName>
+<event name="STORAGE_CHECK_CREW_AMBULANCE_CHASER_WAITER">
+	<text>What do you want to do with your Waiter Ambulance Chaser?</text>
+	<choice>
+		<text>Nevermind, do something else.</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+	<choice hidden="true">
+		<text id="talk_to_crew"/>
+		<event load="STORAGE_CHECK_CREW_AMBULANCE_CHASER_WAITER_TALK"/>
+	</choice>
+	<choice hidden="true">
+		<text id="scan_crew"/>
+		<event load="STORAGE_CHECK_CREW_AMBULANCE_CHASER_WAITER_SCAN"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_CREW_AMBULANCE_CHASER_WAITER_SCAN">
+	<text>SPIN DOCTOR DETAILS
+	SPECIES? [Cog] SUBTYPE? [Elite Variant]
+	Subtype Details: Waiter Variety. Trade Off Stats.
+	Stats: 140% damage to enemies. 150 Health. Heals friendly crew faster and self than normal. 40% more sabotage speed. 150% movement speed. 80% Repair Speed. Does not take damage from fires or lack of O2.</text>
+	<choice>
+		<text>Continue...</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_CREW_AMBULANCE_CHASER_WAITER_TALK">
+	<text load="TEXT_CREW_TALK_AMBULANCE_CHASER_WAITER"/>
+	<choice>
+		<text>Continue...</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+</event>
+<textList name="TEXT_CREW_TALK_AMBULANCE_CHASER_WAITER">
+	<text>Your Waiter Ambulance Chaser likes the Zoltan for some odd reason. Something to do with their power and ministry.</text>
+	<text>Your Waiter Ambulance Chaser surprisingly admits that he hates the Elite cogs types are so rude to others. He thinks the black suits get to their heads.</text>	
+	<text>Your Waiter Ambulance Chaser confides that he sometimes wishes to quit his job. He tires of chasing after lawsuits. Maybe take up politician defense?</text>	
+	<text>Your Waiter Ambulance Chaser is unavailable as he is recharging in his cabin.</text>	
+	<text>Your Waiter Ambulance Chaser asks what it is like to 'play'. You can't understand the vagueness of the question, but he explains he always wondered what it is like to just not work.</text>	
+	<text>Your Waiter Ambulance Chaser is staring out of a viewing window. He actually monologues to you about space and time and how he feels about the multiverse. It takes so long that you lose focus after a while, and ask he continue this conversation later.</text>
+	<text>Your Waiter Ambulance Chaser asks what the point of keeping any of those religious nut cases of rocks for would be. "They are slow, annoying, and basically useless in my opinion."</text>
+	<text>Your Waiter Ambulance Chaser loves whipped cream for some odd reason. "Its just so fascinating to look at it."</text>
+	<text>The Waiter Ambulance Chaser seems interested in staying in close contact with Spin Doctors. "I'd even tolerate an Elite Spin Doctor if you wouldn't mind finding them, sir."</text>
+	<text>The Cog in question is busy looking over legal cases he has to deal with. It's hard to imagine how even a machine with 3 jobs of a solder, waiter, and lawyer can feel fine.</text>
+	<text>You ask the Waiter Ambulance Chaser what he enjoys doing. He looks confused to the question and half mumbles, "To enjoy means..?"</text>
+</textList>
+
+<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
+	<mod-append:choice req="GOON_DEFEND" blue="false">
+		<text>(Goon) Set the state of the Goon. [Current mode: Anti-Person]</text>
+		<event load="COMBAT_CHECK_GOON_BATTLE"/>
+	</mod-append:choice>
+	<mod-append:choice req="GOON_BOARDER" blue="false">
+		<text>(Goon) Set the state of the Goon. [Current mode: Boarder]</text>
+		<event load="COMBAT_CHECK_GOON_BOARDER"/>
+	</mod-append:choice>
+</mod:findName>
+	
+<event name="COMBAT_CHECK_GOON_BATTLE">
+	<text>Are you sure you want to change the Goon's settings?</text>
+	<choice hidden="true">
+		<text>Set the Goon to Boarding Mode.</text>
+		<event>
+			<text>You start calibrating the Goon...</text>
+			<remove name="GOON_DEFEND"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>You finish calibrating the Goon successfully.</text>
+					<drone name="GOON_BOARDER"/>
+					<choice blue="false" req="MARKER_FLAGSHIP" lvl="0" max_group="1">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+					<choice blue="false" req="MARKER_FLAGSHIP" lvl="1" max_group="1">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK_FLAGSHIP"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" req="MARKER_FLAGSHIP" lvl="0" max_group="1"  >
+		<text>Do something else instead.</text>
+		<event load="COMBAT_CHECK"/>
+	</choice>
+	<choice blue="false" req="MARKER_FLAGSHIP" lvl="1" max_group="1">
+		<text>Do something else instead.</text>
+		<event load="COMBAT_CHECK_FLAGSHIP"/>
+	</choice>
+</event>
+<event name="COMBAT_CHECK_GOON_BOARDER">
+	<text>Are you sure you want to change the Goon's settings?</text>
+	<choice hidden="true">
+		<text>Set the Goon to Defensive Mode.</text>
+		<event>
+			<text>You start calibrating the Goon...</text>
+			<remove name="GOON_BOARDER"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>You finish calibrating the Goon successfully.</text>
+					<drone name="GOON_DEFEND"/>
+					<choice blue="false" req="MARKER_FLAGSHIP" lvl="0" max_group="1">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+					<choice blue="false" req="MARKER_FLAGSHIP" lvl="1" max_group="1">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK_FLAGSHIP"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" req="MARKER_FLAGSHIP" lvl="0" max_group="1"  >
+		<text>Do something else instead.</text>
+		<event load="COMBAT_CHECK"/>
+	</choice>
+	<choice blue="false" req="MARKER_FLAGSHIP" lvl="1" max_group="1">
+		<text>Do something else instead.</text>
+		<event load="COMBAT_CHECK_FLAGSHIP"/>
+	</choice>
+</event>
+
+</FTL>

@@ -1,0 +1,5242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FTL>
+
+	<!--
+	//////////////////////////////////////////////
+	//////////////////////////////////////////////
+			BOSSBOTS
+	//////////////////////////////////////////////
+	//////////////////////////////////////////////
+	-->
+	
+	<!--
+	/////////////////Big Cheese///////////////////
+	-->
+	
+<mod:findLike type="crew"> <!--You Only Need One <mod:findLike type="crew"> and i'll work just fine-->
+	<mod-append:race name="big_cheese">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.5</damageMultiplier>
+		<damageTakenMultiplier>0.6</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.5</moveSpeedMultiplier>
+		<repairSpeed>1.0</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>200</maxHealth>
+		<sabotageSpeedMultiplier>2.5</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>false</canPhaseThroughDoors>
+		<skills>
+			<piloting req="10"/>
+			<engines req="10"/>
+			<shields req="25"/>
+			<weapons req="25"/>
+			<repair req="7"/>
+			<combat req="4"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+		<deathEffect>
+			<persDamage>1</persDamage>
+			<friendlyFire>false</friendlyFire>
+		</deathEffect>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="big_cheese_elite">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>3.0</damageMultiplier>
+		<damageTakenMultiplier>0.55</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.55</moveSpeedMultiplier>
+		<repairSpeed>1.0</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>300</maxHealth>
+		<sabotageSpeedMultiplier>2.5</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>false</canPhaseThroughDoors>
+		<skills>
+			<piloting req="9"/>
+			<engines req="9"/>
+			<shields req="9"/>
+			<weapons req="9"/>
+			<repair req="6"/>
+			<combat req="3"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+		<deathEffect>
+			<persDamage>1</persDamage>
+			<friendlyFire>false</friendlyFire>
+		</deathEffect>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+
+	<mod-append:race name="big_cheese_waiter">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>3.5</damageMultiplier>
+		<damageTakenMultiplier>0.55</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.60</moveSpeedMultiplier>
+		<repairSpeed>1.0</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>350</maxHealth>
+		<sabotageSpeedMultiplier>3.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>false</canPhaseThroughDoors>
+		<skills>
+			<piloting req="8"/>
+			<engines req="8"/>
+			<shields req="8"/>
+			<weapons req="8"/>
+			<repair req="5"/>
+			<combat req="2"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+		<deathEffect>
+			<persDamage>1</persDamage>
+			<friendlyFire>false</friendlyFire>
+		</deathEffect>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	
+	<mod-append:race name="big_cheese_hologram">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.5</damageMultiplier>
+		<damageTakenMultiplier>0.50</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.50</moveSpeedMultiplier>
+		<repairSpeed>1.0</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>200</maxHealth>
+		<sabotageSpeedMultiplier>2.5</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>true</canPhaseThroughDoors>
+		<skills>
+			<piloting req="10"/>
+			<engines req="10"/>
+			<shields req="25"/>
+			<weapons req="25"/>
+			<repair req="7"/>
+			<combat req="4"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+		<deathEffect>
+			<persDamage>1</persDamage>
+			<friendlyFire>false</friendlyFire>
+		</deathEffect>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="jack_brie">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>4.0</damageMultiplier>
+		<damageTakenMultiplier>0.50</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.80</moveSpeedMultiplier>
+		<repairSpeed>1.0</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>400</maxHealth>
+		<sabotageSpeedMultiplier>4.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>false</canPhaseThroughDoors>
+		<skills>
+			<piloting req="1"/>
+			<engines req="1"/>
+			<shields req="1"/>
+			<weapons req="1"/>
+			<repair req="1"/>
+			<combat req="1"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+		<deathEffect>
+			<persDamage>1</persDamage>
+			<friendlyFire>false</friendlyFire>
+		</deathEffect>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	
+	<!--
+	/////////////////Corporate Raider///////////////////
+	-->
+	
+
+	<mod-append:race name="corporateraider">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.0</damageMultiplier>
+		<damageTakenMultiplier>0.8</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.7</moveSpeedMultiplier>
+		<repairSpeed>0.4</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>156</maxHealth>
+		<sabotageSpeedMultiplier>2.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>false</canPhaseThroughDoors>
+		<skills>
+			<piloting req="20"/>
+			<engines req="20"/>
+			<shields req="50"/>
+			<weapons req="50"/>
+			<repair req="15"/>
+			<combat req="8"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="corporateraider_elite">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.2</damageMultiplier>
+		<damageTakenMultiplier>0.8</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.7</moveSpeedMultiplier>
+		<repairSpeed>0.5</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>234</maxHealth>
+		<sabotageSpeedMultiplier>2.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>false</canPhaseThroughDoors>
+		<skills>
+			<piloting req="15"/>
+			<engines req="15"/>
+			<shields req="45"/>
+			<weapons req="45"/>
+			<repair req="12"/>
+			<combat req="6"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="corporateraider_waiter">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.4</damageMultiplier>
+		<damageTakenMultiplier>0.7</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.6</moveSpeedMultiplier>
+		<repairSpeed>0.4</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>250</maxHealth>
+		<sabotageSpeedMultiplier>1.5</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>false</canPhaseThroughDoors>
+		<skills>
+			<piloting req="10"/>
+			<engines req="10"/>
+			<shields req="40"/>
+			<weapons req="40"/>
+			<repair req="10"/>
+			<combat req="5"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="corporateraider_hologram">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.0</damageMultiplier>
+		<damageTakenMultiplier>0.4</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.5</moveSpeedMultiplier>
+		<repairSpeed>0.2</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>156</maxHealth>
+		<sabotageSpeedMultiplier>3.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>true</canPhaseThroughDoors>
+		<skills>
+			<piloting req="15"/>
+			<engines req="15"/>
+			<shields req="45"/>
+			<weapons req="45"/>
+			<repair req="15"/>
+			<combat req="10"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="comrade">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>3.0</damageMultiplier>
+		<damageTakenMultiplier>0.4</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.7</moveSpeedMultiplier>
+		<repairSpeed>0.5</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>300</maxHealth>
+		<sabotageSpeedMultiplier>3.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>false</canPhaseThroughDoors>
+		<skills>
+			<piloting req="1"/>
+			<engines req="1"/>
+			<shields req="1"/>
+			<weapons req="1"/>
+			<repair req="1"/>
+			<combat req="1"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	
+	<!--
+	/////////////////HeadHunter///////////////////	
+	-->
+
+	<mod-append:race name="headhunter">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.7</damageMultiplier>
+		<damageTakenMultiplier>0.8</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.6</moveSpeedMultiplier>
+		<detectsLifeforms>false</detectsLifeforms>
+		<repairSpeed>0.5</repairSpeed>
+		<sabotageSpeedMultiplier>0.7</sabotageSpeedMultiplier>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>132</maxHealth>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="headhunter_elite">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.0</damageMultiplier>
+		<damageTakenMultiplier>0.7</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.60</moveSpeedMultiplier>
+		<repairSpeed>0.4</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>198</maxHealth>
+		<sabotageSpeedMultiplier>0.7</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="headhunter_hologram">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.5</damageMultiplier>
+		<damageTakenMultiplier>0.50</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.60</moveSpeedMultiplier>
+		<repairSpeed>0.2</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>132</maxHealth>
+		<sabotageSpeedMultiplier>0.4</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<canPhaseThroughDoors>true</canPhaseThroughDoors>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="headhunter_waiter">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.2</damageMultiplier>
+		<damageTakenMultiplier>0.6</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.7</moveSpeedMultiplier>
+		<repairSpeed>0.5</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>250</maxHealth>
+		<sabotageSpeedMultiplier>1.2</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="honcho">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>3.1</damageMultiplier>
+		<damageTakenMultiplier>0.50</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.0</moveSpeedMultiplier>
+		<repairSpeed>1.0</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>300</maxHealth>
+		<sabotageSpeedMultiplier>1.4</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<skills>
+			<piloting req="1"/>
+			<engines req="1"/>
+			<shields req="1"/>
+			<weapons req="1"/>
+			<repair req="1"/>
+			<combat req="1"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+		<animBase>mantis</animBase>
+	</mod-append:race>
+
+	
+	<!--
+	/////////////////Downsizer///////////////////
+	-->
+
+	<mod-append:race name="downsizer">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.7</damageMultiplier>
+		<damageTakenMultiplier>0.8</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.7</moveSpeedMultiplier>
+		<detectsLifeforms>false</detectsLifeforms>
+		<repairSpeed>0.5</repairSpeed>
+		<sabotageSpeedMultiplier>0.7</sabotageSpeedMultiplier>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>110</maxHealth>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="downsizer_elite">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.0</damageMultiplier>
+		<damageTakenMultiplier>0.7</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.7</moveSpeedMultiplier>
+		<repairSpeed>0.4</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>165</maxHealth>
+		<sabotageSpeedMultiplier>0.7</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="downsizer_hologram">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.5</damageMultiplier>
+		<damageTakenMultiplier>0.50</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.50</moveSpeedMultiplier>
+		<repairSpeed>0.3</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>110</maxHealth>
+		<sabotageSpeedMultiplier>0.4</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<canPhaseThroughDoors>true</canPhaseThroughDoors>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="downsizer_waiter">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.2</damageMultiplier>
+		<damageTakenMultiplier>0.6</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.7</moveSpeedMultiplier>
+		<repairSpeed>0.5</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>200</maxHealth>
+		<sabotageSpeedMultiplier>1.1</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="debbie">
+		<canSabotage>false</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.0</damageMultiplier>
+		<damageTakenMultiplier>0.60</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.5</moveSpeedMultiplier>
+		<repairSpeed>1.0</repairSpeed>
+		<resistsMindControl>true</resistsMindControl>
+		<canShoot>false</canShoot>
+		<maxHealth>250</maxHealth>
+		<sabotageSpeedMultiplier>1.4</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<skills>
+			<piloting req="1"/>
+			<engines req="1"/>
+			<shields req="1"/>
+			<weapons req="1"/>
+			<repair req="1"/>
+			<combat req="1"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+		<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<!--
+	/////////////////MicroManager///////////////////
+	-->
+
+	<mod-append:race name="micromanager">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>0.2</damageMultiplier>
+		<damageTakenMultiplier>0.9</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.9</moveSpeedMultiplier>
+		<canRepair>false</canRepair>
+		<detectsLifeforms>true</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>90</maxHealth>
+		<sabotageSpeedMultiplier>1.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<rangedDamageMultiplier>5.00</rangedDamageMultiplier>
+		<passiveStatBoosts>  
+			<statBoost name="repairSpeed">
+				<boostType>FLAT</boostType>
+				<amount>2.0</amount>
+				<shipTarget>CURRENT_ROOM</shipTarget>
+				<crewTarget>ALL</crewTarget>
+				<affectsSelf>false</affectsSelf>
+			</statBoost>
+		</passiveStatBoosts>
+		<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="micromanager_elite">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>0.3</damageMultiplier>
+		<damageTakenMultiplier>0.85</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.85</moveSpeedMultiplier>
+		<canRepair>false</canRepair>
+		<detectsLifeforms>true</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>135</maxHealth>
+		<sabotageSpeedMultiplier>1.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<rangedDamageMultiplier>6.00</rangedDamageMultiplier>
+		<passiveStatBoosts>  
+			<statBoost name="repairSpeed">
+				<boostType>FLAT</boostType>
+				<amount>3.0</amount>
+				<shipTarget>CURRENT_ROOM</shipTarget>
+				<crewTarget>ALL</crewTarget>
+				<affectsSelf>false</affectsSelf>
+			</statBoost>
+		</passiveStatBoosts>
+		<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="micromanager_hologram">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>0.2</damageMultiplier>
+		<damageTakenMultiplier>0.50</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.70</moveSpeedMultiplier>
+		<canRepair>false</canRepair>
+		<detectsLifeforms>true</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>90</maxHealth>
+		<sabotageSpeedMultiplier>1.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<rangedDamageMultiplier>6.00</rangedDamageMultiplier>
+		<canPhaseThroughDoors>true</canPhaseThroughDoors>
+		<passiveStatBoosts>  
+			<statBoost name="repairSpeed">
+				<boostType>FLAT</boostType>
+				<amount>1.5</amount>
+				<shipTarget>CURRENT_ROOM</shipTarget>
+				<crewTarget>ALL</crewTarget>
+				<affectsSelf>false</affectsSelf>
+			</statBoost>
+		</passiveStatBoosts>
+		<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="micromanager_waiter">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>0.3</damageMultiplier>
+		<damageTakenMultiplier>0.90</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.90</moveSpeedMultiplier>
+		<repairSpeed>0.5</repairSpeed>
+		<detectsLifeforms>true</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>150</maxHealth>
+		<sabotageSpeedMultiplier>1.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<rangedDamageMultiplier>5.00</rangedDamageMultiplier>
+	</mod-append:race>
+	
+	<mod-append:race name="mira">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>0.0</damageMultiplier>
+		<damageTakenMultiplier>0.5</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.30</moveSpeedMultiplier>
+		<repairSpeed>2.0</repairSpeed>
+		<detectsLifeforms>true</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>200</maxHealth>
+		<canPunch>false</canPunch>
+		<sabotageSpeedMultiplier>1.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<powerEffect>
+			<cooldown>1</cooldown>
+			<jumpCooldown>reset</jumpCooldown>
+			<req>
+				<enemyInRoom/>
+			</req>
+			<chargeReq>
+				<enemyInRoom/>
+			</chargeReq>
+			<buttonText>STUN</buttonText>
+			<tooltip>This ability will activate automatically in combat.</tooltip>
+			<cooldownColor r="000" g="000" b="000"/>
+			<activateWhenReady>true</activateWhenReady>
+			<friendlyFire>false</friendlyFire>
+			<enemyHealth>-8</enemyHealth>
+			<stun>1</stun>
+		</powerEffect>
+		<shootingSounds>
+			<shootingSound>Photo_shutter</shootingSound>
+		</shootingSounds>
+		<skills>
+			<piloting req="1"/>
+			<engines req="1"/>
+			<shields req="1"/>
+			<weapons req="1"/>
+			<repair req="1"/>
+			<combat req="1"/>
+		</skills>
+	</mod-append:race>
+	
+	<!--
+	/////////////////Yesman///////////////////
+	-->
+	
+	<mod-append:race name="yesman">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.2</damageMultiplier>
+		<damageTakenMultiplier>0.8</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.7</moveSpeedMultiplier>
+		<detectsLifeforms>false</detectsLifeforms>
+		<repairSpeed>0.9</repairSpeed>
+		<sabotageSpeedMultiplier>1.5</sabotageSpeedMultiplier>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>72</maxHealth>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<shootingSounds>
+			<shootingSound>SA_tee_off</shootingSound>
+		</shootingSounds>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="yesman_elite">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.4</damageMultiplier>
+		<damageTakenMultiplier>0.75</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.75</moveSpeedMultiplier>
+		<repairSpeed>1.1</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>108</maxHealth>
+		<sabotageSpeedMultiplier>2.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<shootingSounds>
+			<shootingSound>SA_tee_off</shootingSound>
+		</shootingSounds>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="yesman_hologram">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.2</damageMultiplier>
+		<damageTakenMultiplier>0.50</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.50</moveSpeedMultiplier>
+		<repairSpeed>0.9</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>72</maxHealth>
+		<sabotageSpeedMultiplier>2.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<canPhaseThroughDoors>true</canPhaseThroughDoors>
+		<shootingSounds>
+			<shootingSound>SA_tee_off</shootingSound>
+		</shootingSounds>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="yesman_waiter">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.6</damageMultiplier>
+		<damageTakenMultiplier>0.60</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.7</moveSpeedMultiplier>
+		<repairSpeed>0.5</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>150</maxHealth>
+		<sabotageSpeedMultiplier>2.2</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<shootingSounds>
+			<shootingSound>SA_tee_off</shootingSound>
+		</shootingSounds>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="yessum">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.9</damageMultiplier>
+		<damageTakenMultiplier>0.55</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.0</moveSpeedMultiplier>
+		<repairSpeed>1.75</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>200</maxHealth>
+		<sabotageSpeedMultiplier>2.5</sabotageSpeedMultiplier>
+		<rangedDamageMultiplier>0.5</rangedDamageMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<shootingSounds>
+			<shootingSound>SA_tee_off</shootingSound>
+		</shootingSounds>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<powerEffect>
+			<cooldown>40</cooldown>
+			<jumpCooldown>full</jumpCooldown>
+			<powerSounds>
+				<powerSound>Yessum_spawn_in</powerSound>
+			</powerSounds>
+			<buttonText>YEEEESSSS</buttonText>
+			<tooltip>[COOLDOWN:40s]
+				Produces two Yesmans that look like him (but red) although they will act as base Yesman. They will survive for 30 seconds.</tooltip>
+			<cooldownColor r="185" g="185" b="185"/>
+			<powerCharges>2</powerCharges>
+			<initialCharges>2</initialCharges>
+			<chargesPerJump>1</chargesPerJump>
+			<spawnCrew>
+				<number>2</number>
+				<race>yessum_spawn</race>
+				<lifetime>30</lifetime>
+				<statBoosts>
+					<statBoost name="noClone">
+						<boostType>SET</boostType>
+						<value>true</value>
+						<shipTarget>ALL</shipTarget>
+						<crewTarget>ALL</crewTarget>
+						<priority>999999</priority>
+					</statBoost>
+				</statBoosts>
+			</spawnCrew>
+		</powerEffect>
+		<skills>
+			<piloting req="1"/>
+			<engines req="1"/>
+			<shields req="1"/>
+			<weapons req="1"/>
+			<repair req="1"/>
+			<combat req="1"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+		<animBase>mantis</animBase>
+	</mod-append:race>
+	
+	<mod-append:race name="yessum_spawn">
+		<lowHealthThreshold>-1</lowHealthThreshold>
+		<noWarning>true</noWarning>
+		<noSlot>true</noSlot>
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.2</damageMultiplier>
+		<damageTakenMultiplier>0.8</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.7</moveSpeedMultiplier>
+		<detectsLifeforms>false</detectsLifeforms>
+		<repairSpeed>0.9</repairSpeed>
+		<sabotageSpeedMultiplier>1.5</sabotageSpeedMultiplier>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>72</maxHealth>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<noClone>true</noClone>
+		<animBase>mantis</animBase>
+		<shootingSounds>
+			<shootingSound>SA_tee_off</shootingSound>
+		</shootingSounds>
+		<powerEffect>
+			<cooldown>0.001</cooldown>
+			<jumpCooldown>full</jumpCooldown>
+			<buttonText>EXPIRATION</buttonText>
+			<tooltip>You shouldn't see this! Unpause the game to make it go away.</tooltip>
+			<cooldownColor r="185" g="185" b="185"/>
+			<activateWhenReady>true</activateWhenReady>
+			<temporaryEffect>
+				<duration>30</duration>
+				<cooldownColor r="185" g="185" b="185"/>
+				<powerSounds>
+					<powerSound>shieldsDown</powerSound>
+				</powerSounds>
+			</temporaryEffect>
+		</powerEffect>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+	
+	<!--
+	/////////////////Pencil Pusher///////////////////
+	-->
+	
+	<!--
+	/////////////////Flunky///////////////////	
+	-->
+	
+	
+	
+	
+	
+	<!--
+	//////////////////////////////////////////////
+	//////////////////////////////////////////////
+			Lawbots
+	//////////////////////////////////////////////
+	//////////////////////////////////////////////
+	-->
+	
+	<!--
+	/////////////////Big Wig///////////////////	
+	-->
+
+	<mod-append:race name="bigwig">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.3</damageMultiplier>
+		<damageTakenMultiplier>0.6</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.6</moveSpeedMultiplier>
+		<repairSpeed>1.2</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>200</maxHealth>
+		<sabotageSpeedMultiplier>2.7</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>false</canPhaseThroughDoors>
+		<skills>
+			<piloting req="10"/>
+			<engines req="10"/>
+			<shields req="25"/>
+			<weapons req="25"/>
+			<repair req="7"/>
+			<combat req="4"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+		<deathEffect>
+			<persDamage>1</persDamage>
+			<friendlyFire>false</friendlyFire>
+		</deathEffect>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="bigwig_elite">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.5</damageMultiplier>
+		<damageTakenMultiplier>0.6</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.55</moveSpeedMultiplier>
+		<repairSpeed>1.3</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>300</maxHealth>
+		<sabotageSpeedMultiplier>2.6</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>false</canPhaseThroughDoors>
+		<skills>
+			<piloting req="10"/>
+			<engines req="10"/>
+			<shields req="25"/>
+			<weapons req="25"/>
+			<repair req="7"/>
+			<combat req="4"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+		<deathEffect>
+			<persDamage>1</persDamage>
+			<friendlyFire>false</friendlyFire>
+		</deathEffect>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="bigwig_waiter">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.3</damageMultiplier>
+		<damageTakenMultiplier>0.6</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.6</moveSpeedMultiplier>
+		<repairSpeed>1.2</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>350</maxHealth>
+		<sabotageSpeedMultiplier>2.7</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>false</canPhaseThroughDoors>
+		<skills>
+			<piloting req="10"/>
+			<engines req="10"/>
+			<shields req="25"/>
+			<weapons req="25"/>
+			<repair req="7"/>
+			<combat req="4"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+		<deathEffect>
+			<persDamage>1</persDamage>
+			<friendlyFire>false</friendlyFire>
+		</deathEffect>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="bigwig_hologram">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.5</damageMultiplier>
+		<damageTakenMultiplier>0.5</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.5</moveSpeedMultiplier>
+		<repairSpeed>1.1</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>200</maxHealth>
+		<sabotageSpeedMultiplier>2.5</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>true</canPhaseThroughDoors>
+		<skills>
+			<piloting req="10"/>
+			<engines req="10"/>
+			<shields req="25"/>
+			<weapons req="25"/>
+			<repair req="7"/>
+			<combat req="4"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+		<deathEffect>
+			<persDamage>1</persDamage>
+			<friendlyFire>false</friendlyFire>
+		</deathEffect>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="judge">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>4.0</damageMultiplier>
+		<damageTakenMultiplier>0.50</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.80</moveSpeedMultiplier>
+		<repairSpeed>1.0</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>400</maxHealth>
+		<sabotageSpeedMultiplier>4.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>false</canPhaseThroughDoors>
+		<skills>
+			<piloting req="1"/>
+			<engines req="1"/>
+			<shields req="1"/>
+			<weapons req="1"/>
+			<repair req="1"/>
+			<combat req="1"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+		<deathEffect>
+			<persDamage>1</persDamage>
+			<friendlyFire>false</friendlyFire>
+		</deathEffect>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	
+	<!--
+	/////////////////Legal Eagle///////////////////	
+	-->
+
+	<mod-append:race name="legaleagle">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>0.90</damageMultiplier>
+		<damageTakenMultiplier>0.8</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.7</moveSpeedMultiplier>
+		<repairSpeed>0.3</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>156</maxHealth>
+		<sabotageSpeedMultiplier>2.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>false</canPhaseThroughDoors>
+		<rangedDamageMultiplier>3.0</rangedDamageMultiplier>
+		<skills>
+			<piloting req="20"/>
+			<engines req="20"/>
+			<shields req="50"/>
+			<weapons req="50"/>
+			<repair req="15"/>
+			<combat req="8"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="legaleagle_elite">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>0.7</damageMultiplier>
+		<damageTakenMultiplier>0.8</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.7</moveSpeedMultiplier>
+		<repairSpeed>0.5</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>234</maxHealth>
+		<sabotageSpeedMultiplier>2.2</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>false</canPhaseThroughDoors>
+		<rangedDamageMultiplier>3.5</rangedDamageMultiplier>
+		<skills>
+			<piloting req="15"/>
+			<engines req="15"/>
+			<shields req="45"/>
+			<weapons req="45"/>
+			<repair req="12"/>
+			<combat req="6"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="legaleagle_waiter">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>0.8</damageMultiplier>
+		<damageTakenMultiplier>0.7</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.6</moveSpeedMultiplier>
+		<repairSpeed>1.0</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>250</maxHealth>
+		<sabotageSpeedMultiplier>1.5</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<rangedDamageMultiplier>3.1</rangedDamageMultiplier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>false</canPhaseThroughDoors>
+		<skills>
+			<piloting req="10"/>
+			<engines req="10"/>
+			<shields req="40"/>
+			<weapons req="40"/>
+			<repair req="10"/>
+			<combat req="5"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="legaleagle_hologram">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>0.8</damageMultiplier>
+		<damageTakenMultiplier>0.4</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.5</moveSpeedMultiplier>
+		<repairSpeed>0.3</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>156</maxHealth>
+		<sabotageSpeedMultiplier>2.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<rangedDamageMultiplier>3.0</rangedDamageMultiplier>
+		<canPhaseThroughDoors>true</canPhaseThroughDoors>
+		<skills>
+			<piloting req="15"/>
+			<engines req="15"/>
+			<shields req="45"/>
+			<weapons req="45"/>
+			<repair req="15"/>
+			<combat req="10"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="lawrence">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.1</damageMultiplier>
+		<damageTakenMultiplier>0.5</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+		<repairSpeed>0.5</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>234</maxHealth>
+		<sabotageSpeedMultiplier>3.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<rangedDamageMultiplier>3.4</rangedDamageMultiplier>
+		<canPhaseThroughDoors>false</canPhaseThroughDoors>
+		<skills>
+			<piloting req="1"/>
+			<engines req="1"/>
+			<shields req="1"/>
+			<weapons req="1"/>
+			<repair req="1"/>
+			<combat req="1"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	
+	
+	<!--
+	/////////////////Spin Doctor///////////////////	
+	-->
+
+	<mod-append:race name="spindoctor">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.75</damageMultiplier>
+		<damageTakenMultiplier>0.75</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.55</moveSpeedMultiplier>
+		<detectsLifeforms>false</detectsLifeforms>
+		<repairSpeed>0.5</repairSpeed>
+		<sabotageSpeedMultiplier>0.5</sabotageSpeedMultiplier>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>132</maxHealth>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<passiveHealAmount>2.5</passiveHealAmount>
+		<passiveHealDelay>20</passiveHealDelay>
+		<animBase>mantis</animBase>
+		<healCrewAmount>2.2</healCrewAmount>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="spindoctor_elite">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.0</damageMultiplier>
+		<damageTakenMultiplier>0.65</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.60</moveSpeedMultiplier>
+		<repairSpeed>0.4</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>198</maxHealth>
+		<sabotageSpeedMultiplier>0.7</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<passiveHealAmount>2.9</passiveHealAmount>
+		<passiveHealDelay>10</passiveHealDelay>
+		<animBase>mantis</animBase>
+		<healCrewAmount>2.9</healCrewAmount>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="spindoctor_hologram">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.5</damageMultiplier>
+		<damageTakenMultiplier>0.50</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.60</moveSpeedMultiplier>
+		<repairSpeed>0.2</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>132</maxHealth>
+		<sabotageSpeedMultiplier>0.4</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<passiveHealAmount>1.9</passiveHealAmount>
+		<passiveHealDelay>3</passiveHealDelay>
+		<animBase>mantis</animBase>
+		<healCrewAmount>1.0</healCrewAmount>
+		<canPhaseThroughDoors>true</canPhaseThroughDoors>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="spindoctor_waiter">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.3</damageMultiplier>
+		<damageTakenMultiplier>0.55</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.55</moveSpeedMultiplier>
+		<repairSpeed>0.2</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>250</maxHealth>
+		<sabotageSpeedMultiplier>0.8</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<passiveHealAmount>3.5</passiveHealAmount>
+		<passiveHealDelay>1</passiveHealDelay>
+		<animBase>mantis</animBase>
+		<healCrewAmount>2.0</healCrewAmount>
+	</mod-append:race>
+
+	<mod-append:race name="dr_spin">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>3.0</damageMultiplier>
+		<damageTakenMultiplier>0.50</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.0</moveSpeedMultiplier>
+		<repairSpeed>0.9</repairSpeed>
+		<detectsLifeforms>true</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>300</maxHealth>
+		<sabotageSpeedMultiplier>2.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<passiveHealAmount>4.5</passiveHealAmount>
+		<healSpeed>2.5</healSpeed>
+		<skills>
+			<piloting req="1"/>
+			<engines req="1"/>
+			<shields req="1"/>
+			<weapons req="1"/>
+			<repair req="1"/>
+			<combat req="1"/>
+		</skills>
+		<powerEffect>
+			<cooldown>30</cooldown>
+			<jumpCooldown>continue</jumpCooldown>
+			<powerSounds>
+				<powerSound>healBomb</powerSound>
+			</powerSounds>
+			<!--<req>
+				<friendlyInRoom/>
+			</req>-->
+			<friendlyFire>true</friendlyFire>
+			<shipFriendlyFire>true</shipFriendlyFire>
+			<buttonText>DOC'S HEAL</buttonText>
+			<tooltip>Ready: Click to heal all friendly crew in the room to full health.</tooltip>
+			<cooldownColor r="255" g="78" b="69"/>
+			<effectAnim>explosion_big1_heal</effectAnim>
+			<crewHealth>300</crewHealth>
+			<selfHealth>300</selfHealth>
+		</powerEffect>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+		<animBase>mantis</animBase>
+	</mod-append:race>
+
+	
+	<!--
+	/////////////////BackStabber///////////////////	
+	-->
+
+	<mod-append:race name="backstabber">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.5</damageMultiplier>
+		<damageTakenMultiplier>0.8</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.1</moveSpeedMultiplier>
+		<detectsLifeforms>false</detectsLifeforms>
+		<repairSpeed>0.4</repairSpeed>
+		<sabotageSpeedMultiplier>2.0</sabotageSpeedMultiplier>
+		<rangedDamageMultiplier>0.5</rangedDamageMultiplier>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>110</maxHealth>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="backstabber_elite">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.7</damageMultiplier>
+		<damageTakenMultiplier>0.7</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.4</moveSpeedMultiplier>
+		<repairSpeed>0.6</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<rangedDamageMultiplier>0.5</rangedDamageMultiplier>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>165</maxHealth>
+		<sabotageSpeedMultiplier>2.2</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="backstabber_hologram">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.5</damageMultiplier>
+		<damageTakenMultiplier>0.50</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.7</moveSpeedMultiplier>
+		<repairSpeed>0.3</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<rangedDamageMultiplier>0.2</rangedDamageMultiplier>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>110</maxHealth>
+		<sabotageSpeedMultiplier>2.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<canPhaseThroughDoors>true</canPhaseThroughDoors>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="backstabber_waiter">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.9</damageMultiplier>
+		<damageTakenMultiplier>0.7</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.5</moveSpeedMultiplier>
+		<repairSpeed>1.0</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>200</maxHealth>
+		<rangedDamageMultiplier>0.6</rangedDamageMultiplier>
+		<sabotageSpeedMultiplier>2.5</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>	
+	<!--
+	/////////////////Ambulance Chaser///////////////////	
+	-->
+	<mod-append:race name="ambulancechaser">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.3</damageMultiplier>
+		<damageTakenMultiplier>1</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.1</moveSpeedMultiplier>
+		<repairSpeed>0.5</repairSpeed>
+		<detectsLifeforms>true</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>90</maxHealth>
+		<sabotageSpeedMultiplier>0.9</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<passiveHealAmount>1.0</passiveHealAmount>
+		<passiveHealDelay>10</passiveHealDelay>
+		<animBase>mantis</animBase>
+		<healCrewAmount>1.0</healCrewAmount>
+	</mod-append:race>
+
+	<mod-append:race name="ambulancechaser_elite">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.5</damageMultiplier>
+		<damageTakenMultiplier>1</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.2</moveSpeedMultiplier>
+		<repairSpeed>0.4</repairSpeed>
+		<detectsLifeforms>true</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>135</maxHealth>
+		<sabotageSpeedMultiplier>1.5</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<passiveHealAmount>1.5</passiveHealAmount>
+		<passiveHealDelay>6</passiveHealDelay>
+		<animBase>mantis</animBase>
+		<healCrewAmount>1.2</healCrewAmount>
+	</mod-append:race>
+
+	<mod-append:race name="ambulancechaser_waiter">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.4</damageMultiplier>
+		<damageTakenMultiplier>1</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.5</moveSpeedMultiplier>
+		<repairSpeed>0.8</repairSpeed>
+		<detectsLifeforms>true</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>150</maxHealth>
+		<sabotageSpeedMultiplier>1.4</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<passiveHealAmount>1.7</passiveHealAmount>
+		<passiveHealDelay>3</passiveHealDelay>
+		<animBase>mantis</animBase>
+		<healCrewAmount>1.9</healCrewAmount>
+	</mod-append:race>
+
+	<mod-append:race name="ambulancechaser_hologram">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.0</damageMultiplier>
+		<damageTakenMultiplier>0.55</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.2</moveSpeedMultiplier>
+		<repairSpeed>0.5</repairSpeed>
+		<detectsLifeforms>true</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>90</maxHealth>
+		<sabotageSpeedMultiplier>0.4</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<passiveHealAmount>0.9</passiveHealAmount>
+		<passiveHealDelay>2</passiveHealDelay>
+		<animBase>mantis</animBase>
+		<healCrewAmount>1.0</healCrewAmount>
+		<canPhaseThroughDoors>true</canPhaseThroughDoors>
+	</mod-append:race>
+
+	<mod-append:race name="ac08">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.9</damageMultiplier>
+		<damageTakenMultiplier>0.8</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.9</moveSpeedMultiplier>
+		<repairSpeed>1.5</repairSpeed>
+		<detectsLifeforms>true</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>200</maxHealth>
+		<sabotageSpeedMultiplier>1.9</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<passiveHealAmount>3.0</passiveHealAmount>
+		<passiveHealDelay>2</passiveHealDelay>
+		<animBase>mantis</animBase>
+		<healCrewAmount>2.9</healCrewAmount>
+		<skills>
+			<piloting req="1"/>
+			<engines req="1"/>
+			<shields req="1"/>
+			<weapons req="1"/>
+			<repair req="1"/>
+			<combat req="1"/>
+		</skills>
+		<powerEffect>
+			<cooldown>2.0</cooldown>
+			<jumpCooldown>continue</jumpCooldown>
+			<powerSounds>
+				<powerSound>healBomb</powerSound>
+			</powerSounds>
+			<!--<req>
+				<friendlyInRoom/>
+			</req>-->
+			<friendlyFire>true</friendlyFire>
+			<shipFriendlyFire>true</shipFriendlyFire>
+			<buttonText>RAPID HEAL</buttonText>
+			<tooltip>Ready: Click to heal all friendly crew in the room spam click style!</tooltip>
+			<cooldownColor r="255" g="78" b="69"/>
+			<effectAnim>explosion_big1_heal</effectAnim>
+			<crewHealth>10</crewHealth>
+			<selfHealth>10</selfHealth>
+		</powerEffect>
+	</mod-append:race>
+
+
+	
+	<!--
+	/////////////////Double Talker///////////////////
+	-->
+	
+	<mod-append:race name="double_talker">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.0</damageMultiplier>
+		<damageTakenMultiplier>0.7</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.5</moveSpeedMultiplier>
+		<detectsLifeforms>false</detectsLifeforms>
+		<repairSpeed>0.5</repairSpeed>
+		<sabotageSpeedMultiplier>1.0</sabotageSpeedMultiplier>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>72</maxHealth>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<doorDamageMultiplier>2</doorDamageMultiplier>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="double_talker_elite">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.5</damageMultiplier>
+		<damageTakenMultiplier>1.20</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.50</moveSpeedMultiplier>
+		<repairSpeed>1.0</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>108</maxHealth>
+		<sabotageSpeedMultiplier>2.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<doorDamageMultiplier>3</doorDamageMultiplier>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="double_talker_hologram">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.0</damageMultiplier>
+		<damageTakenMultiplier>0.50</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.00</moveSpeedMultiplier>
+		<repairSpeed>0.5</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>72</maxHealth>
+		<sabotageSpeedMultiplier>1.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<canPhaseThroughDoors>true</canPhaseThroughDoors>
+		<doorDamageMultiplier>2</doorDamageMultiplier>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="double_talker_waiter">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.0</damageMultiplier>
+		<damageTakenMultiplier>0.75</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.0</moveSpeedMultiplier>
+		<repairSpeed>1.5</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>150</maxHealth>
+		<sabotageSpeedMultiplier>1.5</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<doorDamageMultiplier>4</doorDamageMultiplier>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+	
+	<!--
+	/////////////////Bloodsucker///////////////////
+	-->
+	
+	<!--
+	/////////////////Bottom Feeder///////////////////
+	-->
+	
+	
+	
+	
+	
+	
+	<!--
+	//////////////////////////////////////////////
+	//////////////////////////////////////////////
+			Cashbots
+	//////////////////////////////////////////////
+	//////////////////////////////////////////////
+	-->
+	
+	<!--
+	/////////////////Robber Baron///////////////////	
+	-->
+	
+
+	<mod-append:race name="robberbaron">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.3</damageMultiplier>
+		<damageTakenMultiplier>0.6</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.6</moveSpeedMultiplier>
+		<repairSpeed>1.2</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>200</maxHealth>
+		<sabotageSpeedMultiplier>2.7</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>false</canPhaseThroughDoors>
+		<skills>
+			<piloting req="10"/>
+			<engines req="10"/>
+			<shields req="25"/>
+			<weapons req="25"/>
+			<repair req="7"/>
+			<combat req="4"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+		<deathEffect>
+			<persDamage>1</persDamage>
+			<friendlyFire>false</friendlyFire>
+		</deathEffect>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+
+	<mod-append:race name="robberbaron_elite">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.5</damageMultiplier>
+		<damageTakenMultiplier>0.6</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.55</moveSpeedMultiplier>
+		<repairSpeed>1.3</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>300</maxHealth>
+		<sabotageSpeedMultiplier>2.6</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>false</canPhaseThroughDoors>
+		<skills>
+			<piloting req="10"/>
+			<engines req="10"/>
+			<shields req="25"/>
+			<weapons req="25"/>
+			<repair req="7"/>
+			<combat req="4"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+		<deathEffect>
+			<persDamage>1</persDamage>
+			<friendlyFire>false</friendlyFire>
+		</deathEffect>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="robberbaron_waiter">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.3</damageMultiplier>
+		<damageTakenMultiplier>0.6</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.6</moveSpeedMultiplier>
+		<repairSpeed>1.2</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>350</maxHealth>
+		<sabotageSpeedMultiplier>2.7</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>false</canPhaseThroughDoors>
+		<skills>
+			<piloting req="10"/>
+			<engines req="10"/>
+			<shields req="25"/>
+			<weapons req="25"/>
+			<repair req="7"/>
+			<combat req="4"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+		<deathEffect>
+			<persDamage>1</persDamage>
+			<friendlyFire>false</friendlyFire>
+		</deathEffect>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="robberbaron_hologram">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.5</damageMultiplier>
+		<damageTakenMultiplier>0.5</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.5</moveSpeedMultiplier>
+		<repairSpeed>1.1</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>200</maxHealth>
+		<sabotageSpeedMultiplier>2.5</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>true</canPhaseThroughDoors>
+		<skills>
+			<piloting req="10"/>
+			<engines req="10"/>
+			<shields req="25"/>
+			<weapons req="25"/>
+			<repair req="7"/>
+			<combat req="4"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+		<deathEffect>
+			<persDamage>1</persDamage>
+			<friendlyFire>false</friendlyFire>
+		</deathEffect>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="robert">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>4.0</damageMultiplier>
+		<damageTakenMultiplier>0.50</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.80</moveSpeedMultiplier>
+		<repairSpeed>1.0</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>400</maxHealth>
+		<sabotageSpeedMultiplier>4.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>false</canPhaseThroughDoors>
+		<skills>
+			<piloting req="1"/>
+			<engines req="1"/>
+			<shields req="1"/>
+			<weapons req="1"/>
+			<repair req="1"/>
+			<combat req="1"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+		<deathEffect>
+			<persDamage>1</persDamage>
+			<friendlyFire>false</friendlyFire>
+		</deathEffect>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	
+	<!--
+	/////////////////Loan Shark///////////////////
+	-->
+
+
+	<mod-append:race name="loanshark">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.5</damageMultiplier>
+		<damageTakenMultiplier>1.0</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.5</moveSpeedMultiplier>
+		<repairSpeed>0.4</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>156</maxHealth>
+		<sabotageSpeedMultiplier>0.5</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>false</canPhaseThroughDoors>
+		<rangedDamageMultiplier>0.3</rangedDamageMultiplier>
+		<skills>
+			<piloting req="20"/>
+			<engines req="20"/>
+			<shields req="50"/>
+			<weapons req="50"/>
+			<repair req="15"/>
+			<combat req="8"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="loanshark_elite">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.7</damageMultiplier>
+		<damageTakenMultiplier>1.0</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.7</moveSpeedMultiplier>
+		<repairSpeed>0.3</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>234</maxHealth>
+		<sabotageSpeedMultiplier>0.7</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>false</canPhaseThroughDoors>
+		<rangedDamageMultiplier>0.1</rangedDamageMultiplier>
+		<skills>
+			<piloting req="15"/>
+			<engines req="15"/>
+			<shields req="45"/>
+			<weapons req="45"/>
+			<repair req="12"/>
+			<combat req="6"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="loanshark_waiter">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.9</damageMultiplier>
+		<damageTakenMultiplier>1.0</damageTakenMultiplier>
+		<moveSpeedMultiplier>2.0</moveSpeedMultiplier>
+		<repairSpeed>0.4</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>250</maxHealth>
+		<sabotageSpeedMultiplier>0.8</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>false</canPhaseThroughDoors>
+		<rangedDamageMultiplier>0.2</rangedDamageMultiplier>
+		<skills>
+			<piloting req="10"/>
+			<engines req="10"/>
+			<shields req="40"/>
+			<weapons req="40"/>
+			<repair req="10"/>
+			<combat req="5"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="loanshark_hologram">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.0</damageMultiplier>
+		<damageTakenMultiplier>0.5</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.0</moveSpeedMultiplier>
+		<repairSpeed>0.1</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>156</maxHealth>
+		<sabotageSpeedMultiplier>1.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>true</canPhaseThroughDoors>
+		<rangedDamageMultiplier>0.0</rangedDamageMultiplier>
+		<skills>
+			<piloting req="15"/>
+			<engines req="15"/>
+			<shields req="45"/>
+			<weapons req="45"/>
+			<repair req="15"/>
+			<combat req="10"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="bruce">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>3.5</damageMultiplier>
+		<damageTakenMultiplier>0.9</damageTakenMultiplier>
+		<moveSpeedMultiplier>2.5</moveSpeedMultiplier>
+		<repairSpeed>0.5</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>300</maxHealth>
+		<sabotageSpeedMultiplier>1.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>false</canPhaseThroughDoors>
+		<rangedDamageMultiplier>0.5</rangedDamageMultiplier>
+		<skills>
+			<piloting req="1"/>
+			<engines req="1"/>
+			<shields req="1"/>
+			<weapons req="1"/>
+			<repair req="1"/>
+			<combat req="1"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	
+	<!--
+	/////////////////MoneyBags///////////////////
+	-->
+
+
+	<mod-append:race name="moneybags">
+		<canSabotage>false</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.0</damageMultiplier>
+		<damageTakenMultiplier>1.0</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.6</moveSpeedMultiplier>
+		<detectsLifeforms>false</detectsLifeforms>
+		<repairSpeed>0.5</repairSpeed>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>132</maxHealth>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<passiveStatBoosts>  
+			<statBoost name="moveSpeedMultiplier">
+				<boostType>SET</boostType>
+				<amount>0.6</amount>
+				<shipTarget>CURRENT_ROOM</shipTarget>
+				<crewTarget>ALL</crewTarget>
+				<affectsSelf>false</affectsSelf>
+			</statBoost>
+		</passiveStatBoosts>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="moneybags_elite">
+		<canSabotage>false</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.2</damageMultiplier>
+		<damageTakenMultiplier>1.0</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.6</moveSpeedMultiplier>
+		<repairSpeed>0.4</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>198</maxHealth>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<passiveStatBoosts>  
+			<statBoost name="moveSpeedMultiplier">
+				<boostType>SET</boostType>
+				<amount>0.6</amount>
+				<shipTarget>CURRENT_ROOM</shipTarget>
+				<crewTarget>ALL</crewTarget>
+				<affectsSelf>false</affectsSelf>
+			</statBoost>
+		</passiveStatBoosts>
+		<animBase>mantis</animBase>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="moneybags_hologram">
+		<canSabotage>false</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>0.5</damageMultiplier>
+		<damageTakenMultiplier>0.50</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.60</moveSpeedMultiplier>
+		<repairSpeed>0.2</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>132</maxHealth>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<damageEnemiesAmount>3.048</damageEnemiesAmount>
+		<damageMultiplier>0.00000001</damageMultiplier>
+		<animBase>mantis</animBase>
+		<canPhaseThroughDoors>true</canPhaseThroughDoors>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="moneybags_waiter">
+		<canSabotage>false</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.4</damageMultiplier>
+		<damageTakenMultiplier>1.0</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.7</moveSpeedMultiplier>
+		<repairSpeed>0.45</repairSpeed>
+		<oxygenChangeSpeed>-0.525</oxygenChangeSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>250</maxHealth>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+
+	</mod-append:race>
+
+	<mod-append:race name="monee">
+		<canSabotage>false</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.6</damageMultiplier>
+		<damageTakenMultiplier>0.50</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.0</moveSpeedMultiplier>
+		<repairSpeed>1.0</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>300</maxHealth>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<damageEnemiesAmount>5.096</damageEnemiesAmount>
+		<damageMultiplier>0.00000001</damageMultiplier>
+		<passiveStatBoosts>  
+			<statBoost name="moveSpeedMultiplier">
+				<boostType>SET</boostType>
+				<amount>0.6</amount>
+				<shipTarget>CURRENT_ROOM</shipTarget>
+				<crewTarget>ALL</crewTarget>
+				<affectsSelf>false</affectsSelf>
+			</statBoost>
+		</passiveStatBoosts>
+		<skills>
+			<piloting req="1"/>
+			<engines req="1"/>
+			<shields req="1"/>
+			<weapons req="1"/>
+			<repair req="1"/>
+			<combat req="1"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+		<animBase>mantis</animBase>
+	</mod-append:race>
+
+		
+	<!--
+	/////////////////Number Cruncher///////////////////
+	-->
+	
+	<mod-append:race name="numbercruncher">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.0</damageMultiplier>
+		<damageTakenMultiplier>0.8</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+		<detectsLifeforms>false</detectsLifeforms>
+		<repairSpeed>0.9</repairSpeed>
+		<sabotageSpeedMultiplier>1.0</sabotageSpeedMultiplier>
+		<rangedDamageMultiplier>0.0</rangedDamageMultiplier>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>110</maxHealth>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="numbercruncher_elite">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>3.6</damageMultiplier>
+		<damageTakenMultiplier>0.75</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.9</moveSpeedMultiplier>
+		<repairSpeed>0.6</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<rangedDamageMultiplier>0.0</rangedDamageMultiplier>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>165</maxHealth>
+		<sabotageSpeedMultiplier>1.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="numbercruncher_hologram">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.0</damageMultiplier>
+		<damageTakenMultiplier>0.50</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.55</moveSpeedMultiplier>
+		<repairSpeed>0.7</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<rangedDamageMultiplier>0.0</rangedDamageMultiplier>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>110</maxHealth>
+		<sabotageSpeedMultiplier>1.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<canPhaseThroughDoors>true</canPhaseThroughDoors>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="numbercruncher_waiter">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.1</damageMultiplier>
+		<damageTakenMultiplier>0.7</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.9</moveSpeedMultiplier>
+		<repairSpeed>1.9</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>200</maxHealth>
+		<rangedDamageMultiplier>0.2</rangedDamageMultiplier>
+		<sabotageSpeedMultiplier>1.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="lovelace">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.5</damageMultiplier>
+		<damageTakenMultiplier>0.5</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.0</moveSpeedMultiplier>
+		<repairSpeed>2.5</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>250</maxHealth>
+		<rangedDamageMultiplier>0.5</rangedDamageMultiplier>
+		<sabotageSpeedMultiplier>1.3</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<skills>
+			<piloting req="1"/>
+			<engines req="1"/>
+			<shields req="1"/>
+			<weapons req="1"/>
+			<repair req="1"/>
+			<combat req="1"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+		<animBase>mantis</animBase>
+	</mod-append:race>
+	
+	<!--
+	/////////////////Bean Counter///////////////////
+	-->
+
+	<mod-append:race name="bean_counter">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.04</damageMultiplier>
+		<damageTakenMultiplier>0.89</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.33</moveSpeedMultiplier>
+		<repairSpeed>1.44</repairSpeed>
+		<detectsLifeforms>true</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>90</maxHealth>
+		<sabotageSpeedMultiplier>0.99</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="bean_counter_elite">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.51</damageMultiplier>
+		<damageTakenMultiplier>0.85</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.44</moveSpeedMultiplier>
+		<repairSpeed>1.57</repairSpeed>
+		<detectsLifeforms>true</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>135</maxHealth>
+		<sabotageSpeedMultiplier>1.59</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="bean_counter_hologram">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.04</damageMultiplier>
+		<damageTakenMultiplier>0.49</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.01</moveSpeedMultiplier>
+		<repairSpeed>1.23</repairSpeed>
+		<detectsLifeforms>true</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>90</maxHealth>
+		<sabotageSpeedMultiplier>0.99</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="bean_counter_waiter">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.69</damageMultiplier>
+		<damageTakenMultiplier>0.71</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.47</moveSpeedMultiplier>
+		<repairSpeed>1.74</repairSpeed>
+		<detectsLifeforms>true</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>150</maxHealth>
+		<sabotageSpeedMultiplier>1.98</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<canPhaseThroughDoors>true</canPhaseThroughDoors>
+	</mod-append:race>
+
+	<mod-append:race name="ad_em">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.77</damageMultiplier>
+		<damageTakenMultiplier>0.66</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.96</moveSpeedMultiplier>
+		<repairSpeed>2.01</repairSpeed>
+		<detectsLifeforms>true</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>200</maxHealth>
+		<sabotageSpeedMultiplier>2.01</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<skills>
+			<piloting req="1"/>
+			<engines req="1"/>
+			<shields req="1"/>
+			<weapons req="1"/>
+			<repair req="1"/>
+			<combat req="1"/>
+		</skills>
+	</mod-append:race>
+	
+	<!--
+	/////////////////Tightwad///////////////////	
+	-->
+	
+	<mod-append:race name="tightwad">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.5</damageMultiplier>
+		<damageTakenMultiplier>0.8</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+		<detectsLifeforms>false</detectsLifeforms>
+		<repairSpeed>0.8</repairSpeed>
+		<sabotageSpeedMultiplier>1.0</sabotageSpeedMultiplier>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>72</maxHealth>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<doorDamageMultiplier>2</doorDamageMultiplier>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="tightwad_elite">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.5</damageMultiplier>
+		<damageTakenMultiplier>0.8</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.9</moveSpeedMultiplier>
+		<repairSpeed>1.0</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>108</maxHealth>
+		<sabotageSpeedMultiplier>2.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<doorDamageMultiplier>3</doorDamageMultiplier>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="tightwad_hologram">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.0</damageMultiplier>
+		<damageTakenMultiplier>0.50</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.7</moveSpeedMultiplier>
+		<repairSpeed>0.5</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>72</maxHealth>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<canPhaseThroughDoors>true</canPhaseThroughDoors>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="tightwad_waiter">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.5</damageMultiplier>
+		<damageTakenMultiplier>0.7</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.0</moveSpeedMultiplier>
+		<repairSpeed>1.5</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>150</maxHealth>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+	
+	<!--
+	/////////////////Penny Pincher///////////////////
+	-->
+
+	<mod-append:race name="penny_p">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.0</damageMultiplier>
+		<damageTakenMultiplier>0.7</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.6</moveSpeedMultiplier>
+		<repairSpeed>0.4</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>56</maxHealth>
+		<sabotageSpeedMultiplier>0.9</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>false</canPhaseThroughDoors>
+		<rangedDamageMultiplier>0.25</rangedDamageMultiplier>
+		<skills>
+			<piloting req="20"/>
+			<engines req="20"/>
+			<shields req="50"/>
+			<weapons req="50"/>
+			<repair req="15"/>
+			<combat req="6"/>
+		</skills>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="penny_p_elite">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.3</damageMultiplier>
+		<damageTakenMultiplier>0.7</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.6</moveSpeedMultiplier>
+		<repairSpeed>0.4</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>112</maxHealth>
+		<sabotageSpeedMultiplier>1.1</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>false</canPhaseThroughDoors>
+		<rangedDamageMultiplier>0.55</rangedDamageMultiplier>
+		<skills>
+			<piloting req="20"/>
+			<engines req="20"/>
+			<shields req="50"/>
+			<weapons req="50"/>
+			<repair req="15"/>
+			<combat req="6"/>
+		</skills>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="penny_p_waiter">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.3</damageMultiplier>
+		<damageTakenMultiplier>0.7</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.6</moveSpeedMultiplier>
+		<repairSpeed>0.4</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>150</maxHealth>
+		<sabotageSpeedMultiplier>1.1</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>false</canPhaseThroughDoors>
+		<rangedDamageMultiplier>0.66</rangedDamageMultiplier>
+		<skills>
+			<piloting req="20"/>
+			<engines req="20"/>
+			<shields req="50"/>
+			<weapons req="50"/>
+			<repair req="15"/>
+			<combat req="6"/>
+		</skills>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="penny_p_hologram">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.5</damageMultiplier>
+		<damageTakenMultiplier>0.5</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.6</moveSpeedMultiplier>
+		<repairSpeed>0.4</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>56</maxHealth>
+		<sabotageSpeedMultiplier>2.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>true</canPhaseThroughDoors>
+		<rangedDamageMultiplier>0.66</rangedDamageMultiplier>
+		<skills>
+			<piloting req="20"/>
+			<engines req="20"/>
+			<shields req="50"/>
+			<weapons req="50"/>
+			<repair req="15"/>
+			<combat req="6"/>
+		</skills>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="cash_crab">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.5</damageMultiplier>
+		<damageTakenMultiplier>0.6</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+		<repairSpeed>0.8</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>200</maxHealth>
+		<sabotageSpeedMultiplier>2.5</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>false</canPhaseThroughDoors>
+		<rangedDamageMultiplier>0.80</rangedDamageMultiplier>
+		<skills>
+			<piloting req="1"/>
+			<engines req="1"/>
+			<shields req="1"/>
+			<weapons req="1"/>
+			<repair req="1"/>
+			<combat req="1"/>
+		</skills>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<!--
+	/////////////////Short Change///////////////////
+	-->
+
+	<!--
+	//////////////////////////////////////////////
+	//////////////////////////////////////////////
+			Sellbots
+	//////////////////////////////////////////////
+	//////////////////////////////////////////////
+	-->
+	
+	<!--
+	/////////////////Mr. Hollywood///////////////////
+	-->
+
+	<mod-append:race name="mrhollywood">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.3</damageMultiplier>
+		<damageTakenMultiplier>0.6</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.2</moveSpeedMultiplier>
+		<repairSpeed>1.0</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>200</maxHealth>
+		<sabotageSpeedMultiplier>2.2</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>false</canPhaseThroughDoors>
+		<skills>
+			<piloting req="10"/>
+			<engines req="10"/>
+			<shields req="25"/>
+			<weapons req="25"/>
+			<repair req="7"/>
+			<combat req="4"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+		<deathEffect>
+			<persDamage>1</persDamage>
+			<friendlyFire>false</friendlyFire>
+		</deathEffect>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="mrhollywood_elite">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.6</damageMultiplier>
+		<damageTakenMultiplier>0.6</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.3</moveSpeedMultiplier>
+		<repairSpeed>1.3</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>300</maxHealth>
+		<sabotageSpeedMultiplier>2.2</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>false</canPhaseThroughDoors>
+		<skills>
+			<piloting req="10"/>
+			<engines req="10"/>
+			<shields req="25"/>
+			<weapons req="25"/>
+			<repair req="7"/>
+			<combat req="4"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+		<deathEffect>
+			<persDamage>1</persDamage>
+			<friendlyFire>false</friendlyFire>
+		</deathEffect>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="mrhollywood_waiter">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.7</damageMultiplier>
+		<damageTakenMultiplier>0.6</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.5</moveSpeedMultiplier>
+		<repairSpeed>1.2</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>350</maxHealth>
+		<sabotageSpeedMultiplier>2.5</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>false</canPhaseThroughDoors>
+		<skills>
+			<piloting req="10"/>
+			<engines req="10"/>
+			<shields req="25"/>
+			<weapons req="25"/>
+			<repair req="7"/>
+			<combat req="4"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+		<deathEffect>
+			<persDamage>1</persDamage>
+			<friendlyFire>false</friendlyFire>
+		</deathEffect>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="mrhollywood_hologram">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.4</damageMultiplier>
+		<damageTakenMultiplier>0.5</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.9</moveSpeedMultiplier>
+		<repairSpeed>0.8</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>200</maxHealth>
+		<sabotageSpeedMultiplier>1.9</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>true</canPhaseThroughDoors>
+		<skills>
+			<piloting req="10"/>
+			<engines req="10"/>
+			<shields req="25"/>
+			<weapons req="25"/>
+			<repair req="7"/>
+			<combat req="4"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="holiday">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>4.0</damageMultiplier>
+		<damageTakenMultiplier>0.50</damageTakenMultiplier>
+		<moveSpeedMultiplier>2.0</moveSpeedMultiplier>
+		<repairSpeed>1.4</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>400</maxHealth>
+		<sabotageSpeedMultiplier>3.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>false</canPhaseThroughDoors>
+		<skills>
+			<piloting req="1"/>
+			<engines req="1"/>
+			<shields req="1"/>
+			<weapons req="1"/>
+			<repair req="1"/>
+			<combat req="1"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	
+	
+	<!--
+	/////////////////The Mingler///////////////////
+	-->
+	
+
+	<mod-append:race name="mingler">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.0</damageMultiplier>
+		<damageTakenMultiplier>0.7</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.6</moveSpeedMultiplier>
+		<repairSpeed>0.6</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>156</maxHealth>
+		<sabotageSpeedMultiplier>1.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<skills>
+			<piloting req="20"/>
+			<engines req="20"/>
+			<shields req="50"/>
+			<weapons req="50"/>
+			<repair req="15"/>
+			<combat req="8"/>
+		</skills>
+		<powerEffect>
+		<cooldown>20</cooldown>
+		<jumpCooldown>full</jumpCooldown>
+		<powerSounds>
+			<powerSound>mingler_stun_talk</powerSound>
+		</powerSounds>
+		<req type="enemy">
+			<enemyInRoom/>
+		</req>
+		<friendlyFire>true</friendlyFire>
+		<stun>10</stun>
+		<buttonText>MINGLE</buttonText>
+		<tooltip>Ready: Mingle with everyone in the room for 10 seconds.</tooltip>
+		<cooldownColor r="230" g="237" b="133"/>
+		<effectAnim>explosion_stun_ion</effectAnim>
+			<temporaryEffect>
+				<duration>10</duration>
+				<cooldownColor r="255" g="242" b="140"/>
+				<finishSounds>
+					<finishSound>decloak</finishSound>
+				</finishSounds>
+				<damageMultiplier>2</damageMultiplier>
+				<moveSpeedMultiplier>0</moveSpeedMultiplier>
+				<allDamageTakenMultiplier>0.70</allDamageTakenMultiplier>
+				<rangedDamageMultiplier>3.5</rangedDamageMultiplier>
+				<canRepair>false</canRepair>
+			</temporaryEffect>
+		</powerEffect>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="mingler_elite">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.2</damageMultiplier>
+		<damageTakenMultiplier>0.65</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.6</moveSpeedMultiplier>
+		<repairSpeed>0.7</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>234</maxHealth>
+		<sabotageSpeedMultiplier>1.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<skills>
+			<piloting req="20"/>
+			<engines req="20"/>
+			<shields req="50"/>
+			<weapons req="50"/>
+			<repair req="15"/>
+			<combat req="8"/>
+		</skills>
+		<powerEffect>
+		<cooldown>18</cooldown>
+		<jumpCooldown>full</jumpCooldown>
+		<powerSounds>
+			<powerSound>mingler_stun_talk</powerSound>
+		</powerSounds>
+		<req type="enemy">
+			<enemyInRoom/>
+		</req>
+		<friendlyFire>true</friendlyFire>
+		<stun>12</stun>
+		<buttonText>MINGLE</buttonText>
+		<tooltip>Ready: Mingle with everyone in the room for 15 seconds.</tooltip>
+		<cooldownColor r="230" g="237" b="133"/>
+		<effectAnim>explosion_stun_ion</effectAnim>
+			<temporaryEffect>
+				<duration>10</duration>
+				<cooldownColor r="255" g="242" b="140"/>
+				<finishSounds>
+					<finishSound>decloak</finishSound>
+				</finishSounds>
+				<damageMultiplier>2.1</damageMultiplier>
+				<moveSpeedMultiplier>0</moveSpeedMultiplier>
+				<allDamageTakenMultiplier>0.60</allDamageTakenMultiplier>
+				<rangedDamageMultiplier>3.9</rangedDamageMultiplier>
+				<canRepair>false</canRepair>
+			</temporaryEffect>
+	</powerEffect>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="mingler_waiter">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.0</damageMultiplier>
+		<damageTakenMultiplier>0.6</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.6</moveSpeedMultiplier>
+		<repairSpeed>0.7</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>250</maxHealth>
+		<sabotageSpeedMultiplier>1.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<skills>
+			<piloting req="20"/>
+			<engines req="20"/>
+			<shields req="50"/>
+			<weapons req="50"/>
+			<repair req="15"/>
+			<combat req="8"/>
+		</skills>
+		<powerEffect>
+		<cooldown>18</cooldown>
+		<jumpCooldown>full</jumpCooldown>
+		<powerSounds>
+			<powerSound>mingler_stun_talk</powerSound>
+		</powerSounds>
+		<req type="enemy">
+			<enemyInRoom/>
+		</req>
+		<friendlyFire>false</friendlyFire>
+		<stun>20</stun>
+		<buttonText>MINGLE</buttonText>
+		<tooltip>Ready: Mingle with the enemy in the room for 20 seconds.</tooltip>
+		<cooldownColor r="230" g="237" b="133"/>
+		<effectAnim>explosion_stun_ion</effectAnim>
+			<temporaryEffect>
+				<duration>20</duration>
+				<cooldownColor r="255" g="242" b="140"/>
+				<finishSounds>
+					<finishSound>decloak</finishSound>
+				</finishSounds>
+				<damageMultiplier>2.5</damageMultiplier>
+				<moveSpeedMultiplier>0</moveSpeedMultiplier>
+				<allDamageTakenMultiplier>0.60</allDamageTakenMultiplier>
+				<rangedDamageMultiplier>3.5</rangedDamageMultiplier>
+				<canRepair>false</canRepair>
+			</temporaryEffect>
+		</powerEffect>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="mingler_hologram">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.0</damageMultiplier>
+		<damageTakenMultiplier>0.5</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.6</moveSpeedMultiplier>
+		<repairSpeed>0.7</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>156</maxHealth>
+		<sabotageSpeedMultiplier>1.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPhaseThroughDoors>true</canPhaseThroughDoors>
+		<skills>
+			<piloting req="20"/>
+			<engines req="20"/>
+			<shields req="50"/>
+			<weapons req="50"/>
+			<repair req="15"/>
+			<combat req="8"/>
+		</skills>
+		<powerEffect>
+		<cooldown>35</cooldown>
+		<powerSounds>
+			<powerSound>ionHit1</powerSound>
+			<powerSound>ionHit2</powerSound>
+			<powerSound>ionHit3</powerSound>
+			<powerSound>ionShields1</powerSound>
+			<powerSound>ionShields2</powerSound>
+			<powerSound>ionShields3</powerSound>
+		</powerSounds>
+		<req type="enemy">
+			<enemyInRoom/>
+		</req>
+		<friendlyFire>true</friendlyFire>
+		<stun>5</stun>
+		<buttonText>MINGLE</buttonText>
+		<tooltip>Ready: Mingle with everyone in the room for 5 seconds.</tooltip>
+		<cooldownColor r="230" g="237" b="133"/>
+		<effectAnim>explosion_stun_ion</effectAnim>
+			<temporaryEffect>
+				<duration>5</duration>
+				<cooldownColor r="255" g="242" b="140"/>
+				<finishSounds>
+					<finishSound>decloak</finishSound>
+				</finishSounds>
+				<damageMultiplier>1.5</damageMultiplier>
+				<moveSpeedMultiplier>0</moveSpeedMultiplier>
+				<allDamageTakenMultiplier>0.50</allDamageTakenMultiplier>
+				<rangedDamageMultiplier>9.0</rangedDamageMultiplier>
+				<canRepair>false</canRepair>
+			</temporaryEffect>
+	</powerEffect>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="lily">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>3.0</damageMultiplier>
+		<damageTakenMultiplier>0.5</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.9</moveSpeedMultiplier>
+		<repairSpeed>0.9</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>300</maxHealth>
+		<sabotageSpeedMultiplier>1.5</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<skills>
+			<piloting req="1"/>
+			<engines req="1"/>
+			<shields req="1"/>
+			<weapons req="1"/>
+			<repair req="1"/>
+			<combat req="1"/>
+		</skills>
+		<powerEffect>
+		<cooldown>30</cooldown>
+		<jumpCooldown>full</jumpCooldown>
+		<powerSounds>
+			<powerSound>mingler_stun_talk</powerSound>
+		</powerSounds>
+		<req type="enemy">
+			<enemyInRoom/>
+		</req>
+		<friendlyFire>false</friendlyFire>
+		<stun>11</stun>
+		<buttonText>MINGLE</buttonText>
+		<tooltip>Ready: Mingle with everyone in the room for 10 seconds.</tooltip>
+		<cooldownColor r="230" g="237" b="133"/>
+		<effectAnim>explosion_stun_ion</effectAnim>
+			<temporaryEffect>
+				<duration>10</duration>
+				<cooldownColor r="255" g="242" b="140"/>
+				<finishSounds>
+					<finishSound>decloak</finishSound>
+				</finishSounds>
+				<damageMultiplier>3.0</damageMultiplier>
+				<moveSpeedMultiplier>0</moveSpeedMultiplier>
+				<allDamageTakenMultiplier>0.40</allDamageTakenMultiplier>
+				<rangedDamageMultiplier>10.5</rangedDamageMultiplier>
+				<canRepair>false</canRepair>
+			</temporaryEffect>
+	</powerEffect>
+	<animBase>mantis</animBase>
+	</mod-append:race>
+
+	
+	
+	<!--
+	/////////////////Two-Face///////////////////
+	-->
+
+
+	<mod-append:race name="twoface">
+		<punchTimer min="250" max="325"	/>
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>0.6</damageMultiplier>
+		<damageTakenMultiplier>0.8</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+		<detectsLifeforms>false</detectsLifeforms>
+		<repairSpeed>1.5</repairSpeed>
+		<sabotageSpeedMultiplier>0.7</sabotageSpeedMultiplier>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>132</maxHealth>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="twoface_elite">
+		<punchTimer min="250" max="325"/>
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.0</damageMultiplier>
+		<damageTakenMultiplier>0.7</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+		<repairSpeed>1.7</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>198</maxHealth>
+		<sabotageSpeedMultiplier>0.9</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+	
+	<mod-append:race name="twoface_hologram">
+		<punchTimer min="250" max="325"/>
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>0.6</damageMultiplier>
+		<damageTakenMultiplier>0.50</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.60</moveSpeedMultiplier>
+		<repairSpeed>0.7</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>132</maxHealth>
+		<sabotageSpeedMultiplier>0.7</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<canPhaseThroughDoors>true</canPhaseThroughDoors>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="twoface_waiter">
+		<punchTimer min="250" max="325"/>
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.2</damageMultiplier>
+		<damageTakenMultiplier>0.7</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.0</moveSpeedMultiplier>
+		<repairSpeed>1.8</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>250</maxHealth>
+		<sabotageSpeedMultiplier>1.3</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="harvey">
+		<punchTimer min="250" max="325"/>
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.4</damageMultiplier>
+		<damageTakenMultiplier>0.7</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.1</moveSpeedMultiplier>
+		<repairSpeed>2.0</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>300</maxHealth>
+		<sabotageSpeedMultiplier>1.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<skills>
+			<piloting req="1"/>
+			<engines req="1"/>
+			<shields req="1"/>
+			<weapons req="1"/>
+			<repair req="1"/>
+			<combat req="1"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+		<animBase>mantis</animBase>
+	</mod-append:race>
+
+	
+	<!--
+	/////////////////Mover & Shaker///////////////////
+	-->
+
+	<mod-append:race name="mover_and_shaker">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>0.0</damageMultiplier>
+		<damageEnemiesAmount>2.0</damageEnemiesAmount>
+		<damageTakenMultiplier>0.8</damageTakenMultiplier>
+		<moveSpeedMultiplier>2.0</moveSpeedMultiplier>
+		<detectsLifeforms>false</detectsLifeforms>
+		<repairSpeed>0.7</repairSpeed>
+		<sabotageSpeedMultiplier>0.0</sabotageSpeedMultiplier>
+		<rangedDamageMultiplier>0.0</rangedDamageMultiplier>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>110</maxHealth>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPunch>false</canPunch>
+		<animBase>mantis</animBase>
+		<shootingSounds>
+			<shootingSound>SA_tremor</shootingSound>
+		</shootingSounds>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="mover_and_shaker_elite">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>0.0</damageMultiplier>
+		<damageEnemiesAmount>3.5</damageEnemiesAmount>
+		<damageTakenMultiplier>0.8</damageTakenMultiplier>
+		<moveSpeedMultiplier>2.2</moveSpeedMultiplier>
+		<repairSpeed>0.5</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<rangedDamageMultiplier>0.0</rangedDamageMultiplier>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>165</maxHealth>
+		<sabotageSpeedMultiplier>0.1</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPunch>false</canPunch>
+		<animBase>mantis</animBase>
+		<shootingSounds>
+			<shootingSound>SA_tremor</shootingSound>
+		</shootingSounds>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="mover_and_shaker_hologram">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>0.0</damageMultiplier>
+		<damageEnemiesAmount>2.0</damageEnemiesAmount>
+		<damageTakenMultiplier>0.50</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.0</moveSpeedMultiplier>
+		<repairSpeed>0.2</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<rangedDamageMultiplier>0.0</rangedDamageMultiplier>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>110</maxHealth>
+		<sabotageSpeedMultiplier>2.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPunch>false</canPunch>
+		<animBase>mantis</animBase>
+		<shootingSounds>
+			<shootingSound>SA_tremor</shootingSound>
+		</shootingSounds>
+		<canPhaseThroughDoors>true</canPhaseThroughDoors>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="mover_and_shaker_waiter">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>0.0</damageMultiplier>
+		<damageEnemiesAmount>5.0</damageEnemiesAmount>
+		<damageTakenMultiplier>0.7</damageTakenMultiplier>
+		<moveSpeedMultiplier>3.0</moveSpeedMultiplier>
+		<repairSpeed>1.0</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>200</maxHealth>
+		<rangedDamageMultiplier>0.0</rangedDamageMultiplier>
+		<sabotageSpeedMultiplier>0.9</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPunch>false</canPunch>
+		<animBase>mantis</animBase>
+		<shootingSounds>
+			<shootingSound>SA_tremor</shootingSound>
+		</shootingSounds>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="bakker">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>0.0</damageMultiplier>
+		<damageEnemiesAmount>4.0</damageEnemiesAmount>
+		<damageTakenMultiplier>0.5</damageTakenMultiplier>
+		<moveSpeedMultiplier>3.0</moveSpeedMultiplier>
+		<repairSpeed>1.2</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>250</maxHealth>
+		<rangedDamageMultiplier>0.0</rangedDamageMultiplier>
+		<sabotageSpeedMultiplier>1.3</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<canPunch>false</canPunch>
+		<skills>
+			<piloting req="1"/>
+			<engines req="1"/>
+			<shields req="1"/>
+			<weapons req="1"/>
+			<repair req="1"/>
+			<combat req="1"/>
+		</skills>
+		<shootingSounds>
+			<shootingSound>SA_tremor</shootingSound>
+		</shootingSounds>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+		<animBase>mantis</animBase>
+	</mod-append:race>
+	
+	<!--
+	/////////////////Glad Hander///////////////////
+	-->
+
+	<mod-append:race name="glad_hander">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.2</damageMultiplier>
+		<damageTakenMultiplier>0.89</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.5</moveSpeedMultiplier>
+		<repairSpeed>0.5</repairSpeed>
+		<detectsLifeforms>true</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>90</maxHealth>
+		<sabotageSpeedMultiplier>1.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="glad_hander_elite">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.5</damageMultiplier>
+		<damageTakenMultiplier>0.85</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.7</moveSpeedMultiplier>
+		<repairSpeed>0.7</repairSpeed>
+		<detectsLifeforms>true</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>135</maxHealth>
+		<sabotageSpeedMultiplier>1.2</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="glad_hander_hologram">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.2</damageMultiplier>
+		<damageTakenMultiplier>0.50</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.50</moveSpeedMultiplier>
+		<repairSpeed>0.5</repairSpeed>
+		<detectsLifeforms>true</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>90</maxHealth>
+		<sabotageSpeedMultiplier>1.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+	</mod-append:race>
+
+	<mod-append:race name="glad_hander_waiter">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>2.6</damageMultiplier>
+		<damageTakenMultiplier>0.8</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.9</moveSpeedMultiplier>
+		<repairSpeed>1.1</repairSpeed>
+		<detectsLifeforms>true</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>150</maxHealth>
+		<sabotageSpeedMultiplier>1.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<canPhaseThroughDoors>true</canPhaseThroughDoors>
+	</mod-append:race>
+	
+	<!--
+	/////////////////Name Dropper///////////////////	
+	-->
+	
+	<mod-append:race name="name_dropper">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>0.01</damageMultiplier>
+		<damageTakenMultiplier>0.8</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+		<detectsLifeforms>false</detectsLifeforms>
+		<repairSpeed>0.5</repairSpeed>
+		<sabotageSpeedMultiplier>1.0</sabotageSpeedMultiplier>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>72</maxHealth>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<rangedDamageMultiplier>150.0</rangedDamageMultiplier>
+		<shootingSounds>
+			<shootingSound>ND_Pot</shootingSound>
+		</shootingSounds>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="name_dropper_elite">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>0.01</damageMultiplier>
+		<damageTakenMultiplier>0.75</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.85</moveSpeedMultiplier>
+		<repairSpeed>1.0</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>108</maxHealth>
+		<sabotageSpeedMultiplier>1.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<rangedDamageMultiplier>200.0</rangedDamageMultiplier>
+		<shootingSounds>
+			<shootingSound>ND_Anvil</shootingSound>
+		</shootingSounds>
+		<animBase>mantis</animBase>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="name_dropper_hologram">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>0.01</damageMultiplier>
+		<damageTakenMultiplier>0.50</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.50</moveSpeedMultiplier>
+		<repairSpeed>0.5</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>72</maxHealth>
+		<sabotageSpeedMultiplier>0.5</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<canPhaseThroughDoors>true</canPhaseThroughDoors>
+		<rangedDamageMultiplier>150.0</rangedDamageMultiplier>
+		<shootingSounds>
+			<shootingSound>ND_VPot</shootingSound>
+		</shootingSounds>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+	<mod-append:race name="name_dropper_waiter">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>0.01</damageMultiplier>
+		<damageTakenMultiplier>0.75</damageTakenMultiplier>
+		<moveSpeedMultiplier>0.9</moveSpeedMultiplier>
+		<repairSpeed>1.0</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>150</maxHealth>
+		<sabotageSpeedMultiplier>1.0</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<animBase>mantis</animBase>
+		<rangedDamageMultiplier>400.0</rangedDamageMultiplier>
+		<shootingSounds>
+			<shootingSound>ND_Piano</shootingSound>
+		</shootingSounds>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+	</mod-append:race>
+	
+	<!--
+	/////////////////Telemarketer///////////////////
+	-->
+	
+	<!--
+	/////////////////Cold Caller///////////////////	
+	-->
+
+
+
+	<!--
+	//////////////////////////////////////////////
+	//////////////////////////////////////////////
+			SECRET
+	//////////////////////////////////////////////
+	//////////////////////////////////////////////
+	-->
+	
+	<!--
+	/////////////////DR SPIN GOD///////////////////
+	-->
+
+	<mod-append:race name="dr_spin_eldritch">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>10.0</damageMultiplier>
+		<damageTakenMultiplier>0.30</damageTakenMultiplier>
+		<moveSpeedMultiplier>3.0</moveSpeedMultiplier>
+		<repairSpeed>0.1</repairSpeed>
+		<detectsLifeforms>true</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>500</maxHealth>
+		<sabotageSpeedMultiplier>1.5</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<passiveHealAmount>5.5</passiveHealAmount>
+		<healSpeed>5.5</healSpeed>
+		<shootingSounds>                                                                
+			<shootingSound>dr_spin_eldritch_power</shootingSound>
+		</shootingSounds>
+		<skills>
+			<piloting req="1"/>
+			<engines req="1"/>
+			<shields req="1"/>
+			<weapons req="1"/>
+			<repair req="1"/>
+			<combat req="1"/>
+		</skills>
+		<passiveStatBoosts>  
+			<statBoost name="statBoost">
+				<statBoost name="canFight">
+                    <boostType>SET</boostType>
+					<value>false</value>
+                    <shipTarget>CREW_TARGET</shipTarget>
+                    <crewTarget>ALL</crewTarget>
+                    <priority>999</priority>
+					<whiteList>
+						<controller/>
+						<queen/>
+						<herobrine/>
+						<dr_spin_eldritch/>
+						<moreso/>
+						<leach_eldritch/>
+						<leach_eldritch_clone/>
+						<leach_eldritch_clone_two/>
+						<leach_eldritch_clone_three/>
+						<leach_eldritch_clone_four/>
+					</whiteList>
+				</statBoost>
+				<shipTarget>CREW_TARGET</shipTarget>
+                <crewTarget>ENEMIES</crewTarget>
+			</statBoost>
+		</passiveStatBoosts>
+		<statBoost name="deathEffect">
+			<boostType>SET</boostType>
+				<deathEffect/>
+				<shipTarget>CURRENT_ROOM</shipTarget>
+				<crewTarget>ALL</crewTarget>
+				<affectsSelf>false</affectsSelf>
+				<priority>-100</priority>
+				<duration>20</duration>
+				<whiteList>
+					<eldritch_thing/>
+				</whiteList>
+			</statBoost>
+			<statBoost name="allDamageTakenMultiplier">
+				<boostType>SET</boostType>
+				<amount>1</amount>
+				<shipTarget>CURRENT_ROOM</shipTarget>
+				<crewTarget>ALL</crewTarget>
+				<affectsSelf>false</affectsSelf>
+				<priority>-100</priority>
+				<duration>20</duration>
+				<whiteList>
+					<eldritch_spawn/>
+				</whiteList>
+			</statBoost>
+		<powerEffect>
+			<cooldown>25</cooldown>
+			<stun>20</stun>
+			<friendlyFire>false</friendlyFire>
+			<jumpCooldown>continue</jumpCooldown>
+			<powerSounds>
+				<powerSound>dr_spin_eldritch_effect</powerSound>
+			</powerSounds>
+			<statBoost name="deathEffect">
+				<boostType>SET</boostType>
+				<deathEffect/>
+				<shipTarget>CURRENT_ROOM</shipTarget>
+				<crewTarget>ALL</crewTarget>
+				<affectsSelf>false</affectsSelf>
+				<priority>-100</priority>
+				<duration>20</duration>
+				<whiteList>
+					<eldritch_thing/>
+				</whiteList>
+			</statBoost>
+			<statBoost name="allDamageTakenMultiplier">
+				<boostType>SET</boostType>
+				<amount>1</amount>
+				<shipTarget>CURRENT_ROOM</shipTarget>
+				<crewTarget>ALL</crewTarget>
+				<affectsSelf>false</affectsSelf>
+				<priority>-100</priority>
+				<duration>20</duration>
+				<whiteList>
+					<eldritch_spawn/>
+				</whiteList>
+			</statBoost>
+			<!--<req>
+				<friendlyInRoom/>
+			</req>-->
+			<friendlyFire>true</friendlyFire>
+			<shipFriendlyFire>true</shipFriendlyFire>
+			<buttonText>REAL HEAL</buttonText>
+			<tooltip>Ready: Click to heal all friendly crew and kill Elritch bastards in the same room.</tooltip>
+			<cooldownColor r="255" g="78" b="69"/>
+			<effectAnim>explosion_big1_heal</effectAnim>
+			<crewHealth>300</crewHealth>
+			<selfHealth>300</selfHealth>
+		</powerEffect>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+		<animBase>mantis</animBase>
+	</mod-append:race>
+
+	 <mod-append:race name="controller">
+		<essential>5</essential>
+		<maxHealth>1000</maxHealth>
+		<canBurn>false</canBurn>
+		<canSuffocate>false</canSuffocate>
+		<resistsMindControl>true</resistsMindControl>
+		<noClone>true</noClone>
+		<healSpeed>100</healSpeed>
+		<damageMultiplier>100.0</damageMultiplier>
+		<damageTakenMultiplier>0.01</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.0</moveSpeedMultiplier>
+		<repairSpeed>10.0</repairSpeed>
+		<detectsLifeforms>true</detectsLifeforms>
+		<teleportMove>true</teleportMove>
+		<teleportMoveOtherShip>true</teleportMoveOtherShip>
+		<noSlot>true</noSlot>
+		<defaultSkillLevel>2</defaultSkillLevel>
+		<sabotageSpeedMultiplier>100</sabotageSpeedMultiplier>
+		<doorDamageMultiplier>999</doorDamageMultiplier>
+		<shootingSounds>                                                                
+			<shootingSound>reality_shift</shootingSound>
+		</shootingSounds>
+		<passiveStatBoosts>  
+			<statBoost name="statBoost">
+				<statBoost name="canFight">
+                    <boostType>SET</boostType>
+					<value>false</value>
+                    <shipTarget>CREW_TARGET</shipTarget>
+                    <crewTarget>ALL</crewTarget>
+                    <priority>999</priority>
+					<whiteList>
+						<controller/>
+						<queen/>
+						<herobrine/>
+						<dr_spin_eldritch/>
+						<moreso/>
+						<leach_eldritch/>
+						<leach_eldritch_clone/>
+						<leach_eldritch_clone_two/>
+						<leach_eldritch_clone_three/>
+						<leach_eldritch_clone_four/>
+					</whiteList>
+				</statBoost>
+				<shipTarget>CREW_TARGET</shipTarget>
+                <crewTarget>ENEMIES</crewTarget>
+			</statBoost>
+		</passiveStatBoosts>
+		<deathEffect>
+			<spawnCrew>
+				<race>controller</race>
+				<name>The Controller</name>
+				<number>1</number>
+			</spawnCrew>
+		</deathEffect>
+		<deathSounds>
+			<deathSound>failure</deathSound>
+		</deathSounds>
+	 </mod-append:race>
+	 
+	 <mod-append:race name="queen">
+		<essential>5</essential>
+		<maxHealth>1000</maxHealth>
+		<canBurn>false</canBurn>
+		<canSuffocate>false</canSuffocate>
+		<resistsMindControl>true</resistsMindControl>
+		<noClone>true</noClone>
+		<healSpeed>99</healSpeed>
+		<damageMultiplier>99</damageMultiplier>
+		<damageTakenMultiplier>0.02</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.0</moveSpeedMultiplier>
+		<repairSpeed>9.9</repairSpeed>
+		<detectsLifeforms>true</detectsLifeforms>
+		<teleportMove>true</teleportMove>
+		<teleportMoveOtherShip>true</teleportMoveOtherShip>
+		<noSlot>true</noSlot>
+		<defaultSkillLevel>2</defaultSkillLevel>
+		<sabotageSpeedMultiplier>100</sabotageSpeedMultiplier>
+		<doorDamageMultiplier>999</doorDamageMultiplier>
+		<shootingSounds>                                                                
+			<shootingSound>reality_shift</shootingSound>
+		</shootingSounds>
+		<passiveStatBoosts>  
+			<statBoost name="statBoost">
+				<statBoost name="canFight">
+                    <boostType>SET</boostType>
+					<value>false</value>
+                    <shipTarget>CREW_TARGET</shipTarget>
+                    <crewTarget>ALL</crewTarget>
+                    <priority>999</priority>
+					<whiteList>
+						<controller/>
+						<queen/>
+						<herobrine/>
+						<dr_spin_eldritch/>
+						<moreso/>
+						<leach_eldritch/>
+						<leach_eldritch_clone/>
+						<leach_eldritch_clone_two/>
+						<leach_eldritch_clone_three/>
+						<leach_eldritch_clone_four/>
+					</whiteList>
+				</statBoost>
+				<shipTarget>CREW_TARGET</shipTarget>
+                <crewTarget>ENEMIES</crewTarget>
+			</statBoost>
+		</passiveStatBoosts>
+		<deathEffect>
+			<spawnCrew>
+				<race>queen</race>
+				<name>The Queen</name>
+				<number>1</number>
+			</spawnCrew>
+		</deathEffect>
+		<deathSounds>
+			<deathSound>failure</deathSound>
+		</deathSounds>
+	 </mod-append:race>
+	 
+	 <mod-append:race name="herobrine">
+		<essential>5</essential>
+		<maxHealth>1000</maxHealth>
+		<canBurn>false</canBurn>
+		<canSuffocate>false</canSuffocate>
+		<resistsMindControl>true</resistsMindControl>
+		<noClone>true</noClone>
+		<healSpeed>90</healSpeed>
+		<damageMultiplier>20</damageMultiplier>
+		<damageTakenMultiplier>0.2</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.0</moveSpeedMultiplier>
+		<repairSpeed>9.9</repairSpeed>
+		<detectsLifeforms>true</detectsLifeforms>
+		<teleportMove>true</teleportMove>
+		<teleportMoveOtherShip>true</teleportMoveOtherShip>
+		<noSlot>false</noSlot>
+		<defaultSkillLevel>2</defaultSkillLevel>
+		<sabotageSpeedMultiplier>10</sabotageSpeedMultiplier>
+		<doorDamageMultiplier>10</doorDamageMultiplier>
+		<shootingSounds>                                                                
+			<shootingSound>reality_shift</shootingSound>
+		</shootingSounds>
+		<passiveStatBoosts>  
+			<statBoost name="statBoost">
+				<statBoost name="canFight">
+                    <boostType>SET</boostType>
+					<value>false</value>
+                    <shipTarget>CREW_TARGET</shipTarget>
+                    <crewTarget>ALL</crewTarget>
+                    <priority>999</priority>
+					<whiteList>
+						<controller/>
+						<queen/>
+						<herobrine/>
+						<dr_spin_eldritch/>
+						<moreso/>
+						<leach_eldritch/>
+						<leach_eldritch_clone/>
+						<leach_eldritch_clone_two/>
+						<leach_eldritch_clone_three/>
+						<leach_eldritch_clone_four/>
+					</whiteList>
+				</statBoost>
+				<shipTarget>CREW_TARGET</shipTarget>
+                <crewTarget>ENEMIES</crewTarget>
+			</statBoost>
+		</passiveStatBoosts>
+		<deathEffect>
+			<spawnCrew>
+				<race>herobrine</race>
+				<name>Herobrine</name>
+			</spawnCrew>
+		</deathEffect>
+		<deathSounds>
+			<deathSound>failure</deathSound>
+		</deathSounds>
+	 </mod-append:race>
+
+	 <mod-append:race name="moreso">
+		<essential>5</essential>
+		<maxHealth>1000</maxHealth>
+		<canBurn>false</canBurn>
+		<canSuffocate>false</canSuffocate>
+		<resistsMindControl>true</resistsMindControl>
+		<noClone>true</noClone>
+		<healSpeed>90</healSpeed>
+		<damageMultiplier>20</damageMultiplier>
+		<damageTakenMultiplier>0.2</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.0</moveSpeedMultiplier>
+		<repairSpeed>9.9</repairSpeed>
+		<detectsLifeforms>true</detectsLifeforms>
+		<teleportMove>true</teleportMove>
+		<teleportMoveOtherShip>true</teleportMoveOtherShip>
+		<noSlot>false</noSlot>
+		<defaultSkillLevel>2</defaultSkillLevel>
+		<sabotageSpeedMultiplier>10</sabotageSpeedMultiplier>
+		<doorDamageMultiplier>10</doorDamageMultiplier>
+		<shootingSounds>                                                                
+			<shootingSound>reality_shift</shootingSound>
+		</shootingSounds>
+		<passiveStatBoosts>  
+			<statBoost name="statBoost">
+				<statBoost name="canFight">
+                    <boostType>SET</boostType>
+					<value>false</value>
+                    <shipTarget>CREW_TARGET</shipTarget>
+                    <crewTarget>ALL</crewTarget>
+                    <priority>999</priority>
+					<whiteList>
+						<controller/>
+						<queen/>
+						<herobrine/>
+						<dr_spin_eldritch/>
+						<moreso/>
+						<leach_eldritch/>
+						<leach_eldritch_clone/>
+						<leach_eldritch_clone_two/>
+						<leach_eldritch_clone_three/>
+						<leach_eldritch_clone_four/>
+					</whiteList>
+				</statBoost>
+				<shipTarget>CREW_TARGET</shipTarget>
+                <crewTarget>ENEMIES</crewTarget>
+			</statBoost>
+		</passiveStatBoosts>
+		<deathEffect>
+			<spawnCrew>
+				<race>moreso</race>
+				<name>Morseo</name>
+			</spawnCrew>
+		</deathEffect>
+		<deathSounds>
+			<deathSound>failure</deathSound>
+		</deathSounds>
+	 </mod-append:race>	 
+	 
+	 <mod-append:race name="leach_eldritch">
+		<essential>5</essential>
+		<maxHealth>500</maxHealth>
+		<canBurn>false</canBurn>
+		<canSuffocate>false</canSuffocate>
+		<canMan>false</canMan>
+		<canRepair>false</canRepair>
+		<canSabotage>false</canSabotage>
+		<noWarning>true</noWarning>
+		<fireRepairMultiplier>0.0</fireRepairMultiplier>
+		<resistsMindControl>true</resistsMindControl>
+		<noClone>true</noClone>
+		<healSpeed>0</healSpeed>
+		<damageMultiplier>1.0</damageMultiplier>
+		<damageTakenMultiplier>1.0</damageTakenMultiplier>
+		<moveSpeedMultiplier>15.0</moveSpeedMultiplier>
+		<detectsLifeforms>true</detectsLifeforms>
+		<teleportMoveOtherShip>true</teleportMoveOtherShip>
+		<noSlot>true</noSlot>
+		<defaultSkillLevel>2</defaultSkillLevel>
+		<doorDamageMultiplier>999</doorDamageMultiplier>
+		<shootingSounds>                                                                
+			<shootingSound>failure</shootingSound>
+		</shootingSounds>
+		<powerEffect>
+			<cooldown>30</cooldown>
+			<jumpCooldown>reset</jumpCooldown>
+			<powerSounds>
+				<powerSound>LEACHLaughter</powerSound>
+			</powerSounds>
+			<buttonText>No Smiles</buttonText>
+			<tooltip>The chaos grows every 30 seconds</tooltip>
+			<cooldownColor r="0" g="0" b="0"/>
+			<stun>4</stun>
+			<statBoosts>
+				<spawnCrew>
+				<number>2</number>
+				<name>????</name>
+				<race>leach_eldritch_clone</race>
+					<statBoosts>
+						<statBoost name="noClone">
+							<boostType>SET</boostType>
+							<value>true</value>
+							<shipTarget>ALL</shipTarget>
+							<crewTarget>ALL</crewTarget>
+							<priority>999999</priority>
+						</statBoost>
+					</statBoosts>
+				</spawnCrew>
+				<statBoost name="damageMultiplier">
+					<boostType>MULT</boostType>
+					<amount>2</amount>
+					<shipTarget>CURRENT_ROOM</shipTarget>
+					<crewTarget>ALLIES</crewTarget>
+					<affectsSelf>true</affectsSelf>
+					<permanent>true</permanent>
+					<jumpClear>true</jumpClear>
+					<whiteList>
+						<leach_eldritch/>
+					</whiteList>
+				</statBoost>
+			</statBoosts>
+		</powerEffect>
+		<passiveStatBoosts>  
+			<statBoost name="statBoost">
+				<statBoost name="canFight">
+                    <boostType>SET</boostType>
+					<value>false</value>
+                    <shipTarget>CREW_TARGET</shipTarget>
+                    <crewTarget>ALL</crewTarget>
+                    <priority>999</priority>
+					<whiteList>
+						<controller/>
+						<queen/>
+						<herobrine/>
+						<dr_spin_eldritch/>
+						<moreso/>
+						<leach_eldritch/>
+						<leach_eldritch_clone/>
+						<leach_eldritch_clone_two/>
+						<leach_eldritch_clone_three/>
+						<leach_eldritch_clone_four/>
+					</whiteList>
+				</statBoost>
+				<shipTarget>CREW_TARGET</shipTarget>
+                <crewTarget>ENEMIES</crewTarget>
+			</statBoost>
+		</passiveStatBoosts>
+		<deathEffect>
+			<spawnCrew>
+				<race>leach_eldritch</race>
+				<name>????</name>
+				<number>1</number>
+			</spawnCrew>
+		</deathEffect>
+		<deathSounds>
+			<deathSound>failure</deathSound>
+		</deathSounds>
+	 </mod-append:race>
+	 
+	 <mod-append:race name="leach_eldritch_clone">
+		<essential>5</essential>
+		<maxHealth>100</maxHealth>
+		<canBurn>false</canBurn>
+		<canSuffocate>false</canSuffocate>
+		<canMan>false</canMan>
+		<canRepair>false</canRepair>
+		<canSabotage>false</canSabotage>
+		<noWarning>true</noWarning>
+		<fireRepairMultiplier>0.0</fireRepairMultiplier>
+		<resistsMindControl>true</resistsMindControl>
+		<noClone>true</noClone>
+		<healSpeed>0</healSpeed>
+		<damageMultiplier>1.0</damageMultiplier>
+		<damageTakenMultiplier>1.0</damageTakenMultiplier>
+		<moveSpeedMultiplier>10.0</moveSpeedMultiplier>
+		<detectsLifeforms>true</detectsLifeforms>
+		<noSlot>true</noSlot>
+		<defaultSkillLevel>2</defaultSkillLevel>
+		<doorDamageMultiplier>999</doorDamageMultiplier>
+		<shootingSounds>                                                                
+			<shootingSound>reality_shift</shootingSound>
+		</shootingSounds>
+		<powerEffect>
+			<cooldown>30</cooldown>
+			<jumpCooldown>reset</jumpCooldown>
+			<powerSounds>
+				<powerSound>LEACHLaughter</powerSound>
+			</powerSounds>
+			<buttonText>No more sunshine</buttonText>
+			<tooltip>The chaos grows every 30 seconds</tooltip>
+			<cooldownColor r="0" g="0" b="0"/>
+			<stun>4</stun>
+			<statBoosts>
+				<statBoost name="damageMultiplier">
+					<boostType>MULT</boostType>
+					<amount>2</amount>
+					<shipTarget>CURRENT_ROOM</shipTarget>
+					<crewTarget>ALLIES</crewTarget>
+					<affectsSelf>true</affectsSelf>
+					<permanent>true</permanent>
+					<jumpClear>true</jumpClear>
+					<whiteList>
+						<leach_eldritch_clone/>
+					</whiteList>
+				</statBoost>
+			</statBoosts>
+		</powerEffect>
+		<passiveStatBoosts>  
+			<statBoost name="deathEffect">
+				<boostType>SET</boostType>
+				<deathEffect>
+					<spawnCrew>
+						<race>leach_eldritch_clone_two</race>
+						<name>????</name>
+						<number>2</number>
+					</spawnCrew>
+				</deathEffect>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>SELF</crewTarget>
+				<droneTarget>ALL</droneTarget>
+			</statBoost>
+			<statBoost name="statBoost">
+				<statBoost name="canFight">
+                    <boostType>SET</boostType>
+					<value>false</value>
+                    <shipTarget>CREW_TARGET</shipTarget>
+                    <crewTarget>ALL</crewTarget>
+                    <priority>999</priority>
+					<whiteList>
+						<controller/>
+						<queen/>
+						<herobrine/>
+						<dr_spin_eldritch/>
+						<moreso/>
+						<leach_eldritch/>
+						<leach_eldritch_clone/>
+						<leach_eldritch_clone_two/>
+						<leach_eldritch_clone_three/>
+						<leach_eldritch_clone_four/>
+					</whiteList>
+				</statBoost>
+				<shipTarget>CREW_TARGET</shipTarget>
+                <crewTarget>ENEMIES</crewTarget>
+			</statBoost>
+		</passiveStatBoosts>
+		<deathSounds>
+			<deathSound>failure</deathSound>
+		</deathSounds>
+	 </mod-append:race>
+	 
+	 <mod-append:race name="leach_eldritch_clone_two">
+		<essential>5</essential>
+		<maxHealth>100</maxHealth>
+		<canBurn>false</canBurn>
+		<canSuffocate>false</canSuffocate>
+		<canMan>false</canMan>
+		<canRepair>false</canRepair>
+		<canSabotage>false</canSabotage>
+		<noWarning>true</noWarning>
+		<fireRepairMultiplier>0.0</fireRepairMultiplier>
+		<resistsMindControl>true</resistsMindControl>
+		<noClone>true</noClone>
+		<healSpeed>0</healSpeed>
+		<damageMultiplier>1.0</damageMultiplier>
+		<damageTakenMultiplier>1.0</damageTakenMultiplier>
+		<moveSpeedMultiplier>10.0</moveSpeedMultiplier>
+		<detectsLifeforms>true</detectsLifeforms>
+		<noSlot>true</noSlot>
+		<defaultSkillLevel>2</defaultSkillLevel>
+		<doorDamageMultiplier>3</doorDamageMultiplier>
+		<shootingSounds>                                                                
+			<shootingSound>LEACHLaughter</shootingSound>
+		</shootingSounds>
+		<powerEffect>
+			<cooldown>30</cooldown>
+			<jumpCooldown>reset</jumpCooldown>
+			<powerSounds>
+				<powerSound>failure</powerSound>
+			</powerSounds>
+			<buttonText>No more sunshine</buttonText>
+			<tooltip>The chaos grows every 30 seconds</tooltip>
+			<cooldownColor r="0" g="0" b="0"/>
+			<stun>4</stun>
+			<statBoosts>
+				<statBoost name="damageMultiplier">
+					<boostType>MULT</boostType>
+					<amount>2</amount>
+					<shipTarget>CURRENT_ROOM</shipTarget>
+					<crewTarget>ALLIES</crewTarget>
+					<affectsSelf>true</affectsSelf>
+					<permanent>true</permanent>
+					<jumpClear>true</jumpClear>
+					<whiteList>
+						<leach_eldritch_clone_two/>
+					</whiteList>
+				</statBoost>
+			</statBoosts>
+		</powerEffect>
+		<passiveStatBoosts>  
+			<statBoost name="deathEffect">
+				<boostType>SET</boostType>
+				<deathEffect>
+					<spawnCrew>
+						<race>leach_eldritch_clone_three</race>
+						<name>????</name>
+						<number>2</number>
+					</spawnCrew>
+				</deathEffect>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>SELF</crewTarget>
+				<droneTarget>ALL</droneTarget>
+			</statBoost>
+			<statBoost name="statBoost">
+				<statBoost name="canFight">
+                    <boostType>SET</boostType>
+					<value>false</value>
+                    <shipTarget>CREW_TARGET</shipTarget>
+                    <crewTarget>ALL</crewTarget>
+                    <priority>999</priority>
+					<whiteList>
+						<controller/>
+						<queen/>
+						<herobrine/>
+						<dr_spin_eldritch/>
+						<moreso/>
+						<leach_eldritch/>
+						<leach_eldritch_clone/>
+						<leach_eldritch_clone_two/>
+						<leach_eldritch_clone_three/>
+						<leach_eldritch_clone_four/>
+					</whiteList>
+				</statBoost>
+				<shipTarget>CREW_TARGET</shipTarget>
+                <crewTarget>ENEMIES</crewTarget>
+			</statBoost>
+		</passiveStatBoosts>
+		<deathSounds>
+			<deathSound>failure</deathSound>
+		</deathSounds>
+	 </mod-append:race>
+	 
+	 <mod-append:race name="leach_eldritch_clone_three">
+		<essential>5</essential>
+		<maxHealth>50</maxHealth>
+		<canBurn>false</canBurn>
+		<canSuffocate>false</canSuffocate>
+		<canMan>false</canMan>
+		<canRepair>false</canRepair>
+		<canSabotage>false</canSabotage>
+		<noWarning>true</noWarning>
+		<fireRepairMultiplier>0.0</fireRepairMultiplier>
+		<resistsMindControl>true</resistsMindControl>
+		<noClone>true</noClone>
+		<healSpeed>0</healSpeed>
+		<damageMultiplier>0.5</damageMultiplier>
+		<damageTakenMultiplier>1.0</damageTakenMultiplier>
+		<moveSpeedMultiplier>10.0</moveSpeedMultiplier>
+		<detectsLifeforms>true</detectsLifeforms>
+		<noSlot>true</noSlot>
+		<defaultSkillLevel>2</defaultSkillLevel>
+		<doorDamageMultiplier>999</doorDamageMultiplier>
+		<shootingSounds>                                                                
+			<shootingSound>reality_shift</shootingSound>
+		</shootingSounds>
+		<powerEffect>
+			<cooldown>10</cooldown>
+			<jumpCooldown>reset</jumpCooldown>
+			<powerSounds>
+				<powerSound>LEACHLaughter</powerSound>
+			</powerSounds>
+			<buttonText>No more sunshine</buttonText>
+			<tooltip>The chaos grows every 10 seconds</tooltip>
+			<cooldownColor r="0" g="0" b="0"/>
+			<stun>4</stun>
+			<statBoosts>
+				<statBoost name="damageMultiplier">
+					<boostType>MULT</boostType>
+					<amount>2</amount>
+					<shipTarget>CURRENT_ROOM</shipTarget>
+					<crewTarget>ALLIES</crewTarget>
+					<affectsSelf>true</affectsSelf>
+					<permanent>true</permanent>
+					<jumpClear>true</jumpClear>
+					<whiteList>
+						<leach_eldritch_clone_three/>
+					</whiteList>
+				</statBoost>
+			</statBoosts>
+		</powerEffect>
+		<passiveStatBoosts>  
+			<statBoost name="deathEffect">
+				<boostType>SET</boostType>
+				<deathEffect>
+					<spawnCrew>
+						<race>leach_eldritch_clone_four</race>
+						<name>????</name>
+						<number>2</number>
+					</spawnCrew>
+				</deathEffect>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>SELF</crewTarget>
+				<droneTarget>ALL</droneTarget>
+			</statBoost>
+			<statBoost name="statBoost">
+				<statBoost name="canFight">
+                    <boostType>SET</boostType>
+					<value>false</value>
+                    <shipTarget>CREW_TARGET</shipTarget>
+                    <crewTarget>ALL</crewTarget>
+                    <priority>999</priority>
+					<whiteList>
+						<controller/>
+						<queen/>
+						<herobrine/>
+						<dr_spin_eldritch/>
+						<moreso/>
+						<leach_eldritch/>
+						<leach_eldritch_clone/>
+						<leach_eldritch_clone_two/>
+						<leach_eldritch_clone_three/>
+						<leach_eldritch_clone_four/>
+					</whiteList>
+				</statBoost>
+				<shipTarget>CREW_TARGET</shipTarget>
+                <crewTarget>ENEMIES</crewTarget>
+			</statBoost>
+		</passiveStatBoosts>
+		<deathSounds>
+			<deathSound>failure</deathSound>
+		</deathSounds>
+	 </mod-append:race>
+	 
+	 <mod-append:race name="leach_eldritch_clone_four">
+		<essential>5</essential>
+		<maxHealth>50</maxHealth>
+		<canBurn>true</canBurn>
+		<canSuffocate>false</canSuffocate>
+		<canMan>false</canMan>
+		<canRepair>false</canRepair>
+		<canSabotage>true</canSabotage>
+		<noWarning>true</noWarning>
+		<fireRepairMultiplier>0.0</fireRepairMultiplier>
+		<resistsMindControl>true</resistsMindControl>
+		<noClone>true</noClone>
+		<healSpeed>0</healSpeed>
+		<damageMultiplier>0.5</damageMultiplier>
+		<damageTakenMultiplier>1.0</damageTakenMultiplier>
+		<moveSpeedMultiplier>5.0</moveSpeedMultiplier>
+		<sabotageSpeedMultiplier>3.0</sabotageSpeedMultiplier>
+		<detectsLifeforms>true</detectsLifeforms>
+		<noSlot>true</noSlot>
+		<defaultSkillLevel>2</defaultSkillLevel>
+		<shootingSounds>                                                                
+			<shootingSound>LEACHLaughter</shootingSound>
+		</shootingSounds>
+		<powerEffect>
+			<cooldown>10</cooldown>
+			<jumpCooldown>reset</jumpCooldown>
+			<powerSounds>
+				<powerSound>failure</powerSound>
+			</powerSounds>
+			<buttonText>No more sunshine</buttonText>
+			<tooltip>The chaos grows every 10 seconds</tooltip>
+			<cooldownColor r="0" g="0" b="0"/>
+			<stun>4</stun>
+			<statBoosts>
+				<statBoost name="damageMultiplier">
+					<boostType>MULT</boostType>
+					<amount>2</amount>
+					<shipTarget>CURRENT_ROOM</shipTarget>
+					<crewTarget>ALLIES</crewTarget>
+					<affectsSelf>true</affectsSelf>
+					<permanent>true</permanent>
+					<jumpClear>true</jumpClear>
+					<whiteList>
+						<leach_eldritch_clone_four/>
+					</whiteList>
+				</statBoost>
+			</statBoosts>
+		</powerEffect>
+		<passiveStatBoosts>  
+			<statBoost name="statBoost">
+				<statBoost name="canFight">
+                    <boostType>SET</boostType>
+					<value>false</value>
+                    <shipTarget>CREW_TARGET</shipTarget>
+                    <crewTarget>ALL</crewTarget>
+                    <priority>999</priority>
+					<whiteList>
+						<controller/>
+						<queen/>
+						<herobrine/>
+						<dr_spin_eldritch/>
+						<moreso/>
+						<leach_eldritch/>
+						<leach_eldritch_clone/>
+						<leach_eldritch_clone_two/>
+						<leach_eldritch_clone_three/>
+						<leach_eldritch_clone_four/>
+					</whiteList>
+				</statBoost>
+				<shipTarget>CREW_TARGET</shipTarget>
+                <crewTarget>ENEMIES</crewTarget>
+			</statBoost>
+		</passiveStatBoosts>
+		<deathSounds>
+			<deathSound>failure</deathSound>
+		</deathSounds>
+	 </mod-append:race>
+</mod:findLike>	 
+	 
+	<!--
+	//////////////////////////////////////////////
+	//////////////////////////////////////////////
+			DRONES
+	//////////////////////////////////////////////
+	//////////////////////////////////////////////
+	-->
+	
+	<!--
+	/////////////////GOON///////////////////
+	-->
+	
+	<mod-append:race name="goon">
+		<controllable>true</controllable>
+		<canFight>true</canFight>
+		<canRepair>false</canRepair>
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<canMan>false</canMan>
+		<maxHealth>50</maxHealth>
+		<stunMultiplier>0.25</stunMultiplier>
+		<droneAI>
+			<fightAI/>
+			<returnToDroneRoom/>
+		</droneAI>
+		<damageMultiplier>1</damageMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<moveSpeedMultiplier>0.7</moveSpeedMultiplier>
+		<isAnaerobic>true</isAnaerobic>
+		<healCrewAmount>1.5</healCrewAmount>
+		<passiveHealAmount>1.5</passiveHealAmount>
+		<passiveHealDelay>5</passiveHealDelay>
+		<resistsMindControl>true</resistsMindControl>
+		<animBase>mantis</animBase>
+		<shootingSounds>
+			<shootingSound>ionHit1</shootingSound>
+			<shootingSound>ionHit2</shootingSound>
+			<shootingSound>ionHit3</shootingSound>
+		</shootingSounds>
+		<deathSounds>
+			<deathSound>ancientDeath</deathSound>
+		</deathSounds>
+	</mod-append:race>
+
+
+<mod:findLike type="augments" limit="1">
+
+	<mod:findName type="aug" name="CHAOS">
+		<mod:findLike type="statBoosts">
+			<mod:findName type="statBoost" name="silenced">
+				<mod:findLike type="blackList">
+					<mod-append:dr_spin_eldritch/>
+				</mod:findLike>
+			</mod:findName>
+		</mod:findLike>
+	</mod:findName>
+	
+</mod:findLike>
+	
+<!--
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+			                    LISTS FOR EVENTS
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->
+
+<mod:findName type="blueprintList" name="LIST_CHECK_ANY_CREW">
+	<mod-append:name>LIST_CREW_BOSSBOT</mod-append:name>
+	<mod-append:name>LIST_CREW_LAWBOT</mod-append:name>
+	<mod-append:name>LIST_CREW_CASHBOT</mod-append:name>
+	<mod-append:name>LIST_CREW_SELLBOT</mod-append:name>
+	<mod-append:name>LIST_CREW_UNIQUEBOT</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="BLUELIST_CREW_STRONG">
+	<mod-append:name>big_cheese_elite</mod-append:name>
+	<mod-append:name>big_cheese_waiter</mod-append:name>
+	<mod-append:name>corporateraider_elite</mod-append:name>
+	<mod-append:name>corporateraider_waiter</mod-append:name>
+	<mod-append:name>headhunter_elite</mod-append:name>
+	<mod-append:name>headhunter_waiter</mod-append:name>
+	<mod-append:name>downsizer_elite</mod-append:name>
+	<mod-append:name>downsizer_waiter</mod-append:name>
+	<mod-append:name>micromanager_elite</mod-append:name>
+	<mod-append:name>micromanager_waiter</mod-append:name>
+	<mod-append:name>yesman_elite</mod-append:name>
+	<mod-append:name>yesman_waiter</mod-append:name>
+	<mod-append:name>bigwig_elite</mod-append:name>
+	<mod-append:name>bigwig_waiter</mod-append:name>
+	<mod-append:name>legaleagle_elite</mod-append:name>
+	<mod-append:name>legaleagle_waiter</mod-append:name>
+	<mod-append:name>spindoctor_elite</mod-append:name>
+	<mod-append:name>spindoctor_waiter</mod-append:name>
+	<mod-append:name>backstabber_elite</mod-append:name>
+	<mod-append:name>backstabber_waiter</mod-append:name>
+	<mod-append:name>ambulancechaser_elite</mod-append:name>
+	<mod-append:name>ambulancechaser_waiter</mod-append:name>
+	<mod-append:name>double_talker_elite</mod-append:name>
+	<mod-append:name>double_talker_waiter</mod-append:name>
+	<mod-append:name>robberbaron_elite</mod-append:name>
+	<mod-append:name>robberbaron_waiter</mod-append:name>
+	<mod-append:name>loanshark_elite</mod-append:name>
+	<mod-append:name>loanshark_waiter</mod-append:name>
+	<mod-append:name>moneybags_elite</mod-append:name>
+	<mod-append:name>moneybags_waiter</mod-append:name>
+	<mod-append:name>numbercruncher_elite</mod-append:name>
+	<mod-append:name>numbercruncher_waiter</mod-append:name>
+	<mod-append:name>bean_counter_elite</mod-append:name>
+	<mod-append:name>bean_counter_waiter</mod-append:name>
+	<mod-append:name>tightwad_elite</mod-append:name>
+	<mod-append:name>tightwad_waiter</mod-append:name>
+	<mod-append:name>penny_p_elite</mod-append:name>
+	<mod-append:name>penny_p_waiter</mod-append:name>
+	<mod-append:name>mrhollywood_elite</mod-append:name>
+	<mod-append:name>mrhollywood_waiter</mod-append:name>
+	<mod-append:name>mingler_elite</mod-append:name>
+	<mod-append:name>mingler_waiter</mod-append:name>
+	<mod-append:name>twoface_elite</mod-append:name>
+	<mod-append:name>twoface_waiter</mod-append:name>
+	<mod-append:name>mover_and_shaker_elite</mod-append:name>
+	<mod-append:name>mover_and_shaker_waiter</mod-append:name>
+	<mod-append:name>glad_hander_elite</mod-append:name>
+	<mod-append:name>glad_hander_waiter</mod-append:name>
+	<mod-append:name>name_dropper_elite</mod-append:name>
+	<mod-append:name>name_dropper_waiter</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="BLUELIST_CREW_NO2">
+	<name>big_cheese</name>
+	<name>big_cheese_elite</name>
+	<name>big_cheese_waiter</name>
+	<name>big_cheese_hologram</name>
+	<name>corporateraider</name>
+	<name>corporateraider_elite</name>
+	<name>corporateraider_waiter</name>
+	<name>corporateraider_hologram</name>
+	<name>headhunter</name>
+	<name>headhunter_elite</name>
+	<name>headhunter_hologram</name>
+	<name>headhunter_waiter</name>
+	<name>downsizer</name>
+	<name>downsizer_elite</name>
+	<name>downsizer_hologram</name>
+	<name>downsizer_waiter</name>
+	<name>micromanager</name>
+	<name>micromanager_elite</name>
+	<name>micromanager_waiter</name>
+	<name>micromanager_hologram</name>
+	<name>yesman</name>
+	<name>yesman_elite</name>
+	<name>yesman_hologram</name>
+	<name>yesman_waiter</name>
+	<name>bigwig</name>
+	<name>bigwig_elite</name>
+	<name>bigwig_waiter</name>
+	<name>bigwig_hologram</name>
+	<name>legaleagle</name>
+	<name>legaleagle_elite</name>
+	<name>legaleagle_waiter</name>
+	<name>legaleagle_hologram</name>
+	<name>spindoctor</name>
+	<name>spindoctor_elite</name>
+	<name>spindoctor_hologram</name>
+	<name>spindoctor_waiter</name>
+	<name>backstabber</name>
+	<name>backstabber_elite</name>
+	<name>backstabber_waiter</name>
+	<name>backstabber_hologram</name>
+	<name>ambulancechaser</name>
+	<name>ambulancechaser_elite</name>
+	<name>ambulancechaser_waiter</name>
+	<name>ambulancechaser_hologram</name>
+	<name>double_talker</name>
+	<name>double_talker_elite</name>
+	<name>double_talker_hologram</name>
+	<name>double_talker_waiter</name>
+	<name>robberbaron</name>
+	<name>robberbaron_elite</name>
+	<name>robberbaron_waiter</name>
+	<name>robberbaron_hologram</name>
+	<name>loanshark</name>
+	<name>loanshark_elite</name>
+	<name>loanshark_waiter</name>
+	<name>loanshark_hologram</name>
+	<name>moneybags</name>
+	<name>moneybags_elite</name>
+	<name>moneybags_hologram</name>
+	<name>moneybags_waiter</name>
+	<name>numbercruncher</name>
+	<name>numbercruncher_elite</name>
+	<name>numbercruncher_hologram</name>
+	<name>numbercruncher_waiter</name>
+	<name>bean_counter</name>
+	<name>bean_counter_elite</name>
+	<name>bean_counter_hologram</name>
+	<name>bean_counter_waiter</name>
+	<name>tightwad</name>
+	<name>tightwad_waiter</name>
+	<name>tightwad_elite</name>
+	<name>tightwad_hologram</name>
+	<name>penny_p</name>
+	<name>penny_p_elite</name>
+	<name>penny_p_waiter</name>
+	<name>penny_p_hologram</name>
+	<name>mrhollywood</name>
+	<name>mrhollywood_elite</name>
+	<name>mrhollywood_waiter</name>
+	<name>mrhollywood_hologram</name>
+	<name>mingler</name>
+	<name>mingler_elite</name>
+	<name>mingler_waiter</name>
+	<name>mingler_hologram</name>
+	<name>twoface</name>
+	<name>twoface_elite</name>
+	<name>twoface_hologram</name>
+	<name>twoface_waiter</name>
+	<name>mover_and_shaker</name>
+	<name>mover_and_shaker_elite</name>
+	<name>mover_and_shaker_hologram</name>
+	<name>mover_and_shaker_waiter</name>
+	<name>glad_hander</name>
+	<name>glad_hander_elite</name>
+	<name>glad_hander_waiter</name>
+	<name>glad_hander_hologram</name>
+	<name>name_dropper</name>
+	<name>name_dropper_elite</name>
+	<name>name_dropper_waiter</name>
+	<name>name_dropper_hologram</name>
+	<name>jack_brie</name>
+	<name>comrade</name>
+	<name>honcho</name>
+	<name>albert</name>
+	<name>judge</name>
+	<name>lawrence</name>
+	<name>dr_spin</name>
+	<name>ac08</name>
+	<name>robert</name>
+	<name>bruce</name>
+	<name>monee</name>
+	<name>cash_crab</name>
+	<name>holiday</name>
+	<name>lily</name>
+	<name>harvey</name>
+	<name>lovelace</name>
+	<name>bakker</name>
+	<name>yessum</name>
+	
+</mod:findName>
+
+<mod:findName type="blueprintList" name="BLUELIST_CREW_NOFIRE">
+	<name>big_cheese</name>
+	<name>big_cheese_elite</name>
+	<name>big_cheese_waiter</name>
+	<name>big_cheese_hologram</name>
+	<name>corporateraider</name>
+	<name>corporateraider_elite</name>
+	<name>corporateraider_waiter</name>
+	<name>corporateraider_hologram</name>
+	<name>headhunter</name>
+	<name>headhunter_elite</name>
+	<name>headhunter_hologram</name>
+	<name>headhunter_waiter</name>
+	<name>downsizer</name>
+	<name>downsizer_elite</name>
+	<name>downsizer_hologram</name>
+	<name>downsizer_waiter</name>
+	<name>micromanager</name>
+	<name>micromanager_elite</name>
+	<name>micromanager_waiter</name>
+	<name>micromanager_hologram</name>
+	<name>yesman</name>
+	<name>yesman_elite</name>
+	<name>yesman_hologram</name>
+	<name>yesman_waiter</name>
+	<name>bigwig</name>
+	<name>bigwig_elite</name>
+	<name>bigwig_waiter</name>
+	<name>bigwig_hologram</name>
+	<name>legaleagle</name>
+	<name>legaleagle_elite</name>
+	<name>legaleagle_waiter</name>
+	<name>legaleagle_hologram</name>
+	<name>spindoctor</name>
+	<name>spindoctor_elite</name>
+	<name>spindoctor_hologram</name>
+	<name>spindoctor_waiter</name>
+	<name>backstabber</name>
+	<name>backstabber_elite</name>
+	<name>backstabber_waiter</name>
+	<name>backstabber_hologram</name>
+	<name>ambulancechaser</name>
+	<name>ambulancechaser_elite</name>
+	<name>ambulancechaser_waiter</name>
+	<name>ambulancechaser_hologram</name>
+	<name>double_talker</name>
+	<name>double_talker_elite</name>
+	<name>double_talker_hologram</name>
+	<name>double_talker_waiter</name>
+	<name>robberbaron</name>
+	<name>robberbaron_elite</name>
+	<name>robberbaron_waiter</name>
+	<name>robberbaron_hologram</name>
+	<name>loanshark</name>
+	<name>loanshark_elite</name>
+	<name>loanshark_waiter</name>
+	<name>loanshark_hologram</name>
+	<name>moneybags</name>
+	<name>moneybags_elite</name>
+	<name>moneybags_hologram</name>
+	<name>moneybags_waiter</name>
+	<name>numbercruncher</name>
+	<name>numbercruncher_elite</name>
+	<name>numbercruncher_hologram</name>
+	<name>numbercruncher_waiter</name>
+	<name>bean_counter</name>
+	<name>bean_counter_elite</name>
+	<name>bean_counter_hologram</name>
+	<name>bean_counter_waiter</name>
+	<name>tightwad</name>
+	<name>tightwad_waiter</name>
+	<name>tightwad_elite</name>
+	<name>tightwad_hologram</name>
+	<name>penny_p</name>
+	<name>penny_p_elite</name>
+	<name>penny_p_waiter</name>
+	<name>penny_p_hologram</name>
+	<name>mrhollywood</name>
+	<name>mrhollywood_elite</name>
+	<name>mrhollywood_waiter</name>
+	<name>mrhollywood_hologram</name>
+	<name>mingler</name>
+	<name>mingler_elite</name>
+	<name>mingler_waiter</name>
+	<name>mingler_hologram</name>
+	<name>twoface</name>
+	<name>twoface_elite</name>
+	<name>twoface_hologram</name>
+	<name>twoface_waiter</name>
+	<name>mover_and_shaker</name>
+	<name>mover_and_shaker_elite</name>
+	<name>mover_and_shaker_hologram</name>
+	<name>mover_and_shaker_waiter</name>
+	<name>glad_hander</name>
+	<name>glad_hander_elite</name>
+	<name>glad_hander_waiter</name>
+	<name>glad_hander_hologram</name>
+	<name>name_dropper</name>
+	<name>name_dropper_elite</name>
+	<name>name_dropper_waiter</name>
+	<name>name_dropper_hologram</name>
+	<name>jack_brie</name>
+	<name>comrade</name>
+	<name>honcho</name>
+	<name>albert</name>
+	<name>judge</name>
+	<name>lawrence</name>
+	<name>dr_spin</name>
+	<name>ac08</name>
+	<name>robert</name>
+	<name>bruce</name>
+	<name>monee</name>
+	<name>cash_crab</name>
+	<name>holiday</name>
+	<name>lily</name>
+	<name>harvey</name>
+	<name>lovelace</name>
+	<name>bakker</name>
+	<name>yessum</name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="BLUELIST_CREW_NODOORS">
+	<name>big_cheese_hologram</name>
+	<name>corporateraider_hologram</name>
+	<name>headhunter_hologram</name>
+	<name>downsizer_hologram</name>
+	<name>micromanager_hologram</name>
+	<name>yesman_hologram</name>
+	<name>bigwig_hologram</name>
+	<name>legaleagle_hologram</name>
+	<name>spindoctor_hologram</name>
+	<name>backstabber_hologram</name>
+	<name>ambulancechaser_hologram</name>
+	<name>double_talker_hologram</name>
+	<name>robberbaron_hologram</name>
+	<name>loanshark_hologram</name>
+	<name>moneybags_hologram</name>
+	<name>numbercruncher_hologram</name>
+	<name>bean_counter_hologram</name>
+	<name>tightwad_hologram</name>
+	<name>penny_p_hologram</name>
+	<name>mrhollywood_hologram</name>
+	<name>mingler_hologram</name>
+	<name>twoface_hologram</name>
+	<name>mover_and_shaker_hologram</name>
+	<name>glad_hander_hologram</name>
+	<name>name_dropper_hologram</name>
+	</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_CREW_SIREN">
+	<mod-append:name>dr_spin_eldritch</mod-append:name>
+</mod:findName>
+
+<!--
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+			                    DRONES
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->
+<mod:findLike type="drones">
+	<mod-append:drone name="GOON_DEFEND">
+		<crewBlueprint>goon</crewBlueprint>
+		<tooltipName>Cog Defender</tooltipName>
+	</mod-append:drone>
+	<mod-append:drone name="GOON_BOARDER">
+		<crewBlueprint>goon</crewBlueprint>
+		<tooltipName>Cog Defender</tooltipName>
+	</mod-append:drone>
+</mod:findLike>
+
+<!--
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+						 CUSTOM STORES
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->
+
+<store>
+	<!--
+	/////////////////
+	STORES
+	/////////////////
+	-->
+	<customStore id="STORE_COG_BASIC">
+        <hullRepair>
+			<price min="2" max="4"/>
+			<sectorScaled/>
+		</hullRepair>
+		<resource>
+			<type>fuel</type>
+			<count min="5" max="10"/>
+		</resource>
+		<resource>
+			<type>missiles</type>
+			<count min="3" max="7"/>
+		</resource>
+		<resource>
+			<type>drones</type>
+			<count min="6" max="11"/>
+		</resource>
+		<category type="WEAPONS">
+            <item/>
+            <item/>
+            <item/>
+			<chance>100</chance>
+        </category>
+		<category type="DRONES" group="0">
+            <item/>
+            <item/>
+            <item/>
+			<chance>65</chance>
+			<groupChance>50</groupChance>
+        </category>
+		<category type="AUGMENTS" group="0">
+            <item/>
+            <item/>
+            <item/>
+			<chance>65</chance>
+			<groupChance>50</groupChance>
+        </category>
+		<category type="CREW">
+			<customTitle>Bossbots For Hire</customTitle>
+			<item>
+                <blueprint>LIST_CREW_BOSSBOT</blueprint>
+            </item>
+			<item>
+                <blueprint>LIST_CREW_BOSSBOT</blueprint>
+            </item>
+			<item>
+                <blueprint>LIST_CREW_BOSSBOT</blueprint>
+            </item>
+			<chance>100</chance>
+        </category>
+		<category type="CREW">
+			<customTitle>Lawbots For Hire</customTitle>
+            <item>
+                <blueprint>LIST_CREW_LAWBOT</blueprint>
+            </item>
+            <item>
+                <blueprint>LIST_CREW_LAWBOT</blueprint>
+            </item>
+			<item>
+                <blueprint>LIST_CREW_LAWBOT</blueprint>
+            </item>
+        </category>
+		<category type="CREW">
+			<customTitle>Cashbots For Hire</customTitle>
+            <item>
+                <blueprint>LIST_CREW_CASHBOT</blueprint>
+            </item>
+            <item>
+                <blueprint>LIST_CREW_CASHBOT</blueprint>
+            </item>
+			<item>
+                <blueprint>LIST_CREW_CASHBOT</blueprint>
+            </item>
+        </category>
+		<category type="CREW">
+			<customTitle>Sellbots For Hire</customTitle>
+            <item>
+                <blueprint>LIST_CREW_SELLBOT</blueprint>
+            </item>
+            <item>
+                <blueprint>LIST_CREW_SELLBOT</blueprint>
+            </item>
+			<item>
+                <blueprint>LIST_CREW_SELLBOT</blueprint>
+            </item>
+        </category>
+		<category type="SYSTEMS">
+            <customTitle>ESSENTIAL SYSTEMS</customTitle>
+			<guaranteedSystems>
+                <weapons/>
+				<shields/>
+				<oxygen/>
+            </guaranteedSystems>
+			<item>
+                <blueprint>SHOP_ITEM_SYSTEMS_ESSENTIAL</blueprint>
+            </item>
+            <item>
+                <blueprint>SHOP_ITEM_SYSTEMS_ESSENTIAL</blueprint>
+            </item>
+            <item>
+                <blueprint>SHOP_ITEM_SYSTEMS_ESSENTIAL</blueprint>
+            </item>
+			<chance>100</chance>
+        </category>
+		<category type="SYSTEMS">
+			<customTitle>AUXILIARY SYSTEMS</customTitle>
+            <item>
+                <blueprint>SHOP_ITEM_SYSTEMS_BONUS</blueprint>
+            </item>
+            <item>
+                <blueprint>SHOP_ITEM_SYSTEMS_BONUS</blueprint>
+            </item>
+            <item>
+                <blueprint>SHOP_ITEM_SYSTEMS_BONUS</blueprint>
+            </item>
+			<chance>65</chance>
+        </category>
+    </customStore>
+</store>
+
+<!--
+	/////////////////SHIPS///////////////////	
+-->
+	
+<mod:findLike type="discord"> <!--This will not work because it need discord stuff-->
+	<mod:findLike type="miniships">
+		<mod-append:miniship>miniship_spindoctor_ship</mod-append:miniship>
+		<mod-append:miniship>miniship_spindoctor_ship_2</mod-append:miniship>
+		<mod-append:miniship>miniship_spindoctor_ship_3</mod-append:miniship>
+		<mod-append:miniship>miniship_spindoctor_ship_elite</mod-append:miniship>
+	</mod:findLike>
+</mod:findLike>
+
+	
+<mod:findLike type="ships">
+
+	<mod:findLike type="shipOrder"> <!--You now Have 5 pages of ship-->
+		<mod-append:ship>PLAYER_SHIP_COG_RANDOM</mod-append:ship>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		
+		<mod-append:empty/> <!--Page 2-->
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:ship>PLAYER_SHIP_ambulancechaser_SHIP</mod-append:ship>
+		<mod-append:empty/>
+		<mod-append:ship>PLAYER_SHIP_DOCSHIP</mod-append:ship>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		
+		<mod-append:empty/> <!--Page 3-->
+		<mod-append:empty/>
+		<mod-append:ship>PLAYER_SHIP_TIGHTWAD</mod-append:ship>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		
+		<mod-append:empty/> <!--Page 4-->
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		
+	<!--
+	/////////////////SPECIAL SHIPS///////////////////	
+	-->
+			
+		<mod-append:empty/> <!--Page 5-->
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:ship>PLAYER_SHIP_SPINDOCTOR_ELITE</mod-append:ship>
+		<mod-append:ship>PLAYER_SHIP_DOC_AC_COMBO</mod-append:ship>
+		<mod-append:ship>doc_elderitch</mod-append:ship>
+		<mod-append:ship>COGMOD_SHIP_MINE_1</mod-append:ship>
+		<mod-append:empty/>
+    </mod:findLike>
+
+	<mod-append:ship name="PLAYER_SHIP_DOCSHIP" b="true" c="true" secret="false"/>
+	<mod-append:customShip name="PLAYER_SHIP_DOCSHIP">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_SPIN_DOCTOR</hiddenAug>
+		<crewLimit>15</crewLimit>
+	</mod-append:customShip>
+	<mod-append:customShip name="PLAYER_SHIP_DOCSHIP_2">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_SPIN_DOCTOR</hiddenAug>
+		<crewLimit>15</crewLimit>
+	</mod-append:customShip>
+	<mod-append:customShip name="PLAYER_SHIP_DOCSHIP_3">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_SPIN_DOCTOR</hiddenAug>
+		<crewLimit>15</crewLimit>
+	</mod-append:customShip>
+
+	<mod-append:ship name="PLAYER_SHIP_SPINDOCTOR_ELITE" b="false" c="false"/>
+	<mod-append:customShip name="PLAYER_SHIP_SPINDOCTOR_ELITE">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_DR_SPIN</hiddenAug>
+		<crewLimit>16</crewLimit>
+		<crew>
+			<dr_spin room="0" name="Dr Spin"/> <!--piloting-->
+			<spindoctor room="1"/> <!--engineering-->
+			<spindoctor_elite room="8"/> <!--shields-->
+			<spindoctor_waiter room="14"/> <!--weapons-->
+			<spindoctor_hologram room="11"/> <!--medbay-->
+		</crew>
+	</mod-append:customShip>
+	
+	<mod-append:ship name="PLAYER_SHIP_ambulancechaser_SHIP" b="true" c="false"/>
+	<mod-append:customShip name="PLAYER_SHIP_ambulancechaser_SHIP">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_AMBULANCE_CHASER</hiddenAug>
+		<crewLimit>12</crewLimit>
+	</mod-append:customShip>
+	<mod-append:customShip name="PLAYER_SHIP_ambulancechaser_SHIP_2">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_AMBULANCE_CHASER</hiddenAug>
+		<crewLimit>12</crewLimit>
+	</mod-append:customShip>
+	
+	<mod-append:ship name="PLAYER_SHIP_DOC_AC_COMBO" b="false" c="false"/>
+	<mod-append:customShip name="PLAYER_SHIP_DOC_AC_COMBO">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_DOUBLE_TROUBLE</hiddenAug>
+		<crewLimit>15</crewLimit>
+		<crew>
+			<dr_spin room="0" name="Dr Spin"/> <!--piloting-->
+			<ac08 room="12" name="AC"/>  <!--engineering-->
+		</crew>
+	</mod-append:customShip>
+	
+	<mod-append:ship name="doc_elderitch" b="false" c="false"/>
+	<mod-append:customShip name="doc_elderitch">
+		<hiddenAug>CHAOS</hiddenAug>
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<crewLimit>3</crewLimit>
+		<systemLimit>10</systemLimit>
+		<customReactor maxLevel="30">
+			<baseCost>15</baseCost>
+			<increment>5</increment>
+			<overrideCost coloumn="1">30</overrideCost>
+		</customReactor>
+		<rooms>
+			<room id="0"> 
+				<roomAnim renderLayer="0">chaos_1x2</roomAnim>
+			</room>
+			<room id="1"> 
+				<roomAnim renderLayer="0">chaos_2x1</roomAnim>
+			</room>
+			<room id="2"> 
+				<roomAnim renderLayer="0">chaos_2x2</roomAnim>
+			</room>
+			<room id="3"> 
+				<roomAnim renderLayer="0">chaos_2x1</roomAnim>
+			</room>
+			<room id="4"> 
+				<roomAnim renderLayer="0">chaos_2x4</roomAnim>
+			</room>
+			<room id="5"> 
+				<roomAnim renderLayer="0">chaos_2x2</roomAnim>
+			</room>
+			<room id="6"> 
+				<roomAnim renderLayer="0">chaos_2x2</roomAnim>
+			</room>
+			<room id="7"> 
+				<roomAnim renderLayer="0">chaos_2x1</roomAnim>
+			</room>
+			<room id="8"> 
+				<roomAnim renderLayer="0">chaos_2x1</roomAnim>
+			</room>
+			<room id="9"> 
+				<roomAnim renderLayer="0">chaos_1x2</roomAnim>
+			</room>
+			<room id="10"> 
+				<roomAnim renderLayer="0">chaos_1x2</roomAnim>
+			</room>
+			<room id="11"> 
+				<roomAnim renderLayer="0">chaos_1x2</roomAnim>
+			</room>
+			<room id="12"> 
+				<roomAnim renderLayer="0">chaos_2x1</roomAnim>
+			</room>
+			<room id="13"> 
+				<roomAnim renderLayer="0">chaos_2x1</roomAnim>
+			</room>
+			<room id="14"> 
+				<roomAnim renderLayer="0">chaos_2x2</roomAnim>
+			</room>
+			<room id="15"> 
+				<roomAnim renderLayer="0">chaos_2x2</roomAnim>
+			</room>
+			<room id="16"> 
+				<roomAnim renderLayer="0">chaos_1x2</roomAnim>
+			</room>
+			<room id="17"> 
+				<roomAnim renderLayer="0">chaos_1x2</roomAnim>
+			</room>
+			<room id="18"> 
+				<roomAnim renderLayer="0">chaos_1x2</roomAnim>
+			</room>
+			<room id="19"> 
+				<roomAnim renderLayer="0">chaos_1x2</roomAnim>
+			</room>
+			<room id="20"> 
+				<roomAnim renderLayer="0">chaos_1x1</roomAnim>
+			</room>
+			<room id="21"> 
+				<roomAnim renderLayer="0">chaos_1x1</roomAnim>
+			</room>
+		</rooms>
+		<crew>
+			<dr_spin_eldritch room="0" name="Dr. Spin"/>  <!--piloting-->
+			<unique_jerry_pony_crystal room="16" name="Jerry"/>  <!--engines-->
+		</crew>
+	</mod-append:customShip>
+
+	<mod-append:ship name="COGMOD_SHIP_MINE_1" b="false" c="false"/>	
+	<mod-append:customShip name="COGMOD_SHIP_MINE_1">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_AMBULANCE_CHASER</hiddenAug>
+		<crewLimit>2</crewLimit>
+		<customReactor maxLevel="35">
+			<baseCost>15</baseCost>
+			<increment>5</increment>
+			<overrideCost coloumn="1">30</overrideCost>
+		</customReactor>
+		<crew>
+            <controller room="0" name="The Controller"/> <!--lovers-->
+            <queen room="0" name="The Queen"/> <!--lovers-->
+        </crew>
+	</mod-append:customShip>
+
+	
+	<mod-append:ship name="PLAYER_SHIP_COG_RANDOM" b="true" c="true"/>	
+	<mod-append:customShip name="PLAYER_SHIP_COG_RANDOM">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
+		<crewLimit>13</crewLimit>
+	</mod-append:customShip>
+	<mod-append:customShip name="PLAYER_SHIP_COG_RANDOM_2">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
+		<crewLimit>14</crewLimit>
+	</mod-append:customShip>
+	<mod-append:customShip name="PLAYER_SHIP_COG_RANDOM_3">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
+		<crewLimit>10</crewLimit>
+		<customReactor maxLevel="35">
+			<baseCost>15</baseCost>
+			<increment>5</increment>
+			<overrideCost coloumn="1">30</overrideCost>
+		</customReactor>
+	</mod-append:customShip>
+	
+	<mod-append:ship name="PLAYER_SHIP_TIGHTWAD" b="true" c="true" secret="false"/>
+	<mod-append:customShip name="PLAYER_SHIP_TIGHTWAD">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_SPIN_DOCTOR</hiddenAug>
+		<crew>
+			<tightwad room="0"/>  <!--piloting-->
+			<tightwad room="4"/>  <!--engines-->
+			<tightwad_elite room="1"/>  <!--weapons-->
+		</crew>
+		<crewLimit>8</crewLimit>
+	</mod-append:customShip>
+	
+</mod:findLike>
+	<!--
+	/////////////////ENEMY SHIPS///////////////////	
+	-->	
+	
+	<mod:findLike type="ships" limit="1">
+	<mod-append:customShip name="CM_FOURTH_WALL_BLUEPRINT">
+		<shipIcons>
+			<shipIcon>icon_majorthreat</shipIcon>
+		</shipIcons>
+		<crew>
+            <controller room="0" name="The Controller"/> <!--lovers-->
+            <queen room="0" name="The Queen"/> <!--lovers-->
+            <dr_spin_eldritch room="1" name="Dr Spin"/>
+            <ac08 room="1" name="AC"/>
+			<herobrine room="8" name="Herobrine"/>
+            <unique_jerry_pony_crystal room="9" name="Jerry"/>
+            <spindoctor_waiter room="2" name="SDW19992004"/>
+            <spindoctor_waiter room="2" name="SDW19992004"/>
+            <spindoctor_waiter room="3" name="SDW11"/>
+            <spindoctor_waiter room="3" name="SDW20032013"/>
+            <spindoctor_waiter room="4" name="SDW58008"/>
+            <spindoctor_waiter room="4" name="SDW80085"/>
+            <spindoctor_waiter room="5" name="SDW69696969"/>
+            <spindoctor_waiter room="5" name="SDW404"/>
+            <eldritch_cat room="10" name="The One Who Rhymes"/>
+        </crew>
+		<noFuelStalemate/>
+		<noJump/>
+    </mod-append:customShip>
+	</mod:findLike>
+	
+
+	<mod:findLike type="ships" limit="1">
+	<mod-append:customShip name="COG_SHOP_GUARD1">
+		<shipIcons>
+            <shipIcon>icon_threat</shipIcon>
+        </shipIcons>
+	</mod-append:customShip>
+	</mod:findLike>
+	
+	<mod:findLike type="ships" limit="1">
+	<mod-append:customShip name="COG_SHOP_GUARD2">
+		<shipIcons>
+            <shipIcon>icon_threat</shipIcon>
+			<shipIcon>icon_no2</shipIcon>
+        </shipIcons>
+	</mod-append:customShip>
+	</mod:findLike>
+
+	<events>
+	
+	<bossShip>cm_fourth_wall</bossShip>
+	
+	</events>
+	
+</FTL>

@@ -1,0 +1,131 @@
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   Test event in events_sector_droppoint (sector 1)									 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<ship name="COG_SHOP_GUARD1" auto_blueprint="LIST_SHIPS_COG_MOD_START">
+	<destroyed>
+		<text>The outpost hails you, "Alright, alright! Enough with the violence. You may dock, but do not make another move like that or this entire station will engage you!"</text>
+		<autoReward level="MED">scrap_only</autoReward>
+		<store>STORE_COG_BASIC</store>
+	</destroyed>
+	<deadCrew>
+		<text>The outpost hails you, "The hell is wrong with you?! Those Cogs are not cheap to replace! You better not scrap that ship. Just take some scrap here and dock. You can look at our hire list."</text>
+		<autoReward level="HIGH">scrap_only</autoReward>
+		<store>STORE_COG_BASIC</store>
+	</deadCrew>
+</ship>
+
+<mod:findName type="eventList" name="NEUTRAL_DROPPOINT"/>
+	<event load="CM_COG_STORE_1"/>
+	<event name="AMBUSH_BRIBE_EVENT"/>
+
+<event name="CM_COG_STORE_1" unique="true">
+	<img planet="PLANET_POPULATED"/>
+	<text>You arrive at a particularly well populated planet. At first it doesn't appear to be of much interest until you are hailed by someone at the space dock above.</text>
+	<choice>
+		<text>Respond to the call.</text>
+		<event>
+			<text>"Hey you! There's a new store available here. You should check it out! It has those fancy Cog crews available to hire now!" Before you can even answer, the caller sends you coordinates to the store and hangs up.</text>
+			<quest event="CM_COG_STORE_FIGHT_1"/>
+		</event>
+	</choice>
+	<choice>
+		<text>Ignore the call.</text>
+		<event>
+			<text>You block the channel and prepare to jump as soon as possible.</text>
+		</event>
+	</choice>
+</event>
+<event name="CM_COG_STORE_FIGHT_1">
+	<beaconType id="map_icon_quest" global="true">
+		<color r="50" g="50" b="50" a="1"/>
+		<unvisitedTooltip>Sources indicate this a Cogs for Hire shop.</unvisitedTooltip>
+	</beaconType>
+	<text>You arrive at the listed coordinates and are more than a little surprised to find a guard at the supposed shop. Even more concerning is how it immediately turns to face you. Fortunately it hails. "Squishy thing. You are not authorized to be here. Only Cogs may dock at this location. Leave immediately."</text>
+	<ship load="COG_SHOP_GUARD1" hostile="false"/>
+	<choice>
+		<text>Engage the Cog Ship for access.</text>
+		<event>
+			<text>You'll be damned if you aren't allowed to even look at this store. You lock onto the Cog Shop and move in to engage.</text>
+			<ship hostile="true"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</choice>
+	<choice>
+		<text>Avoid a fight.</text>
+		<event>
+			<text>You take the hint and head back towards the jump beacon. It seems the Cogs will kept their word and make no attempt to engage once you leave.</text>
+		</event>
+	</choice>
+</event>
+
+
+
+
+
+
+<event name="AMBUSH_BRIBE_EVENT">
+    <text>
+        As you arrive at the beacon, a ship is already waiting. Their weapons go live moments later. "Just our luck," the captain snarls. "Pay up or this gets messy. Don't even try us."
+    </text>
+	<ship load="true" name="PIRATE_BOMBER" hostile="true">
+        <escape chance="0" />
+    </ship>
+    <choice>
+        <text>Stand your ground and prepare to fight.</text>
+        <event>
+            <text>You ready your crew as the ambusher charges weapons. No turning back now.</text>
+            <fight>
+                <ship blueprint="PIRATE_BOMBER" />
+            </fight>
+        </event>
+    </choice>
+    <choice>
+        <text>Offer a bribe to avoid conflict. [-30 Scrap]</text>
+        <event>
+            <lose_scrap amount="30" />
+            <text>
+                The hostile ship pauses, then powers down their weapons. "Smart choice. Move along, nothing personal." They jump away without another word.
+            </text>
+        </event>
+    </choice>
+    <choice>
+        <text>Plead for mercy.</text>
+        <eventList name="MERCY_PLEA_RESULT" />
+    </choice>
+    <choice req="crew" req_blueprintList="LIST_CREW_UNIQUEBOT">
+        <text>(Unique Cog) Attempt to negotiate using one of the unique Cogs.</text>
+        <event>
+            <text>
+                The enemy ship sees your crewmember and immediately powers down. "We didn't realize you were that important. Here, take this and forgive our trouble causing nature." A crate of supplies is launched toward your ship before they jump away.
+            </text>
+            <autoReward />
+        </event>
+    </choice>
+</event>
+
+<eventList name="MERCY_PLEA_RESULT">
+    <event>
+        <text>
+            The ship hesitates. "You're lucky I'm not too interested dealing with those damn Legal Eagles again" the captain grunts. "Get lost before I change my mind." They power off their weapons and refuse any further communications. Best you leave until they change their mind
+        </text>
+    </event>
+    <event>
+        <text>
+            "Mercy?" the captain laughs. "Do I look like I give a damn for some fleshy thing?" Their weapons charge as they move in to attack.
+        </text>
+        <fight>
+            <ship blueprint="PIRATE_BOMBER" />
+        </fight>
+    </event>
+</eventList>
+
+
+<eventList name="DROPPONT_RANDOM_ENCOUNTER_LIST">
+    <event name="AMBUSH_BRIBE_EVENT"/>
+</eventList>

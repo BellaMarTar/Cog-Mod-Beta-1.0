@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+
+
+
+<FTL>
+
+<!--
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+					HOSTILE
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->	
+
+<!--
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+SPIN DOCTOR SECTOR
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->
+
+<mod:findName type="sectorType" name="OVERRIDE_SECTOR_LIST_GENERIC_HOSTILE">
+    <mod-append:sector name="SECTOR_SPIN_DOCTOR"/>
+</mod:findName>
+	
+	
+<sectorDescription name="SECTOR_SPIN_DOCTOR" minSector="4" unique="false"> 
+	<nameList>
+		<name>Spin Doctor Domain</name>
+		<name>Spin Tavern</name>
+		<name>Medical Studies</name>
+		<name>Spin Doctor Rimworlds</name>
+	</nameList>
+	<trackList>
+		<track>holographic_trouble</track> 
+		<track>lawbot</track> 
+		<track>hacking</track>
+	</trackList>
+	<rarityList>
+		<!--
+		\\\\\\\\\\\
+		   CREW
+		\\\\\\\\\\\
+		-->
+		<!--human-->
+		<blueprint name="human" rarity="0"/>
+		<blueprint name="medic" rarity="5"/>
+		<blueprint name="engineer" rarity="0"/>
+		<blueprint name="soldier" rarity="0"/>
+		<!--engi-->
+		<blueprint name="engi" rarity="0"/>
+		<blueprint name="separatist" rarity="0"/>
+		<blueprint name="defend" rarity="0"/>
+		<!--zoltan-->
+		<blueprint name="energy" rarity="0"/>
+		<blueprint name="monk" rarity="0"/>
+		<blueprint name="bomber" rarity="0"/>
+		<blueprint name="peace" rarity="0"/>
+		<!--rock-->
+		<blueprint name="rock" rarity="0"/>
+		<blueprint name="outcast" rarity="0"/>
+		<blueprint name="commando" rarity="0"/>
+		<blueprint name="crusader" rarity="0"/>
+		<!--mantis-->
+		<blueprint name="mantis" rarity="0"/>
+		<blueprint name="freemantis" rarity="0"/>
+		<blueprint name="suzerain" rarity="0"/>
+		<!--slug-->
+		<blueprint name="slug" rarity="0"/>
+		<blueprint name="sabo" rarity="0"/>
+		<!--crystal-->
+		<blueprint name="crystal" rarity="0"/>
+		<blueprint name="sentinel" rarity="0"/>
+		<!--orchid-->
+		<blueprint name="orchid" rarity="0"/>
+		<blueprint name="vampweed" rarity="0"/>
+		<!--leech-->
+		<blueprint name="leech" rarity="0"/>
+		<!--lanius-->
+		<blueprint name="anaerobic" rarity="0"/>
+		<blueprint name="welder" rarity="0"/>
+		<!--ghost-->
+		<blueprint name="phantom" rarity="0"/>
+		<!--spindoctor-->
+		<blueprint name="spindoctor" rarity="5"/>
+		<blueprint name="spindoctor_elite" rarity="2"/>
+		<blueprint name="spindoctor_waiter" rarity="1"/>
+		<blueprint name="spindoctor_hologram" rarity="3"/>
+	</rarityList>
+    <startEvent>ENTER_SPIN_DOCTOR</startEvent>
+	<event name="OUTPOST_LIST_CIVILIAN" min="0" max="1"/>
+	<event name="SPIDER_QUEST_START" min="0" max="1"/>
+	<event name="MV_TRAVELER" min="1" max="2"/>
+	<event name="SYLVAN" min="0" max="1"/>
+	<event name="STORELIST_CIVILIAN" min="2" max="2"/>
+	<event name="ITEMS" min="2" max="3"/>
+	<event name="NEUTRAL" min="3" max="4"/>
+	<event name="DISTRESS" min="1" max="2"/>
+	<event name="HOSTILE" min="4" max="7"/>
+	<event name="NEBULA" min="3" max="8"/>
+	<event name="QUESTS" min="0" max="2"/>
+	<event name="EMPTY_STANDARD" min="1" max="3"/>
+</sectorDescription>
+
+</FTL>

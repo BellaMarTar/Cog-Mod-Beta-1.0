@@ -1,0 +1,102 @@
+<FTL>
+
+
+<!-- 
+////////////////////////////
+COG SHIPS
+////////////////////////////
+-->
+
+<!--
+////////////////////////////
+BOSSBOTS
+////////////////////////////
+-->
+
+<!--
+////////////////////////////
+LAWBOTS
+////////////////////////////
+-->
+
+<text name="text_PLAYER_SHIP_DOCSHIP_class">Spin Doctor Cruiser</text>
+<text name="text_PLAYER_SHIP_DOCSHIP_name">Medica Superia</text>
+<text name="text_PLAYER_SHIP_DOCSHIP_desc">The Spin Doctors are obessed with constantly healing fellow crew and themselves. As such this cruiser has one of the biggest medbays EVER.</text>
+
+<text name="text_PLAYER_SHIP_DOCSHIP_2_class">Spin Doctor Cruiser</text>
+<text name="text_PLAYER_SHIP_DOCSHIP_2_name">Medico Girar</text>
+<text name="text_PLAYER_SHIP_DOCSHIP_2_desc">This ship was meant to be a massive healing cruiser. However the budget was blown trying to find an Anicent Healing Device. As such, there is no medical facility yet.</text>
+
+<text name="text_PLAYER_SHIP_DOCSHIP_3_class">Spin Doctor Cruiser</text>
+<text name="text_PLAYER_SHIP_DOCSHIP_3_name">House Call</text>
+<text name="text_PLAYER_SHIP_DOCSHIP_3_desc">Spin Doctors can actually be more harmful than helpful. This specialized boarding ship proves such claims as it has plenty of ways to murder people rather than heal.</text>
+
+<text name="text_PLAYER_SHIP_ACHASER_SHIP_class">Ambulance Chaser Cruiser</text>
+<text name="text_PLAYER_SHIP_ACHASER_SHIP_name">Care Package</text>
+<text name="text_PLAYER_SHIP_ACHASER_SHIP_desc">The Ambulance Chaser are a funny sort of Cog. While they are great at lawyering up, they aren't so smart with ships. This ship has a big missile launcher... and thats it. Oops.</text>
+
+<text name="text_achaser_ship_class">Ambulance Chaser Cruiser</text>
+<text name="text_PLAYER_SHIP_CLAIRVOYANT_2_name">Full Coverage</text>
+<text name="text_achaser_ship_desc">Elite Ambulance Chasers tend to break the rules a little more than the rest. As such, they didn't even bother having a medbay, opting for a clonebay instead. Oh, and fire weapons too.</text>
+<!--
+////////////////////////////
+CASHBOTS
+////////////////////////////
+-->
+
+<text name="text_PLAYER_SHIP_TIGHTWAD_class">Tightwad Explorer (on a budget) TM</text>
+<text name="text_PLAYER_SHIP_TIGHTWAD_name">Tight Squeeze</text>
+<text name="text_PLAYER_SHIP_TIGHTWAD_desc">The tightwads will stop at nothing to save their budgets. Even when it comes to space travel as this well below safety regulation ship shows.</text>
+
+
+<!--
+////////////////////////////
+SELLBOTS
+////////////////////////////
+-->
+
+<!--
+////////////////////////////
+SPECIAL CLASS
+////////////////////////////
+-->
+
+<text name="text_PLAYER_SHIP_SPINDOCTOR_ELITE_class">Dr Spin'S Cruiser</text>
+<text name="text_PLAYER_SHIP_SPINDOCTOR_ELITE_name">The Oppessor Mk III</text>
+<text name="text_PLAYER_SHIP_SPINDOCTOR_ELITE_desc">Dr Spin has entrusted you with his personal ship after you managed to prove that you are loyal enough to the Spin Doctors to earn it. Use it well, it carries lots of flak.</text>
+
+<text name="text_PLAYER_SHIP_DOC_AC_COMBO_class">Medical Cruiser</text>
+<text name="text_PLAYER_SHIP_DOC_AC_COMBO_name">Royal Medication</text>
+<text name="text_PLAYER_SHIP_DOC_AC_COMBO_desc">This ship has AC and Dr Spin together! Their ship must match their ideals and as such it has special weapons and augments!</text>
+
+<text name="text_PLAYER_SHIP_COG_RANDOM_class">Random Cruiser</text>
+<text name="text_PLAYER_SHIP_COG_RANDOM_name">Cog Supply Run</text>
+<text name="text_PLAYER_SHIP_COG_RANDOM_desc">This Cog Cruiser was not built with any set plan for its weapons. As such, you will be permitted a random duo of weapons. The Cog Nation hopes you understand the underdeveloped systems.</text>
+
+<text name="text_PLAYER_SHIP_COG_RANDOM_B_class">Random Cruiser</text>
+<text name="text_PLAYER_SHIP_COG_RANDOM_B_name">Cog Supply Run</text>
+<text name="text_PLAYER_SHIP_COG_RANDOM_B_desc">The next generation of supply ship. Only Elites and up are allowed to be on board. Once again, the systems are underdeveloped. Even worse is that the ship has less health. The good news is this ship can handle more power to the weapons.. if you can handle the reactor limit anyways.</text>
+
+<text name="text_PLAYER_SHIP_COG_RANDOM_C_class">Random Cruiser</text>
+<text name="text_PLAYER_SHIP_COG_RANDOM_C_name">Cog Supply Run</text>
+<text name="text_PLAYER_SHIP_COG_RANDOM_C_desc">The final delivery ship. This one is special because you get one of the Cog Head's with their trusty waiter staff. Well one waiter staff. Its also the most fragile of the 3 so keep her steady won't you?</text>
+
+<text name="text_doc_elderich_class">God Class</text>
+<text name="text_doc_elderitch_name">The Overthrower</text>
+<text name="text_doc_elderich_desc">To say Dr. Spin is a bit upset is an understatement. He is hellbent on putting an end to the Elderrich beings. Somehow, he convinced Jerry to tag along with him.</text>
+
+<text name="COGMOD_SHIP_MINE_1">?????</text>
+<text name="text_COGMOD_SHIP_MINE_1_name">The Cheater</text>
+<text name="text_COGMOD_SHIP_MINE_1_desc">Fine. I will let you have just a glimpse of my power. Just this little bit. But don't think I'll let you aim such a powerful weapon yourself.</text>
+
+
+<!--
+////////////////////////////
+ENEMY SHIPS
+////////////////////////////
+-->
+
+<text name="text_SHIP_GUARD_SPIN_DOCTOR_class">Spin Doctor Guard</text>
+<text name="text_COG_SHOP_GUARD1_class">Cog Guard</text>
+<text name="text_CM_COG_GUARD2_class">Cog Guard</text>
+</FTL>

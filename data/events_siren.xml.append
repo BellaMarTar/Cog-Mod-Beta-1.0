@@ -1,0 +1,69 @@
+<FTL>
+<event name="THE_ONE_WHO_RHYMES_CHAOS">
+	<text>As you watch the stars fly past you watch as the scenery becomes more and more warped, until soon you're thrown at breakneck speeds right before a gigantic space anomaly. You can hardly believe your eyes before a blinding red flash sends you tumbling backwards.</text>
+	<variable name="loc_unique_sectors" op="add" val="1"/>
+	<img back="BACK_EVENT_RHYME" planet="NONE"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>"Hello good friend! How good it is to see you again! Just in time, you've returned at last! Last time we met, we had just a blast! Oh, wouldn't you agree? Right here, right now, you and I, this is the most fun there'll ever be!"</text>
+			<ship load="SHIP_CATINTHEHAT_CHAOS" hostile="false"/>
+			<choice hidden="true">
+				<text>Who are you? What is going on?</text>
+				<event>
+					<text>"Haha! Hahe! Oh but your confusion brings me such glee! I think you know more than you let on, or else to here why would you have gone? I'll give you the brief for I am so kind; the end of the world is the business in which you are now intertwined. While my master waits, a great game unfolds. What great mystery this all holds. A promise you made, so long ago. And now that same deal I shall echo! Face you me again, in another devilish duel. If you fail, then to this reality I will be most cruel! The choice is yours, the time is now. The end of reality, will you allow?"</text>
+					<choice hidden="true">
+						<text>Accept the challenge and face The One Who Rhymes.</text>
+						<event>
+							<text>"Oh I am truly most glad! Last time so much fun was had! But before we brawl, I grant one last gift. That is, for returning my gnome so swift! A new crewmate, to fill that spot. Now, we shall advance this plot."</text>
+							<crewMember amount="1" class="LIST_CREW_ELITE_RHYME"/>
+							<deathEvent thisFight="true">THE_ONE_WHO_RHYMES_FAIL</deathEvent>
+							<playMusic>chaos_fight</playMusic>
+							<ship hostile="true"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="COMBAT_CHECK"/>
+							</choice>
+						</event>
+					</choice>
+					<choice hidden="true" req="unique_irwin">
+						<text>(Irwin) "I've been training my whole life for thisss!"</text>
+						<event>
+							<text>Irwin cuts off The One Who Rhymes mid-speech, immediately turning to you excitedly. "Exotic creaturesss? A grand multiverse-level conssspiracccy? I wassss MADE for thissss!" Irwin flips a ssswitch on hisss blunderbusss, turning it from an orange glow to red. "It'sss time to kill sssome eldritch godsss."</text>
+							<deathEvent thisFight="true">THE_ONE_WHO_RHYMES_FAIL</deathEvent>
+							<playMusic>chaos_fight</playMusic>
+							<transformRace class="unique_irwin">unique_irwin_demon</transformRace>
+							<ship hostile="true"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="COMBAT_CHECK"/>
+							</choice>
+						</event>
+					</choice>
+					<choice hidden="true" req="dr_spin">
+					<text>(Dr. Spin) The doctor looks exceedingly annoyed.</text>
+						<event>
+							<text>Dr. Spin is glaring at the screen towards this mysterious deity. He catches your concerned look and grunts. "I know him all too well. He's an ass." You blink, unsure how he could know this thing really exists, but before you can ask, he pushes himself off the wall he was leaning on and heads out the room. Within 30 seconds, he comes back in a wildly different outfit and a steely gaze in his eyes. "I'll be honest. He's not the only one who's an eldritch being. Let's give him a reality check ya?"</text>
+							<deathEvent thisFight="true">THE_ONE_WHO_RHYMES_FAIL</deathEvent>
+							<playMusic>chaos_fight</playMusic>
+							<transformRace class="dr_spin">dr_spin_eldritch</transformRace>
+							<ship hostile="true"/>
+							<choice hidden="true">
+								<text>Continue with your Eldritch Doctor...</text>
+								<event load="COMBAT_CHECK"/>
+							</choice>
+						</event>
+					</choice>
+					<choice hidden="true">
+						<text>Let him destroy reality.</text>
+						<event>
+							<text>"Really? You are giving up this early? Well, the choice belongs to you. It's time for time to get its due!" The deity begins to laugh as he spreads his cartoonishly long arms and chants. All around you it seems as if space itself is imploding. This is truly the end.</text>
+							<lose text="This reality was destroyed, instantaneously erasing anyone and everyone inside." sound="catLaugh"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+</FTL>

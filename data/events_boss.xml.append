@@ -1,0 +1,60 @@
+<FTL>
+
+<mod:findName type="event" name="TRUE_LAST_STAND_START">
+    <mod:findLike type="choice">
+        <mod:findLike type="event">
+			<mod-append:choice hidden="true" max_group="1" req="SHIP_SPIN_DOCTOR" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Oh good, a medical ship. There's plenty of injured friendlies on beacon-" He stops as one of his informants whispers into his ear. "Oh... I sure hope you're armed with more than medical equipment if you're here to defeat the flagship"</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+            </mod-append:choice>
+			<mod-append:choice hidden="true" max_group="1" req="SHIP_DR_SPIN" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Ah you're one of those Cog Heads aren't you? Must be a good sign if Cog Nation sent one of their best. Good luck."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+            </mod-append:choice>
+			<mod-append:choice hidden="true" max_group="1" req="SHIP_AMBULANCE_CHASER" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Oh good, a medical ship. There's plenty of injured friendlies on beacon-" He stops as one of his informants whispers into his ear. "Oh... I sure hope you're armed with more than medical equipment if you're here to defeat the flagship"</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+            </mod-append:choice>
+			<mod-append:choice hidden="true" max_group="1" req="SHIP_DOUBLE_TROUBLE" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Just in time, a medical ship. Wait isn't that one of the Cog Head ships? Wow, the rebels must have really pissed off the Cogs if they sent one of their best. "</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+            </mod-append:choice>
+			<mod-append:choice hidden="true" max_group="1" req="SHIP_COG_RANDOM" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "I can't tell if its more alarming that your ship is rated as a transporter or has no official crew list available. I sure hope you have at least one goal of defeating this flagship."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+            </mod-append:choice>
+		</mod:findLike>
+    </mod:findLike>
+</mod:findName>
+	
+</FTL>

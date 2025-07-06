@@ -1,0 +1,63 @@
+<mod:findName type="event" name="STORAGE_CHECK_CREW_REAL">
+<mod-append:choice req="Lawbot" blue="false" hidden="true">	
+<text>Look for a Lawbot.</text>
+	<event load="STORAGE_CHECK_CREW_LAWBOT_LIST"/>
+</mod-append:choice>
+</mod:findName>
+
+<event name="STORAGE_CHECK_CREW_LAWBOT_LIST">
+	<text>What Lawbot did you want to find?</text>
+	<choice>
+		<text>Nevermind, do something else.</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+	<choice hidden="true" max_group="1" req="SHIP_TUCO" blue="false">
+		<text id="find_a_spin_doctor"/>
+		<event load="STORAGE_CHECK_CREW_SPIN_DOCTOR_LOCATE"/>
+	</choice>
+	<choice hidden="true" max_group="1" req="SHIP_TUCO" blue="false">
+		<text id="find_a_ambulance_chaser"/>
+		<event load="STORAGE_CHECK_CREW_AMBULANCE_CHASER_LOCATE"/>
+	</choice>
+</event>
+
+<event name="STORAGE_CHECK_CREW_LAWBOT_LIST">
+	<text>What Lawbot did you want to find?</text>
+	<choice>
+		<text>Nevermind, do something else.</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+	<choice hidden="true" max_group="1" req="SHIP_TUCO" blue="false">
+		<text id="find_a_spin_doctor"/>
+		<event load="STORAGE_CHECK_CREW_SPIN_DOCTOR_LOCATE"/>
+	</choice>
+	<choice hidden="true" max_group="1" req="SHIP_TUCO" blue="false">
+		<text id="find_a_ambulance_chaser"/>
+		<event load="STORAGE_CHECK_CREW_AMBULANCE_CHASER_LOCATE"/>
+	</choice>
+</event>
+
+<event name="STORAGE_CHECK_CREW_LAWBOT_LIST">
+	<text>What Lawbot did you want to find?</text>
+	<choice>
+		<text>Nevermind, do something else.</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+	<choice hidden="true" max_group="1" req="SHIP_TUCO" blue="false">
+		<text id="find_a_spin_doctor"/>
+		<event load="STORAGE_CHECK_CREW_SPIN_DOCTOR_LOCATE"/>
+	</choice>
+	<choice hidden="true" max_group="1" req="SHIP_TUCO" blue="false">
+		<text id="find_a_ambulance_chaser"/>
+		<event load="STORAGE_CHECK_CREW_AMBULANCE_CHASER_LOCATE"/>
+	</choice>
+		<choice hidden="true" max_group="1" req="SHIP_TUCO" blue="false">
+		<text id="find_a_spin_doctor"/>
+		<event load="STORAGE_CHECK_CREW_SPIN_DOCTOR_LOCATE"/>
+	</choice>
+	<choice hidden="true" max_group="1" req="SHIP_TUCO" blue="false">
+		<text id="find_a_ambulance_chaser"/>
+		<event load="STORAGE_CHECK_CREW_AMBULANCE_CHASER_LOCATE"/>
+	</choice>
+</event>
+</event>

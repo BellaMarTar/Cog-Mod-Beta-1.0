@@ -1,0 +1,3430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<FTL>
+<!-- 
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+												   BossBot CREW
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+-->
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   The Big Cheese										 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<crewBlueprint name="big_cheese">
+	<desc>Tier 8 Cog. The biggest and mightest of them all. The top of the Tier 8s even. Truly the king pin. And they have a head made of cheese.</desc>
+	<cost>300</cost>
+	<title>Cheese</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>200 Health</power>
+	<power>Takes 60% damage in combat, but moves at 50% speed.</power>
+	<power>2.5x Combat Damage, 1.0x Repair speed.</power>
+	<power>2.5x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="big_cheese_elite">
+	<desc>Tier 8 Cog. It's nacho cheese, it's his cheese. No seriously, don't take pieces off his head to eat... </desc>
+	<cost>350</cost>
+	<title>Cheese</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>300 Health</power>
+	<power>Takes 55% damage in combat, but moves at 55% speed.</power>
+	<power>3.0x Combat Damage, 1.0x Repair speed.</power>
+	<power>2.5x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="big_cheese_waiter">
+	<desc>Tier 8 Cog. The Waiter Big Cheeses are known for having terrible humor. Not in the "I can't take a joke" sort of way. More a "Cheddar days are ahead" at bad times kinda way.</desc>
+	<cost>400</cost>
+	<title>Cheese</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>350 Health</power>
+	<power>Takes 55% damage in combat, but moves at 60% speed.</power>
+	<power>3.5x Combat Damage, 1.5x Repair speed.</power>
+	<power>3.0x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="big_cheese_hologram">
+	<desc>Tier 8 Cog. The hologram Big Cheeses act a bit aggressive towards Swiss cheese puns. You can probably guess why...</desc>
+	<cost>400</cost>
+	<title>Cheese</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>200 Health</power>
+	<power>Takes 50% damage in combat, but moves at 50% speed.</power>
+	<power>2.5x Combat Damage, 1.0x Repair speed.</power>
+	<power>2.5x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="jack_brie">
+	<desc>Ah Mr. Jack Brie. An master cog. The finest quality. Aged to perfection. A delightful scent of.. err never mind. He is really good at being the Boss of them all and we both know that's all you care about.</desc>
+	<cost>400</cost>
+	<title>Jack</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>400 Health</power>
+	<power>Takes 50% damage in combat, but moves at 80% speed.</power>
+	<power>4.0x Combat Damage, 2.0x Repair speed.</power>
+	<power>4.0x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   Corporate Raider											 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<crewBlueprint name="corporateraider">
+	<desc>Tier 7 Cog. Who knew some Cogs were pirates. These guys love to raid and are difficult to fight if they board. Best you surrender your scrap if you value your booty... that came out wrong.</desc>
+	<cost>150</cost>
+	<title>Raider</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>156 Health</power>
+	<power>Takes 80% damage in combat, but moves at 70% speed.</power>
+	<power>2.0x Combat Damage, 0.4x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="corporateraider_elite">
+	<desc>Tier 7 Cog. Only a real pirate prays on the weak and underprivileged. Tis a pirate life for me!</desc>
+	<cost>200</cost>
+	<title>Raider</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>234 Health</power>
+	<power>Takes 80% damage in combat, but moves at 70% speed.</power>
+	<power>2.2x Combat Damage, 0.5x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="corporateraider_waiter">
+	<desc>Tier 7 Cog. Now serving with slightly expired meat, stale bread and no trace of Vitamin C!</desc>
+	<cost>200</cost>
+	<title>Raider</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>250 Health</power>
+	<power>Takes 70% damage in combat, but moves at 60% speed.</power>
+	<power>2.4x Combat Damage, 0.4x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="corporateraider_hologram">
+	<desc>Tier 7 Cog. A holographic pirate? This won't end well I think...</desc>
+	<cost>200</cost>
+	<title>Raider</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>156 Health</power>
+	<power>Takes 50% damage in combat, but moves at 60% speed.</power>
+	<power>2.0x Combat Damage, 0.2x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Stun all crew in the room and gain serious ranged damage for 5 seconds.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="comrade">
+	<desc>"Yo Hoo, Fiddle Le De... something something something 103!" He also confuses Communism and Piracy to add on to his minimal knowledge and poor memory, but he is a hearty pirate in the end.</desc>
+	<cost>200</cost>
+	<title>RAID</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>300 Health</power>
+	<power>Takes 40% damage in combat, but moves at 70% speed.</power>
+	<power>3.0x Combat Damage, 0.5x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   HeadHunter											 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<crewBlueprint name="headhunter">
+	<desc>Tier 6 Cog. Watch your head, these guys are looking to swoop you in to an all 'new and super legal' fortune 500 company you've never heard of. Just sign this phone book of a contract...</desc>
+	<cost>100</cost>
+	<title>Head Hunter</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>132 Health</power>
+	<power>Takes 80% damage in combat, but moves at 60% speed.</power>
+	<power>1.7x Combat Damage, 0.5x Repair speed.</power>
+	<power>0.5x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="headhunter_elite">
+	<desc>Tier 6 Cog. Make a joke about their head and they may just rip yours off...</desc>
+	<cost>200</cost>
+	<title>Head Hunter</title>
+	<short>Elite Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>198 Health</power>
+	<power>Takes 70% damage in combat, but moves at 60% speed.</power>
+	<power>2.0x Combat Damage, 0.4x Repair speed.</power>
+	<power>0.7x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="headhunter_hologram">
+	<desc>Tier 6 Cog. Not even solid matter can stop these guys from finding the perfect fit for the shady company that hired them in the first place.</desc>
+	<cost>200</cost>
+	<title>Head Hunter</title>
+	<short>Hologram Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>132 Health</power>
+	<power>Takes 50% damage in combat, but moves at 60% speed.</power>
+	<power>Can phase through doors.</power>
+	<power>1.5x Combat Damage, 0.2x Repair speed.</power>
+	<power>0.4x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="headhunter_waiter">
+	<desc>Tier 6 Cog. They serve you at your pleasure... but they learn you. They learn your patterns, your interests, your fears, your thought process. And then one day... they'll show how much they learned about you.</desc>
+	<cost>200</cost>
+	<title>Head Hunter</title>
+	<short>Waiter Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>250 Health</power>
+	<power>Takes 60% damage in combat, but moves at 70% speed.</power>
+	<power>2.3x Combat Damage, 0.5x Repair speed.</power>
+	<power>1.2x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="honcho">
+	<desc> HEHEH... Head... HONCHO. I'm so funny, you forgot to laugh at that joke. No seriously, you'll wanna laugh. He is very sensitive when people don't find him funny.</desc>
+	<cost>300</cost>
+	<title>Honcho</title>
+	<short>Master Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>300 Health</power>
+	<power>Takes 50% damage in combat.</power>
+	<power>2.5x Combat Damage, 0.9x Repair speed.</power>
+	<power>1.5x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   Downsizer											 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<crewBlueprint name="downsizer">
+	<desc>Tier 5 Cog. Contrary to his name, Downsizers aren't "Debbie Downers" instead taking on a more positive look on life. If only that translated to actual useful skills.</desc>
+	<cost>100</cost>
+	<title>Downsizer</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>110 Health</power>
+	<power>Takes 80% damage in combat, but moves at 70% speed.</power>
+	<power>1.7x Combat Damage, 0.5x Repair speed.</power>
+	<power>0.7x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="downsizer_elite">
+	<desc>Tier 5 Cog. Remember what I said about Downsizers trying to be more positive? Well these kinds don't. They relish in misery of others.</desc>
+	<cost>200</cost>
+	<title>Downsizer</title>
+	<short>Elite Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>165 Health</power>
+	<power>Takes 70% damage in combat, but moves at 70% speed.</power>
+	<power>2.0x Combat Damage, 0.4x Repair speed.</power>
+	<power>0.7x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="downsizer_hologram">
+	<desc>Tier 5 Cog. Coming to drop you down a notch or two no matter where you hide.</desc>
+	<cost>200</cost>
+	<title>Downsizer</title>
+	<short>Hologram Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>110 Health</power>
+	<power>Takes 50% damage in combat, but moves at 50% speed.</power>
+	<power>Can phase through doors.</power>
+	<power>1.5x Combat Damage, 0.3x Repair speed.</power>
+	<power>0.5x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="downsizer_waiter">
+	<desc>Tier 5 Cog. These are amazing diet experts. They downsize your meal all the time. Too bad they won't downsize the price.</desc>
+	<cost>200</cost>
+	<title>Downsizer</title>
+	<short>Waiter Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>200 Health</power>
+	<power>Takes 60% damage in combat, but moves at 70% speed.</power>
+	<power>2.2x Combat Damage, 0.5x Repair speed.</power>
+	<power>1.1x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="debbie">
+	<desc> Miss Debbie Downer here will always kick one when they are down. A good thing she's on your side huh?</desc>
+	<cost>300</cost>
+	<title>Debbie</title>
+	<short>Master Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>250 Health</power>
+	<power>Takes 60% damage in combat, and moves at 150% speed.</power>
+	<power>2.0x Combat Damage, 1.0x Repair speed.</power>
+	<power>1.4x sabotaging speed.</power>
+	<power>Kicks pretty fast.</power>
+	<power>Cannot shoot, only kick.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   MicroManager										 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<crewBlueprint name="micromanager">
+	<desc>Tier 4 Cog. MicroManagers may be short, but they have a big heart... for looking good to her bosses anyways. Woe is you if you make her look bad.</desc>
+	<cost>90</cost>
+	<title>MicroManager</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>90 Health</power>
+	<power>Too short to fight well hand to hand.</power>
+	<power>Takes 90% damage in combat, but moves at 90% speed.</power>
+	<power>Decent ranged damage to compensate her height.</power>
+	<power>0.2x Combat Damage, refuses to repair herself but will force others to repair faster.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="micromanager_elite">
+	<desc>Tier 4 Cog. Elite MicroManagers don't have a big heart, just a big mouth. And they know how to run it all day long. And they know how to kick your shins a bit harder.</desc>
+	<cost>150</cost>
+	<title>MicroManager</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>135 Health</power>
+	<power>Too short to fight well hand to hand.</power>
+	<power>Takes 85% damage in combat, but moves at 85% speed.</power>
+	<power>Decent ranged damage to compensate her height.</power>
+	<power>0.3x Combat Damage, refuses to repair herself but will force others to repair faster-er.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="micromanager_waiter">
+	<desc>Tier 4 Cog. How does a MicroManager become a waiter? Well, this one failed to impress her bosses so she was sent off to field work for elite clients.</desc>
+	<cost>200</cost>
+	<title>MicroManager</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>150 Health</power>
+	<power>Too short to fight well hand to hand.</power>
+	<power>Takes 90% damage in combat, but moves at 90% speed.</power>
+	<power>Decent ranged damage to compensate her height.</power>
+	<power>0.3x Combat Damage, finally forced to repair things on her own, 0.5x anyways.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="micromanager_hologram">
+	<desc>Tier 4 Cog. Hologram MicroManagers are a pain because there is no comical mute button to shut her up if she complains for too long like the cartoons suggest.</desc>
+	<cost>150</cost>
+	<title>MicroManager</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>90 Health</power>
+	<power>Too short to fight well hand to hand.</power>
+	<power>Takes 50% damage in combat, but moves at 70% speed.</power>
+	<power>Decent ranged damage to compensate her height.</power>
+	<power>0.2x Combat Damage, refuses to repair herself but will force others to repair faster-ish.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="mira">
+	<desc>Mira's interests and habits are completely unknown. In fact, technically there is not a special micromanager per the Cog Index, but here she is. Let's hope she doesn't show you why no one knows her.</desc>
+	<cost>150</cost>
+	<title>Classified</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>200 Health</power>
+	<power>Does not fight at all hand to hand.</power>
+	<power>Takes 50% damage in combat, and moves at 130% speed.</power>
+	<power>She can stun enemies repeatedly with what appears to be a laser pointer.</power>
+	<power>Surprisingly good at repairs</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   Yesman											 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<crewBlueprint name="yesman">
+	<desc>Tier 3 Cog. Yes sir, this is one agreeable cog. You'll never hear him say the opposite. Yes to more money, yes to cutting others' pay, yes to more production without any plan on how to maintain it.</desc>
+	<cost>100</cost>
+	<title>Yesman</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>72 Health</power>
+	<power>Takes 80% damage in combat, but moves at 70% speed.</power>
+	<power>1.2x Combat Damage, 0.9x Repair speed.</power>
+	<power>1.5x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="yesman_elite">
+	<desc>Tier 3 Cog. Yesman said no.</desc>
+	<cost>200</cost>
+	<title>Yesman</title>
+	<short>Elite Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>108 Health</power>
+	<power>Takes 75% damage in combat, but moves at 75% speed.</power>
+	<power>1.4x Combat Damage, 1.1x Repair speed.</power>
+	<power>2.0x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="yesman_hologram">
+	<desc>Tier 3 Cog. The yesses... they echo in your ear, they come from every direction. You once thought it was great to always be told yes... but maybe it's too much.</desc>
+	<cost>200</cost>
+	<title>Yesman</title>
+	<short>Hologram Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>72 Health</power>
+	<power>Takes 50% damage in combat, but moves at 50% speed.</power>
+	<power>Can phase through doors.</power>
+	<power>1.2x Combat Damage, 0.9x Repair speed.</power>
+	<power>2.0x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="yesman_waiter">
+	<desc>Tier 3 Cog. "Yes, we can certainly add extra sauce... for a price."</desc>
+	<cost>200</cost>
+	<title>Yesman</title>
+	<short>Waiter Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>150 Health</power>
+	<power>Takes 60% damage in combat, but moves at 70% speed.</power>
+	<power>1.6x Combat Damage, 1.4x Repair speed.</power>
+	<power>2.2x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="yessum">
+	<desc> Yessum once was like every other Yesman. Always saying yes, but then one day, he had the bright idea to not only say no like the elites, but take over and recruit his own Yesman. YesmenX2. Double the Yes, double the fun.</desc>
+	<cost>300</cost>
+	<title>Yessum</title>
+	<short>Master Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>200 Health</power>
+	<power>Takes 55% damage in combat.</power>
+	<power>1.9x Combat Damage, 1.75 Repair speed.</power>
+	<power>2.5x sabotaging speed.</power>
+	<power>Shoots golf balls rapidly but they don't hurt as much.</power>
+	<power>He can self replicate two weak, temporary versions of himself at any time (just not rapidly)</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="yessum_spawn">
+	<desc>YOU SHOULD NEVER SEE THIS.</desc>
+	<cost>9999</cost>
+	<title>YES</title>
+	<short>Yes</short>
+	<rarity>0</rarity>
+	<powerList>
+		<power>72 Health</power>
+		<power>Takes 80% damage in combat, but moves at 70% speed.</power>
+		<power>1.2x Combat Damage, 0.9x Repair speed.</power>
+		<power>1.5x sabotaging speed.</power>
+		<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   Pencil Pusher										 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   Flunky											 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+
+<!-- 
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+												   Lawbot CREW
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+-->
+
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   Big Wig									 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<crewBlueprint name="bigwig">
+	<desc>Tier 8 Cog. When it come to the law, Big Wigs are the ones to go to for help. They can take on all their lower class cogs at the same time and still have room to spare. Lucky they are kind around their lawbot allies.</desc>
+	<cost>300</cost>
+	<title>Big Wig</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>200 Health</power>
+	<power>Takes 60% damage in combat, but moves at 60% speed.</power>
+	<power>2.3x Combat Damage, 1.2x Repair speed.</power>
+	<power>2.7x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="bigwig_elite">
+	<desc>Tier 8 Cog. Elite Big Wigs might possibly be the most annoying. Only because they tend to just lie around the law and call you guilty anyways.</desc>
+	<cost>300</cost>
+	<title>Big Wig</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>300 Health</power>
+	<power>Takes 60% damage in combat, but moves at 55% speed.</power>
+	<power>2.5x Combat Damage, 1.3x Repair speed.</power>
+	<power>2.6x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="bigwig_waiter">
+	<desc>Tier 8 Cog. Can you imagine the fact that a top tier Cog could also be a waiter? Well this of one of them and he isn't happy with that fact.</desc>
+	<cost>350</cost>
+	<title>Big Wig</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>350 Health</power>
+	<power>Takes 60% damage in combat, but moves at 60% speed.</power>
+	<power>2.8x Combat Damage, 1.5x Repair speed.</power>
+	<power>2.7x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="bigwig_hologram">
+	<desc>Tier 8 Cog. Talk about transparent views of the law. These guys are no joke. Beware their tendencies to just ruin your online records while in a staredown with you.</desc>
+	<cost>300</cost>
+	<title>Big Wig</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>200 Health</power>
+	<power>Takes 50% damage in combat, but moves at 50% speed.</power>
+	<power>2.5x Combat Damage, 1.1x Repair speed.</power>
+	<power>2.2x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="judge">
+	<desc>Now here is a powerful cog type. Judge is the bot for you when it comes down to all your law needs. He even can stand in as an actual judge at times. Sound boring? Well so is he. Match made in heaven.</desc>
+	<cost>400</cost>
+	<title>Judge</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>400 Health</power>
+	<power>Takes 50% damage in combat, but moves at 80% speed.</power>
+	<power>4.0x Combat Damage, 2.0x Repair speed.</power>
+	<power>4.0x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   Legal Eagle										 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<crewBlueprint name="legaleagle">
+	<desc>Tier 7 Cog. Birds of mechanical feather, flock together. Weirdly, these guys arent too strong fighting close up. But should one make the mistake of long distance fighting... well.. that would go pretty poorly for them.</desc>
+	<cost>150</cost>
+	<title>Legal Eagle</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>156 Health</power>
+	<power>Takes 80% damage in combat, but moves at 70% speed.</power>
+	<power>0.9x Combat Damage, 0.3x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	<power>3.0x ranged damage</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="legaleagle_elite">
+	<desc>Tier 7 Cog. Elite Legal Eagles are tricky, they punch pretty poorly, but man do they have a handful of peckers.</desc>
+	<cost>200</cost>
+	<title>Legal Eagle</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>234 Health</power>
+	<power>Takes 70% damage in combat, but moves at 70% speed.</power>
+	<power>0.7x Combat Damage, 0.5x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	<power>3.5x ranged damage</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="legaleagle_waiter">
+	<desc>Tier 7 Cog. Don't ask about the worm special. You won't like where he makes it...</desc>
+	<cost>200</cost>
+	<title>Legal Eagle</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>250 Health</power>
+	<power>Takes 80% damage in combat, but moves at 60% speed.</power>
+	<power>0.8x Combat Damage, 1.0x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	<power>3.1x ranged damage</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="legaleagle_hologram">
+	<desc>Tier 7 Cog. Believe me, the virtual birds he throws are VERY real and painful.</desc>
+	<cost>200</cost>
+	<title>Legal Eagle</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>156 Health</power>
+	<power>Takes 40% damage in combat, but moves at 50% speed.</power>
+	<power>0.8x Combat Damage, 0.3x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	<power>3.0x ranged damage</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="lawrence">
+	<desc>Lawrenece. He's a bit... disturbed on how many laws you have broken... but he owes you. Just don't ask him to represent you in court.</desc>
+	<cost>200</cost>
+	<title>Lawrenece</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>300 Health</power>
+	<power>Takes 50% damage in combat, but moves at 80% speed.</power>
+	<power>1.1x Combat Damage, 0.5x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	<power>3.4x ranged damage</power>
+	</powerList>
+</crewBlueprint>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   Spin Doctor											 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<crewBlueprint name="spindoctor">
+	<desc>Tier 6 Cog. These medical professionals are helpful at healing fellow crew and themselves. Despite their healing expertise they seem to be as useful as mantis to repairs strangely enough.</desc>
+	<cost>100</cost>
+	<title>Spin Doctor</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>132 Health</power>
+	<power>Takes 75% damage in combat, but moves at 55% speed.</power>
+	<power>Passively heals friendly crew.</power>
+	<power>1.75x Combat Damage, 0.5x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	<power>0.5x sabotaging speed.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="spindoctor_elite">
+	<desc>Tier 6 Cog. These doctors claim the private medical sector are superior. They leave out the part that its better for their pockets.</desc>
+	<cost>200</cost>
+	<title>Spin Doctor</title>
+	<short>Elite Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>198 Health</power>
+	<power>Takes 65% damage in combat, but moves at 55% speed.</power>
+	<power>Passively heals friendly crew better.</power>
+	<power>2.0x Combat Damage, 0.4x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	<power>0.7x sabotaging speed.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="spindoctor_hologram">
+	<desc>Tier 6 Cog. How can they heal you if they can't touch you. The answer? Just have you do the testing and they just watch. A whole new way of medical laziness.</desc>
+	<cost>200</cost>
+	<title>Spin Doctor</title>
+	<short>Hologram Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>132 Health</power>
+	<power>Takes 50% damage in combat, but moves at 60% speed.</power>
+	<power>Can phase through doors.</power>
+	<power>Passively heals friendly crew very slowly.</power>
+	<power>1.5x Combat Damage, 0.2x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	<power>0.4x sabotaging speed.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="spindoctor_waiter">
+	<desc>Tier 6 Cog. Now don't think this is weird. He's just a dietary doctor is all. Your diet will consist of one quart of oil, 10 metal washers, 5 plastic plugs, and some high mileage additive to keep you going.</desc>
+	<cost>200</cost>
+	<title>Spin Doctor</title>
+	<short>Waiter Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>250 Health</power>
+	<power>Takes 55% damage in combat, but moves at 55% speed.</power>
+	<power>Passively heals friendly crew slightly worse.</power>
+	<power>2.3x Combat Damage, 0.2x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	<power>0.8x sabotaging speed.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="dr_spin">
+	<desc>Dr. Spin has no patience for anyone who wastes his time. Somehow he tolerates you despite his... off putting personality. How does a doctor not like healing others anyway?</desc>
+	<cost>300</cost>
+	<title>Dr Spin</title>
+	<short>Master Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>300 Health</power>
+	<power>Takes 50% damage in combat.</power>
+	<power>Does not heal fellow crew.</power>
+	<power>2.5x Combat Damage, 0.9x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	<power>1.5x sabotaging speed.</power>
+	</powerList>
+</crewBlueprint>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   Backstabber											 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<crewBlueprint name="backstabber">
+	<desc>Tier 5 Cog. Watch your 6. They may stab you with their heads as a last ditch effort to win. Also known as backstabbing. Yea.. pretty on the nose there. Fortunately, they cant really stab someone in the back from a distance.</desc>
+	<cost>100</cost>
+	<title>Backstabber</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>110 Health</power>
+	<power>Takes 80% damage in combat, and moves at 110% speed.</power>
+	<power>2.5x Combat Damage, 0.4x Repair speed.</power>
+	<power>2.0x sabotaging speed.</power>
+	<power>0.5x ranged damage</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="backstabber_elite">
+	<desc>Tier 5 Cog. They have a habit of sharpening their head in private.</desc>
+	<cost>200</cost>
+	<title>Backstabber</title>
+	<short>Elite Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>165 Health</power>
+	<power>Takes 70% damage in combat, and moves at 140% speed.</power>
+	<power>2.7x Combat Damage, 0.6x Repair speed.</power>
+	<power>2.2x sabotaging speed.</power>
+	<power>0.5x ranged damage</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="backstabber_hologram">
+	<desc>Tier 5 Cog. I wonder how it feels to be stabbed in virtual reality...</desc>
+	<cost>200</cost>
+	<title>Backstabber</title>
+	<short>Hologram Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>110 Health</power>
+	<power>Takes 50% damage in combat, but moves at 70% speed.</power>
+	<power>Can phase through doors.</power>
+	<power>2.5x Combat Damage, 0.3x Repair speed.</power>
+	<power>2.0x sabotaging speed.</power>
+	<power>0.2x ranged damage</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="backstabber_waiter">
+	<desc>Tier 5 Cog. No, they will not cut your steak with their head. You will be cut in half instead if you make such a request.</desc>
+	<cost>200</cost>
+	<title>Backstabber</title>
+	<short>Waiter Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>200 Health</power>
+	<power>Takes 70% damage in combat, and moves at 70% speed.</power>
+	<power>2.9x Combat Damage, 1.0x Repair speed.</power>
+	<power>2.5x sabotaging speed.
+	</power><power>0.6x ranged damage</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   Ambulance Chaser										 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<crewBlueprint name="ambulancechaser">
+	<desc>Tier 4 Cog. Ambulance Chasers are very fond of chasing after a lawsuit. It's their name's meaning after all. This gives them quite the speed boost compared to normal Cogs chasing down those pesky emergency vehicles.</desc>
+	<cost>90</cost>
+	<title>Ambulance Chaser</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>90 Health</power>
+	<power>Moves faster than any other Cog</power>
+	<power>Passively heals friendly crew.</power>
+	<power>1.3x Combat Damage, 0.5x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Can see potential people to sue on behalf of the victim.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="ambulancechaser_elite">
+	<desc>Tier 4 Cog. Elite Ambulance Chasers work harder to gum up cases in order to help their clients win by defaulting. A rather sleazy move, but I'm not sure what you were expecting from an elite variant.</desc>
+	<cost>150</cost>
+	<title>Ambulance Chaser</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>135 Health</power>
+	<power>Moves slightly faster than the standard Ambulance Chaser</power>
+	<power>Passively heals friendly crew slower than normal</power>
+	<power>1.5x Combat Damage, 0.4x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Can see potential people to sue on behalf of the victim.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="ambulancechaser_waiter">
+	<desc>Tier 4 Cog. Waiter Ambulance Chasers do exist. How? Well should someone choke or get food poisoning, all of sudden he has thousands of incidents that were swept under by management he will make up to win for you.</desc>
+	<cost>200</cost>
+	<title>Ambulance Chaser</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>150 Health</power>
+	<power>Moves faster than the standard Ambulance Chaser</power>
+	<power>Passively heals friendly crew faster than normal</power>
+	<power>1.4x Combat Damage, 0.8x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Can see potential people to sue on behalf of the victim.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="ambulancechaser_hologram">
+	<desc>Tier 4 Cog. Hologram Ambulance Chasers are surprisingly annoying. Not the good kind. The kind where they serve you a court order and promptly vanish into a wall. Ugh.</desc>
+	<cost>150</cost>
+	<title>Ambulance Chaser</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>90 Health</power>
+	<power>Passively heals friendly crew faster than normal.</power>
+	<power>Can phase through doors.</power>
+	<power>1.4x Combat Damage, 0.8x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Can see potential people to sue on behalf of the victim.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="ac08">
+	<desc>AC is the best Ambulance Chaser out there. While his name may be simple, he is quite a complicated friend. He has a heal burst and its rapid, but the downside is its minimal.</desc>
+	<cost>300</cost>
+	<title>Ambulance Chaser</title>
+	<short>Master Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>200 Health</power>
+	<power>Moves faster than any Ambulance Chaser and even several other species.</power>
+	<power>Does not heal other crew passively.</power>
+	<power>1.9x Combat Damage, 1.5x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Can see potential people to sue on behalf of the victim.</power>
+	</powerList>
+</crewBlueprint>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   Double Talker										 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<crewBlueprint name="double_talker">
+	<desc>Tier 3 Cog. Double the faces means double the pain, but also double the conflict. As such they are half as slow and half as good for repairs.</desc>
+	<cost>100</cost>
+	<title>Double Talker</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>72 Health</power>
+	<power>Takes 70% damage in combat, but moves at 50% speed.</power>
+	<power>2.0x Combat Damage, 0.5x Repair speed.</power>
+	<power>1.0x sabotaging speed.</power>
+	<power>Breaks open doors twice as fast.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="double_talker_elite">
+	<desc>Tier 3 Cog. Double Talker Elites' heads actually work in unison to screw over both parties they're talking to allowing them to damage more, but it does make them a little more open to being hit.</desc>
+	<cost>200</cost>
+	<title>Double Talker</title>
+	<short>Elite Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>108 Health</power>
+	<power>Takes 120% damage in combat, but moves at 150% speed.</power>
+	<power>2.5x Combat Damage, 1.0x Repair speed.</power>
+	<power>2.0x sabotaging speed.</power>
+	<power>Breaks open doors three times as fast. (Don't worry, it makes sense to him.)</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="double_talker_hologram">
+	<desc>Tier 3 Cog. You'd think with both heads on the brink of not being real that they would tread carefully and work together as well as the elites but nope. They don't.</desc>
+	<cost>200</cost>
+	<title>Double Talker</title>
+	<short>Hologram Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>72 Health</power>
+	<power>Takes 50% damage in combat, and moves at 100% speed.</power>
+	<power>Can phase through doors.</power>
+	<power>1.0x Combat Damage, 0.5x Repair speed.</power>
+	<power>1.0x sabotaging speed.</power>
+	<power>I hope I don't have to explain why they don't have a door break boost after what was mentioned above.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="double_talker_waiter">
+	<desc>Tier 3 Cog. Double Talker waiters hate that Two-Face Waiters get more privilege and have a lot of resentment against them, but maybe don't be a worse version of a Two-Face Waiter then.</desc>
+	<cost>200</cost>
+	<title>Double Talker</title>
+	<short>Waiter Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>150 Health</power>
+	<power>Takes 75% damage in combat, but moves at 100% speed.</power>
+	<power>2.0x Combat Damage, 1.5x Repair speed.</power>
+	<power>1.5x sabotaging speed.</power>
+	<power>Breaks open doors four times as fast.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   Bloodsucker										 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   Bottom Feeder											 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+
+
+<!-- 
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+												   Cashbot CREW
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+-->
+
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   Robber Baron										 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<crewBlueprint name="robberbaron">
+	<desc>Tier 8 Cog. Theft, robbery, lost wages, missing supplies. Yep must be the Robber Barons. But don't try to fight these guys, they can take down almost any lower ranking Cog hard. And a fleshy being such as yourself is just a flick of their wrist.</desc>
+	<cost>300</cost>
+	<title>Robber</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>200 Health</power>
+	<power>Takes 60% damage in combat, but moves at 60% speed.</power>
+	<power>2.3x Combat Damage, 1.2x Repair speed.</power>
+	<power>2.7x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="robberbaron_elite">
+	<desc>Tier 8 Cog. These Elite Robber Barons push even the standard ones to the borderline of insanity. It's not even about money anymore, it's about flexing that they are untouchable.</desc>
+	<cost>300</cost>
+	<title>Robber</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>300 Health</power>
+	<power>Takes 60% damage in combat, but moves at 55% speed.</power>
+	<power>2.5x Combat Damage, 1.3x Repair speed.</power>
+	<power>2.6x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="robberbaron_waiter">
+	<desc>Tier 8 Cog. There are very few Waiter Barons out there. And most of them that are are in it just to steal stuff from employers or just run the place and like the white suit.</desc>
+	<cost>350</cost>
+	<title>Robber</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>350 Health</power>
+	<power>Takes 60% damage in combat, but moves at 60% speed.</power>
+	<power>2.8x Combat Damage, 1.5x Repair speed.</power>
+	<power>2.7x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="robberbaron_hologram">
+	<desc>Tier 8 Cog.  The only thing worse than a being that will steal your life work for the hell of it is a being that will steal your life work for the hell of it AND walk through walls.</desc>
+	<cost>300</cost>
+	<title>Robber</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>200 Health</power>
+	<power>Takes 50% damage in combat, but moves at 50% speed.</power>
+	<power>2.5x Combat Damage, 1.1x Repair speed.</power>
+	<power>2.2x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="robert">
+	<desc>He has claimed himself to be "The king of robbery." Sorry did I not say that right? The... KING!. Ow my throat.</desc>
+	<cost>400</cost>
+	<title>Thief</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>400 Health</power>
+	<power>Takes 50% damage in combat, but moves at 80% speed.</power>
+	<power>4.0x Combat Damage, 2.0x Repair speed.</power>
+	<power>4.0x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   Loan Shark										 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<crewBlueprint name="loanshark">
+	<desc>Tier 7 Cog. Chomp, chomp chomp. Be wary of the bite of these cogs. They don't fight fair, though they suck at long range attacks...</desc>
+	<cost>150</cost>
+	<title>Loan Shark</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>156 Health</power>
+	<power>Moves at 150% speed.</power>
+	<power>2.5x Combat Damage, 0.4x Repair speed.</power>
+	<power>0.3x ranged damage</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="loanshark_elite">
+	<desc>Tier 7 Cog. A shark in an elite black suit. Just in case you couldn't tell he was a mafia reference.</desc>
+	<cost>200</cost>
+	<title>Loan Shark</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>234 Health</power>
+	<power>Moves at 170% speed.</power>
+	<power>2.7x Combat Damage, 0.3x Repair speed.</power>
+	<power>0.1x ranged damage</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="loanshark_waiter">
+	<desc>Tier 7 Cog. Is it more surprising that he's a master sushi chef, or he hunts the fish without a fishing rod? I have no idea.</desc>
+	<cost>200</cost>
+	<title>Loan Shark</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>250 Health</power>
+	<power>Moves at 200% speed.</power>
+	<power>2.9x Combat Damage, 0.4x Repair speed.</power>
+	<power>0.2x ranged damage</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="loanshark_hologram">
+	<desc>Tier 7 Cog. So.. if you're bitten by a virtual shark. Does it actually hurt? Well yes, but its long range bites aren't real.</desc>
+	<cost>200</cost>
+	<title>Loan Shark</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>156 Health</power>
+	<power>Takes 50% damage in combat, but moves at normal speed.</power>
+	<power>2.0x Combat Damage, 0.1x Repair speed.</power>
+	<power>0.0x ranged damage</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="bruce">
+	<desc>HEEEEEEERRRRRRRRRRRREEEEEEE'SSSSSSSS BRUCIE!!! His attempt at painting himself blue is very effective at camouflage assuming you fight in the ocean. I'm sure that'll happen often.</desc>
+	<cost>200</cost>
+	<title>Bruce</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>300 Health</power>
+	<power>Takes 90% damage in combat, and moves at 250% speed.</power>
+	<power>3.5x Combat Damage, 0.5x Repair speed.</power>
+	<power>0.5x ranged damage</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   Money Bags											 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<crewBlueprint name="moneybags">
+	<desc>Tier 6 Cog. The richest cog you may ever see. He has so much money that other beings are stunned and have to gawk at his wealth</desc>
+	<cost>100</cost>
+	<title>Money Bags</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>132 Health</power>
+	<power>Moves at 60% speed.</power>
+	<power>Has so much money everyone around him moves at 0.6x speed.</power>
+	<power>Cannot sabotage as that is beneath him.</power>
+	<power>1.0x Combat Damage, 0.5x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="moneybags_elite">
+	<desc>Tier 6 Cog. You thought the standard Money Bags was wealthy? You havent seen wealth yet til now.</desc>
+	<cost>200</cost>
+	<title>Money Bags</title>
+	<short>Elite Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>198 Health</power>
+	<power>Moves at 60% speed.</power>
+	<power>Has so much money everyone around him moves at 0.6x speed.</power>
+	<power>Cannot sabotage as that is beneath him</power>
+	<power>1.2x Combat Damage, 0.4x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="moneybags_hologram">
+	<desc>Tier 6 Cog. While this Money Bag may be a hologram, he has tons of money in virtual currencies like Scraptick, Flakus, and other legit companies that won't go under within a few days.</desc>
+	<cost>200</cost>
+	<title>Money Bags</title>
+	<short>Hologram Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>132 Health</power>
+	<power>Takes 50% damage in combat, but moves at 60% speed.</power>
+	<power>Can phase through doors.</power>
+	<power>Instead of slowing other down, he virtually damages enemies in the same room.</power>
+	<power>Cannot sabotage as that is beneath him.</power>
+	<power>0.5x Combat Damage, 0.2x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="moneybags_waiter">
+	<desc>Tier 6 Cog. How does someone as rich as a Money Bag get stuck as a waiter? Well it all started with some crypto investments...</desc>
+	<cost>200</cost>
+	<title>Money Bags</title>
+	<short>Waiter Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>250 Health</power>
+	<power>Moves at 70% speed.</power>
+	<power>Out of money so does not affect crew.</power>
+	<power>Cannot sabotage as that is beneath him still.</power>
+	<power>1.4x Combat Damage, 0.45x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	<power> Is so upset at losing his money, he sucks the literal air away.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="monee">
+	<desc>Monee's name is actually pretty misleading. It should be something to do with Gems since he's made out of that and gold bars rather than actual bills, but... oh well, he's way too rich to care.</desc>
+	<cost>300</cost>
+	<title>Money Bags</title>
+	<short>Master Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>300 Health</power>
+	<power>Takes 50% damage in combat.</power>
+	<power>Has so much money everyone around him moves at 0.6x speed.</power>
+	<power>Heavily passively damages enemy crew in the same room. Don't ask him how.</power>
+	<power>Cannot sabotage as that is beneath him.</power>
+	<power>1.6x Combat Damage, 1.0x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   Number Cruncher											 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<crewBlueprint name="numbercruncher">
+	<desc>Tier 5 Cog. Tax Day. Their favorite day. Why? Cause people will pay double now for her service to avoid any tax collectors from coming after them.</desc>
+	<cost>100</cost>
+	<title>Cruncher</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>110 Health</power>
+	<power>Takes 80% damage in combat, but moves at 80% speed.</power>
+	<power>2.0x Combat Damage, 0.9x Repair speed.</power>
+	<power>0.0x range damage</power>	
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="numbercruncher_elite">
+	<desc>Tier 5 Cog. Oh boy. Oh geez. That one stung a little?</desc>
+	<cost>200</cost>
+	<title>Cruncher</title>
+	<short>Elite Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>165 Health</power>
+	<power>Takes 75% damage in combat, but moves at 90% speed.</power>
+	<power>3.6x Combat Damage, 0.6x Repair speed.</power>
+	<power>0.0x range damage</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="numbercruncher_hologram">
+	<desc>Tier 5 Cog. She can see your misfiled forums a mile ago. Or a kilometer depending on the region.</desc>
+	<cost>200</cost>
+	<title>Cruncher</title>
+	<short>Hologram Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>110 Health</power>
+	<power>Takes 50% damage in combat, but moves at 55% speed.</power>
+	<power>Can phase through doors.</power>
+	<power>2.0x Combat Damage, 0.7x Repair speed.</power>
+	<power>0.0x range damage</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="numbercruncher_waiter">
+	<desc>Tier 5 Cog. These crunchers are VERY particular with costs of the meal and the tip that goes with it. She's not above sabotaging a meal if you don't look like a tipper...</desc>
+	<cost>200</cost>
+	<title>Cruncher</title>
+	<short>Waiter Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>200 Health</power>
+	<power>Takes 70% damage in combat, but moves at normal speed.</power>
+	<power>2.1x Combat Damage, 1.9x Repair speed.</power>
+	<power>0.2x range damage</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="lovelace">
+	<desc>She loves to add'em up. Loves to count it down. Really though, she just wants to see numbers transform. Being a robot, she's even happier for her namesake.</desc>
+	<cost>300</cost>
+	<title>Ada</title>
+	<short>Master Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>250 Health</power>
+	<power>Takes 50% damage in combat, but moves at normal speed.</power>
+	<power>2.5x Combat Damage, 2.5x Repair speed.</power>
+	<power>0.5x range damage</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   Bean Counter										 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<crewBlueprint name="bean_counter">
+	<desc>Tier 4 Cog. If there is one thing Bean Counters love, it's calculating. Big surprise right?</desc>
+	<cost>90</cost>
+	<title>Bean Counter</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>90 Health</power>
+	<power>1.3x Combat Damage, 0.5x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="bean_counter_elite">
+	<desc>Tier 4 Cog. These Elite Bean Counters are known for putting their thumb on the scale to help their numbers.</desc>
+	<cost>150</cost>
+	<title>Bean Counter</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>135 Health</power>
+	<power>1.5x Combat Damage, 0.4x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="bean_counter_waiter">
+	<desc>Tier 4 Cog. Counting your Calories for you. Even if you didn't ask for a diet plan.</desc>
+	<cost>200</cost>
+	<title>Bean Counter</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>150 Health</power>
+	<power>1.4x Combat Damage, 0.8x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="bean_counter_hologram">
+	<desc>Tier 4 Cog. This one likes to count virtual stocks instead. Random junk like Flakus and Scrapius. Very legit stuff.</desc>
+	<cost>150</cost>
+	<title>Bean Counter</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>90 Health</power>
+	<power>Can phase through doors.</power>
+	<power>1.4x Combat Damage, 0.8x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="ad_em">
+	<desc>Ad'em up, and count em down. Ad Em just loves his role. Maybe too much. These guys are a bit too precise don't you think?</desc>
+	<cost>300</cost>
+	<title>Bean Counter</title>
+	<short>Master Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>200 Health</power>
+	<power>1.9x Combat Damage, 1.5x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												    Tightwad											 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<crewBlueprint name="tightwad">
+	<desc>Tier 3 Cog. Try not to mention budgets around these guys, they get a little excited to cut out funding.</desc>
+	<cost>100</cost>
+	<title>Tightwad</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>72 Health</power>
+	<power>Takes 80% damage in combat, but moves at 80% speed.</power>
+	<power>1.5x Combat Damage, 0.8x Repair speed.</power>
+	<power>1.0x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="tightwad_elite">
+	<desc>Tier 3 Cog. Uptight Tightwads. Who would have seen that coming?</desc>
+	<cost>200</cost>
+	<title>Tightwad</title>
+	<short>Elite Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>108 Health</power>
+	<power>Takes 80% damage in combat, but moves at 90% speed.</power>
+	<power>2.5x Combat Damage, 1.0x Repair speed.</power>
+	<power>2.0x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="tightwad_hologram">
+	<desc>Tier 3 Cog. Even though they are Tightwads, seems they have no issue squeezing past doors.</desc>
+	<cost>200</cost>
+	<title>Tightwad</title>
+	<short>Hologram Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>72 Health</power>
+	<power>Takes 50% damage in combat, but moves at 70% speed.</power>
+	<power>Can phase through doors.</power>
+	<power>1.0x Combat Damage, 0.5x Repair speed.</power>
+	<power>1.0x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="tightwad_waiter">
+	<desc>Tier 3 Cog. Tighwads Waiters are among the most hated waiters according to guests. They use that same budget cut energy on their food portions.</desc>
+	<cost>200</cost>
+	<title>Tightwad</title>
+	<short>Waiter Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>150 Health</power>
+	<power>Takes 70% damage in combat, and moves at 100% speed.</power>
+	<power>1.5x Combat Damage, 1.5x Repair speed.</power>
+	<power>1.5x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   Penny Pincher										 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+
+<crewBlueprint name="penny_p">
+	<desc>Tier 2 Cog. Penny Pinchers may be close to the lowest Cog on the ranking for his group, but he sure can fight surprising well in close combat. Too bad they can barely fight from a distance.. or fix anything.</desc>
+	<cost>50</cost>
+	<title>Pincher</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>56 Health</power>
+	<power>Takes 70% damage in combat, but moves at 60% speed.</power>
+	<power>2.0x Combat Damage, 0.4x Repair speed.</power>
+	<power>0.9x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="penny_p_elite">
+	<desc>Tier 2 Cog. Elite Penny Pinchers are oddly not that much stronger than regular Pinchers, however they do have slightly better long range damage. And more ego.</desc>
+	<cost>75</cost>
+	<title>Pincher</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>84 Health</power>
+	<power>Takes 70% damage in combat, but moves at 60% speed.</power>
+	<power>2.1x Combat Damage, 0.4x Repair speed.</power>
+	<power>1.0x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="penny_p_waiter">
+	<desc>Tier 2 Cog. The Waiter Penny Pinchers do exist, but are quite rare. Mostly because they're too small for Waiter work in most cases. Their big hands are probably what save them.</desc>
+	<cost>100</cost>
+	<title>Pincher</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>112 Health</power>
+	<power>Takes 65% damage in combat, but moves at 60% speed.</power>
+	<power>2.3x Combat Damage, 0.7x Repair speed.</power>
+	<power>1.1x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="penny_p_hologram">
+	<desc>Tier 2 Cog. Hologram Penny Pinchers are a thing if you couldn't tell. They actually take a fair loss for damaging others but their sabotage is great at least.</desc>
+	<cost>50</cost>
+	<title>Pincher</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>56 Health</power>
+	<power>Takes 50% damage in combat, but moves at 60% speed.</power>
+	<power>1.5x Combat Damage, 0.4x Repair speed.</power>
+	<power>2.0x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="cash_crab">
+	<desc>Cash may have the most fitting name in history. So much so that he will do anything to get extra money. Be careful around him, you may notice he managed to pick pocket you. Don't ask him about how he got a gold suit.</desc>
+	<cost>150</cost>
+	<title>Pincher</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>200 Health</power>
+	<power>Takes 60% damage in combat, but moves at 80% speed.</power>
+	<power>2.5x Combat Damage, 0.8x Repair speed.</power>
+	<power>2.5x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   Short Change											 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+
+
+<!-- 
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+												   SellBot CREW
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+-->
+
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   Mr Hollywood										 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<crewBlueprint name="mrhollywood">
+	<desc>Tier 8 Cog. This king of Sellbot is all smiles. So much so that it is said he can kill with it. Yikes.</desc>
+	<cost>300</cost>
+	<title>Holly</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>200 Health</power>
+	<power>Takes 60% damage in combat and moves at 120% speed.</power>
+	<power>2.3x Combat Damage, 1.0x Repair speed.</power>
+	<power>2.0x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="mrhollywood_elite">
+	<desc>Tier 8 Cog. The average Hollywood actor/actress.</desc>
+	<cost>300</cost>
+	<title>Holly</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>300 Health</power>
+	<power>Takes 60% damage in combat and moves at 130% speed.</power>
+	<power>2.6x Combat Damage, 1.3x Repair speed.</power>
+	<power>2.2x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="mrhollywood_waiter">
+	<desc>Tier 8 Cog. An actor made humble, lets hope the waiter gig wasn't over losing work.</desc>
+	<cost>300</cost>
+	<title>Holly</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>350 Health</power>
+	<power>Takes 60% damage in combat and moves at 150% speed.</power>
+	<power>2.7x Combat Damage, 1.2x Repair speed.</power>
+	<power>2.5x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="mrhollywood_hologram">
+	<desc>Tier 8 Cog. The smile is real and unreal. It causes all sorts of gross imagery in your head</desc>
+	<cost>300</cost>
+	<title>Holly</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>200 Health</power>
+	<power>Takes 50% damage in combat but moves at 90% speed.</power>
+	<power>2.4x Combat Damage, 0.8x Repair speed.</power>
+	<power>1.9x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="holiday">
+	<desc>Tier 8 Cog. His favorite song is by Greenday. Wonder if you can guess which one.</desc>
+	<cost>300</cost>
+	<title>Holiday</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>400 Health</power>
+	<power>Takes 50% damage in combat and moves at 200% speed.</power>
+	<power>4.0x Combat Damage, 1.4x Repair speed.</power>
+	<power>3.0x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   The Mingler										 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<crewBlueprint name="mingler">
+	<desc>Tier 7 Cog. The Minglers can be quite the handful. Legend goes they can literally talk your ears off. Some nickname them like Sirens, but they are unrelated to the weird rainbow ship you may find now and again.</desc>
+	<cost>150</cost>
+	<title>The Mingler</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>156 Health</power>
+	<power>Takes 70% damage in combat, but moves at 60% speed.</power>
+	<power>2.0x Combat Damage, 0.6x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Stun all crew in the room and gain serious ranged damage for 10 seconds.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="mingler_elite">
+	<desc>Tier 7 Cog. The Elite Minglers can be a handful to deal with, mostly because they can talk complete and utter BS about themselves and others they want to impress, no matter the cost. Make sure to keep a pair of earplugs available in case of emergency.</desc>
+	<cost>200</cost>
+	<title>The Mingler</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>234 Health</power>
+	<power>Takes 65% damage in combat, but moves at 60% speed.</power>
+	<power>2.2x Combat Damage, 0.7x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Stun all crew in the room and gain serious ranged damage for 15 seconds.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="mingler_waiter">
+	<desc>Tier 7 Cog. Waiter Minglers are much more careful with their voice. After all, being a good waiter means not to disturb your guests you serve. Others are fair game though.</desc>
+	<cost>200</cost>
+	<title>The Mingler</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>250 Health</power>
+	<power>Takes 65% damage in combat, but moves at 60% speed.</power>
+	<power>2.0x Combat Damage, 0.7x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Stun enemy crew in the room for 10 seconds.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="mingler_hologram">
+	<desc>Tier 7 Cog. These hologram Minglers are a handful. It's really hard to like them when their voices penetrate the walls and pierce your ears.</desc>
+	<cost>200</cost>
+	<title>The Mingler</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>156 Health</power>
+	<power>Takes 50% damage in combat, but moves at 60% speed.</power>
+	<power>2.0x Combat Damage, 0.7x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Stun all enemy crew in the room and gain serious ranged damage for 15 seconds.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="lily">
+	<desc>Lily is a bit odd of a Mingler. She actually doesn't really enjoy talking all day. She doesn't like to talk about it. Hehe.. puns.</desc>
+	<cost>200</cost>
+	<title>Lily</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>300 Health</power>
+	<power>Takes 50% damage in combat, but moves at 80% speed.</power>
+	<power>2.9x Combat Damage, 0.9x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Stun all enemy crew in the room and gain serious ranged damage for 10 seconds with 15 damage on use.</power>
+	</powerList>
+</crewBlueprint>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   Two Face										 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<crewBlueprint name="twoface">
+	<desc>Tier 6 Cog. These two make look weird and pretty bad at battle (and you are right), they move twice as fast in melee and can repair pretty well for a cog. Ignore how that doesn't make sense.</desc>
+	<cost>100</cost>
+	<title>Two face</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>132 Health</power>
+	<power>Takes 80% damage in combat, but moves at 80% speed.</power>
+	<power>0.6x Combat Damage, 0.6x Repair speed.</power>
+	<power>Fights and repairs at double speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	<power>0.7x sabotaging speed.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="twoface_elite">
+	<desc>Tier 6 Cog. "What can be worse than an elite Cog?" "Oh I know! A two headed elite Cog!"</desc>
+	<cost>200</cost>
+	<title>Two face</title>
+	<short>Elite Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>198 Health</power>
+	<power>Takes 70% damage in combat, but moves at 80% speed.</power>
+	<power>1.0x Combat Damage, 0.7x Repair speed.</power>
+	<power>Fights and repairs at double speed.</power>
+	<power>0.9x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="twoface_hologram">
+	<desc>Tier 6 Cog. There's a pun with this Cog somewhere, but I can't be bothered to explain it...</desc>
+	<cost>200</cost>
+	<title>Two face</title>
+	<short>Hologram Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>132 Health</power>
+	<power>Takes 50% damage in combat, but moves at 60% speed.</power>
+	<power>Can phase through doors.</power>
+	<power>0.6x Combat Damage, 0.3x Repair speed.</power>
+	<power>Fights and repairs at double speed.</power>
+	<power>0.7x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="twoface_waiter">
+	<desc>Tier 6 Cog. One head takes the order, the other head loudly shouts your order to the cook across the dining hall with some comments about your... interesting dish choice.</desc>
+	<cost>200</cost>
+	<title>Two face</title>
+	<short>Waiter Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>250 Health</power>
+	<power>Takes 70% damage in combat, and moves at normal speed.</power>
+	<power>1.2x Combat Damage, 0.9x Repair speed.</power>
+	<power>Fights and repairs at double speed.</power>
+	<power>1.3x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="harvey">
+	<desc> Not be confused with some obscure villain from the 20th and 21st century, he is a nice guy. He just wants to bring back a long forgotten disco era. Is that so condemnable?</desc>
+	<cost>300</cost>
+	<title>Harvey</title>
+	<short>Master Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>300 Health</power>
+	<power>Takes 70% damage in combat, and moves at 110% speed.</power>
+	<power>1.4x Combat Damage, 1.2x Repair speed.</power>
+	<power>Fights and repairs at double speed.</power>
+	<power>1.0x sabotaging speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   Mover & Shaker											 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<crewBlueprint name="mover_and_shaker">
+	<desc>Tier 5 Cog. The ground crumbles around these guys. They love to march in place, throwing every enemy off balance.</desc>
+	<cost>100</cost>
+	<title>Mover and Shaker</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>110 Health</power>
+	<power>Takes 80% damage in combat, and moves at 200% speed.</power>
+	<power>Damages all crew at the same time, cannot figure out how to sabotage though.</power>
+	<power>Repairs at 70%</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="mover_and_shaker_elite">
+	<desc>Tier 5 Cog. These guys really know how to stomp their feet. Though its not with energy. Well.. it is but its not like positive... never mind, they just hit harder got it?</desc>
+	<cost>200</cost>
+	<title>Mover and Shaker</title>
+	<short>Elite Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>165 Health</power>
+	<power>Takes 80% damage in combat, and moves at 220% speed.</power>
+	<power>Damages all crew at the same time better, but can just barely sabotage though.</power>
+	<power>Repairs at 50%</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="mover_and_shaker_hologram">
+	<desc>Tier 5 Cog. Its a bit weird for a hologram to somehow shake the ground beneath it.. but these guys manage.</desc>
+	<cost>200</cost>
+	<title>Mover and Shaker</title>
+	<short>Hologram Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>110 Health</power>
+	<power>Takes 50% damage in combat, and moves at normal speed.</power>
+	<power>Can phase through doors.</power>
+	<power>Damages all crew at the same time, can sabotage well weirdly enough</power>
+	<power>Repairs at 20%</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="mover_and_shaker_waiter">
+	<desc>Tier 5 Cog. Surprisingly stomping around doesn't make for effective waiter but just try and stop them.</desc>
+	<cost>200</cost>
+	<title>Mover and Shaker</title>
+	<short>Waiter Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>200 Health</power>
+	<power>Takes 60% damage in combat, and moves at 300% speed.</power>
+	<power>Damages all crew at the same time pretty well, sabotages pretty average.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="bakker">
+	<desc> Bakker gets annoyed a lot by those around him. "It's not a typo you guys. I'm just Dutch and I love to bake. Leave me in peace!" His baking skills are 'Meh' at best.</desc>
+	<cost>300</cost>
+	<title>Bakker</title>
+	<short>Master Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>250 Health</power>
+	<power>Takes 50% damage in combat and moves at 350% speed.</power>
+	<power>Damages all crew at the same time very well, sabotages pretty average.</power>
+	<power>1.4x sabotaging speed.</power>
+	<power>Repairs at 120%</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   Glad Hander									 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<crewBlueprint name="glad_hander">
+	<desc>Tier 4 Cog. Put 'er there friend! Just be careful not to grip too hard as these guys have an iron grip.</desc>
+	<cost>90</cost>
+	<title>Glad Hander</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>90 Health</power>
+	<power>Takes 90% damage in combat, but moves at 50% speed.</power>
+	<power>2.2x Combat Damage, 0.5x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Due to their big hands, they are a bit slower at hitting a distant enemy.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="glad_hander_elite">
+	<desc>Tier 4 Cog. Elite Glad Handers are a bit more open about the reason for their happiness and eagerness to help. Usually its for money or power.</desc>
+	<cost>150</cost>
+	<title>Glad Hander</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>135 Health</power>
+	<power>Takes 85% damage in combat, but moves at 70% speed.</power>
+	<power>2.5x Combat Damage, 0.7x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Due to their big hands, they are a bit slower at hitting a distant enemy.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="glad_hander_waiter">
+	<desc>Tier 4 Cog. Turns out those big 'ol hands are great for handling trays. Unfortunately, they are also pretty good at picking pockets.</desc>
+	<cost>200</cost>
+	<title>Glad Hander</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>150 Health</power>
+	<power>Takes 80% damage in combat, but moves at 90% speed.</power>
+	<power>2.6x Combat Damage, 1.1x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Due to their big hands, they are a bit slower at hitting a distant enemy.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="glad_hander_hologram">
+	<desc>Tier 4 Cog. Trust me, one of these days you'll wake up to a giant hand piercing the wall fishing through your private possessions looking for something nice.</desc>
+	<cost>150</cost>
+	<title>Glad Hander</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>90 Health</power>
+	<power>Can phase through doors.</power>
+	<power>Takes 50% damage in combat, but moves at 50% speed.</power>
+	<power>2.2x Combat Damage, 0.5x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Due to their big hands, they are a bit slower at hitting a distant enemy.</power>
+	</powerList>
+</crewBlueprint>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   Name Dropper											 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<crewBlueprint name="name_dropper">
+	<desc>Tier 3 Cog. You don't mind if she drops in right? Not that she was asking for permission anyways... Oh also she throws stuff cause she can.</desc>
+	<cost>100</cost>
+	<title>Name Dropper</title>
+	<short>Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>72 Health</power>
+	<power>Takes 80% damage in combat, but moves at 80% speed.</power>
+	<power>Can't melee but knows how to throw, 0.5x Repair speed.</power>
+	<power>1.0x sabotaging speed.</power>
+	<power>Throws a potted plant. It's really effective!</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="name_dropper_elite">
+	<desc>Tier 3 Cog. She is always claiming to know the most important people. Too bad when she tries to prove her point by calling, they always send her to voice mail.</desc>
+	<cost>200</cost>
+	<title>Name Dropper</title>
+	<short>Elite Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>108 Health</power>
+	<power>Takes 75% damage in combat, but moves at 85% speed.</power>
+	<power>Can't melee but sure knows how to throw, 1.0x Repair speed.</power>
+	<power>1.0x sabotaging speed.</power>
+	<power>Throws an anvil. It's really really effective!</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="name_dropper_hologram">
+	<desc>Tier 3 Cog. So who does a hologram Name Dropper even claim to know? Apparently, it's every famous techno DJ. Much like the Elite Name Droppers, though, they always send her to voice mail.</desc>
+	<cost>200</cost>
+	<title>Name Dropper</title>
+	<short>Hologram Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>72 Health</power>
+	<power>Takes 50% damage in combat, and moves at 50% speed.</power>
+	<power>Can phase through doors.</power>
+	<power>Can't melee but knows how to throw, 0.5x Repair speed.</power>
+	<power>0.5x sabotaging speed.</power>
+	<power>Throws a holographic potted plant. It's strangely effective!</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="name_dropper_waiter">
+	<desc>Tier 3 Cog. For once she isn't claiming to know super elite famous people. Just CEOs and managers. Kinda ironic given her line of work, don't you think?</desc>
+	<cost>200</cost>
+	<title>Name Dropper</title>
+	<short>Waiter Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>150 Health</power>
+	<power>Takes 75% damage in combat, but moves at 90% speed.</power>
+	<power>Can't melee but sure knows how to throw, 1.0x Repair speed.</power>
+	<power>1.0x sabotaging speed.</power>
+	<power>Throws a freaking piano. The hell is wrong with her?</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   Telemarketer										 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   Cold Caller											 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+
+<!-- 
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+												   Secret Crew
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+-->
+
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+												   Dr. Spin (God mode)									 
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+
+
+<crewBlueprint name="dr_spin_eldritch">
+	<desc>The Real Dr. Spin. Turns out he has a bitter hatred for any God-like figures so he became one to defeat them. Seems a little ironic don't you think?</desc>
+	<cost>3000</cost>
+	<title>Dr Spin</title>
+	<short>Master Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>Now that's a pissed off Cog.</power>
+	<power>Insanely strong but horrible at repairs.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="controller">
+	<desc>You should have known better that curiosity gets you nothing but trouble.</desc>
+	<cost>30000</cost>
+	<title>Controller</title>
+	<short>Controller</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>I've come to kill you, Player. Ready?</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="queen">
+	<desc>Care to do the Fandango, Stranger?</desc>
+	<cost>30000</cost>
+	<title>Queen</title>
+	<short>Queen</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>Portuguese Power</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="herobrine">
+	<desc>You don't know what you did...</desc>
+	<cost>3000</cost>
+	<title>Herobrine</title>
+	<short>Herobrine</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>You don't know what you did</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="moreso">
+	<desc>Want me to draw out your defeat?</desc>
+	<cost>3000</cost>
+	<title>Moreso</title>
+	<short>Moreso</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>Want me to draw out your defeat?</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="leach_eldritch">
+	<desc>Where happiness comes to die!</desc>
+	<cost>3000</cost>
+	<title>Leach</title>
+	<short>Leach</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>Where happiness comes to die!</power>
+	<power>It doesn't care about your ship. It just wants you dead!</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="leach_eldritch_clone">
+	<desc>Where happiness comes to die!</desc>
+	<cost>3000</cost>
+	<title>Leach</title>
+	<short>Leach</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>Where happiness comes to die!</power>
+	<power>It doesn't care about your ship. It just wants you dead!</power>
+	<power>What's even real anymore?!</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="leach_eldritch_clone_two">
+	<desc>Where happiness comes to die!</desc>
+	<cost>3000</cost>
+	<title>Leach</title>
+	<short>Leach</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>Where happiness comes to die!</power>
+	<power>It doesn't care about your ship. It just wants you dead!</power>
+	<power>Is this reality?!</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="leach_eldritch_clone_three">
+	<desc>Where happiness comes to die!</desc>
+	<cost>3000</cost>
+	<title>Leach</title>
+	<short>Leach</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>Where happiness comes to die!</power>
+	<power>It doesn't care about your ship. It just wants you dead!</power>
+	<power>You can't stop this!</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="leach_eldritch_clone_four">
+	<desc>Where happiness comes to die!</desc>
+	<cost>3000</cost>
+	<title>Leach</title>
+	<short>Leach</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>Where happiness comes to die!</power>
+	<power>It just wants you dead!</power>
+	<power>Go back to sleep!</power>
+	</powerList>
+</crewBlueprint>
+
+
+<!--
+Spare description If i ever decide to change this cog back
+	<power>500 Health</power>
+	<power>Takes 30% damage in combat.</power>
+	<power>Moves at 3x Speed.</power>
+	<power>Does not heal fellow crew.</power>
+	<power>10.0x Combat Damage, 0.1x Repair speed.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	<power>1.5x sabotaging speed.</power>
+-->
+
+
+
+
+
+
+<weaponBlueprint name="HEALING_SHOTGUN">
+	<type>BURST</type>
+	<flavorType>Physical Projectile Blast</flavorType>
+	<drone_targetable>1</drone_targetable>
+	<title>Heal Flak Gun</title>
+	<tip>tip_flak</tip>
+	<short>Heal F.</short>
+	<desc>This special variant of flak fires healing shots along with its normal damaging shots.</desc>
+	<tooltip>Fires a blast of debris across a random area doing up to 4 damage and healing 60 health.</tooltip>
+	<radius>45</radius>
+	<damage>1</damage><!--for every one damage, heal value is reduced by 15-->
+	<persDamage>-2</persDamage><!--heals for 15 because 1 damage is equal to 15 hp-->
+	<spin>720</spin>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>1</breachChance>
+	<cooldown>11</cooldown>
+	<power>2</power>
+	<cost>100</cost>
+	<bp>10</bp>
+	<speed>15</speed>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="2" fake="false">debris_large_heal</projectile>
+		<projectile count="2" fake="false">debris_med_heal</projectile>
+		<projectile count="6" fake="true">debris_small_heal</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>healing_shotgun</weaponArt> 
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="HEAVY_HEALING_SHOTGUN">
+	<type>BURST</type>
+	<flavorType>Physical Projectile Blast</flavorType>
+	<drone_targetable>1</drone_targetable>
+	<title>Heavy Flak</title>
+	<short>Heavy F.</short>
+	<tip>tip_flak</tip>
+	<desc>This modified Flak cannon fires bursts of super dense metal that move even slower but inflict even more damage to a ship's hull integrity.</desc>
+	<tooltip>Dr Spin's Flak</tooltip>
+	<radius>70</radius>
+	<damage>2</damage>
+	<persDamage>-4</persDamage><!--heals for 30 because 1 damage is equal to 15 hp-->
+	<hullBust>1</hullBust><!--remove this if you dont want double hull damage-->
+	<spin>1080</spin>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>5</breachChance>
+	<cooldown>20</cooldown>
+	<power>4</power>
+	<cost>150</cost>
+	<bp>10</bp>
+	<speed>10</speed>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="4" fake="false">debris_large</projectile>
+		<projectile count="3" fake="true">debris_med</projectile>
+		<projectile count="12" fake="true">debris_small</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>heavy_healing_shotgun</weaponArt> 
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+
+<!--
+EXAMPLES
+ 
+weapon A
+	<damage>0</damage>
+	<persDamage>-10</persDamage>  
+	HEALS FOR 150
+
+weapon B
+	<damage>2</damage>
+	<persDamage>-4</persDamage>
+	HEALS FOR 30
+
+weapon C
+	<damage>2</damage>
+	<persDamage>-1</persDamage>
+	DAMAGES FOR 15
+-->
+
+
+
+
+
+<crewBlueprint name="goon">
+	<title>Goon</title>
+	<short>Goon</short>
+	<desc>YOU SHOULD NEVER SEE THIS.</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<powerList>
+		<power>DRONE</power>
+	</powerList>
+</crewBlueprint>
+<droneBlueprint name="GOON_DEFEND">
+	<type>BATTLE</type>
+	<locked>1</locked>
+	<tip>tip_toggle_crew</tip>
+	<title>Goon [Anti-Pers]</title>
+	<short>Goon [A]</short>
+	<desc>[CURRENT MODE: Anti-Personnel] Powerful anti-crew goon that can be switched between defensive and boarding modes.
+    
+-50 HP, x0.7 movement speed
+-x2 combat damage, heals friendly crew.
+-Reveal adjacent rooms</desc>
+	<power>2</power>
+	<cost>50</cost>
+	<bp>3</bp>
+	<rarity>0</rarity>
+	<iconImage>battle</iconImage>
+</droneBlueprint>
+<droneBlueprint name="GOON_BOARDER">
+	<type>BOARDER</type>
+	<tip>tip_toggle_crew</tip>
+	<locked>1</locked>
+	<title>Goon [Boarding]</title>
+	<short>Goon [B]</short>
+	<desc>[CURRENT MODE: Boarding] Powerful anti-crew goon that can be switched between defensive and boarding modes.
+    
+-50 HP, x0.7 movement speed
+-x2 combat damage, heals friendly crew.
+-Reveal adjacent rooms</desc>
+	<power>2</power>
+	<cost>50</cost>
+	<rarity>0</rarity>
+	<iconImage>boarder</iconImage>
+</droneBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_DOCSHIP" layout="spindoctor_ship" img="spindoctor_ship">
+	<class>Spin Doctor Cruiser</class>
+	<name>Medica Superia</name>
+	<desc>The Spin Doctors are obsessed with constantly healing fellow crew and themselves. As such this cruiser has one of the biggest medbays EVER along with a slew of other healing options.</desc>
+	<systemList>
+		<battery max="2" power="1" room="5" start="false" img="room_battery_7" />
+		<cloaking power="1" room="7" start="false" img="room_cloaking_8" />
+		<clonebay power="1" room="6" start="false">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="2" start="true" img="room_doors">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="1" room="11" start="false" img="room_drones_5" />
+		<engines power="2" room="0" start="true" img="room_engines_9">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="8" start="false" img="room_hacking_6" />
+		<medbay power="2" room="6" start="true" img="room_medbay">
+			<slot>
+				<number>1</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="16" start="false" img="room_mind_5" />
+		<oxygen power="1" room="14" start="true" img="room_oxygen_2" />
+		<pilot power="1" room="15" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="3" start="false" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="1" start="true" img="room_shields_7">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="13" start="false" />
+		<weapons max="8" power="1" room="12" start="true" img="room_weapons_3">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="8" count="15">
+		<weapon name="BOMB_HEAL" />
+		<weapon name="BOMB_HEAL_SYSTEM" />
+		<weapon name="SHOTGUN_PLAYER" />
+	</weaponList>
+	<droneList drones="2" count="0" />
+	<health amount="30" />
+	<maxPower amount="5" />
+	<crewCount amount="1" class="spindoctor" />
+	<crewCount amount="1" class="spindoctor" />
+	<crewCount amount="1" class="medic" />
+	<aug name="CRATE_MISSILES" />
+	<aug name="MEDBAY_DEFENSE" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_DOCSHIP_2" layout="spindoctor_ship_2" img="spindoctor_ship_2">
+	<class>Spin Doctor Cruiser</class>
+	<name>Medico Girar</name>
+	<desc>This ship was meant to be a massive healing cruiser. However the budget was blown trying to find an Ancient Healing Device. As such, there is no medical facility yet.</desc>
+	<systemList>
+		<battery max="2" power="1" room="20" start="false" img="room_battery_3" />
+		<cloaking power="1" room="11" start="false" img="room_cloaking_10" />
+		<clonebay power="1" room="4" start="false">
+			<slot>
+				<number>2</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="2" start="true" img="room_doors">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="4" room="13" start="true" img="room_drones_13" />
+		<engines power="2" room="15" start="true" img="room_engines_2">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="23" start="false" img="room_hacking_2" />
+		<medbay power="1" room="4" start="false" img="room_medbay_4">
+			<slot>
+				<number>0</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="22" start="false" img="room_mind_5" />
+		<oxygen power="1" room="19" start="true" img="room_oxygen_2" />
+		<pilot power="1" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="3" start="false" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="9" start="true" img="room_shields_3">
+			<slot>
+				<direction>left</direction>
+				<number>2</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="21" start="false" />
+		<weapons max="8" power="2" room="8" start="true" img="room_weapons_10">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>3</droneSlots>
+	<weaponList missiles="0" count="3">
+		<weapon name="SHOTGUN_MINI" />
+		<weapon name="BEAM_1" />
+	</weaponList>
+	<droneList drones="12" count="3">
+		<drone name="MENDER" />
+	</droneList>
+	<health amount="30" />
+	<maxPower amount="8" />
+	<crewCount amount="1" class="spindoctor_elite" />
+	<crewCount amount="1" class="spindoctor_waiter" />
+	<aug name="EX_DRONE_SPEED" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_DOCSHIP_3" layout="spindoctor_ship_3" img="spindoctor_ship_3">
+	<class>Spin Doctor Cruiser</class>
+	<name>House Call</name>
+	<desc>Spin Doctors can actually be more harmful than helpful. This specialized boarding ship proves such claims as it has plenty of ways to murder people rather than heal.</desc>
+	<systemList>
+		<battery max="2" power="1" room="4" start="false" img="room_battery" />
+		<cloaking power="1" room="17" start="false" img="room_cloaking" />
+		<clonebay power="1" room="2" start="false">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="22" start="true" img="room_doors">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="4" room="14" start="false" img="room_drones_13" />
+		<engines power="2" room="5" start="true" img="room_engines_5">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="13" start="false" img="room_hacking_9" />
+		<medbay power="1" room="2" start="true" img="room_medbay_9">
+			<slot>
+				<number>-2</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="3" start="false" img="room_mind_1" />
+		<oxygen power="1" room="18" start="false" img="room_oxygen_4" />
+		<pilot power="1" room="0" start="true" img="room_pilot_4">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="21" start="false" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="6" start="true" img="room_shields_3">
+			<slot>
+				<direction>left</direction>
+				<number>2</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="1" start="true" />
+		<weapons max="8" power="1" room="7" start="true" img="room_weapons_10">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="13" count="4">
+		<weapon name="LASER_BIO" />
+		<weapon name="BOMB_LOCK" />
+	</weaponList>
+	<droneList drones="5" count="2" />
+	<health amount="30" />
+	<maxPower amount="6" />
+	<crewCount amount="1" class="spindoctor_hologram" />
+	<crewCount amount="1" class="spindoctor_hologram" />
+	<crewCount amount="1" class="spindoctor" />
+	<aug name="NANOBOT_DEFENSE_SYSTEM" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_SPINDOCTOR_ELITE" layout="spindoctor_ship_elite" img="spindoctor_ship_elite">
+	<class>Dr Spin's Cruiser</class>
+	<name>The Oppressor Mk III</name>
+	<desc>Dr Spin has entrusted you with his personal ship after you managed to prove that you are loyal enough to the Spin Doctors to earn it. It should be a cake walk. It carries lots of flak.</desc>
+	<systemList>
+		<artillery max="4" power="1" room="16" start="true" weapon="SHOTGUN_STEEL" img="s_artillery_overlay" />
+		<battery max="2" power="1" room="15" start="false" img="room_battery_2" />
+		<cloaking power="1" room="2" start="true" img="room_cloaking_7" />
+		<clonebay power="1" room="11" start="false">
+			<slot>
+				<number>3</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="3" start="true" img="room_doors">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="2" room="4" start="false" img="room_drones_11" />
+		<engines power="1" room="1" start="true" img="room_engines_2">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="6" start="false" img="room_hacking_3" />
+		<medbay power="1" room="11" start="false" img="room_medbay_8">
+			<slot>
+				<number>1</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="9" start="false" img="room_mind_1" />
+		<oxygen power="1" room="10" start="true" img="room_oxygen_2" />
+		<pilot power="2" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="7" start="false" img="room_sensors_orchid_2">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="8" start="true" img="room_shields_3">
+			<slot>
+				<direction>left</direction>
+				<number>2</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="5" start="true" />
+		<weapons max="8" power="1" room="14" start="true" img="room_weapons_2">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="0" count="4">
+		<weapon name="SHOTGUN_PLAYER" />
+		<weapon name="SHOTGUN_TOXIC_PLAYER" />
+		<weapon name="SHOTGUN_PLAYER" />
+		<weapon name="SHOTGUN_FIRE" />
+	</weaponList>
+	<droneList drones="0" count="2"/>
+	<health amount="40" />
+	<maxPower amount="14" />
+	<aug name="ANCIENT_COMBAT_ASB" />
+	<aug name="EX_CLOAK_FIRE" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_ACHASER_SHIP" layout="achaser_ship" img="achaser_ship">
+	<class>Ambulance Chaser Cruiser</class>
+	<name>Care Package</name>
+	<desc>The Ambulance Chaser are a funny sort of Cog. While they are great at lawyering up, they aren't so smart with ships. This ship has a big missile launcher... and thats it. Oops.</desc>
+	<systemList>
+		<battery max="2" power="1" room="12" start="false" img="room_battery_10" />
+		<cloaking power="1" room="9" start="false" img="room_cloaking_10" />
+		<clonebay power="1" room="6" start="false">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="2" room="2" start="true" img="room_doors">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="2" room="8" start="false" img="room_drones" />
+		<engines max="8" power="2" room="7" start="true" img="room_engines_2">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="3" start="false" img="room_hacking_8" />
+		<medbay power="2" room="6" start="true" img="room_medbay">
+			<slot>
+				<number>1</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="11" start="false" img="room_mind_9" />
+		<oxygen power="2" room="13" start="true" img="room_oxygen_4" />
+		<pilot power="2" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="2" room="1" start="true" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="3" room="4" start="true" img="room_shields_8">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="10" start="false" />
+		<weapons max="8" power="3" room="5" start="true" img="room_weapons">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="21" count="4">
+		<weapon name="BOMB_HEAL" />
+		<weapon name="MISSILES_ENERGY" />
+	</weaponList>
+	<droneList drones="0" count="2" />
+	<health amount="30" />
+	<maxPower amount="8" />
+	<crewCount amount="2" class="ambulancechaser" />
+	<crewCount amount="1" class="engi" />
+	<aug name="EX_O2_MASKS" />
+	<aug name="EXTRA_PREP" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_ACHASER_SHIP_2" layout="achaser_ship_2" img="achaser_ship_2">
+	<class>Ambulance Chaser Cruiser</class>
+	<name>Full Coverage</name>
+	<desc>Elite Ambulance Chasers tend to break the rules a little more than the rest. As such, they didn't even bother having a medbay, opting for a clonebay instead. Oh, and fire weapons too.</desc>
+	<systemList>
+		<battery max="2" power="1" room="16" start="false" img="room_battery_3" />
+		<cloaking power="1" room="10" start="false" img="room_cloaking_2" />
+		<clonebay power="1" room="9" start="true">
+			<slot>
+				<number>0</number>
+			</slot>
+		</clonebay>
+		<doors power="2" room="18" start="true" img="room_doors">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="2" room="11" start="false" img="room_drones_7" />
+		<engines power="2" room="12" start="true" img="room_engines_9">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="7" start="false" img="room_hacking_8" />
+		<medbay power="1" room="9" start="false" img="room_medbay_4">
+			<slot>
+				<number>0</number>
+			</slot>
+		</medbay>
+		<mind power="3" room="5" start="false" img="room_mind_5" />
+		<oxygen power="1" room="15" start="true" img="room_oxygen_5" />
+		<pilot power="1" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="17" start="false" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="3" start="true" img="room_shields_6">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="8" start="false" />
+		<weapons max="8" power="4" room="4" start="true" img="room_weapons_7">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="18" count="4">
+		<weapon name="BOMB_FIRE" />
+		<weapon name="BEAM_FIRE_PIERCE" />
+		<weapon name="MISSILES_1" />
+	</weaponList>
+	<droneList drones="0" count="2" />
+	<health amount="30" />
+	<maxPower amount="11" />
+	<crewCount amount="1" class="ambulancechaser_elite" />
+	<crewCount amount="1" class="ambulancechaser_elite" />
+	<crewCount amount="1" class="ambulancechaser" />
+	<aug name="RECYCLER" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_DOC_AC_COMBO" layout="doc_ac_combo" img="doc_ac_combo">
+	<class>Double Trouble</class>
+	<name>Royal Medication</name>
+	<desc>This ship has AC and Dr Spin together! Their ship must match their ideals and as such it has special weapons and augments!</desc>
+	<systemList>
+		<battery max="2" power="1" room="10" start="false" img="room_battery_15" />
+		<cloaking power="1" room="13" start="false" img="room_cloaking_10" />
+		<clonebay power="1" room="9" start="false">
+			<slot>
+				<number>0</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="1" start="true" img="room_doors_3">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="3" room="14" start="false" img="room_drones_4" />
+		<engines power="1" room="12" start="true" img="room_engines_3">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="3" start="false" img="room_hacking_4" />
+		<medbay power="3" room="9" start="true" img="room_medbay_7">
+			<slot>
+				<number>5</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="5" start="false" img="room_mind_1" />
+		<oxygen power="1" room="15" start="true" img="room_oxygen_13" />
+		<pilot power="3" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="2" start="false" img="room_sensors_3">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="10" power="2" room="7" start="true" img="room_shields_6">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="19" start="true" />
+		<weapons max="10" power="1" room="8" start="true" img="room_weapons_3">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="0" count="4">
+		<weapon name="SHOTGUN_PLAYER" />
+		<weapon name="SHOTGUN_PLAYER" />
+		<weapon name="ANCIENT_ION_1" />
+		<weapon name="ROYAL_ION_2" />
+	</weaponList>
+	<droneList drones="8" count="2" />
+	<health amount="50" />
+	<maxPower amount="15" />
+	<aug name="WEAPON_PREIGNITE" />
+	<aug name="PDS_DISABLE" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_COG_RANDOM" layout="mup_cog_random_a" img="mup_cog_random_a">
+	<class>Random Cruiser</class>
+	<name>Cog Supply Run</name>
+	<desc>This Cog Cruiser was not built with any set plan for its weapons or crew. As such, you will be permitted a random duo of weapons and a trio of random Cogs. Cog Nation hopes you understand the underdeveloped systems.</desc>
+	<systemList>
+		<artillery power="1" room="4" start="false" weapon="ARTILLERY_FED" img="room_artillery_2" />
+		<battery max="2" power="1" room="16" start="true" img="room_battery_6" />
+		<cloaking power="1" room="12" start="false" img="room_cloaking_11" />
+		<clonebay power="1" room="11" start="false">
+			<slot>
+				<number>3</number>
+			</slot>
+		</clonebay>
+		<doors power="3" room="1" start="true" img="room_doors">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="2" room="13" start="false" img="room_drones_6" />
+		<engines power="2" room="18" start="true" img="room_engines_8">
+			<slot>
+				<direction>left</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="6" start="false" img="room_hacking_9" />
+		<medbay power="1" room="11" start="true" img="room_medbay_3">
+			<slot>
+				<number>3</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="5" start="false" img="room_mind" />
+		<oxygen power="1" room="17" start="false" img="room_oxygen_12" />
+		<pilot power="1" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="2" start="false" img="room_sensors_2">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="10" start="true" img="room_shields_3">
+			<slot>
+				<direction>left</direction>
+				<number>2</number>
+			</slot>
+		</shields>
+		<teleporter power="2" room="3" start="true" />
+		<weapons max="8" power="3" room="9" start="true" img="room_weapons_2">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="15" count="4">
+		<weapon name="LIST_WEAPONS_ALL_NO_CLONEGUN" />
+		<weapon name="LIST_WEAPONS_ALL_NO_CLONEGUN" />
+	</weaponList>
+	<droneList drones="2" count="2" />
+	<health amount="30" />
+	<maxPower amount="7" />
+	<crewCount amount="1" class="LIST_COG_RANDOM" />
+	<crewCount amount="1" class="LIST_COG_RANDOM" />
+	<crewCount amount="1" class="LIST_COG_RANDOM" />
+</shipBlueprint>
+
+
+<shipBlueprint name="PLAYER_SHIP_COG_RANDOM_2" layout="mup_cog_random_b" img="mup_cog_random_b">
+	<class>Random Cruiser</class>
+	<name>Cog Supply Run</name>
+	<desc>The next generation of supply ship. Only Elites and up are allowed to be on board. Once again, the systems are underdeveloped. Even worse is that the ship has less health. The good news is this ship can handle more power to the weapons.. if you can handle the reactor limit anyways.</desc>
+	<systemList>
+		<artillery power="1" room="4" start="false" weapon="ARTILLERY_FED" img="room_artillery_2" />
+		<battery max="2" power="1" room="16" start="false" img="room_battery_6" />
+		<cloaking power="1" room="12" start="true" img="room_cloaking_11" />
+		<clonebay power="1" room="11" start="false">
+			<slot>
+				<number>3</number>
+			</slot>
+		</clonebay>
+		<doors power="2" room="1" start="true" img="room_doors">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="2" room="13" start="false" img="room_drones_6" />
+		<engines power="2" room="18" start="true" img="room_engines_8">
+			<slot>
+				<direction>left</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="6" start="false" img="room_hacking_9" />
+		<medbay power="1" room="11" start="true" img="room_medbay_3">
+			<slot>
+				<number>3</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="5" start="false" img="room_mind" />
+		<oxygen power="1" room="17" start="false" img="room_oxygen_12" />
+		<pilot power="1" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="2" start="false" img="room_sensors_2">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="10" start="true" img="room_shields_3">
+			<slot>
+				<direction>left</direction>
+				<number>2</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="3" start="true" />
+		<weapons max="10" power="3" room="9" start="true" img="room_weapons_2">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="15" count="4">
+		<weapon name="LIST_WEAPONS_ALL_NO_CLONEGUN" />
+		<weapon name="LIST_WEAPONS_ALL_NO_CLONEGUN" />
+	</weaponList>
+	<droneList drones="2" count="2" />
+	<health amount="20" />
+	<maxPower amount="6" />
+	<crewCount amount="1" class="LIST_COG_RANDOM_B" />
+	<crewCount amount="1" class="LIST_COG_RANDOM_B" />
+	<crewCount amount="1" class="LIST_COG_RANDOM_B" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_COG_RANDOM_3" layout="mup_cog_random_c" img="mup_cog_random_c">
+	<class>Random Cruiser</class>
+	<name>Cog Supply Run</name>
+	<desc>The final delivery ship. This one is special because you get one of the Cog Head's with their trusty waiter staff. Well one waiter staff. Its also the most fragile of the 3 so keep her steady, won't you?</desc>
+	<systemList>
+		<artillery power="1" room="4" start="false" weapon="ARTILLERY_FED" img="room_artillery_2" />
+		<battery max="2" power="1" room="16" start="false" img="room_battery_6" />
+		<cloaking power="1" room="12" start="true" img="room_cloaking_11" />
+		<clonebay power="1" room="11" start="true">
+			<slot>
+				<number>3</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="1" start="false" img="room_doors">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="2" room="13" start="false" img="room_drones_6" />
+		<engines power="2" room="18" start="true" img="room_engines_8">
+			<slot>
+				<direction>left</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="6" start="false" img="room_hacking_9" />
+		<medbay power="1" room="11" start="false" img="room_medbay_3">
+			<slot>
+				<number>3</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="5" start="false" img="room_mind" />
+		<oxygen power="1" room="17" start="false" img="room_oxygen_12" />
+		<pilot power="1" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="2" start="false" img="room_sensors_2">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</sensors>
+		<shields max="10" power="1" room="10" start="true" img="room_shields_3">
+			<slot>
+				<direction>left</direction>
+				<number>2</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="3" start="true" />
+		<weapons max="12" power="3" room="9" start="true" img="room_weapons_2">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="15" count="4">
+		<weapon name="LIST_WEAPONS_ALL_NO_CLONEGUN" />
+		<weapon name="LIST_WEAPONS_ALL_NO_CLONEGUN" />
+	</weaponList>
+	<droneList drones="2" count="2" />
+	<maxPower amount="5" />
+	<health amount="10" />
+	<maxPower amount="6" />
+		<customReactor maxLevel="35">
+		<baseCost>15</baseCost>
+		<increment>5</increment>
+		<overrideCost coloumn="1">30</overrideCost>
+	</customReactor>
+	<crewCount amount="1" class="LIST_COG_RANDOM_SPECIAL" />
+	<crewCount amount="1" class="LIST_COG_RANDOM_C" />
+</shipBlueprint>
+
+
+<shipBlueprint name="doc_elderitch" layout="doc_elderitch" img="doc_elderitch">
+	<class>Dr Spin's Equalizer</class>
+	<name>The Overthrower</name>
+	<desc>To say Dr. Spin is a bit upset is an understatement. He is hellbent on putting an end to the Eldritch beings. Somehow, he convinced Jerry to tag along with him. No one else is allowed to join... except for a certain gnome.</desc>
+	<systemList>
+		<battery max="4" power="1" room="8" start="false" img="room_battery_13" />
+		<cloaking power="2" room="14" start="true" img="ancient_cloaking" />
+		<temporal max="4" power="1" room="9" start="true" img="room_temporal_6" />
+		<clonebay max="4" power="1" room="4" start="false">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="1" start="false" img="room_doors_7">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="1" room="15" start="false" img="room_drones" />
+		<engines power="1" room="16" start="true" img="room_engines_5">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="13" start="false" img="room_hacking_3" />
+		<medbay max="4" power="3" room="4" start="true" img="room_medbay_chaos">
+			<slot>
+				<number>1</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="12" start="false" img="room_mind_9" />
+		<oxygen power="1" room="7" start="true" img="room_oxygen_9" />
+		<pilot power="1" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="3" start="false" img="room_sensors_3">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="12" power="2" room="6" start="false" img="room_shields_4">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="2" start="true" />
+		<weapons max="10" power="2" room="5" start="true" img="room_weapons_4">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="15" count="4">
+		<weapon name="BEAM_MADNESS_VISION" />
+		<weapon name="ANCIENT_MISSILES" />
+	</weaponList>
+	<droneList drones="5" count="2" />
+	<health amount="40" />
+	<maxPower amount="5" />
+	<aug name="ANCIENT_COMBAT_EQUALIZER" />
+</shipBlueprint>
+
+<shipBlueprint name="COGMOD_SHIP_MINE_1" layout="mc_mine_base" img="mc_mine_base">
+	<class>?????</class>
+	<name>The Cheater</name>
+	<desc>Fine. I will let you have just a glimpse of my power. Just this little bit. But don't think I'll let you aim such a powerful weapon yourself.</desc>
+	<systemList>
+		<artillery max="1" power="1" room="9" start="true" weapon="GATLING_ANCIENT" img="room_artillery" />
+		<cloaking power="1" room="5" start="false" img="room_cloaking_2" />
+		<clonebay power="1" room="2" start="false">
+			<slot>
+				<number>0</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="4" start="false" img="room_doors">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</doors>
+		<drones max="16" power="1" room="6" start="false" img="room_drones_17" />
+		<engines power="1" room="7" start="true" img="room_engines_7">
+			<slot>
+				<direction>right</direction>
+				<number>3</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="1" start="false" img="room_hacking_7" />
+		<medbay power="1" room="2" start="false" img="room_medbay_4">
+			<slot>
+				<number>0</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="3" start="false" img="room_mind_2" />
+		<oxygen power="1" room="10" start="false" img="room_oxygen" />
+		<pilot power="1" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<shields max="12" power="1" room="8" start="false" img="room_shields_8">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+	</systemList>
+	<weaponSlots>0</weaponSlots>
+	<droneSlots>6</droneSlots>
+	<weaponList missiles="0" count="0" />
+	<droneList drones="0" count="6" />
+	<health amount="100" />
+	<maxPower amount="2" />
+</shipBlueprint>
+	
+<shipBlueprint name="PLAYER_SHIP_TIGHTWAD" layout="cm_tightwad_a" img="cm_tightwad_a">
+	<class id="text_PLAYER_SHIP_TIGHTWAD_class">Tightwad Explorer (on a budget) TM</class>
+	<name id="text_PLAYER_SHIP_TIGHTWAD_name">Tight Squeeze</name>
+	<desc id="text_PLAYER_SHIP_TIGHTWAD_desc">The tightwads will stop at nothing to save their budgets. Even when it comes to space travel as this well below safety regulation ship shows.</desc>
+	<systemList>
+		<battery power="1" room="7" start="false" img="room_battery_2" />
+		<cloaking power="1" room="11" start="false" img="room_cloaking_12" />
+		<clonebay power="1" room="9" start="false">
+			<slot>
+				<number>0</number>
+			</slot>
+		</clonebay>
+		<doors power="2" room="8" start="true" img="room_doors_4">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</doors>
+		<drones power="1" room="6" start="false" img="room_drones_14" />
+		<engines power="2" room="4" start="true" img="room_engines_3">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="12" start="false" img="room_hacking_11" />
+		<medbay power="1" room="9" start="true" img="room_medbay_4">
+			<slot>
+				<number>0</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="3" start="false" img="room_mind_11" />
+		<oxygen power="1" room="5" start="true" img="room_oxygen_14" />
+		<pilot power="1" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="13" start="true" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="2" start="true" img="room_shields_10">
+			<slot>
+				<direction>down</direction>
+				<number>3</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="10" start="false" />
+		<weapons power="3" room="1" start="true" img="room_weapons_9">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="15" count="4">
+		<weapon name="BEAM_1" />
+		<weapon name="BEAM_1" />
+		<weapon name="ION_1" />
+	</weaponList>
+	<weaponList missiles="10" count="4" />
+	<droneList drones="0" count="2" />
+	<health amount="30" />
+	<maxPower amount="8" />
+	<aug name="ADV_SCANNERS" />
+</shipBlueprint>
+
+
+<!--
+Lawbot Ship IDs
+-->
+
+<augBlueprint name="SHIP_SPIN_DOCTOR">
+	<title>Spin Doctor Cruiser</title>
+	<desc>YOU SHOULD NEVER SEE THIS</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+	<bp>0</bp>
+</augBlueprint>
+
+<augBlueprint name="SHIP_AMBULANCE_CHASER">
+	<title>Ambulance Chaser Cruiser</title>
+	<desc>YOU SHOULD NEVER SEE THIS</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+	<bp>0</bp>
+</augBlueprint>
+
+<augBlueprint name="SHIP_COG_RANDOM">
+	<title>Random Cruiser</title>
+	<desc>YOU SHOULD NEVER SEE THIS</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+	<bp>0</bp>
+</augBlueprint>
+
+<augBlueprint name="SHIP_DR_SPIN">
+	<title>Dr Spin Cruiser</title>
+	<desc>YOU SHOULD NEVER SEE THIS</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+	<bp>0</bp>
+</augBlueprint
+>
+<augBlueprint name="SHIP_DOUBLE_TROUBLE">
+	<title>Double Trouble Cruiser</title>
+	<desc>YOU SHOULD NEVER SEE THIS</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+	<bp>0</bp>
+</augBlueprint>
+
+
+</FTL>
