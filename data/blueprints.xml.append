@@ -722,7 +722,7 @@
 	<power>132 Health</power>
 	<power>Takes 75% damage in combat, but moves at 55% speed.</power>
 	<power>Passively heals friendly crew.</power>
-	<power>1.75x Combat Damage, 0.5x Repair speed.</power>
+	<power>1.75x Combat Damage, 1.0x Repair speed.</power>
 	<power>Immune to suffocation and fires and mind control.</power>
 	<power>1.0x sabotaging speed.</power>
 	</powerList>
