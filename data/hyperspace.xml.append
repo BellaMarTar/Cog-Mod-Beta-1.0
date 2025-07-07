@@ -571,7 +571,7 @@
 		<damageTakenMultiplier>0.9</damageTakenMultiplier>
 		<moveSpeedMultiplier>0.9</moveSpeedMultiplier>
 		<canRepair>false</canRepair>
-		<detectsLifeforms>true</detectsLifeforms>
+		<detectsLifeforms>false</detectsLifeforms>
 		<resistsMindControl>true</resistsMindControl>
 		<maxHealth>90</maxHealth>
 		<sabotageSpeedMultiplier>1.0</sabotageSpeedMultiplier>
@@ -598,7 +598,7 @@
 		<damageTakenMultiplier>0.85</damageTakenMultiplier>
 		<moveSpeedMultiplier>0.85</moveSpeedMultiplier>
 		<canRepair>false</canRepair>
-		<detectsLifeforms>true</detectsLifeforms>
+		<detectsLifeforms>false</detectsLifeforms>
 		<resistsMindControl>true</resistsMindControl>
 		<maxHealth>135</maxHealth>
 		<sabotageSpeedMultiplier>1.0</sabotageSpeedMultiplier>
@@ -625,7 +625,7 @@
 		<damageTakenMultiplier>0.50</damageTakenMultiplier>
 		<moveSpeedMultiplier>0.70</moveSpeedMultiplier>
 		<canRepair>false</canRepair>
-		<detectsLifeforms>true</detectsLifeforms>
+		<detectsLifeforms>false</detectsLifeforms>
 		<resistsMindControl>true</resistsMindControl>
 		<maxHealth>90</maxHealth>
 		<sabotageSpeedMultiplier>1.0</sabotageSpeedMultiplier>
@@ -653,7 +653,7 @@
 		<damageTakenMultiplier>0.90</damageTakenMultiplier>
 		<moveSpeedMultiplier>0.90</moveSpeedMultiplier>
 		<repairSpeed>0.5</repairSpeed>
-		<detectsLifeforms>true</detectsLifeforms>
+		<detectsLifeforms>false</detectsLifeforms>
 		<resistsMindControl>true</resistsMindControl>
 		<maxHealth>150</maxHealth>
 		<sabotageSpeedMultiplier>1.0</sabotageSpeedMultiplier>
@@ -671,7 +671,7 @@
 		<damageTakenMultiplier>0.5</damageTakenMultiplier>
 		<moveSpeedMultiplier>1.30</moveSpeedMultiplier>
 		<repairSpeed>2.0</repairSpeed>
-		<detectsLifeforms>true</detectsLifeforms>
+		<detectsLifeforms>false</detectsLifeforms>
 		<resistsMindControl>true</resistsMindControl>
 		<maxHealth>200</maxHealth>
 		<canPunch>false</canPunch>
@@ -2327,7 +2327,7 @@
 		<damageTakenMultiplier>0.89</damageTakenMultiplier>
 		<moveSpeedMultiplier>1.33</moveSpeedMultiplier>
 		<repairSpeed>1.44</repairSpeed>
-		<detectsLifeforms>true</detectsLifeforms>
+		<detectsLifeforms>false</detectsLifeforms>
 		<resistsMindControl>true</resistsMindControl>
 		<maxHealth>90</maxHealth>
 		<sabotageSpeedMultiplier>0.99</sabotageSpeedMultiplier>
@@ -2344,7 +2344,7 @@
 		<damageTakenMultiplier>0.85</damageTakenMultiplier>
 		<moveSpeedMultiplier>1.44</moveSpeedMultiplier>
 		<repairSpeed>1.57</repairSpeed>
-		<detectsLifeforms>true</detectsLifeforms>
+		<detectsLifeforms>false</detectsLifeforms>
 		<resistsMindControl>true</resistsMindControl>
 		<maxHealth>135</maxHealth>
 		<sabotageSpeedMultiplier>1.59</sabotageSpeedMultiplier>
@@ -2361,7 +2361,7 @@
 		<damageTakenMultiplier>0.49</damageTakenMultiplier>
 		<moveSpeedMultiplier>1.01</moveSpeedMultiplier>
 		<repairSpeed>1.23</repairSpeed>
-		<detectsLifeforms>true</detectsLifeforms>
+		<detectsLifeforms>false</detectsLifeforms>
 		<resistsMindControl>true</resistsMindControl>
 		<maxHealth>90</maxHealth>
 		<sabotageSpeedMultiplier>0.99</sabotageSpeedMultiplier>
@@ -2378,7 +2378,7 @@
 		<damageTakenMultiplier>0.71</damageTakenMultiplier>
 		<moveSpeedMultiplier>1.47</moveSpeedMultiplier>
 		<repairSpeed>1.74</repairSpeed>
-		<detectsLifeforms>true</detectsLifeforms>
+		<detectsLifeforms>false</detectsLifeforms>
 		<resistsMindControl>true</resistsMindControl>
 		<maxHealth>150</maxHealth>
 		<sabotageSpeedMultiplier>1.98</sabotageSpeedMultiplier>
@@ -2396,7 +2396,7 @@
 		<damageTakenMultiplier>0.66</damageTakenMultiplier>
 		<moveSpeedMultiplier>1.96</moveSpeedMultiplier>
 		<repairSpeed>2.01</repairSpeed>
-		<detectsLifeforms>true</detectsLifeforms>
+		<detectsLifeforms>false</detectsLifeforms>
 		<resistsMindControl>true</resistsMindControl>
 		<maxHealth>200</maxHealth>
 		<sabotageSpeedMultiplier>2.01</sabotageSpeedMultiplier>
@@ -3364,7 +3364,7 @@
 		<damageTakenMultiplier>0.89</damageTakenMultiplier>
 		<moveSpeedMultiplier>0.5</moveSpeedMultiplier>
 		<repairSpeed>0.5</repairSpeed>
-		<detectsLifeforms>true</detectsLifeforms>
+		<detectsLifeforms>false</detectsLifeforms>
 		<resistsMindControl>true</resistsMindControl>
 		<maxHealth>90</maxHealth>
 		<sabotageSpeedMultiplier>1.0</sabotageSpeedMultiplier>
@@ -3381,7 +3381,7 @@
 		<damageTakenMultiplier>0.85</damageTakenMultiplier>
 		<moveSpeedMultiplier>0.7</moveSpeedMultiplier>
 		<repairSpeed>0.7</repairSpeed>
-		<detectsLifeforms>true</detectsLifeforms>
+		<detectsLifeforms>false</detectsLifeforms>
 		<resistsMindControl>true</resistsMindControl>
 		<maxHealth>135</maxHealth>
 		<sabotageSpeedMultiplier>1.2</sabotageSpeedMultiplier>
@@ -3398,7 +3398,7 @@
 		<damageTakenMultiplier>0.50</damageTakenMultiplier>
 		<moveSpeedMultiplier>0.50</moveSpeedMultiplier>
 		<repairSpeed>0.5</repairSpeed>
-		<detectsLifeforms>true</detectsLifeforms>
+		<detectsLifeforms>false</detectsLifeforms>
 		<resistsMindControl>true</resistsMindControl>
 		<maxHealth>90</maxHealth>
 		<sabotageSpeedMultiplier>1.0</sabotageSpeedMultiplier>
@@ -3415,7 +3415,7 @@
 		<damageTakenMultiplier>0.8</damageTakenMultiplier>
 		<moveSpeedMultiplier>0.9</moveSpeedMultiplier>
 		<repairSpeed>1.1</repairSpeed>
-		<detectsLifeforms>true</detectsLifeforms>
+		<detectsLifeforms>false</detectsLifeforms>
 		<resistsMindControl>true</resistsMindControl>
 		<maxHealth>150</maxHealth>
 		<sabotageSpeedMultiplier>1.0</sabotageSpeedMultiplier>
