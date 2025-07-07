@@ -4932,8 +4932,8 @@
 	
 <mod:findLike type="ships">
 
-	<mod:findLike type="shipOrder"> <!--You now Have 5 pages of ship-->
-		<mod-append:ship>PLAYER_SHIP_COG_RANDOM</mod-append:ship>
+	<mod:findLike type="shipOrder"> <!--You now Have 6 pages of ship-->
+		<mod-append:empty/> <!--Page 1-->
 		<mod-append:empty/>
 		<mod-append:empty/>
 		<mod-append:empty/>
@@ -4947,7 +4947,7 @@
 		<mod-append:empty/> <!--Page 2-->
 		<mod-append:empty/>
 		<mod-append:empty/>
-		<mod-append:ship>PLAYER_SHIP_ambulancechaser_SHIP</mod-append:ship>
+		<mod-append:ship>PLAYER_SHIP_ACHASER_SHIP</mod-append:ship>
 		<mod-append:empty/>
 		<mod-append:ship>PLAYER_SHIP_DOCSHIP</mod-append:ship>
 		<mod-append:empty/>
@@ -4989,8 +4989,20 @@
 		<mod-append:ship>PLAYER_SHIP_SPINDOCTOR_ELITE</mod-append:ship>
 		<mod-append:ship>PLAYER_SHIP_DOC_AC_COMBO</mod-append:ship>
 		<mod-append:ship>doc_elderitch</mod-append:ship>
-		<mod-append:ship>COGMOD_SHIP_MINE_1</mod-append:ship>
 		<mod-append:empty/>
+		<mod-append:empty/>
+		
+		<mod-append:ship>PLAYER_SHIP_COG_RANDOM</mod-append:ship> <!--Page 6-->
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:ship>COGMOD_SHIP_MINE_1</mod-append:ship>
+		
     </mod:findLike>
 
 	<mod-append:ship name="PLAYER_SHIP_DOCSHIP" b="true" c="true" secret="false"/>
@@ -5024,13 +5036,13 @@
 		</crew>
 	</mod-append:customShip>
 	
-	<mod-append:ship name="PLAYER_SHIP_ambulancechaser_SHIP" b="true" c="false"/>
+	<mod-append:ship name="PLAYER_SHIP_ACHASER_SHIP" b="true" c="false"/>
 	<mod-append:customShip name="PLAYER_SHIP_ambulancechaser_SHIP">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<hiddenAug>SHIP_AMBULANCE_CHASER</hiddenAug>
 		<crewLimit>12</crewLimit>
 	</mod-append:customShip>
-	<mod-append:customShip name="PLAYER_SHIP_ambulancechaser_SHIP_2">
+	<mod-append:customShip name="PLAYER_SHIP_ACHASER_SHIP_2">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<hiddenAug>SHIP_AMBULANCE_CHASER</hiddenAug>
 		<crewLimit>12</crewLimit>
