@@ -724,7 +724,7 @@
 	<power>Passively heals friendly crew.</power>
 	<power>1.75x Combat Damage, 0.5x Repair speed.</power>
 	<power>Immune to suffocation and fires and mind control.</power>
-	<power>0.5x sabotaging speed.</power>
+	<power>1.0x sabotaging speed.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -737,10 +737,10 @@
 	<powerList>
 	<power>198 Health</power>
 	<power>Takes 65% damage in combat, but moves at 55% speed.</power>
-	<power>Passively heals friendly crew better.</power>
+	<power>Passively heals friendly crew slower than normal.</power>
 	<power>2.0x Combat Damage, 0.4x Repair speed.</power>
 	<power>Immune to suffocation and fires and mind control.</power>
-	<power>0.7x sabotaging speed.</power>
+	<power>1.5x sabotaging speed.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -755,9 +755,9 @@
 	<power>Takes 50% damage in combat, but moves at 60% speed.</power>
 	<power>Can phase through doors.</power>
 	<power>Passively heals friendly crew very slowly.</power>
-	<power>1.5x Combat Damage, 0.2x Repair speed.</power>
+	<power>1.5x Combat Damage, 1.0x Repair speed.</power>
 	<power>Immune to suffocation and fires and mind control.</power>
-	<power>0.4x sabotaging speed.</power>
+	<power>1.5x sabotaging speed.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -769,16 +769,16 @@
 	<rarity>0</rarity>
 	<powerList>
 	<power>250 Health</power>
-	<power>Takes 55% damage in combat, but moves at 55% speed.</power>
-	<power>Passively heals friendly crew slightly worse.</power>
-	<power>2.3x Combat Damage, 0.2x Repair speed.</power>
+	<power>Takes 75% damage in combat, but moves at 55% speed.</power>
+	<power>Passively heals friendly crew better than average.</power>
+	<power>1.0x Combat Damage, 2.0x Repair speed.</power>
 	<power>Immune to suffocation and fires and mind control.</power>
 	<power>0.8x sabotaging speed.</power>
 	</powerList>
 </crewBlueprint>
 
 <crewBlueprint name="dr_spin">
-	<desc>Dr. Spin has no patience for anyone who wastes his time. Somehow he tolerates you despite his... off putting personality. How does a doctor not like healing others anyway?</desc>
+	<desc>Dr. Spin is the most unusual of the galaxy most likely. He can heal, he just prefers not to. How does a doctor not like healing others anyway?</desc>
 	<cost>300</cost>
 	<title>Dr Spin</title>
 	<short>Master Cog</short>

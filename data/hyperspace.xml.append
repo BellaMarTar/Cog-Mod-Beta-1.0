@@ -1265,17 +1265,17 @@
 		<damageTakenMultiplier>0.75</damageTakenMultiplier>
 		<moveSpeedMultiplier>0.55</moveSpeedMultiplier>
 		<detectsLifeforms>false</detectsLifeforms>
-		<repairSpeed>0.5</repairSpeed>
-		<sabotageSpeedMultiplier>0.5</sabotageSpeedMultiplier>
+		<repairSpeed>1.0</repairSpeed>
+		<sabotageSpeedMultiplier>1.0</sabotageSpeedMultiplier>
 		<resistsMindControl>true</resistsMindControl>
 		<maxHealth>132</maxHealth>
 		<fireDamageMultiplier>0.0</fireDamageMultiplier>
 		<suffocationModifier>0.0</suffocationModifier>
 		<cloneLoseSkills>false</cloneLoseSkills>
-		<passiveHealAmount>2.5</passiveHealAmount>
+		<passiveHealAmount>2.0</passiveHealAmount>
 		<passiveHealDelay>20</passiveHealDelay>
 		<animBase>mantis</animBase>
-		<healCrewAmount>2.2</healCrewAmount>
+		<healCrewAmount>0.5</healCrewAmount>
 		<deathSounds>
 			<deathSound>cog_death</deathSound>
 		</deathSounds>
@@ -1291,14 +1291,14 @@
 		<detectsLifeforms>false</detectsLifeforms>
 		<resistsMindControl>true</resistsMindControl>
 		<maxHealth>198</maxHealth>
-		<sabotageSpeedMultiplier>0.7</sabotageSpeedMultiplier>
+		<sabotageSpeedMultiplier>1.5</sabotageSpeedMultiplier>
 		<fireDamageMultiplier>0.0</fireDamageMultiplier>
 		<suffocationModifier>0.0</suffocationModifier>
 		<cloneLoseSkills>false</cloneLoseSkills>
-		<passiveHealAmount>2.9</passiveHealAmount>
+		<passiveHealAmount>7.0</passiveHealAmount>
 		<passiveHealDelay>10</passiveHealDelay>
 		<animBase>mantis</animBase>
-		<healCrewAmount>2.9</healCrewAmount>
+		<healCrewAmount>0.3</healCrewAmount>
 		<deathSounds>
 			<deathSound>cog_death</deathSound>
 		</deathSounds>
@@ -1310,7 +1310,7 @@
 		<damageMultiplier>1.5</damageMultiplier>
 		<damageTakenMultiplier>0.50</damageTakenMultiplier>
 		<moveSpeedMultiplier>0.60</moveSpeedMultiplier>
-		<repairSpeed>0.2</repairSpeed>
+		<repairSpeed>1.0</repairSpeed>
 		<detectsLifeforms>false</detectsLifeforms>
 		<resistsMindControl>true</resistsMindControl>
 		<maxHealth>132</maxHealth>
@@ -1321,7 +1321,7 @@
 		<passiveHealAmount>1.9</passiveHealAmount>
 		<passiveHealDelay>3</passiveHealDelay>
 		<animBase>mantis</animBase>
-		<healCrewAmount>1.0</healCrewAmount>
+		<healCrewAmount>0.2</healCrewAmount>
 		<canPhaseThroughDoors>true</canPhaseThroughDoors>
 		<deathSounds>
 			<deathSound>cog_death</deathSound>
@@ -1331,10 +1331,10 @@
 	<mod-append:race name="spindoctor_waiter">
 		<canSabotage>true</canSabotage>
 		<canSuffocate>false</canSuffocate>
-		<damageMultiplier>2.3</damageMultiplier>
-		<damageTakenMultiplier>0.55</damageTakenMultiplier>
+		<damageMultiplier>1.0</damageMultiplier>
+		<damageTakenMultiplier>0.75</damageTakenMultiplier>
 		<moveSpeedMultiplier>0.55</moveSpeedMultiplier>
-		<repairSpeed>0.2</repairSpeed>
+		<repairSpeed>2.0</repairSpeed>
 		<detectsLifeforms>false</detectsLifeforms>
 		<resistsMindControl>true</resistsMindControl>
 		<maxHealth>250</maxHealth>
@@ -1342,10 +1342,10 @@
 		<fireDamageMultiplier>0.0</fireDamageMultiplier>
 		<suffocationModifier>0.0</suffocationModifier>
 		<cloneLoseSkills>false</cloneLoseSkills>
-		<passiveHealAmount>3.5</passiveHealAmount>
-		<passiveHealDelay>1</passiveHealDelay>
+		<passiveHealAmount>5</passiveHealAmount>
+		<passiveHealDelay>5</passiveHealDelay>
 		<animBase>mantis</animBase>
-		<healCrewAmount>2.0</healCrewAmount>
+		<healCrewAmount>1.0</healCrewAmount>
 	</mod-append:race>
 
 	<mod-append:race name="dr_spin">
