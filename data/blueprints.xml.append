@@ -2496,7 +2496,7 @@ weapon C
 	<maxPower amount="5" />
 	<crewCount amount="1" class="spindoctor" />
 	<crewCount amount="1" class="spindoctor" />
-	<crewCount amount="1" class="medic" />
+	<crewCount amount="1" class="spindoctor" />
 	<aug name="CRATE_MISSILES" />
 	<aug name="MEDBAY_DEFENSE" />
 </shipBlueprint>
