@@ -545,6 +545,7 @@
 		<sabotageSpeedMultiplier>1.4</sabotageSpeedMultiplier>
 		<fireDamageMultiplier>0.0</fireDamageMultiplier>
 		<suffocationModifier>0.0</suffocationModifier>
+		<rangedDamageMultiplier>0.0</rangedDamageMultiplier>
 		<cloneLoseSkills>false</cloneLoseSkills>
 		<skills>
 			<piloting req="1"/>

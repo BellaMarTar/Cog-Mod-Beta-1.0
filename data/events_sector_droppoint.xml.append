@@ -4,6 +4,12 @@
 ********************************************************************************************************************************************************************************************************************************************
 -->
 <FTL>
+
+<mod:findName type="eventList" name="NEUTRAL_DROPPOINT">
+	<mod-append:event load="CM_COG_STORE_1"/>
+	<mod-append:event load="AMBUSH_BRIBE_EVENT"/>
+</mod:findName>
+
 <ship name="COG_SHOP_GUARD1" auto_blueprint="LIST_SHIPS_COG_MOD_START">
 	<destroyed>
 		<text>The outpost hails you, "Alright, alright! Enough with the violence. You may dock, but do not make another move like that or this entire station will engage you!"</text>
@@ -11,42 +17,38 @@
 		<store>STORE_COG_BASIC</store>
 	</destroyed>
 	<deadCrew>
-		<text>The outpost hails you, "The hell is wrong with you?! Those Cogs are not cheap to replace! You better not scrap that ship. Just take some scrap here and dock. You can look at our hire list."</text>
+		<text>The outpost hails you, "The hell is wrong with you?! Those Cogs are not cheap to replace! You better not scrap that ship. Just take some scrap here and dock. You can look at our hire list." It seems strange they're more upset about dead Cogs than a blown up ship, but you don't question it.</text>
 		<autoReward level="HIGH">scrap_only</autoReward>
 		<store>STORE_COG_BASIC</store>
 	</deadCrew>
 </ship>
 
-<mod:findName type="eventList" name="NEUTRAL_DROPPOINT">
-	<mod-append:event load="CM_COG_STORE_1"/>
-	<mod-append:event load="AMBUSH_BRIBE_EVENT"/>
-</mod:findName>
 <event name="CM_COG_STORE_1" unique="true">
 	<img planet="PLANET_POPULATED"/>
 	<preventQuest/>
 	<beaconType id="map_icon_civilian_world" global="true">
 		<color r="47" g="205" b="39" a="1"/>
-		<unvisitedTooltip>A civilian population center.</unvisitedTooltip>
+		<unvisitedTooltip>A civilian population center with multiple advertisements.</unvisitedTooltip>
 	</beaconType>
-	<text>You arrive at a particularly well populated planet. At first it doesn't appear to be of much interest until you are hailed by someone at the space dock above.</text>
+	<text>You arrive at a particularly well populated planet. At first it doesn't appear to be of much interest besides dozens of random ads for products that have no use outside of cilvian life until you are hailed repeatedly by someone at the space dock orbiting the planet.</text>
 	<choice>
 		<text>Respond to the call.</text>
 		<event>
-			<text>"Hey you! There's a new store available here. You should check it out! It has those fancy Cog crews available to hire now!" Before you can even answer, the caller sends you coordinates to the store and hangs up.</text>
+			<text>"Hey you! There's a new store available nearby. You should check it out! It has those fancy Cog crews available to hire now!" Before you can even answer or ID who hailed, the caller sends you coordinates to the store and hangs up somehow hiding their signal making it impossible to hail back.</text>
 			<quest event="CM_COG_STORE_FIGHT_1"/>
 		</event>
 	</choice>
 	<choice>
 		<text>Ignore the call.</text>
 		<event>
-			<text>You block the channel and prepare to jump as soon as possible.</text>
+			<text>You block the request outright and prepare to jump as soon as possible.</text>
 		</event>
 	</choice>
 </event>
 <event name="CM_COG_STORE_FIGHT_1">
 	<beaconType id="map_icon_quest" global="true">
 		<color r="62" g="157" b="208" a="1"/>
-		<unvisitedTooltip>Sources indicate this a Cogs for Hire shop.</unvisitedTooltip>
+		<unvisitedTooltip>Sources indicate this a 'Cogs for Hire' shop.</unvisitedTooltip>
 	</beaconType>
 	<text>You arrive at the listed coordinates and are more than a little surprised to find a guard at the supposed shop. Even more concerning is how it immediately turns to face you. Fortunately it hails. "Squishy thing. You are not authorized to be here. Only Cogs may dock at this location. Leave immediately."</text>
 	<ship load="COG_SHOP_GUARD1" hostile="false"/>
@@ -69,9 +71,20 @@
 	</choice>
 </event>
 
+<ship name="COG_PIRATE_START" auto_blueprint="LIST_SHIPS_COG_MOD_PIRATE_COG_START">
+	<destroyed>
+		<text>The Cog Pirates explode in a massive fireball. You doubt even the robust Cogs could survive that kind of impact. You move in to salvage the remains.</text>
+		<autoReward level="MED">standard</autoReward>
+	</destroyed>
+	<deadCrew>
+		<text>The Cog ship falls silent. Killing off Cogs is no easy business unless you're a Toon so you feel pretty prideful in that accomplishment as you have the ship stripped.</text>
+		<autoReward level="HIGH">standard</autoReward>
+	</deadCrew>
+</ship>
+
 <event name="AMBUSH_BRIBE_EVENT">
-    <text>As you arrive at the beacon, a ship is already waiting. Their weapons go live moments later. "Just our luck," the captain snarls. "Pay up or this gets messy. Don't even try us."</text>
-	<ship load="SHIP_PIRATE_START" hostile="true"/>
+    <text>As you arrive at the beacon, an interesting ship is already waiting. Their weapons go live moments later before it hails. One of the Cogs, a new group of robots appears on the screen. "Just our luck," the captain explaining with some sarcasm. "We are behind on our revenue goals and you seem like the perfect ship to clean out. Unless of course you felt like paying us to stay quiet."</text>
+	<ship load="COG_PIRATE_START" hostile="true"/>
     <choice>
         <text>Stand your ground and prepare to fight.</text>
         <event>
@@ -83,12 +96,13 @@
         </event>
     </choice>
     <choice>
-        <text>Offer a bribe to avoid conflict.</text>
+        <text>Offer a tribute to avoid conflict.</text>
         <event>
-			<text>The hostile ship pauses, then powers down their weapons. "Smart choice. Move along, nothing personal." They jump away without another word.</text>
+			<text>The captain pauses, then nods with a smirk. "Smart choice. The less effort, the better off we are." They take the agreed amount and jump away without another word.</text>
 			<item_modify>
-				<item type="scrap" min="-30" max="-30"/>	
+				<item type="scrap" min="-20" max="-30"/>	
 			</item_modify>
+			<instantEscape/>
         </event>
     </choice>
     <choice>
@@ -96,9 +110,9 @@
 		<event load="MERCY_PLEA_RESULT"/>
     </choice>
     <choice req="LIST_CREW_UNIQUEBOT" hidden="true">
-        <text>(Unique Cog) Attempt to negotiate using one of the unique Cogs.</text>
+        <text>(Unique Cog) Threaten them using one of the unique Cogs aboard.</text>
         <event>
-            <text>The enemy ship sees your crewmember and immediately powers down. "We didn't realize you were that important. Here, take this and forgive our trouble causing nature." A crate of supplies is launched toward your ship before they jump away.</text>
+            <text>The enemy ship sees your crewmember and immediately powers down. "We didn't realize you had such a... crew working for you. Here, take this and forgive our request. We can make it up in other conflicts..." A crate of supplies is launched toward your ship before they jump away.</text>
             <autoReward level="MED">standard</autoReward>
 			<ship hostile="false"/>
 			<instantEscape/>
@@ -108,11 +122,11 @@
 
 <eventList name="MERCY_PLEA_RESULT">
     <event>
-        <text>The ship hesitates. "You're lucky I'm not too interested dealing with those damn Legal Eagles again" the captain grunts. "Get lost before I change my mind." They power off their weapons and refuse any further communications. Best you leave until they change their mind</text>
+        <text>The ship listens reluctantly as you make your case that you have no interest in combat. Eventually after a long sob story, the Captain cuts you off. "You're lucky I'm not too interested dealing with those damn Legal Eagles again" the captain grunts. "Get lost before I change my mind." They power off their weapons and refuse any further communications. Best you leave before they change their mind</text>
 		<ship hostile="false"/>
     </event>
     <event>
-        <text>"Mercy?" the captain laughs. "Do I look like I give a damn for some fleshy thing?" Their weapons charge as they move in to attack.</text>
+        <text>"Mercy?" the captain laughs. "Do I look like I give a damn for some fleshy thing?" Their weapons charge as they move in to attack, refusing all other communications.</text>
 		<choice hidden="true">
 			<text>Continue...</text>
 			<event load="COMBAT_CHECK"/>
@@ -120,8 +134,4 @@
     </event>
 </eventList>
 
-
-<eventList name="DROPPONT_RANDOM_ENCOUNTER_LIST">
-    <event load="AMBUSH_BRIBE_EVENT"/>
-</eventList>
 </FTL>

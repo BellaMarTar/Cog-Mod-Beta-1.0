@@ -99,4 +99,5 @@ ENEMY SHIPS
 <text name="text_SHIP_GUARD_SPIN_DOCTOR_class">Spin Doctor Guard</text>
 <text name="text_COG_SHOP_GUARD1_class">Cog Guard</text>
 <text name="text_CM_COG_GUARD2_class">Cog Guard</text>
+<text name="text_COG_PIRATE_START_class">Cog Pirate</text>
 </FTL>
