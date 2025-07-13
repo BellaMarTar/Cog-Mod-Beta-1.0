@@ -21,15 +21,15 @@ LAWBOTS
 
 <text name="text_PLAYER_SHIP_DOCSHIP_class">Spin Doctor Cruiser</text>
 <text name="text_PLAYER_SHIP_DOCSHIP_name">Medica Superia</text>
-<text name="text_PLAYER_SHIP_DOCSHIP_desc">The Spin Doctors are obessed with constantly healing fellow crew and themselves. As such this cruiser has one of the biggest medbays EVER.</text>
+<text name="text_PLAYER_SHIP_DOCSHIP_desc">The Spin Doctors are obsessed with constantly healing fellow crew and themselves. As such this cruiser has one of the biggest medbays EVER.</text>
 
 <text name="text_PLAYER_SHIP_DOCSHIP_2_class">Spin Doctor Cruiser</text>
 <text name="text_PLAYER_SHIP_DOCSHIP_2_name">Medico Girar</text>
-<text name="text_PLAYER_SHIP_DOCSHIP_2_desc">This ship was meant to be a massive healing cruiser. However the budget was blown trying to find an Anicent Healing Device. As such, there is no medical facility yet.</text>
+<text name="text_PLAYER_SHIP_DOCSHIP_2_desc">This ship was meant to be a massive healing cruiser. However the budget was blown trying to find an Ancient Healing Device. As such, there is no medical facility yet, but if you get one, it'll be massive..</text>
 
 <text name="text_PLAYER_SHIP_DOCSHIP_3_class">Spin Doctor Cruiser</text>
 <text name="text_PLAYER_SHIP_DOCSHIP_3_name">House Call</text>
-<text name="text_PLAYER_SHIP_DOCSHIP_3_desc">Spin Doctors can actually be more harmful than helpful. This specialized boarding ship proves such claims as it has plenty of ways to murder people rather than heal.</text>
+<text name="text_PLAYER_SHIP_DOCSHIP_3_desc">Spin Doctors can actually be more harmful than helpful. This specialized boarding ship proves such claims as it has plenty of ways to murder others rather than heal.</text>
 
 <text name="text_PLAYER_SHIP_ACHASER_SHIP_class">Ambulance Chaser Cruiser</text>
 <text name="text_PLAYER_SHIP_ACHASER_SHIP_name">Care Package</text>
@@ -38,6 +38,11 @@ LAWBOTS
 <text name="text_achaser_ship_class">Ambulance Chaser Cruiser</text>
 <text name="text_PLAYER_SHIP_CLAIRVOYANT_2_name">Full Coverage</text>
 <text name="text_achaser_ship_desc">Elite Ambulance Chasers tend to break the rules a little more than the rest. As such, they didn't even bother having a medbay, opting for a clonebay instead. Oh, and fire weapons too.</text>
+
+<text name="text_PLAYER_SHIP_ACHASER_SHIP_3_class">Ambulance Chaser</text>
+<text name="text_PLAYER_SHIP_ACHASER_SHIP_3_name">Self-Sustained</text>
+<text name="text_PLAYER_SHIP_ACHASER_SHIP_3_desc">The Ambulance Chaser's unique abilities allows them to see enemies without sensors and to heal themselves without medical facilities, as a result they focused on other upgrades to this ship.</text>
+
 <!--
 ////////////////////////////
 CASHBOTS

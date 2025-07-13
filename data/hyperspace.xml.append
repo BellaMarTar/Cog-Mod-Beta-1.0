@@ -5037,16 +5037,21 @@
 		</crew>
 	</mod-append:customShip>
 	
-	<mod-append:ship name="PLAYER_SHIP_ACHASER_SHIP" b="true" c="false"/>
+	<mod-append:ship name="PLAYER_SHIP_ACHASER_SHIP" b="true" c="true"/>
 	<mod-append:customShip name="PLAYER_SHIP_ambulancechaser_SHIP">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<hiddenAug>SHIP_AMBULANCE_CHASER</hiddenAug>
-		<crewLimit>12</crewLimit>
+		<crewLimit>11</crewLimit>
 	</mod-append:customShip>
 	<mod-append:customShip name="PLAYER_SHIP_ACHASER_SHIP_2">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<hiddenAug>SHIP_AMBULANCE_CHASER</hiddenAug>
-		<crewLimit>12</crewLimit>
+		<crewLimit>11</crewLimit>
+	</mod-append:customShip>
+	<mod-append:customShip name="PLAYER_SHIP_ACHASER_SHIP_3">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_AMBULANCE_CHASER</hiddenAug>
+		<crewLimit>11</crewLimit>
 	</mod-append:customShip>
 	
 	<mod-append:ship name="PLAYER_SHIP_DOC_AC_COMBO" b="false" c="false"/>

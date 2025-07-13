@@ -898,8 +898,7 @@
 	<power>Passively heals friendly crew slower than normal</power>
 	<power>1.5x Combat Damage, 0.4x Repair speed.</power>
 	<power>Immune to suffocation and fires and mind control.</power>
-	<power>Can see potential people to sue on behalf of the victim.</power>
-	</powerList>
+	<power>Can see potential victims to sue for fun.</power>
 </crewBlueprint>
 
 <crewBlueprint name="ambulancechaser_waiter">
@@ -2794,7 +2793,7 @@ weapon C
 	<health amount="30" />
 	<maxPower amount="8" />
 	<crewCount amount="2" class="ambulancechaser" />
-	<crewCount amount="1" class="engi" />
+	<crewCount amount="1" class="ambulancechaser_hologram" />
 	<aug name="EX_O2_MASKS" />
 	<aug name="EXTRA_PREP" />
 </shipBlueprint>
@@ -2872,6 +2871,80 @@ weapon C
 	<crewCount amount="1" class="ambulancechaser_elite" />
 	<crewCount amount="1" class="ambulancechaser" />
 	<aug name="RECYCLER" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_ACHASER_SHIP_3" layout="achaser_ship_3" img="achaser_ship_3">
+	<class id="text_PLAYER_SHIP_ACHASER_SHIP_3_class">Ambulance Chaser</class>
+	<name id="text_PLAYER_SHIP_ACHASER_SHIP_3_name">Self-Sustained</name>
+	<desc id="text_PLAYER_SHIP_ACHASER_SHIP_3_desc">The ambulance chaser's unique abilities allows them to see enemies without sensors and to heal themselves without medical facilities, as a result they focused on other upgrades to this ship.</desc>
+	<systemList>
+		<battery power="1" room="7" start="false" img="room_battery_9" />
+		<cloaking power="1" room="1" start="false" img="room_cloaking" />
+		<clonebay power="1" room="8" start="false">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="21" start="true" img="room_doors_4">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</doors>
+		<drones max="8" power="1" room="2" start="false" img="room_drones_5" />
+		<engines power="2" room="12" start="true" img="room_engines_8">
+			<slot>
+				<direction>left</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="18" start="false" img="room_hacking_4" />
+		<medbay power="1" room="5" start="false" img="room_medbay_3">
+			<slot>
+				<number>3</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="23" start="false" img="room_mind_3" />
+		<oxygen power="1" room="6" start="true" img="room_oxygen_19" />
+		<pilot power="2" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="15" start="false" img="room_sensors_6">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="3" room="10" start="true" img="room_shields_5">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="26" start="true" />
+		<weapons max="8" power="3" room="11" start="true" img="room_weapons_9">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="10" count="4">
+		<weapon name="ION_TRI" />
+		<weapon name="SHOTGUN_1" />
+	</weaponList>
+	<droneList drones="10" count="2" />
+	<health amount="30" />
+	<maxPower amount="10" />
+	<crewCount amount="1" class="ambulancechaser_waiter" />
+	<crewCount amount="1" class="ambulancechaser_elite" />
+	<crewCount amount="1" class="ambulancechaser_hologram" />
+	<aug name="UNION_JACKETS" />
 </shipBlueprint>
 
 <shipBlueprint name="PLAYER_SHIP_DOC_AC_COMBO" layout="doc_ac_combo" img="doc_ac_combo">
