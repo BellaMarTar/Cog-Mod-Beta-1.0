@@ -899,6 +899,7 @@
 	<power>1.5x Combat Damage, 0.4x Repair speed.</power>
 	<power>Immune to suffocation and fires and mind control.</power>
 	<power>Can see potential victims to sue for fun.</power>
+	</powerList>
 </crewBlueprint>
 
 <crewBlueprint name="ambulancechaser_waiter">
@@ -3449,6 +3450,156 @@ weapon C
 	<aug name="ADV_SCANNERS" />
 </shipBlueprint>
 
+<shipBlueprint name="PLAYER_SHIP_TIGHTWAD_2" layout="cm_tightwad_2" img="cm_tightwad_2">
+	<class id="text_PLAYER_SHIP_TIGHTWAD_2_class">Tighwad Cruiser</class>
+	<name id="text_PLAYER_SHIP_TIGHTWAD_2_name">Made in China</name>
+	<desc id="text_PLAYER_SHIP_TIGHTWAD_2_desc">Tightwads and their desire to cut back on everything possible did not shy away from creating the most "budget-friendly" ship possible, leaving off just about everything except the bare essentials.</desc>
+	<systemList>
+		<battery power="2" room="4" start="true" img="room_battery_18" />
+		<cloaking power="1" room="9" start="false" img="room_cloaking_3" />
+		<clonebay power="1" room="12" start="false">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="13" start="false" img="room_doors_2">
+			<slot>
+				<direction>down</direction>
+				<number>0</number>
+			</slot>
+		</doors>
+		<drones max="8" power="1" room="8" start="false" img="room_drones_5" />
+		<engines power="2" room="1" start="true" img="room_engines_5">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="6" start="false" img="room_hacking_2" />
+		<medbay power="1" room="12" start="false" img="room_medbay_9">
+			<slot>
+				<number>-2</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="7" start="false" img="room_mind_9" />
+		<oxygen power="1" room="5" start="true" img="room_oxygen_2" />
+		<pilot power="1" room="0" start="true" img="room_pilot_6">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="3" start="false" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="10" start="true" img="room_shields_11">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="2" start="false" />
+		<weapons max="8" power="1" room="11" start="true" img="room_weapons_8">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="1" count="3">
+		<weapon name="TRC_LASER_COMPACT" />
+		<weapon name="ION_1" />
+	</weaponList>
+	<droneList drones="1" count="2" />
+	<health amount="30" />
+	<maxPower amount="1" />
+	<crewCount amount="1" class="tightwad_hologram" />
+	<crewCount amount="1" class="tightwad_elite" />
+	<crewCount amount="1" class="tightwad_elite" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_TIGHTWAD_3" layout="cm_tightwad_3" img="cm_tightwad_3">
+	<class id="text_PLAYER_SHIP_TIGHTWAD_3_class">Tightwad</class>
+	<name id="text_PLAYER_SHIP_TIGHTWAD_3_name">Belt Loosening</name>
+	<desc id="text_PLAYER_SHIP_TIGHTWAD_3_desc">Finally, some Tightwads that will spend a little money on their ships. Now don't get too excited, they definitely still cheaped out, but they did manage to snag a decommissioned cruiser that had the blueprints for artillery. Too bad old habits die hard.</desc>
+	<systemList>
+		<artillery max="3" power="1" room="14" start="true" weapon="BEAM_LONG" img="room_artillery_4" />
+		<battery power="1" room="3" start="false" img="room_battery_8" />
+		<cloaking power="1" room="6" start="false" img="room_cloaking" />
+		<clonebay power="1" room="18" start="true">
+			<slot>
+				<number>0</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="21" start="true" img="room_doors">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="2" room="9" start="true" img="room_drones_4" />
+		<engines power="2" room="15" start="true" img="room_engines">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="10" start="false" img="room_hacking_4" />
+		<medbay power="1" room="19" start="false" img="room_medbay_7">
+			<slot>
+				<number>2</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="11" start="false" img="room_mind_11" />
+		<oxygen power="1" room="2" start="true" img="room_oxygen_4" />
+		<pilot power="1" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="20" start="true" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="5" start="true" img="room_shields_2">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="1" start="false" />
+		<weapons max="8" power="2" room="4" start="true" img="room_weapons">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="8" count="3">
+		<weapon name="BOMB_1" />
+		<weapon name="RUSTY_LASER_HEAVY_1" />
+	</weaponList>
+	<droneList drones="2" count="2">
+		<drone name="ASSAULT_PIERCE" />
+	</droneList>
+	<health amount="30" />
+	<maxPower amount="9" />
+	<aug name="ATM_MACHINE" />
+	<aug name="DRONE_RECOVERY" />
+	<crewCount amount="1" class="tightwad_waiter" />
+	<crewCount amount="1" class="tightwad_hologram" />
+	<crewCount amount="1" class="tightwad" />
+</shipBlueprint>
 
 <!--
 Lawbot Ship IDs

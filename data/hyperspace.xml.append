@@ -5198,7 +5198,14 @@
 			<tightwad room="4"/>  <!--engines-->
 			<tightwad_elite room="1"/>  <!--weapons-->
 		</crew>
-		<crewLimit>8</crewLimit>
+	</mod-append:customShip>
+	<mod-append:customShip name="PLAYER_SHIP_TIGHTWAD_2">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_SPIN_DOCTOR</hiddenAug>
+	</mod-append:customShip>
+	<mod-append:customShip name="PLAYER_SHIP_TIGHTWAD_3">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_SPIN_DOCTOR</hiddenAug>
 	</mod-append:customShip>
 	
 </mod:findLike>

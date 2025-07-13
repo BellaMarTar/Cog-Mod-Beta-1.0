@@ -49,9 +49,19 @@ CASHBOTS
 ////////////////////////////
 -->
 
-<text name="text_PLAYER_SHIP_TIGHTWAD_class">Tightwad Explorer (on a budget) TM</text>
+<text name="text_PLAYER_SHIP_TIGHTWAD_class">Tightwad Cruiser</text>
 <text name="text_PLAYER_SHIP_TIGHTWAD_name">Tight Squeeze</text>
 <text name="text_PLAYER_SHIP_TIGHTWAD_desc">The tightwads will stop at nothing to save their budgets. Even when it comes to space travel as this well below safety regulation ship shows.</text>
+
+<text name="text_PLAYER_SHIP_TIGHTWAD_2_class">Tightwad Cruiser</text>
+<text name="text_PLAYER_SHIP_TIGHTWAD_2_name">Made in China</text>
+<text name="text_PLAYER_SHIP_TIGHTWAD_2_desc">Tightwads and their desire to cut back on everything possible did not shy away from creating the most "budget-friendly" ship possible, leaving off just about everything except the bare essentials.</text>
+
+<text name="text_PLAYER_SHIP_TIGHTWAD_3_class">Tightwad Cruiser</text>
+<text name="text_PLAYER_SHIP_TIGHTWAD_3_name">Belt Loosening</text>
+<text name="text_PLAYER_SHIP_TIGHTWAD_3_desc">Finally, some Tightwads that will spend a little money on their ships. Now don't get too excited, they definitely still cheaped out, but they did manage to snag a decommissioned cruiser that had the blueprints for artillery. Too bad old habits die hard.</text>
+
+
 
 
 <!--
