@@ -713,7 +713,7 @@
 -->
 
 <crewBlueprint name="spindoctor">
-	<desc>Tier 6 Cog. These medical professionals are helpful at healing fellow crew and themselves. Despite their healing expertise they seem to be as useful as mantis to repairs strangely enough.</desc>
+	<desc>Tier 6 Cog. These medical professionals are helpful at healing fellow crew and themselves. Due to their expertise, they can also repair at a standard rate.</desc>
 	<cost>100</cost>
 	<title>Spin Doctor</title>
 	<short>Cog</short>
@@ -745,7 +745,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="spindoctor_hologram">
-	<desc>Tier 6 Cog. How can they heal you if they can't touch you. The answer? Just have you do the testing and they just watch. A whole new way of medical laziness.</desc>
+	<desc>Tier 6 Cog. How can they heal you if they can't touch you. The answer? Just have you do the testing and they just watch. A whole new method of medical laziness.</desc>
 	<cost>200</cost>
 	<title>Spin Doctor</title>
 	<short>Hologram Cog</short>
@@ -778,7 +778,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="dr_spin">
-	<desc>Dr. Spin is the most unusual of the galaxy most likely. He can heal, he just prefers not to. How does a doctor not like healing others anyway?</desc>
+	<desc>Dr. Spin is likely the most unusual of the galaxy. He can heal just like a normal Spin Doctor, it's just he just prefers not to. If forced, he will begrudgingly heal his allies. How does a doctor not like healing others anyway?</desc>
 	<cost>300</cost>
 	<title>Dr Spin</title>
 	<short>Master Cog</short>
@@ -2579,7 +2579,7 @@ weapon C
 <shipBlueprint name="PLAYER_SHIP_DOCSHIP_3" layout="spindoctor_ship_3" img="spindoctor_ship_3">
 	<class>Spin Doctor Cruiser</class>
 	<name>House Call</name>
-	<desc>Spin Doctors can actually be more harmful than helpful. This specialized boarding ship proves such claims as it has plenty of ways to murder people rather than heal.</desc>
+	<desc>Spin Doctors can actually be more harmful than helpful. This specialized boarding ship proves such claims as it has plenty of ways to murder others rather than heal.</desc>
 	<systemList>
 		<battery max="2" power="1" room="4" start="false" img="room_battery" />
 		<cloaking power="1" room="17" start="false" img="room_cloaking" />
@@ -3600,6 +3600,311 @@ weapon C
 	<crewCount amount="1" class="tightwad_hologram" />
 	<crewCount amount="1" class="tightwad" />
 </shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_NAME_DROPPER" layout="cm_name_dropper" img="cm_name_dropper">
+	<class id="text_PLAYER_SHIP_NAME_DROPPER_class">Name Dropper Cruiser</class>
+	<name id="text_PLAYER_SHIP_NAME_DROPPER_name">Drop a Line</name>
+	<desc id="text_PLAYER_SHIP_NAME_DROPPER_desc">Name Droppers do love to drop in. So much so they tend to neglect the rest of their duties just to insert themselves into the action.</desc>
+	<systemList>
+		<battery power="1" room="8" start="false" img="room_battery_2" />
+		<cloaking power="1" room="2" start="false" img="room_cloaking_3" />
+		<clonebay power="1" room="6" start="false">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="2" room="12" start="true" img="room_doors">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="1" room="4" start="false" img="room_drones_15" />
+		<engines power="2" room="7" start="true" img="room_engines_3">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="11" start="false" img="room_hacking_3" />
+		<medbay power="1" room="6" start="true" img="room_medbay_7">
+			<slot>
+				<number>2</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="10" start="false" img="room_mind_9" />
+		<oxygen power="1" room="3" start="true" img="room_oxygen_6" />
+		<pilot power="1" room="0" start="true" img="room_pilot_9">
+			<slot>
+				<direction>right</direction>
+				<number>2</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="13" start="true" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="5" start="true" img="room_shields_6">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="9" start="true" />
+		<weapons max="8" power="3" room="1" start="true" img="room_weapons_11">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="10" count="4">
+		<weapon name="MISSILES_BREACH" />
+	</weaponList>
+	<droneList drones="0" count="2" />
+	<health amount="30" />
+	<maxPower amount="9" />>
+	<crewCount amount="1" class="name_dropper" />
+	<crewCount amount="1" class="name_dropper" />
+	<crewCount amount="1" class="name_dropper" />
+	<aug name="CREW_FIREARMS" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_NAME_DROPPER_2" layout="cm_name_dropper_2" img="cm_name_dropper_2">
+	<class id="text_PLAYER_SHIP_NAME_DROPPER_2_class">Name Dropper Cruiser</class>
+	<name id="text_PLAYER_SHIP_NAME_DROPPER_2_name">Bombshell</name>
+	<desc id="text_PLAYER_SHIP_NAME_DROPPER_2_desc">As if throwing flower pots wasn't painful enough, the elites will throw entire anvils instead. With such a simple, yet effective, strategy, these elites just LOVE to drop in.</desc>
+	<systemList>
+		<battery power="1" room="8" start="false" img="room_battery_2" />
+		<cloaking power="1" room="4" start="false" img="room_cloaking_8" />
+		<clonebay power="1" room="3" start="false">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="2" room="2" start="true" img="room_doors_7">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="1" room="12" start="false" img="room_drones_18" />
+		<engines power="2" room="9" start="true" img="room_engines_3">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="7" start="false" img="room_hacking_3" />
+		<medbay power="1" room="3" start="true" img="room_medbay_4">
+			<slot>
+				<number>0</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="11" start="false" img="room_mind_11" />
+		<oxygen power="1" room="1" start="true" img="room_oxygen_20" />
+		<pilot power="1" room="0" start="true" img="room_pilot_2">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="15" start="false" img="room_sensors_8">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="10" start="true" img="room_shields">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="2" room="5" start="true" />
+		<weapons max="8" power="3" room="13" start="true" img="room_weapons">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="10" count="4">
+		<weapon name="KERNEL_1" />
+		<weapon name="SENTRY_HEAL" />
+	</weaponList>
+	<droneList drones="0" count="2" />
+	<health amount="30" />
+	<maxPower amount="10" />
+	<crewCount amount="1" class="name_dropper_elite" />
+	<crewCount amount="1" class="name_dropper_elite" />
+	<crewCount amount="1" class="name_dropper_hologram" />
+	<aug name="EX_TELEPORT_HEAL" />
+	<aug name="EX_MEDBAY_SPEED" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_NAME_DROPPER_3" layout="cm_name_dropper_3" img="cm_name_dropper_3">
+	<class id="text_PLAYER_SHIP_NAME_DROPPER_3_class">Name Dropper Cruiser</class>
+	<name id="text_PLAYER_SHIP_NAME_DROPPER_3_name">Whatsitcalled</name>
+	<desc id="text_PLAYER_SHIP_NAME_DROPPER_3_desc">An interesting fact about the Name Dropper waiters - they can't fit hand to hand, but they can throw a god damn piano if given the chance. Let's see you logic your way out of this one.</desc>
+	<systemList>
+		<battery power="1" room="4" start="false" img="room_battery_13" />
+		<cloaking power="1" room="13" start="false" img="room_cloaking_2" />
+		<clonebay power="1" room="15" start="false">
+			<slot>
+				<number>2</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="3" start="true" img="room_doors_2">
+			<slot>
+				<direction>down</direction>
+				<number>0</number>
+			</slot>
+		</doors>
+		<drones max="8" power="1" room="5" start="true" img="room_drones_4" />
+		<engines power="2" room="16" start="true" img="room_engines_3">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="12" start="false" img="room_hacking_8" />
+		<medbay power="1" room="15" start="true" img="room_medbay_14">
+			<slot>
+				<number>1</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="17" start="false" img="room_mind_7" />
+		<oxygen power="1" room="8" start="true" img="room_oxygen" />
+		<pilot power="1" room="0" start="true" img="room_pilot_2">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="7" start="true" img="room_sensors_2">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="4" room="14" start="true" img="room_shields_13">
+			<slot>
+				<direction>down</direction>
+				<number>3</number>
+			</slot>
+		</shields>
+		<teleporter power="2" room="1" start="true" />
+		<weapons max="8" power="1" room="11" start="false" img="room_weapons">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>3</droneSlots>
+	<weaponList missiles="0" count="3" />
+	<droneList drones="10" count="3">
+		<drone name="TRC_DRONE_POP" />
+		<drone name="DIVREPAIR" />
+	</droneList>
+	<health amount="30" />
+	<maxPower amount="10" />
+	<crewCount amount="1" class="name_dropper_waiter" />
+	<crewCount amount="1" class="name_dropper_waiter" />
+	<aug name="EX_FTL_JAMMER" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_SPECIALITY_CRUISER" layout="cm_speciality_cruiser" img="cm_speciality_cruiser">
+	<class id="text_PLAYER_SHIP_SPECIALITY_CRUISER_class">Specialty Cruiser</class>
+	<name id="text_PLAYER_SHIP_SPECIALITY_CRUISER_name">The Chairman</name>
+	<desc id="text_PLAYER_SHIP_SPECIALITY_CRUISER_desc">All the Cogs together for one big party of overthrowing the bosses because they wanted to. How much better can it get?</desc>
+	<systemList>
+		<artillery power="1" room="3" start="true" weapon="SHOTGUN_2" img="room_artillery_2" />
+		<artillery power="1" room="4" start="true" weapon="SHOTGUN_2" img="room_artillery" />
+		<artillery power="1" room="10" start="true" weapon="TRC_BEAM_ION" img="room_artillery" />
+		<cloaking power="1" room="22" start="true" img="room_cloaking_8" />
+		<drones power="1" room="19" start="true" img="room_drones_10" />
+		<engines power="1" room="18" start="true" img="room_engines_2">
+			<slot>
+				<direction>down</direction>
+				<number>3</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="23" start="true" img="room_hacking_6" />
+		<medbay power="1" room="1" start="true" img="room_medbay_8">
+			<slot>
+				<number>1</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="2" start="true" img="room_mind_5" />
+		<pilot power="1" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<shields power="1" room="16" start="true" img="room_shields">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="32" start="true" />
+		<weapons power="1" room="7" start="true" img="room_weapons">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>4</droneSlots>
+	<weaponList missiles="15" count="4">
+		<weapon name="SHOTGUN_PLAYER" />
+		<weapon name="SHOTGUN_PLAYER" />
+		<weapon name="SHOTGUN_PLAYER" />
+		<weapon name="SHOTGUN_PLAYER" />
+	</weaponList>
+	<droneList drones="15" count="4">
+		<drone name="TRC_DRONE_POP" />
+		<drone name="TRC_DRONE_POP" />
+		<drone name="TRC_DRONE_POP" />
+		<drone name="TRC_DRONE_POP" />
+	</droneList>
+	<health amount="50" />
+	<maxPower amount="50" />
+	<crewCount amount="1" class="jack_brie" />
+	<crewCount amount="1" class="comrade" />
+	<crewCount amount="1" class="honcho" />
+	<crewCount amount="1" class="debbie" />
+	<crewCount amount="1" class="mira" />
+	<crewCount amount="1" class="yessum" />
+	<crewCount amount="1" class="judge" />
+	<crewCount amount="1" class="lawrence" />
+	<crewCount amount="1" class="dr_spin" />
+	<crewCount amount="1" class="ac08" />
+	<crewCount amount="1" class="robert" />
+	<crewCount amount="1" class="bruce" />
+	<crewCount amount="1" class="monee" />
+	<crewCount amount="1" class="cash_crab" />
+	<crewCount amount="1" class="holiday" />
+	<crewCount amount="1" class="lily" />
+	<crewCount amount="1" class="harvey" />
+	<aug name="DRONE_RECOVERY" />
+	<aug name="ENERGY_SHIELD" />
+	<aug name="ZOLTAN_BYPASS" />
+	
+</shipBlueprint>
+
+
 
 <!--
 Lawbot Ship IDs

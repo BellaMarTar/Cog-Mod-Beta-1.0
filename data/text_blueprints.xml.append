@@ -70,6 +70,17 @@ SELLBOTS
 ////////////////////////////
 -->
 
+<text name="text_PLAYER_SHIP_NAME_DROPPER_class">Name Dropper Cruiser</text>
+<text name="text_PLAYER_SHIP_NAME_DROPPER_name">Drop a Line</text>
+<text name="text_PLAYER_SHIP_NAME_DROPPER_desc">Name Droppers do love to drop in. So much so they tend to neglect the rest of their duties just to insert themselves into the action.</text>
+
+<text name="text_PLAYER_SHIP_NAME_DROPPER_2_class">Name Dropper Cruiser</text>
+<text name="text_PLAYER_SHIP_NAME_DROPPER_2_name">Bombshell</text>
+<text name="text_PLAYER_SHIP_NAME_DROPPER_2_desc">As if throwing flower pots wasn't painful enough, the elites will throw entire anvils instead. With such a simple, yet effective, strategy, these elites just LOVE to drop in.</text>
+
+<text name="text_PLAYER_SHIP_NAME_DROPPER_3_class">Name Dropper Cruiser</text>
+<text name="text_PLAYER_SHIP_NAME_DROPPER_3_name">Whatsitcalled</text>
+<text name="text_PLAYER_SHIP_NAME_DROPPER_3_desc">An interesting fact about the Name Dropper waiters - they can't fight hand to hand, but they can throw a god damn piano if given the chance. Let's see you logic your way out of this one.</text>
 <!--
 ////////////////////////////
 SPECIAL CLASS
