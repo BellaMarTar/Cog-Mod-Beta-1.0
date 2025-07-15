@@ -3830,9 +3830,19 @@ weapon C
 		<artillery power="1" room="3" start="true" weapon="SHOTGUN_2" img="room_artillery_2" />
 		<artillery power="1" room="4" start="true" weapon="SHOTGUN_2" img="room_artillery" />
 		<artillery power="1" room="10" start="true" weapon="TRC_BEAM_ION" img="room_artillery" />
+		<battery power="1" room="13" start="true" img="room_battery_8" />
 		<cloaking power="1" room="22" start="true" img="room_cloaking_8" />
-		<drones power="1" room="19" start="true" img="room_drones_10" />
-		<engines power="1" room="18" start="true" img="room_engines_2">
+		<clonebay power="1" room="6" start="true">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="33" start="true" img="room_doors">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors><engines power="1" room="18" start="true" img="room_engines_2">
 			<slot>
 				<direction>down</direction>
 				<number>3</number>
@@ -3851,6 +3861,12 @@ weapon C
 				<number>0</number>
 			</slot>
 		</pilot>
+		<sensors power="1" room="34" start="true" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
 		<shields power="1" room="16" start="true" img="room_shields">
 			<slot>
 				<direction>left</direction>
@@ -3901,7 +3917,6 @@ weapon C
 	<aug name="DRONE_RECOVERY" />
 	<aug name="ENERGY_SHIELD" />
 	<aug name="ZOLTAN_BYPASS" />
-	
 </shipBlueprint>
 
 

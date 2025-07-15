@@ -115,6 +115,9 @@ SPECIAL CLASS
 <text name="text_COGMOD_SHIP_MINE_1_name">The Cheater</text>
 <text name="text_COGMOD_SHIP_MINE_1_desc">Fine. I will let you have just a glimpse of my power. Just this little bit. But don't think I'll let you aim such a powerful weapon yourself.</text>
 
+<text name="text_PLAYER_SHIP_SPECIALITY_CRUISER_class">Specialty Cruiser</text>
+<text name="text_PLAYER_SHIP_SPECIALITY_CRUISER_name">The Chairman</text>
+<text name="text_PLAYER_SHIP_SPECIALITY_CRUISER_desc">All the Cogs together for one big party of overthrowing the bosses because they wanted to. How much better can it get?</text>
 
 <!--
 ////////////////////////////

@@ -3303,25 +3303,25 @@
 
 <anim name="debbie_shoot_down">
 	<sheet>debbie</sheet>
-	<desc length="2" x="0" y="13"/>
+	<desc length="1" x="0" y="13"/>
 	<time>1.5</time>
 </anim>
 
 <anim name="debbie_shoot_right">
 	<sheet>debbie</sheet>
-	<desc length="2" x="0" y="13"/>
+	<desc length="1" x="0" y="13"/>
 	<time>1.5</time>
 </anim>
 
 <anim name="debbie_shoot_up">
 	<sheet>debbie</sheet>
-	<desc length="2" x="0" y="13"/>
+	<desc length="1" x="0" y="13"/>
 	<time>1.5</time>
 </anim>
 
 <anim name="debbie_shoot_left">
 	<sheet>debbie</sheet>
-	<desc length="2" x="0" y="13"/>
+	<desc length="1" x="0" y="13"/>
 	<time>1.5</time>
 </anim>
 

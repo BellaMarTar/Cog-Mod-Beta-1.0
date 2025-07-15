@@ -5149,7 +5149,7 @@
 			<unique_jerry_pony_crystal room="16" name="Jerry"/>  <!--engines-->
 		</crew>
 	</mod-append:customShip>
-
+	
 	<mod-append:ship name="COGMOD_SHIP_MINE_1" b="false" c="false"/>	
 	<mod-append:customShip name="COGMOD_SHIP_MINE_1">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
@@ -5193,7 +5193,13 @@
 	<mod-append:customShip name="PLAYER_SHIP_SPECIALITY_CRUISER">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<hiddenAug>SHIP_SPIN_DOCTOR</hiddenAug>
-		<crewLimit>15</crewLimit>
+		<crewLimit>50</crewLimit>
+		<systemLimit>15</systemLimit>
+		<customReactor maxLevel="50">
+			<baseCost>15</baseCost>
+			<increment>5</increment>
+			<overrideCost coloumn="1">30</overrideCost>
+		</customReactor>
 	</mod-append:customShip>
 	
 	<mod-append:ship name="PLAYER_SHIP_TIGHTWAD" b="true" c="true" secret="false"/>
