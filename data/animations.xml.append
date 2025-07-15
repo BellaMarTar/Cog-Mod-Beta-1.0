@@ -3303,25 +3303,25 @@
 
 <anim name="debbie_shoot_down">
 	<sheet>debbie</sheet>
-	<desc length="7" x="0" y="13"/>
+	<desc length="2" x="0" y="13"/>
 	<time>1.5</time>
 </anim>
 
 <anim name="debbie_shoot_right">
 	<sheet>debbie</sheet>
-	<desc length="7" x="0" y="15"/>
+	<desc length="2" x="0" y="13"/>
 	<time>1.5</time>
 </anim>
 
 <anim name="debbie_shoot_up">
 	<sheet>debbie</sheet>
-	<desc length="7" x="0" y="14"/>
+	<desc length="2" x="0" y="13"/>
 	<time>1.5</time>
 </anim>
 
 <anim name="debbie_shoot_left">
 	<sheet>debbie</sheet>
-	<desc length="7" x="0" y="16"/>
+	<desc length="2" x="0" y="13"/>
 	<time>1.5</time>
 </anim>
 
@@ -3397,7 +3397,7 @@
 <!-- every crewmember uses this -->
 <anim name="crewLaser">
 	<sheet>debbie</sheet>
-	<desc length="1" x="1" y="0"/>
+	<desc length="1" x="1" y="1"/>
 	<time>0.5</time>
 </anim>
 

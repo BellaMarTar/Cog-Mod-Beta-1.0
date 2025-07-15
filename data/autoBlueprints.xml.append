@@ -42,37 +42,65 @@
 	<aug name="NANOBOT_DEFENSE_SYSTEM_2" />
 </shipBlueprint>
 
-<shipBlueprint name="COG_SHOP_GUARD1" layout="cm_cog_guard1" img="cm_cog_guard1">
-	<class id="text_COG_SHOP_GUARD1_class">Cog Guard</class>
+<shipBlueprint name="COG_PIRATE_START" layout="cm_cog_pirate_start" img="cm_cog_pirate_start">
+	<class id="text_cm_cog_pirate_start_class">Cog Pirate</class>
 	<minSector>1</minSector>
-	<maxSector>2</maxSector>
+	<maxSector>8</maxSector>
 	<systemList>
-		<cloaking power="1" max="2" room="8" start="false" />
-		<clonebay power="2" max="2" room="5" start="true" />
-		<doors power="2" max="3" room="7" start="true" />
-		<drones power="5" max="5" room="10" start="true" />
-		<engines power="2" max="4" room="9" start="true" />
-		<hacking power="1" max="1" room="4" start="true" />
-		<medbay power="1" max="1" room="5" start="false" />
-		<mind power="1" max="1" room="1" start="true" />
-		<oxygen power="1" max="1" room="6" start="true" />
-		<pilot power="2" max="2" room="0" start="true" />
-		<shields power="4" max="4" room="3" start="true" />
-		<teleporter power="2" max="2" room="11" start="true" />
-		<weapons power="5" max="5" room="2" start="true" />
+		<cloaking power="1" max="1" room="4" start="false" />
+		<doors power="2" max="3" room="3" start="true" />
+		<drones power="1" max="1" room="2" start="false" />
+		<engines power="2" max="2" room="7" start="true" />
+		<medbay power="1" max="1" room="5" start="true" />
+		<oxygen power="1" max="1" room="9" start="true" />
+		<pilot power="1" max="1" room="0" start="true" />
+		<shields power="2" max="2" room="6" start="true" />
+		<teleporter power="1" max="1" room="8" start="true" />
+		<weapons power="4" max="4" room="1" start="true" />
 	</systemList>
 	<weaponSlots>4</weaponSlots>
 	<droneSlots>2</droneSlots>
-	<weaponList missiles="10" count="4" load="LIST_WEAPONS_REBEL" />
-	<droneList drones="10" count="2" load="MV_DRONES_COMBAT" />
-	<health amount="11" />
-	<maxPower amount="22" />
+	<weaponList missiles="10" count="4" load="LIST_WEAPONS_ENGI" />
+	<droneList drones="10" count="2" load="LIST_DRONES_FED" />
+	<health amount="10" />
+	<maxPower amount="10" />
 	<crewCount amount="1" class="LIST_COG_RANDOM" />
 	<crewCount amount="1" class="LIST_COG_RANDOM" />
 	<crewCount amount="1" class="LIST_COG_RANDOM" />
 	<boardingAI>sabotage</boardingAI>
-	<aug name="BACKUP_DNA" />
-	<aug name="ION_ARMOR" />
+	<aug name="CREW_FIREARMS" />
+</shipBlueprint>
+
+<shipBlueprint name="COG_SHOP_GUARD1" layout="cm_cog_guard1" img="cm_cog_guard1">
+	<class id="text_COG_SHOP_GUARD1_class">Cog Guard</class>
+	<minSector>1</minSector>
+	<maxSector>1</maxSector>
+	<systemList>
+		<battery power="1" max="1" room="8" start="true" />
+		<doors power="1" max="1" room="5" start="true" />
+		<drones power="1" max="3" room="2" start="true" />
+		<hacking power="1" max="1" room="7" start="false" />
+		<engines power="1" max="4" room="11" start="true" />
+		<medbay power="2" max="2" room="3" start="true" />
+		<mind power="1" max="3" room="7" start="true" />
+		<oxygen power="1" max="1" room="0" start="false" />
+		<pilot power="1" max="1" room="2" start="true" />
+		<shields power="4" max="4" room="10" start="true" />
+		<teleporter power="1" max="1" room="1" start="true" />
+		<weapons power="5" max="4" room="6" start="true" />
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="10" count="4" load="LIST_WEAPONS_HACKER" />
+	<droneList drones="10" count="2" load="MV_DRONES_COMBAT" />
+	<health amount="10" />
+	<maxPower amount="11" />
+	<crewCount amount="1" class="LIST_COG_RANDOM" />
+	<crewCount amount="1" class="LIST_COG_RANDOM" />
+	<crewCount amount="1" class="LIST_COG_RANDOM" />
+	<boardingAI>sabotage</boardingAI>
+	<aug name="ANCIENT_PROTECTANT" />
+	<aug name="BATTERY_BOOSTER" />
 </shipBlueprint>
 
 <shipBlueprint name="CM_COG_GUARD2" layout="cm_cogship2" img="cm_cogship2">
@@ -161,6 +189,10 @@
 
 <blueprintList name="LIST_SHIPS_COG_MOD_START">
 	<name>COG_SHOP_GUARD1</name>
+</blueprintList>
+
+<blueprintList name="LIST_SHIPS_COG_MOD_PIRATE_COG_START">
+	<name>COG_PIRATE_START</name>
 </blueprintList>
 
 <blueprintList name="LIST_SHIPS_COG_MOD_END">
@@ -1301,10 +1333,10 @@
 	<name>backstabber_elite</name>
 	<name>backstabber_waiter</name>
 	<name>backstabber_hologram</name>
-	<name>achaser</name>
-	<name>achaser_elite</name>
-	<name>achaser_waiter</name>
-	<name>achaser_hologram</name>
+	<name>ambulancechaser</name>
+	<name>ambulancechaser_elite</name>
+	<name>ambulancechaser_waiter</name>
+	<name>ambulancechaser_hologram</name>
 	<name>double_talker</name>
 	<name>double_talker_elite</name>
 	<name>double_talker_hologram</name>
