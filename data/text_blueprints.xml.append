@@ -36,13 +36,24 @@ LAWBOTS
 <text name="text_PLAYER_SHIP_ACHASER_SHIP_desc">The Ambulance Chaser are a funny sort of Cog. While they are great at lawyering up, they aren't so smart with ships. This ship has a big missile launcher... and thats it. Oops.</text>
 
 <text name="text_achaser_ship_class">Ambulance Chaser Cruiser</text>
-<text name="text_PLAYER_SHIP_CLAIRVOYANT_2_name">Full Coverage</text>
+<text name="text_achaser_ship_2_name">Full Coverage</text>
 <text name="text_achaser_ship_desc">Elite Ambulance Chasers tend to break the rules a little more than the rest. As such, they didn't even bother having a medbay, opting for a clonebay instead. Oh, and fire weapons too.</text>
 
 <text name="text_PLAYER_SHIP_ACHASER_SHIP_3_class">Ambulance Chaser</text>
 <text name="text_PLAYER_SHIP_ACHASER_SHIP_3_name">Self-Sustained</text>
 <text name="text_PLAYER_SHIP_ACHASER_SHIP_3_desc">The Ambulance Chaser's unique abilities allows them to see enemies without sensors and to heal themselves without medical facilities, as a result they focused on other upgrades to this ship.</text>
 
+<text name="text_PLAYER_SHIP_BIGWIG_class">Big Wig Cruiser</text>
+<text name="text_PLAYER_SHIP_BIGWIG_name">The Lobbyist</text>
+<text name="text_PLAYER_SHIP_BIGWIG_desc">The law is the law. You can't get them to see it any other way... unless you have some scrap that falls into their pockets.</text>
+
+<text name="text_PLAYER_SHIP_BIGWIG_2_class">Big Wig Cruiser</text>
+<text name="text_PLAYER_SHIP_BIGWIG_2_name">Resignation</text>
+<text name="text_PLAYER_SHIP_BIGWIG_2_desc">No one has more patience than the Big Wigs. As if to prove a point, this ship can only shut off systems and damages crew. No hull damage.</text>
+
+<text name="text_PLAYER_SHIP_BIGWIG_3_class">Big Wig Cruiser</text>
+<text name="text_PLAYER_SHIP_BIGWIG_3_name">Long Arm</text>
+<text name="text_PLAYER_SHIP_BIGWIG_3_desc">While Big Wigs technically aren't always judges, sometimes they are. Or sometimes they just feel like murdering others for the hell of it. You won't know which till they decide.</text>
 <!--
 ////////////////////////////
 CASHBOTS
@@ -62,7 +73,17 @@ CASHBOTS
 <text name="text_PLAYER_SHIP_TIGHTWAD_3_desc">Finally, some Tightwads that will spend a little money on their ships. Now don't get too excited, they definitely still cheaped out, but they did manage to snag a decommissioned cruiser that had the blueprints for artillery. Too bad old habits die hard.</text>
 
 
+<text name="text_PLAYER_SHIP_ROBBER_BARON_class">Robber Baron Cruiser</text>
+<text name="text_PLAYER_SHIP_ROBBER_BARON_name">J P Morge</text>
+<text name="text_PLAYER_SHIP_ROBBER_BARON_desc">Spare no expense in the art of war. These Robber Barons are out for oil, and they aren't afraid to cut off some of that budget restraint to get it. Unfortunately, they spent it all on the ship itself and not more crew. Call it an investment.</text>
 
+<text name="text_PLAYER_SHIP_ROBBER_BARON_2_class">Robber Baron Cruiser</text>
+<text name="text_PLAYER_SHIP_ROBBER_BARON_2_name">The Made'Off</text>
+<text name="text_PLAYER_SHIP_ROBBER_BARON_2_desc">The elite Robber Barons were kind enough to 'repossess' a weapon with interesting effects. Put it to good use and it should make up for the lack luster ship it comes with.</text>
+
+<text name="text_PLAYER_SHIP_ROBBER_BARON_3_class">Robber Baron Cruiser</text>
+<text name="text_PLAYER_SHIP_ROBBER_BARON_3_name">Load of Croc</text>
+<text name="text_PLAYER_SHIP_ROBBER_BARON_3_desc">Finally, a ship that can fight. Who needs anything else but fighting power. One problem. Where's the Robber Barons? Only two waiters showed up to duty...</text>
 
 <!--
 ////////////////////////////
