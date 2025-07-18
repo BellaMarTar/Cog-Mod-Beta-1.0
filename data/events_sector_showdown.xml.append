@@ -112,9 +112,9 @@
 	</mod-append:choice>
 
 	<mod-append:choice req="queen" blue="true" hidden="true">
-		<text>Ask The Controller about this.</text>
+		<text>Ask The Queen about this.</text>
 			<event>
-				<text>To be honest, I don't care. Like my husband said, its a game. We both know that and so do you. But for me. It's a bit refreshing to see mortality again, but also who knows how many times you've beaten the true ending anyways. Maybe its your hundredth but do you still remember your first? Do you really remember? My husband is pretty damn powerful, but even he will, privately, admit he doesn't really know you. He just wants to make sure your head doesn't get too big.</text>
+				<text>To be honest, I don't care. Like my husband said, its a game. We both know that and so do you. But for me. It's a bit refreshing to see mortality again, but also who knows how many times you've beaten the true ending anyways. Maybe its your hundredth but do you still remember your first? Do you really remember? My husband is pretty damn powerful, but even he will, privately, admit he doesn't really know you. He just wants to make sure your head doesn't get too big. While it doesn't matter to either of us what you do since this game will begin again regardless... Na morte vem uma nova vida...</text>
 				<choice hidden="true">
 					<text>Continue...</text>
 					<event load="TRUE_VICTORY_LOAD"/>
