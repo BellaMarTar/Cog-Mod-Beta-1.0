@@ -100,6 +100,83 @@
 			</event>
 	</mod-append:choice>
 
+	<mod-append:choice req="dr_spin" blue="true" hidden="true">
+		<text>Ask Dr. Spin about this.</text>
+			<event>
+				<text>"I must say I would never think of saying I would be ready to die for a cause not for my people... however it partially does involve my people too. Truly I am shocked by what you have proven to me. Due to this fact... I believe I can support either choice you make captain." You sense he rather not die over this, but you also know he is self preserving, so perhaps he hasn't grasped the idea of other hims from other multiverses.</text>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event load="TRUE_VICTORY_LOAD"/>
+				</choice>
+			</event>
+	</mod-append:choice>
+	
+	<mod-append:choice req="monee" blue="true" hidden="true">
+		<text>Ask Monee about this.</text>
+			<event>
+				<text>You find Monee in his room counting his bills carefully and pushing a few gems around before he looks toward you. "Can we buy our way out of this?"</text>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event load="TRUE_VICTORY_LOAD"/>
+				</choice>
+			</event>
+	</mod-append:choice>
+	
+	<mod-append:choice req="harvey" blue="true" hidden="true">
+		<text>Ask Harvey about this.</text>
+			<event>
+				<text>"Captain, I truly don't want to die here. I have yet to bring back a forgotten era back to our times. Can we postpone this until the general populous starts to return to this beautiful era of disco balls and laser light shows?"</text>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event load="TRUE_VICTORY_LOAD"/>
+				</choice>
+			</event>
+	</mod-append:choice>
+	
+	<mod-append:choice req="debbie" blue="true" hidden="true">
+		<text>Ask Debbie about this.</text>
+			<event>
+				<text>"This would be one hell of a downsize to their power! Ha!" She beams but after a moment with you two alone she frowns again. "Captain, I've heard the pun all my life, but I hate to be a debbie downer but is our deaths really going to stop this nightmare?"</text>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event load="TRUE_VICTORY_LOAD"/>
+				</choice>
+			</event>
+	</mod-append:choice>
+
+	<mod-append:choice req="mira" blue="true" hidden="true">
+		<text>Ask Mira about this.</text>
+			<event>
+				<text>Mira is sitting in her room and when you enter, she jesters to the seat beside her. Once sat, she takes off her glasses for the first time and sets them on the table. She looks like every other Micromanager without them. Mira then sets her memory stick in front of you. "I know too much. If we are to die... set this off on me. I don't want to know how we got here before we die."</text>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event load="TRUE_VICTORY_LOAD"/>
+				</choice>
+			</event>
+	</mod-append:choice>
+	
+	<mod-append:choice req="ac08" blue="true" hidden="true">
+		<text>Ask AC about this.</text>
+			<event>
+				<text>"I suppose I can't outrun this one captain. No matter. There is billions of other Ambulance Chasers to pick up the massive slack my absence will cause. Do what you feel is right." It wouldn't be right if there wasn't just a little ego coming from an Ambulance Chaser..</text>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event load="TRUE_VICTORY_LOAD"/>
+				</choice>
+			</event>
+	</mod-append:choice>
+	
+	<mod-append:choice req="yessum" blue="true" hidden="true">
+		<text>Ask Yessum about this.</text>
+			<event>
+				<text>"Holy hell NO! Why the hell should we die for this? Screw them all! It's their damn faults anyways. Look Captain. I will stand with you to the bitter end but if you detonate that thing, I will strangle you until we vaporize."</text>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event load="TRUE_VICTORY_LOAD"/>
+				</choice>
+			</event>
+	</mod-append:choice>
+	
 	<mod-append:choice req="controller" blue="true" hidden="true">
 		<text>Ask The Controller about this.</text>
 			<event>
@@ -121,22 +198,22 @@
 				</choice>
 			</event>
 	</mod-append:choice>
-
-	<mod-append:choice req="dr_spin" blue="true" hidden="true">
-		<text>Ask Dr. Spin about this.</text>
+	
+	<mod-append:choice req="herobrine" blue="true" hidden="true">
+		<text>Ask Herobrine about this.</text>
 			<event>
-				<text>"I must say I would never think of saying I would be ready to die for a cause not for my people... however it partially does involve my people too. Truly I am shocked by what you have proven to me. Due to this fact... I believe I can support either choice you make captain." You sense he rather not die over this, but you also know he is self preserving, so perhaps he hasn't grasped the idea of other hims from other multiverses.</text>
+				<text>The game never ends. Legends never die. I will be around forever. You... well... you'll be gone, but you get the point right? Right?</text>
 				<choice hidden="true">
 					<text>Continue...</text>
 					<event load="TRUE_VICTORY_LOAD"/>
 				</choice>
 			</event>
 	</mod-append:choice>
-
-	<mod-append:choice req="ac08" blue="true" hidden="true">
-		<text>Ask AC about this.</text>
+	
+	<mod-append:choice req="dr_spin_eldritch" blue="true" hidden="true">
+		<text>Ask Dr. Spin about this.</text>
 			<event>
-				<text>"I suppose I can't outrun this one captain. No matter. There is billions of other Ambulance Chasers to pick up the massive slack my absence will cause. Do what you feel is right." It wouldn't be right if there wasn't just a little ego coming from an Ambulance Chaser..</text>
+				<text>Not bad kid. I wasn't paying attention though. Was this easy or hard mode? Ha, good one right? It's always easy mode when we're involved. I say do the opposite of what you normally do. Just to mix it up some.</text>
 				<choice hidden="true">
 					<text>Continue...</text>
 					<event load="TRUE_VICTORY_LOAD"/>
