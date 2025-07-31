@@ -3099,7 +3099,7 @@ weapon C
 
 <shipBlueprint name="PLAYER_SHIP_COG_RANDOM_2" layout="mup_cog_random_b" img="mup_cog_random_b">
 	<class>Random Cruiser</class>
-	<name>Cog Supply Run</name>
+	<name>Cog Supply Run II</name>
 	<desc>The next generation of supply ship. Only Elites and up are allowed to be on board. Once again, the systems are underdeveloped. Even worse is that the ship has less health. The good news is this ship can handle more power to the weapons.. if you can handle the reactor limit anyways.</desc>
 	<systemList>
 		<artillery power="1" room="4" start="false" weapon="ARTILLERY_FED" img="room_artillery_2" />
@@ -3173,7 +3173,7 @@ weapon C
 
 <shipBlueprint name="PLAYER_SHIP_COG_RANDOM_3" layout="mup_cog_random_c" img="mup_cog_random_c">
 	<class>Random Cruiser</class>
-	<name>Cog Supply Run</name>
+	<name>Cog Supply Run III</name>
 	<desc>The final delivery ship. This one is special because you get one of the Cog Head's with their trusty waiter staff. Well one waiter staff. Its also the most fragile of the 3 so keep her steady, won't you?</desc>
 	<systemList>
 		<artillery power="1" room="4" start="false" weapon="ARTILLERY_FED" img="room_artillery_2" />

@@ -120,7 +120,7 @@ SPECIAL CLASS
 -->
 
 <text name="text_PLAYER_SHIP_SPINDOCTOR_ELITE_class">Dr Spin'S Cruiser</text>
-<text name="text_PLAYER_SHIP_SPINDOCTOR_ELITE_name">The Oppessor Mk III</text>
+<text name="text_PLAYER_SHIP_SPINDOCTOR_ELITE_name">The Oppressor Mk III</text>
 <text name="text_PLAYER_SHIP_SPINDOCTOR_ELITE_desc">Dr Spin has entrusted you with his personal ship after you managed to prove that you are loyal enough to the Spin Doctors to earn it. Use it well, it carries lots of flak.</text>
 
 <text name="text_PLAYER_SHIP_DOC_AC_COMBO_class">Medical Cruiser</text>
@@ -132,11 +132,11 @@ SPECIAL CLASS
 <text name="text_PLAYER_SHIP_COG_RANDOM_desc">This Cog Cruiser was not built with any set plan for its weapons. As such, you will be permitted a random duo of weapons. The Cog Nation hopes you understand the underdeveloped systems.</text>
 
 <text name="text_PLAYER_SHIP_COG_RANDOM_B_class">Random Cruiser</text>
-<text name="text_PLAYER_SHIP_COG_RANDOM_B_name">Cog Supply Run</text>
+<text name="text_PLAYER_SHIP_COG_RANDOM_B_name">Cog Supply Run II</text>
 <text name="text_PLAYER_SHIP_COG_RANDOM_B_desc">The next generation of supply ship. Only Elites and up are allowed to be on board. Once again, the systems are underdeveloped. Even worse is that the ship has less health. The good news is this ship can handle more power to the weapons.. if you can handle the reactor limit anyways.</text>
 
 <text name="text_PLAYER_SHIP_COG_RANDOM_C_class">Random Cruiser</text>
-<text name="text_PLAYER_SHIP_COG_RANDOM_C_name">Cog Supply Run</text>
+<text name="text_PLAYER_SHIP_COG_RANDOM_C_name">Cog Supply Run III</text>
 <text name="text_PLAYER_SHIP_COG_RANDOM_C_desc">The final delivery ship. This one is special because you get one of the Cog Head's with their trusty waiter staff. Well one waiter staff. Its also the most fragile of the 3 so keep her steady won't you?</text>
 
 <text name="text_doc_elderich_class">God Class</text>
