@@ -3752,7 +3752,7 @@ weapon C
 <shipBlueprint name="PLAYER_SHIP_NAME_DROPPER_3" layout="cm_name_dropper_3" img="cm_name_dropper_3">
 	<class id="text_PLAYER_SHIP_NAME_DROPPER_3_class">Name Dropper Cruiser</class>
 	<name id="text_PLAYER_SHIP_NAME_DROPPER_3_name">Whatsitcalled</name>
-	<desc id="text_PLAYER_SHIP_NAME_DROPPER_3_desc">An interesting fact about the Name Dropper waiters - they can't fit hand to hand, but they can throw a god damn piano if given the chance. Let's see you logic your way out of this one.</desc>
+	<desc id="text_PLAYER_SHIP_NAME_DROPPER_3_desc">An interesting fact about the Name Dropper waiters - they can't fight hand to hand, but they can throw a god damn piano if given the chance. Let's see you logic your way out of this one.</desc>
 	<systemList>
 		<battery power="1" room="4" start="false" img="room_battery_13" />
 		<cloaking power="1" room="13" start="false" img="room_cloaking_2" />
@@ -4198,7 +4198,7 @@ weapon C
 <shipBlueprint name="PLAYER_SHIP_BIGWIG_3" layout="bigwig_cruiser_3" img="bigwig_cruiser_3">
 	<class id="text_PLAYER_SHIP_BIGWIG_3_class">Big Wig Cruiser</class>
 	<name id="text_PLAYER_SHIP_BIGWIG_3_name">Long Arm</name>
-	<desc id="text_PLAYER_SHIP_BIGWIG_3_desc">While Big Wigs technically aren't always judges, sometimes they are. Or sometimes they just feel like murdering others for the hell of it. You won't know which till they decide.</desc>
+	<desc id="text_PLAYER_SHIP_BIGWIG_3_desc">While Big Wigs are technically judges, sometimes they are lawyers. Sometimes they are very helpful for the population. Or sometimes they just feel like murdering others for the hell of it. You won't know how they are feeling until its too late.</desc>
 	<systemList>
 		<battery power="2" room="4" start="false" img="room_battery_9" />
 		<cloaking power="1" room="9" start="false" img="room_cloaking_3" />
@@ -4271,6 +4271,227 @@ weapon C
 	<crewCount amount="1" class="bigwig_elite" />
 	<crewCount amount="1" class="bigwig" />
 	<aug name="EX_EXPLOSIVE_REPLICATOR" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_MICROMANAGER" layout="micromanager_ship_1" img="micromanager_ship_1">
+	<class id="text_PLAYER_SHIP_MICROMANAGER_class">Micromanager Cruiser</class>
+	<name id="text_PLAYER_SHIP_MICROMANAGER_name">Compensation</name>
+	<desc id="text_PLAYER_SHIP_MICROMANAGER_desc">Micromanagers desperately try to hide the fact that they're such short little things. This ship is massive. Too massive honestly. Its like putting a liftkit on a truck while being as tall as... well a Micromanager.</desc>
+	<systemList>
+		<battery power="1" room="8" start="false" img="room_battery_18" />
+		<cloaking power="1" room="18" start="false" img="room_cloaking" />
+		<clonebay power="1" room="16" start="false">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="19" start="true" img="room_doors">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="1" room="13" start="false" img="room_drones" />
+		<engines power="2" room="17" start="true" img="room_engines">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="11" start="false" img="room_hacking_10" />
+		<medbay power="2" room="16" start="true" img="room_medbay">
+			<slot>
+				<number>1</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="15" start="false" img="room_mind" />
+		<oxygen power="1" room="10" start="true" img="room_oxygen_2" />
+		<pilot power="1" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="12" start="true" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="3" room="14" start="true" img="room_shields">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="9" start="false" />
+		<weapons max="8" power="2" room="7" start="true" img="room_weapons">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="0" count="4">
+		<weapon name="LASER_HEAVY_1_SP" />
+		<weapon name="LASER_HEAVY_1_SP" />
+	</weaponList>
+	<droneList drones="0" count="2" />
+	<health amount="30" />
+	<maxPower amount="7" />
+	<crewCount amount="1" class="micromanager" />
+	<crewCount amount="1" class="micromanager" />
+	<crewCount amount="1" class="micromanager_hologram" />
+	<aug name="LIFE_SCANNER" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_MICROMANAGER_2" layout="micromanager_ship_2" img="micromanager_ship_2">
+	<class id="text_PLAYER_SHIP_MICROMANAGER_2_class">Micromanager Cruiser</class>
+	<name id="text_PLAYER_SHIP_MICROMANAGER_2_name">Acceptance</name>
+	<desc id="text_PLAYER_SHIP_MICROMANAGER_2_desc">Not all Micromanagers dislike their height. In fact some believe it's a key advantage in battle. This snug cruiser certainly fits the bill.</desc>
+	<systemList>
+		<battery power="1" room="9" start="false" img="room_battery_3_5" />
+		<cloaking power="1" room="8" start="false" img="room_cloaking" />
+		<clonebay power="1" room="3" start="false">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="2" start="true" img="room_doors">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones  max="8" power="1" room="11" start="false" img="room_drones_13" />
+		<engines power="3" room="12" start="true" img="room_engines_5">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="13" start="false" img="room_hacking_2" />
+		<medbay power="1" room="4" start="true" img="room_medbay_9">
+			<slot>
+				<number>-2</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="5" start="false" img="room_mind_3" />
+		<oxygen power="1" room="15" start="true" img="room_oxygen_2" />
+		<pilot power="1" room="0" start="true" img="room_pilot_2">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="1" start="true" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields  max="8" power="2" room="7" start="true" img="room_shields_13">
+			<slot>
+				<direction>down</direction>
+				<number>3</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="6" start="false" />
+		<weapons  max="8" power="3" room="10" start="true" img="room_weapons">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="10" count="4">
+		<weapon name="BEAM_HULL" />
+		<weapon name="BOMB_ION" />
+	</weaponList>
+	<droneList drones="0" count="2" />
+	<health amount="30" />
+	<maxPower amount="9" />
+	<crewCount amount="1" class="micromanager_elite" />
+	<crewCount amount="1" class="micromanager_elite" />
+	<crewCount amount="1" class="micromanager_hologram" />
+	<aug name="SHIELD_RECHARGE" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_MICROMANAGER_3" layout="micromanager_ship_3" img="micromanager_ship_3">
+	<class id="text_PLAYER_SHIP_MICROMANAGER_3_class">Micromanager Cruiser</class>
+	<name id="text_PLAYER_SHIP_MICROMANAGER_3_name">Managed Control</name>
+	<desc id="text_PLAYER_SHIP_MICROMANAGER_3_desc">This ship is the answer to the Micromanager's biggest question of "How can I others do all the work for me so I can sit back and critique on how they suck at it?" The answer has been presented for you</desc>
+	<systemList>
+		<battery power="1" room="8" start="false" img="room_battery_4" />
+		<cloaking power="1" room="4" start="false" img="room_cloaking_3" />
+		<clonebay power="1" room="7" start="false">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="18" start="false" img="room_doors">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="3" room="1" start="true" img="room_drones" />
+		<engines power="2" room="15" start="true" img="room_engines_2">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="5" start="false" img="room_hacking_8" />
+		<medbay power="1" room="7" start="true" img="room_medbay">
+			<slot>
+				<number>1</number>
+			</slot>
+		</medbay>
+		<mind power="2" room="9" start="true" img="room_mind_5" />
+		<oxygen power="1" room="12" start="true" img="room_oxygen_21" />
+		<pilot power="1" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="2" room="17" start="true" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="2" start="true" img="room_shields">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="16" start="false" />
+		<weapons max="8" power="1" room="3" start="false" img="room_weapons">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>3</droneSlots>
+	<weaponList missiles="0" count="3" />
+	<droneList drones="5" count="3">
+		<drone name="TRC_THUNDER_1_BREACH" />
+	</droneList>
+	<health amount="30" />
+	<maxPower amount="8" />
+	<crewCount amount="1" class="micromanager_hologram" />
+	<crewCount amount="1" class="micromanager_elite" />
+	<crewCount amount="1" class="micromanager_waiter" />
+	<aug name="DRONE_RECOVERY" />
 </shipBlueprint>
 
 <shipBlueprint name="PLAYER_SHIP_SPECIALITY_CRUISER" layout="cm_speciality_cruiser" img="cm_speciality_cruiser">

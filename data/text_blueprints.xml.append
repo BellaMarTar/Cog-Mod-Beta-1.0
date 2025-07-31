@@ -13,6 +13,17 @@ BOSSBOTS
 ////////////////////////////
 -->
 
+<text name="text_PLAYER_SHIP_MICROMANAGER_class">Micromanager Cruiser</text>
+<text name="text_PLAYER_SHIP_MICROMANAGER_name">Compensation</text>
+<text name="text_PLAYER_SHIP_MICROMANAGER_desc">Micromanagers desperately try to hide the fact that they're such short little things. This ship is massive. Too massive honestly. Its like putting a liftkit on a truck while being as tall as... well a Micromanager.</text>
+
+<text name="text_PLAYER_SHIP_MICROMANAGER_2_class">Micromanager Cruiser</text>
+<text name="text_PLAYER_SHIP_MICROMANAGER_2_name">Acceptance</text>
+<text name="text_PLAYER_SHIP_MICROMANAGER_2_desc">Not all Micromanagers dislike their height. In fact some believe it's a key advantage in battle. This snug cruiser certainly fits the bill.</text>
+
+<text name="text_PLAYER_SHIP_MICROMANAGER_3_class">Micromanager Cruiser</text>
+<text name="text_PLAYER_SHIP_MICROMANAGER_3_name">Managed Control</text>
+<text name="text_PLAYER_SHIP_MICROMANAGER_3_desc">This ship is the answer to the Micromanager's biggest question of "How can I others do all the work for me so I can sit back and critique on how they suck at it?" The answer has been presented for you</text>
 <!--
 ////////////////////////////
 LAWBOTS
@@ -53,7 +64,7 @@ LAWBOTS
 
 <text name="text_PLAYER_SHIP_BIGWIG_3_class">Big Wig Cruiser</text>
 <text name="text_PLAYER_SHIP_BIGWIG_3_name">Long Arm</text>
-<text name="text_PLAYER_SHIP_BIGWIG_3_desc">While Big Wigs technically aren't always judges, sometimes they are. Or sometimes they just feel like murdering others for the hell of it. You won't know which till they decide.</text>
+<text name="text_PLAYER_SHIP_BIGWIG_3_desc">While Big Wigs are technically judges, sometimes they are lawyers. Sometimes they are very helpful for the population. Or sometimes they just feel like murdering others for the hell of it. You won't know how they are feeling until its too late.</text>
 <!--
 ////////////////////////////
 CASHBOTS

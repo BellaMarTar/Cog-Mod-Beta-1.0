@@ -4937,7 +4937,7 @@
 		<mod-append:empty/> <!--Page 1-->
 		<mod-append:empty/>
 		<mod-append:empty/>
-		<mod-append:empty/>
+		<mod-append:ship>PLAYER_SHIP_MICROMANAGER</mod-append:ship>
 		<mod-append:empty/>
 		<mod-append:empty/>
 		<mod-append:empty/>
@@ -5023,6 +5023,23 @@
 		<crewLimit>15</crewLimit>
 	</mod-append:customShip>
 
+	<mod-append:ship name="PLAYER_SHIP_MICROMANAGER" b="true" c="true" secret="false"/>
+	<mod-append:customShip name="PLAYER_SHIP_MICROMANAGER">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_SPIN_DOCTOR</hiddenAug>
+		<crewLimit>10</crewLimit>
+	</mod-append:customShip>
+	<mod-append:customShip name="PLAYER_SHIP_MICROMANAGER_2">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_SPIN_DOCTOR</hiddenAug>
+		<crewLimit>6</crewLimit>
+	</mod-append:customShip>
+	<mod-append:customShip name="PLAYER_SHIP_MICROMANAGER_3">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_SPIN_DOCTOR</hiddenAug>
+		<crewLimit>8</crewLimit>
+	</mod-append:customShip>
+	
 	<mod-append:ship name="PLAYER_SHIP_SPINDOCTOR_ELITE" b="false" c="false"/>
 	<mod-append:customShip name="PLAYER_SHIP_SPINDOCTOR_ELITE">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
