@@ -5336,4 +5336,8 @@
 	
 	</events>
 	
+<scripts>	
+	<!-- Scripts for functionality used throughout the mod -->
+	<script>data/cm_scripts/events.lua</script>
+</scripts>
 </FTL>

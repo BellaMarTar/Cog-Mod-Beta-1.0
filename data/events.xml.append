@@ -62,7 +62,7 @@
 														<event>
 														<ship hostile="true"/>
 															<choice hidden="true">
-																<text>Continue...</text>
+																<text>Correct.</text>
 																<event load="COMBAT_CHECK"/>
 															</choice>
 														</event>
