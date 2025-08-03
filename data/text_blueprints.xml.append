@@ -54,6 +54,30 @@ LAWBOTS
 ////////////////////////////
 -->
 
+<text name="text_PLAYER_SHIP_BIGWIG_class">Big Wig Cruiser</text>
+<text name="text_PLAYER_SHIP_BIGWIG_name">The Lobbyist</text>
+<text name="text_PLAYER_SHIP_BIGWIG_desc">The law is the law. You can't get them to see it any other way... unless you have some scrap that falls into their pockets.</text>
+
+<text name="text_PLAYER_SHIP_BIGWIG_2_class">Big Wig Cruiser</text>
+<text name="text_PLAYER_SHIP_BIGWIG_2_name">Resignation</text>
+<text name="text_PLAYER_SHIP_BIGWIG_2_desc">No one has more patience than the Big Wigs. As if to prove a point, this ship can only shut off systems and damages crew. No hull damage.</text>
+
+<text name="text_PLAYER_SHIP_BIGWIG_3_class">Big Wig Cruiser</text>
+<text name="text_PLAYER_SHIP_BIGWIG_3_name">Long Arm</text>
+<text name="text_PLAYER_SHIP_BIGWIG_3_desc">While Big Wigs are technically judges, sometimes they are lawyers. Sometimes they are very helpful for the population. Or sometimes they just feel like murdering others for the hell of it. You won't know how they are feeling until its too late.</text>
+
+<text name="text_PLAYER_SHIP_LEGAL_EAGLE_class">Legal Eagle Cruiser</text>
+<text name="text_PLAYER_SHIP_LEGAL_EAGLE_name">Legal Tender</text>
+<text name="text_PLAYER_SHIP_LEGAL_EAGLE_desc">The layout of the Legal Eagles may seem a bit excessive, but this is just to ensure all legal replacements are covered. You wouldn't want to be sued for poor ship design now would you?</text>
+
+<text name="text_PLAYER_SHIP_LEGAL_EAGLE_2_class">Legal Eagle Cruiser</text>
+<text name="text_PLAYER_SHIP_LEGAL_EAGLE_2_name">Filibuster</text>
+<text name="text_PLAYER_SHIP_LEGAL_EAGLE_2_desc">It doesn't hurt to prolong the battle if you can get more scrap right? These Legal Eagles certainly enjoy it.</text>
+
+<text name="text_PLAYER_SHIP_LEGAL_EAGLE_3_class">Legal Eagle Cruiser</text>
+<text name="text_PLAYER_SHIP_LEGAL_EAGLE_3_name">Cloture</text>
+<text name="text_PLAYER_SHIP_LEGAL_EAGLE_3_desc">Sometimes you have to be a little more persuasive with the enemy to get the results you want. Legal Eagles get that concept pretty well, I'd say.</text>
+
 <text name="text_PLAYER_SHIP_DOCSHIP_class">Spin Doctor Cruiser</text>
 <text name="text_PLAYER_SHIP_DOCSHIP_name">Medica Superia</text>
 <text name="text_PLAYER_SHIP_DOCSHIP_desc">The Spin Doctors are obsessed with constantly healing fellow crew and themselves. As such this cruiser has one of the biggest medbays EVER.</text>
@@ -78,17 +102,6 @@ LAWBOTS
 <text name="text_PLAYER_SHIP_ACHASER_SHIP_3_name">Self-Sustained</text>
 <text name="text_PLAYER_SHIP_ACHASER_SHIP_3_desc">The Ambulance Chaser's unique abilities allows them to see enemies without sensors and to heal themselves without medical facilities, as a result they focused on other upgrades to this ship.</text>
 
-<text name="text_PLAYER_SHIP_BIGWIG_class">Big Wig Cruiser</text>
-<text name="text_PLAYER_SHIP_BIGWIG_name">The Lobbyist</text>
-<text name="text_PLAYER_SHIP_BIGWIG_desc">The law is the law. You can't get them to see it any other way... unless you have some scrap that falls into their pockets.</text>
-
-<text name="text_PLAYER_SHIP_BIGWIG_2_class">Big Wig Cruiser</text>
-<text name="text_PLAYER_SHIP_BIGWIG_2_name">Resignation</text>
-<text name="text_PLAYER_SHIP_BIGWIG_2_desc">No one has more patience than the Big Wigs. As if to prove a point, this ship can only shut off systems and damages crew. No hull damage.</text>
-
-<text name="text_PLAYER_SHIP_BIGWIG_3_class">Big Wig Cruiser</text>
-<text name="text_PLAYER_SHIP_BIGWIG_3_name">Long Arm</text>
-<text name="text_PLAYER_SHIP_BIGWIG_3_desc">While Big Wigs are technically judges, sometimes they are lawyers. Sometimes they are very helpful for the population. Or sometimes they just feel like murdering others for the hell of it. You won't know how they are feeling until its too late.</text>
 <!--
 ////////////////////////////
 CASHBOTS
@@ -165,7 +178,7 @@ SPECIAL CLASS
 
 <text name="text_doc_elderich_class">God Class</text>
 <text name="text_doc_elderitch_name">The Overthrower</text>
-<text name="text_doc_elderich_desc">To say Dr. Spin is a bit upset is an understatement. He is hellbent on putting an end to the Elderrich beings. Somehow, he convinced Jerry to tag along with him.</text>
+<text name="text_doc_elderich_desc">To say Dr. Spin is a bit upset is an understatement. He is hellbent on putting an end to the Elderitch beings. Somehow, he convinced Jerry to tag along with him.</text>
 
 <text name="COGMOD_SHIP_MINE_1">?????</text>
 <text name="text_COGMOD_SHIP_MINE_1_name">The Cheater</text>

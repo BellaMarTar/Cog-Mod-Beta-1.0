@@ -4951,7 +4951,7 @@
 		<mod-append:ship>PLAYER_SHIP_ACHASER_SHIP</mod-append:ship>
 		<mod-append:empty/>
 		<mod-append:ship>PLAYER_SHIP_DOCSHIP</mod-append:ship>
-		<mod-append:empty/>
+		<mod-append:ship>PLAYER_SHIP_LEGAL_EAGLE</mod-append:ship>
 		<mod-append:ship>PLAYER_SHIP_BIGWIG</mod-append:ship>
 		<mod-append:empty/>
 		<mod-append:empty/>
@@ -5115,6 +5115,20 @@
 		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
 	</mod-append:customShip>
 	<mod-append:customShip name="PLAYER_SHIP_BIGWIG_3">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
+	</mod-append:customShip>
+	
+	<mod-append:ship name="PLAYER_SHIP_LEGAL_EAGLE" b="true" c="true" secret="false"/>
+	<mod-append:customShip name="PLAYER_SHIP_LEGAL_EAGLE">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
+	</mod-append:customShip>
+	<mod-append:customShip name="PLAYER_SHIP_LEGAL_EAGLE_2">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
+	</mod-append:customShip>
+	<mod-append:customShip name="PLAYER_SHIP_LEGAL_EAGLE_3">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
 	</mod-append:customShip>

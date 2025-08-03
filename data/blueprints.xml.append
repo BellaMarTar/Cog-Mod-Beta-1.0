@@ -2643,7 +2643,7 @@ weapon C
 	</weaponList>
 	<droneList drones="5" count="2" />
 	<health amount="30" />
-	<maxPower amount="6" />
+	<maxPower amount="4" />
 	<crewCount amount="1" class="spindoctor_hologram" />
 	<crewCount amount="1" class="spindoctor_hologram" />
 	<crewCount amount="1" class="spindoctor" />
@@ -2777,7 +2777,7 @@ weapon C
 			</slot>
 		</shields>
 		<teleporter power="1" room="10" start="false" />
-		<weapons max="8" power="3" room="5" start="true" img="room_weapons">
+		<weapons max="8" power="2" room="5" start="true" img="room_weapons">
 			<slot>
 				<direction>up</direction>
 				<number>1</number>
@@ -2792,7 +2792,7 @@ weapon C
 	</weaponList>
 	<droneList drones="0" count="2" />
 	<health amount="30" />
-	<maxPower amount="8" />
+	<maxPower amount="6" />
 	<crewCount amount="2" class="ambulancechaser" />
 	<crewCount amount="1" class="ambulancechaser_hologram" />
 	<aug name="EX_O2_MASKS" />
@@ -2867,7 +2867,7 @@ weapon C
 	</weaponList>
 	<droneList drones="0" count="2" />
 	<health amount="30" />
-	<maxPower amount="11" />
+	<maxPower amount="8" />
 	<crewCount amount="1" class="ambulancechaser_elite" />
 	<crewCount amount="1" class="ambulancechaser_elite" />
 	<crewCount amount="1" class="ambulancechaser" />
@@ -2941,7 +2941,7 @@ weapon C
 	</weaponList>
 	<droneList drones="10" count="2" />
 	<health amount="30" />
-	<maxPower amount="10" />
+	<maxPower amount="7" />
 	<crewCount amount="1" class="ambulancechaser_waiter" />
 	<crewCount amount="1" class="ambulancechaser_elite" />
 	<crewCount amount="1" class="ambulancechaser_hologram" />
@@ -4710,12 +4710,230 @@ weapon C
 		<drone name="COMBAT_BEAM" />
 	</droneList>
 	<health amount="30" />
-	<maxPower amount="9" />
+	<maxPower amount="8" />
 	<crewCount amount="1" class="bigwig_waiter" />
 	<crewCount amount="1" class="bigwig_hologram" />
 	<crewCount amount="1" class="bigwig_elite" />
 	<crewCount amount="1" class="bigwig" />
 	<aug name="EX_EXPLOSIVE_REPLICATOR" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_LEGAL_EAGLE" layout="legal_eagle_cruiser_1" img="legal_eagle_cruiser_1">
+	<class id="text_PLAYER_SHIP_LEGAL_EAGLE_class">Legal Eagle Cruiser</class>
+	<name id="text_PLAYER_SHIP_LEGAL_EAGLE_name">Legal Tender</name>
+	<desc id="text_PLAYER_SHIP_LEGAL_EAGLE_desc">The layout of the Legal Eagles may seem a bit excessive, but this is just to ensure all legal replacements are covered. You wouldn't want to be sued for poor ship design now would you?</desc>
+	<systemList>
+		<battery power="1" room="22" start="false" img="room_battery_8" />
+		<cloaking power="1" room="13" start="false" img="room_cloaking" />
+		<clonebay power="1" room="7" start="false">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="20" start="true" img="room_doors_6">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="1" room="12" start="false" img="room_drones_11" />
+		<engines power="2" room="2" start="true" img="room_engines_5">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="5" start="false" img="room_hacking_4" />
+		<medbay power="1" room="7" start="true" img="room_medbay">
+			<slot>
+				<number>1</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="10" start="false" img="room_mind_11" />
+		<oxygen power="1" room="11" start="true" img="room_oxygen_2" />
+		<pilot power="1" room="0" start="true" img="room_pilot_9">
+			<slot>
+				<direction>right</direction>
+				<number>2</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="18" start="false" img="room_sensors_9">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="1" start="true" img="room_shields_3">
+			<slot>
+				<direction>left</direction>
+				<number>3</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="23" start="false" />
+		<weapons max="8" power="2" room="3" start="true" img="room_weapons_3">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="0" count="4">
+		<weapon name="BEAM_PIERCE1" />
+	</weaponList>
+	<droneList drones="0" count="2" />
+	<health amount="30" />
+	<maxPower amount="6" />
+	<crewCount amount="1" class="legaleagle" />
+	<crewCount amount="1" class="legaleagle" />
+	<aug name="EMERGENCY_DRIVE" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_LEGAL_EAGLE_2" layout="legal_eagle_cruiser_2" img="legal_eagle_cruiser_2">
+	<class id="text_PLAYER_SHIP_LEGAL_EAGLE_2_class">Legal Eagle Cruiser</class>
+	<name id="text_PLAYER_SHIP_LEGAL_EAGLE_2_name">Filibuster</name>
+	<desc id="text_PLAYER_SHIP_LEGAL_EAGLE_2_desc">It doesn't hurt to prolong the battle if you can get more scrap right? These Legal Eagles certainly enjoy it.</desc>
+	<systemList>
+		<cloaking power="1" room="4" start="false" img="room_cloaking" />
+		<clonebay power="1" room="3" start="true">
+			<slot>
+				<number>3</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="2" start="true" img="room_doors">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="1" room="15" start="false" img="room_drones_18" />
+		<engines power="2" room="17" start="true" img="room_engines_5">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="12" start="false" img="room_hacking_9" />
+		<medbay power="1" room="3" start="false" img="room_medbay_3">
+			<slot>
+				<number>3</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="13" start="true" img="room_mind" />
+		<oxygen power="1" room="5" start="true" img="room_oxygen_16" />
+		<pilot power="1" room="0" start="true" img="room_pilot_6">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="1" start="true" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="7" start="true" img="room_shields_3">
+			<slot>
+				<direction>left</direction>
+				<number>2</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="14" start="false" />
+		<weapons max="8" power="1" room="10" start="true" img="room_weapons_10">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="15" count="4">
+		<weapon name="BEAM_REPAIR" />
+		<weapon name="BOMB_CHERRI" />
+	</weaponList>
+	<droneList drones="0" count="2" />
+	<health amount="30" />
+	<maxPower amount="6" />
+	<crewCount amount="1" class="legaleagle_elite" />
+	<crewCount amount="1" class="legaleagle" />
+	<aug name="EX_ION_ARMOR" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_LEGAL_EAGLE_3" layout="legal_eagle_cruiser_3" img="legal_eagle_cruiser_3">
+	<class id="text_PLAYER_SHIP_LEGAL_EAGLE_3_class">Legal Eagle Cruiser</class>
+	<name id="text_PLAYER_SHIP_LEGAL_EAGLE_3_name">Cloture</name>
+	<desc id="text_PLAYER_SHIP_LEGAL_EAGLE_3_desc">Sometimes you have to be a little more persuasive with the enemy to get the results you want. Legal Eagles get that concept pretty well, I'd say.</desc>
+	<systemList>
+		<artillery power="1" room="13" start="true" weapon="ARTILLERY_BOSS_2" img="room_artillery_2" />
+		<battery power="1" room="10" start="false" img="room_battery_8" />
+		<cloaking power="1" room="7" start="false" img="room_cloaking" />
+		<clonebay power="1" room="19" start="false">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="15" start="true" img="room_doors">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="1" room="1" start="false" img="room_drones_13" />
+		<engines power="2" room="2" start="true" img="room_engines_5">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="17" start="true" img="room_hacking_2" />
+		<medbay power="1" room="19" start="true" img="room_medbay">
+			<slot>
+				<number>1</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="18" start="false" img="room_mind_6" />
+		<oxygen power="1" room="9" start="true" img="room_oxygen_4" />
+		<pilot power="1" room="0" start="true" img="room_pilot_4">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="14" start="true" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="4" start="true" img="room_shields">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="16" start="false" />
+		<weapons max="8" power="2" room="20" start="true" img="room_weapons_5">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="0" count="4">
+		<weapon name="LASER_BURST_SYLVAN" />
+	</weaponList>
+	<droneList drones="0" count="2" />
+	<health amount="30" />
+	<maxPower amount="7" />
+	<crewCount amount="1" class="legaleagle_waiter" />
+	<crewCount amount="1" class="legaleagle_hologram" />
+	<crewCount amount="1" class="legaleagle_hologram" />
+	<aug name="LOCKED_SHIP_TELEPORT" />
 </shipBlueprint>
 
 <shipBlueprint name="PLAYER_SHIP_MICROMANAGER" layout="micromanager_ship_1" img="micromanager_ship_1">
