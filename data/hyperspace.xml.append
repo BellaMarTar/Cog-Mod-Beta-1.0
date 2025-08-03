@@ -4941,7 +4941,7 @@
 		<mod-append:empty/>
 		<mod-append:empty/>
 		<mod-append:empty/>
-		<mod-append:empty/>
+		<mod-append:ship>PLAYER_SHIP_BIG_CHEESE</mod-append:ship>
 		<mod-append:empty/>
 		<mod-append:empty/>
 		
@@ -5009,41 +5009,61 @@
 	<mod-append:ship name="PLAYER_SHIP_DOCSHIP" b="true" c="true" secret="false"/>
 	<mod-append:customShip name="PLAYER_SHIP_DOCSHIP">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<hiddenAug>SHIP_SPIN_DOCTOR</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
 		<crewLimit>15</crewLimit>
 	</mod-append:customShip>
 	<mod-append:customShip name="PLAYER_SHIP_DOCSHIP_2">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<hiddenAug>SHIP_SPIN_DOCTOR</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
 		<crewLimit>15</crewLimit>
 	</mod-append:customShip>
 	<mod-append:customShip name="PLAYER_SHIP_DOCSHIP_3">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<hiddenAug>SHIP_SPIN_DOCTOR</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
 		<crewLimit>15</crewLimit>
 	</mod-append:customShip>
 
+	<mod-append:ship name="PLAYER_SHIP_BIG_CHEESE" b="true" c="true" secret="false"/>
+	<mod-append:customShip name="PLAYER_SHIP_BIG_CHEESE">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
+	</mod-append:customShip>
+	<mod-append:customShip name="PLAYER_SHIP_BIG_CHEESE_2">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
+	</mod-append:customShip>
+	<mod-append:customShip name="PLAYER_SHIP_BIG_CHEESE_3">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
+		<systemLimit>11</systemLimit>
+		<customReactor maxLevel="30">
+			<baseCost>15</baseCost>
+			<increment>5</increment>
+			<overrideCost coloumn="1">30</overrideCost>
+		</customReactor>
+	</mod-append:customShip>
+	
 	<mod-append:ship name="PLAYER_SHIP_MICROMANAGER" b="true" c="true" secret="false"/>
 	<mod-append:customShip name="PLAYER_SHIP_MICROMANAGER">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<hiddenAug>SHIP_SPIN_DOCTOR</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
 		<crewLimit>10</crewLimit>
 	</mod-append:customShip>
 	<mod-append:customShip name="PLAYER_SHIP_MICROMANAGER_2">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<hiddenAug>SHIP_SPIN_DOCTOR</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
 		<crewLimit>6</crewLimit>
 	</mod-append:customShip>
 	<mod-append:customShip name="PLAYER_SHIP_MICROMANAGER_3">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<hiddenAug>SHIP_SPIN_DOCTOR</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
 		<crewLimit>8</crewLimit>
 	</mod-append:customShip>
 	
 	<mod-append:ship name="PLAYER_SHIP_SPINDOCTOR_ELITE" b="false" c="false"/>
 	<mod-append:customShip name="PLAYER_SHIP_SPINDOCTOR_ELITE">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<hiddenAug>SHIP_DR_SPIN</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
 		<crewLimit>16</crewLimit>
 		<crew>
 			<dr_spin room="0" name="Dr Spin"/> <!--piloting-->
@@ -5057,38 +5077,38 @@
 	<mod-append:ship name="PLAYER_SHIP_ACHASER_SHIP" b="true" c="true"/>
 	<mod-append:customShip name="PLAYER_SHIP_ambulancechaser_SHIP">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<hiddenAug>SHIP_AMBULANCE_CHASER</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
 		<crewLimit>11</crewLimit>
 	</mod-append:customShip>
 	<mod-append:customShip name="PLAYER_SHIP_ACHASER_SHIP_2">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<hiddenAug>SHIP_AMBULANCE_CHASER</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
 		<crewLimit>11</crewLimit>
 	</mod-append:customShip>
 	<mod-append:customShip name="PLAYER_SHIP_ACHASER_SHIP_3">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<hiddenAug>SHIP_AMBULANCE_CHASER</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
 		<crewLimit>11</crewLimit>
 	</mod-append:customShip>
 	
 	<mod-append:ship name="PLAYER_SHIP_BIGWIG" b="true" c="true" secret="false"/>
 	<mod-append:customShip name="PLAYER_SHIP_BIGWIG">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<hiddenAug>SHIP_SPIN_DOCTOR</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
 	</mod-append:customShip>
 	<mod-append:customShip name="PLAYER_SHIP_BIGWIG_2">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<hiddenAug>SHIP_SPIN_DOCTOR</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
 	</mod-append:customShip>
 	<mod-append:customShip name="PLAYER_SHIP_BIGWIG_3">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<hiddenAug>SHIP_SPIN_DOCTOR</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
 	</mod-append:customShip>
 
 	<mod-append:ship name="PLAYER_SHIP_DOC_AC_COMBO" b="false" c="false"/>
 	<mod-append:customShip name="PLAYER_SHIP_DOC_AC_COMBO">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<hiddenAug>SHIP_DOUBLE_TROUBLE</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
 		<crewLimit>15</crewLimit>
 		<crew>
 			<dr_spin room="0" name="Dr Spin"/> <!--piloting-->
@@ -5100,6 +5120,7 @@
 	<mod-append:customShip name="doc_elderitch">
 		<hiddenAug>CHAOS</hiddenAug>
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
 		<crewLimit>3</crewLimit>
 		<systemLimit>10</systemLimit>
 		<customReactor maxLevel="30">
@@ -5184,7 +5205,7 @@
 	<mod-append:ship name="COGMOD_SHIP_MINE_1" b="false" c="false"/>	
 	<mod-append:customShip name="COGMOD_SHIP_MINE_1">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<hiddenAug>SHIP_AMBULANCE_CHASER</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
 		<crewLimit>2</crewLimit>
 		<customReactor maxLevel="35">
 			<baseCost>15</baseCost>
@@ -5223,7 +5244,7 @@
 	<mod-append:ship name="PLAYER_SHIP_SPECIALITY_CRUISER" b="false" c="false" secret="false"/>
 	<mod-append:customShip name="PLAYER_SHIP_SPECIALITY_CRUISER">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<hiddenAug>SHIP_SPIN_DOCTOR</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
 		<crewLimit>50</crewLimit>
 		<systemLimit>15</systemLimit>
 		<customReactor maxLevel="50">
@@ -5236,7 +5257,7 @@
 	<mod-append:ship name="PLAYER_SHIP_TIGHTWAD" b="true" c="true" secret="false"/>
 	<mod-append:customShip name="PLAYER_SHIP_TIGHTWAD">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<hiddenAug>SHIP_SPIN_DOCTOR</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
 		<crew>
 			<tightwad room="0"/>  <!--piloting-->
 			<tightwad room="4"/>  <!--engines-->
@@ -5245,39 +5266,39 @@
 	</mod-append:customShip>
 	<mod-append:customShip name="PLAYER_SHIP_TIGHTWAD_2">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<hiddenAug>SHIP_SPIN_DOCTOR</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
 	</mod-append:customShip>
 	<mod-append:customShip name="PLAYER_SHIP_TIGHTWAD_3">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<hiddenAug>SHIP_SPIN_DOCTOR</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
 	</mod-append:customShip>
 	
 	<mod-append:ship name="PLAYER_SHIP_NAME_DROPPER" b="true" c="true" secret="false"/>
 	<mod-append:customShip name="PLAYER_SHIP_NAME_DROPPER">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<hiddenAug>SHIP_SPIN_DOCTOR</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
 	</mod-append:customShip>
 	<mod-append:customShip name="PLAYER_SHIP_NAME_DROPPER_2">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<hiddenAug>SHIP_SPIN_DOCTOR</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
 	</mod-append:customShip>
 	<mod-append:customShip name="PLAYER_SHIP_NAME_DROPPER_3">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<hiddenAug>SHIP_SPIN_DOCTOR</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
 	</mod-append:customShip>
 	
 	<mod-append:ship name="PLAYER_SHIP_ROBBER_BARON" b="true" c="true" secret="false"/>
 	<mod-append:customShip name="PLAYER_SHIP_ROBBER_BARON">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<hiddenAug>SHIP_SPIN_DOCTOR</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
 	</mod-append:customShip>
 	<mod-append:customShip name="PLAYER_SHIP_ROBBER_BARON_2">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<hiddenAug>SHIP_SPIN_DOCTOR</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
 	</mod-append:customShip>
 	<mod-append:customShip name="PLAYER_SHIP_ROBBER_BARON_3">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<hiddenAug>SHIP_SPIN_DOCTOR</hiddenAug>
+		<hiddenAug>SHIP_COG_RANDOM</hiddenAug>
 	</mod-append:customShip>
 	
 </mod:findLike>

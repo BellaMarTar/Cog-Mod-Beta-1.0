@@ -13,6 +13,18 @@ BOSSBOTS
 ////////////////////////////
 -->
 
+<text name="text_PLAYER_SHIP_BIG_CHEESE_class">Big Cheese Cruiser</text>
+<text name="text_PLAYER_SHIP_BIG_CHEESE_name">Goud Enough</text>
+<text name="text_PLAYER_SHIP_BIG_CHEESE_desc">This Big Cheese Cruiser sports the big hoss' favorite concept; Overpromising and underdelivering. Still...could be worse.</text>
+
+<text name="text_PLAYER_SHIP_BIG_CHEESE_2_class">Big Cheese Cruiser</text>
+<text name="text_PLAYER_SHIP_BIG_CHEESE_2_name">Prove-a-Loan</text>
+<text name="text_PLAYER_SHIP_BIG_CHEESE_2_desc">It's worse. This comes pretty heavily understaffed and lacks a lot of offense and defense. Maybe you can find the budget to get this beat up tax write off some new life.</text>
+
+<text name="text_PLAYER_SHIP_BIG_CHEESE_3_class">Big Cheese Cruiser</text>
+<text name="text_PLAYER_SHIP_BIG_CHEESE_3_name">Sharp Cheddar</text>
+<text name="text_PLAYER_SHIP_BIG_CHEESE_3_desc">This ship is a bit on the nose for the pride the Big Cheese have for themselves. Massive and dripping in excess for no apparent reason other than they can.</text>
+
 <text name="text_PLAYER_SHIP_MICROMANAGER_class">Micromanager Cruiser</text>
 <text name="text_PLAYER_SHIP_MICROMANAGER_name">Compensation</text>
 <text name="text_PLAYER_SHIP_MICROMANAGER_desc">Micromanagers desperately try to hide the fact that they're such short little things. This ship is massive. Too massive honestly. Its like putting a liftkit on a truck while being as tall as... well a Micromanager.</text>

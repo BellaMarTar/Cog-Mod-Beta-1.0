@@ -2966,7 +2966,7 @@ weapon C
 				<number>1</number>
 			</slot>
 		</doors>
-		<drones max="8" power="3" room="14" start="false" img="room_drones_4" />
+		<drones max="10" power="3" room="14" start="false" img="room_drones_4" />
 		<engines power="1" room="12" start="true" img="room_engines_3">
 			<slot>
 				<direction>right</direction>
@@ -3020,6 +3020,227 @@ weapon C
 	<maxPower amount="15" />
 	<aug name="WEAPON_PREIGNITE" />
 	<aug name="PDS_DISABLE" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_BIG_CHEESE" layout="big_cheese_cruiser_1" img="big_cheese_cruiser_1">
+	<class id="text_PLAYER_SHIP_BIG_CHEESE_class">Big Cheese Cruiser</class>
+	<name id="text_PLAYER_SHIP_BIG_CHEESE_name">Goud Enough</name>
+	<desc id="text_PLAYER_SHIP_BIG_CHEESE_desc">This Big Cheese Cruiser sports the big hoss' favorite concept; Overpromising and underdelivering. Still...could be worse.</desc>
+	<systemList>
+		<battery power="1" room="16" start="false" img="room_battery_3" />
+		<cloaking power="1" room="5" start="false" img="room_cloaking" />
+		<clonebay power="1" room="2" start="false">
+			<slot>
+				<number>3</number>
+			</slot>
+		</clonebay>
+		<doors power="2" room="4" start="true" img="room_doors">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="1" room="7" start="false" img="room_drones" />
+		<engines power="2" room="13" start="true" img="room_engines_11">
+			<slot>
+				<direction>down</direction>
+				<number>3</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="3" start="false" img="room_hacking" />
+		<medbay power="1" room="2" start="true" img="room_medbay_3">
+			<slot>
+				<number>3</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="8" start="true" img="room_mind" />
+		<oxygen power="1" room="11" start="true" img="room_oxygen_3" />
+		<pilot power="1" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="12" start="true" img="room_sensors_4">
+			<slot>
+				<direction>left</direction>
+				<number>2</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="6" start="true" img="room_shields">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="19" start="false" />
+		<weapons max="8" power="2" room="1" start="true" img="room_weapons">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="0" count="4">
+		<weapon name="LASER_BURST_1" />
+		<weapon name="LASER_BURST_1" />
+	</weaponList>
+	<droneList drones="0" count="2" />
+	<health amount="30" />
+	<maxPower amount="7" />
+	<crewCount amount="1" class="big_cheese" />
+	<crewCount amount="1" class="big_cheese" />
+	<aug name="EX_LIFE_SCANNER" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_BIG_CHEESE_2" layout="big_cheese_cruiser_2" img="big_cheese_cruiser_2">
+	<class id="text_PLAYER_SHIP_BIG_CHEESE_2_class">Ship Class</class>
+	<name id="text_PLAYER_SHIP_BIG_CHEESE_2_name">Prove-a-Loan</name>
+	<desc id="text_PLAYER_SHIP_BIG_CHEESE_2_desc">It's worse. This comes pretty heavily understaffed and lacks a lot of offense and defense. Maybe you can find the budget to get this beat up tax write off some new life.</desc>
+	<systemList>
+		<battery power="1" room="15" start="false" img="room_battery" />
+		<cloaking power="1" room="16" start="false" img="room_cloaking" />
+		<clonebay power="1" room="3" start="true">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="10" start="false" img="room_doors">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="4" room="17" start="true" img="room_drones_14" />
+		<engines power="2" room="4" start="true" img="room_engines_5">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="11" start="false" img="room_hacking" />
+		<medbay power="1" room="3" start="false" img="room_medbay">
+			<slot>
+				<number>1</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="6" start="false" img="room_mind_7" />
+		<oxygen power="1" room="14" start="true" img="room_oxygen" />
+		<pilot power="1" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="9" start="false" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="2" start="true" img="room_shields">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="5" start="true" />
+		<weapons max="8" power="2" room="1" start="false" img="room_weapons">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>2</weaponSlots>
+	<droneSlots>4</droneSlots>
+	<weaponList missiles="0" count="2" />
+	<droneList drones="10" count="4">
+		<drone name="COMBAT_ION" />
+		<drone name="COMBAT_1" />
+	</droneList>
+	<health amount="30" />
+	<maxPower amount="9" />
+	<crewCount amount="1" class="big_cheese_elite" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_BIG_CHEESE_3" layout="big_cheese_cruiser_3" img="big_cheese_cruiser_3">
+	<class id="text_PLAYER_SHIP_BIG_CHEESE_3_class">Big Cheese Cruiser</class>
+	<name id="text_PLAYER_SHIP_BIG_CHEESE_3_name">Sharp Cheddar</name>
+	<desc id="text_PLAYER_SHIP_BIG_CHEESE_3_desc">This ship is a bit on the nose for the pride the Big Cheese have for themselves. Massive and dripping in excess for no apparent reason other than they can.</desc>
+	<systemList>
+		<artillery power="1" room="4" start="true" weapon="TRC_FOCUS_FIRE" img="room_artillery" />
+		<artillery power="1" room="3" start="true" weapon="TRC_FOCUS_FIRE" img="room_artillery_4" />
+		<battery power="1" room="20" start="false" img="room_battery_15" />
+		<cloaking power="1" room="18" start="false" img="room_cloaking_10" />
+		<clonebay power="1" room="24" start="false">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="29" start="true" img="room_doors_8">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</doors>
+		<drones max="8" power="2" room="22" start="true" img="room_drones_9" />
+		<engines power="2" room="5" start="true" img="room_engines_5">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="30" start="false" img="room_hacking_3" />
+		<medbay power="1" room="24" start="true" img="room_medbay">
+			<slot>
+				<number>1</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="15" start="true" img="room_mind_1" />
+		<oxygen power="1" room="21" start="true" img="room_oxygen_16" />
+		<pilot power="1" room="0" start="true" img="room_pilot_2">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="26" start="true" img="room_sensors_4">
+			<slot>
+				<direction>left</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="25" start="true" img="room_shields">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="23" start="false" />
+		<weapons max="8" power="2" room="19" start="true" img="room_weapons_3">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>2</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="5" count="2">
+		<weapon name="MISSILES_1" />
+	</weaponList>
+	<droneList drones="5" count="2">
+		<drone name="REPAIR" />
+	</droneList>
+	<health amount="30" />
+	<maxPower amount="10" />
+	<crewCount amount="1" class="big_cheese_waiter" />
+	<crewCount amount="1" class="big_cheese_waiter" />
+	<crewCount amount="1" class="big_cheese_hologram" />
+	<aug name="FLEET_DISTRACTION" />
 </shipBlueprint>
 
 <shipBlueprint name="PLAYER_SHIP_COG_RANDOM" layout="mup_cog_random_a" img="mup_cog_random_a">
