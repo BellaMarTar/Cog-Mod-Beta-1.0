@@ -4736,7 +4736,7 @@ weapon C
 				<number>1</number>
 			</slot>
 		</doors>
-		<drones max="8" power="1" room="13" start="false" img="room_drones" />
+		<drones max="8" power="1" room="13" start="true" img="room_drones" />
 		<engines power="2" room="17" start="true" img="room_engines">
 			<slot>
 				<direction>down</direction>
@@ -4783,7 +4783,9 @@ weapon C
 		<weapon name="LASER_HEAVY_1_SP" />
 		<weapon name="LASER_HEAVY_1_SP" />
 	</weaponList>
-	<droneList drones="0" count="2" />
+	<droneList drones="1" count="2">
+		<drone name="REPAIR" />
+	</droneList>
 	<health amount="30" />
 	<maxPower amount="7" />
 	<crewCount amount="1" class="micromanager" />
@@ -4810,7 +4812,7 @@ weapon C
 				<number>1</number>
 			</slot>
 		</doors>
-		<drones  max="8" power="1" room="11" start="false" img="room_drones_13" />
+		<drones  max="8" power="1" room="11" start="true" img="room_drones_13" />
 		<engines power="3" room="12" start="true" img="room_engines_5">
 			<slot>
 				<direction>up</direction>
@@ -4857,7 +4859,9 @@ weapon C
 		<weapon name="BEAM_HULL" />
 		<weapon name="BOMB_ION" />
 	</weaponList>
-	<droneList drones="0" count="2" />
+	<droneList drones="1" count="2">
+		<drone name="REPAIR" />
+	</droneList>
 	<health amount="30" />
 	<maxPower amount="9" />
 	<crewCount amount="1" class="micromanager_elite" />
@@ -4869,7 +4873,7 @@ weapon C
 <shipBlueprint name="PLAYER_SHIP_MICROMANAGER_3" layout="micromanager_ship_3" img="micromanager_ship_3">
 	<class id="text_PLAYER_SHIP_MICROMANAGER_3_class">Micromanager Cruiser</class>
 	<name id="text_PLAYER_SHIP_MICROMANAGER_3_name">Managed Control</name>
-	<desc id="text_PLAYER_SHIP_MICROMANAGER_3_desc">This ship is the answer to the Micromanager's biggest question of "How can I others do all the work for me so I can sit back and critique on how they suck at it?" The answer has been presented for you</desc>
+	<desc id="text_PLAYER_SHIP_MICROMANAGER_3_desc">This ship is the answer to the Micromanager's biggest question of "How can I get in people's way more?" The answer has been presented for you.</desc>
 	<systemList>
 		<battery power="1" room="8" start="false" img="room_battery_4" />
 		<cloaking power="1" room="4" start="false" img="room_cloaking_3" />
@@ -4917,7 +4921,7 @@ weapon C
 				<number>0</number>
 			</slot>
 		</shields>
-		<teleporter power="1" room="16" start="false" />
+		<teleporter power="1" room="16" start="true" />
 		<weapons max="8" power="1" room="3" start="false" img="room_weapons">
 			<slot>
 				<direction>up</direction>
@@ -4930,6 +4934,7 @@ weapon C
 	<weaponList missiles="0" count="3" />
 	<droneList drones="5" count="3">
 		<drone name="TRC_THUNDER_1_BREACH" />
+		<drone name="REPAIR" />
 	</droneList>
 	<health amount="30" />
 	<maxPower amount="8" />
