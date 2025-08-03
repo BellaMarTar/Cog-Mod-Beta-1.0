@@ -15,7 +15,7 @@ BOSSBOTS
 
 <text name="text_PLAYER_SHIP_BIG_CHEESE_class">Big Cheese Cruiser</text>
 <text name="text_PLAYER_SHIP_BIG_CHEESE_name">Goud Enough</text>
-<text name="text_PLAYER_SHIP_BIG_CHEESE_desc">This Big Cheese Cruiser sports the big hoss' favorite concept; Overpromising and underdelivering. Still...could be worse.</text>
+<text name="text_PLAYER_SHIP_BIG_CHEESE_desc">This Big Cheese Cruiser sports the big hoss' favorite concept; Over-promising and under-delivering. Still...could be worse.</text>
 
 <text name="text_PLAYER_SHIP_BIG_CHEESE_2_class">Big Cheese Cruiser</text>
 <text name="text_PLAYER_SHIP_BIG_CHEESE_2_name">Prove-a-Loan</text>
@@ -25,9 +25,21 @@ BOSSBOTS
 <text name="text_PLAYER_SHIP_BIG_CHEESE_3_name">Sharp Cheddar</text>
 <text name="text_PLAYER_SHIP_BIG_CHEESE_3_desc">This ship is a bit on the nose for the pride the Big Cheese have for themselves. Massive and dripping in excess for no apparent reason other than they can.</text>
 
+<text name="text_PLAYER_SHIP_CORPORATE_RAIDER_class">Corporate Raider Cruiser</text>
+<text name="text_PLAYER_SHIP_CORPORATE_RAIDER_name">Black Knight</text>
+<text name="text_PLAYER_SHIP_CORPORATE_RAIDER_desc">Corporate Raiders are ready to 'convince' the enemy to surrender their assets. Failure to comply may result in sadness.</text>
+
+<text name="text_PLAYER_SHIP_CORPORATE_RAIDER_2_class">Corporate Raider Cruiser</text>
+<text name="text_PLAYER_SHIP_CORPORATE_RAIDER_2_name">Hostile Bidder</text>
+<text name="text_PLAYER_SHIP_CORPORATE_RAIDER_2_desc">So you don't want to sell your company to us at a steeply discounted rate? Well let me introduce you to my associates.</text>
+
+<text name="text_PLAYER_SHIP_CORPORATE_RAIDER_3_class">Corporate Raider Cruiser</text>
+<text name="text_PLAYER_SHIP_CORPORATE_RAIDER_3_name">Rockefeller</text>
+<text name="text_PLAYER_SHIP_CORPORATE_RAIDER_3_desc">Ok one last time now. We were not asking for permission. We are taking over this establishment and that's final!</text>
+
 <text name="text_PLAYER_SHIP_MICROMANAGER_class">Micromanager Cruiser</text>
 <text name="text_PLAYER_SHIP_MICROMANAGER_name">Compensation</text>
-<text name="text_PLAYER_SHIP_MICROMANAGER_desc">Micromanagers desperately try to hide the fact that they're such short little things. This ship is massive. Too massive honestly. Its like putting a liftkit on a truck while being as tall as... well a Micromanager.</text>
+<text name="text_PLAYER_SHIP_MICROMANAGER_desc">Micromanagers desperately try to hide the fact that they're such short little things. This ship is massive. Too massive honestly. Its like putting a lift-kit on a truck while being as tall as... well a Micromanager.</text>
 
 <text name="text_PLAYER_SHIP_MICROMANAGER_2_class">Micromanager Cruiser</text>
 <text name="text_PLAYER_SHIP_MICROMANAGER_2_name">Acceptance</text>

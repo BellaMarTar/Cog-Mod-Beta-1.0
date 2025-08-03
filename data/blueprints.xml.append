@@ -3243,6 +3243,230 @@ weapon C
 	<aug name="FLEET_DISTRACTION" />
 </shipBlueprint>
 
+<shipBlueprint name="PLAYER_SHIP_CORPORATE_RAIDER" layout="corporate_raider_cruiser_1" img="corporate_raider_cruiser_1">
+	<class id="text_PLAYER_SHIP_CORPORATE_RAIDER_class">Corporate Raider Cruiser</class>
+	<name id="text_PLAYER_SHIP_CORPORATE_RAIDER_name">Black Knight</name>
+	<desc id="text_PLAYER_SHIP_CORPORATE_RAIDER_desc">Corporate Raiders are ready to 'convince' the enemy to surrender their assests. Failure to comply may result in sadness.</desc>
+	<systemList>
+		<battery power="1" room="16" start="false" img="room_battery_11" />
+		<cloaking power="1" room="11" start="false" img="room_cloaking" />
+		<clonebay power="1" room="7" start="false">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="9" start="false" img="room_doors_2">
+			<slot>
+				<direction>down</direction>
+				<number>0</number>
+			</slot>
+		</doors>
+		<drones max="8" power="2" room="21" start="true" img="room_drones_3" />
+		<engines power="1" room="8" start="true" img="room_engines">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="20" start="false" img="room_hacking_4" />
+		<medbay power="1" room="7" start="true" img="room_medbay">
+			<slot>
+				<number>1</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="6" start="false" img="room_mind" />
+		<oxygen power="1" room="19" start="true" img="room_oxygen_12" />
+		<pilot power="1" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="10" start="true" img="room_sensors_2">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="2" start="true" img="room_shields">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="5" start="true" />
+		<weapons max="8" power="2" room="1" start="true" img="room_weapons">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="0" count="4">
+		<weapon name="SHOTGUN_CHARGE" />
+		<weapon name="LASER_CONSERVATIVE" />
+	</weaponList>
+	<droneList drones="2" count="2">
+		<drone name="A55_BATTLE" />
+	</droneList>
+	<health amount="30" />
+	<maxPower amount="6" />
+	<crewCount amount="1" class="corporateraider" />
+	<crewCount amount="1" class="corporateraider" />
+	<aug name="EX_TELEPORT_HEAL" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_CORPORATE_RAIDER_2" layout="corporate_raider_cruiser_2" img="corporate_raider_cruiser_2">
+	<class id="text_PLAYER_SHIP_CORPORATE_RAIDER_2_class">Corporate Raider Cruiser</class>
+	<name id="text_PLAYER_SHIP_CORPORATE_RAIDER_2_name">Hostile Bidder</name>
+	<desc id="text_PLAYER_SHIP_CORPORATE_RAIDER_2_desc">So you don't want to sell your company to us at a steeply discounted rate? Well let me introduce you to my associates.</desc>
+	<systemList>
+		<battery power="1" room="3" start="false" img="room_battery_16" />
+		<cloaking power="1" room="4" start="false" img="room_cloaking" />
+		<clonebay power="1" room="1" start="false">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="17" start="true" img="room_doors">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="2" room="18" start="true" img="room_drones_14" />
+		<engines power="1" room="2" start="true" img="room_engines_5">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="9" start="false" img="room_hacking_8" />
+		<medbay power="1" room="1" start="true" img="room_medbay">
+			<slot>
+				<number>1</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="19" start="false" img="room_mind_4" />
+		<oxygen power="1" room="11" start="true" img="room_oxygen_4" />
+		<pilot power="1" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="16" start="true" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="13" start="true" img="room_shields">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="2" room="14" start="true" />
+		<weapons max="8" power="1" room="12" start="false" img="room_weapons_5">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>3</droneSlots>
+	<weaponList missiles="0" count="3" />
+	<droneList drones="0" count="3">
+		<drone name="A55_BATTLE" />
+	</droneList>
+	<health amount="30" />
+	<maxPower amount="8" />
+	<crewCount amount="1" class="corporateraider_elite" />
+	<crewCount amount="1" class="corporateraider_hologram" />
+	<aug name="EX_TELEPORT_HEAL" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_CORPORATE_RAIDER_3" layout="corporate_raider_cruiser_3" img="corporate_raider_cruiser_3">
+	<class id="text_PLAYER_SHIP_CORPORATE_RAIDER_3_class">Corporate Raider Cruiser</class>
+	<name id="text_PLAYER_SHIP_CORPORATE_RAIDER_3_name">Rockefeller</name>
+	<desc id="text_PLAYER_SHIP_CORPORATE_RAIDER_3_desc">Ok one last time now. We were not asking for permission. We are taking over this establishment and that's final!</desc>
+	<systemList>
+		<artillery power="1" room="18" start="true" weapon="LASER_PIERCE" img="room_artillery_5" />
+		<battery power="1" room="16" start="false" img="room_battery_3" />
+		<cloaking power="1" room="10" start="true" img="room_cloaking" />
+		<clonebay power="1" room="8" start="true">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="17" start="true" img="room_doors">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="2" room="5" start="true" img="room_drones_4" />
+		<engines power="1" room="3" start="true" img="room_engines_8">
+			<slot>
+				<direction>left</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="2" start="false" img="room_hacking_2" />
+		<medbay power="1" room="8" start="false" img="room_medbay">
+			<slot>
+				<number>1</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="1" start="false" img="room_mind_5" />
+		<oxygen power="1" room="14" start="true" img="room_oxygen_17" />
+		<pilot power="1" room="0" start="true" img="room_pilot_6">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="15" start="false" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="4" start="false" img="room_shields_3">
+			<slot>
+				<direction>left</direction>
+				<number>2</number>
+			</slot>
+		</shields>
+		<teleporter power="2" room="11" start="true" />
+		<weapons max="8" power="1" room="7" start="true" img="room_weapons_2">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>3</droneSlots>
+	<weaponList missiles="0" count="3">
+		<weapon name="BEAM_4_SYLVAN" />
+	</weaponList>
+	<droneList drones="2" count="3">
+		<drone name="A55_BATTLE" />
+	</droneList>
+	<health amount="30" />
+	<maxPower amount="8" />
+	<crewCount amount="1" class="corporateraider_elite" />
+	<crewCount amount="1" class="corporateraider_waiter" />
+	<crewCount amount="1" class="corporateraider_waiter" />
+	<aug name="EX_DRONE_SPEED" />
+	<aug name="EX_DRONE_SPEED" />
+</shipBlueprint>
+
 <shipBlueprint name="PLAYER_SHIP_COG_RANDOM" layout="mup_cog_random_a" img="mup_cog_random_a">
 	<class>Random Cruiser</class>
 	<name>Cog Supply Run</name>
