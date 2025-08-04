@@ -1,0 +1,967 @@
+<FTL>
+<event name="TRUE_LAST_STAND_START">
+	<text>You've finally arrived at Node 17, the Federation Capital. You've heard the stories of this conflict back in Universe 0, the reality where the Multiverse tech was discovered. Now, you're about to take a part in it. Your actions here will either save or doom this reality.</text>
+	<metaVariable name="juke_laststand" op="set" val="1"/>
+	<metaVariable name="prof_finalsector" op="add" val="1"/>
+	<variable name="loc_laststand" op="add" val="1"/> <!-- if you somehow leave S8 after the lightspeed menu -->
+	<customFleet right="false" firing="false" autoDarkening="true">CUSTOM_FLEET_FED</customFleet>
+	<changeBackground>BACK_EVENT_LASTSTAND</changeBackground>
+	<playSound>lightspeed</playSound>
+	<choice hidden="true" req="rep_comb_federation" lvl="-999" max_lvl="3" max_group="0" blue="false">
+		<text>Continue...</text>
+		<event>
+			<text>With a quick scan of your ID, you are allowed through the beacon without issue.</text>
+			<choice hidden="true" max_group="1" req="SHIP_MULTIVERSE" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "So you're the Multiverse ship I've heard about? You've come a long way, and I can only hope it's all paid off. You're the Federation's last stand against the Flagship."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_FLAGSHIP" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Oh dear god, the Rebellion's sent ANOTHER Flagship? We're screwed... wait, you aren't with the Rebels. Universe 0 sent the Rebel's super weapon to destroy the super weapon? I guess it's about freaking time we fight fire with fire."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_PIRATE" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "A... pirate? I didn't know we hired mercenaries... Not that it's an issue, you're here now and you're probably the best chance we've got."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_TUCO" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Is that... Tuco? Which one of you hired Tuco as a Renegade? Well, I appreciate your... dedication to the Federation. Let us just hope that it pays off."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_GAMBLING" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "A gambling vessel. I'm not certain where these ships are coming from, but if you're the key to defeating the Flagship, then I'm not going to complain."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_TUCO_GOLD" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "That's a very bright ship you have. I'm sure a fascinating story stands behind it. I'd love to hear it some day, assuming we aren't all dead at the end of this."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_PLEASURE" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "In all my years, I never thought the Federation's last chance, our saving grace, would fall upon... a Slug Pleasure Cruiser. I can't imagine how you stand piloting that thing. At least, it looks like you've made it combat ready enough to face the Flagship."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_GHOST" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Woah, your ship has taken quite the beating. If I didn't know better, I would have assumed you showed up already dead. Let's hope that isn't the fate you await."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_DYNASTY" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "I thought the Dynasty was determined to avoid the Federation and let us battle to extinction with the Rebels? Has the Prime Reaper finally changed his mind and given us a second chance? Well, I'm grateful. We need all the help we can get against the Flagship."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_GHOSTHUNTER" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "I can't seem to explain it, but witnessing your ship gives me the urge to make an Old-Earth reference, but I'm afraid it would be too outdated."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_AUGMENTED" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center "A Lanius vessel? Or... whatever that is. Not sure where you got that paintjob from, but let's hope your ship is as deadly as it looks."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_ANCIENT" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Your ship looks like the holograms I've seen of the original Multiverse drive. I hope that means you've brought the best tech you could, because you're our last line of defense."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_ENGI" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "I wasn't told we were receiving more reinforcements from the Engi. I'm glad, because our forces are almost dried up."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_ZOLTAN" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "I didn't think the Zoltans would ever show up. Glad to know they had the dedication to bring exactly one ship."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_ZOLTAN_OLD" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "What in god's name are you? I've never seen a Zoltan ship or a creature like you before... But it seems you're a better ally than the Ministry if you've actually come to help us."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_DUSKBRINGER" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "I didn't know the Federation had access to Duskbringer tech. I'm not sure how to think about this, but we have more pressing matters."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_HIVE" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Support from the Hive? I can't say this was expected. Not that I'm complaining, we need all the help we can get against the Flagship."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_GYGES" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Is that the Gyges? I thought that ship was destroyed in the Federation-Mantis war... I'll never get used to this Multiverse stuff."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_FREEMANTIS" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Oh, I did not realise your ship was of Free Mantis origins. I didn't predict what valuable allies they would be, but I suppose it makes sense, with Mantis being such excellent fighters."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_ROCK" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "The Rock Elders sent a cruiser to fight for us? I can't imagine their reasoning, but you're our last chance if we want to win this fight."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_OUTCAST" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "I thought the Outcasts were indifferent to the war. Well, I'm not one to turn down the help. We need every ship we can get to take down this Flagship."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_LOSTSUN" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "I'm surprised the Lost Suns took the effort to provide any assistance. Perhaps I underestimated them as allies. I'm glad you've arrived, we're on our last legs and need all the help we can get."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_CULTIST" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "A cult? I... sure, not the strangest thing I've seen. Let's hope that massive ship of yours is ready for the Flagship, yes?"</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_CRYSTAL" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Assistance from the Crystalline people? Not the last thing I expected, but certainly not the first either. Let us both hope your Crystal tech will stand against the Rebellion's Flagship."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_SLUG" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Slugs? Why did it have to be Slugs... I'm sure you're here looking for a reward, and perhaps we can work out a deal afterwards. But first, we need to take out the Flagship. The Federation can't stand much more of this attack, and if you came all this way I'm certain you mean business."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_LEECH" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "I didn't realize the Eargen Republic had the resources to send in a ship to help the Federation. No less, I'm glad you're here. Let's hope those tales of the once mighty Leech military were true and we're about to see a resurgence, because we sure as hell need it."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_COALITION" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. He recoils in shock at the sight of your ship. "A Coalition vessel? This must be some joke... the only reason I can fathom receiving support from the Coalition would be our mutual enemy in the Rebellion. If so, then we can use all the help we can get, even from unlikely allies."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_ORCHID" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Orchids, hmmm? I didn't think your kind would take it upon yourselves to assist in this battle. I'm grateful for the reinforcements, we're running thin on soldiers and ships and every ounce of help is worth millions."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_VAMPWEED" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Vampweeds? I cannot say I expected any support from the Confederacy. Is all of that drama from the Federation-Mantis War finally water under the bridge? Well, I suspect not... but we can discuss this later. Right now there's a Flagship that needs killing."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_SHELL" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "A Shell cruiser, huh? I heard your kind was rather reclusive... well, I appreciate your assistance. Let's hope that your efforts not go in vain, yes?"</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_MORPH" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Is that... a Shell cruiser? It somewhat resembles one, but it's definitely unlike any I've seen before. Well, whatever you are, your help here today will be greatly appreciated."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_LANIUS" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. He recoils in shock at the sight of your ship. "A Lanius warship, how interesting. I've never been certain of the Lanius's loyalties or motivation, but if you've come this far I have no doubt you've come to aid us in our fight."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_UNION" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "It's good to know the Union still has our backs. Every day it feels more and more Unionists turn to the Rebellion, but if the Union is still producing loyal Renegades back in Universe 0 then we might just have hope. We're all counting on you, captain. Make me proud."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_FEDERATION" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Good, looks like you've brought a well-armed Federation ship. Welcome to the Last Stand, captain."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_STEALTH" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Ah, a Stealth ship, no wonder I never got any clear readings on the details of your vessel. No matter, let us both hope that your ship will be strong enough to take down the Flagship."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_REBEL" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. He recoils in shock at the sight of your ship. "I never believed in a million years the ship who would be saving the Federation would be a Rebel vessel. I'm sure you have your reasons for betraying the Rebellion, and I'd love to hear them, but we have more pressing matters to deal with, such as the Flagship."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_AUTO" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. He takes a step back as he takes in your ship. "Um... I don't know what you are, or why Universe 0 hired an automated ship as a Renegade, but if whatever you are is the solution to our problem then... be my guest? But I'll be keeping my eye on you..."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_AUTO_FED" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "A Federation automated cruiser? I had no idea they were purposing these for anything but research. Well, I hope your combat systems are up to the task. We can get back to exploring the final frontier once the Flagship has been defeated."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_TECH" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "W.I. sent a ship to assist the Federation? Seems... paradoxical, but I've seen far stranger Renegades come by before. If you're here to help, we'll take any we can get. Good luck against that Flagship, captain."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_KESTREL" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "A Kestrel? Don't see many of those outside of salvage fleets. Looks like your ship has come full circle... I can only hope it'll pay off."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_PROPHET" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "That is quite the colorful ship you have there. The Monks are pacifists, yes? Well, let's both hope you have a plan for dealing with that Flagship."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_SYLVAN" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Hmm, you're that merchant I've heard so much about. Sylvan, wasn't it? Odd, I swear you already arrived here a while ago... I may never wrap my head around this Multiverse stuff. Regardless, I'm glad to have you here. Let's hope you're prepared for that Flagship."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_MONK" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Monks? I... I don't mean to be disrespectful, but aren't monks, you know, normally pacifists? I guess you're the exception then. As long as you deal with the Flagship, I don't care who you are."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_SALT" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "I swear, every day another race comes popping out of the Multiverse. This time it's... Salt? I think I've heard a legend or two about you. Let's hope you stay true to your legacy, yeah?"</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_SPIDER" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Ack! Spiders?! I hate spiders! God damn it, just looking at your ship gives me shivers."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_ALPHA" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Your ship there, well, it strikes a strong resemblance to a vessel I knew from a long, long, long time ago. Never matter, that's far in the past. Let's focus on the present right now, we don't have time to reminisce."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_TULLY" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "You'd probably expect me to be surprised to see my own ship here, but this is actually the 7th iteration of myself I've met so far. Now go get that Flagship, you beautiful bastard."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_LIMIT" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. As soon as he sees your ship, he hangs up immediately, but reconnects not long after. "No. You can't be serious. They sent THIS ship to save us? Is this some sick stupid joke?" Tully sighs. "Well unfortunately, you're the Federation's last hope. Try not to throw it all away, okay? We're all counting on you now."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_PONY" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. As soon as he sees your ship, he hangs up immediately, but reconnects not long after. "Horse? Horse friend!" Tully pauses and corrects his posture. "Er- sorry about that. I don't know what came over me. But, if you take down that Flagship, please let me pet a horse."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_SIREN" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Your ship... I've never seen a kind like that before. Clearly, the Multiverse still holds many secrets I have yet to see. If you understand what I'm saying, and you're friendly, then please. We need any help we can get in this fight. We're all counting on you, as strange as that sounds."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			
+	<!--
+	/////////////////ADDITIONAL COG SHIP OPTIONS///////////////////	
+	-->	
+	
+			<choice hidden="true" max_group="1" req="SHIP_BIG_CHEESE" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "The Big Cheeses are here? I almost don't believe it. I won't question why such a high ranking Cog would bother to come to the front lines, but I'm all for it. Go get that Flagship!"</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_CORPORATE_RAIDER" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Oh lord, we got the pirate cog with us? Look there's not much in terms of a bounty for the Flagship but if you destroy that thing, I'll get you some rum afterwards."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_HEADHUNTER" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "I seriously hope you're not here to get some of us to join some fortune 500 group, because now is not the time! Oh you're here to help? Great, happy hunting, it's open season as far as I'm concerned."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_DOWNSIZER" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Perfect, I was hoping one of you Cogs would be interested in demoting the Flagship. See what you can do, you're our last hope."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_MICROMANAGER" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "No, you're not allowed to command the fleet. That's my job. Just get to the Flagship and defeat it already...or bore them to death, i don't really care about the particulars."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_YESMAN" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "You sure are interested in assisting us. I haven't heard such a vigorous 'yes' for a while now."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_PENCIL_PUSHER" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Did they really need to send a Pencil Writer? Presser? Whatever the hell you're called. I really hope we can count on you."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_FLUNKY" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Seriously? This is what the Cogs send us as aid? Fine, let's just hope you're not a flunky at combat."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_BIG_WIG" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Wow, I never saw a Big Wig before. This is a bit strange to see the highest ranked Lawbot here. I'm sure for someone of your prestige you will have this pretty well handled."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_LEGAL_EAGLE" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "We aren't breaking any laws I swear! Oh wait, you're not investigating us? Oh good."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_SPIN_DOCTOR" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center "A medical ship? For a moment I thought you were here to aid the wounded but it says here you're one of those Spin Doctors. Well, you can head right for that Flagship, we will stand clear for you."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_BACKSTABBER" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Forgive me, but I'm not that willing to trust you with any sensitive information. All I'll offer is a salute and a handshake."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_AMBULANCE_CHASER" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "You're here to chase the Flagship out of town? Well I hope that's just a metaphor because that thing needs to be destroyed."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_DOUBLE_TALKER" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "You're talking out of both sides of your mouth. Are you here to help or not?" You quickly silence your crew. "You're helping? Good. I sure hope so, because we are on our last legs here."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_BLOODSUCKER" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Just what we needed. Another bloodsucking lawyer to keep red tape in the way. I sure hope you'll handle the flagship for us while we try and figure out the legal language of war."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_BOTTOM_FEEDER" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Oh come on, I know the Cogs don't particularly care about our problems, but they send YOU to assist? Fine, I hope it's enough."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_ROBBER_BARON" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Man, I've never seen a Robber Baron Cruiser before. This must mean a lot to the Cogs to send one of their best to us. I just hope the reasoning is valid. I'll even let you loot the Flagship if you take it out for us."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_LOAN_SHARK" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Damn it, I knew I should have bet on black. Come on I just need a few more weeks to make it up. Oh you're not with those Loan Sharks? Never mind what you heard then. Just head onto the Flagship and maybe we can discuss a loan later."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_MONEY_BAGS" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. For a moment, Tully and his staff gawk at the sight of your ship until Tully comes back to his senses. "I have never seen so much wealth in my life! That's way too much, but never mind that, I hope you spent at least some of it on making your ship a worthy fight against the Rebels."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_BEAN_COUNTER" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "I really hope you're not here to budget our funding, because we are already strained as is, we can't accept another budget cut, but if you're willing to cut out the Flagship, we may just survive this war after all."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_TIGHTWAD" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "I'm not sure how I feel about someone as tightfisted as the Tightwads, but we are in no position to argue. If you can take down that flagship, that'll be just what we need to pull a victory against the rebels."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_PENNY_PINCHER" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "I find it rather concerning and slightly offensive that the best the Cogs could send was a ship run as cheaply as possible, but this is better than nothing."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_SHORT_CHANGE" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Damn you Cogs. We are on the brink of defeat and all you can come up with is this? Look, no offense, but this is pretty much next to nothing as you can get in terms of war. I sure hope the weaponry is up to par in exchange."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_MR_HOLLYWOOD" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Stop smiling will you, you're blinding me from the vidscreen. I'm really impressed they would send such a high ranking cog so hopefully that means you're armed and ready for a hell of a battle."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_MINGLER" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Holy hell, stop talking. Please! Just go to the Flagship and talk to them. Maybe you can win without even firing a shot with a voice like that."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_TWO_FACE" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "I can't tell if you're highly confident or really nervous and that concerns me. I have no choice but to assume you are confident."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_MOVER_AND_SHAKER" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. He recoils in shock at the sight of your ship. "Yes, yes, we knew you were coming before you got here. You made quite the entrance so how about moving back to your ship and do that stunt with the Flagship?"</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_GLAD_HANDER" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Good to meet you as well. Pretty firm handshake you got there. Just keep the pressure on the Rebels and I'm sure they'll fold."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_NAME_DROPPER" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Yes, I've gotten your emails already, and stop using my name at events, we don't know each other!"</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_TELEMARKETER" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "What do you mean my car's extended warranty is expired? I don't even know what a car is!"</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_COLD_CALLER" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Is that it? Like that's all we get for help?" You nod your head. "Of course, why would we expect more from Cog Inc? I just hope you know what you're doing.</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_RANDOM" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. He recoils in shock at the sight of your ship. "What is that even supposed to be? Your rating is just a question mark. Lord help us. Just go and deal with that flagship, you're our only hope."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_SPECIALITY" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "It is an honor to meet a special Cog. I have no clue why you would be here, but I'm very hopeful that this means the victory of the Federation."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" max_group="1" req="SHIP_MINE" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>Come on, let's get this over with. You don't need to talk to Tully. After all, this ship is OP. It was never a fair fight.</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2_ALT"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="rep_comb_federation" lvl="4" max_lvl="999" max_group="0" blue="false">
+		<text>Continue...</text>
+		<event>
+			<text>You scan your ID, but something appears wrong. A nearby Federation ship approaches, and you notice their weapons are online. You receive a hail from the ship. "You've been on quite the escapade in your journey here. I'm afraid the Federation simply cannot support someone with so many bad marks on their record. If you want any shot at forgiveness, eliminating the Flagship would be a good place to start." On that note, they cut comms.</text>
+		</event>
+	</choice>
+	<fleet>fed</fleet>
+</event>	
+<event name="LAST_STAND_START_2_ALT">
+	<text>Do you really need any of this stuff? I'd be shocked if that was the case. Oh do the human. That'd be funny. The wife says do the repair.</text>
+	<choice hidden="true">
+		<text>Request repairs.</text>
+		<event>
+			<text>Fine I'll fix the hull some. Only because that was her choice.</text>
+			<damage amount="-30"/>
+			<choice hidden="true" blue="false" req="detergent_mode" lvl="0" max_lvl="0">
+				<text>Continue...</text>
+				<event load="LASTSTAND_EMPTY_BEACON"/>
+			</choice>
+			<choice hidden="true" blue="false" req="detergent_mode" lvl="1">
+				<text>Continue...</text>
+				<event load="DETERGENT_WIN"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Request fuel and a sector map.</text>
+		<event>
+			<text>Do you really need to know where you're going?</text>
+			<item_modify>
+				<item type="fuel" min="15" max="15"/>
+			</item_modify>
+			<reveal_map/>
+			<choice hidden="true" blue="false" req="detergent_mode" lvl="0" max_lvl="0">
+				<text>Continue...</text>
+				<event load="LASTSTAND_EMPTY_BEACON"/>
+			</choice>
+			<choice hidden="true" blue="false" req="detergent_mode" lvl="1">
+				<text>Continue...</text>
+				<event load="DETERGENT_WIN"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Request ammunition and droneparts.</text>
+		<event>
+			<text>There's no way you need this meaningless junk.</text>
+			<item_modify>
+				<item type="missiles" min="7" max="7"/>
+				<item type="drones" min="7" max="7"/>
+			</item_modify>
+			<choice hidden="true" blue="false" req="detergent_mode" lvl="0" max_lvl="0">
+				<text>Continue...</text>
+				<event load="LASTSTAND_EMPTY_BEACON"/>
+			</choice>
+			<choice hidden="true" blue="false" req="detergent_mode" lvl="1">
+				<text>Continue...</text>
+				<event load="DETERGENT_WIN"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Request additional crew.</text>
+		<event>
+			<text>HA. Thank you for this. Look at the poor bastard. Try to keep him alive.</text>
+			<crewMember amount="1" class="human"/>
+			<choice hidden="true" blue="false" req="detergent_mode" lvl="0" max_lvl="0">
+				<text>Continue...</text>
+				<event load="LASTSTAND_EMPTY_BEACON"/>
+			</choice>
+			<choice hidden="true" blue="false" req="detergent_mode" lvl="1">
+				<text>Continue...</text>
+				<event load="DETERGENT_WIN"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" max_group="1" req="SHIP_PROPHET">
+		<text>We need not of your assistance. The Great Eye will guide us.</text>
+		<event>
+			<text>Very funny, but this is my world kiddo.</text>
+			<reveal_map/>
+			<damage amount="1"/>
+			<item_modify>
+				<item type="scrap" min="-1" max="-1"/>
+				<item type="fuel" min="-1" max="-1"/>
+				<item type="missiles" min="-1" max="-1"/>
+				<item type="drones" min="-1" max="-1"/>
+			</item_modify>
+			<choice>
+				<text>Continue...</text>
+				<event load="LASTSTAND_EMPTY_BEACON"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="TULLY_PRESENT">
+		<text>Show Tully the package.</text>
+		<event>
+			<text>Do you even need him for this ship? Fine, let's play it out as normal.</text>
+			<remove name="TULLY_PRESENT"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="TULLY_CONTACT"/>
+			</choice>
+		</event>
+	</choice>
+</event>
+</FTL>
