@@ -595,151 +595,6 @@
 ********************************************************************************************************************************************************************************************************************************************
 -->
 
-<mod:findName type="blueprintList" name="LIST_CREW_ALIENS">
-	<mod-append:name>big_cheese</mod-append:name>
-	<mod-append:name>big_cheese_elite</mod-append:name>
-	<mod-append:name>big_cheese_waiter</mod-append:name>
-	<mod-append:name>big_cheese_hologram</mod-append:name>
-	<mod-append:name>corporateraider</mod-append:name>
-	<mod-append:name>corporateraider_elite</mod-append:name>
-	<mod-append:name>corporateraider_waiter</mod-append:name>
-	<mod-append:name>corporateraider_hologram</mod-append:name>
-	<mod-append:name>headhunter</mod-append:name>
-	<mod-append:name>headhunter_elite</mod-append:name>
-	<mod-append:name>headhunter_hologram</mod-append:name>
-	<mod-append:name>headhunter_waiter</mod-append:name>
-	<mod-append:name>downsizer</mod-append:name>
-	<mod-append:name>downsizer_elite</mod-append:name>
-	<mod-append:name>downsizer_hologram</mod-append:name>
-	<mod-append:name>downsizer_waiter</mod-append:name>
-	<mod-append:name>micromanager</mod-append:name>
-	<mod-append:name>micromanager_elite</mod-append:name>
-	<mod-append:name>micromanager_hologram</mod-append:name>
-	<mod-append:name>micromanager_waiter</mod-append:name>
-	<mod-append:name>yesman</mod-append:name>
-	<mod-append:name>yesman_elite</mod-append:name>
-	<mod-append:name>yesman_hologram</mod-append:name>
-	<mod-append:name>yesman_waiter</mod-append:name>
-	<mod-append:name>bigwig</mod-append:name>
-	<mod-append:name>bigwig_elite</mod-append:name>
-	<mod-append:name>bigwig_waiter</mod-append:name>
-	<mod-append:name>bigwig_hologram</mod-append:name>
-	<mod-append:name>legaleagle</mod-append:name>
-	<mod-append:name>legaleagle_elite</mod-append:name>
-	<mod-append:name>legaleagle_waiter</mod-append:name>
-	<mod-append:name>legaleagle_hologram</mod-append:name>
-	<mod-append:name>spindoctor</mod-append:name>
-	<mod-append:name>spindoctor_elite</mod-append:name>
-	<mod-append:name>spindoctor_hologram</mod-append:name>
-	<mod-append:name>spindoctor_waiter</mod-append:name>
-	<mod-append:name>backstabber</mod-append:name>
-	<mod-append:name>backstabber_elite</mod-append:name>
-	<mod-append:name>backstabber_waiter</mod-append:name>
-	<mod-append:name>backstabber_hologram</mod-append:name>
-	<mod-append:name>ambulancechaser</mod-append:name>
-	<mod-append:name>ambulancechaser_elite</mod-append:name>
-	<mod-append:name>ambulancechaser_waiter</mod-append:name>
-	<mod-append:name>ambulancechaser_hologram</mod-append:name>
-	<mod-append:name>double_talker</mod-append:name>
-	<mod-append:name>double_talker_elite</mod-append:name>
-	<mod-append:name>double_talker_hologram</mod-append:name>
-	<mod-append:name>double_talker_waiter</mod-append:name>
-	<mod-append:name>robberbaron</mod-append:name>
-	<mod-append:name>robberbaron_elite</mod-append:name>
-	<mod-append:name>robberbaron_waiter</mod-append:name>
-	<mod-append:name>robberbaron_hologram</mod-append:name>
-	<mod-append:name>loanshark</mod-append:name>
-	<mod-append:name>loanshark_elite</mod-append:name>
-	<mod-append:name>loanshark_waiter</mod-append:name>
-	<mod-append:name>loanshark_hologram</mod-append:name>
-	<mod-append:name>moneybags</mod-append:name>
-	<mod-append:name>moneybags_elite</mod-append:name>
-	<mod-append:name>moneybags_hologram</mod-append:name>
-	<mod-append:name>moneybags_waiter</mod-append:name>
-	<mod-append:name>numbercruncher</mod-append:name>
-	<mod-append:name>numbercruncher_elite</mod-append:name>
-	<mod-append:name>numbercruncher_waiter</mod-append:name>
-	<mod-append:name>numbercruncher_hologram</mod-append:name>
-	<mod-append:name>bean_counter</mod-append:name>
-	<mod-append:name>bean_counter_elite</mod-append:name>
-	<mod-append:name>bean_counter_hologram</mod-append:name>
-	<mod-append:name>bean_counter_waiter</mod-append:name>
-	<mod-append:name>tightwad</mod-append:name>
-	<mod-append:name>tightwad_elite</mod-append:name>
-	<mod-append:name>tightwad_waiter</mod-append:name>
-	<mod-append:name>tightwad_hologram</mod-append:name>
-	<mod-append:name>penny_p</mod-append:name>
-	<mod-append:name>penny_p_elite</mod-append:name>
-	<mod-append:name>penny_p_waiter</mod-append:name>
-	<mod-append:name>penny_p_hologram</mod-append:name>
-	<mod-append:name>mrhollywood</mod-append:name>
-	<mod-append:name>mrhollywood_elite</mod-append:name>
-	<mod-append:name>mrhollywood_waiter</mod-append:name>
-	<mod-append:name>mrhollywood_hologram</mod-append:name>
-	<mod-append:name>mingler</mod-append:name>
-	<mod-append:name>mingler_elite</mod-append:name>
-	<mod-append:name>mingler_waiter</mod-append:name>
-	<mod-append:name>mingler_hologram</mod-append:name>
-	<mod-append:name>twoface</mod-append:name>
-	<mod-append:name>twoface_elite</mod-append:name>
-	<mod-append:name>twoface_hologram</mod-append:name>
-	<mod-append:name>twoface_waiter</mod-append:name>
-	<mod-append:name>mover_and_shaker</mod-append:name>
-	<mod-append:name>mover_and_shaker_elite</mod-append:name>
-	<mod-append:name>mover_and_shaker_hologram</mod-append:name>
-	<mod-append:name>mover_and_shaker_waiter</mod-append:name>
-	<mod-append:name>glad_hander</mod-append:name>
-	<mod-append:name>glad_hander_elite</mod-append:name>
-	<mod-append:name>glad_hander_waiter</mod-append:name>
-	<mod-append:name>glad_hander_hologram</mod-append:name>
-	<mod-append:name>name_dropper</mod-append:name>
-	<mod-append:name>name_dropper_elite</mod-append:name>
-	<mod-append:name>name_dropper_waiter</mod-append:name>
-	<mod-append:name>name_dropper_hologram</mod-append:name>
-	<mod-append:name>jack_brie</mod-append:name>
-	<mod-append:name>comrade</mod-append:name>
-	<mod-append:name>honcho</mod-append:name>
-	<mod-append:name>debbie</mod-append:name>
-	<mod-append:name>mira</mod-append:name>
-	<mod-append:name>yessum</mod-append:name>
-	<mod-append:name>judge</mod-append:name>
-	<mod-append:name>lawrence</mod-append:name>
-	<mod-append:name>dr_spin</mod-append:name>
-	<mod-append:name>ac08</mod-append:name>
-	<mod-append:name>robert</mod-append:name>
-	<mod-append:name>bruce</mod-append:name>
-	<mod-append:name>monee</mod-append:name>
-	<mod-append:name>lovelace</mod-append:name>
-	<mod-append:name>cash_crab</mod-append:name>
-	<mod-append:name>holiday</mod-append:name>
-	<mod-append:name>lily</mod-append:name>
-	<mod-append:name>harvey</mod-append:name>
-	<mod-append:name>bakker</mod-append:name>
-</mod:findName>
-
-<mod:findName type="blueprintList" name="LIST_CREW_PARAGON_UNIQUE">
-	<mod-append:name>controller</mod-append:name>
-	<mod-append:name>queen</mod-append:name>
-	<mod-append:name>herobrine</mod-append:name>
-	<mod-append:name>dr_spin_eldritch</mod-append:name>
-	<mod-append:name>jack_brie</mod-append:name>
-	<mod-append:name>judge</mod-append:name>
-	<mod-append:name>robert</mod-append:name>
-	<mod-append:name>holiday</mod-append:name>
-	<mod-append:name>comrade</mod-append:name>
-	<mod-append:name>lawrence</mod-append:name>
-	<mod-append:name>bruce</mod-append:name>
-	<mod-append:name>lily</mod-append:name>
-	<mod-append:name>honcho</mod-append:name>
-	<mod-append:name>dr_spin</mod-append:name>
-	<mod-append:name>monee</mod-append:name>
-	<mod-append:name>harvey</mod-append:name>
-	<mod-append:name>debbie</mod-append:name>
-	<mod-append:name>mira</mod-append:name>
-	<mod-append:name>ac08</mod-append:name>
-	<mod-append:name>yessum</mod-append:name>
-</mod:findName>
-
 <blueprintList name="LIST_COG_RANDOM">
 	<name>big_cheese</name>
 	<name>big_cheese</name>
@@ -1266,6 +1121,10 @@
 	<name>bean_counter_elite</name>
 	<name>bean_counter_hologram</name>
 	<name>bean_counter_waiter</name>
+	<name>tightwad</name>
+	<name>tightwad_elite</name>
+	<name>tightwad_hologram</name>
+	<name>tightwad_waiter</name>
 	<name>penny_p</name>
 	<name>penny_p_elite</name>
 	<name>penny_p_waiter</name>
@@ -1371,6 +1230,10 @@
 	<name>bean_counter_elite</name>
 	<name>bean_counter_hologram</name>
 	<name>bean_counter_waiter</name>
+	<name>tightwad</name>
+	<name>tightwad_elite</name>
+	<name>tightwad_hologram</name>
+	<name>tightwad_waiter</name>
 	<name>penny_p</name>
 	<name>penny_p_elite</name>
 	<name>penny_p_waiter</name>
@@ -1426,6 +1289,364 @@
 	<name>bakker</name>
 </blueprintList>
 
+
+<!--
+////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
+			INDIVIDUAL COGS BLUEPRINT LIST (No clue what I'll add for individual or not so just all of them get their own list)
+////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
+-->
+
+<!--
+////////////////////////////////////////////////////////////////////////////////////
+			BOSSBOTS
+////////////////////////////////////////////////////////////////////////////////////
+-->
+
+<blueprintList name="LIST_CREW_BIG_CHEESE">
+	<name>big_cheese</name>
+	<name>big_cheese_elite</name>
+	<name>big_cheese_waiter</name>
+	<name>big_cheese_hologram</name>
+</blueprintList>
+
+<blueprintList name="LIST_CREW_CORPORATE_RAIDER">
+	<name>corporateraider</name>
+	<name>corporateraider_elite</name>
+	<name>corporateraider_waiter</name>
+	<name>corporateraider_hologram</name>
+</blueprintList>
+
+<blueprintList name="LIST_CREW_HEADHUNTER">
+	<name>headhunter</name>
+	<name>headhunter_elite</name>
+	<name>headhunter_hologram</name>
+	<name>headhunter_waiter</name>
+</blueprintList>
+
+<blueprintList name="LIST_CREW_DOWNSIZER">
+	<name>downsizer</name>
+	<name>downsizer_elite</name>
+	<name>downsizer_hologram</name>
+	<name>downsizer_waiter</name>
+</blueprintList>
+
+<blueprintList name="LIST_CREW_MICROMANAGER">
+	<name>micromanager</name>
+	<name>micromanager_elite</name>
+	<name>micromanager_hologram</name>
+	<name>micromanager_waiter</name>
+</blueprintList>
+
+<blueprintList name="LIST_CREW_YESMAN">
+	<name>yesman</name>
+	<name>yesman_elite</name>
+	<name>yesman_hologram</name>
+	<name>yesman_waiter</name>
+</blueprintList>
+
+<!--
+////////////////////////////////////////////////////////////////////////////////////
+			LAWBOTS
+////////////////////////////////////////////////////////////////////////////////////
+-->
+
+<blueprintList name="LIST_CREW_BIG_WIG">
+	<name>bigwig</name>
+	<name>bigwig_elite</name>
+	<name>bigwig_waiter</name>
+	<name>bigwig_hologram</name>
+</blueprintList>
+
+<blueprintList name="LIST_CREW_LEGAL_EAGLE">
+	<name>legaleagle</name>
+	<name>legaleagle_elite</name>
+	<name>legaleagle_waiter</name>
+	<name>legaleagle_hologram</name>
+</blueprintList>
+
+<blueprintList name="LIST_CREW_SPIN_DOCTOR">
+	<name>spindoctor</name>
+	<name>spindoctor_elite</name>
+	<name>spindoctor_hologram</name>
+	<name>spindoctor_waiter</name>
+</blueprintList>
+
+<blueprintList name="LIST_CREW_BACKSTABBER">
+	<name>backstabber</name>
+	<name>backstabber_elite</name>
+	<name>backstabber_waiter</name>
+	<name>backstabber_hologram</name>
+</blueprintList>
+
+<blueprintList name="LIST_CREW_AMBULANCE_CHASER">
+	<name>ambulancechaser</name>
+	<name>ambulancechaser_elite</name>
+	<name>ambulancechaser_waiter</name>
+	<name>ambulancechaser_hologram</name>
+</blueprintList>
+
+<blueprintList name="LIST_CREW_DOUBLE_TALKER">
+	<name>double_talker</name>
+	<name>double_talker_elite</name>
+	<name>double_talker_hologram</name>
+	<name>double_talker_waiter</name>
+</blueprintList>
+
+<!--
+////////////////////////////////////////////////////////////////////////////////////
+			CASHBOTS
+////////////////////////////////////////////////////////////////////////////////////
+-->
+
+<blueprintList name="LIST_CREW_ROBBER_BARON">
+	<name>robberbaron</name>
+	<name>robberbaron_elite</name>
+	<name>robberbaron_waiter</name>
+	<name>robberbaron_hologram</name>
+</blueprintList>
+
+<blueprintList name="LIST_CREW_LOAN_SHARK">
+	<name>loanshark</name>
+	<name>loanshark_elite</name>
+	<name>loanshark_waiter</name>
+	<name>loanshark_hologram</name>
+</blueprintList>
+
+<blueprintList name="LIST_CREW_MONEY_BAGS">
+	<name>moneybags</name>
+	<name>moneybags_elite</name>
+	<name>moneybags_hologram</name>
+	<name>moneybags_waiter</name>
+</blueprintList>
+
+<blueprintList name="LIST_CREW_NUMBER_CRUNCHER">
+	<name>numbercruncher</name>
+	<name>numbercruncher_elite</name>
+	<name>numbercruncher_waiter</name>
+	<name>numbercruncher_hologram</name>
+</blueprintList>
+
+<blueprintList name="LIST_CREW_BEAN_COUNTER">
+	<name>bean_counter</name>
+	<name>bean_counter_elite</name>
+	<name>bean_counter_hologram</name>
+	<name>bean_counter_waiter</name>
+</blueprintList>
+
+<blueprintList name="LIST_CREW_TIGHTWAD">
+	<name>tightwad</name>
+	<name>tightwad_elite</name>
+	<name>tightwad_hologram</name>
+	<name>tightwad_waiter</name>
+</blueprintList>
+
+<!--
+////////////////////////////////////////////////////////////////////////////////////
+			SELLBOTS
+////////////////////////////////////////////////////////////////////////////////////
+-->
+
+<blueprintList name="LIST_CREW_MR_HOLLYWOOD">
+	<name>mrhollywood</name>
+	<name>mrhollywood_elite</name>
+	<name>mrhollywood_waiter</name>
+	<name>mrhollywood_hologram</name>
+</blueprintList>
+
+<blueprintList name="LIST_CREW_MINGLER">
+	<name>mingler</name>
+	<name>mingler_elite</name>
+	<name>mingler_waiter</name>
+	<name>mingler_hologram</name>
+</blueprintList>
+
+<blueprintList name="LIST_CREW_TWO_FACE">
+	<name>twoface</name>
+	<name>twoface_elite</name>
+	<name>twoface_hologram</name>
+	<name>twoface_waiter</name>
+</blueprintList>
+
+<blueprintList name="LIST_CREW_MOVER_AND_SHAKER">
+	<name>mover_and_shaker</name>
+	<name>mover_and_shaker_elite</name>
+	<name>mover_and_shaker_hologram</name>
+	<name>mover_and_shaker_waiter</name>
+</blueprintList>
+
+<blueprintList name="LIST_CREW_GLAD_HANDER">
+	<name>glad_hander</name>
+	<name>glad_hander_elite</name>
+	<name>glad_hander_waiter</name>
+	<name>glad_hander_hologram</name>
+</blueprintList>
+
+<blueprintList name="LIST_CREW_NAME_DROPPER">
+	<name>name_dropper</name>
+	<name>name_dropper_elite</name>
+	<name>name_dropper_waiter</name>
+	<name>name_dropper_hologram</name>
+</blueprintList>
+
+<!--
+////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
+			Addons to Multiverse, may be deleted some day
+////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
+-->
+
+<mod:findName type="blueprintList" name="LIST_CREW_ALIENS">
+	<mod-append:name>big_cheese</mod-append:name>
+	<mod-append:name>big_cheese_elite</mod-append:name>
+	<mod-append:name>big_cheese_waiter</mod-append:name>
+	<mod-append:name>big_cheese_hologram</mod-append:name>
+	<mod-append:name>corporateraider</mod-append:name>
+	<mod-append:name>corporateraider_elite</mod-append:name>
+	<mod-append:name>corporateraider_waiter</mod-append:name>
+	<mod-append:name>corporateraider_hologram</mod-append:name>
+	<mod-append:name>headhunter</mod-append:name>
+	<mod-append:name>headhunter_elite</mod-append:name>
+	<mod-append:name>headhunter_hologram</mod-append:name>
+	<mod-append:name>headhunter_waiter</mod-append:name>
+	<mod-append:name>downsizer</mod-append:name>
+	<mod-append:name>downsizer_elite</mod-append:name>
+	<mod-append:name>downsizer_hologram</mod-append:name>
+	<mod-append:name>downsizer_waiter</mod-append:name>
+	<mod-append:name>micromanager</mod-append:name>
+	<mod-append:name>micromanager_elite</mod-append:name>
+	<mod-append:name>micromanager_hologram</mod-append:name>
+	<mod-append:name>micromanager_waiter</mod-append:name>
+	<mod-append:name>yesman</mod-append:name>
+	<mod-append:name>yesman_elite</mod-append:name>
+	<mod-append:name>yesman_hologram</mod-append:name>
+	<mod-append:name>yesman_waiter</mod-append:name>
+	<mod-append:name>bigwig</mod-append:name>
+	<mod-append:name>bigwig_elite</mod-append:name>
+	<mod-append:name>bigwig_waiter</mod-append:name>
+	<mod-append:name>bigwig_hologram</mod-append:name>
+	<mod-append:name>legaleagle</mod-append:name>
+	<mod-append:name>legaleagle_elite</mod-append:name>
+	<mod-append:name>legaleagle_waiter</mod-append:name>
+	<mod-append:name>legaleagle_hologram</mod-append:name>
+	<mod-append:name>spindoctor</mod-append:name>
+	<mod-append:name>spindoctor_elite</mod-append:name>
+	<mod-append:name>spindoctor_hologram</mod-append:name>
+	<mod-append:name>spindoctor_waiter</mod-append:name>
+	<mod-append:name>backstabber</mod-append:name>
+	<mod-append:name>backstabber_elite</mod-append:name>
+	<mod-append:name>backstabber_waiter</mod-append:name>
+	<mod-append:name>backstabber_hologram</mod-append:name>
+	<mod-append:name>ambulancechaser</mod-append:name>
+	<mod-append:name>ambulancechaser_elite</mod-append:name>
+	<mod-append:name>ambulancechaser_waiter</mod-append:name>
+	<mod-append:name>ambulancechaser_hologram</mod-append:name>
+	<mod-append:name>double_talker</mod-append:name>
+	<mod-append:name>double_talker_elite</mod-append:name>
+	<mod-append:name>double_talker_hologram</mod-append:name>
+	<mod-append:name>double_talker_waiter</mod-append:name>
+	<mod-append:name>robberbaron</mod-append:name>
+	<mod-append:name>robberbaron_elite</mod-append:name>
+	<mod-append:name>robberbaron_waiter</mod-append:name>
+	<mod-append:name>robberbaron_hologram</mod-append:name>
+	<mod-append:name>loanshark</mod-append:name>
+	<mod-append:name>loanshark_elite</mod-append:name>
+	<mod-append:name>loanshark_waiter</mod-append:name>
+	<mod-append:name>loanshark_hologram</mod-append:name>
+	<mod-append:name>moneybags</mod-append:name>
+	<mod-append:name>moneybags_elite</mod-append:name>
+	<mod-append:name>moneybags_hologram</mod-append:name>
+	<mod-append:name>moneybags_waiter</mod-append:name>
+	<mod-append:name>numbercruncher</mod-append:name>
+	<mod-append:name>numbercruncher_elite</mod-append:name>
+	<mod-append:name>numbercruncher_waiter</mod-append:name>
+	<mod-append:name>numbercruncher_hologram</mod-append:name>
+	<mod-append:name>bean_counter</mod-append:name>
+	<mod-append:name>bean_counter_elite</mod-append:name>
+	<mod-append:name>bean_counter_hologram</mod-append:name>
+	<mod-append:name>bean_counter_waiter</mod-append:name>
+	<mod-append:name>tightwad</mod-append:name>
+	<mod-append:name>tightwad_elite</mod-append:name>
+	<mod-append:name>tightwad_waiter</mod-append:name>
+	<mod-append:name>tightwad_hologram</mod-append:name>
+	<mod-append:name>penny_p</mod-append:name>
+	<mod-append:name>penny_p_elite</mod-append:name>
+	<mod-append:name>penny_p_waiter</mod-append:name>
+	<mod-append:name>penny_p_hologram</mod-append:name>
+	<mod-append:name>mrhollywood</mod-append:name>
+	<mod-append:name>mrhollywood_elite</mod-append:name>
+	<mod-append:name>mrhollywood_waiter</mod-append:name>
+	<mod-append:name>mrhollywood_hologram</mod-append:name>
+	<mod-append:name>mingler</mod-append:name>
+	<mod-append:name>mingler_elite</mod-append:name>
+	<mod-append:name>mingler_waiter</mod-append:name>
+	<mod-append:name>mingler_hologram</mod-append:name>
+	<mod-append:name>twoface</mod-append:name>
+	<mod-append:name>twoface_elite</mod-append:name>
+	<mod-append:name>twoface_hologram</mod-append:name>
+	<mod-append:name>twoface_waiter</mod-append:name>
+	<mod-append:name>mover_and_shaker</mod-append:name>
+	<mod-append:name>mover_and_shaker_elite</mod-append:name>
+	<mod-append:name>mover_and_shaker_hologram</mod-append:name>
+	<mod-append:name>mover_and_shaker_waiter</mod-append:name>
+	<mod-append:name>glad_hander</mod-append:name>
+	<mod-append:name>glad_hander_elite</mod-append:name>
+	<mod-append:name>glad_hander_waiter</mod-append:name>
+	<mod-append:name>glad_hander_hologram</mod-append:name>
+	<mod-append:name>name_dropper</mod-append:name>
+	<mod-append:name>name_dropper_elite</mod-append:name>
+	<mod-append:name>name_dropper_waiter</mod-append:name>
+	<mod-append:name>name_dropper_hologram</mod-append:name>
+	<mod-append:name>jack_brie</mod-append:name>
+	<mod-append:name>comrade</mod-append:name>
+	<mod-append:name>honcho</mod-append:name>
+	<mod-append:name>debbie</mod-append:name>
+	<mod-append:name>mira</mod-append:name>
+	<mod-append:name>yessum</mod-append:name>
+	<mod-append:name>judge</mod-append:name>
+	<mod-append:name>lawrence</mod-append:name>
+	<mod-append:name>dr_spin</mod-append:name>
+	<mod-append:name>ac08</mod-append:name>
+	<mod-append:name>robert</mod-append:name>
+	<mod-append:name>bruce</mod-append:name>
+	<mod-append:name>monee</mod-append:name>
+	<mod-append:name>lovelace</mod-append:name>
+	<mod-append:name>cash_crab</mod-append:name>
+	<mod-append:name>holiday</mod-append:name>
+	<mod-append:name>lily</mod-append:name>
+	<mod-append:name>harvey</mod-append:name>
+	<mod-append:name>bakker</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_CREW_PARAGON_UNIQUE">
+	<mod-append:name>controller</mod-append:name>
+	<mod-append:name>queen</mod-append:name>
+	<mod-append:name>herobrine</mod-append:name>
+	<mod-append:name>dr_spin_eldritch</mod-append:name>
+	<mod-append:name>jack_brie</mod-append:name>
+	<mod-append:name>judge</mod-append:name>
+	<mod-append:name>robert</mod-append:name>
+	<mod-append:name>holiday</mod-append:name>
+	<mod-append:name>comrade</mod-append:name>
+	<mod-append:name>lawrence</mod-append:name>
+	<mod-append:name>bruce</mod-append:name>
+	<mod-append:name>lily</mod-append:name>
+	<mod-append:name>honcho</mod-append:name>
+	<mod-append:name>dr_spin</mod-append:name>
+	<mod-append:name>monee</mod-append:name>
+	<mod-append:name>harvey</mod-append:name>
+	<mod-append:name>debbie</mod-append:name>
+	<mod-append:name>mira</mod-append:name>
+	<mod-append:name>ac08</mod-append:name>
+	<mod-append:name>yessum</mod-append:name>
+</mod:findName>
+
 <mod:findName type="blueprintList" name="LIST_CREW_SIREN">
 	<mod-append:name>dr_spin_eldritch</mod-append:name>
 </mod:findName>
@@ -1455,15 +1676,4 @@
 	<name>spindoctor_hologram</name>
 </blueprintList>
 
-<blueprintList name="LIST_CREW_SPINDR_WAITER">
-	<name>spindoctor_waiter</name>
-</blueprintList>
-
-<blueprintList name="LIST_CREW_DRSPIN">
-	<name>dr_spin</name>
-</blueprintList>
-
-<blueprintList name="LIST_CREW_GODSPIN">
-	<name>dr_spin_eldritch</name>
-</blueprintList>
 </FTL>

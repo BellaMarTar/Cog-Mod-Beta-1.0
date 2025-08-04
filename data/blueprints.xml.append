@@ -4416,7 +4416,7 @@ weapon C
 <shipBlueprint name="PLAYER_SHIP_ROBBER_BARON_3" layout="robber_baron_ship_3" img="robber_baron_ship_3">
 	<class id="text_PLAYER_SHIP_ROBBER_BARON_3_class">Robber Baron Cruiser</class>
 	<name id="text_PLAYER_SHIP_ROBBER_BARON_3_name">Load of Crocker</name>
-	<desc id="text_PLAYER_SHIP_ROBBER_BARON_3_desc">Finally, a ship that can fight. Who needs anything else but fighting power. One problem. Where's the Robber Barons? Only two waiters showed up to duty...</desc>
+	<desc id="text_PLAYER_SHIP_ROBBER_BARON_3_desc">Finally, a ship that can fight. Who needs anything else but fighting power. One problem. Where's the Robber Barons? Only one waiter showed up to duty...</desc>
 	<systemList>
 		<battery power="1" room="8" start="false" img="room_battery_6" />
 		<cloaking power="1" room="1" start="false" img="room_cloaking_3" />
@@ -4485,8 +4485,226 @@ weapon C
 	<health amount="30" />
 	<maxPower amount="6" />
 	<crewCount amount="1" class="robberbaron_waiter" />
-	<crewCount amount="1" class="robberbaron_waiter" />
 	<aug name="COMBAT_WEAPON_JAMMER" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_LOAN_SHARK" layout="loan_shark_1" img="loan_shark_1">
+	<class id="text_PLAYER_SHIP_LOAN_SHARK_class">Loan Shark Cruiser</class>
+	<name id="text_PLAYER_SHIP_LOAN_SHARK_name">Break his Leg</name>
+	<desc id="text_PLAYER_SHIP_LOAN_SHARK_desc">It shouldn't be too surprising to see that Loan Sharks like a more up close and personal approach. A sort of sale's pitch if you will.</desc>
+	<systemList>
+		<battery power="1" room="4" start="false" img="room_battery_6" />
+		<cloaking power="1" room="10" start="false" img="room_cloaking_10" />
+		<clonebay power="1" room="3" start="false">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="20" start="true" img="room_doors">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="1" room="15" start="false" img="room_drones" />
+		<engines power="2" room="9" start="true" img="room_engines">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="16" start="false" img="room_hacking_5" />
+		<medbay power="1" room="3" start="true" img="room_medbay">
+			<slot>
+				<number>1</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="14" start="false" img="room_mind" />
+		<oxygen power="1" room="5" start="true" img="room_oxygen_7" />
+		<pilot power="1" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="2" start="false" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="6" start="true" img="room_shields">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="17" start="true" />
+		<weapons max="8" power="2" room="7" start="true" img="room_weapons_2">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="10" count="4">
+		<weapon name="SHOTGUN_INSTANT" />
+		<weapon name="SPORE_2" />
+	</weaponList>
+	<droneList drones="0" count="2" />
+	<health amount="30" />
+	<maxPower amount="6" />
+	<crewCount amount="1" class="loanshark" />
+	<crewCount amount="1" class="loanshark" />
+	<aug name="LOCKED_LOAN_SHARK_BITE_BUFF" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_LOAN_SHARK_2" layout="loan_shark_cruiser_2" img="loan_shark_cruiser_2">
+	<class id="text_PLAYER_SHIP_LOAN_SHARK_2_class">Loan Shark Cruiser</class>
+	<name id="text_PLAYER_SHIP_LOAN_SHARK_2_name">Wise Guy</name>
+	<desc id="text_PLAYER_SHIP_LOAN_SHARK_2_desc">Elite Loan Sharks like to take it up an notch for their boarding parties, but it certainly taxes the rest of the ship. Let's see if your enemies like that tradeoff.</desc>
+	<systemList>
+		<battery power="1" room="14" start="false" img="room_battery_11" />
+		<cloaking power="1" room="12" start="false" img="room_cloaking_12" />
+		<clonebay power="1" room="13" start="false">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="2" start="false" img="room_doors_8">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</doors>
+		<drones max="8" power="1" room="10" start="false" img="room_drones" />
+		<engines power="2" room="18" start="true" img="room_engines_13">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="26" start="false" img="room_hacking" />
+		<medbay power="1" room="13" start="true" img="room_medbay">
+			<slot>
+				<number>1</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="11" start="false" img="room_mind_5" />
+		<oxygen power="1" room="15" start="true" img="room_oxygen" />
+		<pilot power="1" room="0" start="true" img="room_pilot_2">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="3" start="false" img="room_sensors_4">
+			<slot>
+				<direction>left</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="7" start="true" img="room_shields">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="21" start="true" />
+		<weapons max="8" power="1" room="6" start="true" img="room_weapons">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="0" count="4">
+		<weapon name="LASER_HEAVY_1" />
+	</weaponList>
+	<droneList drones="0" count="2" />
+	<health amount="30" />
+	<maxPower amount="5" />
+	<crewCount amount="1" class="loanshark_elite" />
+	<crewCount amount="1" class="loanshark_elite" />
+	<crewCount amount="1" class="loanshark_elite" />
+	<aug name="LOCKED_LOAN_SHARK_BITE_BUFF" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_LOAN_SHARK_3" layout="loan_shark_cruiser_3" img="loan_shark_cruiser_3">
+	<class id="text_PLAYER_SHIP_LOAN_SHARK_3_class">Loan Shark Cruiser</class>
+	<name id="text_PLAYER_SHIP_LOAN_SHARK_3_name">Cripto Debt</name>
+	<desc id="text_PLAYER_SHIP_LOAN_SHARK_3_desc">Oh dear, it seems the Loan Sharks are evolving into using more electronic strats, but it's not like they're gonna sit this one out at collecting their dues as a result.</desc>
+	<systemList>
+		<battery power="1" room="7" start="false" img="room_battery" />
+		<cloaking power="1" room="12" start="false" img="room_cloaking_5" />
+		<clonebay power="1" room="20" start="true">
+			<slot>
+				<number>2</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="3" start="true" img="room_doors">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="2" room="19" start="true" img="room_drones_4" />
+		<engines power="2" room="18" start="true" img="room_engines_10">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="5" start="true" img="room_hacking_8" />
+		<medbay power="1" room="20" start="false" img="room_medbay_7">
+			<slot>
+				<number>2</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="4" start="false" img="room_mind" />
+		<oxygen power="1" room="6" start="true" img="room_oxygen_3" />
+		<pilot power="1" room="0" start="true" img="room_pilot_2">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="2" start="true" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="10" start="true" img="room_shields_6">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="21" start="true" />
+		<weapons max="8" power="1" room="11" start="false" img="room_weapons_7">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>2</weaponSlots>
+	<droneSlots>4</droneSlots>
+	<weaponList missiles="0" count="2" />
+	<droneList drones="6" count="4">
+		<drone name="RECON_BOARDER" />
+		<drone name="BATTLETOG_BOARDER" />
+	</droneList>
+	<health amount="30" />
+	<maxPower amount="6" />
+	<crewCount amount="1" class="loanshark_waiter" />
+	<crewCount amount="1" class="loanshark_hologram" />
+	<aug name="DRONE_RECOVERY" />
 </shipBlueprint>
 
 <shipBlueprint name="PLAYER_SHIP_BIGWIG" layout="bigwig_cruiser" img="bigwig_cruiser">
@@ -5260,7 +5478,18 @@ weapon C
 </shipBlueprint>
 
 
+<!--
+CUSTOM AUGUMENTS WHICH MAY NOT WORK STILL
+-->
 
+<augBlueprint name="LOCKED_LOAN_SHARK_BITE_BUFF">
+	<title>Big Bite</title>
+	<desc>All Loan Sharks now bite 50% harder and get a 25% boost in health. They really want that loan back huh?</desc>
+	<cost>70</cost>
+	<bp>9</bp>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
 <!--
 Lawbot Ship IDs
 -->

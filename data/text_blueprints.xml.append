@@ -133,6 +133,18 @@ CASHBOTS
 <text name="text_PLAYER_SHIP_ROBBER_BARON_3_name">Load of Croc</text>
 <text name="text_PLAYER_SHIP_ROBBER_BARON_3_desc">Finally, a ship that can fight. Who needs anything else but fighting power. One problem. Where's the Robber Barons? Only two waiters showed up to duty...</text>
 
+<text name="text_PLAYER_SHIP_LOAN_SHARK_class">Loan Shark Cruiser</text>
+<text name="text_PLAYER_SHIP_LOAN_SHARK_name">Break his Leg</text>
+<text name="text_PLAYER_SHIP_LOAN_SHARK_desc">It shouldn't be too surprising to see that Loan Sharks like a more up close and personal approach. A sort of sale's pitch if you will.</text>
+
+<text name="text_PLAYER_SHIP_LOAN_SHARK_2_class">Loan Shark Cruiser</text>
+<text name="text_PLAYER_SHIP_LOAN_SHARK_2_name">Wise Guy</text>
+<text name="text_PLAYER_SHIP_LOAN_SHARK_2_desc">Elite Loan Sharks like to take it up an notch for their boarding parties, but it certainly taxes the rest of the ship. Let's see if your enemies like that tradeoff.</text>
+
+<text name="text_PLAYER_SHIP_LOAN_SHARK_3_class">Loan Shark Cruiser</text>
+<text name="text_PLAYER_SHIP_LOAN_SHARK_3_name">Cripto Debt</text>
+<text name="text_PLAYER_SHIP_LOAN_SHARK_3_desc">Oh dear, it seems the Loan Sharks are evolving into using more electronic strats, but it's not like they're gonna sit this one out at collecting their dues as a result.</text>
+
 <!--
 ////////////////////////////
 SELLBOTS
