@@ -2122,18 +2122,6 @@
 
 
 
-<crewBlueprint name="dr_spin_eldritch">
-	<desc>The Real Dr. Spin. Turns out he has a bitter hatred for any God-like figures so he became one to defeat them. Seems a little ironic don't you think?</desc>
-	<cost>3000</cost>
-	<title>Dr Spin</title>
-	<short>Master Cog</short>
-	<rarity>0</rarity>
-	<powerList>
-	<power>Now that's a pissed off Cog.</power>
-	<power>Insanely strong but horrible at repairs.</power>
-	</powerList>
-</crewBlueprint>
-
 <crewBlueprint name="controller">
 	<desc>You should have known better that curiosity gets you nothing but trouble.</desc>
 	<cost>30000</cost>
@@ -2152,7 +2140,29 @@
 	<short>Queen</short>
 	<rarity>0</rarity>
 	<powerList>
-	<power>Portuguese Power</power>
+	<power>I know my Portuguese Power.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="dr_spin_eldritch">
+	<desc>The Real Dr. Spin. Turns out he has a bitter hatred for any God-like figures so he became one to defeat them. Seems a little ironic don't you think?</desc>
+	<cost>3000</cost>
+	<title>Dr Spin</title>
+	<short>Dr Spin</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>You will spin out of control.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="ac08_eldritch">
+	<desc>You can't outrun me friend.</desc>
+	<cost>3000</cost>
+	<title>Chase</title>
+	<short>Chase</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>There's no outrunning me this time.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -2163,7 +2173,7 @@
 	<short>Herobrine</short>
 	<rarity>0</rarity>
 	<powerList>
-	<power>You don't know what you did</power>
+	<power>You don't know what you did...</power>
 	</powerList>
 </crewBlueprint>
 
@@ -3699,7 +3709,7 @@ weapon C
 <shipBlueprint name="doc_elderitch" layout="doc_elderitch" img="doc_elderitch">
 	<class>Dr Spin's Equalizer</class>
 	<name>The Overthrower</name>
-	<desc>To say Dr. Spin is a bit upset is an understatement. He is hellbent on putting an end to the Eldritch beings. Somehow, he convinced Jerry to tag along with him. No one else is allowed to join... except for a certain gnome.</desc>
+	<desc>To say Dr. Spin is a bit upset is an understatement. He is hellbent on putting an end to the Eldritch beings. Somehow, he convinced Jerry and Chase to tag along with him. No one else is allowed to join... except for a certain gnome.</desc>
 	<systemList>
 		<battery max="4" power="1" room="8" start="false" img="room_battery_13" />
 		<cloaking power="2" room="14" start="true" img="ancient_cloaking" />

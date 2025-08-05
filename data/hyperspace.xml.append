@@ -3555,8 +3555,8 @@
 		<canSuffocate>false</canSuffocate>
 		<damageMultiplier>10.0</damageMultiplier>
 		<damageTakenMultiplier>0.30</damageTakenMultiplier>
-		<moveSpeedMultiplier>3.0</moveSpeedMultiplier>
-		<repairSpeed>0.1</repairSpeed>
+		<moveSpeedMultiplier>3.5</moveSpeedMultiplier>
+		<repairSpeed>4.0</repairSpeed>
 		<detectsLifeforms>true</detectsLifeforms>
 		<resistsMindControl>true</resistsMindControl>
 		<maxHealth>500</maxHealth>
@@ -3590,6 +3590,7 @@
 						<queen/>
 						<herobrine/>
 						<dr_spin_eldritch/>
+						<ac08_eldritch/>
 						<moreso/>
 						<leach_eldritch/>
 						<leach_eldritch_clone/>
@@ -3664,7 +3665,7 @@
 			<friendlyFire>true</friendlyFire>
 			<shipFriendlyFire>true</shipFriendlyFire>
 			<buttonText>REAL HEAL</buttonText>
-			<tooltip>Ready: Click to heal all friendly crew and kill Elritch bastards in the same room.</tooltip>
+			<tooltip>Ready: Click to heal all friendly crew and kill Eldritch bastards in the same room.</tooltip>
 			<cooldownColor r="255" g="78" b="69"/>
 			<effectAnim>explosion_big1_heal</effectAnim>
 			<crewHealth>300</crewHealth>
@@ -3675,7 +3676,78 @@
 		</deathSounds>
 		<animBase>mantis</animBase>
 	</mod-append:race>
-
+	
+	<mod-append:race name="ac08_eldritch">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>9.0</damageMultiplier>
+		<damageTakenMultiplier>0.4</damageTakenMultiplier>
+		<moveSpeedMultiplier>4.0</moveSpeedMultiplier>
+		<repairSpeed>3.5</repairSpeed>
+		<detectsLifeforms>true</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>400</maxHealth>
+		<sabotageSpeedMultiplier>1.9</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<passiveHealAmount>3.0</passiveHealAmount>
+		<passiveHealDelay>2</passiveHealDelay>
+		<animBase>mantis</animBase>
+		<healCrewAmount>5.0</healCrewAmount>
+		<skills>
+			<piloting req="1"/>
+			<engines req="1"/>
+			<shields req="1"/>
+			<weapons req="1"/>
+			<repair req="1"/>
+			<combat req="1"/>
+		</skills>
+		<passiveStatBoosts>  
+			<statBoost name="statBoost">
+				<statBoost name="canFight">
+                    <boostType>SET</boostType>
+					<value>false</value>
+                    <shipTarget>CREW_TARGET</shipTarget>
+                    <crewTarget>ALL</crewTarget>
+                    <priority>999</priority>
+					<whiteList>
+						<controller/>
+						<queen/>
+						<herobrine/>
+						<dr_spin_eldritch/>
+						<moreso/>
+						<leach_eldritch/>
+						<leach_eldritch_clone/>
+						<leach_eldritch_clone_two/>
+						<leach_eldritch_clone_three/>
+						<leach_eldritch_clone_four/>
+					</whiteList>
+				</statBoost>
+				<shipTarget>CREW_TARGET</shipTarget>
+                <crewTarget>ENEMIES</crewTarget>
+			</statBoost>
+		</passiveStatBoosts>
+		<powerEffect>
+			<cooldown>0.5</cooldown>
+			<jumpCooldown>continue</jumpCooldown>
+			<powerSounds>
+				<powerSound>healBomb</powerSound>
+			</powerSounds>
+			<!--<req>
+				<friendlyInRoom/>
+			</req>-->
+			<friendlyFire>true</friendlyFire>
+			<shipFriendlyFire>true</shipFriendlyFire>
+			<buttonText>RAPID HEAL</buttonText>
+			<tooltip>Ready: You can't spam the heal button fast enough!</tooltip>
+			<cooldownColor r="255" g="78" b="69"/>
+			<effectAnim>explosion_big1_heal</effectAnim>
+			<crewHealth>10</crewHealth>
+			<selfHealth>10</selfHealth>
+		</powerEffect>
+	</mod-append:race>
+	
 	 <mod-append:race name="controller">
 		<essential>5</essential>
 		<maxHealth>1000</maxHealth>
@@ -3711,6 +3783,7 @@
 						<queen/>
 						<herobrine/>
 						<dr_spin_eldritch/>
+						<ac08_eldritch/>
 						<moreso/>
 						<leach_eldritch/>
 						<leach_eldritch_clone/>
@@ -3770,6 +3843,7 @@
 						<queen/>
 						<herobrine/>
 						<dr_spin_eldritch/>
+						<ac08_eldritch/>
 						<moreso/>
 						<leach_eldritch/>
 						<leach_eldritch_clone/>
@@ -3829,6 +3903,7 @@
 						<queen/>
 						<herobrine/>
 						<dr_spin_eldritch/>
+						<ac08_eldritch/>
 						<moreso/>
 						<leach_eldritch/>
 						<leach_eldritch_clone/>
@@ -3887,6 +3962,7 @@
 						<queen/>
 						<herobrine/>
 						<dr_spin_eldritch/>
+						<ac08_eldritch/>
 						<moreso/>
 						<leach_eldritch/>
 						<leach_eldritch_clone/>
@@ -3986,6 +4062,7 @@
 						<queen/>
 						<herobrine/>
 						<dr_spin_eldritch/>
+						<ac08_eldritch/>
 						<moreso/>
 						<leach_eldritch/>
 						<leach_eldritch_clone/>
@@ -4059,19 +4136,6 @@
 			</statBoosts>
 		</powerEffect>
 		<passiveStatBoosts>  
-			<statBoost name="deathEffect">
-				<boostType>SET</boostType>
-				<deathEffect>
-					<spawnCrew>
-						<race>leach_eldritch_clone_two</race>
-						<name>????</name>
-						<number>2</number>
-					</spawnCrew>
-				</deathEffect>
-				<shipTarget>ALL</shipTarget>
-                <crewTarget>SELF</crewTarget>
-				<droneTarget>ALL</droneTarget>
-			</statBoost>
 			<statBoost name="statBoost">
 				<statBoost name="canFight">
                     <boostType>SET</boostType>
@@ -4084,6 +4148,7 @@
 						<queen/>
 						<herobrine/>
 						<dr_spin_eldritch/>
+						<ac08_eldritch/>
 						<moreso/>
 						<leach_eldritch/>
 						<leach_eldritch_clone/>
@@ -4094,6 +4159,21 @@
 				</statBoost>
 				<shipTarget>CREW_TARGET</shipTarget>
                 <crewTarget>ENEMIES</crewTarget>
+			</statBoost>
+		</passiveStatBoosts>
+		<passiveStatBoosts>  
+			<statBoost name="deathEffect">
+				<boostType>SET</boostType>
+				<deathEffect>
+					<spawnCrew>
+						<race>leach_eldritch_clone_two</race>
+						<name>????</name>
+						<number>2</number>
+					</spawnCrew>
+				</deathEffect>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>SELF</crewTarget>
+				<droneTarget>ALL</droneTarget>
 			</statBoost>
 		</passiveStatBoosts>
 		<deathSounds>
@@ -4150,19 +4230,6 @@
 			</statBoosts>
 		</powerEffect>
 		<passiveStatBoosts>  
-			<statBoost name="deathEffect">
-				<boostType>SET</boostType>
-				<deathEffect>
-					<spawnCrew>
-						<race>leach_eldritch_clone_three</race>
-						<name>????</name>
-						<number>2</number>
-					</spawnCrew>
-				</deathEffect>
-				<shipTarget>ALL</shipTarget>
-                <crewTarget>SELF</crewTarget>
-				<droneTarget>ALL</droneTarget>
-			</statBoost>
 			<statBoost name="statBoost">
 				<statBoost name="canFight">
                     <boostType>SET</boostType>
@@ -4175,6 +4242,7 @@
 						<queen/>
 						<herobrine/>
 						<dr_spin_eldritch/>
+						<ac08_eldritch/>
 						<moreso/>
 						<leach_eldritch/>
 						<leach_eldritch_clone/>
@@ -4185,6 +4253,21 @@
 				</statBoost>
 				<shipTarget>CREW_TARGET</shipTarget>
                 <crewTarget>ENEMIES</crewTarget>
+			</statBoost>
+		</passiveStatBoosts>
+		<passiveStatBoosts>  
+			<statBoost name="deathEffect">
+				<boostType>SET</boostType>
+				<deathEffect>
+					<spawnCrew>
+						<race>leach_eldritch_clone_three</race>
+						<name>????</name>
+						<number>2</number>
+					</spawnCrew>
+				</deathEffect>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>SELF</crewTarget>
+				<droneTarget>ALL</droneTarget>
 			</statBoost>
 		</passiveStatBoosts>
 		<deathSounds>
@@ -4215,6 +4298,32 @@
 		<shootingSounds>                                                                
 			<shootingSound>reality_shift</shootingSound>
 		</shootingSounds>
+		<passiveStatBoosts>  
+			<statBoost name="statBoost">
+				<statBoost name="canFight">
+                    <boostType>SET</boostType>
+					<value>false</value>
+                    <shipTarget>CREW_TARGET</shipTarget>
+                    <crewTarget>ALL</crewTarget>
+                    <priority>999</priority>
+					<whiteList>
+						<controller/>
+						<queen/>
+						<herobrine/>
+						<dr_spin_eldritch/>
+						<ac08_eldritch/>
+						<moreso/>
+						<leach_eldritch/>
+						<leach_eldritch_clone/>
+						<leach_eldritch_clone_two/>
+						<leach_eldritch_clone_three/>
+						<leach_eldritch_clone_four/>
+					</whiteList>
+				</statBoost>
+				<shipTarget>CREW_TARGET</shipTarget>
+                <crewTarget>ENEMIES</crewTarget>
+			</statBoost>
+		</passiveStatBoosts>
 		<powerEffect>
 			<cooldown>10</cooldown>
 			<jumpCooldown>reset</jumpCooldown>
@@ -4254,29 +4363,6 @@
                 <crewTarget>SELF</crewTarget>
 				<droneTarget>ALL</droneTarget>
 			</statBoost>
-			<statBoost name="statBoost">
-				<statBoost name="canFight">
-                    <boostType>SET</boostType>
-					<value>false</value>
-                    <shipTarget>CREW_TARGET</shipTarget>
-                    <crewTarget>ALL</crewTarget>
-                    <priority>999</priority>
-					<whiteList>
-						<controller/>
-						<queen/>
-						<herobrine/>
-						<dr_spin_eldritch/>
-						<moreso/>
-						<leach_eldritch/>
-						<leach_eldritch_clone/>
-						<leach_eldritch_clone_two/>
-						<leach_eldritch_clone_three/>
-						<leach_eldritch_clone_four/>
-					</whiteList>
-				</statBoost>
-				<shipTarget>CREW_TARGET</shipTarget>
-                <crewTarget>ENEMIES</crewTarget>
-			</statBoost>
 		</passiveStatBoosts>
 		<deathSounds>
 			<deathSound>failure</deathSound>
@@ -4306,6 +4392,32 @@
 		<shootingSounds>                                                                
 			<shootingSound>LEACHLaughter</shootingSound>
 		</shootingSounds>
+		<passiveStatBoosts>  
+			<statBoost name="statBoost">
+				<statBoost name="canFight">
+                    <boostType>SET</boostType>
+					<value>false</value>
+                    <shipTarget>CREW_TARGET</shipTarget>
+                    <crewTarget>ALL</crewTarget>
+                    <priority>999</priority>
+					<whiteList>
+						<controller/>
+						<queen/>
+						<herobrine/>
+						<dr_spin_eldritch/>
+						<ac08_eldritch/>
+						<moreso/>
+						<leach_eldritch/>
+						<leach_eldritch_clone/>
+						<leach_eldritch_clone_two/>
+						<leach_eldritch_clone_three/>
+						<leach_eldritch_clone_four/>
+					</whiteList>
+				</statBoost>
+				<shipTarget>CREW_TARGET</shipTarget>
+                <crewTarget>ENEMIES</crewTarget>
+			</statBoost>
+		</passiveStatBoosts>
 		<powerEffect>
 			<cooldown>10</cooldown>
 			<jumpCooldown>reset</jumpCooldown>
@@ -4331,31 +4443,6 @@
 				</statBoost>
 			</statBoosts>
 		</powerEffect>
-		<passiveStatBoosts>  
-			<statBoost name="statBoost">
-				<statBoost name="canFight">
-                    <boostType>SET</boostType>
-					<value>false</value>
-                    <shipTarget>CREW_TARGET</shipTarget>
-                    <crewTarget>ALL</crewTarget>
-                    <priority>999</priority>
-					<whiteList>
-						<controller/>
-						<queen/>
-						<herobrine/>
-						<dr_spin_eldritch/>
-						<moreso/>
-						<leach_eldritch/>
-						<leach_eldritch_clone/>
-						<leach_eldritch_clone_two/>
-						<leach_eldritch_clone_three/>
-						<leach_eldritch_clone_four/>
-					</whiteList>
-				</statBoost>
-				<shipTarget>CREW_TARGET</shipTarget>
-                <crewTarget>ENEMIES</crewTarget>
-			</statBoost>
-		</passiveStatBoosts>
 		<deathSounds>
 			<deathSound>failure</deathSound>
 		</deathSounds>
@@ -5313,7 +5400,7 @@
 		<hiddenAug>CHAOS</hiddenAug>
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<hiddenAug>SHIP_CREWSER</hiddenAug>
-		<crewLimit>3</crewLimit>
+		<crewLimit>4</crewLimit>
 		<systemLimit>10</systemLimit>
 		<customReactor maxLevel="30">
 			<baseCost>15</baseCost>
@@ -5391,6 +5478,7 @@
 		<crew>
 			<dr_spin_eldritch room="0" name="Dr. Spin"/>  <!--piloting-->
 			<unique_jerry_pony_crystal room="16" name="Jerry"/>  <!--engines-->
+			<ac08_eldritch room="0" name="Chase"/> 
 		</crew>
 	</mod-append:customShip>
 	
@@ -5425,17 +5513,9 @@
             <controller room="0" name="The Controller"/> <!--lovers-->
             <queen room="0" name="The Queen"/> <!--lovers-->
             <dr_spin_eldritch room="1" name="Dr Spin"/>
-            <ac08 room="1" name="AC"/>
+            <ac08_eldritch room="1" name="Chase"/>
 			<herobrine room="8" name="Herobrine"/>
             <unique_jerry_pony_crystal room="9" name="Jerry"/>
-            <spindoctor_waiter room="2" name="SDW19992004"/>
-            <spindoctor_waiter room="2" name="SDW19992004"/>
-            <spindoctor_waiter room="3" name="SDW11"/>
-            <spindoctor_waiter room="3" name="SDW20032013"/>
-            <spindoctor_waiter room="4" name="SDW58008"/>
-            <spindoctor_waiter room="4" name="SDW80085"/>
-            <spindoctor_waiter room="5" name="SDW69696969"/>
-            <spindoctor_waiter room="5" name="SDW404"/>
             <eldritch_cat room="10" name="The One Who Rhymes"/>
         </crew>
 		<noFuelStalemate/>

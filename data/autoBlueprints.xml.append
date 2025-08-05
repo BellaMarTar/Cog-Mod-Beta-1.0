@@ -1494,6 +1494,24 @@
 
 <!--
 ////////////////////////////////////////////////////////////////////////////////////
+			ELDRITCH
+////////////////////////////////////////////////////////////////////////////////////
+-->
+
+<blueprintList name="LIST_CREW_ME">
+	<name>controller</name>
+</blueprintList>
+
+<blueprintList name="LIST_CREW_ELDRITCH">
+	<name>controller</name>
+	<name>queen</name>
+	<name>herobrine</name>
+	<name>dr_spin_eldritch</name>
+	<name>ac08_eldritch</name>
+</blueprintList>
+
+<!--
+////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////
 			Addons to Multiverse, may be deleted some day
@@ -1659,6 +1677,7 @@
 	<mod-append:name>dr_spin_eldritch</mod-append:name>
 	<mod-append:name>moreso</mod-append:name>
 	<mod-append:name>dr_spin_eldritch</mod-append:name>
+	<mod-append:name>ac08_eldritch</mod-append:name>
 	<mod-append:name>leach_eldritch</mod-append:name>
 	<mod-append:name>leach_eldritch_clone</mod-append:name>
 	<mod-append:name>leach_eldritch_clone_two</mod-append:name>
@@ -1668,12 +1687,4 @@
 	<mod-append:name>unique_jerry_pony</mod-append:name>
 	<mod-append:name>unique_jerry_pony_crystal</mod-append:name>
 </mod:findName>
-
-
-<blueprintList name="LIST_CREW_SPINDR">
-	<name>spindoctor</name>
-	<name>spindoctor_elite</name>
-	<name>spindoctor_hologram</name>
-</blueprintList>
-
 </FTL>
