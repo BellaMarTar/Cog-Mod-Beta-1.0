@@ -47,7 +47,7 @@ BOSSBOTS
 
 <text name="text_PLAYER_SHIP_MICROMANAGER_3_class">Micromanager Cruiser</text>
 <text name="text_PLAYER_SHIP_MICROMANAGER_3_name">Managed Control</text>
-<text name="text_PLAYER_SHIP_MICROMANAGER_3_desc">This ship is the answer to the Micromanager's biggest question of "How can I others do all the work for me so I can sit back and critique on how they suck at it?" The answer has been presented for you</text>
+<text name="text_PLAYER_SHIP_MICROMANAGER_3_desc">This ship is the answer to the Micromanager's biggest question of "How can I get in people's way more?" The answer has been presented for you.</text>
 <!--
 ////////////////////////////
 LAWBOTS
@@ -60,7 +60,7 @@ LAWBOTS
 
 <text name="text_PLAYER_SHIP_BIGWIG_2_class">Big Wig Cruiser</text>
 <text name="text_PLAYER_SHIP_BIGWIG_2_name">Resignation</text>
-<text name="text_PLAYER_SHIP_BIGWIG_2_desc">No one has more patience than the Big Wigs. As if to prove a point, this ship can only shut off systems and damages crew. No hull damage.</text>
+<text name="text_PLAYER_SHIP_BIGWIG_2_desc">No one has more patience than the Big Wigs. As if to prove a point, this ship can only shut off systems and damages crew without causing hull damage.</text>
 
 <text name="text_PLAYER_SHIP_BIGWIG_3_class">Big Wig Cruiser</text>
 <text name="text_PLAYER_SHIP_BIGWIG_3_name">Long Arm</text>
@@ -68,7 +68,7 @@ LAWBOTS
 
 <text name="text_PLAYER_SHIP_LEGAL_EAGLE_class">Legal Eagle Cruiser</text>
 <text name="text_PLAYER_SHIP_LEGAL_EAGLE_name">Legal Tender</text>
-<text name="text_PLAYER_SHIP_LEGAL_EAGLE_desc">The layout of the Legal Eagles may seem a bit excessive, but this is just to ensure all legal replacements are covered. You wouldn't want to be sued for poor ship design now would you?</text>
+<text name="text_PLAYER_SHIP_LEGAL_EAGLE_desc">The layout of the Legal Eagles may seem a bit excessive, but this is just to ensure all legal requirements are covered. You wouldn't want to be sued for poor ship design now would you?</text>
 
 <text name="text_PLAYER_SHIP_LEGAL_EAGLE_2_class">Legal Eagle Cruiser</text>
 <text name="text_PLAYER_SHIP_LEGAL_EAGLE_2_name">Filibuster</text>
@@ -108,19 +108,6 @@ CASHBOTS
 ////////////////////////////
 -->
 
-<text name="text_PLAYER_SHIP_TIGHTWAD_class">Tightwad Cruiser</text>
-<text name="text_PLAYER_SHIP_TIGHTWAD_name">Tight Squeeze</text>
-<text name="text_PLAYER_SHIP_TIGHTWAD_desc">The tightwads will stop at nothing to save their budgets. Even when it comes to space travel as this well below safety regulation ship shows.</text>
-
-<text name="text_PLAYER_SHIP_TIGHTWAD_2_class">Tightwad Cruiser</text>
-<text name="text_PLAYER_SHIP_TIGHTWAD_2_name">Made in China</text>
-<text name="text_PLAYER_SHIP_TIGHTWAD_2_desc">Tightwads and their desire to cut back on everything possible did not shy away from creating the most "budget-friendly" ship possible, leaving off just about everything except the bare essentials.</text>
-
-<text name="text_PLAYER_SHIP_TIGHTWAD_3_class">Tightwad Cruiser</text>
-<text name="text_PLAYER_SHIP_TIGHTWAD_3_name">Belt Loosening</text>
-<text name="text_PLAYER_SHIP_TIGHTWAD_3_desc">Finally, some Tightwads that will spend a little money on their ships. Now don't get too excited, they definitely still cheaped out, but they did manage to snag a decommissioned cruiser that had the blueprints for artillery. Too bad old habits die hard.</text>
-
-
 <text name="text_PLAYER_SHIP_ROBBER_BARON_class">Robber Baron Cruiser</text>
 <text name="text_PLAYER_SHIP_ROBBER_BARON_name">J P Morge</text>
 <text name="text_PLAYER_SHIP_ROBBER_BARON_desc">Spare no expense in the art of war. These Robber Barons are out for oil, and they aren't afraid to cut off some of that budget restraint to get it. Unfortunately, they spent it all on the ship itself and not more crew. Call it an investment.</text>
@@ -131,7 +118,7 @@ CASHBOTS
 
 <text name="text_PLAYER_SHIP_ROBBER_BARON_3_class">Robber Baron Cruiser</text>
 <text name="text_PLAYER_SHIP_ROBBER_BARON_3_name">Load of Croc</text>
-<text name="text_PLAYER_SHIP_ROBBER_BARON_3_desc">Finally, a ship that can fight. Who needs anything else but fighting power. One problem. Where's the Robber Barons? Only two waiters showed up to duty...</text>
+<text name="text_PLAYER_SHIP_ROBBER_BARON_3_desc">Finally, a ship that can fight. Who needs anything else but fighting power. One problem. Where's the Robber Barons? Only one waiter showed up to duty...</text>
 
 <text name="text_PLAYER_SHIP_LOAN_SHARK_class">Loan Shark Cruiser</text>
 <text name="text_PLAYER_SHIP_LOAN_SHARK_name">Break his Leg</text>
@@ -145,11 +132,33 @@ CASHBOTS
 <text name="text_PLAYER_SHIP_LOAN_SHARK_3_name">Cripto Debt</text>
 <text name="text_PLAYER_SHIP_LOAN_SHARK_3_desc">Oh dear, it seems the Loan Sharks are evolving into using more electronic strats, but it's not like they're gonna sit this one out at collecting their dues as a result.</text>
 
+<text name="text_PLAYER_SHIP_TIGHTWAD_class">Tightwad Cruiser</text>
+<text name="text_PLAYER_SHIP_TIGHTWAD_name">Tight Squeeze</text>
+<text name="text_PLAYER_SHIP_TIGHTWAD_desc">The tightwads will stop at nothing to save their budgets. Even when it comes to space travel as this well below safety regulation ship shows.</text>
+
+<text name="text_PLAYER_SHIP_TIGHTWAD_2_class">Tightwad Cruiser</text>
+<text name="text_PLAYER_SHIP_TIGHTWAD_2_name">Made in China</text>
+<text name="text_PLAYER_SHIP_TIGHTWAD_2_desc">Tightwads and their desire to cut back on everything possible did not shy away from creating the most "budget-friendly" ship possible, leaving off just about everything except the bare essentials.</text>
+
+<text name="text_PLAYER_SHIP_TIGHTWAD_3_class">Tightwad Cruiser</text>
+<text name="text_PLAYER_SHIP_TIGHTWAD_3_name">Belt Loosening</text>
+<text name="text_PLAYER_SHIP_TIGHTWAD_3_desc">Finally, some Tightwads that will spend a little money on their ships. Now don't get too excited, they definitely still cheaped out, but they did manage to snag a decommissioned cruiser that had the blueprints for artillery. Too bad old habits die hard.</text>
 <!--
 ////////////////////////////
 SELLBOTS
 ////////////////////////////
 -->
+<text name="text_PLAYER_SHIP_GLAD_HANDER_class">Glad Hander Cruiser</text>
+<text name="text_PLAYER_SHIP_GLAD_HANDER_name">Handy Dandy</text>
+<text name="text_PLAYER_SHIP_GLAD_HANDER_desc">It should surprise no one that the Glad Handers prefer a more upclose and personal take on ship combat. Take this ship for example which takes on this philosophy.</text>
+
+<text name="text_PLAYER_SHIP_GLAD_HANDER_2_class">Glad Hander Cruiser</text>
+<text name="text_PLAYER_SHIP_GLAD_HANDER_2_name">Hands Off</text>
+<text name="text_PLAYER_SHIP_GLAD_HANDER_2_desc">Glad Handers typically like to get into the action of any topic or battle, but in this instance, they're taking a more laid back approach</text>
+
+<text name="text_PLAYER_SHIP_GLAD_HANDER_3_class">Glad Hander Cruiser</text>
+<text name="text_PLAYER_SHIP_GLAD_HANDER_3_name">Hand of Cog</text>
+<text name="text_PLAYER_SHIP_GLAD_HANDER_3_desc">As one of the worst ship designs of all times, the Glad Handers oddly confident in their drone's abilities to handle some pretty critical systems without shielding or access. Mercifully, the drones are well protected on their own.</text>
 
 <text name="text_PLAYER_SHIP_NAME_DROPPER_class">Name Dropper Cruiser</text>
 <text name="text_PLAYER_SHIP_NAME_DROPPER_name">Drop a Line</text>
@@ -209,5 +218,5 @@ ENEMY SHIPS
 <text name="text_SHIP_GUARD_SPIN_DOCTOR_class">Spin Doctor Guard</text>
 <text name="text_COG_SHOP_GUARD1_class">Cog Guard</text>
 <text name="text_CM_COG_GUARD2_class">Cog Guard</text>
-<text name="text_COG_PIRATE_START_class">Cog Pirate</text>
+<text name="text_CM_COG_PIRATE_START_class">Cog Pirate</text>
 </FTL>

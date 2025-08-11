@@ -4056,6 +4056,230 @@ weapon C
 	<crewCount amount="1" class="tightwad" />
 </shipBlueprint>
 
+<shipBlueprint name="PLAYER_SHIP_GLAD_HANDER" layout="glad_hander_cruiser_1" img="glad_hander_cruiser_1">
+	<class id="text_PLAYER_SHIP_GLAD_HANDER_class">Glad Hander Cruiser</class>
+	<name id="text_PLAYER_SHIP_GLAD_HANDER_name">Handy Dandy</name>
+	<desc id="text_PLAYER_SHIP_GLAD_HANDER_desc">It should surprise no one that the Glad Handers prefer a more upclose and personal take on ship combat. Take this ship for example which takes on this philosphy.</desc>
+	<systemList>
+		<battery power="1" room="15" start="false" img="room_battery_6" />
+		<cloaking power="1" room="2" start="false" img="room_cloaking_3" />
+		<clonebay power="1" room="18" start="false">
+			<slot>
+				<number>3</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="12" start="true" img="room_doors_6">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="1" room="17" start="false" img="room_drones_6" />
+		<engines power="2" room="16" start="true" img="room_engines">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="11" start="false" img="room_hacking_6" />
+		<medbay power="1" room="19" start="true" img="room_medbay">
+			<slot>
+				<number>1</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="7" start="false" img="room_mind_3" />
+		<oxygen power="1" room="14" start="true" img="room_oxygen_19" />
+		<pilot power="1" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="6" start="true" img="room_sensors_6">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="3" start="true" img="room_shields_2">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="20" start="true" />
+		<weapons max="8" power="1" room="4" start="true" img="room_weapons_10">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="0" count="4">
+		<weapon name="LASER_BIO" />
+		<weapon name="ION_STUN" />
+	</weaponList>
+	<droneList drones="0" count="2" />
+	<health amount="30" />
+	<maxPower amount="6" />
+	<crewCount amount="1" class="glad_hander" />
+	<crewCount amount="1" class="glad_hander" />
+	<crewCount amount="1" class="glad_hander_elite" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_GLAD_HANDER_2" layout="glad_hander_cruiser_2" img="glad_hander_cruiser_2">
+	<class id="text_PLAYER_SHIP_GLAD_HANDER_2_class">Glad Hander Cruiser</class>
+	<name id="text_PLAYER_SHIP_GLAD_HANDER_2_name">Hands Off</name>
+	<desc id="text_PLAYER_SHIP_GLAD_HANDER_2_desc">Glad Handers typically like to get into the action of any topic or battle, but in this instance, they're taking a more laid back approach</desc>
+	<systemList>
+		<battery power="1" room="15" start="false" img="room_battery_2" />
+		<cloaking power="1" room="22" start="false" img="room_cloaking_4" />
+		<clonebay power="1" room="11" start="true">
+			<slot>
+				<number>0</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="16" start="true" img="room_doors">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="3" room="4" start="true" img="room_drones" />
+		<engines power="2" room="20" start="true" img="room_engines_5">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="8" start="false" img="room_hacking_8" />
+		<medbay power="1" room="11" start="false" img="room_medbay_4">
+			<slot>
+				<number>0</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="3" start="true" img="room_mind_5" />
+		<oxygen power="1" room="9" start="true" img="room_oxygen_3" />
+		<pilot power="1" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="17" start="true" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="10" start="true" img="room_shields">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="21" start="false" />
+		<weapons max="8" power="2" room="7" start="false" img="room_weapons_2">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>3</droneSlots>
+	<weaponList missiles="0" count="3" />
+	<droneList drones="10" count="3">
+		<drone name="TRC_DRONE_POP" />
+		<drone name="ASSAULT_PIERCE" />
+	</droneList>
+	<health amount="30" />
+	<maxPower amount="6" />
+	<crewCount amount="1" class="glad_hander_hologram" />
+	<crewCount amount="1" class="glad_hander_hologram" />
+	<aug name="ASTROMETRICS" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_GLAD_HANDER_3" layout="glad_hander_cruiser_3" img="glad_hander_cruiser_3">
+	<class id="text_PLAYER_SHIP_GLAD_HANDER_3_class">Glad Hander Cruiser</class>
+	<name id="text_PLAYER_SHIP_GLAD_HANDER_3_name">Hand of Cog</name>
+	<desc id="text_PLAYER_SHIP_GLAD_HANDER_3_desc">As one of the worst ship designs of all times, the Glad Handers oddly confident in their drone's abilities to handle some pretty critical systems without shielding or access. Mercifully, the drones are well protected on their own.</desc>
+	<systemList>
+		<battery power="1" room="1" start="false" img="room_battery_11" />
+		<cloaking power="1" room="9" start="false" img="room_cloaking" />
+		<clonebay power="1" room="17" start="true">
+			<slot>
+				<number>2</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="2" start="false" img="room_doors_2">
+			<slot>
+				<direction>down</direction>
+				<number>0</number>
+			</slot>
+		</doors>
+		<drones max="8" power="3" room="5" start="true" img="room_drones" />
+		<engines power="1" room="19" start="true" img="room_engines_2">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="12" start="false" img="room_hacking_5" />
+		<medbay power="1" room="17" start="false" img="room_medbay_7">
+			<slot>
+				<number>2</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="21" start="false" img="room_mind_6" />
+		<oxygen power="1" room="10" start="true" img="room_oxygen_2" />
+		<pilot power="1" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="13" start="false" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="3" start="true" img="room_shields">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="14" start="false" />
+		<weapons max="8" power="1" room="16" start="true" img="room_weapons">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>3</droneSlots>
+	<weaponList missiles="0" count="3">
+		<weapon name="CRYSTAL_STUN" />
+		<weapon name="BEAM_BIO_CONSERVATIVE" />
+	</weaponList>
+	<droneList drones="4" count="3">
+		<drone name="REPAIR" />
+		<drone name="MANNING" />
+		<drone name="BATTLETOG_DEFEND" />
+	</droneList>
+	<health amount="30" />
+	<maxPower amount="4" />
+	<crewCount amount="1" class="glad_hander_waiter" />
+	<crewCount amount="1" class="glad_hander_waiter" />
+	<crewCount amount="1" class="glad_hander_hologram" />
+	<aug name="EX_DRONE_SPEED" />
+</shipBlueprint>
+
 <shipBlueprint name="PLAYER_SHIP_NAME_DROPPER" layout="cm_name_dropper" img="cm_name_dropper">
 	<class id="text_PLAYER_SHIP_NAME_DROPPER_class">Name Dropper Cruiser</class>
 	<name id="text_PLAYER_SHIP_NAME_DROPPER_name">Drop a Line</name>
@@ -4794,7 +5018,7 @@ weapon C
 <shipBlueprint name="PLAYER_SHIP_BIGWIG_2" layout="bigwig_cruiser_2" img="bigwig_cruiser_2">
 	<class id="text_PLAYER_SHIP_BIGWIG_2_class">Big Wig Cruiser</class>
 	<name id="text_PLAYER_SHIP_BIGWIG_2_name">Resignation</name>
-	<desc id="text_PLAYER_SHIP_BIGWIG_2_desc">No one has more patience than the Big Wigs. As if to prove a point, this ship can only shut off systems and damages crew. No hull damage.</desc>
+	<desc id="text_PLAYER_SHIP_BIGWIG_2_desc">No one has more patience than the Big Wigs. As if to prove a point, this ship can only shut off systems and damages crew without causing hull damage.</desc>
 	<systemList>
 		<battery power="1" room="9" start="false" img="room_battery_13" />
 		<cloaking power="1" room="6" start="false" img="room_cloaking" />
@@ -4949,7 +5173,7 @@ weapon C
 <shipBlueprint name="PLAYER_SHIP_LEGAL_EAGLE" layout="legal_eagle_cruiser_1" img="legal_eagle_cruiser_1">
 	<class id="text_PLAYER_SHIP_LEGAL_EAGLE_class">Legal Eagle Cruiser</class>
 	<name id="text_PLAYER_SHIP_LEGAL_EAGLE_name">Legal Tender</name>
-	<desc id="text_PLAYER_SHIP_LEGAL_EAGLE_desc">The layout of the Legal Eagles may seem a bit excessive, but this is just to ensure all legal replacements are covered. You wouldn't want to be sued for poor ship design now would you?</desc>
+	<desc id="text_PLAYER_SHIP_LEGAL_EAGLE_desc">The layout of the Legal Eagles may seem a bit excessive, but this is just to ensure all legal requirements are covered. You wouldn't want to be sued for poor ship design now would you?</desc>
 	<systemList>
 		<battery power="1" room="22" start="false" img="room_battery_8" />
 		<cloaking power="1" room="13" start="false" img="room_cloaking" />

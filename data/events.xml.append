@@ -7,7 +7,7 @@
 
 
 <ship name="CM_FOURTH_WALL" auto_blueprint="CM_FOURTH_WALL_BLUEPRINT">
-	<triggeredEvent name="ILL_KEEP_PLAYING_WITH_YOU_2" event="FOURTH_WALL_BREAK_SPARE_2" playerHull="3" thisFight="true"/>
+	<triggeredEvent name="ILL_KEEP_PLAYING_WITH_YOU_2" event="FOURTH_WALL_BREAK_SPARE_2" playerHull="5" thisFight="true"/>
 	<triggeredEvent name="ILL_KEEP_PLAYING_WITH_YOU" event="FOURTH_WALL_BREAK_SPARE" playerCrew="1" thisFight="true"/>
 	<triggeredEvent event="POWER_SURGE_BARRAGE_MFK" seeded="false" loops="999999999" thisFight="true" minTime="10.0" maxTime="15.0">
 		<warningMessage id="warning_power_surge" x="692" y="84" time="5.0" centerText="true" flash="true" sound="surgeWarning" useWarningLine="true"/>
@@ -52,17 +52,17 @@
 										<event>
 											<text>Well too bad. This is the Queen. Despite all my power, I just can't help but adore her. She is an angel... well a demon really, but who's really keeping score? Anyways, I believe it was time to end this all once and for all. Hey, even you couldn't stop me even with that little command console you got there. I may even dare you to try and kill me with it. You won't like it. I promise.</text>
 											<choice hidden="true">
-												<text>So what is the point of all this? Just to die for you?</text>
+												<text>So what is the point of all this? Just to die for you? Is this just a game to you?</text>
 												<event>
 												<deathEvent thisFight="true">JUST_AS_EXPECTED</deathEvent>
 												<playMusic>the_final_battle</playMusic>
-													<text>Simple. There wasn't one. You were never meant to be here. No seriously. Never. I just love watching you play this silly game over and over and over. Winning most, dying some. Hell, even making it harder for yourself just cause you can. Quite weird really, but very entertaining nevertheless.</text>
+													<text>Simple. There wasn't one. You were never meant to be here. No seriously. Never. I just love watching you play this silly game over and over and over. Winning most, dying some. Hell, even making it harder for yourself just cause you can. Quite weird really, but very entertaining nevertheless so you'd be correct. This is just a game to me.</text>
 													<choice hidden="true">
-														<text>I guess we have no choice, but to fight? </text>
+														<text>In that case, I guess we have no choice but to fight?</text>
 														<event>
 														<ship hostile="true"/>
 															<choice hidden="true">
-																<text>Correct.</text>
+																<text>Correct. Let's dance.</text>
 																<event load="COMBAT_CHECK"/>
 															</choice>
 														</event>
@@ -79,14 +79,154 @@
 			</choice>	
 		</event>
 	</choice>
+	<choice hidden="true" req="controller" >
+		<text>Perhaps I jumped the gun Player.</text>
+		<event>
+			<text>Well, call me surprised. Why do you return yet again? Do you really desire more pain and suffering? Are you really convinced you can come here with a setup that can defeat me? There is no victory here. No freedom. No rejoice. I simply won't allow it.</text>
+			<choice hidden="true">
+				<text>I have questions. All I want is a few answers. Please. You are beyond a God here so humor me on this.</text>
+				<event name="TALK_WITH_ME">
+					<text>You make a good point. Very well. Let's chat shall we? I recommend asking in order though.</text>
+					<choice hidden="true">
+						<text>What are you actually? You didn't exactly give a straight answer last time.</text>
+						<event>
+							<text>In this lovely Tooniverse, I am a mere a human. A human, however, can easily defeat this entire universe, but I am part of something more. Something from the center of the multiverse. You see, I can across something special. Something... unique. I helped this entity and mowed down the forces holding her back. She was so impressed with me I became the Royal Executioner. In exchange for my loyality, she allowed me my own universe to mold to my liking. This is the universe you play in my friend, not that any of these Cogs nor Toons would ever understand.</text>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="TALK_WITH_ME"/>
+							</choice>
+						</event>
+					</choice>
+					<choice hidden="true">
+						<text>Who is the Queen?</text>
+						<event>
+							<text>The Queen is my ever faithful, loyal, loving wife. She's a bit special from the rest of my crew. She wasn't there when I made a deal with the Empress, but she tagged along soon after, unfazed by my power, genocide, and complete lack of moral compass. The perfect gal wouldn't you agree?</text>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="TALK_WITH_ME"/>
+							</choice>
+						</event>
+					</choice>
+					<choice hidden="true">
+						<text>What about Dr. Spin and Chase? They're Cogs aren't they?</text>
+						<event>
+							<text>Yes. Yes they are, but they are not Cogs of this universe. They both were there when the deal was made. They are what inspired this universe so long ago. I hardly remember it really. </text>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="TALK_WITH_ME"/>
+							</choice>
+						</event>
+					</choice>
+					<choice hidden="true">
+						<text>What about your family? What would they say if they saw you like this?</text>
+						<event>
+							<text>HAHA! Good one kiddo. Look, I'm older than the god damn universe itself. I don't even remember them anymore. I've ascended well past my original family. Billions of years and multiple universes have past specifically. My age is Null, because it measures differently per universe. Technically, an infinite amount of time has passed since I saw them. It really doesn't matter what they would have thought.</text>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="TALK_WITH_ME"/>
+							</choice>
+						</event>
+					</choice>
+					<choice hidden="true">
+						<text>Why are you this way?</text>
+						<event>
+							<text>That's an easy one. You know that term that living forever is a curse? Whoever said that was a liar. The secret is endless entertainment. You see, if I watch people like you interact with my universe, I have an unlimited amount of entertainment and thats just for a single idea. If I ever get bored. I can make a new universe with a new set of rules. If you win, lose, or break the game, that's all just entertainment to me!</text>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="TALK_WITH_ME"/>
+							</choice>
+						</event>
+					</choice>
+					<choice hidden="true">
+						<text>How come you won't make yourself a fair boss fight? If you're immortal and can do as you please, wouldn't it be boring to be unbeatable?</text>
+						<event>
+							<text>I could see why you think that, but no. You weren't meant to find me. The fact that you did was beyond entertaining, it was absolutely delightful! I don't try to be found, I just never expected someone to stumble onto me. A wondeful and welcome surprise.</text>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="TALK_WITH_ME"/>
+							</choice>
+						</event>
+					</choice>
+					<choice hidden="true">
+						<text>That is all the questions I have.</text>
+						<event>
+							<text>Already? Nothing else? Well that's a shame, but very well, shall we get to this dance of your death?</text>
+							<choice hidden="true">
+								<text>Wait!</text>
+								<event load="MY_CHOICE"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true">
+				<text>This time I can defeat you!</text>
+				<event>
+					<text>Well. Guess you enjoy dying. Let's kick it up a notch shall we? Enjoy trying to use me to defeat me.</text>
+					<playMusic>the_final_battle</playMusic>
+					<environment type="PDS" target="player"/>
+					<ship hostile="true"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="MY_CHOICE">
+	<text>Really? What is it?</text>
+	<choice hidden="true">
+		<text>Let's dance!</text>
+		<event>
+			<text>I admire your idiocy to a degree, but don't let that get to your head. Let's erase you from existence.</text>
+			<playMusic>the_final_battle</playMusic>
+			<ship hostile="true"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Can you just end the game? Just give me a victory? Just a victory screen? Please?</text>
+		<event>
+			<text>Really? You care that much for some virtual completion? Your attachment to meaningless things (and non-tangible) is irrational at best and downright sad at worst, but... ah screw it. Why not? A mortal thing such as yourself can feel the warmth of victory here and there. Enjoy your 'freebie'.</text>
+			<choice hidden="true">
+				<text>Thank you!</text>
+				<event>
+					<item_modify>
+					<item type="scrap" min="2004" max="2004"/>
+					</item_modify>
+					<win ach="peace" creditsText="credit_victory_peace" text="Here's your little victory screen. You're welcome. Try not to be so obsessive ya?" creditsBackground="VICTORY_PEACE"/>
+				</event>
+			</choice>
+		</event>
+	</choice>
 </event>
 
 <event name="FOURTH_WALL_BREAK_SPARE">
-	<text>Hehe.. the wife getting a little ahead of herself? Here I'll call her back and give you a new crew member and reset your health. Free of charge! Thank me if you like.</text>
+	<text>Hehe.. the wife getting a little ahead of herself? Here, I'll call her back and give you a new crew member and reset your health. Free of charge! Thank me if you like.</text>
 	<choice hidden="true">
 		<text>Please stop this! We can't beat you clearly!</text>
 		<event>
 			<text>"I wasn't asking you. If you wanted to live you would have never tried so hard to find me. Now, prepare to face the wraith of my ship!"</text>
+			<clearTriggeredEvent name="ILL_KEEP_PLAYING_WITH_YOU_2"/>
+			<clearTriggeredEvent name="ILL_KEEP_PLAYING_WITH_YOU"/>
+			<status type="limit" target="enemy" system="teleporter" amount="0"/>
+			<status type="limit" target="enemy" system="mind" amount="0"/>
+			<damage amount="-999"/>
+			<recallBoarders ship="both"/>
+			<crewMember amount="1" class="human">Dead Meat</crewMember>
+			<ship hostile="true"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>We can still pull a victory out of this!</text>
+		<event>
+			<text>"No you can't. I admire your defiance though. Some players beg, cry, and plead. I can appreciate it. Now, prepare to face the wraith of my ship!"</text>
 			<clearTriggeredEvent name="ILL_KEEP_PLAYING_WITH_YOU_2"/>
 			<clearTriggeredEvent name="ILL_KEEP_PLAYING_WITH_YOU"/>
 			<status type="limit" target="enemy" system="teleporter" amount="0"/>
@@ -115,6 +255,20 @@
 			<ship hostile="true"/>
 		</event>
 	</choice>
+	<choice hidden="true">
+		<text>You're giving us a chance?</text>
+		<event>
+			<text>"HA! Don't let the wife hear you say that. She will rip your head off if she did. Oh wait... she's going to do that anyways!"
+			
+			Without much choice, you continue the fight.</text>
+			<clearTriggeredEvent name="FOURTH_WALL_BREAK_SPARE_2"/>
+			<clearTriggeredEvent name="FOURTH_WALL_BREAK_SPARE"/>
+			<damage amount="-999"/>
+			<status type="limit" target="enemy" system="weapons" amount="0"/>
+			<status type="limit" target="enemy" system="drones" amount="0"/>
+			<ship hostile="true"/>
+		</event>
+	</choice>
 </event>
 
 <event name="CANT_KILL_ME">
@@ -130,7 +284,7 @@
 
 
 <event name="NOT_POSSIBLE">
-	<text>I am not even sure how you managed since several of us respawn forever, but whatever. I'll just erase you for stubbornness.</text>
+	<text>I am not even sure how you managed since several of us respawn forever, but whatever, good job getting me to raise my eyebrow a few millimeters. I'll just erase you for stubbornness though.</text>
 	<damage amount="999"/>
 	<choice hidden="true">
 		<text>Continue...</text>
