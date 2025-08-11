@@ -1,3 +1,5 @@
+<FTL>
+
 <backgroundObject name="HER">
 	<layer z="0">front</layer>
 	<spawnArea x="300" y="188" w="0" h="0" center="true"/>
@@ -79,90 +81,18 @@
 			</choice>	
 		</event>
 	</choice>
-	<choice hidden="true" req="controller" >
+	<choice hidden="true" req="LIST_CREW_ME">
 		<text>Perhaps I jumped the gun Player.</text>
 		<event>
-			<text>Well, call me surprised. Why do you return yet again? Do you really desire more pain and suffering? Are you really convinced you can come here with a setup that can defeat me? There is no victory here. No freedom. No rejoice. I simply won't allow it.</text>
+			<text>Well, call me surprised. Why do you return yet again? Do you really desire more pain and suffering? Are you really convinced you can come here with a weakened version of my ship and pull out a win with it? There is no victory here. No freedom. No rejoice. I simply won't allow it. Even if you destroy my ship, you still can't win.</text>
 			<choice hidden="true">
 				<text>I have questions. All I want is a few answers. Please. You are beyond a God here so humor me on this.</text>
-				<event name="TALK_WITH_ME">
-					<text>You make a good point. Very well. Let's chat shall we? I recommend asking in order though.</text>
-					<choice hidden="true">
-						<text>What are you actually? You didn't exactly give a straight answer last time.</text>
-						<event>
-							<text>In this lovely Tooniverse, I am a mere a human. A human, however, can easily defeat this entire universe, but I am part of something more. Something from the center of the multiverse. You see, I can across something special. Something... unique. I helped this entity and mowed down the forces holding her back. She was so impressed with me I became the Royal Executioner. In exchange for my loyality, she allowed me my own universe to mold to my liking. This is the universe you play in my friend, not that any of these Cogs nor Toons would ever understand.</text>
-							<choice hidden="true">
-								<text>Continue...</text>
-								<event load="TALK_WITH_ME"/>
-							</choice>
-						</event>
-					</choice>
-					<choice hidden="true">
-						<text>Who is the Queen?</text>
-						<event>
-							<text>The Queen is my ever faithful, loyal, loving wife. She's a bit special from the rest of my crew. She wasn't there when I made a deal with the Empress, but she tagged along soon after, unfazed by my power, genocide, and complete lack of moral compass. The perfect gal wouldn't you agree?</text>
-							<choice hidden="true">
-								<text>Continue...</text>
-								<event load="TALK_WITH_ME"/>
-							</choice>
-						</event>
-					</choice>
-					<choice hidden="true">
-						<text>What about Dr. Spin and Chase? They're Cogs aren't they?</text>
-						<event>
-							<text>Yes. Yes they are, but they are not Cogs of this universe. They both were there when the deal was made. They are what inspired this universe so long ago. I hardly remember it really. </text>
-							<choice hidden="true">
-								<text>Continue...</text>
-								<event load="TALK_WITH_ME"/>
-							</choice>
-						</event>
-					</choice>
-					<choice hidden="true">
-						<text>What about your family? What would they say if they saw you like this?</text>
-						<event>
-							<text>HAHA! Good one kiddo. Look, I'm older than the god damn universe itself. I don't even remember them anymore. I've ascended well past my original family. Billions of years and multiple universes have past specifically. My age is Null, because it measures differently per universe. Technically, an infinite amount of time has passed since I saw them. It really doesn't matter what they would have thought.</text>
-							<choice hidden="true">
-								<text>Continue...</text>
-								<event load="TALK_WITH_ME"/>
-							</choice>
-						</event>
-					</choice>
-					<choice hidden="true">
-						<text>Why are you this way?</text>
-						<event>
-							<text>That's an easy one. You know that term that living forever is a curse? Whoever said that was a liar. The secret is endless entertainment. You see, if I watch people like you interact with my universe, I have an unlimited amount of entertainment and thats just for a single idea. If I ever get bored. I can make a new universe with a new set of rules. If you win, lose, or break the game, that's all just entertainment to me!</text>
-							<choice hidden="true">
-								<text>Continue...</text>
-								<event load="TALK_WITH_ME"/>
-							</choice>
-						</event>
-					</choice>
-					<choice hidden="true">
-						<text>How come you won't make yourself a fair boss fight? If you're immortal and can do as you please, wouldn't it be boring to be unbeatable?</text>
-						<event>
-							<text>I could see why you think that, but no. You weren't meant to find me. The fact that you did was beyond entertaining, it was absolutely delightful! I don't try to be found, I just never expected someone to stumble onto me. A wondeful and welcome surprise.</text>
-							<choice hidden="true">
-								<text>Continue...</text>
-								<event load="TALK_WITH_ME"/>
-							</choice>
-						</event>
-					</choice>
-					<choice hidden="true">
-						<text>That is all the questions I have.</text>
-						<event>
-							<text>Already? Nothing else? Well that's a shame, but very well, shall we get to this dance of your death?</text>
-							<choice hidden="true">
-								<text>Wait!</text>
-								<event load="MY_CHOICE"/>
-							</choice>
-						</event>
-					</choice>
-				</event>
+				<event load="FOURTH_WALL_MEND"/>
 			</choice>
 			<choice hidden="true">
 				<text>This time I can defeat you!</text>
 				<event>
-					<text>Well. Guess you enjoy dying. Let's kick it up a notch shall we? Enjoy trying to use me to defeat me.</text>
+					<text>Well then. Guess you enjoy dying. Let's kick it up a notch shall we? Enjoy trying to use me to defeat me.</text>
 					<playMusic>the_final_battle</playMusic>
 					<environment type="PDS" target="player"/>
 					<ship hostile="true"/>
@@ -176,12 +106,160 @@
 	</choice>
 </event>
 
+<event name="FOURTH_WALL_MEND">
+	<text>You make a good point. Very well. Let's chat shall we? I recommend asking in order though.</text>
+	<choice hidden="true">
+		<text>What are you actually? You didn't exactly give a straight answer last time.</text>
+		<event load="TALK_WITH_ME_1"/>
+	</choice>
+	<choice hidden="true">
+		<text>Who is the Queen? She didn't say much.</text>
+		<event load="TALK_WITH_ME_2"/>
+	</choice>
+	<choice hidden="true">
+		<text>What about Dr. Spin and Chase? They're Cogs aren't they?</text>
+		<event load="TALK_WITH_ME_3"/>
+	</choice>
+	<choice hidden="true">
+		<text>What about your family? What would they say if they saw you like this?</text>
+		<event load="TALK_WITH_ME_4"/>
+	</choice>
+	<choice hidden="true">
+		<text>Why are you this way? You seem almost evil just for the hell of it. More than any Cog or Boss I've ever seen.</text>
+		<event load="TALK_WITH_ME_5"/>
+	</choice>
+	<choice hidden="true">
+		<text>How come you won't make yourself a fair boss fight? If you're immortal and can do as you please whenever you desire, wouldn't it be boring to be unbeatable at all times?</text>
+		<event load="TALK_WITH_ME_6"/>
+	</choice>
+	<choice hidden="true">
+		<text>What about those other crew? Where do they fit in?</text>
+		<event load="TALK_WITH_ME_7"/>
+	</choice>
+	<choice hidden="true">
+		<text>What is that ship? It's almost...off putting. Like of another world.</text>
+		<event load="TALK_WITH_ME_8"/>
+	</choice>
+	<choice hidden="true">
+		<text>What's with all the smiling faces?</text>
+		<event load="TALK_WITH_ME_9"/>
+	</choice>
+	<choice hidden="true">
+		<text>If we weren't meant to find you, why were there so many breadcrumbs to follow?</text>
+		<event load="TALK_WITH_ME_10"/>
+	</choice>
+	<choice hidden="true">
+		<text>Can't you just let us go?</text>
+		<event load="GOOD_ONE_PLAYER"/>
+	</choice>
+	<choice hidden="true">
+		<text>I have no more questions.</text>
+		<event load="NOTHING_LEFT_TO_SAY"/>
+	</choice>
+</event>
+
+<event name="TALK_WITH_ME_1">
+	<text>In this lovely Tooniverse, I am a mere a human. A human, however, can easily defeat this entire universe, but I am part of something more. Something from the center of the multiverse. You see, I can across something special. Something... unique. I helped this entity and mowed down the forces holding her back. She was so impressed with me I became the Royal Executioner. In exchange for my loyalty, she allowed me my own universe to mold to my liking. This is the universe you play in my friend, not that any of these Cogs nor Toons would ever understand.</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FOURTH_WALL_MEND"/>
+	</choice>
+</event>
+
+<event name="TALK_WITH_ME_2">
+	<text>The Queen is my ever faithful, loyal, loving wife. She's a bit special from the rest of my crew. She wasn't there when I made a deal with the Empress, but she tagged along soon after, unfazed by my power, genocide, and complete lack of moral compass. The perfect gal wouldn't you agree?</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FOURTH_WALL_MEND"/>
+	</choice>
+</event>
+
+<event name="TALK_WITH_ME_3">
+	<text>Yes. Yes they are, but they are not Cogs of this universe. They both were there when the deal was made. They are what inspired this universe so long ago. I hardly remember it really, but rest assured, these two are so much more than the rest of the Cogs could ever imagine, and they know better not to say it either. The disaster to this world that could occur if they found out. It's almost tempting to let it happen ya know?</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FOURTH_WALL_MEND"/>
+	</choice>
+</event>
+
+<event name="TALK_WITH_ME_4">
+	<text>HAHA! Good one kiddo. Look, I'm older than the god damn universe itself. I honestly barely even remember them anymore. I've ascended well past my original family. Billions of years and multiple universes have past specifically. My age is Null, because it measures differently per universe. Technically, an infinite amount of time has passed since I saw them. It really doesn't matter what they would have thought.</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FOURTH_WALL_MEND"/>
+	</choice>
+</event>
+
+<event name="TALK_WITH_ME_5">
+	<text>That's an easy one. You know that term that living forever is a curse? Whoever said that was a liar. The secret is endless entertainment. You see, if I watch people like you interact with my universe, I have an unlimited amount of entertainment and thats just for a single idea. If I ever get bored. I can make a new universe with a new set of rules. If you win, lose, or break the game, that's all just entertainment to me!</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FOURTH_WALL_MEND"/>
+	</choice>
+</event>
+
+<event name="TALK_WITH_ME_6">
+	<text>I could see why you think that, but no. You weren't meant to find me. The fact that you did was beyond entertaining, it was absolutely delightful! I don't try to be found, I just never expected someone to stumble onto me. A wonderful and welcome surprise.</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FOURTH_WALL_MEND"/>
+	</choice>
+</event>
+
+<event name="TALK_WITH_ME_7">
+	<text>You mean Moreso, Herobrine, and the others on here? Oh well, they are the original crew of course. I couldn't just leave them while I ascended now could I? Not after all that they've done to get me to where I am. As part of the deal they came, and ascended with me and not a single one regrets it.</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FOURTH_WALL_MEND"/>
+	</choice>
+</event>
+
+<event name="TALK_WITH_ME_8">
+	<text>Glad you noticed. That's because it is from another universe. It's from MY universe. The colors don't exactly work but it was blessed with Her powers to guide us through this universe.</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FOURTH_WALL_MEND"/>
+	</choice>
+</event>
+
+<event name="TALK_WITH_ME_9">
+	<text>Hey, I'm not the only one entertained by curious Players trying to find all the secrets. She watches very curiously too. She does not interfere though, because that would be rather boring now wouldn't it?</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FOURTH_WALL_MEND"/>
+	</choice>
+</event>
+
+<event name="TALK_WITH_ME_10">
+	<text>Heh... picked up on that huh? That's because I like to see who manages to solve the mystery. I guess that means I kinda lied about the whole "never meant to find me" claim, but hey, you don't seem to really care all that much do you?</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FOURTH_WALL_MEND"/>
+	</choice>
+</event>
+
+<event name="GOOD_ONE_PLAYER">
+	<text>No.</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FOURTH_WALL_MEND"/>
+	</choice>
+</event>
+
+<event name="NOTHING_LEFT_TO_SAY">
+	<text>Already? Nothing else? Well that's a shame, but very well, shall we get to this dance of your death?</text>
+	<choice hidden="true">
+		<text>WAIT!</text>
+		<event load="MY_CHOICE"/>
+	</choice>
+</event>
+
 <event name="MY_CHOICE">
 	<text>Really? What is it?</text>
 	<choice hidden="true">
 		<text>Let's dance!</text>
 		<event>
-			<text>I admire your idiocy to a degree, but don't let that get to your head. Let's erase you from existence.</text>
+			<text>I admire your idiocy to a degree, but don't let that get to your head. Let's erase you from existence so you can start a new run. I don't recommend you come back. Not because I worry you'd win, I'd just hate to see you smash your face in over and over.</text>
 			<playMusic>the_final_battle</playMusic>
 			<ship hostile="true"/>
 			<choice hidden="true">
@@ -191,9 +269,9 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Can you just end the game? Just give me a victory? Just a victory screen? Please?</text>
+		<text>Can you just end the game? Just give me a victory? Just a victory screen? Please? We both know it matters none to you so just throw it my way. Have you ever done it for a single person who found you before?</text>
 		<event>
-			<text>Really? You care that much for some virtual completion? Your attachment to meaningless things (and non-tangible) is irrational at best and downright sad at worst, but... ah screw it. Why not? A mortal thing such as yourself can feel the warmth of victory here and there. Enjoy your 'freebie'.</text>
+			<text>Really? You care that much for some virtual completion? Your attachment to meaningless things (and non-tangible) is irrational at best and downright sad at worst, but... ah screw it. Why not? You make another fair point. A mortal thing such as yourself can feel the warmth of victory here and there. Enjoy your 'freebie' then kiddo.</text>
 			<choice hidden="true">
 				<text>Thank you!</text>
 				<event>
@@ -297,3 +375,4 @@
 <event name="JUST_AS_EXPECTED">
     <lose text="I would have said you were warned... well you were. This is your own fault."/>
 </event>
+</FTL>
