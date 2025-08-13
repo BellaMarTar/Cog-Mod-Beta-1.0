@@ -3778,20 +3778,20 @@
                     <shipTarget>CREW_TARGET</shipTarget>
                     <crewTarget>ALL</crewTarget>
                     <priority>999</priority>
-					<whiteList>
-						<controller/>
-						<queen/>
-						<herobrine/>
-						<dr_spin_eldritch/>
-						<ac08_eldritch/>
-						<moreso/>
-						<leach_eldritch/>
-						<leach_eldritch_clone/>
-						<leach_eldritch_clone_two/>
-						<leach_eldritch_clone_three/>
-						<leach_eldritch_clone_four/>
-					</whiteList>
 				</statBoost>
+				<whiteList>
+					<controller/>
+					<queen/>
+					<herobrine/>
+					<dr_spin_eldritch/>
+					<ac08_eldritch/>
+					<moreso/>
+					<leach_eldritch/>
+					<leach_eldritch_clone/>
+					<leach_eldritch_clone_two/>
+					<leach_eldritch_clone_three/>
+					<leach_eldritch_clone_four/>
+				</whiteList>
 				<shipTarget>CREW_TARGET</shipTarget>
                 <crewTarget>ENEMIES</crewTarget>
 			</statBoost>
@@ -3838,20 +3838,20 @@
                     <shipTarget>CREW_TARGET</shipTarget>
                     <crewTarget>ALL</crewTarget>
                     <priority>999</priority>
-					<whiteList>
-						<controller/>
-						<queen/>
-						<herobrine/>
-						<dr_spin_eldritch/>
-						<ac08_eldritch/>
-						<moreso/>
-						<leach_eldritch/>
-						<leach_eldritch_clone/>
-						<leach_eldritch_clone_two/>
-						<leach_eldritch_clone_three/>
-						<leach_eldritch_clone_four/>
-					</whiteList>
 				</statBoost>
+				<whiteList>
+					<controller/>
+					<queen/>
+					<herobrine/>
+					<dr_spin_eldritch/>
+					<ac08_eldritch/>
+					<moreso/>
+					<leach_eldritch/>
+					<leach_eldritch_clone/>
+					<leach_eldritch_clone_two/>
+					<leach_eldritch_clone_three/>
+					<leach_eldritch_clone_four/>
+				</whiteList>
 				<shipTarget>CREW_TARGET</shipTarget>
                 <crewTarget>ENEMIES</crewTarget>
 			</statBoost>
