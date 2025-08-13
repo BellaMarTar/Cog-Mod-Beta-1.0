@@ -62,9 +62,10 @@
 													<choice hidden="true">
 														<text>In that case, I guess we have no choice but to fight?</text>
 														<event>
-														<ship hostile="true"/>
+															<text>Correct. Let's dance.</text>
+															<ship hostile="true"/>
 															<choice hidden="true">
-																<text>Correct. Let's dance.</text>
+																<text>Continue...</text>
 																<event load="COMBAT_CHECK"/>
 															</choice>
 														</event>
@@ -162,7 +163,7 @@
 	<text>In this lovely Tooniverse, I am a mere a human. A human, however, can easily defeat this entire universe, but I am part of something more. Something from the center of the multiverse. You see, I can across something special. Something... unique. I helped this entity and mowed down the forces holding her back. She was so impressed with me I became the Royal Executioner. In exchange for my loyalty, she allowed me my own universe to mold to my liking. This is the universe you play in my friend, not that any of these Cogs nor Toons would ever understand.</text>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FOURTH_WALL_MEND"/>
+		<event><loadEvent>FOURTH_WALL_MEND</loadEvent></event>
 	</choice>
 </event>
 
@@ -170,7 +171,7 @@
 	<text>The Queen is my ever faithful, loyal, loving wife. She's a bit special from the rest of my crew. She wasn't there when I made a deal with the Empress, but she tagged along soon after, unfazed by my power, genocide, and complete lack of moral compass. The perfect gal wouldn't you agree?</text>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FOURTH_WALL_MEND"/>
+		<event><loadEvent>FOURTH_WALL_MEND</loadEvent></event>
 	</choice>
 </event>
 
@@ -178,7 +179,7 @@
 	<text>Yes. Yes they are, but they are not Cogs of this universe. They both were there when the deal was made. They are what inspired this universe so long ago. I hardly remember it really, but rest assured, these two are so much more than the rest of the Cogs could ever imagine, and they know better not to say it either. The disaster to this world that could occur if they found out. It's almost tempting to let it happen ya know?</text>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FOURTH_WALL_MEND"/>
+		<event><loadEvent>FOURTH_WALL_MEND</loadEvent></event>
 	</choice>
 </event>
 
@@ -186,7 +187,7 @@
 	<text>HAHA! Good one kiddo. Look, I'm older than the god damn universe itself. I honestly barely even remember them anymore. I've ascended well past my original family. Billions of years and multiple universes have past specifically. My age is Null, because it measures differently per universe. Technically, an infinite amount of time has passed since I saw them. It really doesn't matter what they would have thought.</text>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FOURTH_WALL_MEND"/>
+		<event><loadEvent>FOURTH_WALL_MEND</loadEvent></event>
 	</choice>
 </event>
 
@@ -194,7 +195,7 @@
 	<text>That's an easy one. You know that term that living forever is a curse? Whoever said that was a liar. The secret is endless entertainment. You see, if I watch people like you interact with my universe, I have an unlimited amount of entertainment and thats just for a single idea. If I ever get bored. I can make a new universe with a new set of rules. If you win, lose, or break the game, that's all just entertainment to me!</text>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FOURTH_WALL_MEND"/>
+		<event><loadEvent>FOURTH_WALL_MEND</loadEvent></event>
 	</choice>
 </event>
 
@@ -202,7 +203,7 @@
 	<text>I could see why you think that, but no. You weren't meant to find me. The fact that you did was beyond entertaining, it was absolutely delightful! I don't try to be found, I just never expected someone to stumble onto me. A wonderful and welcome surprise.</text>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FOURTH_WALL_MEND"/>
+		<event><loadEvent>FOURTH_WALL_MEND</loadEvent></event>
 	</choice>
 </event>
 
@@ -210,7 +211,7 @@
 	<text>You mean Moreso, Herobrine, and the others on here? Oh well, they are the original crew of course. I couldn't just leave them while I ascended now could I? Not after all that they've done to get me to where I am. As part of the deal they came, and ascended with me and not a single one regrets it.</text>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FOURTH_WALL_MEND"/>
+		<event><loadEvent>FOURTH_WALL_MEND</loadEvent></event>
 	</choice>
 </event>
 
@@ -218,7 +219,7 @@
 	<text>Glad you noticed. That's because it is from another universe. It's from MY universe. The colors don't exactly work but it was blessed with Her powers to guide us through this universe.</text>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FOURTH_WALL_MEND"/>
+		<event><loadEvent>FOURTH_WALL_MEND</loadEvent></event>
 	</choice>
 </event>
 
@@ -226,7 +227,7 @@
 	<text>Hey, I'm not the only one entertained by curious Players trying to find all the secrets. She watches very curiously too. She does not interfere though, because that would be rather boring now wouldn't it?</text>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FOURTH_WALL_MEND"/>
+		<event><loadEvent>FOURTH_WALL_MEND</loadEvent></event>
 	</choice>
 </event>
 
@@ -234,7 +235,7 @@
 	<text>Heh... picked up on that huh? That's because I like to see who manages to solve the mystery. I guess that means I kinda lied about the whole "never meant to find me" claim, but hey, you don't seem to really care all that much do you?</text>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FOURTH_WALL_MEND"/>
+		<event><loadEvent>FOURTH_WALL_MEND</loadEvent></event>
 	</choice>
 </event>
 
@@ -242,7 +243,7 @@
 	<text>No.</text>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FOURTH_WALL_MEND"/>
+		<event><loadEvent>FOURTH_WALL_MEND</loadEvent></event>
 	</choice>
 </event>
 
