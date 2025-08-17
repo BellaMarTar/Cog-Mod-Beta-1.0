@@ -2438,7 +2438,7 @@ weapon C
 <shipBlueprint name="PLAYER_SHIP_DOCSHIP" layout="spindoctor_ship" img="spindoctor_ship">
 	<class>Spin Doctor Cruiser</class>
 	<name>Medica Superia</name>
-	<desc>The Spin Doctors are obsessed with constantly healing fellow crew and themselves. As such this cruiser has one of the biggest medbays EVER along with a slew of other healing options.</desc>
+	<desc>The Spin Doctors are obsessed with constantly healing fellow crew and themselves. As such this cruiser has one of the biggest medbays of all time along with a slew of other healing options.</desc>
 	<systemList>
 		<battery max="2" power="1" room="5" start="false" img="room_battery_7" />
 		<cloaking power="1" room="7" start="false" img="room_cloaking_8" />
@@ -4054,6 +4054,222 @@ weapon C
 	<crewCount amount="1" class="tightwad_waiter" />
 	<crewCount amount="1" class="tightwad_hologram" />
 	<crewCount amount="1" class="tightwad" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_MINGLER" layout="mingler_cruiser_1" img="mingler_cruiser_1">
+	<class id="text_PLAYER_SHIP_MINGLER_class">Mingler Cruiser</class>
+	<name id="text_PLAYER_SHIP_MINGLER_name">Sharp Tongue</name>
+	<desc id="text_PLAYER_SHIP_MINGLER_desc">They just talk and talk and talk and talk. No one can sway them. It's driving everyone mad. Not me though, I have earplugs.</desc>
+	<systemList>
+		<battery power="1" room="19" start="false" img="room_battery_5" />
+		<cloaking power="1" room="17" start="false" img="room_cloaking_9" />
+		<clonebay power="1" room="6" start="false">
+			<slot>
+				<number>3</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="7" start="true" img="room_doors_2">
+			<slot>
+				<direction>down</direction>
+				<number>0</number>
+			</slot>
+		</doors>
+		<drones max="8" power="1" room="10" start="false" img="room_drones_7" />
+		<engines power="2" room="4" start="true" img="room_engines_10">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="9" start="false" img="room_hacking_7" />
+		<medbay power="1" room="5" start="true" img="room_medbay">
+			<slot>
+				<number>1</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="20" start="true" img="room_mind_9" />
+		<oxygen power="1" room="18" start="true" img="room_oxygen_22" />
+		<pilot power="1" room="0" start="true" img="room_pilot_2">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</pilot>
+		<sensors power="2" room="8" start="true" img="room_sensors_2">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="1" start="true" img="room_shields_9">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="3" start="false" />
+		<weapons max="8" power="2" room="2" start="true" img="room_weapons_9">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="0" count="4">
+		<weapon name="LASER_CHARGEGUN_2" />
+	</weaponList>
+	<droneList drones="0" count="2" />
+	<health amount="30" />
+	<maxPower amount="6" />
+	<crewCount amount="1" class="mingler" />
+	<crewCount amount="1" class="mingler" />
+	<aug name="EX_MIND_IMMUNITY" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_MINGLER_2" layout="mingler_ship_2" img="mingler_ship_2">
+	<class id="text_PLAYER_SHIP_MINGLER_2_class">Mingler Cruiser</class>
+	<name id="text_PLAYER_SHIP_MINGLER_2_name">Close Encounters</name>
+	<desc id="text_PLAYER_SHIP_MINGLER_2_desc">Why talk from the intercom when you can get in their face about it?</desc>
+	<systemList>
+		<battery power="1" room="11" start="false" img="room_battery" />
+		<cloaking power="1" room="13" start="false" img="room_cloaking" />
+		<clonebay power="1" room="10" start="false">
+			<slot>
+				<number>3</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="23" start="true" img="room_doors_3">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="1" room="6" start="false" img="room_drones" />
+		<engines power="2" room="15" start="true" img="room_engines_7">
+			<slot>
+				<direction>right</direction>
+				<number>3</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="5" start="false" img="room_hacking_3" />
+		<medbay power="1" room="10" start="true" img="room_medbay_3">
+			<slot>
+				<number>3</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="7" start="false" img="room_mind" />
+		<oxygen power="1" room="9" start="true" img="room_oxygen_3" />
+		<pilot power="1" room="1" start="true" img="room_pilot_2">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="19" start="false" img="room_sensors_3">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="8" start="true" img="room_shields_14">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="2" room="0" start="true" />
+		<weapons max="8" power="2" room="12" start="true" img="room_weapons_4">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<droneSlots>2</droneSlots>
+	<weaponSlots>4</weaponSlots>
+		<weaponList missiles="0" count="4">
+		<weapon name="LASER_BURST_3" />
+	</weaponList>
+	<droneList drones="0" count="2" />
+	<health amount="30" />
+	<maxPower amount="7" />
+	<crewCount amount="1" class="mingler_hologram" />
+	<crewCount amount="1" class="mingler_hologram" />
+	<crewCount amount="1" class="mingler_hologram" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_MINGLER_3" layout="mingler_cruiser_3" img="mingler_cruiser_3">
+	<class id="text_PLAYER_SHIP_MINGLER_3_class">Mingler Cruiser</class>
+	<name id="text_PLAYER_SHIP_MINGLER_3_name">Walky Talky</name>
+	<desc id="text_PLAYER_SHIP_MINGLER_3_desc">The talking doesn't even seem real anymore. Is it language or is it just primal screeching? Is there even a point to it anymore? Oh right, you're supposed to kill the Rebels.</desc>
+	<systemList>
+		<battery power="1" room="8" start="false" img="room_battery_16" />
+		<cloaking power="1" room="3" start="false" img="room_cloaking_5" />
+		<clonebay power="1" room="1" start="true">
+			<slot>
+				<number>2</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="9" start="true" img="room_doors_4">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</doors>
+		<drones max="8" power="1" room="5" start="false" img="room_drones" />
+		<engines power="1" room="21" start="true" img="room_engines">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="12" start="false" img="room_hacking_5" />
+		<medbay power="1" room="1" start="false" img="room_medbay_7">
+			<slot>
+				<number>2</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="10" start="false" img="room_mind_5" />
+		<oxygen power="1" room="7" start="true" img="room_oxygen_3" />
+		<pilot power="1" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="24" start="true" img="room_sensors_6">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="20" start="true" img="room_shields_7">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="11" start="true" />
+		<weapons max="8" power="2" room="17" start="true" img="room_weapons_10">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="0" count="4">
+		<weapon name="BEAM_GUILLOTINE" />
+		<weapon name="ION_CONSERVATIVE" />
+	</weaponList>
+	<droneList drones="0" count="2" />
+	<health amount="30" />
+	<maxPower amount="6" />
+	<crewCount amount="1" class="mingler_elite" />
+	<crewCount amount="1" class="mingler_waiter" />
 </shipBlueprint>
 
 <shipBlueprint name="PLAYER_SHIP_GLAD_HANDER" layout="glad_hander_cruiser_1" img="glad_hander_cruiser_1">

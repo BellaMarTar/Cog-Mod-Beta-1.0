@@ -80,7 +80,7 @@ LAWBOTS
 
 <text name="text_PLAYER_SHIP_DOCSHIP_class">Spin Doctor Cruiser</text>
 <text name="text_PLAYER_SHIP_DOCSHIP_name">Medica Superia</text>
-<text name="text_PLAYER_SHIP_DOCSHIP_desc">The Spin Doctors are obsessed with constantly healing fellow crew and themselves. As such this cruiser has one of the biggest medbays EVER.</text>
+<text name="text_PLAYER_SHIP_DOCSHIP_desc">The Spin Doctors are obsessed with constantly healing fellow crew and themselves. As such this cruiser has one of the biggest medbays of all time along with a slew of other healing options.</text>
 
 <text name="text_PLAYER_SHIP_DOCSHIP_2_class">Spin Doctor Cruiser</text>
 <text name="text_PLAYER_SHIP_DOCSHIP_2_name">Medico Girar</text>
@@ -148,9 +148,22 @@ CASHBOTS
 SELLBOTS
 ////////////////////////////
 -->
+
+<text name="text_PLAYER_SHIP_MINGLER_class">Mingler Cruiser</text>
+<text name="text_PLAYER_SHIP_MINGLER_name">Sharp Tongue</text>
+<text name="text_PLAYER_SHIP_MINGLER_desc">They just talk and talk and talk and talk. It's driving everyone mad. Not me though, I have earplugs.</text>
+
+<text name="text_PLAYER_SHIP_MINGLER_2_class">Mingler Cruiser</text>
+<text name="text_PLAYER_SHIP_MINGLER_2_name">Close Encounters</text>
+<text name="text_PLAYER_SHIP_MINGLER_2_desc">Why talk from the intercom when you can get in their face about it?</text>
+
+<text name="text_PLAYER_SHIP_MINGLER_3_class">Mingler Cruiser</text>
+<text name="text_PLAYER_SHIP_MINGLER_3_name">Walky Talky</text>
+<text name="text_PLAYER_SHIP_MINGLER_3_desc">The talking doesn't even seem real anymore. Is it language or is it just primal screeching? Is there even a point to it anymore? Oh right, you're supposed to kill the Rebels.</text>
+
 <text name="text_PLAYER_SHIP_GLAD_HANDER_class">Glad Hander Cruiser</text>
 <text name="text_PLAYER_SHIP_GLAD_HANDER_name">Handy Dandy</text>
-<text name="text_PLAYER_SHIP_GLAD_HANDER_desc">It should surprise no one that the Glad Handers prefer a more upclose and personal take on ship combat. Take this ship for example which takes on this philosophy.</text>
+<text name="text_PLAYER_SHIP_GLAD_HANDER_desc">It should surprise no one that the Glad Handers prefer a more up close and personal take on ship combat. Take this ship for example which takes on this philosophy.</text>
 
 <text name="text_PLAYER_SHIP_GLAD_HANDER_2_class">Glad Hander Cruiser</text>
 <text name="text_PLAYER_SHIP_GLAD_HANDER_2_name">Hands Off</text>

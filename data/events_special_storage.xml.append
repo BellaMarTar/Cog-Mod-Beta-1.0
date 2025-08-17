@@ -1,0 +1,96 @@
+<FTL>
+<mod:findName type="event" name="STORAGE_CHECK_CREW_REAL">
+	<!--Gods-->
+	<mod-append:choice req="controller" blue="false" hidden="true">
+		<text>Talk to me.</text>
+		<event load="SOCIALIZE_CONTROLLER_LIST"/>
+	</mod-append:choice>
+	<mod-append:choice req="queen" blue="false" hidden="true">
+		<text>Look for my Queen.</text>
+		<event load="SOCIALIZE_QUEEN_LIST"/>
+	</mod-append:choice>
+	<mod-append:choice req="herobrine" blue="false" hidden="true">
+		<text>Look for Herobrine</text>
+		<event load="SOCIALIZE_HEROBRINE_LIST"/>
+	</mod-append:choice>
+	<mod-append:choice req="dr_spin_eldritch" blue="false" hidden="true">
+		<text>Look for Dr. Spin.</text>
+		<event load="SOCIALIZE_DR_SPIN_ELDRITCH_LIST"/>
+	</mod-append:choice>
+	<mod-append:choice req="ac08_eldritch" blue="false" hidden="true">
+		<text>Look for Chase</text>
+		<event load="SOCIALIZE_CHASE_LIST"/>
+	</mod-append:choice>
+		<!--Tier 8s-->
+	<mod-append:choice req="jack_brie" blue="false" hidden="true">
+		<text>Look for Jack Brie</text>
+		<event load="SOCIALIZE_JACK_BRIE_LIST"/>
+	</mod-append:choice>
+	<mod-append:choice req="judge" blue="false" hidden="true">
+		<text>Look for Judge.</text>
+		<event load="SOCIALIZE_JUDGE_LIST"/>
+	</mod-append:choice>
+	<mod-append:choice req="robert" blue="false" hidden="true">
+		<text>Look for Robert.</text>
+		<event load="SOCIALIZE_ROBERT_LIST"/>
+	</mod-append:choice>
+	<!--rock-->
+	<mod-append:choice req="holiday" blue="false" hidden="true">
+		<text>Look for Holiday.</text>
+		<event load="SOCIALIZE_HOLIDAY_LIST"/>
+	</mod-append:choice>
+		<!--Tier 7s-->
+	<mod-append:choice req="comrade" blue="false" hidden="true">
+		<text>Look for Comrade.</text>
+		<event load="SOCIALIZE_COMRADE_LIST"/>
+	</mod-append:choice>
+	<mod-append:choice req="lawrence" blue="false" hidden="true">
+		<text>Look for Lawrence.</text>
+		<event load="SOCIALIZE_LAWRENCE_LIST"/>
+	</mod-append:choice>
+	<mod-append:choice req="bruce" blue="false" hidden="true">
+		<text>Look for BRUCE.</text>
+		<event load="SOCIALIZE_BRUCE_LIST"/>
+	</mod-append:choice>
+	<mod-append:choice req="lily" blue="false" hidden="true">
+		<text>Look for Lily.</text>
+		<event load="SOCIALIZE_LILY_LIST"/>
+	</mod-append:choice>
+		<!--Tier 6s-->
+	<mod-append:choice req="honcho" blue="false" hidden="true">
+		<text>Look for Honcho.</text>
+		<event load="SOCIALIZE_HONCHO_LIST"/>
+	</mod-append:choice>
+	<mod-append:choice req="dr_spin" blue="false" hidden="true">
+		<text>Look for Dr. Spin.</text>
+		<event load="SOCIALIZE_DR_SPIN_LIST"/>
+	</mod-append:choice>
+	<mod-append:choice req="monee" blue="false" hidden="true">
+		<text>Look for Monee.</text>
+		<event load="SOCIALIZE_MONEE_LIST"/>
+	</mod-append:choice>
+	<mod-append:choice req="harvey" blue="false" hidden="true">
+		<text>Look for Harvey.</text>
+		<event load="SOCIALIZE_HARVEY_LIST"/>
+	</mod-append:choice>
+		<!--Tier 5s-->
+	<mod-append:choice req="debbie" blue="false" hidden="true">
+		<text>Look for Debbie.</text>
+		<event load="SOCIALIZE_DEBBIE_LIST"/>
+	</mod-append:choice>
+		<!--Tier 4s-->
+	<mod-append:choice req="mira" blue="false" hidden="true">
+		<text>Look for Mira.</text>
+		<event load="SOCIALIZE_MIRA_LIST"/>
+	</mod-append:choice>
+	<mod-append:choice req="ac08" blue="false" hidden="true">
+		<text>Look for AC08.</text>
+		<event load="SOCIALIZE_AC08_LIST"/>
+	</mod-append:choice>
+		<!--Tier 3s-->
+	<mod-append:choice req="yessum" blue="false" hidden="true">
+		<text>Look for Yessum.</text>
+		<event load="SOCIALIZE_YESSUM_LIST"/>
+	</mod-append:choice>
+</mod:findName>
+</FTL>

@@ -1640,6 +1640,35 @@
 	<mod-append:name>lily</mod-append:name>
 	<mod-append:name>harvey</mod-append:name>
 	<mod-append:name>bakker</mod-append:name>
+	<mod-append:name>controller</mod-append:name>
+	<mod-append:name>queen</mod-append:name>
+	<mod-append:name>herobrine</mod-append:name>
+	<mod-append:name>dr_spin_eldritch</mod-append:name>
+	<mod-append:name>ac08_eldritch</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_CREW_UNIQUE">
+	<mod-append:name>controller</mod-append:name>
+	<mod-append:name>queen</mod-append:name>
+	<mod-append:name>herobrine</mod-append:name>
+	<mod-append:name>dr_spin_eldritch</mod-append:name>
+	<mod-append:name>ac08_eldritch</mod-append:name>
+	<mod-append:name>jack_brie</mod-append:name>
+	<mod-append:name>judge</mod-append:name>
+	<mod-append:name>robert</mod-append:name>
+	<mod-append:name>holiday</mod-append:name>
+	<mod-append:name>comrade</mod-append:name>
+	<mod-append:name>lawrence</mod-append:name>
+	<mod-append:name>bruce</mod-append:name>
+	<mod-append:name>lily</mod-append:name>
+	<mod-append:name>honcho</mod-append:name>
+	<mod-append:name>dr_spin</mod-append:name>
+	<mod-append:name>monee</mod-append:name>
+	<mod-append:name>harvey</mod-append:name>
+	<mod-append:name>debbie</mod-append:name>
+	<mod-append:name>mira</mod-append:name>
+	<mod-append:name>ac08</mod-append:name>
+	<mod-append:name>yessum</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="LIST_CREW_PARAGON_UNIQUE">
@@ -1647,6 +1676,7 @@
 	<mod-append:name>queen</mod-append:name>
 	<mod-append:name>herobrine</mod-append:name>
 	<mod-append:name>dr_spin_eldritch</mod-append:name>
+	<mod-append:name>ac08_eldritch</mod-append:name>
 	<mod-append:name>jack_brie</mod-append:name>
 	<mod-append:name>judge</mod-append:name>
 	<mod-append:name>robert</mod-append:name>

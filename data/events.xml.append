@@ -160,7 +160,7 @@
 </event>
 
 <event name="TALK_WITH_ME_1">
-	<text>In this lovely Tooniverse, I am a mere a human. A human, however, can easily defeat this entire universe, but I am part of something more. Something from the center of the multiverse. You see, I can across something special. Something... unique. I helped this entity and mowed down the forces holding her back. She was so impressed with me I became the Royal Executioner. In exchange for my loyalty, she allowed me my own universe to mold to my liking. This is the universe you play in my friend, not that any of these Cogs nor Toons would ever understand.</text>
+	<text>In this lovely Tooniverse, I am a mere human. A human, however, can easily defeat this entire universe, but I am part of something more. Something from the center of the multiverse. You see, I can across something special. Something... unique. I helped this entity and mowed down the forces holding her back. She was so impressed with me I became the Royal Executioner. In exchange for my loyalty, she allowed me my own universe to mold to my liking. This is the universe you play in my friend, not that any of these Cogs nor Toons would ever understand.</text>
 	<choice hidden="true">
 		<text>Continue...</text>
 		<event><loadEvent>FOURTH_WALL_MEND</loadEvent></event>
@@ -168,7 +168,7 @@
 </event>
 
 <event name="TALK_WITH_ME_2">
-	<text>The Queen is my ever faithful, loyal, loving wife. She's a bit special from the rest of my crew. She wasn't there when I made a deal with the Empress, but she tagged along soon after, unfazed by my power, genocide, and complete lack of moral compass. The perfect gal wouldn't you agree?</text>
+	<text>The Queen is my ever faithful, loyal, loving wife. She's a bit special from the rest of my crew. She wasn't there when I made a deal with the Empress, but she tagged along soon after, unfazed by my power, genocide, and complete lack of morale compass. The perfect gal wouldn't you agree?</text>
 	<choice hidden="true">
 		<text>Continue...</text>
 		<event><loadEvent>FOURTH_WALL_MEND</loadEvent></event>
@@ -260,8 +260,9 @@
 	<choice hidden="true">
 		<text>Let's dance!</text>
 		<event>
-			<text>I admire your idiocy to a degree, but don't let that get to your head. Let's erase you from existence so you can start a new run. I don't recommend you come back. Not because I worry you'd win, I'd just hate to see you smash your face in over and over.</text>
+			<text>I admire your idiocy to a degree, but don't let that get to your head. Let's erase you from existence so you can start a new run. I don't recommend you come back. Not because I worry you'd win, I'd just hate to see you smash your face in over and over. Let's crank up the difficulty.</text>
 			<playMusic>the_final_battle</playMusic>
+			<environment type="PDS" target="player"/>
 			<ship hostile="true"/>
 			<choice hidden="true">
 				<text>Continue...</text>
@@ -270,7 +271,20 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Can you just end the game? Just give me a victory? Just a victory screen? Please? We both know it matters none to you so just throw it my way. Have you ever done it for a single person who found you before?</text>
+		<text>Mercy! I beg for mercy!</text>
+		<event>
+			<text>Mercy? You want mercy? You forget you came here a second time with my crew blueprint? How about I make it worse instead?</text>
+			<playMusic>the_final_battle</playMusic>
+			<environment type="PDS" target="player"/>
+			<ship hostile="true"/>
+			<choice hidden="true">
+				<text>Damn it...</text>
+				<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Can you just end the game? Just give me a victory? Just the victory screen? Please? We both know it matters none to you so just throw it my way. Have you ever done it for a single person who found you before?</text>
 		<event>
 			<text>Really? You care that much for some virtual completion? Your attachment to meaningless things (and non-tangible) is irrational at best and downright sad at worst, but... ah screw it. Why not? You make another fair point. A mortal thing such as yourself can feel the warmth of victory here and there. Enjoy your 'freebie' then kiddo.</text>
 			<choice hidden="true">
@@ -281,6 +295,19 @@
 					</item_modify>
 					<win ach="peace" creditsText="credit_victory_peace" text="Here's your little victory screen. You're welcome. Try not to be so obsessive ya?" creditsBackground="VICTORY_PEACE"/>
 				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>There's no reason to kill me. Every time you kill me I'll try again, but stronger every time!</text>
+		<event>
+			<text>This ain't like the movies kiddo. The underdog doesn't win. Consider your warning scoffed at.</text>
+			<playMusic>the_final_battle</playMusic>
+			<environment type="PDS" target="player"/>
+			<ship hostile="true"/>
+			<choice hidden="true">
+				<text>Damn it...</text>
+				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>

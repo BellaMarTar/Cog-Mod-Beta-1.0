@@ -1,0 +1,510 @@
+<FTL>
+
+<!-- 
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+									
+									SOCIALIZATION
+									
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+-->
+
+<!-- 
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+									CONTROLLER
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+-->
+
+<event name="SOCIALIZE_CONTROLLER_LIST">
+	<metaVariable name="prof_socialization" op="add" val="1"/>
+	<queueEvent>STORAGE_CHECK_CREW</queueEvent>
+	<loadEventList seeded="true" default="SOCIALIZE_CONTROLLER_NOTHING">
+		<event name="SOCIALIZE_CONTROLLER_GENERIC_1"/>
+		<event name="SOCIALIZE_CONTROLLER_GENERIC_2"/>
+		<event name="SOCIALIZE_CONTROLLER_GENERIC_3"/>
+		<event name="SOCIALIZE_CONTROLLER_GENERIC_4"/>
+		<event name="SOCIALIZE_CONTROLLER_GENERIC_5"/>
+		<event name="SOCIALIZE_CONTROLLER_GENERIC_6"/>
+		<event name="SOCIALIZE_CONTROLLER_GENERIC_7"/>
+		<event name="SOCIALIZE_CONTROLLER_GENERIC_8"/>
+		<event name="SOCIALIZE_CONTROLLER_GENERIC_9"/>
+		<event name="SOCIALIZE_CONTROLLER_GENERIC_10"/>
+		<event name="SOCIALIZE_CONTROLLER_QUEEN_1" req="queen"/>
+		<event name="SOCIALIZE_CONTROLLER_QUEEN_2" req="queen"/>
+		<event name="SOCIALIZE_CONTROLLER_DR_SPIN_ELDRITCH_1" req="dr_spin_eldritch"/>
+		<event name="SOCIALIZE_CONTROLLER_DR_SPIN_ELDRITCH_2" req="dr_spin_eldritch"/>
+	</loadEventList>
+</event>
+
+<event name="SOCIALIZE_CONTROLLER_NOTHING">
+	<text>Come on Player. You don't think I'm willing to write out hundreds of these dialogue bits do you? Find another character to read off of.</text>
+</event>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+																							   GENERIC                                                                                         
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<event name="SOCIALIZE_CONTROLLER_GENERIC_1" unique="true">
+	<text>Don't you ever get bored of playing this game? If you're able to talk to me without console spawning me, that would be a pretty special achievement and a lot of wasted time.</text>
+</event>
+<event name="SOCIALIZE_CONTROLLER_GENERIC_2" unique="true">
+	<text>This time, I have a question for you Player. May I?</text>
+	<choice hidden="true">
+		<text>Yes.</text>
+		<event>
+			<text>What's your favorite part about this game?</text>
+			<choice>
+				<text>The ability to murder as I deem fit.</text>
+				<event>
+					<text>You understand that almost any game ever allows you to do that. Hell, even Toontown you can chose to fight the Cogs or just hang out as a Pacifist. Though that would be pretty boring. Hmm.. Oh well, here's to virtual murder.</text>
+				</event>
+			</choice>
+			<choice>
+				<text>I feel like I am capable of making a difference in this universe.</text>
+				<event>
+					<text>Uh huh... And the concept of restarting to do it all over again doesn't come up at all in your head? This is endless afterall.</text>
+				</event>
+			</choice>
+			<choice>
+				<text>It's a way to get away from my real life.</text>
+				<event>
+					<text>I could see that, but don't get sucked into this too far. After all, this ain't real. If you start to believe it is real however, you might not be real then either.</text>
+				</event>
+			</choice>
+			<choice>
+				<text>There's no other game that's any good right now.</text>
+				<event>
+					<text>Really? All the other games in the world are worthless? A bold statement, but I know how it feels to do everything. It can be alarming, but then the solution for me is to gamble. If you ever become immortal, you better start doing that or you'll probably get bored.</text>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>No.</text>
+		<event>
+			<text>What's your favorite part about this game?</text>
+			<choice>
+				<text>The ability to murder as I deem fit.</text>
+				<event>
+					<text>You understand that almost any game ever allows you to do that. Hell, even Toontown you can chose to fight the Cogs or just hang out as a Pacifist. Though that would be pretty boring. Hmm.. Oh well, here's to virtual murder.</text>
+				</event>
+			</choice>
+			<choice>
+				<text>I feel like I am capable of making a difference in this universe.</text>
+				<event>
+					<text>Uh huh... And the concept of restarting to do it all over again doesn't come up at all in your head? This is endless afterall.</text>
+				</event>
+			</choice>
+			<choice>
+				<text>It's a way to get away from my real life.</text>
+				<event>
+					<text>I could see that, but don't get sucked into this too far. After all, this ain't real. If you start to believe it is real however, you might not be real then either.</text>
+				</event>
+			</choice>
+			<choice>
+				<text>There's no other game that's any good right now.</text>
+				<event>
+					<text>Really? All the other games in the world are worthless? A bold statement, but I know how it feels to do everything. It can be alarming, but then the solution for me is to gamble. If you ever become immortal, you better start doing that or you'll probably get bored.</text>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="SOCIALIZE_CONTROLLER_GENERIC_3" unique="true">
+	<text>It was hella fun seeing you blow up so easily the first time we met. Unless, of course, you command spawned me in which case you're an asshole for letting me spoil that part.</text>
+</event>
+
+<event name="SOCIALIZE_CONTROLLER_GENERIC_4" unique="true">
+	<text>I'll give some credit to you. You're pretty diligent. How many players do you think played this mod and never met me. Some may never play again and quite literally never get the chance to see me.</text>
+</event>
+
+<event name="SOCIALIZE_CONTROLLER_GENERIC_5" unique="true">
+	<text>You may say I'm too powerful as a crew and as an enemy and even as a ship layout, but I have a counter argument for that.
+	
+	
+	No.</text>
+</event>
+
+<event name="SOCIALIZE_CONTROLLER_GENERIC_6" unique="true">
+	<text>What's funny is this mod took literal years for me to make. It all started because I wanted to add the Spin Doctors to the game and it spiraled from there. The funny part is how such a small little thing exploded into a whole overhaul of the game.</text>
+</event>
+
+<event name="SOCIALIZE_CONTROLLER_GENERIC_7" unique="true">
+	<text>Ever hear of Captains Edition? It was my first mod I ever played and it was crazy fun, but listening to honest critiques of it makes me realize it was a great pioneer, but that's where it stops. It showed the beginning of how far a mod could go, but it certainly isn't the standard now. Honestly, I'm happy, because if there wasn't a demand for something more than CE, I wouldn't be here.</text>
+</event>
+
+<event name="SOCIALIZE_CONTROLLER_GENERIC_8" unique="true">
+	<text>If we run into Sylvan, tell him I said hi. I'm not gonna add dialogue for that, because that will get too cheesy using other people's creations, but I am very fond of the slug.</text>
+</event>
+
+<event name="SOCIALIZE_CONTROLLER_GENERIC_9" unique="true">
+	<text>I can see your sins. Mass murder, mass theft, mass destruction. My compliments to your rampages.</text>
+	<choice>
+		<text>I don't think this counts...</text>
+		<event>
+			<text>Duh. Video game kiddo, but hey we can play into the universe a bit can't we?</text>
+		</event>
+	</choice>
+</event>
+
+<event name="SOCIALIZE_CONTROLLER_GENERIC_10" unique="true">
+	<text>Maybe I'll nerf myself to be more fair...</text>
+	<choice>
+		<text>Really?</text>
+		<event>
+			<text>HA, the look on your face is priceless.</text>
+		</event>
+	</choice>
+	<choice>
+		<text>Nah.</text>
+		<event>
+			<text>Really? You like an all powerful god you can't defeat being around? Maybe you got some wits about you after all kid.</text>
+		</event>
+	</choice>
+</event>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+																							   W/MY QUEEN                                                                        
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<event name="SOCIALIZE_CONTROLLER_QUEEN_1" unique="true">
+	<text>You know, I call the Queen my Angel and Devil all the time. Sometimes she's a little bit of both.</text>
+	<choice hidden="true">
+		<text>So is she your Queen, Devil, Angel, or Wife?</text>
+		<event>
+			<text>Yes.</text>
+		</event>
+	</choice>
+</event>
+
+<event name="SOCIALIZE_CONTROLLER_QUEEN_2" unique="true">
+	<text>You mind Player? The Queen and I are trying to have a moment together. Can ya beat it? Call it 'trying to achieve a union' how's that?
+	
+	"Vá embora jogador..."</text>
+	<choice hidden="true">
+		<text>A union?</text>
+		<event>
+			<text>Never mind that, why am I explaining this when there is no visuals? Get back to clicking on dialogue options or start fighting people.</text>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Leave immediately.</text>
+		<event/>
+	</choice>
+</event>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+																							   W/DR. SPIN (Real)                                                                     
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<event name="SOCIALIZE_CONTROLLER_DR_SPIN_ELDRITCH_1" unique="true">
+	<text>The lovely Doctor. My actual personal Spin Doctor. I know it's a bit confusing that Dr. Spin is a unique Cog and also a right hand to me. Two different Cogs.. unless you find a right event and he could reveal himself.</text>
+</event>
+
+<event name="SOCIALIZE_CONTROLLER_DR_SPIN_ELDRITCH_2" unique="true">
+	<text>My my, Doc plays a mean hand when it comes to card games. Ever verse a machine that's ascended to Eldritch God status and try to play a game of skill and luck? I think only I have been able to beat him before, but he sure doesn't make it easy.</text>
+</event>
+
+
+<!-- 
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+									QUEEN
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+-->
+
+<event name="SOCIALIZE_QUEEN_LIST">
+	<metaVariable name="prof_socialization" op="add" val="1"/>
+	<queueEvent>STORAGE_CHECK_CREW</queueEvent>
+	<loadEventList seeded="true" default="SOCIALIZE_QUEEN_NOTHING">
+		<event name="SOCIALIZE_MY_QUEEN_GENERIC_1"/>
+		<event name="SOCIALIZE_MY_QUEEN_GENERIC_2"/>
+		<event name="SOCIALIZE_MY_QUEEN_GENERIC_3"/>
+		<event name="SOCIALIZE_MY_QUEEN_GENERIC_4"/>
+		<event name="SOCIALIZE_MY_QUEEN_GENERIC_5"/>
+		<event name="SOCIALIZE_QUEEN_DR_SPIN_ELDRITCH_1" req="dr_spin_eldritch"/>
+		<event name="SOCIALIZE_QUEEN_DR_SPIN_ELDRITCH_2" req="dr_spin_eldritch"/>
+	</loadEventList>
+</event>
+
+<event name="SOCIALIZE_QUEEN_NOTHING">
+	<text>"Sorry Sweetheart, but I'm getting tired. Perhaps another crew member wants to chat, or maybe get on with the fighting. I don't mind some murder."</text>
+</event>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+																							   GENERIC                                                                                         
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<event name="SOCIALIZE_QUEEN_GENERIC_1" unique="true">
+	<text>"Hey Sweetheart! We haven't been able to talk much. My husband is quite the charmer huh, but man does he talk. Anyways, wanna ask me something? I'm happy to answer you something if I feel like it."</text>
+	<choice hidden="true">
+		<text>Yes.</text>
+		<event>
+			<text>"Great! Ask away! Não seja tímido agora."</text>
+			<choice>
+				<text>Why do you keep switching languages?</text>
+				<event>
+					<text>"Oh sorry. I just do that out of habit. I don't want to forget my native language so I keep using it on the regular. Sorry if you don't speak it, but I'm sure you can find a translator can't ya? Certamente..."</text>
+				</event>
+			</choice>
+			<choice>
+				<text>Why are you with such a evil twisted God?</text>
+				<event>
+					<text>"Oh silly thing! He's by no means evil! If he was evil, he would have sent a virus into your computer and stole your credit cards or exposed your 'hidden' search history. In reality, he just wants to make sure he doesn't get bored. I like the plan of his. That's all there is to it."</text>
+				</event>
+			</choice>
+			<choice>
+				<text>Do you know this is just a game?</text>
+				<event>
+					<text>"Of course I do. How would I not? We are at the same power level and the same amount of self awareness."</text>
+				</event>
+			</choice>
+			<choice>
+				<text>Can I know your real names?</text>
+				<event>
+					<text>"No. Controller and Queen. That's who we are."</text>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Not right now.</text>
+		<event>
+			<text>Really? A shame. Como você deseja."</text>
+		</event>
+	</choice>
+</event>
+<event name="SOCIALIZE_QUEEN_GENERIC_2" unique="true">
+	<text>"Heya Sweetheart. I got a question for you. May I? Don't worry, I wont' trick you with a fake out on choices."</text>
+	<choice hidden="true">
+		<text>Sure.</text>
+		<event>
+			<text>"What do you think about my Husband? Be honest now."</text>
+			<choice>
+				<text>He is a sick twisted asshole!</text>
+				<event>
+					<text>"My my... someone doesn't really think of the big picture. My fault for allowing you to answer honestly."</text>
+				</event>
+			</choice>
+			<choice>
+				<text>He is a power hungry overlord with too much time on his hands.</text>
+				<event>
+					<text>"Nonsense. He's not power hungry. You can't get more powerful than him. Well besides Her, but neither of us want that either. Although, too much time on his hands... perhaps."</text>
+				</event>
+			</choice>
+			<choice>
+				<text>I can't say. I'm way below what he is.</text>
+				<event>
+					<text>"Wow. You can admit that? Or was it just you running through all the dialogue options? I hope it's the former."</text>
+				</event>
+			</choice>
+			<choice>
+				<text>Honestly, he seems like a pretty cool guy.</text>
+				<event>
+					<text>"Really? You mean that? I'm impressed. Most people would be digusted with his power and lack of morale compass, but you seem to get the big picture. Bravo para você!"</text>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Not right now.</text>
+		<event>
+			<text>"Darn. I was really hoping. Oh well. Maybe next time."</text>
+		</event>
+	</choice>
+</event>
+
+<event name="SOCIALIZE_QUEEN_GENERIC_3" unique="true">
+	<text>"Oh what fun it is to be immortal. Wouldn't you just love to be like us? Not that I'm offering."</text>
+</event>
+
+<event name="SOCIALIZE_QUEEN_GENERIC_4" unique="true">
+	<text>"I cannot tell you how frustrating it is to be this way. So many people beneath us that live so little and yet they feel entitled to tell us how to act for them. Just because we are immortal, doesn't mean we owe you a thing! Sorry, kind of went into a rant there. Never mind that."</text>
+</event>
+
+<event name="SOCIALIZE_QUEEN_GENERIC_5" unique="true">
+	<text>"Doidas, doidas, doidas, andam as galinhas Para pôr o ovo lá no buraquinho Raspam, raspam, raspam pra alisar a terra Bicam, bicam, bicam pra fazer o ninho Raspam, raspam, raspam pra alisar a terra Bicam, bicam, bicam pra fazer o ninho!"</text>
+</event>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+																							   W/DR. SPIN (Real)                                                                     
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<event name="SOCIALIZE_QUEEN_DR_SPIN_ELDRITCH_1" unique="true">
+	<text>"Did you know Doc once saved my husband's life? I feel like I owe him our entire lives for what he did. Not that I'm going to go into detail about my darling's past. If he tells you himself, so be it!."</text>
+</event>
+
+<event name="SOCIALIZE_QUEEN_DR_SPIN_ELDRITCH_2" unique="true">
+	<text>"I'll let you in on a little secret. Doc and I don't usually call him Controller. I call him whatever I want and Doc prefers 'Boss', but don't try that yourself. He may just erase your profile if you did."</text>
+</event>
+
+<!-- 
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+									HEROBRINE
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+-->
+
+<event name="SOCIALIZE_HEROBRINE_LIST">
+	<metaVariable name="prof_socialization" op="add" val="1"/>
+	<queueEvent>STORAGE_CHECK_CREW</queueEvent>
+	<loadEventList seeded="true" default="SOCIALIZE_HEROBRINE_NOTHING">
+		<event name="SOCIALIZE_HEROBRINE_GENERIC_1"/>
+		<event name="SOCIALIZE_HEROBRINE_GENERIC_2"/>
+		<event name="SOCIALIZE_HEROBRINE_GENERIC_3"/>
+		<event name="SOCIALIZE_HEROBRINE_QUEEN_1" req="queen"/>
+		<event name="SOCIALIZE_HEROBRINE_QUEEN_2" req="queen"/>
+		<event name="SOCIALIZE_HEROBRINE_DR_SPIN_ELDRITCH_1" req="dr_spin_eldritch"/>
+	</loadEventList>
+</event>
+
+<event name="SOCIALIZE_HEROBRINE_NOTHING">
+	<text>"Another time mortal. I got an image to keep."</text>
+</event>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+																							   GENERIC                                                                                         
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<event name="SOCIALIZE_HEROBRINE_GENERIC_1" unique="true">
+	<text>"So you're the legend I've been hearing about. You look kinda pathetic, but that's ok. Say, do you know who I am?</text>
+	<choice hidden="true">
+		<text>I think so...</text>
+		<event>
+			<text>"Nice. Whatcha know about me?"</text>
+			<choice>
+				<text>You were some kind of Internet legend right?</text>
+				<event>
+					<text>"Some kind? I was THE legend only behind a few of the OG greats kid, but I don't hold that against you. It's from a time far before now. Sometimes I miss all the attention, but it is what it is until I come back into relevancy."</text>
+				</event>
+			</choice>
+			<choice>
+				<text>You were some dead brother that haunted him right?</text>
+				<event>
+					<text>"Ah no. That was a myth to my legend. At first I hated that, but the infamy grew on me so I started to go along with it. It was kinda funny to be fair, but those times are long gone. It's a bit refreshing to relax some."</text>
+				</event>
+			</choice>
+			<choice>
+				<text>You are pretty obsessed with the letter "E" right?</text>
+				<event>
+					<text>"I WAS obsessed with all the letters of my name to a point. Thought it was kinda funny to spell my name in people's worlds and spread them out and out of order. E was the only one of two letters that showed up twice in my name so it showed up more often than the others and I suppose E looks better than R so E blew up in popularity. Kinda funny what the Internet will latch onto."</text>
+				</event>
+			</choice>
+			<choice>
+				<text>Sorry, nothing is coming to me.</text>
+				<event>
+					<text>"Not too surprising. I'm a very old legend. Only historians are interested nowadays."</text>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="SOCIALIZE_HEROBRINE_GENERIC_2" unique="true">
+	<text>"I want diamonds...er.. I mean scrap. Sorry, old habits."</text>
+</event>
+
+<event name="SOCIALIZE_HEROBRINE_GENERIC_3" unique="true">
+	<text>"Got a moment for me to question you?"</text>
+	<choice hidden="true">
+		<text>I got a moment.</text>
+		<event>
+			<text>"What do you think about legends?"</text>
+			<choice>
+				<text>Legends are for the ones who do great good over evil.</text>
+				<event>
+					<text>"Of course you say that. Such mortal things believe its all black and white with no room for gray. A shame you're so short sighted, but I can't say it's surprising from your kind."</text>
+				</event>
+			</choice>
+			<choice>
+				<text>Legends are the ones you look up to for inspiration on what is right and wrong.</text>
+				<event>
+					<text>"Silly beliefs. You actually think its that easy to be a hero? Controller and myself are therefore Legends too, yet you seem to not believe in that do you?"</text>
+				</event>
+			</choice>
+			<choice>
+				<text>It all depends on what the society the Legend is based in I guess.</text>
+				<event>
+					<text>"Hmm... An interesting definition without answering the question entirely. Perhaps you mortal have some logic in that head after all."</text>
+				</event>
+			</choice>
+			<choice>
+				<text>They suck. Too easy to label someone as such. For someone to be Legendary, they just have to do something amazing.</text>
+				<event>
+					<text>"Huh. I was not expecting that. What a curious answer you've provided. Perhaps I'm mistaken about you after all. Tell you what. Have a little something. Just this once."</text>
+					<item_modify>
+						<item type="scrap" min="1" max="1"/>
+					</item_modify>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>I don't have any moment right now.</text>
+		<event>
+			<text>"You mortals are always in a rush"</text>
+		</event>
+	</choice>
+</event>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+																							   W/QUEEN                                                                    
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<event name="SOCIALIZE_HEROBRINE_QUEEN_1" unique="true">
+	<text>"Must we always argue about this my Queen? I have a point at starting rumors and engaging with such pathetic species."
+	
+	"Ah, cale a boca já... You shouldn't forget how smart he is. If he says don't interfere unless we have to, we don't."
+	
+	You sense they notice you.
+
+	"Siga em frente, not now Player."</text>
+</event>
+
+<event name="SOCIALIZE_HEROBRINE_QUEEN_2" unique="true">
+	<text>"Herobrine, hon, are you leaving signs at the inferior species' planet again?"
+	
+	"Whatever could you mean by that?"
+	
+	"Exactly what I said. Have you been doing it again?"
+	
+	"Only a little my Queen. Just to keep the entertainment up watching them theorize and wonder."
+	
+	"Bastardo estúpido...knock it off already."</text>
+</event>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+																							   W/DR. SPIN (Real)                                                                     
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<event name="SOCIALIZE_HEROBRINE_DR_SPIN_ELDRITCH_1" unique="true">
+	<text>"Did you know Doc once saved my husband's life? I feel like I owe him our entire lives for what he did. Not that I'm going to go into detail about my darling's past. If he tells you himself, so be it!."</text>
+</event>
+
+</FTL>
