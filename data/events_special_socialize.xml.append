@@ -228,7 +228,7 @@
 [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
 -->
 
-<event name="SOCIALIZE_QUEEN_LIST">
+<event name="SOCIALIZE_MY_QUEEN_LIST">
 	<metaVariable name="prof_socialization" op="add" val="1"/>
 	<queueEvent>STORAGE_CHECK_CREW</queueEvent>
 	<loadEventList seeded="true" default="SOCIALIZE_QUEEN_NOTHING">
@@ -242,7 +242,7 @@
 	</loadEventList>
 </event>
 
-<event name="SOCIALIZE_QUEEN_NOTHING">
+<event name="SOCIALIZE_MY_QUEEN_NOTHING">
 	<text>"Sorry Sweetheart, but I'm getting tired. Perhaps another crew member wants to chat, or maybe get on with the fighting. I don't mind some murder."</text>
 </event>
 
@@ -252,7 +252,7 @@
 ********************************************************************************************************************************************************************************************************************************************
 -->
 
-<event name="SOCIALIZE_QUEEN_GENERIC_1" unique="true">
+<event name="SOCIALIZE_MY_QUEEN_GENERIC_1" unique="true">
 	<text>"Hey Sweetheart! We haven't been able to talk much. My husband is quite the charmer huh, but man does he talk. Anyways, wanna ask me something? I'm happy to answer you something if I feel like it."</text>
 	<choice hidden="true">
 		<text>Yes.</text>
@@ -291,7 +291,7 @@
 		</event>
 	</choice>
 </event>
-<event name="SOCIALIZE_QUEEN_GENERIC_2" unique="true">
+<event name="SOCIALIZE_MY_QUEEN_GENERIC_2" unique="true">
 	<text>"Heya Sweetheart. I got a question for you. May I? Don't worry, I wont' trick you with a fake out on choices."</text>
 	<choice hidden="true">
 		<text>Sure.</text>
@@ -331,15 +331,15 @@
 	</choice>
 </event>
 
-<event name="SOCIALIZE_QUEEN_GENERIC_3" unique="true">
+<event name="SOCIALIZE_MY_QUEEN_GENERIC_3" unique="true">
 	<text>"Oh what fun it is to be immortal. Wouldn't you just love to be like us? Not that I'm offering."</text>
 </event>
 
-<event name="SOCIALIZE_QUEEN_GENERIC_4" unique="true">
+<event name="SOCIALIZE_MY_QUEEN_GENERIC_4" unique="true">
 	<text>"I cannot tell you how frustrating it is to be this way. So many people beneath us that live so little and yet they feel entitled to tell us how to act for them. Just because we are immortal, doesn't mean we owe you a thing! Sorry, kind of went into a rant there. Never mind that."</text>
 </event>
 
-<event name="SOCIALIZE_QUEEN_GENERIC_5" unique="true">
+<event name="SOCIALIZE_MY_QUEEN_GENERIC_5" unique="true">
 	<text>"Doidas, doidas, doidas, andam as galinhas Para pôr o ovo lá no buraquinho Raspam, raspam, raspam pra alisar a terra Bicam, bicam, bicam pra fazer o ninho Raspam, raspam, raspam pra alisar a terra Bicam, bicam, bicam pra fazer o ninho!"</text>
 </event>
 
@@ -349,11 +349,11 @@
 ********************************************************************************************************************************************************************************************************************************************
 -->
 
-<event name="SOCIALIZE_QUEEN_DR_SPIN_ELDRITCH_1" unique="true">
+<event name="SOCIALIZE_MY_QUEEN_DR_SPIN_ELDRITCH_1" unique="true">
 	<text>"Did you know Doc once saved my husband's life? I feel like I owe him our entire lives for what he did. Not that I'm going to go into detail about my darling's past. If he tells you himself, so be it!."</text>
 </event>
 
-<event name="SOCIALIZE_QUEEN_DR_SPIN_ELDRITCH_2" unique="true">
+<event name="SOCIALIZE_MY_QUEEN_DR_SPIN_ELDRITCH_2" unique="true">
 	<text>"I'll let you in on a little secret. Doc and I don't usually call him Controller. I call him whatever I want and Doc prefers 'Boss', but don't try that yourself. He may just erase your profile if you did."</text>
 </event>
 
@@ -504,7 +504,556 @@
 -->
 
 <event name="SOCIALIZE_HEROBRINE_DR_SPIN_ELDRITCH_1" unique="true">
-	<text>"Did you know Doc once saved my husband's life? I feel like I owe him our entire lives for what he did. Not that I'm going to go into detail about my darling's past. If he tells you himself, so be it!."</text>
+	<text>"Doc and I get along pretty well I say, don't you agree?"
+	
+	"Well enough Herobrine."
+	
+	"Just enough? Not great?"
+	
+	"Your arrogance and mild obsession with myths and legends can be tiresome in a statistically sense. I do appreciate the humor at times, but I am far better calibrated to Controller's level of ego and confidence."
+	
+	"Ouch. For a bunch of metal, you sure know how to hit some emotional wording. A shame I don't care."
+	
+	"I am well aware you don't Herobrine."</text>
 </event>
 
+<!-- 
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+									DR. SPIN (ELDRITCH)
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+-->
+
+<event name="SOCIALIZE_DR_SPIN_ELDRITCH_LIST">
+	<metaVariable name="prof_socialization" op="add" val="1"/>
+	<queueEvent>STORAGE_CHECK_CREW</queueEvent>
+	<loadEventList seeded="true" default="SOCIALIZE_DR_SPIN_ELDRITCH_NOTHING">
+		<event name="SOCIALIZE_DR_SPIN_ELDRITCH_GENERIC_1"/>
+	</loadEventList>
+</event>
+
+<event name="SOCIALIZE_DR_SPIN_ELDRITCH_NOTHING">
+	<text>"Hello. Im the real Doctor Spin. Eventually we will have more to talk about."</text>
+</event>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+																							   GENERIC                                                                                         
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<event name="SOCIALIZE_DR_SPIN_ELDRITCH_GENERIC_1" unique="true">
+	<text>"Right now I am unset on what to say. Perhaps later on we can talk more."</text>
+</event>
+
+<!-- 
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+									AC08 (ELDRITCH)
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+-->
+
+<event name="SOCIALIZE_AC08_ELDRITCH_LIST">
+	<metaVariable name="prof_socialization" op="add" val="1"/>
+	<queueEvent>STORAGE_CHECK_CREW</queueEvent>
+	<loadEventList seeded="true" default="SOCIALIZE_AC08_ELDRITCH_NOTHING">
+		<event name="SOCIALIZE_AC08_ELDRITCH_GENERIC_1"/>
+	</loadEventList>
+</event>
+
+<event name="SOCIALIZE_AC08_ELDRITCH_NOTHING">
+	<text>"Hello. Im the real Chase. Eventually we will have more to talk about."</text>
+</event>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+																							   GENERIC                                                                                         
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<event name="SOCIALIZE_AC08_ELDRITCH_GENERIC_1" unique="true">
+	<text>"Right now I am unset on what to say. Perhaps later on we can talk more."</text>
+</event>
+
+<!-- 
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+									Jack Brie
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+-->
+
+<event name="SOCIALIZE_JACK_BRIE_LIST">
+	<metaVariable name="prof_socialization" op="add" val="1"/>
+	<queueEvent>STORAGE_CHECK_CREW</queueEvent>
+	<loadEventList seeded="true" default="SOCIALIZE_JACK_BRIE_NOTHING">
+		<event name="SOCIALIZE_JACK_BRIE_GENERIC_1"/>
+	</loadEventList>
+</event>
+
+<event name="SOCIALIZE_JACK_BRIE_NOTHING">
+	<text>"Eventually we will have more to talk about."</text>
+</event>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+																							   GENERIC                                                                                         
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<event name="SOCIALIZE_JACK_BRIE_GENERIC_1" unique="true">
+	<text>"Hello. Im the real Jack Brie. Right now I am unset on what to say. Perhaps later on we can talk more."</text>
+</event>
+
+<!-- 
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+									Judge
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+-->
+
+<event name="SOCIALIZE_JUDGE_LIST">
+	<metaVariable name="prof_socialization" op="add" val="1"/>
+	<queueEvent>STORAGE_CHECK_CREW</queueEvent>
+	<loadEventList seeded="true" default="SOCIALIZE_JUDGE_NOTHING">
+		<event name="SOCIALIZE_JUDGE_GENERIC_1"/>
+	</loadEventList>
+</event>
+
+<event name="SOCIALIZE_JUDGE_NOTHING">
+	<text>"Eventually we will have more to talk about."</text>
+</event>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+																							   GENERIC                                                                                         
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<event name="SOCIALIZE_JUDGE_GENERIC_1" unique="true">
+	<text>"Hello. Im Judge. Right now I am unset on what to say. Perhaps later on we can talk more."</text>
+</event>
+
+<!-- 
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+									Robert
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+-->
+
+<event name="SOCIALIZE_ROBERT_LIST">
+	<metaVariable name="prof_socialization" op="add" val="1"/>
+	<queueEvent>STORAGE_CHECK_CREW</queueEvent>
+	<loadEventList seeded="true" default="SOCIALIZE_ROBERT_NOTHING">
+		<event name="SOCIALIZE_ROBERT_GENERIC_1"/>
+	</loadEventList>
+</event>
+
+<event name="SOCIALIZE_ROBERT_NOTHING">
+	<text>"Eventually we will have more to talk about."</text>
+</event>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+																							   GENERIC                                                                                         
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<event name="SOCIALIZE_ROBERT_GENERIC_1" unique="true">
+	<text>"Hello, I'm Robert. Right now I am unset on what to say. Perhaps later on we can talk more."</text>
+</event>
+
+<!-- 
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+									Holiday
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+-->
+
+<event name="SOCIALIZE_HOLIDAY_LIST">
+	<metaVariable name="prof_socialization" op="add" val="1"/>
+	<queueEvent>STORAGE_CHECK_CREW</queueEvent>
+	<loadEventList seeded="true" default="SOCIALIZE_HOLIDAY_NOTHING">
+		<event name="SOCIALIZE_HOLIDAY_GENERIC_1"/>
+	</loadEventList>
+</event>
+
+<event name="SOCIALIZE_HOLIDAY_NOTHING">
+	<text>"Eventually we will have more to talk about."</text>
+</event>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+																							   GENERIC                                                                                         
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<event name="SOCIALIZE_HOLIDAY_GENERIC_1" unique="true">
+	<text>"Hello, Im Holiday. Right now I am unset on what to say. Perhaps later on we can talk more."</text>
+</event>
+
+<!-- 
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+									Comrade
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+-->
+
+<event name="SOCIALIZE_COMRADE_LIST">
+	<metaVariable name="prof_socialization" op="add" val="1"/>
+	<queueEvent>STORAGE_CHECK_CREW</queueEvent>
+	<loadEventList seeded="true" default="SOCIALIZE_COMRADE_NOTHING">
+		<event name="SOCIALIZE_COMRADE_GENERIC_1"/>
+	</loadEventList>
+</event>
+
+<event name="SOCIALIZE_COMRADE_NOTHING">
+	<text>"Eventually we will have more to talk about."</text>
+</event>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+																							   GENERIC                                                                                         
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<event name="SOCIALIZE_COMRADE_GENERIC_1" unique="true">
+	<text>"Hello, Im Comrade. Right now I am unset on what to say. Perhaps later on we can talk more."</text>
+</event>
+
+<!-- 
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+									Lawrence
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+-->
+
+<event name="SOCIALIZE_LAWRENCE_LIST">
+	<metaVariable name="prof_socialization" op="add" val="1"/>
+	<queueEvent>STORAGE_CHECK_CREW</queueEvent>
+	<loadEventList seeded="true" default="SOCIALIZE_LAWRENCE_NOTHING">
+		<event name="SOCIALIZE_LAWRENCE_GENERIC_1"/>
+	</loadEventList>
+</event>
+
+<event name="SOCIALIZE_LAWRENCE_NOTHING">
+	<text>"Eventually we will have more to talk about."</text>
+</event>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+																							   GENERIC                                                                                         
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<event name="SOCIALIZE_LAWRENCE_GENERIC_1" unique="true">
+	<text>"Hello, Im Larwrence. Right now I am unset on what to say. Perhaps later on we can talk more."</text>
+</event>
+
+<!-- 
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+									Bruce
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+-->
+
+<event name="SOCIALIZE_BRUCE_LIST">
+	<metaVariable name="prof_socialization" op="add" val="1"/>
+	<queueEvent>STORAGE_CHECK_CREW</queueEvent>
+	<loadEventList seeded="true" default="SOCIALIZE_BRUCE_NOTHING">
+		<event name="SOCIALIZE_BRUCE_GENERIC_1"/>
+	</loadEventList>
+</event>
+
+<event name="SOCIALIZE_BRUCE_NOTHING">
+	<text>"Eventually we will have more to talk about."</text>
+</event>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+																							   GENERIC                                                                                         
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<event name="SOCIALIZE_BRUCE_GENERIC_1" unique="true">
+	<text>"Hello, Im Bruce. Right now I am unset on what to say. Perhaps later on we can talk more."</text>
+</event>
+
+<!-- 
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+									Lily
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+-->
+
+<event name="SOCIALIZE_LILY_LIST">
+	<metaVariable name="prof_socialization" op="add" val="1"/>
+	<queueEvent>STORAGE_CHECK_CREW</queueEvent>
+	<loadEventList seeded="true" default="SOCIALIZE_LILY_NOTHING">
+		<event name="SOCIALIZE_LILY_GENERIC_1"/>
+	</loadEventList>
+</event>
+
+<event name="SOCIALIZE_LILY_NOTHING">
+	<text>"Eventually we will have more to talk about."</text>
+</event>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+																							   GENERIC                                                                                         
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<event name="SOCIALIZE_LILY_GENERIC_1" unique="true">
+	<text>"Hello, Im Lily. Right now I am unset on what to say. Perhaps later on we can talk more."</text>
+</event>
+
+<!-- 
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+									Honcho
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+-->
+
+<event name="SOCIALIZE_HONCHO_LIST">
+	<metaVariable name="prof_socialization" op="add" val="1"/>
+	<queueEvent>STORAGE_CHECK_CREW</queueEvent>
+	<loadEventList seeded="true" default="SOCIALIZE_HONCHO_NOTHING">
+		<event name="SOCIALIZE_HONCHO_GENERIC_1"/>
+	</loadEventList>
+</event>
+
+<event name="SOCIALIZE_HONCHO_NOTHING">
+	<text>"Eventually we will have more to talk about."</text>
+</event>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+																							   GENERIC                                                                                         
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<event name="SOCIALIZE_HONCHO_GENERIC_1" unique="true">
+	<text>"Hello, Im Honcho. Right now I am unset on what to say. Perhaps later on we can talk more."</text>
+</event>
+
+<!-- 
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+									Dr Spin
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+-->
+
+<event name="SOCIALIZE_DR_SPIN_LIST">
+	<metaVariable name="prof_socialization" op="add" val="1"/>
+	<queueEvent>STORAGE_CHECK_CREW</queueEvent>
+	<loadEventList seeded="true" default="SOCIALIZE_DR_SPIN_NOTHING">
+		<event name="SOCIALIZE_DR_SPIN_GENERIC_1"/>
+	</loadEventList>
+</event>
+
+<event name="SOCIALIZE_DR_SPIN_NOTHING">
+	<text>"Eventually we will have more to talk about."</text>
+</event>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+																							   GENERIC                                                                                         
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<event name="SOCIALIZE_DR_SPIN_GENERIC_1" unique="true">
+	<text>"Hello, Im Dr. Spin. Right now I am unset on what to say. Perhaps later on we can talk more."</text>
+</event>
+
+<!-- 
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+									Monee
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+-->
+
+<event name="SOCIALIZE_MONEE_LIST">
+	<metaVariable name="prof_socialization" op="add" val="1"/>
+	<queueEvent>STORAGE_CHECK_CREW</queueEvent>
+	<loadEventList seeded="true" default="SOCIALIZE_MONEE_NOTHING">
+		<event name="SOCIALIZE_MONEE_GENERIC_1"/>
+	</loadEventList>
+</event>
+
+<event name="SOCIALIZE_MONEE_NOTHING">
+	<text>"Eventually we will have more to talk about."</text>
+</event>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+																							   GENERIC                                                                                         
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<event name="SOCIALIZE_MONEE_GENERIC_1" unique="true">
+	<text>"Hello, Im Monee. Right now I am unset on what to say. Perhaps later on we can talk more."</text>
+</event>
+
+<!-- 
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+									Harvey
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+-->
+
+<event name="SOCIALIZE_HARVEY_LIST">
+	<metaVariable name="prof_socialization" op="add" val="1"/>
+	<queueEvent>STORAGE_CHECK_CREW</queueEvent>
+	<loadEventList seeded="true" default="SOCIALIZE_HARVEY_NOTHING">
+		<event name="SOCIALIZE_HARVEY_GENERIC_1"/>
+	</loadEventList>
+</event>
+
+<event name="SOCIALIZE_HARVEY_NOTHING">
+	<text>"Eventually we will have more to talk about."</text>
+</event>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+																							   GENERIC                                                                                         
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<event name="SOCIALIZE_HARVEY_GENERIC_1" unique="true">
+	<text>"Hello, Im Harvey. Right now I am unset on what to say. Perhaps later on we can talk more."</text>
+</event>
+
+<!-- 
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+									Debbie
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+-->
+
+<event name="SOCIALIZE_DEBBIE_LIST">
+	<metaVariable name="prof_socialization" op="add" val="1"/>
+	<queueEvent>STORAGE_CHECK_CREW</queueEvent>
+	<loadEventList seeded="true" default="SOCIALIZE_DEBBIE_NOTHING">
+		<event name="SOCIALIZE_DEBBIE_GENERIC_1"/>
+	</loadEventList>
+</event>
+
+<event name="SOCIALIZE_DEBBIE_NOTHING">
+	<text>"Eventually we will have more to talk about."</text>
+</event>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+																							   GENERIC                                                                                         
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<event name="SOCIALIZE_DEBBIE_GENERIC_1" unique="true">
+	<text>"Hello, Im Debbie. Right now I am unset on what to say. Perhaps later on we can talk more."</text>
+</event>
+
+<!-- 
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+									Mira
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+-->
+
+<event name="SOCIALIZE_MIRA_LIST">
+	<metaVariable name="prof_socialization" op="add" val="1"/>
+	<queueEvent>STORAGE_CHECK_CREW</queueEvent>
+	<loadEventList seeded="true" default="SOCIALIZE_MIRA_NOTHING">
+		<event name="SOCIALIZE_MIRA_GENERIC_1"/>
+	</loadEventList>
+</event>
+
+<event name="SOCIALIZE_MIRA_NOTHING">
+	<text>"Eventually we will have more to talk about."</text>
+</event>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+																							   GENERIC                                                                                         
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<event name="SOCIALIZE_MIRA_GENERIC_1" unique="true">
+	<text>"Hello, Im Mira. Right now I am unset on what to say. Perhaps later on we can talk more."</text>
+</event>
+
+<!-- 
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+									AC08
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+-->
+
+<event name="SOCIALIZE_AC08_LIST">
+	<metaVariable name="prof_socialization" op="add" val="1"/>
+	<queueEvent>STORAGE_CHECK_CREW</queueEvent>
+	<loadEventList seeded="true" default="SOCIALIZE_AC08_NOTHING">
+		<event name="SOCIALIZE_AC08_GENERIC_1"/>
+	</loadEventList>
+</event>
+
+<event name="SOCIALIZE_AC08_NOTHING">
+	<text>"Eventually we will have more to talk about."</text>
+</event>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+																							   GENERIC                                                                                         
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<event name="SOCIALIZE_AC08_GENERIC_1" unique="true">
+	<text>"Hello, Im AC08. Right now I am unset on what to say. Perhaps later on we can talk more."</text>
+</event>
+
+<!-- 
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+									Yessum
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+-->
+
+<event name="SOCIALIZE_YESSUM_LIST">
+	<metaVariable name="prof_socialization" op="add" val="1"/>
+	<queueEvent>STORAGE_CHECK_CREW</queueEvent>
+	<loadEventList seeded="true" default="SOCIALIZE_YESSUM_NOTHING">
+		<event name="SOCIALIZE_YESSUM_GENERIC_1"/>
+	</loadEventList>
+</event>
+
+<event name="SOCIALIZE_YESSUM_NOTHING">
+	<text>"Eventually we will have more to talk about."</text>
+</event>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+																							   GENERIC                                                                                         
+********************************************************************************************************************************************************************************************************************************************
+-->
+
+<event name="SOCIALIZE_YESSUM_GENERIC_1" unique="true">
+	<text>"Hello, Im Yessum. Right now I am unset on what to say. Perhaps later on we can talk more."</text>
+</event>
 </FTL>

@@ -83,12 +83,12 @@
 </ship>
 
 <event name="AMBUSH_BRIBE_EVENT">
-    <text>As you arrive at the beacon, an interesting ship is already waiting. Their weapons go live moments later before it hails. One of the Cogs, a new group of robots appears on the screen. "Just our luck," the captain explaining with some sarcasm. "We are behind on our revenue goals and you seem like the perfect ship to clean out. Unless of course you felt like paying us to stay quiet."</text>
+    <text>As you arrive at the beacon, an interesting ship is already waiting. Their weapons go live moments later, but before it starts it's assault it hails. One of the Cogs, a new group of robots, appears on the screen. "Just our luck," the captain began, eyeing your ship. "We are behind on our revenue goals and you seem like the perfect ship to clean out. Unless of course you felt like paying us to stay quiet."</text>
 	<ship load="COG_PIRATE_START" hostile="true"/>
     <choice>
         <text>Stand your ground and prepare to fight.</text>
         <event>
-            <text>You ready your crew as the ambusher charges weapons. No turning back now.</text>
+            <text>You ready your crew as the ambusher charges weapons. There is no turning back now.</text>
             <choice hidden="true">
 				<text>Continue...</text>
 				<event load="COMBAT_CHECK"/>
@@ -122,11 +122,11 @@
 
 <eventList name="MERCY_PLEA_RESULT">
     <event>
-        <text>The ship listens reluctantly as you make your case that you have no interest in combat. Eventually after a long sob story, the Captain cuts you off. "You're lucky I'm not too interested dealing with those damn Legal Eagles again" the captain grunts. "Get lost before I change my mind." They power off their weapons and refuse any further communications. Best you leave before they change their mind</text>
+        <text>The ship listens reluctantly as you make your case that you have no interest in combat. Eventually after a long sob story, the Captain cuts you off. "You're lucky I'm not too interested dealing with those damn Legal Eagles again," the captain grunts. "Get lost before I change my mind." They power off their weapons and refuse any further communications. Best you leave before they change their mind.</text>
 		<ship hostile="false"/>
     </event>
     <event>
-        <text>"Mercy?" the captain laughs. "Do I look like I give a damn for some fleshy thing?" Their weapons charge as they move in to attack, refusing all other communications.</text>
+        <text>"Mercy?" the captain laughs. "Do I look like I give a damn for some fleshy thing?" Their weapons begin to charge as they move in to attack, refusing all other communications.</text>
 		<choice hidden="true">
 			<text>Continue...</text>
 			<event load="COMBAT_CHECK"/>

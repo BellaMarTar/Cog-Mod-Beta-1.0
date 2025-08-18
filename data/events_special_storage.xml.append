@@ -1,4 +1,19 @@
 <FTL>
+
+<!--
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	Storage Events
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->
+
+
+<!--
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	Crew Talks
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->
 <mod:findName type="event" name="STORAGE_CHECK_CREW_REAL">
 	<!--Gods-->
 	<mod-append:choice req="controller" blue="false" hidden="true">
@@ -7,7 +22,7 @@
 	</mod-append:choice>
 	<mod-append:choice req="queen" blue="false" hidden="true">
 		<text>Look for my Queen.</text>
-		<event load="SOCIALIZE_QUEEN_LIST"/>
+		<event load="SOCIALIZE_MY_QUEEN_LIST"/>
 	</mod-append:choice>
 	<mod-append:choice req="herobrine" blue="false" hidden="true">
 		<text>Look for Herobrine</text>
@@ -19,7 +34,7 @@
 	</mod-append:choice>
 	<mod-append:choice req="ac08_eldritch" blue="false" hidden="true">
 		<text>Look for Chase</text>
-		<event load="SOCIALIZE_CHASE_LIST"/>
+		<event load="SOCIALIZE_AC08_ELDRITCH_LIST"/>
 	</mod-append:choice>
 		<!--Tier 8s-->
 	<mod-append:choice req="jack_brie" blue="false" hidden="true">
@@ -93,4 +108,1098 @@
 		<event load="SOCIALIZE_YESSUM_LIST"/>
 	</mod-append:choice>
 </mod:findName>
+
+<!--
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	LAB MENU
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->
+
+<mod:findName type="event" name="STORAGE_CHECK_LAB">
+	<!--4 Main Classes (eventually to also add secondary individual cog upgrades)-->
+	<mod-append:choice req="LIST_CREW_BOSSBOT" blue="false" hidden="true">
+		<text>Bossbot.</text>
+		<event load="STORAGE_CHECK_LAB_BOSSBOT"/>
+	</mod-append:choice>
+	<mod-append:choice req="LIST_CREW_LAWBOT" blue="false" hidden="true">
+		<text>Lawbot.</text>
+		<event load="STORAGE_CHECK_LAB_LAWBOT"/>
+	</mod-append:choice>
+	<mod-append:choice req="LIST_CREW_CASHBOT" blue="false" hidden="true">
+		<text>Cashbot.</text>
+		<event load="STORAGE_CHECK_LAB_CASHBOT"/>
+	</mod-append:choice>
+	<mod-append:choice req="LIST_CREW_SELLBOT" blue="false" hidden="true">
+		<text>Sellbot.</text>
+		<event load="STORAGE_CHECK_LAB_SELLBOT"/>
+	</mod-append:choice>
+</mod:findName>
+
+
+<!--
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	BOSSBOTS
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->
+
+<event name="STORAGE_CHECK_LAB_BOSSBOT">
+	<text>You are viewing the lab menu for: [BOSSBOTS]. Please note this is a direct rip from the human lab with some minor changes. Will be overhauled in the end.</text>
+	<choice req="LAB_BOSSBOT_STRONG" lvl="1" max_group="0" blue="false" hidden="true">
+		<text>Currently Installed: Head Strong.
+		[+12% buff to movement speed, combat damage, repair speed, and health]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_BOSSBOT_IMMUNE" lvl="1" max_group="0" blue="false" hidden="true">
+		<text>Currently Installed: Strong Willed.
+		[Immune to fires and suffocation]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_BOSSBOT_RESIST" lvl="1" max_group="0" blue="false" hidden="true">
+		<text>Currently Installed: Single Track Mind.
+		[Cannot be mind controlled]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="pilot" lvl="1" max_group="0" blue="false" hidden="true">
+		<text>Currently Installed: None</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_BOSSBOT_INSTALLED" lvl="1" max_group="1" blue="false" hidden="true">
+		<text>Pri: Head Strong. [An upgrade is already installed]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_BOSSBOT_INSTALLED" lvl="0" max_group="1" blue="false" hidden="true">
+		<text>Pri: Head Strong. [Cost: 30~]</text>
+		<event load="STORAGE_CHECK_LAB_BOSSBOT_STRONG"/>
+	</choice>
+	<choice req="LAB_BOSSBOT_INSTALLED" lvl="1" max_group="2" blue="false" hidden="true">
+		<text>Pri: Strong Willed. [An upgrade is already installed]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_BOSSBOT_INSTALLED" lvl="0" max_group="2" blue="false" hidden="true">
+		<text>Pri: Strong Willed. [Cost: 30~]</text>
+		<event load="STORAGE_CHECK_LAB_BOSSBOT_IMMUNE"/>
+	</choice>
+	<choice req="LAB_BOSSBOT_INSTALLED" lvl="1" max_group="3" blue="false" hidden="true">
+		<text>Pri: Single Track Mind. [An upgrade is already installed]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_BOSSBOT_INSTALLED" lvl="0" max_group="3" blue="false" hidden="true">
+		<text>Pri: Single Track Mind. [Cost: 6{]</text>
+		<event load="STORAGE_CHECK_LAB_BOSSBOT_RESIST"/>
+	</choice>
+	<choice req="LAB_BOSSBOT_BASIC_SACRIFICE" lvl="1" max_group="4" blue="false" hidden="true">
+		<text>Sec [Bossbots]: Protect the Working Class. [An upgrade is already installed]
+		[Your Bossbots are prioritized first in crew loss events]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_BOSSBOT_BASIC_SACRIFICE" lvl="0" max_group="4" blue="false" hidden="true">
+		<text>Sec [Bossbots]: Protect the Working Class. [Cost: 30~]</text>
+		<event load="STORAGE_CHECK_LAB_BOSSBOT_BASIC_SACRIFICE"/>
+	</choice>
+	<choice req="LAB_BOSSBOT_MEDIC_OATH" lvl="1" max_group="5" blue="false" hidden="true">
+		<text>Sec [Bossbots]: Hippocratic Oath. [An upgrade is already installed]
+		[Bossbots ignore enemy crew, opting instead to repair or sabotage, and grant 95% fire/suffocation and stun resistance to nearby allied crew]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_BOSSBOT_MEDIC_OATH" lvl="0" max_group="5" blue="false" hidden="true">
+		<text>Sec [Bossbots]: Hippocratic Oath. [Cost: 35~, 1}]</text>
+		<event load="STORAGE_CHECK_LAB_BOSSBOT_MEDIC_OATH"/>
+	</choice>
+	<choice req="LAB_BOSSBOT_ENGINEER_DRONES" lvl="1" max_group="6" blue="false" hidden="true">
+		<text>Sec [Bossbots]: Field Training. [An upgrade is already installed]
+		[Bossbots repair at default speed but heal crew drones at 6hp/s and buff their repair/combat by 15%]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_BOSSBOT_ENGINEER_DRONES" lvl="0" max_group="6" blue="false" hidden="true">
+		<text>Sec [Bossbots]: Field Training. [Cost: 25~, 3|]</text>
+		<event load="STORAGE_CHECK_LAB_BOSSBOT_ENGINEER_DRONES"/>
+	</choice>
+	<choice req="pilot" lvl="1" max_group="999" blue="false" hidden="true">
+		<text>Go back.</text>
+		<event load="STORAGE_CHECK_LAB_LOAD"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_LAB_BOSSBOT_STRONG">
+	<text>You are about to install the Head Strong modification.
+	[Effects: +12% buff to movement speed, combat damage, repair speed, and health]
+	
+	[Warning: After installing this, you will not be able to install any more primary upgrades for Bossbot crew. You will not be able to deactivate this mod either.]</text>
+	<choice hidden="true">
+		<text>Install the modification. [Cost: 30~]</text>
+		<event>
+			<text>You install the modification.</text>
+			<item_modify>
+				<item type="scrap" min="-30" max="-30"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="INSTALL_LAB_BOSSBOT_STRONG"/>
+			</choice>
+		</event>
+	</choice>
+	<choice req="pilot" lvl="1" max_group="1" blue="false" hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_LAB_LOAD"/>
+	</choice>
+</event>
+<event name="INSTALL_LAB_BOSSBOT_STRONG">
+	<variable name="loc_lab_upgrades" op="add" val="1"/>
+	<hiddenAug>LAB_BOSSBOT_STRONG</hiddenAug>
+	<hiddenAug>LAB_BOSSBOT_INSTALLED</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_BOSSBOT</loadEvent>
+</event>
+<event name="STORAGE_CHECK_LAB_BOSSBOT_IMMUNE">
+	<text>You are about to install the Strong Willed modification.
+	[Effects: Bossbots are completely immune to suffocation and fires.]
+	
+	[Warning: After installing this, you will not be able to install any more primary upgrades for Bossbot crew. You will not be able to deactivate this mod either.]</text>
+	<choice hidden="true">
+		<text>Install the modification. [Cost: 30~]</text>
+		<event>
+			<text>You install the modification.</text>
+			<item_modify>
+				<item type="scrap" min="-30" max="-30"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="INSTALL_LAB_BOSSBOT_IMMUNE"/>
+			</choice>
+		</event>
+	</choice>
+	<choice req="pilot" lvl="1" max_group="1" blue="false" hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_LAB_LOAD"/>
+	</choice>
+</event>
+<event name="INSTALL_LAB_BOSSBOT_IMMUNE">
+	<variable name="loc_lab_upgrades" op="add" val="1"/>
+	<hiddenAug>LAB_BOSSBOT_IMMUNE</hiddenAug>
+	<hiddenAug>LAB_BOSSBOT_INSTALLED</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_BOSSBOT</loadEvent>
+</event>
+<event name="STORAGE_CHECK_LAB_BOSSBOT_RESIST">
+    <text>You are about to install the Single Track Mind modification.
+[Effects: Bossbots are completely immune to mind control.]
+    
+[Warning: After installing this, you will not be able to install any more primary upgrades for Bossbot crew. You will not be able to deactivate this mod either.]</text>
+    <choice hidden="true">
+        <text>Install the modification. [Cost: 6{]</text>
+        <event>
+            <text>You install the modification.</text>
+            <item_modify>
+                <item type="fuel" min="-6" max="-6"/>
+            </item_modify>
+            <choice hidden="true">
+                <text>Continue...</text>
+                <event load="INSTALL_LAB_BOSSBOT_RESIST"/>
+            </choice>
+        </event>
+    </choice>
+    <choice req="pilot" lvl="1" max_group="1" blue="false" hidden="true">
+        <text>Nevermind.</text>
+        <event load="STORAGE_CHECK_LAB_LOAD"/>
+    </choice>
+</event>
+<event name="INSTALL_LAB_BOSSBOT_RESIST">
+	<variable name="loc_lab_upgrades" op="add" val="1"/>
+	<hiddenAug>LAB_BOSSBOT_RESIST</hiddenAug>
+	<hiddenAug>LAB_BOSSBOT_INSTALLED</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_BOSSBOT</loadEvent>
+</event>
+<event name="STORAGE_CHECK_LAB_BOSSBOT_BASIC_SACRIFICE">
+	<text>You are about to install the Martyrdom Instincts modification.
+	[Effects: Your Bossbots are prioritized first in crew loss events]
+	
+	[Warning: This will affect Bossbot Crew only. You will be able to install other secondary mods and primary mods afterwards.]</text>
+	<choice hidden="true" req="LAB_UPGRADE" lvl="1" max_group="0" blue="false">
+		<text>Install the modification. [Cost: 30~]</text>
+		<event>
+			<text>You install the modification.</text>
+			<item_modify>
+				<item type="scrap" min="-30" max="-30"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="INSTALL_LAB_BOSSBOT_BASIC_SACRIFICE"/>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LAB_UPGRADE" lvl="0" max_group="0" blue="false" hidden="true">
+		<text>You must have the lab upgrade for this modification.</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="pilot" lvl="1" max_group="1" blue="false" hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_LAB_LOAD"/>
+	</choice>
+</event>
+<event name="INSTALL_LAB_BOSSBOT_BASIC_SACRIFICE">
+    <hiddenAug>LAB_BOSSBOT_BASIC_SACRIFICE</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_BOSSBOT</loadEvent>
+</event>
+<event name="STORAGE_CHECK_LAB_BOSSBOT_MEDIC_OATH">
+	<text>You are about to install the Hippocratic Oath modification.
+	[Effects: Your Bossbots ignore enemy crew, opting instead to repair or sabotage in their presence, and give a protective aura to allied crew (including themselves) in the same room that grants them 95% resistance to stuns and fire/suffocation hazards]
+	
+	[Warning: This will affect Bossbots only. You will be able to install other secondary mods and primary mods afterwards.]</text>
+	<choice hidden="true" req="LAB_UPGRADE" lvl="1" max_group="0" blue="false">
+		<text>Install the modification. [Cost: 35~, 1}]</text>
+		<event>
+			<text>You install the modification.</text>
+			<item_modify>
+				<item type="missiles" min="-1" max="-1"/>
+				<item type="scrap" min="-35" max="-35"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="INSTALL_LAB_BOSSBOT_MEDIC_OATH"/>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LAB_UPGRADE" lvl="0" max_group="0" blue="false" hidden="true">
+		<text>You must have the lab upgrade for this modification.</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="pilot" lvl="1" max_group="1" blue="false" hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_LAB_LOAD"/>
+	</choice>
+</event>
+<event name="INSTALL_LAB_BOSSBOT_MEDIC_OATH">
+    <hiddenAug>LAB_BOSSBOT_MEDIC_OATH</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_BOSSBOT</loadEvent>
+</event>
+<event name="STORAGE_CHECK_LAB_BOSSBOT_ENGINEER_DRONES">
+	<text>You are about to install the Field Training modification.
+	[Effects: Your Bossbots lose their repair bonus but heal your crew drones at 6hp/s and buff their combat damage and repair speed by 15%]
+	
+	[Warning: This will affect Bossbot Crew only. You will be able to install other secondary mods and primary mods afterwards.]</text>
+	<choice hidden="true" req="LAB_UPGRADE" lvl="1" max_group="0" blue="false">
+		<text>Install the modification. [Cost: 25~, 3|]</text>
+		<event>
+			<text>You install the modification.</text>
+			<item_modify>
+				<item type="scrap" min="-25" max="-25"/>
+				<item type="drones" min="-3" max="-3"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="INSTALL_LAB_BOSSBOT_ENGINEER_DRONES"/>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LAB_UPGRADE" lvl="0" max_group="0" blue="false" hidden="true">
+		<text>You must have the lab upgrade for this modification.</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="pilot" lvl="1" max_group="1" blue="false" hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_LAB_LOAD"/>
+	</choice>
+</event>
+<event name="INSTALL_LAB_BOSSBOT_ENGINEER_DRONES">
+	<hiddenAug>LAB_BOSSBOT_ENGINEER_DRONES</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_BOSSBOT</loadEvent>
+</event>
+
+<!-- 
+**********************************************************************************************************************
+                                    Lawbot
+**********************************************************************************************************************
+-->
+
+<event name="STORAGE_CHECK_LAB_LAWBOT">
+	<text>You are viewing the lab menu for: [LAWBOTS]. Please note this is a direct rip from the human lab with some minor changes. Will be overhauled in the end.</text>
+	<choice req="LAB_LAWBOT_STRONG" lvl="1" max_group="0" blue="false" hidden="true">
+		<text>Currently Installed: Head Strong.
+		[+12% buff to movement speed, combat damage, repair speed, and health]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_LAWBOT_IMMUNE" lvl="1" max_group="0" blue="false" hidden="true">
+		<text>Currently Installed: Strong Willed.
+		[Immune to fires and suffocation]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_LAWBOT_RESIST" lvl="1" max_group="0" blue="false" hidden="true">
+		<text>Currently Installed: Single Track Mind.
+		[Cannot be mind controlled]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="pilot" lvl="1" max_group="0" blue="false" hidden="true">
+		<text>Currently Installed: None</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_LAWBOT_INSTALLED" lvl="1" max_group="1" blue="false" hidden="true">
+		<text>Pri: Head Strong. [An upgrade is already installed]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_LAWBOT_INSTALLED" lvl="0" max_group="1" blue="false" hidden="true">
+		<text>Pri: Head Strong. [Cost: 30~]</text>
+		<event load="STORAGE_CHECK_LAB_LAWBOT_STRONG"/>
+	</choice>
+	<choice req="LAB_LAWBOT_INSTALLED" lvl="1" max_group="2" blue="false" hidden="true">
+		<text>Pri: Strong Willed. [An upgrade is already installed]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_LAWBOT_INSTALLED" lvl="0" max_group="2" blue="false" hidden="true">
+		<text>Pri: Strong Willed. [Cost: 30~]</text>
+		<event load="STORAGE_CHECK_LAB_LAWBOT_IMMUNE"/>
+	</choice>
+	<choice req="LAB_LAWBOT_INSTALLED" lvl="1" max_group="3" blue="false" hidden="true">
+		<text>Pri: Single Track Mind. [An upgrade is already installed]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_LAWBOT_INSTALLED" lvl="0" max_group="3" blue="false" hidden="true">
+		<text>Pri: Single Track Mind. [Cost: 6{]</text>
+		<event load="STORAGE_CHECK_LAB_LAWBOT_RESIST"/>
+	</choice>
+	<choice req="LAB_LAWBOT_BASIC_SACRIFICE" lvl="1" max_group="4" blue="false" hidden="true">
+		<text>Sec [Lawbots]: Protect the Working Class. [An upgrade is already installed]
+		[Your Lawbots are prioritized first in crew loss events]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_LAWBOT_BASIC_SACRIFICE" lvl="0" max_group="4" blue="false" hidden="true">
+		<text>Sec [Lawbots]: Protect the Working Class. [Cost: 30~]</text>
+		<event load="STORAGE_CHECK_LAB_LAWBOT_BASIC_SACRIFICE"/>
+	</choice>
+	<choice req="LAB_LAWBOT_MEDIC_OATH" lvl="1" max_group="5" blue="false" hidden="true">
+		<text>Sec [Lawbots]: Hippocratic Oath. [An upgrade is already installed]
+		[Lawbots ignore enemy crew, opting instead to repair or sabotage, and grant 95% fire/suffocation and stun resistance to nearby allied crew]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_LAWBOT_MEDIC_OATH" lvl="0" max_group="5" blue="false" hidden="true">
+		<text>Sec [Lawbots]: Hippocratic Oath. [Cost: 35~, 1}]</text>
+		<event load="STORAGE_CHECK_LAB_LAWBOT_MEDIC_OATH"/>
+	</choice>
+	<choice req="LAB_LAWBOT_ENGINEER_DRONES" lvl="1" max_group="6" blue="false" hidden="true">
+		<text>Sec [Lawbots]: Field Training. [An upgrade is already installed]
+		[Lawbots repair at default speed but heal crew drones at 6hp/s and buff their repair/combat by 15%]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_LAWBOT_ENGINEER_DRONES" lvl="0" max_group="6" blue="false" hidden="true">
+		<text>Sec [Lawbots]: Field Training. [Cost: 25~, 3|]</text>
+		<event load="STORAGE_CHECK_LAB_LAWBOT_ENGINEER_DRONES"/>
+	</choice>
+	<choice req="pilot" lvl="1" max_group="999" blue="false" hidden="true">
+		<text>Go back.</text>
+		<event load="STORAGE_CHECK_LAB_LOAD"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_LAB_LAWBOT_STRONG">
+	<text>You are about to install the Head Strong modification.
+	[Effects: +12% buff to movement speed, combat damage, repair speed, and health]
+	
+	[Warning: After installing this, you will not be able to install any more primary upgrades for Lawbot crew. You will not be able to deactivate this mod either.]</text>
+	<choice hidden="true">
+		<text>Install the modification. [Cost: 30~]</text>
+		<event>
+			<text>You install the modification.</text>
+			<item_modify>
+				<item type="scrap" min="-30" max="-30"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="INSTALL_LAB_LAWBOT_STRONG"/>
+			</choice>
+		</event>
+	</choice>
+	<choice req="pilot" lvl="1" max_group="1" blue="false" hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_LAB_LOAD"/>
+	</choice>
+</event>
+<event name="INSTALL_LAB_LAWBOT_STRONG">
+	<variable name="loc_lab_upgrades" op="add" val="1"/>
+	<hiddenAug>LAB_LAWBOT_STRONG</hiddenAug>
+	<hiddenAug>LAB_LAWBOT_INSTALLED</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_LAWBOT</loadEvent>
+</event>
+<event name="STORAGE_CHECK_LAB_LAWBOT_IMMUNE">
+	<text>You are about to install the Strong Willed modification.
+	[Effects: Lawbots are completely immune to suffocation and fires.]
+	
+	[Warning: After installing this, you will not be able to install any more primary upgrades for Lawbot crew. You will not be able to deactivate this mod either.]</text>
+	<choice hidden="true">
+		<text>Install the modification. [Cost: 30~]</text>
+		<event>
+			<text>You install the modification.</text>
+			<item_modify>
+				<item type="scrap" min="-30" max="-30"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="INSTALL_LAB_LAWBOT_IMMUNE"/>
+			</choice>
+		</event>
+	</choice>
+	<choice req="pilot" lvl="1" max_group="1" blue="false" hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_LAB_LOAD"/>
+	</choice>
+</event>
+<event name="INSTALL_LAB_LAWBOT_IMMUNE">
+	<variable name="loc_lab_upgrades" op="add" val="1"/>
+	<hiddenAug>LAB_LAWBOT_IMMUNE</hiddenAug>
+	<hiddenAug>LAB_LAWBOT_INSTALLED</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_LAWBOT</loadEvent>
+</event>
+<event name="STORAGE_CHECK_LAB_LAWBOT_RESIST">
+    <text>You are about to install the Single Track Mind modification.
+[Effects: Lawbots are completely immune to mind control.]
+    
+[Warning: After installing this, you will not be able to install any more primary upgrades for Lawbot crew. You will not be able to deactivate this mod either.]</text>
+    <choice hidden="true">
+        <text>Install the modification. [Cost: 6{]</text>
+        <event>
+            <text>You install the modification.</text>
+            <item_modify>
+                <item type="fuel" min="-6" max="-6"/>
+            </item_modify>
+            <choice hidden="true">
+                <text>Continue...</text>
+                <event load="INSTALL_LAB_LAWBOT_RESIST"/>
+            </choice>
+        </event>
+    </choice>
+    <choice req="pilot" lvl="1" max_group="1" blue="false" hidden="true">
+        <text>Nevermind.</text>
+        <event load="STORAGE_CHECK_LAB_LOAD"/>
+    </choice>
+</event>
+<event name="INSTALL_LAB_LAWBOT_RESIST">
+	<variable name="loc_lab_upgrades" op="add" val="1"/>
+	<hiddenAug>LAB_LAWBOT_RESIST</hiddenAug>
+	<hiddenAug>LAB_LAWBOT_INSTALLED</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_LAWBOT</loadEvent>
+</event>
+<event name="STORAGE_CHECK_LAB_LAWBOT_BASIC_SACRIFICE">
+	<text>You are about to install the Martyrdom Instincts modification.
+	[Effects: Your Lawbots are prioritized first in crew loss events]
+	
+	[Warning: This will affect Lawbot Crew only. You will be able to install other secondary mods and primary mods afterwards.]</text>
+	<choice hidden="true" req="LAB_UPGRADE" lvl="1" max_group="0" blue="false">
+		<text>Install the modification. [Cost: 30~]</text>
+		<event>
+			<text>You install the modification.</text>
+			<item_modify>
+				<item type="scrap" min="-30" max="-30"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="INSTALL_LAB_LAWBOT_BASIC_SACRIFICE"/>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LAB_UPGRADE" lvl="0" max_group="0" blue="false" hidden="true">
+		<text>You must have the lab upgrade for this modification.</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="pilot" lvl="1" max_group="1" blue="false" hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_LAB_LOAD"/>
+	</choice>
+</event>
+<event name="INSTALL_LAB_LAWBOT_BASIC_SACRIFICE">
+    <hiddenAug>LAB_LAWBOT_BASIC_SACRIFICE</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_LAWBOT</loadEvent>
+</event>
+<event name="STORAGE_CHECK_LAB_LAWBOT_MEDIC_OATH">
+	<text>You are about to install the Hippocratic Oath modification.
+	[Effects: Your Lawbots ignore enemy crew, opting instead to repair or sabotage in their presence, and give a protective aura to allied crew (including themselves) in the same room that grants them 95% resistance to stuns and fire/suffocation hazards]
+	
+	[Warning: This will affect Lawbots only. You will be able to install other secondary mods and primary mods afterwards.]</text>
+	<choice hidden="true" req="LAB_UPGRADE" lvl="1" max_group="0" blue="false">
+		<text>Install the modification. [Cost: 35~, 1}]</text>
+		<event>
+			<text>You install the modification.</text>
+			<item_modify>
+				<item type="missiles" min="-1" max="-1"/>
+				<item type="scrap" min="-35" max="-35"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="INSTALL_LAB_LAWBOT_MEDIC_OATH"/>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LAB_UPGRADE" lvl="0" max_group="0" blue="false" hidden="true">
+		<text>You must have the lab upgrade for this modification.</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="pilot" lvl="1" max_group="1" blue="false" hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_LAB_LOAD"/>
+	</choice>
+</event>
+<event name="INSTALL_LAB_LAWBOT_MEDIC_OATH">
+    <hiddenAug>LAB_LAWBOT_MEDIC_OATH</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_LAWBOT</loadEvent>
+</event>
+<event name="STORAGE_CHECK_LAB_LAWBOT_ENGINEER_DRONES">
+	<text>You are about to install the Field Training modification.
+	[Effects: Your Lawbots lose their repair bonus but heal your crew drones at 6hp/s and buff their combat damage and repair speed by 15%]
+	
+	[Warning: This will affect Lawbot Crew only. You will be able to install other secondary mods and primary mods afterwards.]</text>
+	<choice hidden="true" req="LAB_UPGRADE" lvl="1" max_group="0" blue="false">
+		<text>Install the modification. [Cost: 25~, 3|]</text>
+		<event>
+			<text>You install the modification.</text>
+			<item_modify>
+				<item type="scrap" min="-25" max="-25"/>
+				<item type="drones" min="-3" max="-3"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="INSTALL_LAB_LAWBOT_ENGINEER_DRONES"/>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LAB_UPGRADE" lvl="0" max_group="0" blue="false" hidden="true">
+		<text>You must have the lab upgrade for this modification.</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="pilot" lvl="1" max_group="1" blue="false" hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_LAB_LOAD"/>
+	</choice>
+</event>
+<event name="INSTALL_LAB_LAWBOT_ENGINEER_DRONES">
+	<hiddenAug>LAB_LAWBOT_ENGINEER_DRONES</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_LAWBOT</loadEvent>
+</event>
+
+<!-- 
+**********************************************************************************************************************
+                                    Cashbot
+**********************************************************************************************************************
+-->
+
+<event name="STORAGE_CHECK_LAB_CASHBOT">
+	<text>You are viewing the lab menu for: [CASHBOTS]. Please note this is a direct rip from the human lab with some minor changes. Will be overhauled in the end.</text>
+	<choice req="LAB_CASHBOT_STRONG" lvl="1" max_group="0" blue="false" hidden="true">
+		<text>Currently Installed: Head Strong.
+		[+12% buff to movement speed, combat damage, repair speed, and health]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_CASHBOT_IMMUNE" lvl="1" max_group="0" blue="false" hidden="true">
+		<text>Currently Installed: Strong Willed.
+		[Immune to fires and suffocation]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_CASHBOT_RESIST" lvl="1" max_group="0" blue="false" hidden="true">
+		<text>Currently Installed: Single Track Mind.
+		[Cannot be mind controlled]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="pilot" lvl="1" max_group="0" blue="false" hidden="true">
+		<text>Currently Installed: None</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_CASHBOT_INSTALLED" lvl="1" max_group="1" blue="false" hidden="true">
+		<text>Pri: Head Strong. [An upgrade is already installed]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_CASHBOT_INSTALLED" lvl="0" max_group="1" blue="false" hidden="true">
+		<text>Pri: Head Strong. [Cost: 30~]</text>
+		<event load="STORAGE_CHECK_LAB_CASHBOT_STRONG"/>
+	</choice>
+	<choice req="LAB_CASHBOT_INSTALLED" lvl="1" max_group="2" blue="false" hidden="true">
+		<text>Pri: Strong Willed. [An upgrade is already installed]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_CASHBOT_INSTALLED" lvl="0" max_group="2" blue="false" hidden="true">
+		<text>Pri: Strong Willed. [Cost: 30~]</text>
+		<event load="STORAGE_CHECK_LAB_CASHBOT_IMMUNE"/>
+	</choice>
+	<choice req="LAB_CASHBOT_INSTALLED" lvl="1" max_group="3" blue="false" hidden="true">
+		<text>Pri: Single Track Mind. [An upgrade is already installed]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_CASHBOT_INSTALLED" lvl="0" max_group="3" blue="false" hidden="true">
+		<text>Pri: Single Track Mind. [Cost: 6{]</text>
+		<event load="STORAGE_CHECK_LAB_CASHBOT_RESIST"/>
+	</choice>
+	<choice req="LAB_CASHBOT_BASIC_SACRIFICE" lvl="1" max_group="4" blue="false" hidden="true">
+		<text>Sec [Cashbots]: Protect the Working Class. [An upgrade is already installed]
+		[Your Cashbots are prioritized first in crew loss events]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_CASHBOT_BASIC_SACRIFICE" lvl="0" max_group="4" blue="false" hidden="true">
+		<text>Sec [Cashbots]: Protect the Working Class. [Cost: 30~]</text>
+		<event load="STORAGE_CHECK_LAB_CASHBOT_BASIC_SACRIFICE"/>
+	</choice>
+	<choice req="LAB_CASHBOT_MEDIC_OATH" lvl="1" max_group="5" blue="false" hidden="true">
+		<text>Sec [Cashbots]: Hippocratic Oath. [An upgrade is already installed]
+		[Cashbots ignore enemy crew, opting instead to repair or sabotage, and grant 95% fire/suffocation and stun resistance to nearby allied crew]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_CASHBOT_MEDIC_OATH" lvl="0" max_group="5" blue="false" hidden="true">
+		<text>Sec [Cashbots]: Hippocratic Oath. [Cost: 35~, 1}]</text>
+		<event load="STORAGE_CHECK_LAB_CASHBOT_MEDIC_OATH"/>
+	</choice>
+	<choice req="LAB_CASHBOT_ENGINEER_DRONES" lvl="1" max_group="6" blue="false" hidden="true">
+		<text>Sec [Cashbots]: Field Training. [An upgrade is already installed]
+		[Cashbots repair at default speed but heal crew drones at 6hp/s and buff their repair/combat by 15%]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_CASHBOT_ENGINEER_DRONES" lvl="0" max_group="6" blue="false" hidden="true">
+		<text>Sec [Cashbots]: Field Training. [Cost: 25~, 3|]</text>
+		<event load="STORAGE_CHECK_LAB_CASHBOT_ENGINEER_DRONES"/>
+	</choice>
+	<choice req="pilot" lvl="1" max_group="999" blue="false" hidden="true">
+		<text>Go back.</text>
+		<event load="STORAGE_CHECK_LAB_LOAD"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_LAB_CASHBOT_STRONG">
+	<text>You are about to install the Head Strong modification.
+	[Effects: +12% buff to movement speed, combat damage, repair speed, and health]
+	
+	[Warning: After installing this, you will not be able to install any more primary upgrades for Cashbot crew. You will not be able to deactivate this mod either.]</text>
+	<choice hidden="true">
+		<text>Install the modification. [Cost: 30~]</text>
+		<event>
+			<text>You install the modification.</text>
+			<item_modify>
+				<item type="scrap" min="-30" max="-30"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="INSTALL_LAB_CASHBOT_STRONG"/>
+			</choice>
+		</event>
+	</choice>
+	<choice req="pilot" lvl="1" max_group="1" blue="false" hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_LAB_LOAD"/>
+	</choice>
+</event>
+<event name="INSTALL_LAB_CASHBOT_STRONG">
+	<variable name="loc_lab_upgrades" op="add" val="1"/>
+	<hiddenAug>LAB_CASHBOT_STRONG</hiddenAug>
+	<hiddenAug>LAB_CASHBOT_INSTALLED</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_CASHBOT</loadEvent>
+</event>
+<event name="STORAGE_CHECK_LAB_CASHBOT_IMMUNE">
+	<text>You are about to install the Strong Willed modification.
+	[Effects: Cashbots are completely immune to suffocation and fires.]
+	
+	[Warning: After installing this, you will not be able to install any more primary upgrades for Cashbot crew. You will not be able to deactivate this mod either.]</text>
+	<choice hidden="true">
+		<text>Install the modification. [Cost: 30~]</text>
+		<event>
+			<text>You install the modification.</text>
+			<item_modify>
+				<item type="scrap" min="-30" max="-30"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="INSTALL_LAB_CASHBOT_IMMUNE"/>
+			</choice>
+		</event>
+	</choice>
+	<choice req="pilot" lvl="1" max_group="1" blue="false" hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_LAB_LOAD"/>
+	</choice>
+</event>
+<event name="INSTALL_LAB_CASHBOT_IMMUNE">
+	<variable name="loc_lab_upgrades" op="add" val="1"/>
+	<hiddenAug>LAB_CASHBOT_IMMUNE</hiddenAug>
+	<hiddenAug>LAB_CASHBOT_INSTALLED</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_CASHBOT</loadEvent>
+</event>
+<event name="STORAGE_CHECK_LAB_CASHBOT_RESIST">
+    <text>You are about to install the Single Track Mind modification.
+[Effects: Cashbots are completely immune to mind control.]
+    
+[Warning: After installing this, you will not be able to install any more primary upgrades for Cashbot crew. You will not be able to deactivate this mod either.]</text>
+    <choice hidden="true">
+        <text>Install the modification. [Cost: 6{]</text>
+        <event>
+            <text>You install the modification.</text>
+            <item_modify>
+                <item type="fuel" min="-6" max="-6"/>
+            </item_modify>
+            <choice hidden="true">
+                <text>Continue...</text>
+                <event load="INSTALL_LAB_CASHBOT_RESIST"/>
+            </choice>
+        </event>
+    </choice>
+    <choice req="pilot" lvl="1" max_group="1" blue="false" hidden="true">
+        <text>Nevermind.</text>
+        <event load="STORAGE_CHECK_LAB_LOAD"/>
+    </choice>
+</event>
+<event name="INSTALL_LAB_CASHBOT_RESIST">
+	<variable name="loc_lab_upgrades" op="add" val="1"/>
+	<hiddenAug>LAB_CASHBOT_RESIST</hiddenAug>
+	<hiddenAug>LAB_CASHBOT_INSTALLED</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_CASHBOT</loadEvent>
+</event>
+<event name="STORAGE_CHECK_LAB_CASHBOT_BASIC_SACRIFICE">
+	<text>You are about to install the Martyrdom Instincts modification.
+	[Effects: Your Cashbots are prioritized first in crew loss events]
+	
+	[Warning: This will affect Cashbot Crew only. You will be able to install other secondary mods and primary mods afterwards.]</text>
+	<choice hidden="true" req="LAB_UPGRADE" lvl="1" max_group="0" blue="false">
+		<text>Install the modification. [Cost: 30~]</text>
+		<event>
+			<text>You install the modification.</text>
+			<item_modify>
+				<item type="scrap" min="-30" max="-30"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="INSTALL_LAB_CASHBOT_BASIC_SACRIFICE"/>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LAB_UPGRADE" lvl="0" max_group="0" blue="false" hidden="true">
+		<text>You must have the lab upgrade for this modification.</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="pilot" lvl="1" max_group="1" blue="false" hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_LAB_LOAD"/>
+	</choice>
+</event>
+<event name="INSTALL_LAB_CASHBOT_BASIC_SACRIFICE">
+    <hiddenAug>LAB_CASHBOT_BASIC_SACRIFICE</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_CASHBOT</loadEvent>
+</event>
+<event name="STORAGE_CHECK_LAB_CASHBOT_MEDIC_OATH">
+	<text>You are about to install the Hippocratic Oath modification.
+	[Effects: Your Cashbots ignore enemy crew, opting instead to repair or sabotage in their presence, and give a protective aura to allied crew (including themselves) in the same room that grants them 95% resistance to stuns and fire/suffocation hazards]
+	
+	[Warning: This will affect Cashbots only. You will be able to install other secondary mods and primary mods afterwards.]</text>
+	<choice hidden="true" req="LAB_UPGRADE" lvl="1" max_group="0" blue="false">
+		<text>Install the modification. [Cost: 35~, 1}]</text>
+		<event>
+			<text>You install the modification.</text>
+			<item_modify>
+				<item type="missiles" min="-1" max="-1"/>
+				<item type="scrap" min="-35" max="-35"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="INSTALL_LAB_CASHBOT_MEDIC_OATH"/>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LAB_UPGRADE" lvl="0" max_group="0" blue="false" hidden="true">
+		<text>You must have the lab upgrade for this modification.</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="pilot" lvl="1" max_group="1" blue="false" hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_LAB_LOAD"/>
+	</choice>
+</event>
+<event name="INSTALL_LAB_CASHBOT_MEDIC_OATH">
+    <hiddenAug>LAB_CASHBOT_MEDIC_OATH</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_CASHBOT</loadEvent>
+</event>
+<event name="STORAGE_CHECK_LAB_CASHBOT_ENGINEER_DRONES">
+	<text>You are about to install the Field Training modification.
+	[Effects: Your Cashbots lose their repair bonus but heal your crew drones at 6hp/s and buff their combat damage and repair speed by 15%]
+	
+	[Warning: This will affect Cashbot Crew only. You will be able to install other secondary mods and primary mods afterwards.]</text>
+	<choice hidden="true" req="LAB_UPGRADE" lvl="1" max_group="0" blue="false">
+		<text>Install the modification. [Cost: 25~, 3|]</text>
+		<event>
+			<text>You install the modification.</text>
+			<item_modify>
+				<item type="scrap" min="-25" max="-25"/>
+				<item type="drones" min="-3" max="-3"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="INSTALL_LAB_CASHBOT_ENGINEER_DRONES"/>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LAB_UPGRADE" lvl="0" max_group="0" blue="false" hidden="true">
+		<text>You must have the lab upgrade for this modification.</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="pilot" lvl="1" max_group="1" blue="false" hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_LAB_LOAD"/>
+	</choice>
+</event>
+<event name="INSTALL_LAB_CASHBOT_ENGINEER_DRONES">
+	<hiddenAug>LAB_CASHBOT_ENGINEER_DRONES</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_CASHBOT</loadEvent>
+</event>
+
+<!-- 
+**********************************************************************************************************************
+                                    Sellbot
+**********************************************************************************************************************
+-->
+
+<event name="STORAGE_CHECK_LAB_SELLBOT">
+	<text>You are viewing the lab menu for: [SELLBOTS]. Please note this is a direct rip from the human lab with some minor changes. Will be overhauled in the end.</text>
+	<choice req="LAB_SELLBOT_STRONG" lvl="1" max_group="0" blue="false" hidden="true">
+		<text>Currently Installed: Head Strong.
+		[+12% buff to movement speed, combat damage, repair speed, and health]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_SELLBOT_IMMUNE" lvl="1" max_group="0" blue="false" hidden="true">
+		<text>Currently Installed: Strong Willed.
+		[Immune to fires and suffocation]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_SELLBOT_RESIST" lvl="1" max_group="0" blue="false" hidden="true">
+		<text>Currently Installed: Single Track Mind.
+		[Cannot be mind controlled]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="pilot" lvl="1" max_group="0" blue="false" hidden="true">
+		<text>Currently Installed: None</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_SELLBOT_INSTALLED" lvl="1" max_group="1" blue="false" hidden="true">
+		<text>Pri: Head Strong. [An upgrade is already installed]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_SELLBOT_INSTALLED" lvl="0" max_group="1" blue="false" hidden="true">
+		<text>Pri: Head Strong. [Cost: 30~]</text>
+		<event load="STORAGE_CHECK_LAB_SELLBOT_STRONG"/>
+	</choice>
+	<choice req="LAB_SELLBOT_INSTALLED" lvl="1" max_group="2" blue="false" hidden="true">
+		<text>Pri: Strong Willed. [An upgrade is already installed]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_SELLBOT_INSTALLED" lvl="0" max_group="2" blue="false" hidden="true">
+		<text>Pri: Strong Willed. [Cost: 30~]</text>
+		<event load="STORAGE_CHECK_LAB_SELLBOT_IMMUNE"/>
+	</choice>
+	<choice req="LAB_SELLBOT_INSTALLED" lvl="1" max_group="3" blue="false" hidden="true">
+		<text>Pri: Single Track Mind. [An upgrade is already installed]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_SELLBOT_INSTALLED" lvl="0" max_group="3" blue="false" hidden="true">
+		<text>Pri: Single Track Mind. [Cost: 6{]</text>
+		<event load="STORAGE_CHECK_LAB_SELLBOT_RESIST"/>
+	</choice>
+	<choice req="LAB_SELLBOT_BASIC_SACRIFICE" lvl="1" max_group="4" blue="false" hidden="true">
+		<text>Sec [Sellbots]: Protect the Working Class. [An upgrade is already installed]
+		[Your Sellbots are prioritized first in crew loss events]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_SELLBOT_BASIC_SACRIFICE" lvl="0" max_group="4" blue="false" hidden="true">
+		<text>Sec [Sellbots]: Protect the Working Class. [Cost: 30~]</text>
+		<event load="STORAGE_CHECK_LAB_SELLBOT_BASIC_SACRIFICE"/>
+	</choice>
+	<choice req="LAB_SELLBOT_MEDIC_OATH" lvl="1" max_group="5" blue="false" hidden="true">
+		<text>Sec [Sellbots]: Hippocratic Oath. [An upgrade is already installed]
+		[Sellbots ignore enemy crew, opting instead to repair or sabotage, and grant 95% fire/suffocation and stun resistance to nearby allied crew]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_SELLBOT_MEDIC_OATH" lvl="0" max_group="5" blue="false" hidden="true">
+		<text>Sec [Sellbots]: Hippocratic Oath. [Cost: 35~, 1}]</text>
+		<event load="STORAGE_CHECK_LAB_SELLBOT_MEDIC_OATH"/>
+	</choice>
+	<choice req="LAB_SELLBOT_ENGINEER_DRONES" lvl="1" max_group="6" blue="false" hidden="true">
+		<text>Sec [Sellbots]: Field Training. [An upgrade is already installed]
+		[Sellbots repair at default speed but heal crew drones at 6hp/s and buff their repair/combat by 15%]</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="LAB_SELLBOT_ENGINEER_DRONES" lvl="0" max_group="6" blue="false" hidden="true">
+		<text>Sec [Sellbots]: Field Training. [Cost: 25~, 3|]</text>
+		<event load="STORAGE_CHECK_LAB_SELLBOT_ENGINEER_DRONES"/>
+	</choice>
+	<choice req="pilot" lvl="1" max_group="999" blue="false" hidden="true">
+		<text>Go back.</text>
+		<event load="STORAGE_CHECK_LAB_LOAD"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_LAB_SELLBOT_STRONG">
+	<text>You are about to install the Head Strong modification.
+	[Effects: +12% buff to movement speed, combat damage, repair speed, and health]
+	
+	[Warning: After installing this, you will not be able to install any more primary upgrades for Sellbot crew. You will not be able to deactivate this mod either.]</text>
+	<choice hidden="true">
+		<text>Install the modification. [Cost: 30~]</text>
+		<event>
+			<text>You install the modification.</text>
+			<item_modify>
+				<item type="scrap" min="-30" max="-30"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="INSTALL_LAB_SELLBOT_STRONG"/>
+			</choice>
+		</event>
+	</choice>
+	<choice req="pilot" lvl="1" max_group="1" blue="false" hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_LAB_LOAD"/>
+	</choice>
+</event>
+<event name="INSTALL_LAB_SELLBOT_STRONG">
+	<variable name="loc_lab_upgrades" op="add" val="1"/>
+	<hiddenAug>LAB_SELLBOT_STRONG</hiddenAug>
+	<hiddenAug>LAB_SELLBOT_INSTALLED</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_SELLBOT</loadEvent>
+</event>
+<event name="STORAGE_CHECK_LAB_SELLBOT_IMMUNE">
+	<text>You are about to install the Strong Willed modification.
+	[Effects: Sellbots are completely immune to suffocation and fires.]
+	
+	[Warning: After installing this, you will not be able to install any more primary upgrades for Sellbot crew. You will not be able to deactivate this mod either.]</text>
+	<choice hidden="true">
+		<text>Install the modification. [Cost: 30~]</text>
+		<event>
+			<text>You install the modification.</text>
+			<item_modify>
+				<item type="scrap" min="-30" max="-30"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="INSTALL_LAB_SELLBOT_IMMUNE"/>
+			</choice>
+		</event>
+	</choice>
+	<choice req="pilot" lvl="1" max_group="1" blue="false" hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_LAB_LOAD"/>
+	</choice>
+</event>
+<event name="INSTALL_LAB_SELLBOT_IMMUNE">
+	<variable name="loc_lab_upgrades" op="add" val="1"/>
+	<hiddenAug>LAB_SELLBOT_IMMUNE</hiddenAug>
+	<hiddenAug>LAB_SELLBOT_INSTALLED</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_SELLBOT</loadEvent>
+</event>
+<event name="STORAGE_CHECK_LAB_SELLBOT_RESIST">
+    <text>You are about to install the Single Track Mind modification.
+[Effects: Sellbots are completely immune to mind control.]
+    
+[Warning: After installing this, you will not be able to install any more primary upgrades for Sellbot crew. You will not be able to deactivate this mod either.]</text>
+    <choice hidden="true">
+        <text>Install the modification. [Cost: 6{]</text>
+        <event>
+            <text>You install the modification.</text>
+            <item_modify>
+                <item type="fuel" min="-6" max="-6"/>
+            </item_modify>
+            <choice hidden="true">
+                <text>Continue...</text>
+                <event load="INSTALL_LAB_SELLBOT_RESIST"/>
+            </choice>
+        </event>
+    </choice>
+    <choice req="pilot" lvl="1" max_group="1" blue="false" hidden="true">
+        <text>Nevermind.</text>
+        <event load="STORAGE_CHECK_LAB_LOAD"/>
+    </choice>
+</event>
+<event name="INSTALL_LAB_SELLBOT_RESIST">
+	<variable name="loc_lab_upgrades" op="add" val="1"/>
+	<hiddenAug>LAB_SELLBOT_RESIST</hiddenAug>
+	<hiddenAug>LAB_SELLBOT_INSTALLED</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_SELLBOT</loadEvent>
+</event>
+<event name="STORAGE_CHECK_LAB_SELLBOT_BASIC_SACRIFICE">
+	<text>You are about to install the Martyrdom Instincts modification.
+	[Effects: Your Sellbots are prioritized first in crew loss events]
+	
+	[Warning: This will affect Sellbot Crew only. You will be able to install other secondary mods and primary mods afterwards.]</text>
+	<choice hidden="true" req="LAB_UPGRADE" lvl="1" max_group="0" blue="false">
+		<text>Install the modification. [Cost: 30~]</text>
+		<event>
+			<text>You install the modification.</text>
+			<item_modify>
+				<item type="scrap" min="-30" max="-30"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="INSTALL_LAB_SELLBOT_BASIC_SACRIFICE"/>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LAB_UPGRADE" lvl="0" max_group="0" blue="false" hidden="true">
+		<text>You must have the lab upgrade for this modification.</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="pilot" lvl="1" max_group="1" blue="false" hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_LAB_LOAD"/>
+	</choice>
+</event>
+<event name="INSTALL_LAB_SELLBOT_BASIC_SACRIFICE">
+    <hiddenAug>LAB_SELLBOT_BASIC_SACRIFICE</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_SELLBOT</loadEvent>
+</event>
+<event name="STORAGE_CHECK_LAB_SELLBOT_MEDIC_OATH">
+	<text>You are about to install the Hippocratic Oath modification.
+	[Effects: Your Sellbots ignore enemy crew, opting instead to repair or sabotage in their presence, and give a protective aura to allied crew (including themselves) in the same room that grants them 95% resistance to stuns and fire/suffocation hazards]
+	
+	[Warning: This will affect Sellbots only. You will be able to install other secondary mods and primary mods afterwards.]</text>
+	<choice hidden="true" req="LAB_UPGRADE" lvl="1" max_group="0" blue="false">
+		<text>Install the modification. [Cost: 35~, 1}]</text>
+		<event>
+			<text>You install the modification.</text>
+			<item_modify>
+				<item type="missiles" min="-1" max="-1"/>
+				<item type="scrap" min="-35" max="-35"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="INSTALL_LAB_SELLBOT_MEDIC_OATH"/>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LAB_UPGRADE" lvl="0" max_group="0" blue="false" hidden="true">
+		<text>You must have the lab upgrade for this modification.</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="pilot" lvl="1" max_group="1" blue="false" hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_LAB_LOAD"/>
+	</choice>
+</event>
+<event name="INSTALL_LAB_SELLBOT_MEDIC_OATH">
+    <hiddenAug>LAB_SELLBOT_MEDIC_OATH</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_SELLBOT</loadEvent>
+</event>
+<event name="STORAGE_CHECK_LAB_SELLBOT_ENGINEER_DRONES">
+	<text>You are about to install the Field Training modification.
+	[Effects: Your Sellbots lose their repair bonus but heal your crew drones at 6hp/s and buff their combat damage and repair speed by 15%]
+	
+	[Warning: This will affect Sellbot Crew only. You will be able to install other secondary mods and primary mods afterwards.]</text>
+	<choice hidden="true" req="LAB_UPGRADE" lvl="1" max_group="0" blue="false">
+		<text>Install the modification. [Cost: 25~, 3|]</text>
+		<event>
+			<text>You install the modification.</text>
+			<item_modify>
+				<item type="scrap" min="-25" max="-25"/>
+				<item type="drones" min="-3" max="-3"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="INSTALL_LAB_SELLBOT_ENGINEER_DRONES"/>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LAB_UPGRADE" lvl="0" max_group="0" blue="false" hidden="true">
+		<text>You must have the lab upgrade for this modification.</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="pilot" lvl="1" max_group="1" blue="false" hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_LAB_LOAD"/>
+	</choice>
+</event>
+<event name="INSTALL_LAB_SELLBOT_ENGINEER_DRONES">
+	<hiddenAug>LAB_SELLBOT_ENGINEER_DRONES</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_SELLBOT</loadEvent>
+</event>
+
 </FTL>

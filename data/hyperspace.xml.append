@@ -4956,6 +4956,7 @@
 			<item>
                 <blueprint>LIST_CREW_LAWBOT</blueprint>
             </item>
+			<chance>100</chance>
         </category>
 		<category type="CREW">
 			<customTitle>Cashbots For Hire</customTitle>
@@ -4968,6 +4969,7 @@
 			<item>
                 <blueprint>LIST_CREW_CASHBOT</blueprint>
             </item>
+			<chance>100</chance>
         </category>
 		<category type="CREW">
 			<customTitle>Sellbots For Hire</customTitle>
@@ -4980,6 +4982,7 @@
 			<item>
                 <blueprint>LIST_CREW_SELLBOT</blueprint>
             </item>
+			<chance>100</chance>
         </category>
 		<category type="SYSTEMS">
             <customTitle>ESSENTIAL SYSTEMS</customTitle>
@@ -4997,7 +5000,7 @@
             <item>
                 <blueprint>SHOP_ITEM_SYSTEMS_ESSENTIAL</blueprint>
             </item>
-			<chance>100</chance>
+			<chance>65</chance>
         </category>
 		<category type="SYSTEMS">
 			<customTitle>AUXILIARY SYSTEMS</customTitle>
@@ -5015,6 +5018,7 @@
     </customStore>
 </store>
 
+
 <!--
 	/////////////////SHIP LISTS///////////////////	
 -->
@@ -5028,6 +5032,16 @@
 	</mod:findLike>
 </mod:findLike>
 
+<!--
+	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+															SHIP STUFF
+	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+-->
+	
 <!-- 
 [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
 											SHIP ORDER
@@ -5399,6 +5413,7 @@
 			<increment>5</increment>
 			<overrideCost coloumn="1">30</overrideCost>
 		</customReactor>
+		<exclusivityOverride/>
 	</mod-append:customShip>
 	
 	<mod-append:ship name="PLAYER_SHIP_COG_RANDOM" b="true" c="true"/>	
@@ -5601,9 +5616,842 @@
 	
 	</events>
 
-	<!--
-	/////////////////CUSTOM AUGUMENTS///////////////////	
-	-->	
+<!--
+	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+															Augments
+	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	-->
+	
+	
+<!--
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	LAB (currently a direct rip of humans, to be overhauled later)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->
+<!--Bossbot-->
+	<aug name="LAB_BOSSBOT_STRONG">
+    	<statBoosts>
+			<statBoost name="maxHealth">
+				<boostType>MULT</boostType>
+				<amount>1.12</amount>
+				<shipTarget>ALL</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<priority>0</priority>
+				<whiteList load="LIST_CREW_BOSSBOT"/>
+			</statBoost>
+			<statBoost name="damageMultiplier">
+				<boostType>MULT</boostType>
+				<amount>1.12</amount>
+				<shipTarget>ALL</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<priority>0</priority>
+				<whiteList load="LIST_CREW_BOSSBOT"/>
+			</statBoost>
+			<statBoost name="repairSpeed">
+				<boostType>MULT</boostType>
+				<amount>1.12</amount>
+				<shipTarget>ALL</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<priority>0</priority>
+				<whiteList load="LIST_CREW_BOSSBOT"/>
+			</statBoost>
+			<statBoost name="moveSpeedMultiplier">
+				<boostType>MULT</boostType>
+				<amount>1.12</amount>
+				<shipTarget>ALL</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<priority>0</priority>
+				<whiteList load="LIST_CREW_BOSSBOT"/>
+			</statBoost>
+		</statBoosts>
+    </aug>
+	<aug name="LAB_BOSSBOT_IMMUNE">
+    	<statBoosts>
+			<statBoost name="statBoost">
+				<statBoost name="repairSpeed">
+                    <boostType>MULT</boostType>
+                    <amount>1.15</amount>
+                    <shipTarget>CURRENT_ROOM</shipTarget>
+                    <crewTarget>ALLIES</crewTarget>
+                    <affectsSelf>false</affectsSelf>
+                    <priority>0</priority>
+					<whiteList load="LIST_CREW_BOSSBOT"/>
+                </statBoost>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+				<whiteList load="LIST_CREW_BOSSBOT"/>
+			</statBoost>
+			<statBoost name="statBoost">
+				<statBoost name="damageMultiplier">
+                    <boostType>MULT</boostType>
+                    <amount>1.15</amount>
+                    <shipTarget>CURRENT_ROOM</shipTarget>
+                    <crewTarget>ALLIES</crewTarget>
+                    <affectsSelf>false</affectsSelf>
+                    <priority>0</priority>
+					<whiteList load="LIST_CREW_BOSSBOT"/>
+                </statBoost>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+				<whiteList load="LIST_CREW_BOSSBOT"/>
+			</statBoost>
+		</statBoosts>
+    </aug>
+	<aug name="LAB_BOSSBOT_RESIST">
+    	<statBoosts>
+			<statBoost name="defaultSkillLevel">
+				<boostType>SET</boostType>
+				<amount>2</amount>
+				<shipTarget>ALL</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<priority>0</priority>
+				<whiteList load="LIST_CREW_BOSSBOT"/>
+			</statBoost>
+		</statBoosts>
+    </aug>
+	<aug name="LAB_BOSSBOT_BASIC_SACRIFICE">
+    	<statBoosts>
+			<statBoost name="essential">
+				<boostType>SET</boostType>
+				<amount>-1.0</amount>
+				<shipTarget>ALL</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<priority>999</priority>
+				<whiteList>
+					<human/>
+				</whiteList>
+			</statBoost>
+		</statBoosts>
+    </aug>
+	<aug name="LAB_BOSSBOT_MEDIC_OATH">
+    	<statBoosts>
+			<statBoost name="statBoost">
+				<statBoost name="fireDamageMultiplier">
+                    <boostType>MULT</boostType>
+                    <amount>0.05</amount>
+                    <shipTarget>CURRENT_ROOM</shipTarget>
+                    <crewTarget>ALLIES</crewTarget>
+                    <affectsSelf>true</affectsSelf>
+                    <priority>0</priority>
+					<boostAnim>medic_buff</boostAnim>
+                </statBoost>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+				<whiteList load="LIST_CREW_BOSSBOT"/>
+			</statBoost>
+			<statBoost name="statBoost">
+				<statBoost name="suffocationModifier">
+                    <boostType>MULT</boostType>
+                    <amount>0.05</amount>
+                    <shipTarget>CURRENT_ROOM</shipTarget>
+                    <crewTarget>ALLIES</crewTarget>
+                    <affectsSelf>true</affectsSelf>
+                    <priority>0</priority>
+                </statBoost>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+				<whiteList load="LIST_CREW_BOSSBOT"/>
+			</statBoost>
+			<statBoost name="statBoost">
+				<statBoost name="stunMultiplier">
+                    <boostType>MULT</boostType>
+                    <amount>0.05</amount>
+                    <shipTarget>CURRENT_ROOM</shipTarget>
+                    <crewTarget>ALLIES</crewTarget>
+                    <affectsSelf>true</affectsSelf>
+                    <priority>0</priority>
+                </statBoost>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+				<whiteList load="LIST_CREW_BOSSBOT"/>
+			</statBoost>
+			<statBoost name="canFight">
+				<boostType>SET</boostType>
+				<value>false</value>
+				<shipTarget>ALL</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<priority>0</priority>
+				<whiteList load="LIST_CREW_BOSSBOT"/>
+			</statBoost>
+		</statBoosts>
+    </aug>
+	<aug name="LAB_BOSSBOT_ENGINEER_DRONES">
+    	<statBoosts>
+			<statBoost name="statBoost">
+				<statBoost name="damageMultiplier">
+                    <boostType>MULT</boostType>
+                    <amount>1.15</amount>
+                    <shipTarget>CURRENT_ROOM</shipTarget>
+                    <crewTarget>ALLIES</crewTarget>
+					<droneTarget>DRONES</droneTarget>
+                    <affectsSelf>false</affectsSelf>
+                    <priority>0</priority>
+					<boostAnim>engineer_buff</boostAnim>
+                </statBoost>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+				<whiteList load="LIST_CREW_BOSSBOT"/>
+			</statBoost>
+			<statBoost name="statBoost">
+				<statBoost name="repairSpeed">
+                    <boostType>MULT</boostType>
+                    <amount>1.15</amount>
+                    <shipTarget>CURRENT_ROOM</shipTarget>
+                    <crewTarget>ALLIES</crewTarget>
+					<droneTarget>DRONES</droneTarget>
+                    <affectsSelf>false</affectsSelf>
+                    <priority>0</priority>
+                </statBoost>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+				<whiteList load="LIST_CREW_BOSSBOT"/>
+			</statBoost>
+			<statBoost name="statBoost">
+				<statBoost name="healAmount">
+                    <boostType>FLAT</boostType>
+                    <amount>6</amount>
+                    <shipTarget>CURRENT_ROOM</shipTarget>
+                    <crewTarget>ALLIES</crewTarget>
+					<droneTarget>DRONES</droneTarget>
+                    <affectsSelf>false</affectsSelf>
+                    <priority>0</priority>
+                </statBoost>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+				<whiteList load="LIST_CREW_BOSSBOT"/>
+			</statBoost>
+			<statBoost name="repairSpeed">
+				<boostType>SET</boostType>
+				<amount>1.0</amount>
+				<shipTarget>ALL</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<priority>999</priority>
+				<whiteList load="LIST_CREW_BOSSBOT"/>
+			</statBoost>
+		</statBoosts>
+    </aug>
+	
+<!--Lawbots-->
+	
+	<aug name="LAB_LAWBOT_STRONG">
+    	<statBoosts>
+			<statBoost name="maxHealth">
+				<boostType>MULT</boostType>
+				<amount>1.12</amount>
+				<shipTarget>ALL</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<priority>0</priority>
+				<whiteList load="LIST_CREW_LAWBOT"/>
+			</statBoost>
+			<statBoost name="damageMultiplier">
+				<boostType>MULT</boostType>
+				<amount>1.12</amount>
+				<shipTarget>ALL</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<priority>0</priority>
+				<whiteList load="LIST_CREW_LAWBOT"/>
+			</statBoost>
+			<statBoost name="repairSpeed">
+				<boostType>MULT</boostType>
+				<amount>1.12</amount>
+				<shipTarget>ALL</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<priority>0</priority>
+				<whiteList load="LIST_CREW_LAWBOT"/>
+			</statBoost>
+			<statBoost name="moveSpeedMultiplier">
+				<boostType>MULT</boostType>
+				<amount>1.12</amount>
+				<shipTarget>ALL</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<priority>0</priority>
+				<whiteList load="LIST_CREW_LAWBOT"/>
+			</statBoost>
+		</statBoosts>
+    </aug>
+	<aug name="LAB_LAWBOT_IMMUNE">
+    	<statBoosts>
+			<statBoost name="statBoost">
+				<statBoost name="repairSpeed">
+                    <boostType>MULT</boostType>
+                    <amount>1.15</amount>
+                    <shipTarget>CURRENT_ROOM</shipTarget>
+                    <crewTarget>ALLIES</crewTarget>
+                    <affectsSelf>false</affectsSelf>
+                    <priority>0</priority>
+					<whiteList load="LIST_CREW_LAWBOT"/>
+                </statBoost>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+				<whiteList load="LIST_CREW_LAWBOT"/>
+			</statBoost>
+			<statBoost name="statBoost">
+				<statBoost name="damageMultiplier">
+                    <boostType>MULT</boostType>
+                    <amount>1.15</amount>
+                    <shipTarget>CURRENT_ROOM</shipTarget>
+                    <crewTarget>ALLIES</crewTarget>
+                    <affectsSelf>false</affectsSelf>
+                    <priority>0</priority>
+					<whiteList load="LIST_CREW_LAWBOT"/>
+                </statBoost>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+				<whiteList load="LIST_CREW_LAWBOT"/>
+			</statBoost>
+		</statBoosts>
+    </aug>
+	<aug name="LAB_LAWBOT_RESIST">
+    	<statBoosts>
+			<statBoost name="defaultSkillLevel">
+				<boostType>SET</boostType>
+				<amount>2</amount>
+				<shipTarget>ALL</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<priority>0</priority>
+				<whiteList load="LIST_CREW_LAWBOT"/>
+			</statBoost>
+		</statBoosts>
+    </aug>
+	<aug name="LAB_LAWBOT_BASIC_SACRIFICE">
+    	<statBoosts>
+			<statBoost name="essential">
+				<boostType>SET</boostType>
+				<amount>-1.0</amount>
+				<shipTarget>ALL</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<priority>999</priority>
+				<whiteList>
+					<human/>
+				</whiteList>
+			</statBoost>
+		</statBoosts>
+    </aug>
+	<aug name="LAB_LAWBOT_MEDIC_OATH">
+    	<statBoosts>
+			<statBoost name="statBoost">
+				<statBoost name="fireDamageMultiplier">
+                    <boostType>MULT</boostType>
+                    <amount>0.05</amount>
+                    <shipTarget>CURRENT_ROOM</shipTarget>
+                    <crewTarget>ALLIES</crewTarget>
+                    <affectsSelf>true</affectsSelf>
+                    <priority>0</priority>
+					<boostAnim>medic_buff</boostAnim>
+                </statBoost>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+				<whiteList load="LIST_CREW_LAWBOT"/>
+			</statBoost>
+			<statBoost name="statBoost">
+				<statBoost name="suffocationModifier">
+                    <boostType>MULT</boostType>
+                    <amount>0.05</amount>
+                    <shipTarget>CURRENT_ROOM</shipTarget>
+                    <crewTarget>ALLIES</crewTarget>
+                    <affectsSelf>true</affectsSelf>
+                    <priority>0</priority>
+                </statBoost>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+				<whiteList load="LIST_CREW_LAWBOT"/>
+			</statBoost>
+			<statBoost name="statBoost">
+				<statBoost name="stunMultiplier">
+                    <boostType>MULT</boostType>
+                    <amount>0.05</amount>
+                    <shipTarget>CURRENT_ROOM</shipTarget>
+                    <crewTarget>ALLIES</crewTarget>
+                    <affectsSelf>true</affectsSelf>
+                    <priority>0</priority>
+                </statBoost>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+				<whiteList load="LIST_CREW_LAWBOT"/>
+			</statBoost>
+			<statBoost name="canFight">
+				<boostType>SET</boostType>
+				<value>false</value>
+				<shipTarget>ALL</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<priority>0</priority>
+				<whiteList load="LIST_CREW_LAWBOT"/>
+			</statBoost>
+		</statBoosts>
+    </aug>
+	<aug name="LAB_LAWBOT_ENGINEER_DRONES">
+    	<statBoosts>
+			<statBoost name="statBoost">
+				<statBoost name="damageMultiplier">
+                    <boostType>MULT</boostType>
+                    <amount>1.15</amount>
+                    <shipTarget>CURRENT_ROOM</shipTarget>
+                    <crewTarget>ALLIES</crewTarget>
+					<droneTarget>DRONES</droneTarget>
+                    <affectsSelf>false</affectsSelf>
+                    <priority>0</priority>
+					<boostAnim>engineer_buff</boostAnim>
+                </statBoost>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+				<whiteList load="LIST_CREW_LAWBOT"/>
+			</statBoost>
+			<statBoost name="statBoost">
+				<statBoost name="repairSpeed">
+                    <boostType>MULT</boostType>
+                    <amount>1.15</amount>
+                    <shipTarget>CURRENT_ROOM</shipTarget>
+                    <crewTarget>ALLIES</crewTarget>
+					<droneTarget>DRONES</droneTarget>
+                    <affectsSelf>false</affectsSelf>
+                    <priority>0</priority>
+                </statBoost>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+				<whiteList load="LIST_CREW_LAWBOT"/>
+			</statBoost>
+			<statBoost name="statBoost">
+				<statBoost name="healAmount">
+                    <boostType>FLAT</boostType>
+                    <amount>6</amount>
+                    <shipTarget>CURRENT_ROOM</shipTarget>
+                    <crewTarget>ALLIES</crewTarget>
+					<droneTarget>DRONES</droneTarget>
+                    <affectsSelf>false</affectsSelf>
+                    <priority>0</priority>
+                </statBoost>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+				<whiteList load="LIST_CREW_LAWBOT"/>
+			</statBoost>
+			<statBoost name="repairSpeed">
+				<boostType>SET</boostType>
+				<amount>1.0</amount>
+				<shipTarget>ALL</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<priority>999</priority>
+				<whiteList load="LIST_CREW_LAWBOT"/>
+			</statBoost>
+		</statBoosts>
+    </aug>
+
+<!--Cashbots-->
+
+	<aug name="LAB_CASHBOT_STRONG">
+    	<statBoosts>
+			<statBoost name="maxHealth">
+				<boostType>MULT</boostType>
+				<amount>1.12</amount>
+				<shipTarget>ALL</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<priority>0</priority>
+				<whiteList load="LIST_CREW_CASHBOT"/>
+			</statBoost>
+			<statBoost name="damageMultiplier">
+				<boostType>MULT</boostType>
+				<amount>1.12</amount>
+				<shipTarget>ALL</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<priority>0</priority>
+				<whiteList load="LIST_CREW_CASHBOT"/>
+			</statBoost>
+			<statBoost name="repairSpeed">
+				<boostType>MULT</boostType>
+				<amount>1.12</amount>
+				<shipTarget>ALL</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<priority>0</priority>
+				<whiteList load="LIST_CREW_CASHBOT"/>
+			</statBoost>
+			<statBoost name="moveSpeedMultiplier">
+				<boostType>MULT</boostType>
+				<amount>1.12</amount>
+				<shipTarget>ALL</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<priority>0</priority>
+				<whiteList load="LIST_CREW_CASHBOT"/>
+			</statBoost>
+		</statBoosts>
+    </aug>
+	<aug name="LAB_CASHBOT_IMMUNE">
+    	<statBoosts>
+			<statBoost name="statBoost">
+				<statBoost name="repairSpeed">
+                    <boostType>MULT</boostType>
+                    <amount>1.15</amount>
+                    <shipTarget>CURRENT_ROOM</shipTarget>
+                    <crewTarget>ALLIES</crewTarget>
+                    <affectsSelf>false</affectsSelf>
+                    <priority>0</priority>
+					<whiteList load="LIST_CREW_CASHBOT"/>
+                </statBoost>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+				<whiteList load="LIST_CREW_CASHBOT"/>
+			</statBoost>
+			<statBoost name="statBoost">
+				<statBoost name="damageMultiplier">
+                    <boostType>MULT</boostType>
+                    <amount>1.15</amount>
+                    <shipTarget>CURRENT_ROOM</shipTarget>
+                    <crewTarget>ALLIES</crewTarget>
+                    <affectsSelf>false</affectsSelf>
+                    <priority>0</priority>
+					<whiteList load="LIST_CREW_CASHBOT"/>
+                </statBoost>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+				<whiteList load="LIST_CREW_CASHBOT"/>
+			</statBoost>
+		</statBoosts>
+    </aug>
+	<aug name="LAB_CASHBOT_RESIST">
+    	<statBoosts>
+			<statBoost name="defaultSkillLevel">
+				<boostType>SET</boostType>
+				<amount>2</amount>
+				<shipTarget>ALL</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<priority>0</priority>
+				<whiteList load="LIST_CREW_CASHBOT"/>
+			</statBoost>
+		</statBoosts>
+    </aug>
+	<aug name="LAB_CASHBOT_BASIC_SACRIFICE">
+    	<statBoosts>
+			<statBoost name="essential">
+				<boostType>SET</boostType>
+				<amount>-1.0</amount>
+				<shipTarget>ALL</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<priority>999</priority>
+				<whiteList>
+					<human/>
+				</whiteList>
+			</statBoost>
+		</statBoosts>
+    </aug>
+	<aug name="LAB_CASHBOT_MEDIC_OATH">
+    	<statBoosts>
+			<statBoost name="statBoost">
+				<statBoost name="fireDamageMultiplier">
+                    <boostType>MULT</boostType>
+                    <amount>0.05</amount>
+                    <shipTarget>CURRENT_ROOM</shipTarget>
+                    <crewTarget>ALLIES</crewTarget>
+                    <affectsSelf>true</affectsSelf>
+                    <priority>0</priority>
+					<boostAnim>medic_buff</boostAnim>
+                </statBoost>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+				<whiteList load="LIST_CREW_CASHBOT"/>
+			</statBoost>
+			<statBoost name="statBoost">
+				<statBoost name="suffocationModifier">
+                    <boostType>MULT</boostType>
+                    <amount>0.05</amount>
+                    <shipTarget>CURRENT_ROOM</shipTarget>
+                    <crewTarget>ALLIES</crewTarget>
+                    <affectsSelf>true</affectsSelf>
+                    <priority>0</priority>
+                </statBoost>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+				<whiteList load="LIST_CREW_CASHBOT"/>
+			</statBoost>
+			<statBoost name="statBoost">
+				<statBoost name="stunMultiplier">
+                    <boostType>MULT</boostType>
+                    <amount>0.05</amount>
+                    <shipTarget>CURRENT_ROOM</shipTarget>
+                    <crewTarget>ALLIES</crewTarget>
+                    <affectsSelf>true</affectsSelf>
+                    <priority>0</priority>
+                </statBoost>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+				<whiteList load="LIST_CREW_CASHBOT"/>
+			</statBoost>
+			<statBoost name="canFight">
+				<boostType>SET</boostType>
+				<value>false</value>
+				<shipTarget>ALL</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<priority>0</priority>
+				<whiteList load="LIST_CREW_CASHBOT"/>
+			</statBoost>
+		</statBoosts>
+    </aug>
+	<aug name="LAB_CASHBOT_ENGINEER_DRONES">
+    	<statBoosts>
+			<statBoost name="statBoost">
+				<statBoost name="damageMultiplier">
+                    <boostType>MULT</boostType>
+                    <amount>1.15</amount>
+                    <shipTarget>CURRENT_ROOM</shipTarget>
+                    <crewTarget>ALLIES</crewTarget>
+					<droneTarget>DRONES</droneTarget>
+                    <affectsSelf>false</affectsSelf>
+                    <priority>0</priority>
+					<boostAnim>engineer_buff</boostAnim>
+                </statBoost>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+				<whiteList load="LIST_CREW_CASHBOT"/>
+			</statBoost>
+			<statBoost name="statBoost">
+				<statBoost name="repairSpeed">
+                    <boostType>MULT</boostType>
+                    <amount>1.15</amount>
+                    <shipTarget>CURRENT_ROOM</shipTarget>
+                    <crewTarget>ALLIES</crewTarget>
+					<droneTarget>DRONES</droneTarget>
+                    <affectsSelf>false</affectsSelf>
+                    <priority>0</priority>
+                </statBoost>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+				<whiteList load="LIST_CREW_CASHBOT"/>
+			</statBoost>
+			<statBoost name="statBoost">
+				<statBoost name="healAmount">
+                    <boostType>FLAT</boostType>
+                    <amount>6</amount>
+                    <shipTarget>CURRENT_ROOM</shipTarget>
+                    <crewTarget>ALLIES</crewTarget>
+					<droneTarget>DRONES</droneTarget>
+                    <affectsSelf>false</affectsSelf>
+                    <priority>0</priority>
+                </statBoost>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+				<whiteList load="LIST_CREW_CASHBOT"/>
+			</statBoost>
+			<statBoost name="repairSpeed">
+				<boostType>SET</boostType>
+				<amount>1.0</amount>
+				<shipTarget>ALL</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<priority>999</priority>
+				<whiteList load="LIST_CREW_CASHBOT"/>
+			</statBoost>
+		</statBoosts>
+    </aug>
+
+<!--Sellbots-->	
+
+	<aug name="LAB_SELLBOT_STRONG">
+    	<statBoosts>
+			<statBoost name="maxHealth">
+				<boostType>MULT</boostType>
+				<amount>1.12</amount>
+				<shipTarget>ALL</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<priority>0</priority>
+				<whiteList load="LIST_CREW_SELLBOT"/>
+			</statBoost>
+			<statBoost name="damageMultiplier">
+				<boostType>MULT</boostType>
+				<amount>1.12</amount>
+				<shipTarget>ALL</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<priority>0</priority>
+				<whiteList load="LIST_CREW_SELLBOT"/>
+			</statBoost>
+			<statBoost name="repairSpeed">
+				<boostType>MULT</boostType>
+				<amount>1.12</amount>
+				<shipTarget>ALL</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<priority>0</priority>
+				<whiteList load="LIST_CREW_SELLBOT"/>
+			</statBoost>
+			<statBoost name="moveSpeedMultiplier">
+				<boostType>MULT</boostType>
+				<amount>1.12</amount>
+				<shipTarget>ALL</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<priority>0</priority>
+				<whiteList load="LIST_CREW_SELLBOT"/>
+			</statBoost>
+		</statBoosts>
+    </aug>
+	<aug name="LAB_SELLBOT_IMMUNE">
+    	<statBoosts>
+			<statBoost name="statBoost">
+				<statBoost name="repairSpeed">
+                    <boostType>MULT</boostType>
+                    <amount>1.15</amount>
+                    <shipTarget>CURRENT_ROOM</shipTarget>
+                    <crewTarget>ALLIES</crewTarget>
+                    <affectsSelf>false</affectsSelf>
+                    <priority>0</priority>
+					<whiteList load="LIST_CREW_SELLBOT"/>
+                </statBoost>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+				<whiteList load="LIST_CREW_SELLBOT"/>
+			</statBoost>
+			<statBoost name="statBoost">
+				<statBoost name="damageMultiplier">
+                    <boostType>MULT</boostType>
+                    <amount>1.15</amount>
+                    <shipTarget>CURRENT_ROOM</shipTarget>
+                    <crewTarget>ALLIES</crewTarget>
+                    <affectsSelf>false</affectsSelf>
+                    <priority>0</priority>
+					<whiteList load="LIST_CREW_SELLBOT"/>
+                </statBoost>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+				<whiteList load="LIST_CREW_SELLBOT"/>
+			</statBoost>
+		</statBoosts>
+    </aug>
+	<aug name="LAB_SELLBOT_RESIST">
+    	<statBoosts>
+			<statBoost name="defaultSkillLevel">
+				<boostType>SET</boostType>
+				<amount>2</amount>
+				<shipTarget>ALL</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<priority>0</priority>
+				<whiteList load="LIST_CREW_SELLBOT"/>
+			</statBoost>
+		</statBoosts>
+    </aug>
+	<aug name="LAB_SELLBOT_BASIC_SACRIFICE">
+    	<statBoosts>
+			<statBoost name="essential">
+				<boostType>SET</boostType>
+				<amount>-1.0</amount>
+				<shipTarget>ALL</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<priority>999</priority>
+				<whiteList>
+					<human/>
+				</whiteList>
+			</statBoost>
+		</statBoosts>
+    </aug>
+	<aug name="LAB_SELLBOT_MEDIC_OATH">
+    	<statBoosts>
+			<statBoost name="statBoost">
+				<statBoost name="fireDamageMultiplier">
+                    <boostType>MULT</boostType>
+                    <amount>0.05</amount>
+                    <shipTarget>CURRENT_ROOM</shipTarget>
+                    <crewTarget>ALLIES</crewTarget>
+                    <affectsSelf>true</affectsSelf>
+                    <priority>0</priority>
+					<boostAnim>medic_buff</boostAnim>
+                </statBoost>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+				<whiteList load="LIST_CREW_SELLBOT"/>
+			</statBoost>
+			<statBoost name="statBoost">
+				<statBoost name="suffocationModifier">
+                    <boostType>MULT</boostType>
+                    <amount>0.05</amount>
+                    <shipTarget>CURRENT_ROOM</shipTarget>
+                    <crewTarget>ALLIES</crewTarget>
+                    <affectsSelf>true</affectsSelf>
+                    <priority>0</priority>
+                </statBoost>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+				<whiteList load="LIST_CREW_SELLBOT"/>
+			</statBoost>
+			<statBoost name="statBoost">
+				<statBoost name="stunMultiplier">
+                    <boostType>MULT</boostType>
+                    <amount>0.05</amount>
+                    <shipTarget>CURRENT_ROOM</shipTarget>
+                    <crewTarget>ALLIES</crewTarget>
+                    <affectsSelf>true</affectsSelf>
+                    <priority>0</priority>
+                </statBoost>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+				<whiteList load="LIST_CREW_SELLBOT"/>
+			</statBoost>
+			<statBoost name="canFight">
+				<boostType>SET</boostType>
+				<value>false</value>
+				<shipTarget>ALL</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<priority>0</priority>
+				<whiteList load="LIST_CREW_SELLBOT"/>
+			</statBoost>
+		</statBoosts>
+    </aug>
+	<aug name="LAB_SELLBOT_ENGINEER_DRONES">
+    	<statBoosts>
+			<statBoost name="statBoost">
+				<statBoost name="damageMultiplier">
+                    <boostType>MULT</boostType>
+                    <amount>1.15</amount>
+                    <shipTarget>CURRENT_ROOM</shipTarget>
+                    <crewTarget>ALLIES</crewTarget>
+					<droneTarget>DRONES</droneTarget>
+                    <affectsSelf>false</affectsSelf>
+                    <priority>0</priority>
+					<boostAnim>engineer_buff</boostAnim>
+                </statBoost>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+				<whiteList load="LIST_CREW_SELLBOT"/>
+			</statBoost>
+			<statBoost name="statBoost">
+				<statBoost name="repairSpeed">
+                    <boostType>MULT</boostType>
+                    <amount>1.15</amount>
+                    <shipTarget>CURRENT_ROOM</shipTarget>
+                    <crewTarget>ALLIES</crewTarget>
+					<droneTarget>DRONES</droneTarget>
+                    <affectsSelf>false</affectsSelf>
+                    <priority>0</priority>
+                </statBoost>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+				<whiteList load="LIST_CREW_SELLBOT"/>
+			</statBoost>
+			<statBoost name="statBoost">
+				<statBoost name="healAmount">
+                    <boostType>FLAT</boostType>
+                    <amount>6</amount>
+                    <shipTarget>CURRENT_ROOM</shipTarget>
+                    <crewTarget>ALLIES</crewTarget>
+					<droneTarget>DRONES</droneTarget>
+                    <affectsSelf>false</affectsSelf>
+                    <priority>0</priority>
+                </statBoost>
+				<shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+				<whiteList load="LIST_CREW_SELLBOT"/>
+			</statBoost>
+			<statBoost name="repairSpeed">
+				<boostType>SET</boostType>
+				<amount>1.0</amount>
+				<shipTarget>ALL</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<priority>999</priority>
+				<whiteList load="LIST_CREW_SELLBOT"/>
+			</statBoost>
+		</statBoosts>
+    </aug>
+
+<!--
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	Ship Specific
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->
 <augments>
 	<aug name="LOCKED_LOAN_SHARK_BITE_BUFF">
     	<locked/>
@@ -5629,6 +6477,7 @@
 		</statBoosts>
     </aug>
 </augments>
+
 <scripts>	
 	<!-- Scripts for functionality used throughout the mod -->
 	<script>data/cm_scripts/events.lua</script>

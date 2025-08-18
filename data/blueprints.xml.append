@@ -5840,7 +5840,7 @@ weapon C
 		<artillery power="1" room="10" start="true" weapon="TRC_BEAM_ION" img="room_artillery" />
 		<battery power="1" room="13" start="true" img="room_battery_8" />
 		<cloaking power="1" room="22" start="true" img="room_cloaking_8" />
-		<clonebay power="1" room="6" start="true">
+		<clonebay power="1" room="5" start="true">
 			<slot>
 				<number>1</number>
 			</slot>
@@ -5850,7 +5850,9 @@ weapon C
 				<direction>up</direction>
 				<number>1</number>
 			</slot>
-		</doors><engines power="1" room="18" start="true" img="room_engines_2">
+		</doors>
+		<drones power="1" room="6" start="true" img="room_drones_10" />
+		<engines power="1" room="18" start="true" img="room_engines_2">
 			<slot>
 				<direction>down</direction>
 				<number>3</number>
@@ -5875,7 +5877,7 @@ weapon C
 				<number>1</number>
 			</slot>
 		</sensors>
-		<shields power="1" room="16" start="true" img="room_shields">
+		<shields power="2" room="16" start="true" img="room_shields">
 			<slot>
 				<direction>left</direction>
 				<number>0</number>
@@ -5904,7 +5906,7 @@ weapon C
 		<drone name="TRC_DRONE_POP" />
 	</droneList>
 	<health amount="50" />
-	<maxPower amount="50" />
+	<maxPower amount="11" />
 	<crewCount amount="1" class="jack_brie" />
 	<crewCount amount="1" class="comrade" />
 	<crewCount amount="1" class="honcho" />
@@ -6339,5 +6341,247 @@ END OF FLAVOR MARKERS
 -->
 
 
+<!-- 
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+LAB AUGMENTS
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+-->
 
+<!-- 
+**********************************************************************************************************************
+                                    Bossbot
+**********************************************************************************************************************
+-->
+
+<augBlueprint name="LAB_BOSSBOT_INSTALLED">
+	<title>Bossbot</title>
+	<desc>Bossbot upgrade installed.</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+<augBlueprint name="LAB_BOSSBOT_STRONG">
+	<title>Head Strong</title>
+	<desc>Bossbots gain a 12% buff in movement speed, combat damage, repair speed, and health.</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+<augBlueprint name="LAB_BOSSBOT_IMMUNE">
+	<title>Strong Willed</title>
+	<desc>Bossbots gain 15% repair speed and combat damage for each human in the room minus themselves.</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+<augBlueprint name="LAB_BOSSBOT_RESIST">
+	<title>Single Track Mind</title>
+	<desc>Bossbots crew start at level 2 skills.</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+
+<augBlueprint name="LAB_BOSSBOT_BASIC_SACRIFICE">
+	<title>Martyrdom Instincts</title>
+	<desc>Your Bossbots are prioritized first in crew loss events.</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+<augBlueprint name="LAB_BOSSBOT_MEDIC_OATH">
+	<title>Hippocratic Oath</title>
+	<desc>Your Bossbots lose the ability to fight but gives a protective aura to allied crew (excluding themselves) in the same room that grants them 95% resistance to hazards.</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+<augBlueprint name="LAB_BOSSBOT_ENGINEER_DRONES">
+	<title>Field Training</title>
+	<desc>Your Bossbots lose their repair bonus but heal your crew drones at 5hp/s and buff their combat damage and repair speed by 15%.</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+
+<!-- 
+**********************************************************************************************************************
+                                    Lawbot
+**********************************************************************************************************************
+-->
+
+<augBlueprint name="LAB_BOSSBOT_INSTALLED">
+	<title>Human</title>
+	<desc>Human upgrade installed.</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+<augBlueprint name="LAB_BOSSBOT_STRONG">
+	<title>Head Strong</title>
+	<desc>Bossbots gain a 12% buff in movement speed, combat damage, repair speed, and health.</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+<augBlueprint name="LAB_BOSSBOT_IMMUNE">
+	<title>Strong Willed</title>
+	<desc>Bossbots gain 15% repair speed and combat damage for each human in the room minus themselves.</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+<augBlueprint name="LAB_BOSSBOT_RESIST">
+	<title>Single Track Mind</title>
+	<desc>Bossbots crew start at level 2 skills.</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+
+<augBlueprint name="LAB_BOSSBOT_BASIC_SACRIFICE">
+	<title>Martyrdom Instincts</title>
+	<desc>Your Bossbots are prioritized first in crew loss events.</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+<augBlueprint name="LAB_BOSSBOT_MEDIC_OATH">
+	<title>Hippocratic Oath</title>
+	<desc>Your Bossbots lose the ability to fight but gives a protective aura to allied crew (excluding themselves) in the same room that grants them 95% resistance to hazards.</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+<augBlueprint name="LAB_BOSSBOT_ENGINEER_DRONES">
+	<title>Field Training</title>
+	<desc>Your Bossbots lose their repair bonus but heal your crew drones at 5hp/s and buff their combat damage and repair speed by 15%.</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+
+<!-- 
+**********************************************************************************************************************
+                                    Cashbot
+**********************************************************************************************************************
+-->
+
+<augBlueprint name="LAB_CASHBOT_INSTALLED">
+	<title>Human</title>
+	<desc>Human upgrade installed.</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+<augBlueprint name="LAB_CASHBOT_STRONG">
+	<title>Head Strong</title>
+	<desc>Cashbots gain a 12% buff in movement speed, combat damage, repair speed, and health.</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+<augBlueprint name="LAB_CASHBOT_IMMUNE">
+	<title>Strong Willed</title>
+	<desc>Cashbots gain 15% repair speed and combat damage for each human in the room minus themselves.</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+<augBlueprint name="LAB_CASHBOT_RESIST">
+	<title>Single Track Mind</title>
+	<desc>Cashbots crew start at level 2 skills.</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+
+<augBlueprint name="LAB_CASHBOT_BASIC_SACRIFICE">
+	<title>Martyrdom Instincts</title>
+	<desc>Your Cashbots are prioritized first in crew loss events.</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+<augBlueprint name="LAB_CASHBOT_MEDIC_OATH">
+	<title>Hippocratic Oath</title>
+	<desc>Your Cashbots lose the ability to fight but gives a protective aura to allied crew (excluding themselves) in the same room that grants them 95% resistance to hazards.</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+<augBlueprint name="LAB_CASHBOT_ENGINEER_DRONES">
+	<title>Field Training</title>
+	<desc>Your Cashbots lose their repair bonus but heal your crew drones at 5hp/s and buff their combat damage and repair speed by 15%.</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+
+<!-- 
+**********************************************************************************************************************
+                                    Sellbot
+**********************************************************************************************************************
+-->
+
+<augBlueprint name="LAB_SELLBOT_INSTALLED">
+	<title>Human</title>
+	<desc>Human upgrade installed.</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+<augBlueprint name="LAB_SELLBOT_STRONG">
+	<title>Head Strong</title>
+	<desc>Sellbots gain a 12% buff in movement speed, combat damage, repair speed, and health.</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+<augBlueprint name="LAB_SELLBOT_IMMUNE">
+	<title>Strong Willed</title>
+	<desc>Sellbots gain 15% repair speed and combat damage for each human in the room minus themselves.</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+<augBlueprint name="LAB_SELLBOT_RESIST">
+	<title>Single Track Mind</title>
+	<desc>Sellbots crew start at level 2 skills.</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+
+<augBlueprint name="LAB_SELLBOT_BASIC_SACRIFICE">
+	<title>Martyrdom Instincts</title>
+	<desc>Your Sellbots are prioritized first in crew loss events.</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+<augBlueprint name="LAB_SELLBOT_MEDIC_OATH">
+	<title>Hippocratic Oath</title>
+	<desc>Your Sellbots lose the ability to fight but gives a protective aura to allied crew (excluding themselves) in the same room that grants them 95% resistance to hazards.</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+<augBlueprint name="LAB_SELLBOT_ENGINEER_DRONES">
+	<title>Field Training</title>
+	<desc>Your Sellbots lose their repair bonus but heal your crew drones at 5hp/s and buff their combat damage and repair speed by 15%.</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+
+<!-- 
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+END OF LAB AUGMENTS
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+-->
 </FTL>
