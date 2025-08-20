@@ -1202,4 +1202,232 @@
 	<loadEvent>STORAGE_CHECK_LAB_SELLBOT</loadEvent>
 </event>
 
+<!-- 
+**********************************************************************************************************************
+                                    Lab Upgrade List
+**********************************************************************************************************************
+-->
+
+<mod:findName type="event" name="STORAGE_CHECK_INVENTORY_LAB">
+	<!--
+	\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+										Bossbot
+	\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	-->
+	
+	<mod-append:choice hidden="true" req="LAB_BOSSBOT_STRONG" lvl="1" blue="false">
+		<text>Head Strong [Installed]</text>
+		<event load="STORAGE_CHECK_LAB_BOSSBOT"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_BOSSBOT_STRONG" lvl="0" max_lvl="0" blue="false">
+		<text>Head Strong [Not Installed]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_BOSSBOT_IMMUNE" lvl="1" blue="false">
+		<text>Strong Willed [Installed]</text>
+		<event load="STORAGE_CHECK_LAB_BOSSBOT"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_BOSSBOT_IMMUNE" lvl="0" max_lvl="0" blue="false">
+		<text>Strong Willed [Not Installed]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_BOSSBOT_RESIST" lvl="1" blue="false">
+		<text>Single Track Mind [Installed]</text>
+		<event load="STORAGE_CHECK_LAB_BOSSBOT"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_BOSSBOT_RESIST" lvl="0" max_lvl="0" blue="false">
+		<text>Single Track Mind [Not Installed]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_BOSSBOT_BASIC_SACRIFICE" lvl="1" blue="false">
+		<text>Martyrdom Instincts [Installed]</text>
+		<event load="STORAGE_CHECK_LAB_BOSSBOT"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_BOSSBOT_BASIC_SACRIFICE" lvl="0" max_lvl="0" blue="false">
+		<text>Martyrdom Instincts [Not Installed]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_BOSSBOT_MEDIC_OATH" lvl="1" blue="false">
+		<text>Hippocratic Oath [Installed]</text>
+		<event load="STORAGE_CHECK_LAB_BOSSBOT"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_BOSSBOT_MEDIC_OATH" lvl="0" max_lvl="0" blue="false">
+		<text>Hippocratic Oath [Not Installed]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_BOSSBOT_ENGINEER_DRONES" lvl="1" blue="false">
+		<text>Field Training [Installed]</text>
+		<event load="STORAGE_CHECK_LAB_BOSSBOT"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_BOSSBOT_ENGINEER_DRONES" lvl="0" max_lvl="0" blue="false">
+		<text>Field Training [Not Installed]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	
+	<!--
+	\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+										Lawbot
+	\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	-->
+	
+	<mod-append:choice hidden="true" req="LAB_LAWBOT_STRONG" lvl="1" blue="false">
+		<text>Head Strong [Installed]</text>
+		<event load="STORAGE_CHECK_LAB_LAWBOT"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_LAWBOT_STRONG" lvl="0" max_lvl="0" blue="false">
+		<text>Head Strong [Not Installed]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_LAWBOT_IMMUNE" lvl="1" blue="false">
+		<text>Strong Willed [Installed]</text>
+		<event load="STORAGE_CHECK_LAB_LAWBOT"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_LAWBOT_IMMUNE" lvl="0" max_lvl="0" blue="false">
+		<text>Strong Willed [Not Installed]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_LAWBOT_RESIST" lvl="1" blue="false">
+		<text>Single Track Mind [Installed]</text>
+		<event load="STORAGE_CHECK_LAB_LAWBOT"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_LAWBOT_RESIST" lvl="0" max_lvl="0" blue="false">
+		<text>Single Track Mind [Not Installed]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_LAWBOT_BASIC_SACRIFICE" lvl="1" blue="false">
+		<text>Martyrdom Instincts [Installed]</text>
+		<event load="STORAGE_CHECK_LAB_LAWBOT"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_LAWBOT_BASIC_SACRIFICE" lvl="0" max_lvl="0" blue="false">
+		<text>Martyrdom Instincts [Not Installed]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_LAWBOT_MEDIC_OATH" lvl="1" blue="false">
+		<text>Hippocratic Oath [Installed]</text>
+		<event load="STORAGE_CHECK_LAB_LAWBOT"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_LAWBOT_MEDIC_OATH" lvl="0" max_lvl="0" blue="false">
+		<text>Hippocratic Oath [Not Installed]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_LAWBOT_ENGINEER_DRONES" lvl="1" blue="false">
+		<text>Field Training [Installed]</text>
+		<event load="STORAGE_CHECK_LAB_LAWBOT"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_LAWBOT_ENGINEER_DRONES" lvl="0" max_lvl="0" blue="false">
+		<text>Field Training [Not Installed]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	
+	<!--
+	\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+										Cashbot
+	\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	-->
+	
+	<mod-append:choice hidden="true" req="LAB_CASHBOT_STRONG" lvl="1" blue="false">
+		<text>Head Strong [Installed]</text>
+		<event load="STORAGE_CHECK_LAB_CASHBOT"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_CASHBOT_STRONG" lvl="0" max_lvl="0" blue="false">
+		<text>Head Strong [Not Installed]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_CASHBOT_IMMUNE" lvl="1" blue="false">
+		<text>Strong Willed [Installed]</text>
+		<event load="STORAGE_CHECK_LAB_CASHBOT"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_CASHBOT_IMMUNE" lvl="0" max_lvl="0" blue="false">
+		<text>Strong Willed [Not Installed]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_CASHBOT_RESIST" lvl="1" blue="false">
+		<text>Single Track Mind [Installed]</text>
+		<event load="STORAGE_CHECK_LAB_CASHBOT"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_CASHBOT_RESIST" lvl="0" max_lvl="0" blue="false">
+		<text>Single Track Mind [Not Installed]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_CASHBOT_BASIC_SACRIFICE" lvl="1" blue="false">
+		<text>Martyrdom Instincts [Installed]</text>
+		<event load="STORAGE_CHECK_LAB_CASHBOT"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_CASHBOT_BASIC_SACRIFICE" lvl="0" max_lvl="0" blue="false">
+		<text>Martyrdom Instincts [Not Installed]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_CASHBOT_MEDIC_OATH" lvl="1" blue="false">
+		<text>Hippocratic Oath [Installed]</text>
+		<event load="STORAGE_CHECK_LAB_CASHBOT"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_CASHBOT_MEDIC_OATH" lvl="0" max_lvl="0" blue="false">
+		<text>Hippocratic Oath [Not Installed]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_CASHBOT_ENGINEER_DRONES" lvl="1" blue="false">
+		<text>Field Training [Installed]</text>
+		<event load="STORAGE_CHECK_LAB_CASHBOT"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_CASHBOT_ENGINEER_DRONES" lvl="0" max_lvl="0" blue="false">
+		<text>Field Training [Not Installed]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	
+	<!--
+	\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+										Sellbot
+	\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	-->
+	
+	<mod-append:choice hidden="true" req="LAB_SELLBOT_STRONG" lvl="1" blue="false">
+		<text>Head Strong [Installed]</text>
+		<event load="STORAGE_CHECK_LAB_SELLBOT"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_SELLBOT_STRONG" lvl="0" max_lvl="0" blue="false">
+		<text>Head Strong [Not Installed]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_SELLBOT_IMMUNE" lvl="1" blue="false">
+		<text>Strong Willed [Installed]</text>
+		<event load="STORAGE_CHECK_LAB_SELLBOT"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_SELLBOT_IMMUNE" lvl="0" max_lvl="0" blue="false">
+		<text>Strong Willed [Not Installed]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_SELLBOT_RESIST" lvl="1" blue="false">
+		<text>Single Track Mind [Installed]</text>
+		<event load="STORAGE_CHECK_LAB_SELLBOT"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_SELLBOT_RESIST" lvl="0" max_lvl="0" blue="false">
+		<text>Single Track Mind [Not Installed]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_SELLBOT_BASIC_SACRIFICE" lvl="1" blue="false">
+		<text>Martyrdom Instincts [Installed]</text>
+		<event load="STORAGE_CHECK_LAB_SELLBOT"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_SELLBOT_BASIC_SACRIFICE" lvl="0" max_lvl="0" blue="false">
+		<text>Martyrdom Instincts [Not Installed]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_SELLBOT_MEDIC_OATH" lvl="1" blue="false">
+		<text>Hippocratic Oath [Installed]</text>
+		<event load="STORAGE_CHECK_LAB_SELLBOT"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_SELLBOT_MEDIC_OATH" lvl="0" max_lvl="0" blue="false">
+		<text>Hippocratic Oath [Not Installed]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_SELLBOT_ENGINEER_DRONES" lvl="1" blue="false">
+		<text>Field Training [Installed]</text>
+		<event load="STORAGE_CHECK_LAB_SELLBOT"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LAB_SELLBOT_ENGINEER_DRONES" lvl="0" max_lvl="0" blue="false">
+		<text>Field Training [Not Installed]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	
+</mod:findName>
 </FTL>

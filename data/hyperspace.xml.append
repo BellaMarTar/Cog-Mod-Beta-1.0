@@ -5624,7 +5624,7 @@
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	-->
+-->
 	
 	
 <!--
@@ -5633,6 +5633,7 @@
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 -->
 <!--Bossbot-->
+<augments>
 	<aug name="LAB_BOSSBOT_STRONG">
     	<statBoosts>
 			<statBoost name="maxHealth">
@@ -6446,7 +6447,40 @@
 			</statBoost>
 		</statBoosts>
     </aug>
-
+</augments>
+<!--
+	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+									Additional Tag to the Storage Menu
+	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+-->
+<mod:findLike type="events">	
+<mod:findName name="LIST_LAB_ALL">
+	<mod-append:name>LAB_BOSSBOT_STRONG</mod-append:name>
+	<mod-append:name>LAB_BOSSBOT_IMMUNE</mod-append:name>
+	<mod-append:name>LAB_BOSSBOT_RESIST</mod-append:name>
+	<mod-append:name>LAB_BOSSBOT_BASIC_SACRIFICE</mod-append:name>
+	<mod-append:name>LAB_BOSSBOT_MEDIC_OATH</mod-append:name>
+	<mod-append:name>LAB_BOSSBOT_ENGINEER_DRONES</mod-append:name>
+	<mod-append:name>LAB_LAWBOT_STRONG</mod-append:name>
+	<mod-append:name>LAB_LAWBOT_IMMUNE</mod-append:name>
+	<mod-append:name>LAB_LAWBOT_RESIST</mod-append:name>
+	<mod-append:name>LAB_LAWBOT_BASIC_SACRIFICE</mod-append:name>
+	<mod-append:name>LAB_LAWBOT_MEDIC_OATH</mod-append:name>
+	<mod-append:name>LAB_LAWBOT_ENGINEER_DRONES</mod-append:name>
+	<mod-append:name>LAB_CASHBOT_STRONG</mod-append:name>
+	<mod-append:name>LAB_CASHBOT_IMMUNE</mod-append:name>
+	<mod-append:name>LAB_CASHBOT_RESIST</mod-append:name>
+	<mod-append:name>LAB_CASHBOT_BASIC_SACRIFICE</mod-append:name>
+	<mod-append:name>LAB_CASHBOT_MEDIC_OATH</mod-append:name>
+	<mod-append:name>LAB_CASHBOT_ENGINEER_DRONES</mod-append:name>
+	<mod-append:name>LAB_SELLBOT_STRONG</mod-append:name>
+	<mod-append:name>LAB_SELLBOT_IMMUNE</mod-append:name>
+	<mod-append:name>LAB_SELLBOT_RESIST</mod-append:name>
+	<mod-append:name>LAB_SELLBOT_BASIC_SACRIFICE</mod-append:name>
+	<mod-append:name>LAB_SELLBOT_MEDIC_OATH</mod-append:name>
+	<mod-append:name>LAB_SELLBOT_ENGINEER_DRONES</mod-append:name>
+</mod:findName>
+</mod:findLike>
 <!--
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 	Ship Specific
