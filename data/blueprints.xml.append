@@ -3778,7 +3778,7 @@ weapon C
 	<aug name="ANCIENT_COMBAT_EQUALIZER" />
 </shipBlueprint>
 
-<shipBlueprint name="COGMOD_SHIP_MINE_1" layout="mc_mine_base" img="mc_mine_base">
+<shipBlueprint name="COGMOD_SHIP_MINE" layout="mc_mine_base" img="mc_mine_base">
 	<class>?????</class>
 	<name>The Cheater</name>
 	<desc>Fine. I will let you have just a glimpse of my power. Just this little bit. But don't think I'll let you aim such a powerful weapon yourself.</desc>
@@ -3831,7 +3831,305 @@ weapon C
 	<health amount="100" />
 	<maxPower amount="2" />
 </shipBlueprint>
-	
+
+<shipBlueprint name="COGMOD_SHIP_MINE_2" layout="cogmod_mine_ship_2" img="cogmod_mine_ship_2">
+	<class id="text_COGMOD_SHIP_MINE_2_class">My Reference Ship</class>
+	<name id="text_COGMOD_SHIP_MINE_2_name">The Stolen Asset</name>
+	<desc id="text_COGMOD_SHIP_MINE_2_desc">I'm not sure why you came back after your quick death, but very well. Here's a weakened version of my very own ship. I hope you don't mind that I had it arranged to be stolen from some friendly faces and carry some pretty damn unique weapons.</desc>
+	<systemList>
+		<artillery power="1" room="13" start="true" weapon="PDS_SHOT" img="room_artillery_2" />
+		<artillery power="1" room="12" start="true" weapon="PDS_SHOT" img="room_artillery" />
+		<battery power="1" room="2" start="false" img="room_battery_3" />
+		<cloaking power="1" room="17" start="false" img="room_cloaking_6" />
+		<clonebay power="1" room="15" start="true">
+			<slot>
+				<number>3</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="9" start="true" img="room_doors_6">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones power="2" room="6" start="true" img="room_drones_6" />
+		<engines power="2" room="21" start="true" img="room_engines">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="16" start="false" img="room_hacking" />
+		<medbay power="1" room="14" start="true" img="room_medbay">
+			<slot>
+				<number>1</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="19" start="false" img="room_mind_3" />
+		<oxygen power="1" room="20" start="true" img="room_oxygen_20" />
+		<pilot power="1" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="1" start="false" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields power="2" room="7" start="true" img="room_shields">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="18" start="true" />
+		<weapons power="2" room="8" start="true" img="room_weapons">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>2</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="0" count="2">
+		<weapon name="SHOTGUN_1" />
+		<weapon name="SHOTGUN_1" />
+	</weaponList>
+	<droneList drones="5" count="2">
+		<drone name="DEFENSE_1" />
+		<drone name="REPAIR" />
+	</droneList>
+	<health amount="50" />
+	<maxPower amount="8" />
+	<aug name="EX_AUTO_COOLDOWN" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_MONEY_BAGS" layout="money_bag_cruiser_1" img="money_bag_cruiser_1">
+	<class id="text_PLAYER_SHIP_MONEY_BAGS_class">Money Bag Cruiser</class>
+	<name id="text_PLAYER_SHIP_MONEY_BAGS_name">Money Hungry</name>
+	<desc id="text_PLAYER_SHIP_MONEY_BAGS_desc">Money Bags have a curious philosophy of buying all that they can see. Now, this ship doesn't exactly align with that standard, but it's certainly equipped to become one pretty damn fast all things considered.</desc>
+	<systemList>
+		<battery power="1" room="9" start="false" img="room_battery_13" />
+		<cloaking power="1" room="7" start="false" img="room_cloaking_5" />
+		<clonebay power="1" room="17" start="false">
+			<slot>
+				<number>3</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="10" start="true" img="room_doors_9">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="1" room="13" start="false" img="room_drones_3" />
+		<engines power="1" room="6" start="true" img="room_engines_2">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="16" start="false" img="room_hacking_12" />
+		<medbay power="1" room="17" start="true" img="room_medbay_3">
+			<slot>
+				<number>3</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="1" start="false" img="room_mind_1" />
+		<oxygen power="1" room="14" start="true" img="room_oxygen_19" />
+		<pilot power="1" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="8" start="true" img="room_sensors_3">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="5" start="true" img="room_shields">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="2" start="false" />
+		<weapons max="8" power="1" room="15" start="true" img="room_weapons">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="20" count="4">
+		<weapon name="MISSILES_2" />
+		<weapon name="LASER_BURST_1" />
+	</weaponList>
+	<droneList drones="0" count="2" />
+	<health amount="30" />
+	<maxPower amount="4" />
+	<crewCount amount="1" class="moneybags" />
+	<crewCount amount="1" class="moneybags" />
+	<crewCount amount="1" class="moneybags_hologram" />
+	<aug name="SCRAP_COLLECTOR" />
+	<aug name="SCRAP_COLLECTOR" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_MONEY_BAGS_2" layout="money_bags_cruiser_2" img="money_bags_cruiser_2">
+	<class id="text_PLAYER_SHIP_MONEY_BAGS_2_class">Money Bags Cruiser</class>
+	<name id="text_PLAYER_SHIP_MONEY_BAGS_2_name">Indulgence</name>
+	<desc id="text_PLAYER_SHIP_MONEY_BAGS_2_desc">The end result of so much wealth is an abundance, but not without its consequences. You may have a pretty beefy start, but it's going to struggle to improve from there due to the sheer greed of these Money Bags.</desc>
+	<systemList>
+		<battery power="1" room="14" start="false" img="room_battery_9" />
+		<cloaking power="1" room="19" start="true" img="room_cloaking_4" />
+		<clonebay power="1" room="8" start="true">
+			<slot>
+				<number>0</number>
+			</slot>
+		</clonebay>
+		<doors power="2" room="12" start="true" img="room_doors">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="1" room="9" start="false" img="room_drones" />
+		<engines power="3" room="18" start="true" img="room_engines_8">
+			<slot>
+				<direction>left</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="1" start="false" img="room_hacking_11" />
+		<medbay power="1" room="8" start="false" img="room_medbay_4">
+			<slot>
+				<number>0</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="20" start="false" img="room_mind_trc_1" />
+		<oxygen power="1" room="11" start="true" img="room_oxygen" />
+		<pilot power="2" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="2" room="15" start="true" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="3" room="2" start="true" img="room_shields_6">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="3" start="false" />
+		<weapons max="8" power="2" room="21" start="true" img="room_weapons_11">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="0" count="4">
+		<weapon name="MISSILES_1" />
+		<weapon name="LASER_BURST_1" />
+		<weapon name="LASER_BURST_1" />
+	</weaponList>
+	<droneList drones="0" count="2" />
+	<health amount="30" />
+	<maxPower amount="8" />
+	<crewCount amount="1" class="moneybags_elite" />
+	<crewCount amount="1" class="moneybags_elite" />
+	<aug name="SCRAP_HULL" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_MONEY_BAGS_3" layout="money_bags_cruiser_3" img="money_bags_cruiser_3">
+	<class id="text_PLAYER_SHIP_MONEY_BAGS_3_class">Money Bag Cruiser</class>
+	<name id="text_PLAYER_SHIP_MONEY_BAGS_3_name">Write Off</name>
+	<desc id="text_PLAYER_SHIP_MONEY_BAGS_3_desc">Let's make the best out of a bad deal. The waiters here are quite upset and really suck out the energy of the room with their whining. Actually, it's more than energy being sucked out....and get your mind out of the gutter, weirdo.</desc>
+	<systemList>
+		<battery power="1" room="1" start="false" img="room_battery_19" />
+		<cloaking power="1" room="12" start="false" img="room_cloaking_3" />
+		<clonebay power="1" room="15" start="false">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="3" start="true" img="room_doors_7">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="1" room="6" start="false" img="room_drones" />
+		<engines power="1" room="13" start="true" img="room_engines_5">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="11" start="false" img="room_hacking" />
+		<medbay power="1" room="16" start="true" img="room_medbay_13">
+			<slot>
+				<number>-2</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="5" start="false" img="room_mind" />
+		<oxygen power="1" room="4" start="false" img="room_oxygen_9" />
+		<pilot power="1" room="0" start="true" img="room_pilot_7">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="2" start="false" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="7" start="true" img="room_shields_13">
+			<slot>
+				<direction>down</direction>
+				<number>3</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="14" start="true" />
+		<weapons max="8" power="2" room="8" start="true" img="room_weapons_2">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="0" count="3">
+		<weapon name="ION_1" />
+		<weapon name="BEAM_1" />
+	</weaponList>
+	<droneList drones="0" count="2" />
+	<health amount="30" />
+	<maxPower amount="5" />
+	<crewCount amount="1" class="moneybags_waiter" />
+	<crewCount amount="1" class="moneybags_waiter" />
+	<crewCount amount="1" class="moneybags_waiter" />
+</shipBlueprint>
+
 <shipBlueprint name="PLAYER_SHIP_TIGHTWAD" layout="cm_tightwad_a" img="cm_tightwad_a">
 	<class id="text_PLAYER_SHIP_TIGHTWAD_class">Tightwad Explorer (on a budget) TM</class>
 	<name id="text_PLAYER_SHIP_TIGHTWAD_name">Tight Squeeze</name>
@@ -3902,6 +4200,9 @@ weapon C
 	<droneList drones="0" count="2" />
 	<health amount="30" />
 	<maxPower amount="8" />
+	<crewCount amount="1" class="tightwad" />
+	<crewCount amount="1" class="tightwad" />
+	<crewCount amount="1" class="tightwad_elite" />
 	<aug name="ADV_SCANNERS" />
 </shipBlueprint>
 

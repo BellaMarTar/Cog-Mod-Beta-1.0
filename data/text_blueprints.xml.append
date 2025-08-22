@@ -132,6 +132,18 @@ CASHBOTS
 <text name="text_PLAYER_SHIP_LOAN_SHARK_3_name">Cripto Debt</text>
 <text name="text_PLAYER_SHIP_LOAN_SHARK_3_desc">Oh dear, it seems the Loan Sharks are evolving into using more electronic strats, but it's not like they're gonna sit this one out at collecting their dues as a result.</text>
 
+<text name="text_PLAYER_SHIP_MONEY_BAGS_class">Money Bag Cruiser</text>
+<text name="text_PLAYER_SHIP_MONEY_BAGS_name">Money Hungry</text>
+<text name="text_PLAYER_SHIP_MONEY_BAGS_desc">Money Bags have a curious philosophy of buying all that they can see. Now, this ship doesn't exactly align with that standard, but it's certainly equipped to become one pretty damn fast all things considered.</text>
+
+<text name="text_PLAYER_SHIP_MONEY_BAGS_2_class">Money Bags Cruiser</text>
+<text name="text_PLAYER_SHIP_MONEY_BAGS_2_name">Indulgence</text>
+<text name="text_PLAYER_SHIP_MONEY_BAGS_2_desc">The end result of so much wealth is an abundance, but not without its consequences. You may have a pretty beefy start, but it's going to struggle to improve from there due to the sheer greed of these Money Bags.</text>
+
+<text name="text_PLAYER_SHIP_MONEY_BAGS_3_class">Money Bag Cruiser</text>
+<text name="text_PLAYER_SHIP_MONEY_BAGS_3_name">Write Off</text>
+<text name="text_PLAYER_SHIP_MONEY_BAGS_3_desc">Let's make the best out of a bad deal. The waiters here are quite upset and really suck out the energy of the room with their whining. Actually, it's more than energy being sucked out....and get your mind out of the gutter, weirdo.</text>
+
 <text name="text_PLAYER_SHIP_TIGHTWAD_class">Tightwad Cruiser</text>
 <text name="text_PLAYER_SHIP_TIGHTWAD_name">Tight Squeeze</text>
 <text name="text_PLAYER_SHIP_TIGHTWAD_desc">The tightwads will stop at nothing to save their budgets. Even when it comes to space travel as this well below safety regulation ship shows.</text>
@@ -215,8 +227,12 @@ SPECIAL CLASS
 <text name="text_doc_elderich_desc">To say Dr. Spin is a bit upset is an understatement. He is hellbent on putting an end to the Elderitch beings. Somehow, he convinced Jerry and Chase to tag along with him. No one else is allowed to join... except for a certain gnome.</text>
 
 <text name="COGMOD_SHIP_MINE_1">?????</text>
-<text name="text_COGMOD_SHIP_MINE_1_name">The Cheater</text>
-<text name="text_COGMOD_SHIP_MINE_1_desc">Fine. I will let you have just a glimpse of my power. Just this little bit. But don't think I'll let you aim such a powerful weapon yourself.</text>
+<text name="text_COGMOD_SHIP_MINE_name">The Cheater</text>
+<text name="text_COGMOD_SHIP_MINE_desc">Fine. I will let you have just a glimpse of my power. Just this little bit. But don't think I'll let you aim such a powerful weapon yourself.</text>
+
+<text name="text_COGMOD_SHIP_MINE_2_class">My Reference Ship</text>
+<text name="text_COGMOD_SHIP_MINE_2_name">The Stolen Asset</text>
+<text name="text_COGMOD_SHIP_MINE_2_desc">I'm not sure why you came back after your quick death, but very well. Here's a weakened version of my very own ship. I hope you don't mind that I had it arranged to be stolen from some friendly faces.</text>
 
 <text name="text_PLAYER_SHIP_SPECIALITY_CRUISER_class">Specialty Cruiser</text>
 <text name="text_PLAYER_SHIP_SPECIALITY_CRUISER_name">The Chairman</text>

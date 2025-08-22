@@ -184,6 +184,7 @@
 	<aug name="PALADIN_ARMOR_PLAYER" />
 	<aug name="SYLVAN_SHIELD_CONTINUITY" />
 	<aug name="UPG_TECH_BYPASS" />
+	<aug name="UPG_SHIELD_ION" />
 </shipBlueprint>
 
 

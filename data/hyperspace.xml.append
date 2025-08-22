@@ -5078,7 +5078,7 @@
 		<mod-append:ship>PLAYER_SHIP_TIGHTWAD</mod-append:ship>
 		<mod-append:empty/>
 		<mod-append:empty/>
-		<mod-append:empty/>
+		<mod-append:ship>PLAYER_SHIP_MONEY_BAGS</mod-append:ship>
 		<mod-append:ship>PLAYER_SHIP_LOAN_SHARK</mod-append:ship>
 		<mod-append:ship>PLAYER_SHIP_ROBBER_BARON</mod-append:ship>
 		<mod-append:empty/>
@@ -5119,7 +5119,7 @@
 		<mod-append:empty/>
 		<mod-append:empty/>
 		<mod-append:ship>PLAYER_SHIP_SPECIALITY_CRUISER</mod-append:ship>
-		<mod-append:ship>COGMOD_SHIP_MINE_1</mod-append:ship>
+		<mod-append:ship>COGMOD_SHIP_MINE</mod-append:ship>
 		
     </mod:findLike>
 
@@ -5308,6 +5308,23 @@
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<hiddenAug>SHIP_CASHBOT</hiddenAug>
 		<hiddenAug>SHIP_LOAN_SHARK</hiddenAug>
+	</mod-append:customShip>
+	
+	<mod-append:ship name="PLAYER_SHIP_MONEY_BAGS" b="true" c="true" secret="false"/>
+	<mod-append:customShip name="PLAYER_SHIP_MONEY_BAGS">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_CASHBOT</hiddenAug>
+		<hiddenAug>SHIP_MONEY_BAGS</hiddenAug>
+	</mod-append:customShip>
+	<mod-append:customShip name="PLAYER_SHIP_MONEY_BAGS_2">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_CASHBOT</hiddenAug>
+		<hiddenAug>SHIP_MONEY_BAGS</hiddenAug>
+	</mod-append:customShip>
+	<mod-append:customShip name="PLAYER_SHIP_MONEY_BAGS_3">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_CASHBOT</hiddenAug>
+		<hiddenAug>SHIP_MONEY_BAGS</hiddenAug>
 	</mod-append:customShip>
 
 	<mod-append:ship name="PLAYER_SHIP_TIGHTWAD" b="true" c="true" secret="false"/>
@@ -5550,8 +5567,8 @@
 		</crew>
 	</mod-append:customShip>
 	
-	<mod-append:ship name="COGMOD_SHIP_MINE_1" b="false" c="false"/>	
-	<mod-append:customShip name="COGMOD_SHIP_MINE_1">
+	<mod-append:ship name="COGMOD_SHIP_MINE" b="true" c="false"/>	
+	<mod-append:customShip name="COGMOD_SHIP_MINE">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<hiddenAug>SHIP_MINE</hiddenAug>
 		<crewLimit>2</crewLimit>
@@ -5566,7 +5583,26 @@
             <queen room="0" name="The Queen"/> <!--lovers-->
         </crew>
 	</mod-append:customShip>
-
+	<mod-append:customShip name="COGMOD_SHIP_MINE_2">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_MINE</hiddenAug>
+		<systemLimit>11</systemLimit>
+		<crewLimit>14</crewLimit>
+		<autoShipForce>true</autoShipForce>
+		<customReactor maxLevel="40">
+			<baseCost>15</baseCost>
+			<increment>5</increment>
+			<overrideCost coloumn="1">30</overrideCost>
+		</customReactor>
+		<crew>
+            <controller room="0" name="The Controller"/> <!--lovers-->
+            <queen room="0" name="The Queen"/> <!--lovers-->
+			<herobrine room="21" name="Herobrine"/>
+			<dr_spin_eldritch room="12" name="Dr. Spin"/>
+			<ac08_eldritch room="13" name="Chase"/>
+        </crew>
+		<exclusivityOverride/>
+	</mod-append:customShip>
 	
 </mod:findLike>
 	<!--
@@ -5577,6 +5613,13 @@
 	<mod-append:customShip name="CM_FOURTH_WALL_BLUEPRINT">
 		<shipIcons>
 			<shipIcon>icon_majorthreat</shipIcon>
+			<shipIcon>icon_surge</shipIcon>
+			<shipIcon>icon_paladin_armor</shipIcon>
+			<shipIcon>icon_zoltan_shield_boss</shipIcon>
+			<shipIcon>icon_bypass</shipIcon>
+			<shipIcon>icon_cloakfire</shipIcon>
+			<shipIcon>icon_ionarmor</shipIcon>
+			<shipIcon>icon_cursor</shipIcon>
 		</shipIcons>
 		<crew>
             <controller room="0" name="The Controller"/> <!--lovers-->
