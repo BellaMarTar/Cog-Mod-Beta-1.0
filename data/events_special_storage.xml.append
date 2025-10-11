@@ -145,20 +145,22 @@
 -->
 
 <event name="STORAGE_CHECK_LAB_BOSSBOT">
-	<text>You are viewing the lab menu for: [BOSSBOTS]. Please note this is a direct rip from the human lab with some minor changes. Will be overhauled in the end.</text>
-	<choice req="LAB_BOSSBOT_STRONG" lvl="1" max_group="0" blue="false" hidden="true">
-		<text>Currently Installed: Head Strong.
-		[+12% buff to movement speed, combat damage, repair speed, and health]</text>
+	<text>You are viewing the lab menu for: [BOSSBOTS]. This effects ALL types of Bossbots for the Primary section and specifies specific types of Bossbots for the Secondary Branch.
+	
+	This is a first rendition of custom crew effects and is 100% going to change in the future.</text>
+	<choice req="LAB_BOSSBOT_TIGHTENED_DEALINES" lvl="1" max_group="0" blue="false" hidden="true">
+		<text>Currently Installed: Tightened Deadlines.
+		[Non-Bossbot Cogs repair 15% faster with a Bossbot in the room.]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
-	<choice req="LAB_BOSSBOT_IMMUNE" lvl="1" max_group="0" blue="false" hidden="true">
-		<text>Currently Installed: Strong Willed.
-		[Immune to fires and suffocation]</text>
+	<choice req="LAB_BOSSBOT_MILITARIZED_MANAGEMENT" lvl="1" max_group="0" blue="false" hidden="true">
+		<text>Currently Installed: Militarized Management.
+		[Bossbots can no longer fight enemies, but all Non-Bossbot Cogs do triple damage if a Bossbot is in the same room.]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
-	<choice req="LAB_BOSSBOT_RESIST" lvl="1" max_group="0" blue="false" hidden="true">
-		<text>Currently Installed: Single Track Mind.
-		[Cannot be mind controlled]</text>
+	<choice req="LAB_BOSSBOT_UNION_BUSTER" lvl="1" max_group="0" blue="false" hidden="true">
+		<text>Currently Installed: Union Buster.
+		[When fighting Cogs, Bossbots decrease majority of enemy stats by 5% PER enemy in the same room, but are 10% weaker to incoming damage and 20% more damage to enemy Toons.]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="pilot" lvl="1" max_group="0" blue="false" hidden="true">
@@ -166,28 +168,28 @@
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="LAB_BOSSBOT_INSTALLED" lvl="1" max_group="1" blue="false" hidden="true">
-		<text>Pri: Head Strong. [An upgrade is already installed]</text>
+		<text>Pri: Tightened Deadlines. [An upgrade is already installed]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="LAB_BOSSBOT_INSTALLED" lvl="0" max_group="1" blue="false" hidden="true">
-		<text>Pri: Head Strong. [Cost: 30~]</text>
-		<event load="STORAGE_CHECK_LAB_BOSSBOT_STRONG"/>
+		<text>Pri: Tightened Deadlines. [Cost: 30~]</text>
+		<event load="STORAGE_CHECK_LAB_BOSSBOT_TIGHTENED_DEALINES"/>
 	</choice>
 	<choice req="LAB_BOSSBOT_INSTALLED" lvl="1" max_group="2" blue="false" hidden="true">
-		<text>Pri: Strong Willed. [An upgrade is already installed]</text>
+		<text>Pri: Militarized Management. [An upgrade is already installed]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="LAB_BOSSBOT_INSTALLED" lvl="0" max_group="2" blue="false" hidden="true">
-		<text>Pri: Strong Willed. [Cost: 30~]</text>
-		<event load="STORAGE_CHECK_LAB_BOSSBOT_IMMUNE"/>
+		<text>Pri: Militarized Management. [Cost: 30~]</text>
+		<event load="STORAGE_CHECK_LAB_BOSSBOT_MILITARIZED_MANAGEMENT"/>
 	</choice>
 	<choice req="LAB_BOSSBOT_INSTALLED" lvl="1" max_group="3" blue="false" hidden="true">
-		<text>Pri: Single Track Mind. [An upgrade is already installed]</text>
+		<text>Pri: Union Buster. [An upgrade is already installed]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="LAB_BOSSBOT_INSTALLED" lvl="0" max_group="3" blue="false" hidden="true">
-		<text>Pri: Single Track Mind. [Cost: 6{]</text>
-		<event load="STORAGE_CHECK_LAB_BOSSBOT_RESIST"/>
+		<text>Pri: Union Buster. [Cost: 6{]</text>
+		<event load="STORAGE_CHECK_LAB_BOSSBOT_UNION_BUSTER"/>
 	</choice>
 	<choice req="LAB_BOSSBOT_BASIC_SACRIFICE" lvl="1" max_group="4" blue="false" hidden="true">
 		<text>Sec [Bossbots]: Protect the Working Class. [An upgrade is already installed]
@@ -221,9 +223,9 @@
 		<event load="STORAGE_CHECK_LAB_LOAD"/>
 	</choice>
 </event>
-<event name="STORAGE_CHECK_LAB_BOSSBOT_STRONG">
-	<text>You are about to install the Head Strong modification.
-	[Effects: +12% buff to movement speed, combat damage, repair speed, and health]
+<event name="STORAGE_CHECK_LAB_BOSSBOT_TIGHTENED_DEALINES">
+	<text>You are about to install the Tightened Deadlines modification.
+	[Effects: Non-Bossbot Cogs repair 15% faster with a Bossbot in the room.]
 	
 	[Warning: After installing this, you will not be able to install any more primary upgrades for Bossbot crew. You will not be able to deactivate this mod either.]</text>
 	<choice hidden="true">
@@ -235,7 +237,7 @@
 			</item_modify>
 			<choice hidden="true">
 				<text>Continue...</text>
-				<event load="INSTALL_LAB_BOSSBOT_STRONG"/>
+				<event load="INSTALL_LAB_BOSSBOT_TIGHTENED_DEADLINES"/>
 			</choice>
 		</event>
 	</choice>
@@ -244,15 +246,15 @@
 		<event load="STORAGE_CHECK_LAB_LOAD"/>
 	</choice>
 </event>
-<event name="INSTALL_LAB_BOSSBOT_STRONG">
+<event name="INSTALL_LAB_BOSSBOT_TIGHTENED_DEADLINES">
 	<variable name="loc_lab_upgrades" op="add" val="1"/>
-	<hiddenAug>LAB_BOSSBOT_STRONG</hiddenAug>
+	<hiddenAug>LAB_BOSSBOT_TIGHTENED_DEADLINES</hiddenAug>
 	<hiddenAug>LAB_BOSSBOT_INSTALLED</hiddenAug>
 	<loadEvent>STORAGE_CHECK_LAB_BOSSBOT</loadEvent>
 </event>
-<event name="STORAGE_CHECK_LAB_BOSSBOT_IMMUNE">
-	<text>You are about to install the Strong Willed modification.
-	[Effects: Bossbots are completely immune to suffocation and fires.]
+<event name="STORAGE_CHECK_LAB_BOSSBOT_MILITARIZED_MANAGEMENT">
+	<text>You are about to install the Militarized Management modification.
+	[Effects: Bossbots can no longer fight enemies, but all Non-Bossbot Cogs do double damage and on the same ship as a friendly Bossbot and triple damage if a Bossbot is in the same room.]
 	
 	[Warning: After installing this, you will not be able to install any more primary upgrades for Bossbot crew. You will not be able to deactivate this mod either.]</text>
 	<choice hidden="true">
@@ -264,7 +266,7 @@
 			</item_modify>
 			<choice hidden="true">
 				<text>Continue...</text>
-				<event load="INSTALL_LAB_BOSSBOT_IMMUNE"/>
+				<event load="INSTALL_LAB_BOSSBOT_MILITARIZED_MANAGEMENT"/>
 			</choice>
 		</event>
 	</choice>
@@ -273,15 +275,15 @@
 		<event load="STORAGE_CHECK_LAB_LOAD"/>
 	</choice>
 </event>
-<event name="INSTALL_LAB_BOSSBOT_IMMUNE">
+<event name="INSTALL_LAB_BOSSBOT_MILITARIZED_MANAGEMENT">
 	<variable name="loc_lab_upgrades" op="add" val="1"/>
-	<hiddenAug>LAB_BOSSBOT_IMMUNE</hiddenAug>
+	<hiddenAug>LAB_BOSSBOT_MILITARIZED_MANAGEMENT</hiddenAug>
 	<hiddenAug>LAB_BOSSBOT_INSTALLED</hiddenAug>
 	<loadEvent>STORAGE_CHECK_LAB_BOSSBOT</loadEvent>
 </event>
-<event name="STORAGE_CHECK_LAB_BOSSBOT_RESIST">
-    <text>You are about to install the Single Track Mind modification.
-[Effects: Bossbots are completely immune to mind control.]
+<event name="STORAGE_CHECK_LAB_BOSSBOT_UNION_BUSTER">
+    <text>You are about to install the Union Buster modification.
+[Effects: When fighting Cogs, Bossbots nerf enemy abilities by 5% PER enemy in the same room, but are 10% weaker to incoming damage and 20% more damage to enemy Toons..]
     
 [Warning: After installing this, you will not be able to install any more primary upgrades for Bossbot crew. You will not be able to deactivate this mod either.]</text>
     <choice hidden="true">
@@ -293,7 +295,7 @@
             </item_modify>
             <choice hidden="true">
                 <text>Continue...</text>
-                <event load="INSTALL_LAB_BOSSBOT_RESIST"/>
+                <event load="INSTALL_LAB_BOSSBOT_UNION_BUSTER"/>
             </choice>
         </event>
     </choice>
@@ -302,9 +304,9 @@
         <event load="STORAGE_CHECK_LAB_LOAD"/>
     </choice>
 </event>
-<event name="INSTALL_LAB_BOSSBOT_RESIST">
+<event name="INSTALL_LAB_BOSSBOT_UNION_BUSTER">
 	<variable name="loc_lab_upgrades" op="add" val="1"/>
-	<hiddenAug>LAB_BOSSBOT_RESIST</hiddenAug>
+	<hiddenAug>LAB_BOSSBOT_UNION_BUSTER</hiddenAug>
 	<hiddenAug>LAB_BOSSBOT_INSTALLED</hiddenAug>
 	<loadEvent>STORAGE_CHECK_LAB_BOSSBOT</loadEvent>
 </event>

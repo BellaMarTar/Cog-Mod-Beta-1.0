@@ -17,7 +17,7 @@
 -->
 
 <crewBlueprint name="big_cheese">
-	<desc>Tier 8 Cog. The biggest and mightest of them all. The top of the Tier 8s even. Truly the king pin. And they have a head made of cheese.</desc>
+	<desc>Tier 8 Cog. The biggest and mightiest of them all. The top of the Tier 8s even. Truly the king pin. And they have a head made of cheese.</desc>
 	<cost>300</cost>
 	<title>Cheese</title>
 	<short>Cog</short>
@@ -47,7 +47,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="big_cheese_waiter">
-	<desc>Tier 8 Cog. The Waiter Big Cheeses are known for having terrible humor. Not in the "I can't take a joke" sort of way. More a "Cheddar days are ahead" at bad times kinda way.</desc>
+	<desc>Tier 8 Cog. The Waiter Big Cheeses are known for having terrible humor. Not in the "I can't take a joke" sort of way. More a "Cheddar days are ahead" when your ship is on fire kinda way.</desc>
 	<cost>400</cost>
 	<title>Cheese</title>
 	<short>Cog</short>
@@ -140,7 +140,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="corporateraider_hologram">
-	<desc>Tier 7 Cog. A holographic pirate? This won't end well I think...</desc>
+	<desc>Tier 7 Cog. A holographic pirate is a common occurrence. They mostly pirate movies, games, and other virtual stuff, but they can be pretty deadly in battle.</desc>
 	<cost>200</cost>
 	<title>Raider</title>
 	<short>Cog</short>
@@ -155,7 +155,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="comrade">
-	<desc>"Yo Hoo, Fiddle Le De... something something something 103!" He also confuses Communism and Piracy to add on to his minimal knowledge and poor memory, but he is a hearty pirate in the end.</desc>
+	<desc>"Yo Hoo, Fiddle Le De... something something something 103!" He also confuses Communism and Piracy to add on to his minimal knowledge of anything and poor memory, but he is a hearty pirate in the end.</desc>
 	<cost>200</cost>
 	<title>RAID</title>
 	<short>Cog</short>
@@ -272,7 +272,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="downsizer_elite">
-	<desc>Tier 5 Cog. Remember what I said about Downsizers trying to be more positive? Well these kinds don't. They relish in misery of others.</desc>
+	<desc>Tier 5 Cog. Remember what I said about Downsizers trying to be more positive? Well these guys don't. They relish in misery of others.</desc>
 	<cost>200</cost>
 	<title>Downsizer</title>
 	<short>Elite Cog</short>
@@ -499,13 +499,13 @@
 	<power>1.9x Combat Damage, 1.75 Repair speed.</power>
 	<power>2.5x sabotaging speed.</power>
 	<power>Shoots golf balls rapidly but they don't hurt as much.</power>
-	<power>He can self replicate two weak, temporary versions of himself at any time (just not rapidly)</power>
+	<power>He can self replicate two weak, temporary versions of himself at any time twice per jump.</power>
 	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
 <crewBlueprint name="yessum_spawn">
-	<desc>YOU SHOULD NEVER SEE THIS.</desc>
+	<desc>YOU SHOULD NEVER SEE THIS. THIS IS AN UNHOLY DUPLICATION OF YES UNHEARD OF IN THE KNOWN MULTIVERSE!</desc>
 	<cost>9999</cost>
 	<title>YES</title>
 	<short>Yes</short>
@@ -550,7 +550,7 @@
 -->
 
 <crewBlueprint name="bigwig">
-	<desc>Tier 8 Cog. When it come to the law, Big Wigs are the ones to go to for help. They can take on all their lower class cogs at the same time and still have room to spare. Lucky they are kind around their lawbot allies.</desc>
+	<desc>Tier 8 Cog. When it come to the law, Big Wigs are the ones to go to for help. They can take on all their lower class cogs at any time. Lucky they are (typically) kind around their Lawbot allies.</desc>
 	<cost>300</cost>
 	<title>Big Wig</title>
 	<short>Cog</short>
@@ -565,7 +565,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="bigwig_elite">
-	<desc>Tier 8 Cog. Elite Big Wigs might possibly be the most annoying. Only because they tend to just lie around the law and call you guilty anyways.</desc>
+	<desc>Tier 8 Cog. Elite Big Wigs might possibly be the most annoying Cog in the Lawbot series, but only because they tend to just lie in court, present no evidence for their finding and call you guilty anyways.</desc>
 	<cost>300</cost>
 	<title>Big Wig</title>
 	<short>Cog</short>
@@ -595,7 +595,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="bigwig_hologram">
-	<desc>Tier 8 Cog. Talk about transparent views of the law. These guys are no joke. Beware their tendencies to just ruin your online records while in a staredown with you.</desc>
+	<desc>Tier 8 Cog. Talk about transparent views of the law. These guys are no joke. Beware their tendencies to ruin your online records while in a staredown with you.</desc>
 	<cost>300</cost>
 	<title>Big Wig</title>
 	<short>Cog</short>
@@ -632,7 +632,7 @@
 -->
 
 <crewBlueprint name="legaleagle">
-	<desc>Tier 7 Cog. Birds of mechanical feather, flock together. Weirdly, these guys arent too strong fighting close up. But should one make the mistake of long distance fighting... well.. that would go pretty poorly for them.</desc>
+	<desc>Tier 7 Cog. Birds of mechanical feather, flock together. Weirdly, these guys aren't too strong fighting close up. But should one make the mistake of long distance fighting... well.. that would go pretty poorly for them.</desc>
 	<cost>150</cost>
 	<title>Legal Eagle</title>
 	<short>Cog</short>
@@ -816,7 +816,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="backstabber_elite">
-	<desc>Tier 5 Cog. They have a habit of sharpening their head in private.</desc>
+	<desc>Tier 5 Cog. They have a habit of sharpening their head in private not that it does much. After all, the Backstabbers already do their namesake quite well. It's just sending a message to the rest.</desc>
 	<cost>200</cost>
 	<title>Backstabber</title>
 	<short>Elite Cog</short>
@@ -989,7 +989,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="double_talker_hologram">
-	<desc>Tier 3 Cog. You'd think with both heads on the brink of not being real that they would tread carefully and work together as well as the elites but nope. They don't.</desc>
+	<desc>Tier 3 Cog. You'd think with both heads on the brink of not being real that they would tread carefully and work together as well as the elites but nope. They don't instead opting to argue to each other in Binary.</desc>
 	<cost>200</cost>
 	<title>Double Talker</title>
 	<short>Hologram Cog</short>
@@ -1098,7 +1098,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="robberbaron_hologram">
-	<desc>Tier 8 Cog.  The only thing worse than a being that will steal your life work for the hell of it is a being that will steal your life work for the hell of it AND walk through walls.</desc>
+	<desc>Tier 8 Cog. The only thing worse than a being that will steal your life work for the hell of it is a being that will steal your life work for the hell of it AND walk through walls.</desc>
 	<cost>300</cost>
 	<title>Robber</title>
 	<short>Cog</short>
@@ -1113,7 +1113,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="robert">
-	<desc>He has claimed himself to be "The king of robbery." Sorry did I not say that right? The... KING!. Ow my throat.</desc>
+	<desc>He has claimed himself to be "The king of robbery." Sorry did I not say that right? The... KING! Ow my throat.</desc>
 	<cost>400</cost>
 	<title>Thief</title>
 	<short>Cog</short>
@@ -1215,7 +1215,7 @@
 -->
 
 <crewBlueprint name="moneybags">
-	<desc>Tier 6 Cog. The richest cog you may ever see. He has so much money that other beings are stunned and have to gawk at his wealth</desc>
+	<desc>Tier 6 Cog. The richest cog you may ever see. He has so much money that other beings are stunned and have to gawk at his wealth.</desc>
 	<cost>100</cost>
 	<title>Money Bags</title>
 	<short>Cog</short>
@@ -1231,7 +1231,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="moneybags_elite">
-	<desc>Tier 6 Cog. You thought the standard Money Bags was wealthy? You havent seen wealth yet til now.</desc>
+	<desc>Tier 6 Cog. You thought the standard Money Bags was wealthy? You haven't seen wealth yet til now.</desc>
 	<cost>200</cost>
 	<title>Money Bags</title>
 	<short>Elite Cog</short>
@@ -1319,7 +1319,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="numbercruncher_elite">
-	<desc>Tier 5 Cog. Oh boy. Oh geez. That one stung a little?</desc>
+	<desc>Tier 5 Cog. Some say she can eat Captain's Crunch without shredding the roof of her mouth...and she does it without any milk.</desc>
 	<cost>200</cost>
 	<title>Cruncher</title>
 	<short>Elite Cog</short>
@@ -1506,7 +1506,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="tightwad_waiter">
-	<desc>Tier 3 Cog. Tighwads Waiters are among the most hated waiters according to guests. They use that same budget cut energy on their food portions.</desc>
+	<desc>Tier 3 Cog. Tightwads Waiters are among the most hated waiters according to guests. They use that same budget cut energy on their food portions.</desc>
 	<cost>200</cost>
 	<title>Tightwad</title>
 	<short>Waiter Cog</short>
@@ -1588,7 +1588,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="cash_crab">
-	<desc>Cash may have the most fitting name in history. So much so that he will do anything to get extra money. Be careful around him, you may notice he managed to pick pocket you. Don't ask him about how he got a gold suit.</desc>
+	<desc>Cash may have the most fitting name in history. So much so that he will do anything to get extra money. Be careful around him, you may notice he managed to pick pocket you. Don't ask him about how he got a gold suit. Or what his obsession with crabs is.</desc>
 	<cost>150</cost>
 	<title>Pincher</title>
 	<short>Cog</short>
@@ -1671,7 +1671,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="mrhollywood_hologram">
-	<desc>Tier 8 Cog. The smile is real and unreal. It causes all sorts of gross imagery in your head</desc>
+	<desc>Tier 8 Cog. The smile is real and unreal. It causes all sorts of gross imagery in your head.</desc>
 	<cost>300</cost>
 	<title>Holly</title>
 	<short>Cog</short>
@@ -1708,7 +1708,7 @@
 -->
 
 <crewBlueprint name="mingler">
-	<desc>Tier 7 Cog. The Minglers can be quite the handful. Legend goes they can literally talk your ears off. Some nickname them like Sirens, but they are unrelated to the weird rainbow ship you may find now and again.</desc>
+	<desc>Tier 7 Cog. The Minglers can be quite the handful. Legend goes they can literally talk your ears off. Some nickname them the Sirens, but they are unrelated to the weird rainbow ship you may find now and again, and their voices aren't angelic, just really attention commanding.</desc>
 	<cost>150</cost>
 	<title>The Mingler</title>
 	<short>Cog</short>
@@ -1738,7 +1738,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="mingler_waiter">
-	<desc>Tier 7 Cog. Waiter Minglers are much more careful with their voice. After all, being a good waiter means not to disturb your guests you serve. Others are fair game though.</desc>
+	<desc>Tier 7 Cog. Waiter Minglers are much more careful with their voice. After all, being a good waiter means not to disturb your guests you serve. Others, like other staff, management, and partners are fair game though.</desc>
 	<cost>200</cost>
 	<title>The Mingler</title>
 	<short>Cog</short>
@@ -1753,7 +1753,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="mingler_hologram">
-	<desc>Tier 7 Cog. These hologram Minglers are a handful. It's really hard to like them when their voices penetrate the walls and pierce your ears.</desc>
+	<desc>Tier 7 Cog. These hologram Minglers are pretty disliked even within Cog Nation. Although, it's not hard to see why. It's really hard to like them when their voices penetrate the walls and pierce your ears.</desc>
 	<cost>200</cost>
 	<title>The Mingler</title>
 	<short>Cog</short>
@@ -1821,7 +1821,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="twoface_hologram">
-	<desc>Tier 6 Cog. There's a pun with this Cog somewhere, but I can't be bothered to explain it...</desc>
+	<desc>Tier 6 Cog. Hologram Two Faces enjoy browsing the internet, searching for random plebeians online to troll by using two accounts to boost both sides of the argument and see if they can start a virtual riot. Apparently this is 'fun'.</desc>
 	<cost>200</cost>
 	<title>Two face</title>
 	<short>Hologram Cog</short>
@@ -1906,7 +1906,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="mover_and_shaker_hologram">
-	<desc>Tier 5 Cog. Its a bit weird for a hologram to somehow shake the ground beneath it.. but these guys manage.</desc>
+	<desc>Tier 5 Cog. It's obviously impossible for a hologram to shake the ground beneath it.. but these guys manage.</desc>
 	<cost>200</cost>
 	<title>Mover and Shaker</title>
 	<short>Hologram Cog</short>
@@ -1922,7 +1922,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="mover_and_shaker_waiter">
-	<desc>Tier 5 Cog. Surprisingly stomping around doesn't make for effective waiter but just try and stop them.</desc>
+	<desc>Tier 5 Cog. Unsurprisingly stomping around doesn't make for effective waiter edict but just try and stop them.</desc>
 	<cost>200</cost>
 	<title>Mover and Shaker</title>
 	<short>Waiter Cog</short>
@@ -1936,7 +1936,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="bakker">
-	<desc> Bakker gets annoyed a lot by those around him. "It's not a typo you guys. I'm just Dutch and I love to bake. Leave me in peace!" His baking skills are 'Meh' at best.</desc>
+	<desc> Bakker gets annoyed a lot by those around him. "It's not a typo you guys. I'm just Dutch and I love to bake. Leave me in peace!" His baking skills are 'Meh' at best. If he offers you pizza, pass on it. Trust me, he may be Italian inspired... but man he did not get their style at all.</desc>
 	<cost>300</cost>
 	<title>Bakker</title>
 	<short>Master Cog</short>
@@ -1958,7 +1958,7 @@
 -->
 
 <crewBlueprint name="glad_hander">
-	<desc>Tier 4 Cog. Put 'er there friend! Just be careful not to grip too hard as these guys have an iron grip.</desc>
+	<desc>Tier 4 Cog. Put 'er there friend! Just be careful not to grip too hard as these guys have an iron grip and will always make sure they have the firmer shake.</desc>
 	<cost>90</cost>
 	<title>Glad Hander</title>
 	<short>Cog</short>
@@ -1973,7 +1973,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="glad_hander_elite">
-	<desc>Tier 4 Cog. Elite Glad Handers are a bit more open about the reason for their happiness and eagerness to help. Usually its for money or power.</desc>
+	<desc>Tier 4 Cog. Elite Glad Handers are a bit more open about the reason for their happiness and eagerness to help. Usually its for money or power, but at least they're honest about it...sometimes.</desc>
 	<cost>150</cost>
 	<title>Glad Hander</title>
 	<short>Cog</short>
@@ -1988,7 +1988,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="glad_hander_waiter">
-	<desc>Tier 4 Cog. Turns out those big 'ol hands are great for handling trays. Unfortunately, they are also pretty good at picking pockets.</desc>
+	<desc>Tier 4 Cog. Turns out those big 'ol hands are great for handling trays. Unfortunately, for guests, they are also pretty good at picking pockets.</desc>
 	<cost>200</cost>
 	<title>Glad Hander</title>
 	<short>Cog</short>
@@ -2057,7 +2057,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="name_dropper_hologram">
-	<desc>Tier 3 Cog. So who does a hologram Name Dropper even claim to know? Apparently, it's every famous techno DJ. Much like the Elite Name Droppers, though, they always send her to voice mail.</desc>
+	<desc>Tier 3 Cog. So who does a hologram Name Dropper even claim to know? Apparently, it's every famous techno DJ. Much like the Elite Name Droppers though, they always send her to voice mail.</desc>
 	<cost>200</cost>
 	<title>Name Dropper</title>
 	<short>Hologram Cog</short>
@@ -2156,7 +2156,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="ac08_eldritch">
-	<desc>You can't outrun me friend.</desc>
+	<desc>The secret best friend of the Real Dr Spin. When you think about it though, it does make sense. They are the only two medics in the entire Cog line up and they both are Eldritch. No one outruns him, and he can spam the heal for days.</desc>
 	<cost>3000</cost>
 	<title>Chase</title>
 	<short>Chase</short>
@@ -6663,23 +6663,23 @@ LAB AUGMENTS
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
-<augBlueprint name="LAB_BOSSBOT_STRONG">
-	<title>Head Strong</title>
-	<desc>Bossbots gain a 12% buff in movement speed, combat damage, repair speed, and health.</desc>
+<augBlueprint name="LAB_BOSSBOT_TIGHTENED_DEADLINES">
+	<title>Tightened Deadlines</title>
+	<desc>Non-Bossbot Cogs repair 15% faster with a Bossbot in the room.</desc>
 	<cost>0</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
-<augBlueprint name="LAB_BOSSBOT_IMMUNE">
-	<title>Strong Willed</title>
-	<desc>Bossbots gain 15% repair speed and combat damage for each human in the room minus themselves.</desc>
+<augBlueprint name="LAB_BOSSBOT_MILITARIZED_MANAGEMENT">
+	<title>Militarized Management</title>
+	<desc>Bossbots can no longer fight enemies, but all Non-Bossbot Cogs do double damage and triple damage if a Bossbot is in the same room.</desc>
 	<cost>0</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
-<augBlueprint name="LAB_BOSSBOT_RESIST">
-	<title>Single Track Mind</title>
-	<desc>Bossbots crew start at level 2 skills.</desc>
+<augBlueprint name="LAB_BOSSBOT_UNION_BUSTER">
+	<title>Union Buster</title>
+	<desc>When fighting Cogs, Bossbots nerf enemy abilities by 5% PER enemy in the same room, but are 10% weaker to incoming damage and 20% more damage to enemy Toons.</desc>
 	<cost>0</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
