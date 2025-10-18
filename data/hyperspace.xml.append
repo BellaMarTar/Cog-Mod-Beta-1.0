@@ -5055,7 +5055,7 @@
 		<mod-append:empty/>
 		<mod-append:empty/>
 		<mod-append:ship>PLAYER_SHIP_MICROMANAGER</mod-append:ship>
-		<mod-append:empty/>
+		<mod-append:ship>PLAYER_SHIP_DOWNSIZER</mod-append:ship>
 		<mod-append:empty/>
 		<mod-append:ship>PLAYER_SHIP_CORPORATE_RAIDER</mod-append:ship>
 		<mod-append:ship>PLAYER_SHIP_BIG_CHEESE</mod-append:ship>
@@ -5088,7 +5088,7 @@
 		<mod-append:empty/>
 		<mod-append:ship>PLAYER_SHIP_NAME_DROPPER</mod-append:ship>
 		<mod-append:ship>PLAYER_SHIP_GLAD_HANDER</mod-append:ship>
-		<mod-append:empty/>
+		<mod-append:ship>PLAYER_SHIP_MOVE_AND_SHAKER</mod-append:ship>
 		<mod-append:empty/>
 		<mod-append:ship>PLAYER_SHIP_MINGLER</mod-append:ship>
 		<mod-append:empty/>
@@ -5167,6 +5167,26 @@
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<hiddenAug>SHIP_BOSSBOT</hiddenAug>
 		<hiddenAug>SHIP_CORPORATE_RAIDER</hiddenAug>
+	</mod-append:customShip>
+	
+	<mod-append:ship name="PLAYER_SHIP_DOWNSIZER" b="true" c="true" secret="false"/>
+	<mod-append:customShip name="PLAYER_SHIP_DOWNSIZER">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_BOSSBOT</hiddenAug>
+		<hiddenAug>SHIP_DOWNSIZER</hiddenAug>
+		<crewLimit>8</crewLimit>
+	</mod-append:customShip>
+	<mod-append:customShip name="PLAYER_SHIP_DOWNSIZER_2">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_BOSSBOT</hiddenAug>
+		<hiddenAug>SHIP_DOWNSIZER</hiddenAug>
+		<crewLimit>7</crewLimit>
+	</mod-append:customShip>
+	<mod-append:customShip name="PLAYER_SHIP_DOWNSIZER_3">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_BOSSBOT</hiddenAug>
+		<hiddenAug>SHIP_DOWNSIZER</hiddenAug>
+		<crewLimit>6</crewLimit>
 	</mod-append:customShip>
 	
 	<mod-append:ship name="PLAYER_SHIP_MICROMANAGER" b="true" c="true" secret="false"/>
@@ -5367,6 +5387,26 @@
 		<hiddenAug>SHIP_MINGLER</hiddenAug>
 	</mod-append:customShip>
 	
+	<mod-append:ship name="PLAYER_SHIP_MOVE_AND_SHAKER" b="true" c="true" secret="false"/>
+	<mod-append:customShip name="PLAYER_SHIP_MOVE_AND_SHAKER">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_BOSSBOT</hiddenAug>
+		<hiddenAug>SHIP_MOVE_AND_SHAKER</hiddenAug>
+		<crewLimit>10</crewLimit>
+	</mod-append:customShip>
+	<mod-append:customShip name="PLAYER_SHIP_MOVE_AND_SHAKER_2">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_BOSSBOT</hiddenAug>
+		<hiddenAug>SHIP_MOVE_AND_SHAKER</hiddenAug>
+		<crewLimit>6</crewLimit>
+	</mod-append:customShip>
+	<mod-append:customShip name="PLAYER_SHIP_MOVE_AND_SHAKER_3">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_BOSSBOT</hiddenAug>
+		<hiddenAug>SHIP_MOVE_AND_SHAKER</hiddenAug>
+		<crewLimit>8</crewLimit>
+	</mod-append:customShip>
+
 	<mod-append:ship name="PLAYER_SHIP_GLAD_HANDER" b="true" c="true" secret="false"/>
 	<mod-append:customShip name="PLAYER_SHIP_GLAD_HANDER">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>

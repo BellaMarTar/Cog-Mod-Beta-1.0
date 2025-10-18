@@ -37,6 +37,18 @@ BOSSBOTS
 <text name="text_PLAYER_SHIP_CORPORATE_RAIDER_3_name">Rockefeller</text>
 <text name="text_PLAYER_SHIP_CORPORATE_RAIDER_3_desc">Ok one last time now. We were not asking for permission. We are taking over this establishment and that's final!</text>
 
+<text name="text_PLAYER_SHIP_DOWNSIZER_class">Downsizer Cruiser</text>
+<text name="text_PLAYER_SHIP_DOWNSIZER_name">Downplay</text>
+<text name="text_PLAYER_SHIP_DOWNSIZER_desc">A problem with Downsizers is their embedded nature of downsizing anything and everything. Sadly, this ship was not safe from their desires</text>
+
+<text name="text_PLAYER_SHIP_DOWNSIZER_2_class">Downsizer Cruiser</text>
+<text name="text_PLAYER_SHIP_DOWNSIZER_2_name">Downgrade</text>
+<text name="text_PLAYER_SHIP_DOWNSIZER_2_desc">Damn, they really did wanna downsize this one. Perhaps they really do have an unhealthy obsession with that. This thing isn't really suited for hardcore combat, not even it's hull is up to snuff. Yet they seem so proud of themselves.</text>
+
+<text name="text_PLAYER_SHIP_DOWNSIZER_3_class">Downsizer Cruiser</text>
+<text name="text_PLAYER_SHIP_DOWNSIZER_3_name">Down in the Dumps</text>
+<text name="text_PLAYER_SHIP_DOWNSIZER_3_desc">It's kinda insane what Downsizers will do to achieve their goals. This ship is awful. There's no other way to put it. Somehow, against all odds, however, a pretty decent artillery was installed. Maybe a brief moment of clarity?</text>
+
 <text name="text_PLAYER_SHIP_MICROMANAGER_class">Micromanager Cruiser</text>
 <text name="text_PLAYER_SHIP_MICROMANAGER_name">Compensation</text>
 <text name="text_PLAYER_SHIP_MICROMANAGER_desc">Micromanagers desperately try to hide the fact that they're such short little things. This ship is massive. Too massive honestly. Its like putting a lift-kit on a truck while being as tall as... well a Micromanager.</text>
@@ -172,6 +184,18 @@ SELLBOTS
 <text name="text_PLAYER_SHIP_MINGLER_3_class">Mingler Cruiser</text>
 <text name="text_PLAYER_SHIP_MINGLER_3_name">Walky Talky</text>
 <text name="text_PLAYER_SHIP_MINGLER_3_desc">The talking doesn't even seem real anymore. Is it language or is it just primal screeching? Is there even a point to it anymore? Oh right, you're supposed to kill the Rebels.</text>
+
+<text name="text_PLAYER_SHIP_MOVE_AND_SHAKER_class">Mover and Shaker Cruiser</text>
+<text name="text_PLAYER_SHIP_MOVE_AND_SHAKER_name">Foot Note</text>
+<text name="text_PLAYER_SHIP_MOVE_AND_SHAKER_desc">As one would expect of the heavy footed Cogs known as Mover and Shakers, they are pretty adapted to defending their ship without much in terms of airlocks. Using teamwork, they can eliminate most problems.</text>
+
+<text name="text_PLAYER_SHIP_MOVE_AND_SHAKER_2_class">Move and Shaker Cruiser</text>
+<text name="text_PLAYER_SHIP_MOVE_AND_SHAKER_2_name">Tap Dance</text>
+<text name="text_PLAYER_SHIP_MOVE_AND_SHAKER_2_desc">When Movers move over to the enemy and shake down their ships, things can get pretty messy. Let's hope they strapped down fragile belongings before engaging with this ship.</text>
+
+<text name="text_PLAYER_SHIP_MOVE_AND_SHAKER_3_class">Mover and Shaker Cruiser</text>
+<text name="text_PLAYER_SHIP_MOVE_AND_SHAKER_3_name">Tech-Tonic</text>
+<text name="text_PLAYER_SHIP_MOVE_AND_SHAKER_3_desc">Here's a scary scenario. Locked in a room with one of those relentless Mover and Shakers. You can almost shutter at the thought right?</text>
 
 <text name="text_PLAYER_SHIP_GLAD_HANDER_class">Glad Hander Cruiser</text>
 <text name="text_PLAYER_SHIP_GLAD_HANDER_name">Handy Dandy</text>

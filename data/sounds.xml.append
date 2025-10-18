@@ -25,6 +25,31 @@
 		<name>the_final_battle</name>
 		<explore>cm_Control_Freak.ogg</explore>
 	</track>
+	<track> <!--borrowed from StarFury (Toontown Remixes)-->
+		<name>holographic_trouble</name>
+		<explore>cm_MUS_HolographicTroubleEXPLORE.ogg</explore>
+		<combat>cm_MUS_HolographicTroubleBATTLE.ogg</combat>
+	</track>
+	<track> <!--borrowed from FTL: CE (SORRY NOT SORRY)-->
+		<name>bossbot_theme_temp</name>
+		<explore>bp_MUS_CansEXPLORE.ogg</explore>
+		<combat>bp_MUS_CansBATTLE.ogg</combat>
+	</track>
+	<track> <!--borrowed from FTL: CE (SORRY NOT SORRY)-->
+		<name>lawbot_theme_temp</name>
+		<explore>bp_MUS_LightEXPLORE.ogg</explore>
+		<combat>bp_MUS_LightBATTLE.ogg</combat>
+	</track>
+	<track> <!--borrowed from FTL: CE (SORRY NOT SORRY)-->
+		<name>cashbot_theme_temp</name>
+		<explore>bp_MUS_PolymersEXPLORE.ogg</explore>
+		<combat>bp_MUS_PolimersBATTLE.ogg</combat>
+	</track>
+	<track> <!--borrowed from FTL: CE (SORRY NOT SORRY)-->
+		<name>sellbot_theme_temp</name>
+		<explore>bp_MUS_RealityEXPLORE.ogg</explore>
+		<combat>bp_MUS_RealityBATTLE.ogg</combat>
+	</track>
 </music>
 
 <!--CREW-->

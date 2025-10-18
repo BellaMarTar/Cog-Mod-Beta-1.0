@@ -1,4 +1,6 @@
-BLUEPRINT BELOW======================================
+<!------
+===========================================BLUEPRINT BELOW======================================
+--->
 
 <weaponBlueprint name="HEALING_SHOTGUN">
 	<type>BURST</type>
@@ -7,7 +9,7 @@ BLUEPRINT BELOW======================================
 	<title>Heal Flak Gun</title>
 	<tip>tip_flak</tip>
 	<short>Heal F.</short>
-	<desc>This special varient of flak fires healing shots along with its normal damaging shots.</desc>
+	<desc>This special variant of flak fires healing shots along with its normal damaging shots.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage and healing 90 health.</tooltip>
 	<radius>45</radius>
 	<damage>1</damage>
@@ -143,9 +145,9 @@ BLUEPRINT BELOW======================================
 	<iconImage>boarder</iconImage>
 </droneBlueprint>
 
-
-HYPERSPACE BELOW===========================================
-
+<!---
+===========================================HYPERSPACE BELOW===========================================
+-->
 <race name="acprotect">
 		<controllable>true</controllable>
 		<canFight>true</canFight>
@@ -187,8 +189,10 @@ HYPERSPACE BELOW===========================================
 		<crewBlueprint>acprotect</crewBlueprint>
 		<tooltipName>Cog Defender</tooltipName>
 	</drone>
-	
-ANIMATION BELOW================================================
+
+<!--
+===========================================ANIMATION BELOW================================================
+-->
 
 <animSheet name="acprotect" w="420" h="280" fw="35" fh="35">people/acprotect_base.png</animSheet>
 <animSheet name="acprotect_death" w="320" h="32" fh="32" fw="32">people/explosion_ancient.png</animSheet>
