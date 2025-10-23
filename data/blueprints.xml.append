@@ -27,7 +27,6 @@
 	<power>Takes 60% damage in combat, but moves at 50% speed.</power>
 	<power>2.5x Combat Damage, 1.0x Repair speed.</power>
 	<power>2.5x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -42,7 +41,6 @@
 	<power>Takes 55% damage in combat, but moves at 55% speed.</power>
 	<power>3.0x Combat Damage, 1.0x Repair speed.</power>
 	<power>2.5x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -57,7 +55,6 @@
 	<power>Takes 55% damage in combat, but moves at 60% speed.</power>
 	<power>3.5x Combat Damage, 1.5x Repair speed.</power>
 	<power>3.0x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -72,7 +69,7 @@
 	<power>Takes 50% damage in combat, but moves at 50% speed.</power>
 	<power>2.5x Combat Damage, 1.0x Repair speed.</power>
 	<power>2.5x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to suffocation.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -87,7 +84,7 @@
 	<power>Takes 50% damage in combat, but moves at 80% speed.</power>
 	<power>4.0x Combat Damage, 2.0x Repair speed.</power>
 	<power>4.0x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -107,7 +104,6 @@
 	<power>156 Health</power>
 	<power>Takes 80% damage in combat, but moves at 70% speed.</power>
 	<power>2.0x Combat Damage, 0.4x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -121,7 +117,6 @@
 	<power>234 Health</power>
 	<power>Takes 80% damage in combat, but moves at 70% speed.</power>
 	<power>2.2x Combat Damage, 0.5x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -135,7 +130,6 @@
 	<power>250 Health</power>
 	<power>Takes 70% damage in combat, but moves at 60% speed.</power>
 	<power>2.4x Combat Damage, 0.4x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -149,8 +143,7 @@
 	<power>156 Health</power>
 	<power>Takes 50% damage in combat, but moves at 60% speed.</power>
 	<power>2.0x Combat Damage, 0.2x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
-	<power>Stun all crew in the room and gain serious ranged damage for 5 seconds.</power>
+	<power>Immune to suffocation.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -164,7 +157,7 @@
 	<power>300 Health</power>
 	<power>Takes 40% damage in combat, but moves at 70% speed.</power>
 	<power>3.0x Combat Damage, 0.5x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -185,7 +178,6 @@
 	<power>Takes 80% damage in combat, but moves at 60% speed.</power>
 	<power>1.7x Combat Damage, 0.5x Repair speed.</power>
 	<power>0.5x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -200,7 +192,6 @@
 	<power>Takes 70% damage in combat, but moves at 60% speed.</power>
 	<power>2.0x Combat Damage, 0.4x Repair speed.</power>
 	<power>0.7x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -216,7 +207,7 @@
 	<power>Can phase through doors.</power>
 	<power>1.5x Combat Damage, 0.2x Repair speed.</power>
 	<power>0.4x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to suffocation.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -231,7 +222,6 @@
 	<power>Takes 60% damage in combat, but moves at 70% speed.</power>
 	<power>2.3x Combat Damage, 0.5x Repair speed.</power>
 	<power>1.2x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -246,7 +236,7 @@
 	<power>Takes 50% damage in combat.</power>
 	<power>2.5x Combat Damage, 0.9x Repair speed.</power>
 	<power>1.5x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -267,7 +257,6 @@
 	<power>Takes 80% damage in combat, but moves at 70% speed.</power>
 	<power>1.7x Combat Damage, 0.5x Repair speed.</power>
 	<power>0.7x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -282,7 +271,6 @@
 	<power>Takes 70% damage in combat, but moves at 70% speed.</power>
 	<power>2.0x Combat Damage, 0.4x Repair speed.</power>
 	<power>0.7x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -298,7 +286,7 @@
 	<power>Can phase through doors.</power>
 	<power>1.5x Combat Damage, 0.3x Repair speed.</power>
 	<power>0.5x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to suffocation.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -313,7 +301,6 @@
 	<power>Takes 60% damage in combat, but moves at 70% speed.</power>
 	<power>2.2x Combat Damage, 0.5x Repair speed.</power>
 	<power>1.1x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -330,7 +317,7 @@
 	<power>1.4x sabotaging speed.</power>
 	<power>Kicks pretty fast.</power>
 	<power>Cannot shoot, only kick.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -352,7 +339,6 @@
 	<power>Takes 90% damage in combat, but moves at 90% speed.</power>
 	<power>Decent ranged damage to compensate her height.</power>
 	<power>0.2x Combat Damage, refuses to repair herself but will force others to repair faster.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -368,7 +354,6 @@
 	<power>Takes 85% damage in combat, but moves at 85% speed.</power>
 	<power>Decent ranged damage to compensate her height.</power>
 	<power>0.3x Combat Damage, refuses to repair herself but will force others to repair faster-er.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -384,7 +369,6 @@
 	<power>Takes 90% damage in combat, but moves at 90% speed.</power>
 	<power>Decent ranged damage to compensate her height.</power>
 	<power>0.3x Combat Damage, finally forced to repair things on her own, 0.5x anyways.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -400,7 +384,7 @@
 	<power>Takes 50% damage in combat, but moves at 70% speed.</power>
 	<power>Decent ranged damage to compensate her height.</power>
 	<power>0.2x Combat Damage, refuses to repair herself but will force others to repair faster-ish.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to suffocation.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -416,7 +400,7 @@
 	<power>Takes 50% damage in combat, and moves at 130% speed.</power>
 	<power>She can stun enemies repeatedly with what appears to be a laser pointer.</power>
 	<power>Surprisingly good at repairs</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -437,7 +421,6 @@
 	<power>Takes 80% damage in combat, but moves at 70% speed.</power>
 	<power>1.2x Combat Damage, 0.9x Repair speed.</power>
 	<power>1.5x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -452,7 +435,6 @@
 	<power>Takes 75% damage in combat, but moves at 75% speed.</power>
 	<power>1.4x Combat Damage, 1.1x Repair speed.</power>
 	<power>2.0x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -468,7 +450,7 @@
 	<power>Can phase through doors.</power>
 	<power>1.2x Combat Damage, 0.9x Repair speed.</power>
 	<power>2.0x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to suffocation.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -483,7 +465,6 @@
 	<power>Takes 60% damage in combat, but moves at 70% speed.</power>
 	<power>1.6x Combat Damage, 1.4x Repair speed.</power>
 	<power>2.2x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -500,7 +481,7 @@
 	<power>2.5x sabotaging speed.</power>
 	<power>Shoots golf balls rapidly but they don't hurt as much.</power>
 	<power>He can self replicate two weak, temporary versions of himself at any time twice per jump.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -560,7 +541,6 @@
 	<power>Takes 60% damage in combat, but moves at 60% speed.</power>
 	<power>2.3x Combat Damage, 1.2x Repair speed.</power>
 	<power>2.7x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -575,7 +555,6 @@
 	<power>Takes 60% damage in combat, but moves at 55% speed.</power>
 	<power>2.5x Combat Damage, 1.3x Repair speed.</power>
 	<power>2.6x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -590,7 +569,6 @@
 	<power>Takes 60% damage in combat, but moves at 60% speed.</power>
 	<power>2.8x Combat Damage, 1.5x Repair speed.</power>
 	<power>2.7x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -605,7 +583,7 @@
 	<power>Takes 50% damage in combat, but moves at 50% speed.</power>
 	<power>2.5x Combat Damage, 1.1x Repair speed.</power>
 	<power>2.2x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to suffocation.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -620,7 +598,7 @@
 	<power>Takes 50% damage in combat, but moves at 80% speed.</power>
 	<power>4.0x Combat Damage, 2.0x Repair speed.</power>
 	<power>4.0x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -641,7 +619,6 @@
 	<power>156 Health</power>
 	<power>Takes 80% damage in combat, but moves at 70% speed.</power>
 	<power>0.9x Combat Damage, 0.3x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	<power>3.0x ranged damage</power>
 	</powerList>
 </crewBlueprint>
@@ -656,7 +633,6 @@
 	<power>234 Health</power>
 	<power>Takes 70% damage in combat, but moves at 70% speed.</power>
 	<power>0.7x Combat Damage, 0.5x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	<power>3.5x ranged damage</power>
 	</powerList>
 </crewBlueprint>
@@ -671,7 +647,6 @@
 	<power>250 Health</power>
 	<power>Takes 80% damage in combat, but moves at 60% speed.</power>
 	<power>0.8x Combat Damage, 1.0x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	<power>3.1x ranged damage</power>
 	</powerList>
 </crewBlueprint>
@@ -686,7 +661,7 @@
 	<power>156 Health</power>
 	<power>Takes 40% damage in combat, but moves at 50% speed.</power>
 	<power>0.8x Combat Damage, 0.3x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to suffocation.</power>
 	<power>3.0x ranged damage</power>
 	</powerList>
 </crewBlueprint>
@@ -701,7 +676,7 @@
 	<power>300 Health</power>
 	<power>Takes 50% damage in combat, but moves at 80% speed.</power>
 	<power>1.1x Combat Damage, 0.5x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to mind control.</power>
 	<power>3.4x ranged damage</power>
 	</powerList>
 </crewBlueprint>
@@ -723,7 +698,6 @@
 	<power>Takes 75% damage in combat, but moves at 55% speed.</power>
 	<power>Passively heals friendly crew.</power>
 	<power>1.75x Combat Damage, 1.0x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	<power>1.0x sabotaging speed.</power>
 	</powerList>
 </crewBlueprint>
@@ -739,7 +713,6 @@
 	<power>Takes 65% damage in combat, but moves at 55% speed.</power>
 	<power>Passively heals friendly crew slower than normal.</power>
 	<power>2.0x Combat Damage, 0.4x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	<power>1.5x sabotaging speed.</power>
 	</powerList>
 </crewBlueprint>
@@ -756,7 +729,7 @@
 	<power>Can phase through doors.</power>
 	<power>Passively heals friendly crew very slowly.</power>
 	<power>1.5x Combat Damage, 1.0x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to suffocation.</power>
 	<power>1.5x sabotaging speed.</power>
 	</powerList>
 </crewBlueprint>
@@ -772,7 +745,6 @@
 	<power>Takes 75% damage in combat, but moves at 55% speed.</power>
 	<power>Passively heals friendly crew better than average.</power>
 	<power>1.0x Combat Damage, 2.0x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	<power>0.8x sabotaging speed.</power>
 	</powerList>
 </crewBlueprint>
@@ -788,7 +760,7 @@
 	<power>Takes 50% damage in combat.</power>
 	<power>Does not heal fellow crew.</power>
 	<power>2.5x Combat Damage, 0.9x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to mind control.</power>
 	<power>1.5x sabotaging speed.</power>
 	</powerList>
 </crewBlueprint>
@@ -811,7 +783,6 @@
 	<power>2.5x Combat Damage, 0.4x Repair speed.</power>
 	<power>2.0x sabotaging speed.</power>
 	<power>0.5x ranged damage</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -827,7 +798,6 @@
 	<power>2.7x Combat Damage, 0.6x Repair speed.</power>
 	<power>2.2x sabotaging speed.</power>
 	<power>0.5x ranged damage</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -844,7 +814,7 @@
 	<power>2.5x Combat Damage, 0.3x Repair speed.</power>
 	<power>2.0x sabotaging speed.</power>
 	<power>0.2x ranged damage</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to suffocation.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -860,7 +830,6 @@
 	<power>2.9x Combat Damage, 1.0x Repair speed.</power>
 	<power>2.5x sabotaging speed.
 	</power><power>0.6x ranged damage</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -881,7 +850,6 @@
 	<power>Moves faster than any other Cog</power>
 	<power>Passively heals friendly crew.</power>
 	<power>1.3x Combat Damage, 0.5x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	<power>Can see potential people to sue on behalf of the victim.</power>
 	</powerList>
 </crewBlueprint>
@@ -897,7 +865,6 @@
 	<power>Moves slightly faster than the standard Ambulance Chaser</power>
 	<power>Passively heals friendly crew slower than normal</power>
 	<power>1.5x Combat Damage, 0.4x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	<power>Can see potential victims to sue for fun.</power>
 	</powerList>
 </crewBlueprint>
@@ -913,7 +880,6 @@
 	<power>Moves faster than the standard Ambulance Chaser</power>
 	<power>Passively heals friendly crew faster than normal</power>
 	<power>1.4x Combat Damage, 0.8x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	<power>Can see potential people to sue on behalf of the victim.</power>
 	</powerList>
 </crewBlueprint>
@@ -929,7 +895,7 @@
 	<power>Passively heals friendly crew faster than normal.</power>
 	<power>Can phase through doors.</power>
 	<power>1.4x Combat Damage, 0.8x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to suffocation.</power>
 	<power>Can see potential people to sue on behalf of the victim.</power>
 	</powerList>
 </crewBlueprint>
@@ -945,7 +911,7 @@
 	<power>Moves faster than any Ambulance Chaser and even several other species.</power>
 	<power>Does not heal other crew passively.</power>
 	<power>1.9x Combat Damage, 1.5x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to mind control.</power>
 	<power>Can see potential people to sue on behalf of the victim.</power>
 	</powerList>
 </crewBlueprint>
@@ -968,7 +934,6 @@
 	<power>2.0x Combat Damage, 0.5x Repair speed.</power>
 	<power>1.0x sabotaging speed.</power>
 	<power>Breaks open doors twice as fast.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -984,7 +949,6 @@
 	<power>2.5x Combat Damage, 1.0x Repair speed.</power>
 	<power>2.0x sabotaging speed.</power>
 	<power>Breaks open doors three times as fast. (Don't worry, it makes sense to him.)</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1001,7 +965,7 @@
 	<power>1.0x Combat Damage, 0.5x Repair speed.</power>
 	<power>1.0x sabotaging speed.</power>
 	<power>I hope I don't have to explain why they don't have a door break boost after what was mentioned above.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to suffocation.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1017,7 +981,6 @@
 	<power>2.0x Combat Damage, 1.5x Repair speed.</power>
 	<power>1.5x sabotaging speed.</power>
 	<power>Breaks open doors four times as fast.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1034,7 +997,7 @@
 	<power>1.5x sabotaging speed.</power>
 	<power>Can rip open doors near instantly.</power>
 	<power>Punches with two fists, leading to more damage per hit.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1081,7 +1044,6 @@
 	<power>Takes 60% damage in combat, but moves at 60% speed.</power>
 	<power>2.3x Combat Damage, 1.2x Repair speed.</power>
 	<power>2.7x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1096,7 +1058,6 @@
 	<power>Takes 60% damage in combat, but moves at 55% speed.</power>
 	<power>2.5x Combat Damage, 1.3x Repair speed.</power>
 	<power>2.6x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1111,7 +1072,6 @@
 	<power>Takes 60% damage in combat, but moves at 60% speed.</power>
 	<power>2.8x Combat Damage, 1.5x Repair speed.</power>
 	<power>2.7x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1126,7 +1086,7 @@
 	<power>Takes 50% damage in combat, but moves at 50% speed.</power>
 	<power>2.5x Combat Damage, 1.1x Repair speed.</power>
 	<power>2.2x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to suffocation.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1141,7 +1101,7 @@
 	<power>Takes 50% damage in combat, but moves at 80% speed.</power>
 	<power>4.0x Combat Damage, 2.0x Repair speed.</power>
 	<power>4.0x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1162,7 +1122,6 @@
 	<power>Moves at 150% speed.</power>
 	<power>2.5x Combat Damage, 0.4x Repair speed.</power>
 	<power>0.3x ranged damage</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1177,7 +1136,6 @@
 	<power>Moves at 170% speed.</power>
 	<power>2.7x Combat Damage, 0.3x Repair speed.</power>
 	<power>0.1x ranged damage</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1192,7 +1150,6 @@
 	<power>Moves at 200% speed.</power>
 	<power>2.9x Combat Damage, 0.4x Repair speed.</power>
 	<power>0.2x ranged damage</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1207,7 +1164,7 @@
 	<power>Takes 50% damage in combat, but moves at normal speed.</power>
 	<power>2.0x Combat Damage, 0.1x Repair speed.</power>
 	<power>0.0x ranged damage</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to suffocation.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1222,7 +1179,7 @@
 	<power>Takes 90% damage in combat, and moves at 250% speed.</power>
 	<power>3.5x Combat Damage, 0.5x Repair speed.</power>
 	<power>0.5x ranged damage</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1244,7 +1201,6 @@
 	<power>Has so much money everyone around him moves at 0.6x speed.</power>
 	<power>Cannot sabotage as that is beneath him.</power>
 	<power>1.0x Combat Damage, 0.5x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1260,7 +1216,6 @@
 	<power>Has so much money everyone around him moves at 0.6x speed.</power>
 	<power>Cannot sabotage as that is beneath him</power>
 	<power>1.2x Combat Damage, 0.4x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1277,7 +1232,7 @@
 	<power>Instead of slowing other down, he virtually damages enemies in the same room.</power>
 	<power>Cannot sabotage as that is beneath him.</power>
 	<power>0.5x Combat Damage, 0.2x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to suffocation.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1293,8 +1248,7 @@
 	<power>Out of money so does not affect crew.</power>
 	<power>Cannot sabotage as that is beneath him still.</power>
 	<power>1.4x Combat Damage, 0.45x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
-	<power> Is so upset at losing his money, he sucks the literal air away.</power>
+	<power>Is so upset at losing his money, he sucks the literal air away eventually suffocating himself.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1311,7 +1265,7 @@
 	<power>Heavily passively damages enemy crew in the same room. Don't ask him how.</power>
 	<power>Cannot sabotage as that is beneath him.</power>
 	<power>1.6x Combat Damage, 1.0x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1331,8 +1285,7 @@
 	<power>110 Health</power>
 	<power>Takes 80% damage in combat, but moves at 80% speed.</power>
 	<power>2.0x Combat Damage, 0.9x Repair speed.</power>
-	<power>0.0x range damage</power>	
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>0.0x range damage</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1347,7 +1300,6 @@
 	<power>Takes 75% damage in combat, but moves at 90% speed.</power>
 	<power>3.6x Combat Damage, 0.6x Repair speed.</power>
 	<power>0.0x range damage</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1363,7 +1315,7 @@
 	<power>Can phase through doors.</power>
 	<power>2.0x Combat Damage, 0.7x Repair speed.</power>
 	<power>0.0x range damage</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to suffocation.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1378,7 +1330,6 @@
 	<power>Takes 70% damage in combat, but moves at normal speed.</power>
 	<power>2.1x Combat Damage, 1.9x Repair speed.</power>
 	<power>0.2x range damage</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1393,7 +1344,7 @@
 	<power>Takes 50% damage in combat, but moves at normal speed.</power>
 	<power>2.5x Combat Damage, 2.5x Repair speed.</power>
 	<power>0.5x range damage</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1413,7 +1364,6 @@
 	<powerList>
 	<power>90 Health</power>
 	<power>1.3x Combat Damage, 0.5x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1426,7 +1376,6 @@
 	<powerList>
 	<power>135 Health</power>
 	<power>1.5x Combat Damage, 0.4x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1439,7 +1388,6 @@
 	<powerList>
 	<power>150 Health</power>
 	<power>1.4x Combat Damage, 0.8x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1453,7 +1401,7 @@
 	<power>90 Health</power>
 	<power>Can phase through doors.</power>
 	<power>1.4x Combat Damage, 0.8x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to suffocation.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1466,7 +1414,7 @@
 	<powerList>
 	<power>200 Health</power>
 	<power>1.9x Combat Damage, 1.5x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1488,7 +1436,6 @@
 	<power>Takes 80% damage in combat, but moves at 80% speed.</power>
 	<power>1.5x Combat Damage, 0.8x Repair speed.</power>
 	<power>1.0x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1503,7 +1450,6 @@
 	<power>Takes 80% damage in combat, but moves at 90% speed.</power>
 	<power>2.5x Combat Damage, 1.0x Repair speed.</power>
 	<power>2.0x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1519,7 +1465,7 @@
 	<power>Can phase through doors.</power>
 	<power>1.0x Combat Damage, 0.5x Repair speed.</power>
 	<power>1.0x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to suffocation.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1534,7 +1480,6 @@
 	<power>Takes 70% damage in combat, and moves at 100% speed.</power>
 	<power>1.5x Combat Damage, 1.5x Repair speed.</power>
 	<power>1.5x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1556,7 +1501,6 @@
 	<power>Takes 70% damage in combat, but moves at 60% speed.</power>
 	<power>2.0x Combat Damage, 0.4x Repair speed.</power>
 	<power>0.9x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1571,7 +1515,6 @@
 	<power>Takes 70% damage in combat, but moves at 60% speed.</power>
 	<power>2.1x Combat Damage, 0.4x Repair speed.</power>
 	<power>1.0x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1586,7 +1529,6 @@
 	<power>Takes 65% damage in combat, but moves at 60% speed.</power>
 	<power>2.3x Combat Damage, 0.7x Repair speed.</power>
 	<power>1.1x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1601,7 +1543,7 @@
 	<power>Takes 50% damage in combat, but moves at 60% speed.</power>
 	<power>1.5x Combat Damage, 0.4x Repair speed.</power>
 	<power>2.0x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to suffocation.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1616,7 +1558,7 @@
 	<power>Takes 60% damage in combat, but moves at 80% speed.</power>
 	<power>2.5x Combat Damage, 0.8x Repair speed.</power>
 	<power>2.5x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1654,7 +1596,6 @@
 	<power>Takes 60% damage in combat and moves at 120% speed.</power>
 	<power>2.3x Combat Damage, 1.0x Repair speed.</power>
 	<power>2.0x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1669,7 +1610,6 @@
 	<power>Takes 60% damage in combat and moves at 130% speed.</power>
 	<power>2.6x Combat Damage, 1.3x Repair speed.</power>
 	<power>2.2x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1684,7 +1624,6 @@
 	<power>Takes 60% damage in combat and moves at 150% speed.</power>
 	<power>2.7x Combat Damage, 1.2x Repair speed.</power>
 	<power>2.5x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1699,7 +1638,7 @@
 	<power>Takes 50% damage in combat but moves at 90% speed.</power>
 	<power>2.4x Combat Damage, 0.8x Repair speed.</power>
 	<power>1.9x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to suffocation.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1714,7 +1653,7 @@
 	<power>Takes 50% damage in combat and moves at 200% speed.</power>
 	<power>4.0x Combat Damage, 1.4x Repair speed.</power>
 	<power>3.0x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1735,7 +1674,6 @@
 	<power>156 Health</power>
 	<power>Takes 70% damage in combat, but moves at 60% speed.</power>
 	<power>2.0x Combat Damage, 0.6x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	<power>Stun all crew in the room and gain serious ranged damage for 10 seconds.</power>
 	</powerList>
 </crewBlueprint>
@@ -1750,7 +1688,6 @@
 	<power>234 Health</power>
 	<power>Takes 65% damage in combat, but moves at 60% speed.</power>
 	<power>2.2x Combat Damage, 0.7x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	<power>Stun all crew in the room and gain serious ranged damage for 15 seconds.</power>
 	</powerList>
 </crewBlueprint>
@@ -1765,7 +1702,6 @@
 	<power>250 Health</power>
 	<power>Takes 65% damage in combat, but moves at 60% speed.</power>
 	<power>2.0x Combat Damage, 0.7x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	<power>Stun enemy crew in the room for 10 seconds.</power>
 	</powerList>
 </crewBlueprint>
@@ -1780,7 +1716,7 @@
 	<power>156 Health</power>
 	<power>Takes 50% damage in combat, but moves at 60% speed.</power>
 	<power>2.0x Combat Damage, 0.7x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to suffocation.</power>
 	<power>Stun all enemy crew in the room and gain serious ranged damage for 15 seconds.</power>
 	</powerList>
 </crewBlueprint>
@@ -1795,7 +1731,7 @@
 	<power>300 Health</power>
 	<power>Takes 50% damage in combat, but moves at 80% speed.</power>
 	<power>2.9x Combat Damage, 0.9x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to mind control.</power>
 	<power>Stun all enemy crew in the room and gain serious ranged damage for 10 seconds with 15 damage on use.</power>
 	</powerList>
 </crewBlueprint>
@@ -1817,7 +1753,6 @@
 	<power>Takes 80% damage in combat, but moves at 80% speed.</power>
 	<power>0.6x Combat Damage, 0.6x Repair speed.</power>
 	<power>Fights and repairs at double speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	<power>0.7x sabotaging speed.</power>
 	</powerList>
 </crewBlueprint>
@@ -1834,7 +1769,6 @@
 	<power>1.0x Combat Damage, 0.7x Repair speed.</power>
 	<power>Fights and repairs at double speed.</power>
 	<power>0.9x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1851,7 +1785,7 @@
 	<power>0.6x Combat Damage, 0.3x Repair speed.</power>
 	<power>Fights and repairs at double speed.</power>
 	<power>0.7x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to suffocation.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1867,7 +1801,6 @@
 	<power>1.2x Combat Damage, 0.9x Repair speed.</power>
 	<power>Fights and repairs at double speed.</power>
 	<power>1.3x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1883,7 +1816,7 @@
 	<power>1.4x Combat Damage, 1.2x Repair speed.</power>
 	<power>Fights and repairs at double speed.</power>
 	<power>1.0x sabotaging speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1904,7 +1837,6 @@
 	<power>Takes 80% damage in combat, and moves at 200% speed.</power>
 	<power>Damages all crew at the same time, cannot figure out how to sabotage though.</power>
 	<power>Repairs at 70%</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1919,7 +1851,6 @@
 	<power>Takes 80% damage in combat, and moves at 220% speed.</power>
 	<power>Damages all crew at the same time better, but can just barely sabotage though.</power>
 	<power>Repairs at 50%</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1935,7 +1866,7 @@
 	<power>Can phase through doors.</power>
 	<power>Damages all crew at the same time, can sabotage well weirdly enough</power>
 	<power>Repairs at 20%</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to suffocation.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1949,7 +1880,6 @@
 	<power>200 Health</power>
 	<power>Takes 60% damage in combat, and moves at 300% speed.</power>
 	<power>Damages all crew at the same time pretty well, sabotages pretty average.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1965,7 +1895,7 @@
 	<power>Damages all crew at the same time very well, sabotages pretty average.</power>
 	<power>1.4x sabotaging speed.</power>
 	<power>Repairs at 120%</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1985,7 +1915,6 @@
 	<power>90 Health</power>
 	<power>Takes 90% damage in combat, but moves at 50% speed.</power>
 	<power>2.2x Combat Damage, 0.5x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	<power>Due to their big hands, they are a bit slower at hitting a distant enemy.</power>
 	</powerList>
 </crewBlueprint>
@@ -2000,7 +1929,6 @@
 	<power>135 Health</power>
 	<power>Takes 85% damage in combat, but moves at 70% speed.</power>
 	<power>2.5x Combat Damage, 0.7x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	<power>Due to their big hands, they are a bit slower at hitting a distant enemy.</power>
 	</powerList>
 </crewBlueprint>
@@ -2015,7 +1943,6 @@
 	<power>150 Health</power>
 	<power>Takes 80% damage in combat, but moves at 90% speed.</power>
 	<power>2.6x Combat Damage, 1.1x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	<power>Due to their big hands, they are a bit slower at hitting a distant enemy.</power>
 	</powerList>
 </crewBlueprint>
@@ -2031,7 +1958,7 @@
 	<power>Can phase through doors.</power>
 	<power>Takes 50% damage in combat, but moves at 50% speed.</power>
 	<power>2.2x Combat Damage, 0.5x Repair speed.</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to suffocation.</power>
 	<power>Due to their big hands, they are a bit slower at hitting a distant enemy.</power>
 	</powerList>
 </crewBlueprint>
@@ -2054,7 +1981,6 @@
 	<power>Can't melee but knows how to throw, 0.5x Repair speed.</power>
 	<power>1.0x sabotaging speed.</power>
 	<power>Throws a potted plant. It's really effective!</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -2070,7 +1996,6 @@
 	<power>Can't melee but sure knows how to throw, 1.0x Repair speed.</power>
 	<power>1.0x sabotaging speed.</power>
 	<power>Throws an anvil. It's really really effective!</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -2087,7 +2012,7 @@
 	<power>Can't melee but knows how to throw, 0.5x Repair speed.</power>
 	<power>0.5x sabotaging speed.</power>
 	<power>Throws a holographic potted plant. It's strangely effective!</power>
-	<power>Immune to suffocation and fires and mind control.</power>
+	<power>Immune to suffocation.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -2103,7 +2028,6 @@
 	<power>Can't melee but sure knows how to throw, 1.0x Repair speed.</power>
 	<power>1.0x sabotaging speed.</power>
 	<power>Throws a freaking piano. The hell is wrong with her?</power>
-	<power>Immune to suffocation and fires and mind control.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -4094,7 +4018,9 @@ SPIN DOCTOR SHIP BLUEPRINTS
 	<crewCount amount="1" class="spindoctor_hologram" />
 	<crewCount amount="1" class="spindoctor_hologram" />
 	<crewCount amount="1" class="spindoctor" />
+	<aug name="LOCKED_LAW_MEDICAL_NO_AIR" />
 	<aug name="NANOBOT_DEFENSE_SYSTEM" />
+	
 </shipBlueprint>
 
 <!-- 
@@ -4994,7 +4920,7 @@ SPIN DOCTOR SHIP BLUEPRINTS
 			</slot>
 		</medbay>
 		<mind power="1" room="5" start="false" img="room_mind" />
-		<oxygen power="1" room="4" start="false" img="room_oxygen_9" />
+		<oxygen power="1" room="4" start="true" img="room_oxygen_9" />
 		<pilot power="1" room="0" start="true" img="room_pilot_7">
 			<slot>
 				<direction>right</direction>
@@ -6443,7 +6369,7 @@ SPIN DOCTOR SHIP BLUEPRINTS
 			</slot>
 		</medbay>
 		<mind power="1" room="5" start="false" img="room_mind" />
-		<oxygen power="1" room="17" start="false" img="room_oxygen_12" />
+		<oxygen power="1" room="17" start="true" img="room_oxygen_12" />
 		<pilot power="1" room="0" start="true" img="room_pilot">
 			<slot>
 				<direction>right</direction>
@@ -6518,7 +6444,7 @@ SPIN DOCTOR SHIP BLUEPRINTS
 			</slot>
 		</medbay>
 		<mind power="1" room="5" start="false" img="room_mind" />
-		<oxygen power="1" room="17" start="false" img="room_oxygen_12" />
+		<oxygen power="1" room="17" start="true" img="room_oxygen_12" />
 		<pilot power="1" room="0" start="true" img="room_pilot">
 			<slot>
 				<direction>right</direction>
@@ -6592,7 +6518,7 @@ SPIN DOCTOR SHIP BLUEPRINTS
 			</slot>
 		</medbay>
 		<mind power="1" room="5" start="false" img="room_mind" />
-		<oxygen power="1" room="17" start="false" img="room_oxygen_12" />
+		<oxygen power="1" room="17" start="true" img="room_oxygen_12" />
 		<pilot power="1" room="0" start="true" img="room_pilot">
 			<slot>
 				<direction>right</direction>
@@ -6738,9 +6664,9 @@ SPIN DOCTOR SHIP BLUEPRINTS
 	<crewCount amount="1" class="holiday" />
 	<crewCount amount="1" class="lily" />
 	<crewCount amount="1" class="harvey" />
-	<aug name="DRONE_RECOVERY" />
+	<crewCount amount="1" class="dually" />
+	<aug name="LOCKED_CHAIRMAN_NO_AIR" />
 	<aug name="ENERGY_SHIELD" />
-	<aug name="ZOLTAN_BYPASS" />
 </shipBlueprint>
 
 <!-- 
@@ -7038,12 +6964,30 @@ SPIN DOCTOR SHIP BLUEPRINTS
 </shipBlueprint>
 
 <!--
-CUSTOM AUGUMENTS WHICH MAY NOT WORK STILL
+CUSTOM AUGMENTS WHICH MAY NOT WORK STILL
 -->
+
+<augBlueprint name="LOCKED_LAW_MEDICAL_NO_AIR">
+	<title>T71 Preventative</title>
+	<desc>Spin Doctors no longer need to breathe.</desc>
+	<cost>70</cost>
+	<bp>9</bp>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
 
 <augBlueprint name="LOCKED_LOAN_SHARK_BITE_BUFF">
 	<title>Big Bite</title>
 	<desc>All Loan Sharks now bite 50% harder and get a 25% boost in health. They really want that loan back huh?</desc>
+	<cost>70</cost>
+	<bp>9</bp>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+
+<augBlueprint name="LOCKED_CHAIRMAN_NO_AIR">
+	<title>Classical Robotics</title>
+	<desc>All Cogs no longer suffocate just like the pre-nerf era.</desc>
 	<cost>70</cost>
 	<bp>9</bp>
 	<rarity>0</rarity>

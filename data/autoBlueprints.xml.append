@@ -1155,6 +1155,24 @@
 	<name>name_dropper_elite</name>
 	<name>name_dropper_waiter</name>
 	<name>name_dropper_hologram</name>
+	<name>jack_brie</name>
+	<name>judge</name>
+	<name>robert</name>
+	<name>holiday</name>
+	<name>comrade</name>
+	<name>lawrence</name>
+	<name>bruce</name>
+	<name>lily</name>
+	<name>honcho</name>
+	<name>dr_spin</name>
+	<name>monee</name>
+	<name>harvey</name>
+	<name>debbie</name>
+	<name>mira</name>
+	<name>ac08</name>
+	<name>yessum</name>
+	<name>dually</name>
+	<name>cash_crab</name>
 </blueprintList>
 	
 <blueprintList name="LIST_CREW_BOSSBOT">
