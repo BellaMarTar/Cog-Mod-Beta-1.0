@@ -258,6 +258,10 @@ SPECIAL CLASS
 <text name="text_COGMOD_SHIP_MINE_2_name">The Stolen Asset</text>
 <text name="text_COGMOD_SHIP_MINE_2_desc">I'm not sure why you came back after your quick death, but very well. Here's a weakened version of my very own ship. I hope you don't mind that I had it arranged to be stolen from some friendly faces.</text>
 
+<text name="text_COGMOD_SHIP_MINE_3_class">My Weakened Ship</text>
+<text name="text_COGMOD_SHIP_MINE_3_name">Chaos</text>
+<text name="text_COGMOD_SHIP_MINE_3_desc">Why must everything be so organized? How about I mix it up a lot just to throw you off kiddo?</text>
+
 <text name="text_PLAYER_SHIP_SPECIALITY_CRUISER_class">Specialty Cruiser</text>
 <text name="text_PLAYER_SHIP_SPECIALITY_CRUISER_name">The Chairman</text>
 <text name="text_PLAYER_SHIP_SPECIALITY_CRUISER_desc">All the Cogs together for one big party of overthrowing the bosses because they wanted to. How much better can it get?</text>

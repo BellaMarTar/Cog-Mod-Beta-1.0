@@ -9146,8 +9146,8 @@
 
 <anim name="ac08_death_right">
 	<sheet>ac08</sheet>
-	<desc length="5" x="3" y="0"/>
-	<time>0.75</time>
+	<desc length="43" x="3" y="0"/>
+	<time>4.50</time>
 </anim>
 
 <anim name="ac08_death_left">
@@ -9182,26 +9182,26 @@
 
 <anim name="ac08_shoot_down">
 	<sheet>ac08</sheet>
-	<desc length="3" x="0" y="10"/>
-	<time>1.0</time>
+	<desc length="11" x="0" y="13"/>
+	<time>1.5</time>
 </anim>
 
 <anim name="ac08_shoot_right">
 	<sheet>ac08</sheet>
-	<desc length="3" x="3" y="10"/>
-	<time>1.0</time>
+	<desc length="11" x="0" y="15"/>
+	<time>1.5</time>
 </anim>
 
 <anim name="ac08_shoot_up">
 	<sheet>ac08</sheet>
-	<desc length="3" x="6" y="10"/>
-	<time>1.0</time>
+	<desc length="11" x="0" y="14"/>
+	<time>1.5</time>
 </anim>
 
 <anim name="ac08_shoot_left">
 	<sheet>ac08</sheet>
-	<desc length="3" x="0" y="1"/>
-	<time>1.0</time>
+	<desc length="11" x="0" y="16"/>
+	<time>1.5</time>
 </anim>
 
 <anim name="ac08_fire_down">
@@ -9299,6 +9299,7 @@
 	<desc length="1" x="0" y="0"/>
 	<time>1</time>
 </anim>
+
 	<!--
 	////////////////DOUBLE TALKER////////////////
 	-->
@@ -9967,6 +9968,172 @@
 
 <anim name="ghost_portrait">
 	<sheet>double_talker_hologram</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="dually" w="315" h="455" fw="35" fh="35">people/dually.png</animSheet>
+
+
+<anim name="dually_clone">
+	<sheet>dually</sheet>
+	<desc length="6" x="0" y="2"/>
+	<time>0.75</time>
+</anim>
+
+
+<anim name="dually_death_right">
+	<sheet>dually</sheet>
+	<desc length="43" x="3" y="0"/>
+	<time>4.50</time>
+</anim>
+
+<anim name="dually_death_left">
+	<sheet>dually</sheet>
+	<desc length="5" x="0" y="2"/>
+	<time>0.75</time>
+</anim>
+
+<anim name="dually_walk_down">
+	<sheet>dually</sheet>
+	<desc length="4" x="0" y="12"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="dually_walk_right">
+	<sheet>dually</sheet>
+	<desc length="4" x="4" y="12"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="dually_walk_up">
+	<sheet>dually</sheet>
+	<desc length="4" x="0" y="11"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="dually_walk_left">
+	<sheet>dually</sheet>
+	<desc length="4" x="4" y="11"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="dually_shoot_down">
+	<sheet>dually</sheet>
+	<desc length="11" x="0" y="13"/>
+	<time>1.5</time>
+</anim>
+
+<anim name="dually_shoot_right">
+	<sheet>dually</sheet>
+	<desc length="11" x="0" y="15"/>
+	<time>1.5</time>
+</anim>
+
+<anim name="dually_shoot_up">
+	<sheet>dually</sheet>
+	<desc length="11" x="0" y="14"/>
+	<time>1.5</time>
+</anim>
+
+<anim name="dually_shoot_left">
+	<sheet>dually</sheet>
+	<desc length="11" x="0" y="16"/>
+	<time>1.5</time>
+</anim>
+
+<anim name="dually_fire_down">
+	<sheet>dually</sheet>
+	<desc length="4" x="0" y="9"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="dually_fire_right">
+	<sheet>dually</sheet>
+	<desc length="4" x="4" y="9"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="dually_fire_up">
+	<sheet>dually</sheet>
+	<desc length="4" x="0" y="8"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="dually_fire_left">
+	<sheet>dually</sheet>
+	<desc length="4" x="4" y="8"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="dually_repair">
+	<sheet>dually</sheet>
+	<desc length="9" x="0" y="7"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="dually_punch_up">
+	<sheet>dually</sheet>
+	<desc length="6" x="3" y="1"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="dually_punch_down">
+	<sheet>dually</sheet>
+	<desc length="6" x="0" y="6"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="dually_teleport">
+	<sheet>dually</sheet>
+	<desc length="9" x="0" y="3"/>
+	<time>0.5</time>
+</anim>
+
+<anim name="dually_type_right">
+	<sheet>dually</sheet>
+	<desc length="4" x="0" y="5"/>
+	<time>0.75</time>
+</anim>
+<anim name="dually_type_left">
+	<sheet>dually</sheet>
+	<desc length="4" x="4" y="5"/>
+	<time>0.75</time>
+</anim>
+<anim name="dually_type_up">
+	<sheet>dually</sheet>
+	<desc length="4" x="0" y="4"/>
+	<time>0.75</time>
+</anim>
+<anim name="dually_type_down">
+	<sheet>dually</sheet>
+	<desc length="4" x="4" y="4"/>
+	<time>0.75</time>
+</anim>
+
+<!-- every crewmember uses this -->
+<anim name="crewLaser">
+	<sheet>dually</sheet>
+	<desc length="1" x="1" y="0"/>
+	<time>0.5</time>
+</anim>
+
+<anim name="dually_portrait">
+	<sheet>dually</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<!-- same as crew teleport -->
+<anim name="ghost_death">
+	<sheet>dually</sheet>
+	<desc length="9" x="0" y="4"/>
+	<time>0.5</time>
+</anim>
+
+
+<anim name="ghost_portrait">
+	<sheet>dually</sheet>
 	<desc length="1" x="0" y="0"/>
 	<time>1</time>
 </anim>

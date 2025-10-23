@@ -17,8 +17,9 @@
 		<store>STORE_COG_BASIC</store>
 	</destroyed>
 	<deadCrew>
-		<text>The outpost hails you, "The hell is wrong with you?! Those Cogs are not cheap to replace! You better not scrap that ship. Just take some scrap here and dock. You can look at our hire list." It seems strange they're more upset about dead Cogs than a blown up ship, but you don't question it.</text>
+		<text>The outpost hails you, "The hell is wrong with you?! Those Cogs are not cheap to replace! You better not try to salvage that ship. Just take some scrap here and dock. You can look at our hire list." It seems strange they're more upset about dead Cogs than a blown up ship, but you don't question it. Before you can continue, you get a private message from a source aboard the station. "Hey! I saw what you did there. I've been wanting to get off this damn station for years. If you're able to clean out a Cog ship, you must be decent at least. I will quit this pathetic job and meet you at the store!"</text>
 		<autoReward level="HIGH">scrap_only</autoReward>
+		<crewMember amount="1" class="LIST_CREW_COGS"/>
 		<store>STORE_COG_BASIC</store>
 	</deadCrew>
 </ship>
@@ -63,10 +64,26 @@
 			</choice>
 		</event>
 	</choice>
+	<choice req="LIST_CREW_COGS" hidden="true">
+		<text>Use your Cog to enter.</text>
+		<event>
+			<text>Thankfully, your Cog quickly transmit their work ID over to the guard. After a moment, the guard powers down its weapons and hails again. "Very well, the ID is valid. You may enter, but we will be watchful of you."</text>
+			<store>STORE_COG_BASIC</store>
+		</event>
+	</choice>
+	<choice req="LIST_CREW_UNIQUEBOT" hidden="true">
+		<text>Use your Unique Cog to enter.</text>
+		<event>
+			<text>The guard and the station are both shocked to see one of the rarest Cogs around aboard your vessel. A simple visual confirmation is all it takes for both parties to kneel down. "Our humblest apologies sir. Please, allow one of my employees to work with you and have a look around the store and some supplies for the journey."</text>
+			<crewMember amount="1" class="LIST_CREW_COGS"/>
+			<autoReward level="HIGH">standard</autoReward>
+			<store>STORE_COG_BASIC</store>
+		</event>
+	</choice>
 	<choice>
 		<text>Avoid a fight.</text>
 		<event>
-			<text>You take the hint and head back towards the jump beacon. It seems the Cogs will kept their word and make no attempt to engage once you leave.</text>
+			<text>You take the hint and head back towards the jump beacon. It seems the Cogs will keep their word and make no attempt to engage once you leave.</text>
 		</event>
 	</choice>
 </event>

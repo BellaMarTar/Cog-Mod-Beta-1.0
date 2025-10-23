@@ -1717,6 +1717,35 @@
 		</deathSounds>
 	</mod-append:race>
 	
+	<mod-append:race name="dually">
+		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<damageMultiplier>1.5</damageMultiplier>
+		<damageTakenMultiplier>0.65</damageTakenMultiplier>
+		<moveSpeedMultiplier>1.2</moveSpeedMultiplier>
+		<repairSpeed>2.0</repairSpeed>
+		<detectsLifeforms>false</detectsLifeforms>
+		<resistsMindControl>true</resistsMindControl>
+		<maxHealth>200</maxHealth>
+		<sabotageSpeedMultiplier>1.5</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<suffocationModifier>0.0</suffocationModifier>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<doorDamageMultiplier>10</doorDamageMultiplier>
+		<skills>
+			<piloting req="1"/>
+			<engines req="1"/>
+			<shields req="1"/>
+			<weapons req="1"/>
+			<repair req="1"/>
+			<combat req="1"/>
+		</skills>
+		<deathSounds>
+			<deathSound>cog_death</deathSound>
+		</deathSounds>
+		<animBase>mantis</animBase>
+	</mod-append:race>
+	
 	<!--
 	/////////////////Bloodsucker///////////////////
 	-->
@@ -5602,7 +5631,7 @@
 		</crew>
 	</mod-append:customShip>
 	
-	<mod-append:ship name="COGMOD_SHIP_MINE" b="true" c="false"/>	
+	<mod-append:ship name="COGMOD_SHIP_MINE" b="true" c="true"/>	
 	<mod-append:customShip name="COGMOD_SHIP_MINE">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<hiddenAug>SHIP_MINE</hiddenAug>
@@ -5636,6 +5665,42 @@
 			<dr_spin_eldritch room="12" name="Dr. Spin"/>
 			<ac08_eldritch room="13" name="Chase"/>
         </crew>
+		<exclusivityOverride/>
+	</mod-append:customShip>
+	<mod-append:customShip name="COGMOD_SHIP_MINE_3">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_MINE</hiddenAug>
+		<crewLimit>30</crewLimit>
+		<autoShipForce>true</autoShipForce>
+		<customReactor maxLevel="40">
+			<baseCost>15</baseCost>
+			<increment>5</increment>
+			<overrideCost coloumn="1">30</overrideCost>
+		</customReactor>
+		<crew>
+            <controller room="0" name="The Controller"/> <!--lovers-->
+            <queen room="0" name="The Queen"/> <!--lovers-->
+			<herobrine room="21" name="Herobrine"/>
+			<dr_spin_eldritch room="12" name="Dr. Spin"/>
+			<ac08_eldritch room="13" name="Chase"/>
+		</crew>
+		<rooms>
+			<room id="13"> <!--pilot-->
+				<roomAnim renderLayer="0">resist_2x2</roomAnim>
+				<roomAnim renderLayer="3">resist_icon</roomAnim>
+				<sysDamageResistChance>100</sysDamageResistChance>
+			</room>
+			<room id="17"> <!--ABS BS-->
+				<roomAnim renderLayer="0">resist_2x2</roomAnim>
+				<roomAnim renderLayer="3">resist_icon</roomAnim>
+				<sysDamageResistChance>100</sysDamageResistChance>
+			</room>
+			<room id="18"> <!--OP DEATH GUN BS-->
+				<roomAnim renderLayer="0">resist_2x2</roomAnim>
+				<roomAnim renderLayer="3">resist_icon</roomAnim>
+				<sysDamageResistChance>100</sysDamageResistChance>
+			</room>
+		</rooms>
 		<exclusivityOverride/>
 	</mod-append:customShip>
 	

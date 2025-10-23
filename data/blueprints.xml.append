@@ -1021,6 +1021,24 @@
 	</powerList>
 </crewBlueprint>
 
+<crewBlueprint name="dually">
+	<desc>Dually doesn't actually have two minds like the other Double Talkers. No, he's much more dangerous as he is a single minded individual and without that constant debate between the two minds, Dually is set to kill with relative ease.</desc>
+	<cost>300</cost>
+	<title>Dually</title>
+	<short>Master Cog</short>
+	<rarity>0</rarity>
+	<powerList>
+	<power>200 Health</power>
+	<power>Takes 65% damage in combat.</power>
+	<power>1.5x Combat Damage, 2.00 Repair speed.</power>
+	<power>1.5x sabotaging speed.</power>
+	<power>Can rip open doors near instantly.</power>
+	<power>Punches with two fists, leading to more damage per hit.</power>
+	<power>Immune to suffocation and fires and mind control.</power>
+	</powerList>
+</crewBlueprint>
+
+
 <!-- 
 ********************************************************************************************************************************************************************************************************************************************
 												   Bloodsucker										 
@@ -6937,6 +6955,86 @@ SPIN DOCTOR SHIP BLUEPRINTS
 	<health amount="50" />
 	<maxPower amount="8" />
 	<aug name="EX_AUTO_COOLDOWN" />
+</shipBlueprint>
+
+<shipBlueprint name="COGMOD_SHIP_MINE_3" layout="my_ship_3" img="my_ship_3">
+	<class id="text_COGMOD_SHIP_MINE_3_class">My Weakened Ship</class>
+	<name id="text_COGMOD_SHIP_MINE_3_name">Chaos</name>
+	<desc id="text_COGMOD_SHIP_MINE_3_desc">Why must everything be so organized? How about I mix it up a lot just to throw you off kiddo?</desc>
+	<systemList>
+		<artillery power="1" room="17" start="true" weapon="PDS_SHOT" img="room_artillery" />
+		<artillery power="1" room="18" start="true" weapon="GATLING_ANCIENT" img="room_artillery" />
+		<battery power="1" room="16" start="true" img="room_battery" />
+		<cloaking power="1" room="3" start="true" img="room_cloaking" />
+		<clonebay power="1" room="12" start="true">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="10" start="true" img="room_doors">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</doors>
+		<drones power="1" room="1" start="true" img="room_drones" />
+		<engines power="1" room="0" start="true" img="room_engines">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="14" start="true" img="room_hacking" />
+		<medbay power="1" room="19" start="true" img="room_medbay">
+			<slot>
+				<number>1</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="2" start="true" img="room_mind" />
+		<oxygen power="1" room="9" start="true" img="room_oxygen" />
+		<pilot power="1" room="13" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="7" start="true" img="room_sensors">
+			<slot>
+				<direction>up</direction>
+				<number>4</number>
+			</slot>
+		</sensors>
+		<shields power="1" room="5" start="true" img="room_weapons_4">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="6" start="true" />
+		<weapons power="1" room="4" start="true" img="room_shields_3">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>4</droneSlots>
+	<weaponList missiles="15" count="4">
+		<weapon name="ARTILLERY_BOSS_3" />
+		<weapon name="ARTILLERY_BOSS_1" />
+		<weapon name="ARTILLERY_BOSS_4" />
+		<weapon name="ARTILLERY_BOSS_2" />
+	</weaponList>
+	<droneList drones="15" count="4">
+		<drone name="DRONE_SHIELD_POWERLESS" />
+		<drone name="MENDERR" />
+		<drone name="DEFENSE_PRIME" />
+		<drone name="ANCIENT_COMBAT_MISSILE" />
+	</droneList>
+	<health amount="100" />
+	<maxPower amount="9" />
+	<aug name="CLOAK_FIRE" />
 </shipBlueprint>
 
 <!--
