@@ -761,7 +761,7 @@
 	<power>Does not heal fellow crew.</power>
 	<power>2.5x Combat Damage, 0.9x Repair speed.</power>
 	<power>Immune to mind control.</power>
-	<power>1.5x sabotaging speed.</power>
+	<power>0.4x sabotaging speed.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -5230,6 +5230,229 @@ SPIN DOCTOR SHIP BLUEPRINTS
 ****************
 -->
 
+<shipBlueprint name="PLAYER_SHIP_MR_HOLLYWOOD" layout="my_hollywood_cruiser" img="my_hollywood_cruiser">
+	<class id="text_PLAYER_SHIP_MR_HOLLYWOOD_class">Mr Hollywood Cruiser</class>
+	<name id="text_PLAYER_SHIP_MR_HOLLYWOOD_name">Hit Single</name>
+	<desc id="text_PLAYER_SHIP_MR_HOLLYWOOD_desc">A Mr. Hollywood's ego is strong, so strong that they have this ridiculous belief that shields are not necessary for a stable ship. Mercifully, they got cloaking installed instead.</desc>
+	<systemList>
+		<battery power="1" room="15" start="false" img="room_battery" />
+		<cloaking power="1" room="4" start="true" img="room_cloaking_9" />
+		<clonebay power="1" room="16" start="false">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="18" start="true" img="room_doors_5">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</doors>
+		<drones max="8" power="1" room="10" start="false" img="room_drones_15" />
+		<engines power="2" room="3" start="true" img="room_engines">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="14" start="false" img="room_hacking_2" />
+		<medbay power="1" room="16" start="true" img="room_medbay">
+			<slot>
+				<number>1</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="5" start="false" img="room_mind_6" />
+		<oxygen power="1" room="11" start="true" img="room_oxygen_2" />
+		<pilot power="1" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="19" start="true" img="room_sensors_4">
+			<slot>
+				<direction>left</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="2" start="false" img="room_shields_4">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="17" start="false" />
+		<weapons max="8" power="2" room="1" start="true" img="room_weapons_5">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="0" count="4">
+		<weapon name="LASER_BURST_2" />
+		<weapon name="BEAM_1" />
+	</weaponList>
+	<droneList drones="0" count="2" />
+	<health amount="30" />
+	<maxPower amount="5" />
+	<crewCount amount="1" class="mrhollywood" />
+	<crewCount amount="1" class="mrhollywood" />
+	<aug name="LOCKED_MR_HOLLYWQOOD_SHIELD_BUFF" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_MR_HOLLYWOOD_2" layout="mr_hollywood_cruiser_2" img="mr_hollywood_cruiser_2">
+	<class id="text_PLAYER_SHIP_MR_HOLLYWOOD_2_class">Mr. Hollywood Cruiser</class>
+	<name id="text_PLAYER_SHIP_MR_HOLLYWOOD_2_name">StarStudded</name>
+	<desc id="text_PLAYER_SHIP_MR_HOLLYWOOD_2_desc">Mr. Hollywoods, in all their arrogance still believe they are untouchable. In fact, annoyingly, its to the extent that even if you get shields, they are limited. At least they reinforced the piloting room.</desc>
+	<systemList>
+		<battery power="1" room="13" start="false" img="room_battery_7" />
+		<cloaking power="1" room="11" start="true" img="room_cloaking_9" />
+		<clonebay power="1" room="6" start="false">
+			<slot>
+				<number>2</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="5" start="true" img="room_doors">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="1" room="12" start="false" img="room_drones_3" />
+		<engines power="2" room="10" start="true" img="room_engines_10">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="1" start="false" img="room_hacking_3" />
+		<medbay power="1" room="6" start="true" img="room_medbay_7">
+			<slot>
+				<number>2</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="8" start="false" img="room_mind_10" />
+		<oxygen power="1" room="3" start="true" img="room_oxygen_15" />
+		<pilot power="1" room="0" start="true" img="room_pilot_2">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="4" start="true" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="6" power="1" room="9" start="false" img="room_shields_4">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="2" start="true" />
+		<weapons max="8" power="2" room="7" start="true" img="room_weapons_2">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="0" count="4">
+		<weapon name="LASER_BURST_2" />
+		<weapon name="LASER_BURST_2" />
+	</weaponList>
+	<droneList drones="0" count="2" />
+	<health amount="30" />
+	<maxPower amount="6" />
+	<crewCount amount="1" class="mrhollywood_elite" />
+	<crewCount amount="1" class="mrhollywood_hologram" />
+	<aug name="LOCKED_MR_HOLLYWQOOD_SHIELD_BUFF" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_MR_HOLLYWOOD_3" layout="mr_hollywood_cruiser_3" img="mr_hollywood_cruiser_3">
+	<class id="text_PLAYER_SHIP_MR_HOLLYWOOD_3_class">Mr. Hollywood Cruiser</class>
+	<name id="text_PLAYER_SHIP_MR_HOLLYWOOD_3_name">Big Shot</name>
+	<desc id="text_PLAYER_SHIP_MR_HOLLYWOOD_3_desc">They really did it now, managed to make it so high that they believe they're untouchable... and they are... sort of.</desc>
+	<systemList>
+		<battery power="1" room="18" start="false" img="room_battery_4" />
+		<cloaking power="2" room="19" start="true" img="room_cloaking_2" />
+		<clonebay power="1" room="20" start="true">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="10" start="false" img="room_doors_11">
+			<slot>
+				<direction>right</direction>
+				<number>3</number>
+			</slot>
+		</doors>
+		<drones max="8" power="1" room="12" start="false" img="room_drones_11" />
+		<engines power="3" room="16" start="true" img="room_engines_11">
+			<slot>
+				<direction>down</direction>
+				<number>3</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="3" start="false" img="room_hacking_6" />
+		<medbay power="1" room="20" start="false" img="room_medbay">
+			<slot>
+				<number>1</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="14" start="false" img="room_mind" />
+		<oxygen power="1" room="4" start="true" img="room_oxygen_2" />
+		<pilot power="1" room="8" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="9" start="false" img="room_sensors_7">
+			<slot>
+				<direction>down</direction>
+				<number>3</number>
+			</slot>
+		</sensors>
+		<shields max="4" power="2" room="2" start="false" img="room_shields_6">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="23" start="true" />
+		<weapons max="8" power="2" room="7" start="true" img="room_weapons_10">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="15" count="4">
+		<weapon name="FOCUS_1" />
+		<weapon name="BOMB_1" />
+	</weaponList>
+	<droneList drones="0" count="2" />
+	<health amount="30" />
+	<maxPower amount="7" />
+	<crewCount amount="1" class="mrhollywood" />
+	<crewCount amount="1" class="mrhollywood_elite" />
+	<crewCount amount="1" class="mrhollywood_waiter" />
+	<crewCount amount="1" class="mrhollywood_hologram" />
+	<aug name="LOCKED_MR_HOLLYWQOOD_SHIELD_BUFF" />
+</shipBlueprint>
+
+
+
 <!-- 
 ****************
  MINGLER SHIP BLUEPRINTS										 
@@ -6964,13 +7187,21 @@ SPIN DOCTOR SHIP BLUEPRINTS
 </shipBlueprint>
 
 <!--
-CUSTOM AUGMENTS WHICH MAY NOT WORK STILL
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+									CUSTOM AUGMENTS (WHICH MAY NOT WORK STILL)
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
 -->
 
 <augBlueprint name="LOCKED_LAW_MEDICAL_NO_AIR">
 	<title>T71 Preventative</title>
 	<desc>Spin Doctors no longer need to breathe.</desc>
-	<cost>70</cost>
+	<cost>100</cost>
 	<bp>9</bp>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -6979,7 +7210,16 @@ CUSTOM AUGMENTS WHICH MAY NOT WORK STILL
 <augBlueprint name="LOCKED_LOAN_SHARK_BITE_BUFF">
 	<title>Big Bite</title>
 	<desc>All Loan Sharks now bite 50% harder and get a 25% boost in health. They really want that loan back huh?</desc>
-	<cost>70</cost>
+	<cost>100</cost>
+	<bp>9</bp>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+
+<augBlueprint name="LOCKED_MR_HOLLYWQOOD_SHIELD_BUFF">
+	<title>Old School Hollywood</title>
+	<desc>All Mr. Hollywoods' repair speed, health, damage, sabotage, movement speed and door breaking rate scale by 25% for each shield layer under 4.</desc>
+	<cost>140</cost>
 	<bp>9</bp>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -6988,7 +7228,7 @@ CUSTOM AUGMENTS WHICH MAY NOT WORK STILL
 <augBlueprint name="LOCKED_CHAIRMAN_NO_AIR">
 	<title>Classical Robotics</title>
 	<desc>All Cogs no longer suffocate just like the pre-nerf era.</desc>
-	<cost>70</cost>
+	<cost>200</cost>
 	<bp>9</bp>
 	<rarity>0</rarity>
 	<stackable>false</stackable>

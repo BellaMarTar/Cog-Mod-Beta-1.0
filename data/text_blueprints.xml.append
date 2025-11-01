@@ -173,6 +173,18 @@ SELLBOTS
 ////////////////////////////
 -->
 
+<text name="text_PLAYER_SHIP_MR_HOLLYWOOD_class">Mr Hollywood Cruiser</text>
+<text name="text_PLAYER_SHIP_MR_HOLLYWOOD_name">Hit Single</text>
+<text name="text_PLAYER_SHIP_MR_HOLLYWOOD_desc">A Mr. Hollywood's ego is strong, so strong that they have this ridiculous belief that shields are not necessary for a stable ship. Mercifully, they got cloaking installed instead.</text>
+
+<text name="text_PLAYER_SHIP_MR_HOLLYWOOD_2_class">Mr. Hollywood Cruiser</text>
+<text name="text_PLAYER_SHIP_MR_HOLLYWOOD_2_name">StarStudded</text>
+<text name="text_PLAYER_SHIP_MR_HOLLYWOOD_2_desc">Mr. Hollywoods, in all their arrogance still believe they are untouchable. In fact, annoyingly, its to the extent that even if you get shields, they are limited. At least they reinforced the piloting room.</text>
+
+<text name="text_PLAYER_SHIP_MR_HOLLYWOOD_3_class">Mr. Hollywood Cruiser</text>
+<text name="text_PLAYER_SHIP_MR_HOLLYWOOD_3_name">Big Shot</text>
+<text name="text_PLAYER_SHIP_MR_HOLLYWOOD_3_desc">They really did it now, managed to make it so high that they believe they're untouchable... and they are... sort of.</text>
+
 <text name="text_PLAYER_SHIP_MINGLER_class">Mingler Cruiser</text>
 <text name="text_PLAYER_SHIP_MINGLER_name">Sharp Tongue</text>
 <text name="text_PLAYER_SHIP_MINGLER_desc">They just talk and talk and talk and talk. It's driving everyone mad. Not me though, I have earplugs.</text>
