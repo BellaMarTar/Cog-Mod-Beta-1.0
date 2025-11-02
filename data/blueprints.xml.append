@@ -2400,6 +2400,7 @@ weapon C
 <shipBlueprint name="PLAYER_SHIP_BIG_CHEESE" layout="big_cheese_cruiser_1" img="big_cheese_cruiser_1">
 	<class id="text_PLAYER_SHIP_BIG_CHEESE_class">Big Cheese Cruiser</class>
 	<name id="text_PLAYER_SHIP_BIG_CHEESE_name">Goud Enough</name>
+	<unlock id="ship_PLAYER_SHIP_BIG_CHEESE_unlock"/>
 	<desc id="text_PLAYER_SHIP_BIG_CHEESE_desc">This Big Cheese Cruiser sports the big hoss' favorite concept; Overpromising and underdelivering. Still...could be worse.</desc>
 	<systemList>
 		<battery power="1" room="16" start="false" img="room_battery_3" />
@@ -2473,6 +2474,7 @@ weapon C
 <shipBlueprint name="PLAYER_SHIP_BIG_CHEESE_2" layout="big_cheese_cruiser_2" img="big_cheese_cruiser_2">
 	<class id="text_PLAYER_SHIP_BIG_CHEESE_2_class">Ship Class</class>
 	<name id="text_PLAYER_SHIP_BIG_CHEESE_2_name">Prove-a-Loan</name>
+	<unlock id="ship_PLAYER_SHIP_BIG_CHEESE_2_unlock"/>
 	<desc id="text_PLAYER_SHIP_BIG_CHEESE_2_desc">It's worse. This comes pretty heavily understaffed and lacks a lot of offense and defense. Maybe you can find the budget to get this beat up tax write off some new life.</desc>
 	<systemList>
 		<battery power="1" room="15" start="false" img="room_battery" />
@@ -2544,6 +2546,7 @@ weapon C
 <shipBlueprint name="PLAYER_SHIP_BIG_CHEESE_3" layout="big_cheese_cruiser_3" img="big_cheese_cruiser_3">
 	<class id="text_PLAYER_SHIP_BIG_CHEESE_3_class">Big Cheese Cruiser</class>
 	<name id="text_PLAYER_SHIP_BIG_CHEESE_3_name">Sharp Cheddar</name>
+	<unlock id="ship_PLAYER_SHIP_BIG_CHEESE_3_unlock"/>
 	<desc id="text_PLAYER_SHIP_BIG_CHEESE_3_desc">This ship is a bit on the nose for the pride the Big Cheese have for themselves. Massive and dripping in excess for no apparent reason other than they can.</desc>
 	<systemList>
 		<artillery power="1" room="4" start="true" weapon="TRC_FOCUS_FIRE" img="room_artillery" />

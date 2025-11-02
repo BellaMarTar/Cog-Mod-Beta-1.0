@@ -21904,6 +21904,16 @@
 	<time>1</time>
 </anim>
 
-
+<!--
+*******************
+  RESISTS
+********************
+-->
+<animSheet name="resist_3x2" w="105" h="70" fw="105" fh="70">effects/resist_3x2.png</animSheet>
+<anim name="resist_3x2">
+	<sheet>resist_3x2</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
 
 </FTL>

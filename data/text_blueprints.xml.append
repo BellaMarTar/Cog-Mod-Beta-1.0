@@ -16,14 +16,17 @@ BOSSBOTS
 <text name="text_PLAYER_SHIP_BIG_CHEESE_class">Big Cheese Cruiser</text>
 <text name="text_PLAYER_SHIP_BIG_CHEESE_name">Goud Enough</text>
 <text name="text_PLAYER_SHIP_BIG_CHEESE_desc">This Big Cheese Cruiser sports the big hoss' favorite concept; Over-promising and under-delivering. Still...could be worse.</text>
+<text name="ship_PLAYER_SHIP_BIG_CHEESE_unlock">Convince the Big Cheeses your worth by winning the game with the Corporate Raider Type C.</text>
 
 <text name="text_PLAYER_SHIP_BIG_CHEESE_2_class">Big Cheese Cruiser</text>
 <text name="text_PLAYER_SHIP_BIG_CHEESE_2_name">Prove-a-Loan</text>
 <text name="text_PLAYER_SHIP_BIG_CHEESE_2_desc">It's worse. This comes pretty heavily understaffed and lacks a lot of offense and defense. Maybe you can find the budget to get this beat up tax write off some new life.</text>
+<text name="ship_PLAYER_SHIP_BIG_CHEESE_2_unlock">Convince the Big Cheeses to reveal the Type B Cruiser by getting to sector 8 with the Type A.</text>
 
 <text name="text_PLAYER_SHIP_BIG_CHEESE_3_class">Big Cheese Cruiser</text>
 <text name="text_PLAYER_SHIP_BIG_CHEESE_3_name">Sharp Cheddar</text>
 <text name="text_PLAYER_SHIP_BIG_CHEESE_3_desc">This ship is a bit on the nose for the pride the Big Cheese have for themselves. Massive and dripping in excess for no apparent reason other than they can.</text>
+<text name="ship_PLAYER_SHIP_BIG_CHEESE_3_unlock">Convince the Big Cheeses to reveal the Type C Cruiser by getting to sector 8 with the Type B.</text>
 
 <text name="text_PLAYER_SHIP_CORPORATE_RAIDER_class">Corporate Raider Cruiser</text>
 <text name="text_PLAYER_SHIP_CORPORATE_RAIDER_name">Black Knight</text>

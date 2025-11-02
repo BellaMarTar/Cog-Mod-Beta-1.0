@@ -1,3 +1,4 @@
 <FTL>
     <text name="map_icon_civilian_world">CIVILIAN WORLD</text>
+	<text name="ship_unlock_victory_cog_c_type">Achieve any victory with the Type C of the \1 to unlock the \2</text>  <!-- \1: required ship class, \2: unlocked ship class -->
 </FTL>
