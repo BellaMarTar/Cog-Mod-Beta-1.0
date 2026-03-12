@@ -1,0 +1,301 @@
+<event name="ATLAS_MENU">
+	<text>While in hyperspeed, you have several options. You can proceed to your next sector or do something aboard the ship first.</text>
+	<variable name="loc_has_salvaged" op="set" val="0"/>
+	<choice hidden="true" req="CURA_TASK_AND_LIGHTSPEED">
+		<text>View available tasks from C.U.R.A. and use a jumpspeed augment.</text>
+		<event load="CURA_TASK_MENU"/>
+	</choice>
+	<choice hidden="true" req="CURA_TASK_CHECK">
+		<text>View available tasks from C.U.R.A.</text>
+		<event load="CURA_TASK_MENU"/>
+	</choice>
+	<choice hidden="true" req="LIST_JUMPSPACE_EQUIPMENT">
+		<text>Use a jumpspeed augment.</text>
+		<event load="ATLAS_EQUIPMENT"/>
+	</choice>
+	<choice hidden="true" req="FEDERATION_DATABASE">
+		<text>[Federation Database] Learn about the Atlas.</text>
+		<event load="ATLAS_MENU_LEARN"/>
+	</choice>
+	
+	<choice hidden="true" req="SEC FINAL" blue="false">
+		<text>Proceed to the Federation Capital.</text>
+		<event load="LASTSTAND_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_ASTEROID_GENERIC" blue="false">
+		<text>Proceed to the Mining Sector.</text>
+		<event load="ASTEROID_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_UNION" blue="false">
+		<text>Proceed to the Union Sector.</text>
+		<event load="UNION_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_UNION_UNIQUE" blue="false">
+		<text>Proceed to the Union Coreworlds.</text>
+		<event load="UNION_UNIQUE_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_HACKER_UNIQUE" blue="false">
+		<text>Proceed to the Union Sector.</text>
+		<event load="UNION_HACKED_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_MILITIA_UNIQUE" blue="false">
+		<text>Proceed to the Militia Encampment.</text>
+		<event load="MILITIA_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_HARMONY" blue="false">
+		<text>Proceed to the Engi Sector.</text>
+		<event load="ENGI_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_HARMONY_UNIQUE" blue="false">
+		<text>Proceed to the Engi Harmony.</text>
+		<event load="ENGI_UNIQUE_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_MINISTRY" blue="false">
+		<text>Proceed to the Zoltan Sector.</text>
+		<event load="ZOLTAN_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_MINISTRY_UNIQUE" blue="false">
+		<text>Proceed to the Zoltan Capital.</text>
+		<event load="ZOLTAN_UNIQUE_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_GATHERING" blue="false">
+		<text>Proceed to the Orchid Sector.</text>
+		<event load="ORCHID_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_GATHERING_UNIQUE" blue="false">
+		<text>Proceed to the Orchid Gardenworlds.</text>
+		<event load="ORCHID_UNIQUE_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_CONFEDERATE" blue="false">
+		<text>Proceed to the Confederate Sector.</text>
+		<event load="VAMPWEED_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_CONFEDERATE_UNIQUE" blue="false">
+		<text>Proceed to the Confederate Coreworlds.</text>
+		<event load="VAMPWEED_UNIQUE_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_FREEMANTIS" blue="false">
+		<text>Proceed to the Free Mantis Sector.</text>
+		<event load="FREEMANTIS_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_FREEMANTIS_UNIQUE" blue="false">
+		<text>Proceed to the Hunting Grounds.</text>
+		<event load="FREEMANTIS_UNIQUE_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_SEPARATIST" blue="false">
+		<text>Proceed to the Separatist Sector.</text>
+		<event load="SEPARATIST_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_SEPARATIST_UNIQUE" blue="false">
+		<text>Proceed to the Separatist Sector.</text>
+		<event load="SEPARATIST_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_IMPERIAL" blue="false">
+		<text>Proceed to the Crystalline Sector.</text>
+		<event load="CRYSTAL_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_IMPERIAL_UNIQUE" blue="false">
+		<text>Proceed to the Crystalline New-Homelands.</text>
+		<event load="CRYSTAL_UNIQUE_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_OUTCAST" blue="false">
+		<text>Proceed to the Outcast Sector.</text>
+		<event load="OUTCAST_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_OUTCAST_UNIQUE" blue="false">
+		<text>Proceed to the Theocracy Badlands.</text>
+		<event load="OUTCAST_UNIQUE_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_FEDERATION" blue="false">
+		<text>Proceed to the Federation Sector.</text>
+		<event load="FEDERATION_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_FEDERATION_UNIQUE" blue="false">
+		<text>Proceed to the Federation Embassy.</text>
+		<event load="FEDERATION_UNIQUE_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_REBEL" blue="false">
+		<text>Proceed to the Rebel Sector.</text>
+		<event load="REBEL_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_REBEL_UNIQUE" blue="false">
+		<text>Proceed to the Rebel Stronghold.</text>
+		<event load="REBEL_UNIQUE_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_PIRATE" blue="false">
+		<text>Proceed to the Pirate Sector.</text>
+		<event load="PIRATE_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_PIRATE_UNIQUE" blue="false">
+		<text>Proceed to the Black Market.</text>
+		<event load="PIRATE_UNIQUE_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_HIVE" blue="false">
+		<text>Proceed to the Mantis Sector.</text>
+		<event load="MANTIS_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_HIVE_UNIQUE" blue="false">
+		<text>Proceed to the Mantis Hive.</text>
+		<event load="MANTIS_UNIQUE_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_THEOCRACY" blue="false">
+		<text>Proceed to the Rock Sector.</text>
+		<event load="ROCK_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_THEOCRACY_UNIQUE" blue="false">
+		<text>Proceed to the Rock Homeworlds.</text>
+		<event load="ROCK_UNIQUE_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_LOSTSUN_UNIQUE" blue="false">
+		<text>Proceed to the Lost Sun Stronghold.</text>
+		<event load="LOSTSUN_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_DUSKBRINGER" blue="false">
+		<text>Proceed to the Duskbringer Sector.</text>
+		<event load="DUSKBRINGER_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_DUSKBRINGER_UNIQUE" blue="false">
+		<text>Proceed to the Duskbringer Stronghold.</text>
+		<event load="DUSKBRINGER_UNIQUE_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_COALITION" blue="false">
+		<text>Proceed to the Coalition Sector.</text>
+		<event load="COALITION_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_COALITION_UNIQUE" blue="false">
+		<text>Proceed to the Coalition Stronghold.</text>
+		<event load="COALITION_UNIQUE_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_AUTO" blue="false">
+		<text>Proceed to the Automated Shipyards.</text>
+		<event load="AUTO_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_AUTO_UNIQUE" blue="false">
+		<text>Proceed to the Central Shipyards.</text>
+		<event load="AUTO_UNIQUE_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_ABANDONED_GENERIC" blue="false">
+		<text>Proceed to the Abandoned Sector.</text>
+		<event load="ABANDONED_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_LANIUS_UNIQUE" blue="false">
+		<text>Proceed to the Lanius Swarmlands.</text>
+		<event load="LANIUS_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_UNEXPLORED_GENERIC" blue="false">
+		<text>Proceed to the Nebula Sector.</text>
+		<event load="NEBULA_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_STARGROVE_UNIQUE" blue="false">
+		<text>Proceed to the Stargrove.</text>
+		<event load="STARGROVE_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_KLEPTOCRACY" blue="false">
+		<text>Proceed to the Slug Sector.</text>
+		<event load="SLUG_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_KLEPTOCRACY_UNIQUE" blue="false">
+		<text>Proceed to the Slug Homeworlds.</text>
+		<event load="SLUG_UNIQUE_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_CLAN_UNIQUE" blue="false">
+		<text>Proceed to the Guild Territory.</text>
+		<event load="CLAN_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_REPUBLIC" blue="false">
+		<text>Proceed to the Leech Sector.</text>
+		<event load="LEECH_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_REPUBLIC_UNIQUE" blue="false">
+		<text>Proceed to the Leech Capital.</text>
+		<event load="LEECH_UNIQUE_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_GENIOCRACY" blue="false">
+		<text>Proceed to the Shell Sector.</text>
+		<event load="SHELL_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_GENIOCRACY_UNIQUE" blue="false">
+		<text>Proceed to the Geniocracy Coreworlds.</text>
+		<event load="SHELL_UNIQUE_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_MORPH_UNIQUE" blue="false">
+		<text>Proceed to the Geniocracy Science District.</text>
+		<event load="MORPH_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_VAGABOND" blue="false">
+		<text>Proceed to the Vagabond Nebula.</text>
+		<event load="GHOST_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_VAGABOND_UNIQUE" blue="false">
+		<text>Proceed to the Spectral Wastelands.</text>
+		<event load="GHOST_UNIQUE_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_DYNASTY" blue="false">
+		<text>Proceed to the Spectral Nebula.</text>
+		<event load="DYNASTY_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_DYNASTY_UNIQUE" blue="false">
+		<text>Proceed to the Spectral Capital.</text>
+		<event load="DYNASTY_UNIQUE_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_MONK_UNIQUE" blue="false">
+		<text>Proceed to the Illesctrian Oasis.</text>
+		<event load="MONK_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECRET_AUGMENTED" blue="false">
+		<text>Proceed to the Ancient Recovery Site.</text>
+		<event load="AUGMENTED_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECRET_ANCIENT" blue="false">
+		<text>Proceed to the Obelisk Sector.</text>
+		<event load="ANCIENT_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECRET_ROYAL" blue="false">
+		<text>Proceed to the Obelisk Homeworlds.</text>
+		<event load="ROYAL_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECRET_ORIGINS" blue="false">
+		<text>Proceed to the Crystalline Origins.</text>
+		<event load="ORIGINS_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECRET_ORIGINS_RUWEN" blue="false">
+		<text>Proceed to the Crystalline Origins.</text>
+		<event load="ORIGINS_RUWEN_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_KLEPTOCRACY_HEKTAR" blue="false">
+		<text>Proceed to the Slug Sector.</text>
+		<event load="SALE_SLUG_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_PIRATE_HEKTAR" blue="false">
+		<text>Proceed to the Pirate Sector.</text>
+		<event load="SALE_PIRATE_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_ABANDONED_GENERIC_HEKTAR" blue="false">
+		<text>Proceed to the Abandoned Sector.</text>
+		<event load="SALE_ABANDONED_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECTOR_REPUBLIC_HEKTAR" blue="false">
+		<text>Proceed to the Leech Sector.</text>
+		<event load="SALE_LEECH_WARP"/>
+	</choice>
+	<choice hidden="true" req="SEC SECRET_SYLVAN" blue="false">
+		<text>Proceed to ???.</text>
+		<event load="NEXUS_WARP"/>
+	</choice>
+	<choice hidden="true" req="LIST_CREW_COGS_NOSPECIAL">
+		<text> See if your Cog can convince another Cog in the area to tag along.</text>
+		<event>
+			<text>Fortunately, there are plenty of Cogs hidden from the map that your Cog can contact. While most refuse, there is one who decides to tag along.</text>
+			<eventAlias name="ATLAS_MENU" jumpClear="true">ATLAS_MENU_NOEQUIPMENT</eventAlias>
+			<crewMember amount="1" class="LIST_CREW_COGS_NOSPECIAL"></crewMember>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="LOAD_ATLAS"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event load="LOAD_ATLAS"/>
+	</choice>
+</event>

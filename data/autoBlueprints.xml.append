@@ -1,5 +1,25 @@
 <FTL>
 
+<!--
+////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
+			JUMPSPACE LISTS (borrowed for some rework)
+////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
+-->
+<blueprintList name="LIST_JUMPSPACE_EQUIPMENT">
+	<name>DISTRACTION_BUOY</name>
+	<name>PRE_SCANNER</name>
+	<name>FUEL_CONSERVER</name>
+	<name>FLEET_SKIP</name>
+	<name>KERNEL_REPLICATOR</name>
+	<name>LOCKED_KERNEL_REPLICATOR</name>
+	<name>MORPH_DATABASE</name>
+	<name>MORPH_DATABASE_ADV</name>
+	<name>LIST_CREW_COGS</name>
+</blueprintList>
 
 <!-- 
 ********************************************************************************************************************************************************************************************************************************************
@@ -1173,6 +1193,109 @@
 	<name>yessum</name>
 	<name>dually</name>
 	<name>cash_crab</name>
+</blueprintList>
+
+<blueprintList name="LIST_CREW_COGS_NOSPECIAL">
+	<name>big_cheese</name>
+	<name>big_cheese_elite</name>
+	<name>big_cheese_waiter</name>
+	<name>big_cheese_hologram</name>
+	<name>corporateraider</name>
+	<name>corporateraider_elite</name>
+	<name>corporateraider_waiter</name>
+	<name>corporateraider_hologram</name>
+	<name>headhunter</name>
+	<name>headhunter_elite</name>
+	<name>headhunter_hologram</name>
+	<name>headhunter_waiter</name>
+	<name>downsizer</name>
+	<name>downsizer_elite</name>
+	<name>downsizer_hologram</name>
+	<name>downsizer_waiter</name>
+	<name>micromanager</name>
+	<name>micromanager_elite</name>
+	<name>micromanager_hologram</name>
+	<name>micromanager_waiter</name>
+	<name>yesman</name>
+	<name>yesman_elite</name>
+	<name>yesman_hologram</name>
+	<name>yesman_waiter</name>
+	<name>bigwig</name>
+	<name>bigwig_elite</name>
+	<name>bigwig_waiter</name>
+	<name>bigwig_hologram</name>
+	<name>legaleagle</name>
+	<name>legaleagle_elite</name>
+	<name>legaleagle_waiter</name>
+	<name>legaleagle_hologram</name>
+	<name>spindoctor</name>
+	<name>spindoctor_elite</name>
+	<name>spindoctor_hologram</name>
+	<name>spindoctor_waiter</name>
+	<name>backstabber</name>
+	<name>backstabber_elite</name>
+	<name>backstabber_waiter</name>
+	<name>backstabber_hologram</name>
+	<name>ambulancechaser</name>
+	<name>ambulancechaser_elite</name>
+	<name>ambulancechaser_waiter</name>
+	<name>ambulancechaser_hologram</name>
+	<name>double_talker</name>
+	<name>double_talker_elite</name>
+	<name>double_talker_hologram</name>
+	<name>double_talker_waiter</name>
+	<name>robberbaron</name>
+	<name>robberbaron_elite</name>
+	<name>robberbaron_waiter</name>
+	<name>robberbaron_hologram</name>
+	<name>loanshark</name>
+	<name>loanshark_elite</name>
+	<name>loanshark_waiter</name>
+	<name>loanshark_hologram</name>
+	<name>moneybags</name>
+	<name>moneybags_elite</name>
+	<name>moneybags_hologram</name>
+	<name>moneybags_waiter</name>
+	<name>numbercruncher</name>
+	<name>numbercruncher_elite</name>
+	<name>numbercruncher_waiter</name>
+	<name>numbercruncher_hologram</name>
+	<name>bean_counter</name>
+	<name>bean_counter_elite</name>
+	<name>bean_counter_hologram</name>
+	<name>bean_counter_waiter</name>
+	<name>tightwad</name>
+	<name>tightwad_elite</name>
+	<name>tightwad_hologram</name>
+	<name>tightwad_waiter</name>
+	<name>penny_p</name>
+	<name>penny_p_elite</name>
+	<name>penny_p_waiter</name>
+	<name>penny_p_hologram</name>
+	<name>mrhollywood</name>
+	<name>mrhollywood_elite</name>
+	<name>mrhollywood_waiter</name>
+	<name>mrhollywood_hologram</name>
+	<name>mingler</name>
+	<name>mingler_elite</name>
+	<name>mingler_waiter</name>
+	<name>mingler_hologram</name>
+	<name>twoface</name>
+	<name>twoface_elite</name>
+	<name>twoface_hologram</name>
+	<name>twoface_waiter</name>
+	<name>mover_and_shaker</name>
+	<name>mover_and_shaker_elite</name>
+	<name>mover_and_shaker_hologram</name>
+	<name>mover_and_shaker_waiter</name>
+	<name>glad_hander</name>
+	<name>glad_hander_elite</name>
+	<name>glad_hander_waiter</name>
+	<name>glad_hander_hologram</name>
+	<name>name_dropper</name>
+	<name>name_dropper_elite</name>
+	<name>name_dropper_waiter</name>
+	<name>name_dropper_hologram</name>
 </blueprintList>
 	
 <blueprintList name="LIST_CREW_BOSSBOT">

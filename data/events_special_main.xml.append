@@ -4,7 +4,7 @@
 	<text>Some of these drones look funny.</text>
 	<event>
 		<text>It turns out these are actually the highly diverse group of Cogs. While you can't seem to convince most to join, one particular cog seems eager enough to come aboard. They are even kind enough to set up a minor distraction for the fleet.</text>
-		<crewMember amount="1" class="LIST_CREW_COGS"/>
+		<crewMember amount="1" class="LIST_CREW_COGS_NOSPECIAL"/>
 		<modifyPursuit amount="-1"/>
 		<choice hidden="true">
 			<text>Continue...</text>
