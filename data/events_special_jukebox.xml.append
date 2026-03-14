@@ -466,5 +466,12 @@
 			<loadEvent>STORAGE_CHECK_JUKEBOX</loadEvent>
 		</event>
 	</choice>
+	<choice hidden="true">
+		<text>Cog Mod (Borrowing CE Music: Main Sellbot Theme</text>
+		<event>
+			<playMusic>sellbot_main_theme</playMusic>
+			<loadEvent>STORAGE_CHECK_JUKEBOX</loadEvent>
+		</event>
+	</choice>
 </event>
 </FTL>

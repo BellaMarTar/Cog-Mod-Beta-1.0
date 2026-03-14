@@ -50,6 +50,12 @@
 		<explore>bp_MUS_RealityEXPLORE.ogg</explore>
 		<combat>bp_MUS_RealityBATTLE.ogg</combat>
 	</track>
+	<track> <!--Made by MadnessJones -->
+		<name>sellbot_main_theme</name>
+		<explore>CM_Sellbot_Explore.ogg</explore>
+		<combat>CM_Sellbot_Battle.ogg</combat>
+	</track>
+	
 </music>
 
 <!--CREW-->

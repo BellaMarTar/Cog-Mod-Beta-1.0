@@ -922,6 +922,7 @@
 
 	<mod-append:race name="legaleagle">
 		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
 		<damageMultiplier>0.90</damageMultiplier>
 		<damageTakenMultiplier>0.8</damageTakenMultiplier>
 		<moveSpeedMultiplier>0.7</moveSpeedMultiplier>
@@ -1673,6 +1674,7 @@
 
 	<mod-append:race name="loanshark_hologram">
 		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
 		<damageMultiplier>2.0</damageMultiplier>
 		<damageTakenMultiplier>0.5</damageTakenMultiplier>
 		<moveSpeedMultiplier>1.0</moveSpeedMultiplier>
@@ -2834,6 +2836,7 @@
 
 	<mod-append:race name="glad_hander_hologram">
 		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
 		<damageMultiplier>2.2</damageMultiplier>
 		<damageTakenMultiplier>0.50</damageTakenMultiplier>
 		<moveSpeedMultiplier>0.50</moveSpeedMultiplier>
@@ -2903,6 +2906,7 @@
 
 	<mod-append:race name="name_dropper_hologram">
 		<canSabotage>true</canSabotage>
+		<canSuffocate>false</canSuffocate>
 		<damageMultiplier>0.01</damageMultiplier>
 		<damageTakenMultiplier>0.50</damageTakenMultiplier>
 		<moveSpeedMultiplier>0.50</moveSpeedMultiplier>
